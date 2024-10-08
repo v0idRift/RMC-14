@@ -32,7 +32,7 @@ liar-word-11 = is
 liar-word-replacement-11 = isnt
 
 liar-word-12 = not
-liar-word-replacement-12 = 
+liar-word-replacement-12 = ""
 
 liar-word-13 = dont
 liar-word-replacement-13 = ""
@@ -130,6 +130,3 @@ liar-word-replacement-43 = "don't want"
 
 liar-word-44 = not
 liar-word-replacement-44 = ""
-
-liar-word-replacement-12 = ""
-liar-word-replacement-12 = ""
