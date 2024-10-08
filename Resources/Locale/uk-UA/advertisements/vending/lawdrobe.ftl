@@ -1,0 +1,14 @@
+advertisement-lawdrobe-1 = ЗАПЕРЕЧУЮ! Підчинить закон собі!
+advertisement-lawdrobe-2 = Набридніть охороні настільки, наскільки це необхідно!
+advertisement-lawdrobe-3 = Справа щойно поступила? Тоді нужбо - витягніть клієнта із тюрми!
+advertisement-lawdrobe-4 = З пончиком і офіцери не страшні!
+advertisement-lawdrobe-5 = Ніхто не стоїть вище за закон!
+advertisement-lawdrobe-6 = Ні офіцере, я не погоджуюся на обшук!
+advertisement-lawdrobe-7 = Вприскування космічних наркотиків не залишає по собі доказів!
+advertisement-lawdrobe-8 = Ви чи ваш рідний постраждали від НаноТрайзен? Трапляється
+advertisement-lawdrobe-9 = Справу закрито! Сторона захисту має найкращій drip!
+thankyou-lawdrobe-1 = З цим костюмчиком усі справи вже виграні!
+thankyou-lawdrobe-2 = Візьмить ще один для свого клієнта!
+thankyou-lawdrobe-3 = Перемога чи програш - не важливо, вам заплатять і так і так!
+thankyou-lawdrobe-4 = Пам'ятайте: Це не є злочимом якщо вас не спіймали!
+thankyou-lawdrobe-5 = ЗАПЕРЕЧУЮ! Цей костюм закрутий для суду!
