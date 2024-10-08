@@ -1,2 +1,2 @@
-cream-pied-component-on-hit-by-message = {$thrower} кинув пірога вам у лице!
-cream-pied-component-on-hit-by-message-others = {$thrower} кинув пірога у {$owner}!
+cream-pied-component-on-hit-by-message = Тебе накремив  {$thrower}!
+cream-pied-component-on-hit-by-message-others = {$owner} У кремі що кинув  {$thrower}!

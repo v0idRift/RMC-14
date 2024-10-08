@@ -2,14 +2,14 @@
 ## Messages shown to Pacified players when they try to do violence:
 
 # With projectiles:
-pacified-cannot-throw = Я не можу змусити себе кинути { $projectile }, це може комусь нашкодити!
-# With embedding projectiles:
-pacified-cannot-throw-embed = Я ні за що не кину { $projectile }, воно може встромитися в когось!
-# With liquid-spilling projectiles:
-pacified-cannot-throw-spill = Я не думаю, що зможу кинути { $projectile }, воно може пролити щось на когось!
-# With bolas and snares:
-pacified-cannot-throw-snare = Я не можу кинути { $projectile }, а вдруг хтось впаде?!
+pacified-cannot-throw = Я не можу змусити себе кинути { THE($projectile) }, це може когось поранити!
+# З предметами, що вражають:
+pacified-cannot-throw-embed = Я ніколи не кину { THE($projectile) }, це може застрягти в комусь!
+# З рідинами, що проливаються:
+pacified-cannot-throw-spill = Я не можу кинути { THE($projectile) }, це може пролити неприємні речі на когось!
+# З боласами та пастками:
+pacified-cannot-throw-snare = Я не можу кинути { THE($projectile) }, а що, якщо хтось спіткнеться?!
 
-pacified-cannot-harm-directly = Я не можу змусити себе нашкодити { $entity }!
-pacified-cannot-harm-indirect = Я не можу зламати { $entity }, хтось може постраждати!
-pacified-cannot-fire-gun = Я не можу стрільнути з { $entity }, вдруг я в когось попаду?!
+pacified-cannot-harm-directly = Я не можу змусити себе поранити { THE($entity) }!
+pacified-cannot-harm-indirect = Я не можу пошкодити { THE($entity) }, це може когось поранити!
+pacified-cannot-fire-gun = Я не можу стріляти з { THE($entity) }, це може когось поранити!

@@ -1,3 +1,3 @@
-dump-verb-name = Висипати
-dump-disposal-verb-name = Висипати у {$unit}
-dump-placeable-verb-name = Висипати на {$surface}
+dump-verb-name = Вивалити на землю
+dump-disposal-verb-name = Викинути в {$unit}
+dump-placeable-verb-name = Викинути на {$surface}

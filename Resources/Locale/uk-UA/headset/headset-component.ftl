@@ -1,21 +1,21 @@
 # Chat window radio wrap (prefix and postfix)
-chat-radio-message-wrap = [color={$color}]{$channel} [bold]{$name}[/bold] {$verb}, [font={$fontType} size={$fontSize}]"{$message}"[/font][/color]
-chat-radio-message-wrap-bold = [color={$color}]{$channel} [bold]{$name}[/bold] {$verb}, [font={$fontType} size={$fontSize}][bold]"{$message}"[/bold][/font][/color]
+chat-radio-message-wrap = [color={$color}]{$channel} {$name} {$verb}, [font="{$fontType}" size={$fontSize}]"[/color][color={$languageColor}]{$message}[/color][color={$color}]"[/font][/color]
+chat-radio-message-wrap-bold = [color={$color}]{$channel} {$name} {$verb}, [font="{$fontType}" size={$fontSize}][bold]"[/color][color={$languageColor}]{$message}[/color][color={$color}]"[/bold][/font][/color]
 
-examine-headset-default-channel = Введіть {$prefix} щоб використати канал рації за замовчуванням ([color={$color}]{$channel}[/color]).
+examine-headset-default-channel = Використовуйте {$prefix} для звичайного каналу ([color={$color}]{$channel}[/color]).
 
 chat-radio-common = Загальний
 chat-radio-centcom = ЦентКом
-chat-radio-command = Командування
+chat-radio-command = Керівництво
 chat-radio-engineering = Інженерний
-chat-radio-medical = Медічний
+chat-radio-medical = Медичний
 chat-radio-science = Науковий
-chat-radio-security = Охорона
-chat-radio-service = Сервісний
-chat-radio-supply = Поставки
+chat-radio-security = СБ
+chat-radio-service = Службовий
+chat-radio-supply = Карго
 chat-radio-syndicate = Синдикат
-chat-radio-freelance = Фріланс
+chat-radio-freelance = Позаштатний
 
 # not headset but whatever
-chat-radio-handheld = Ручний
-chat-radio-binary = Бінарний
+chat-radio-handheld = Портативний
+chat-radio-binary = Двійковий

@@ -1,21 +1,21 @@
-borg-player-not-allowed = Мізки не вміщаються!
-borg-player-not-allowed-eject = Мізки дивним чином вислізнули з корпусу!
+borg-player-not-allowed = Мозок не підходить!
+borg-player-not-allowed-eject = Мозок вигнали з шасі!
 
-borg-panel-not-open = Панель кіборга закрита...
+borg-panel-not-open = Панель кіборга не відкрита...
 
-borg-mind-added = {CAPITALIZE($name)} вмикається!
-borg-mind-removed = {CAPITALIZE($name)} вимикається!
+borg-mind-added = {CAPITALIZE($name)} увімкнено!
+borg-mind-removed = {CAPITALIZE($name)} вимкнути!
 
-borg-module-too-many = There's not enough room for another module...
+borg-module-too-many = Не вистачає місця для ще одного модуля...
 borg-module-duplicate = This module is already installed in this cyborg.
-borg-module-whitelist-deny = This module doesn't fit in this type of cyborg...
+borg-module-whitelist-deny = Цей модуль не підходить для цього типу кіборга...
 
-borg-construction-guide-string = The cyborg limbs and torso must be attached to the endoskeleton.
+borg-construction-guide-string = Кінцівки і тулуб кіборга повинні бути прикріплені до ендоскелету.
 
-borg-ui-menu-title = Дійовид Кіборга
-borg-ui-charge-label = Зарядка: {$charge}%
-borg-ui-no-brain = Мізки відсутні
-borg-ui-remove-battery = Вийняти
+borg-ui-menu-title = Інтерфейс кіборга
+borg-ui-charge-label = Зарядити: {$charge}%
+borg-ui-no-brain = Немає ядра
+borg-ui-remove-battery = Видалити
 borg-ui-modules-label = Модулі:
 borg-ui-module-counter = {$actual}/{$max}
 borg-transponder-disabled-popup = A brain shoots out the top of {$name}!

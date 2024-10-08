@@ -1,5 +1,5 @@
 spider-web-action-nogrid = Під вами нема підлоги!
-spider-web-action-success = Ви створюєте павутиння.
-spider-web-action-fail = Ви не можете створити павутиння тут!
+spider-web-action-success = Ви сплели павутину біля себе.
+spider-web-action-fail = Ви не можете тут плести! з усіх сторін вже є павутина!
 
-sericulture-failure-hunger = Ви занадто голодні щоб робити нове павутиння
+sericulture-failure-hunger = Ваш шлунок надто порожній аби плести павутину!

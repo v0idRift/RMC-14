@@ -1,2 +1,2 @@
-openable-component-verb-open = Відкрити
+openable-component-verb-open = Відкрито
 openable-component-verb-close = Закрити

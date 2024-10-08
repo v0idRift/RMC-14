@@ -3,11 +3,11 @@
 
 # For the PDA Ringer screen
 
-comp-ringer-vibration-popup = КПК дзвонить
+comp-ringer-vibration-popup = Ваш КПК вібрує
 
 comp-ringer-ui-menu-title = Рінгтон
 
-comp-ringer-ui-test-ringtone-button = Протестувати
+comp-ringer-ui-test-ringtone-button = Тест
 
 comp-ringer-ui-set-ringtone-button = Встановити
 

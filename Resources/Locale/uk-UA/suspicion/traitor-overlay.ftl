@@ -1,1 +1,1 @@
-traitor-overlay-traitor-text = Підозрюваний
+traitor-overlay-traitor-text = Зрадник

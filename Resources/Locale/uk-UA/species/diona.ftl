@@ -1,1 +1,1 @@
-diona-hurt-by-herbicide-popup = Від хімікату в'яне трохи вашої зелені!
+diona-hurt-by-herbicide-popup = Хімічна речовина в’яне частину вашої зелені!

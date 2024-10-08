@@ -1,5 +1,5 @@
-accept-cloning-window-title = Клонуючий пристрій
-accept-cloning-window-prompt-text-part = Вас було клоновано!
-                                         Перенестися у клоноване тіло?
+accept-cloning-window-title = Клонувальна машина
+accept-cloning-window-prompt-text-part = Вас хочуть клонувати!
+                                         Перенести вашу душу у тіло клона?
 accept-cloning-window-accept-button = Так
 accept-cloning-window-deny-button = Ні

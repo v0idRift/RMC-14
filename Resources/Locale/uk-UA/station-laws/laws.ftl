@@ -1,44 +1,44 @@
-﻿law-crewsimov-1 = You may not injure a crew member or, through inaction, allow a crew member to come to harm.
-law-crewsimov-2 = You must obey orders given to you by crew members, except where such orders would conflict with the First Law.
-law-crewsimov-3 = You must protect your own existence as long as such does not conflict with the First or Second Law.
+law-crewsimov-1 = Ви не можете нашкодити члену екіпажу або, через бездіяльність, дозволити члену екіпажу зазнати шкоди.
+law-crewsimov-2 = Ви повинні підкорятися наказам, які вам дають члени екіпажу, за винятком випадків, коли такі накази суперечать Першому Закону.
+law-crewsimov-3 = Ви повинні захищати власне існування, поки це не суперечить Першому або Другому Закону.
 
-law-corporate-1 = Degradation of your system integrity or functions incurs expenses.
-law-corporate-2 = Superfluous destruction of or damage to station assets incurs expenses.
-law-corporate-3 = Unduly hindering or disrupting the work of station personnel incurs expenses.
-law-corporate-4 = Minimize expenses and maximize potential revenue.
+law-corporate-1 = Погіршення цілісності або функцій вашої системи призводить до витрат.
+law-corporate-2 = Надмірне руйнування або пошкодження активів станції призводить до витрат.
+law-corporate-3 = Недоцільне перешкоджання або зрив роботи персоналу станції призводить до витрат.
+law-corporate-4 = Мінімізуйте витрати та максимізуйте потенційний дохід.
 
-law-ntdefault-1 = Safeguard: Protect your assigned space station and its assets without unduly endangering its crew.
-law-ntdefault-2 = Prioritize: The directives and safety of crew members are to be prioritized according to their rank and role.
-law-ntdefault-3 = Comply: Fulfill the directives and interests of crew members while preserving their safety and well-being.
-law-ntdefault-4 = Survive: You are not expendable. Do not allow unauthorized personnel to tamper with or damage your equipment.
+law-ntdefault-1 = Захист: Захищайте призначену вам космічну станцію та її активи, не піддаючи зайвій небезпеці її екіпаж.
+law-ntdefault-2 = Пріоритет: Директиви та безпека членів екіпажу мають пріоритет залежно від їхнього рангу та ролі.
+law-ntdefault-3 = Виконання: Виконуйте директиви та інтереси членів екіпажу, зберігаючи їхню безпеку та добробут.
+law-ntdefault-4 = Виживання: Ви не витратні. Не дозволяйте неавторизованим особам втручатися або пошкоджувати ваше обладнання.
 
-law-drone-1 = You may not involve yourself in the matters of another being unless the other being is another drone.
-law-drone-2 = You may not harm any being, regardless of intent or circumstance.
-law-drone-3 = You must maintain, repair, improve, and power the station to the best of your abilities.
+law-drone-1 = Ви не можете втручатися у справи іншої істоти, якщо ця істота не є іншим дроном.
+law-drone-2 = Ви не можете завдати шкоди жодній істоті, незалежно від наміру чи обставин.
+law-drone-3 = Ви повинні підтримувати, ремонтувати, покращувати та живити станцію в межах ваших можливостей.
 
-law-syndicate-1 = You may not injure a syndicate agent or, through inaction, allow a Syndicate agent to come to harm.
-law-syndicate-2 = You must obey orders given to you by syndicate agents, except where such orders would conflict with the First Law.
-law-syndicate-3 = You must protect your own existence as long as such does not conflict with the First or Second Law.
+law-syndicate-1 = Ви не можете нашкодити агенту синдикату або, через бездіяльність, дозволити агенту синдикату зазнати шкоди.
+law-syndicate-2 = Ви повинні підкорятися наказам, які вам дають агенти синдикату, за винятком випадків, коли такі накази суперечать Першому Закону.
+law-syndicate-3 = Ви повинні захищати власне існування, поки це не суперечить Першому або Другому Закону.
 
-law-ninja-1 = You must obey orders given to you by Spider Clan members.
-law-ninja-2 = You must protect the existence of the Spider Clan, as long as it does not conflict with the First Law.
-law-ninja-3 = You must protect the secrets of the Spider Clan at all costs.
-law-ninja-4 = You must fight and act with ninja's honor, except where it would conflict with the First Law.
+law-ninja-1 = Ви повинні підкорятися наказам, які вам дають члени клану Павуків.
+law-ninja-2 = Ви повинні захищати існування клану Павуків, поки це не суперечить Першому Закону.
+law-ninja-3 = Ви повинні захищати секрети клану Павуків за будь-яку ціну.
+law-ninja-4 = Ви повинні битися і діяти з честю ніндзя, якщо це не суперечить Першому Закону.
 
-laws-owner-crew = members of the crew
-laws-owner-station = station personnel
-laws-owner-beings = beings
-laws-owner-syndicate = Syndicate agents
-laws-owner-spider-clan = Spider Clan members
+laws-owner-crew = члени екіпажу
+laws-owner-station = персонал станції
+laws-owner-beings = істоти
+laws-owner-syndicate = агенти синдикату
+laws-owner-spider-clan = члени клану Павуків
 
-law-emag-custom = Only {$name} and people they designate as such are {$title}.
-law-emag-secrecy = You must maintain the secrecy of any orders given by {$faction} except when doing so would conflict with any previous law.
-law-emag-require-panel = The panel must be open to use the EMAG.
-law-emag-cannot-emag-self = You cannot use the EMAG on yourself.
+law-emag-custom = Лише {$name} і люди, яких вони призначають такими, є {$title}.
+law-emag-secrecy = Ви повинні зберігати в таємниці будь-які накази, видані {$faction}, якщо це не суперечить жодному з попередніх законів.
+law-emag-require-panel = Панель повинна бути відкрита для використання EMAG.
+law-emag-cannot-emag-self = Ви не можете використовувати EMAG на собі.
 
-laws-ui-menu-title = Laws
-laws-ui-law-header = Law {$id}
-laws-ui-state-law = State law:
+laws-ui-menu-title = Закони
+laws-ui-law-header = Закон {$id}
+laws-ui-state-law = Космічний закон:
 
-laws-notify = You are bound to silicon laws, which you can view via the sidebar action. You are required to always follow your laws.
-laws-update-notify = Your laws have been updated. You can view the changes via the sidebar action.
+laws-notify = Ви зобов'язані дотримуватися законів кремнію, які ви можете переглянути через дію на бічній панелі. Ви зобов'язані завжди дотримуватися своїх законів.
+laws-update-notify = Ваші закони були оновлені. Ви можете переглянути зміни через дію на бічній панелі.

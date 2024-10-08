@@ -1,19 +1,36 @@
 ## UI
 
-ui-disposal-unit-title = Утилізаційний Пристрій
+ui-disposal-unit-title = Смітник
 
-ui-disposal-unit-label-state = Стан:
+ui-disposal-unit-label-state = Статус:
 ui-disposal-unit-label-pressure = Тиск:
-ui-disposal-unit-label-status = Готовий
+ui-disposal-unit-label-status = Готово
 
 ui-disposal-unit-button-flush = Змити
-ui-disposal-unit-button-eject = Вийняти
+ui-disposal-unit-button-eject = Вийняти вміст вміст
 ui-disposal-unit-button-power = Живлення
+
+## Дієслова
+
+## Дієслова
 disposal-flush-verb-get-data-text = Змити
-disposal-self-insert-verb-get-data-text = Застрибнути
-disposal-eject-verb-get-data-text = Вийняти
+disposal-self-insert-verb-get-data-text = Стрибнути всередину
+disposal-eject-verb-get-data-text = Вийняти вміст
+
+## No hands вміст
+
+## No hands
 disposal-unit-no-hands = У вас немає рук!
-disposal-unit-state-Ready = Готовий
+
+## Промахнувся
+
+## Промахнувся
+disposal-unit-state-Ready = Готово
+# Yes I want it to always say Pressurizing
 disposal-unit-state-Flushed = Нагнітання тиску
 disposal-unit-state-Pressurizing = Нагнітання тиску
-disposal-unit-being-inserted = {CAPITALIZE($user)} затягує тебе в утилізаційний пристрій!
+
+# ♪ заштовхуючи людей всередину
+
+# ♪ заштовхуючи людей всередину
+disposal-unit-being-inserted = {CAPITALIZE($user)} намагається засунути вас у мусорку!

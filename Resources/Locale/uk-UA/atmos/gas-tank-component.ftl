@@ -2,15 +2,27 @@
 
 # Examine text showing pressure in tank.
 comp-gas-tank-examine = Тиск: [color=orange]{PRESSURE($pressure)}[/color].
-comp-gas-tank-connected = Воно під'єднано до зовнішнього компонента.
-comp-gas-tank-examine-open-valve = Газовий клапан [color=red]відкритий[/color].
-comp-gas-tank-examine-closed-valve = Газовий клапан [color=green]закритий[/color]
-control-verb-open-control-panel-text = Open Control Panel
-gas-tank-window-internals-toggle-button = Перемкнути
+
+# Examine text when internals are active.
+
+# Examine text when internals are active.
+comp-gas-tank-connected = Він підключений до зовнішнього компоненту.
+
+# Examine text when valve is open or closed.
+comp-gas-tank-examine-open-valve = Газовідвідний клапан [color=red]відкритий[/color].
+comp-gas-tank-examine-closed-valve = Газовідвідний клапан [color=зелений]закритий[/color].
+
+## Дієслово керування
+control-verb-open-control-panel-text = Відкрийте панель керування
+
+## UI
+gas-tank-window-internals-toggle-button = Перемикач
 gas-tank-window-output-pressure-label = Вихідний тиск
 gas-tank-window-tank-pressure-text = Тиск: {$tankPressure} кПа
-gas-tank-window-internal-text = Internals: {$status}
-gas-tank-window-internal-connected = [color=green]Під'єднано[/color]
-gas-tank-window-internal-disconnected = [color=red]Від'єднано[/color]
+gas-tank-window-internal-text = Внутрішні справи: {$status}
+gas-tank-window-internal-connected = [color=green]Підключенно[/color]
+gas-tank-window-internal-disconnected = [color=red]Відключенно[/color]
+
+## Valve
 comp-gas-tank-open-valve = Відкрити клапан
 comp-gas-tank-close-valve = Закрити клапан

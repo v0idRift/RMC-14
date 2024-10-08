@@ -1,22 +1,26 @@
 # InstrumentComponent
-instrument-component-finger-cramps-light-message = Your fingers are beginning to a cramp a little!
-instrument-component-finger-cramps-serious-message = Your fingers are seriously cramping up!
-instrument-component-finger-cramps-max-message = Your fingers cramp up from playing!
-instruments-component-menu-no-midi-support = MIDI support is currently not
-                                             available on your system.
-                                             If on Linux, you may need to install
-                                             FluidSynth or a development package
-                                             for FluidSynth.
+instrument-component-finger-cramps-light-message = Ваші пальці трохи болять!
+instrument-component-finger-cramps-serious-message = Ваші пальці починають боліти сильніше!
+instrument-component-finger-cramps-max-message = Ваші пальці судомить через гру!
+instruments-component-menu-no-midi-support = Підтримка MIDI наразі не
+                                             у вашій системі.
+                                             Якщо ви використовуєте Linux, вам може знадобитися встановити
+                                             FluidSynth або пакет розробки
+                                             для FluidSynth.
 instruments-component-menu-input-button = MIDI вхід
-instruments-component-menu-band-button = Приєднатися
-instruments-component-menu-play-button = Грати MIDI
-instruments-component-menu-loop-button = Цикл
+instruments-component-menu-band-button = Доєднатися до гри
+instruments-component-menu-play-button = Грати MIDI файл файл
+instruments-component-menu-loop-button = Повторення
 instruments-component-menu-channels-button = Канали
-instruments-component-menu-stop-button = Зупинитися
-instruments-component-band-menu = Обрати лідера гурту
+instruments-component-menu-stop-button = Зупинити
+instruments-component-band-menu = Обрати лідера групи
 instrument-component-band-refresh = Оновити
-instruments-component-channels-menu = Вибір MIDI каналів
+instruments-component-channels-menu = MIDI Вибір каналу
 instrument-component-channel-name = MIDI канал {$number}
-instruments-component-channels-all-button = Усі
+instruments-component-channels-all-button = Всі
 instruments-component-channels-clear-button = Очистити
-swappable-instrument-component-style-set = Стиль встановлено на "{$style}"
+
+# SwappableInstrumentComponent
+
+# SwappableInstrumentComponent
+swappable-instrument-component-style-set = Встановлено стиль: "{$style}"

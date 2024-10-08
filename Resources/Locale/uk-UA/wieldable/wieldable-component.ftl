@@ -1,21 +1,21 @@
 ### Locale for wielding items; i.e. two-handing them
 
-wieldable-verb-text-wield = У дві руки
-wieldable-verb-text-unwield = В одну руку
+wieldable-verb-text-wield = Схопити
+wieldable-verb-text-unwield = Відпустити
 
-wieldable-component-successful-wield = Ви берете {$item} у дві руки.
-wieldable-component-failed-wield = Ви берете {$item} в одну руку.
-wieldable-component-successful-wield-other = {$user} бере {$item} у дві руки.
-wieldable-component-failed-wield-other = {$user} бере {$item} в одну руку.
+wieldable-component-successful-wield = Ви схопили { THE($item) } в дві руки.
+wieldable-component-failed-wield = Ви переклали { THE($item) } в одну руку.
+wieldable-component-successful-wield-other = { THE($user) } схопив { THE($item) }.
+wieldable-component-failed-wield-other = { THE($user) } переклав { THE($item) } в одну руку.
 
-wieldable-component-no-hands = У вас не достатньо рук!
+wieldable-component-no-hands = У вас нема вільних рук!
 wieldable-component-not-enough-free-hands = {$number ->
-    [one] Вам потрібна ще одна рука щоб взяти {$item} у дві руки.
-    *[other] Вам потрібно ще { $number } вільних рук щоб взяти {$item} в них.
+    [one] Вам потрібна вільна рука щоб схопити { THE($item) }.
+    *[other] Вам треба { $number } вільних рук щоб схопити { THE($item) }.
 }
-wieldable-component-not-in-hands = { CAPITALIZE($item) } не у твоїх руках!
+wieldable-component-not-in-hands = { CAPITALIZE(THE($item)) } не у ваших руках!
 
-wieldable-component-requires = { CAPITALIZE($item)} повинен бути у двух руках!
+wieldable-component-requires = { CAPITALIZE(THE($item))} має бути в двох руках!
 
 gunwieldbonus-component-examine = Ця зброя має кращу точність якщо її тримати у двох руках.
 

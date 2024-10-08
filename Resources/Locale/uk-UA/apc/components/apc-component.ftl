@@ -1,4 +1,4 @@
-apc-component-insufficient-access = Не достатній доступ!
-apc-component-on-examine-panel-open = [color=lightgray]панель ЗКЖ[/color] наразі [color=red]відкрита[/color].
-apc-component-on-examine-panel-closed = [color=lightgray]панель ЗКЖ[/color] наразі [color=darkgreen]закрита[/color].
-apc-component-on-toggle-cancel = Воно нічого не робить
+apc-component-insufficient-access = Недостатньо доступу!
+apc-component-on-examine-panel-open = [color=lightgray]Електронну панель APC[/color][color=red]Увімкнено[/color].
+apc-component-on-examine-panel-closed = [color=lightgray]Електронну панель APC[/color][color=darkgreen]Вимкнено[/color].
+apc-component-on-toggle-cancel = Нічого не відбулось!

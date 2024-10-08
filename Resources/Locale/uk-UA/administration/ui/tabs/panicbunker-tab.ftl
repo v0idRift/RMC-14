@@ -1,24 +1,24 @@
-admin-ui-panic-bunker-window-title = Панік бункер
+admin-ui-panic-bunker-window-title = Панічний бункер
 
-admin-ui-panic-bunker-enabled = Увимкнено
-admin-ui-panic-bunker-disabled = Вимкнено
-admin-ui-panic-bunker-tooltip = Ця функція не дозволяє гравцям під'єднатися якщо їх акаунт занадто молодий або якщо у них награно замало годин.
+admin-ui-panic-bunker-enabled = Панічний бункер увімкнено
+admin-ui-panic-bunker-disabled = Панічний бункер відключено
+admin-ui-panic-bunker-tooltip = Панічний бункер обмежує приєднання гравців, якщо їхній акаунт занадто новий або вони не мають достатнього загального ігрового часу на цьому сервері.
 
-admin-ui-panic-bunker-disable-automatically = Вимикати автоматично
-admin-ui-panic-bunker-disable-automatically-tooltip = Вимикає Панік Бункер при під'єднані адміна.
-admin-ui-panic-bunker-enable-automatically = Вмикати автоматично
-admin-ui-panic-bunker-enable-automatically-tooltip = Вмикає Панік Бункер якщо на сервері немає адміністрації.
+admin-ui-panic-bunker-disable-automatically = Вимкнути автоматично
+admin-ui-panic-bunker-disable-automatically-tooltip = Вимикає аварійний бункер автоматично, коли підключається адміністратор.
+admin-ui-panic-bunker-enable-automatically = Увімкнути автоматично
+admin-ui-panic-bunker-enable-automatically-tooltip = Автоматично вмикає аварійний бункер, коли адміністраторів немає в мережі.
 
-admin-ui-panic-bunker-count-deadminned-admins = Рахувати деадмінів
-admin-ui-panic-bunker-count-deadminned-admins-tooltip = Рахувати деадмінів при увимкненому автоматичному Панік Бункері.
+admin-ui-panic-bunker-count-deadminned-admins = Граф Дедмінс
+admin-ui-panic-bunker-count-deadminned-admins-tooltip = Підраховуйте загиблих адміністраторів при автоматичному ввімкненні та вимкненні аварійного бункера.
 
-admin-ui-panic-bunker-show-reason = Показувати причину
-admin-ui-panic-bunker-show-reason-tooltip = Показує гравцю причину чому їм був заборонен вхід.
+admin-ui-panic-bunker-show-reason = Показати причину
+admin-ui-panic-bunker-show-reason-tooltip = Покажіть користувачеві, чому він був заблокований у бункері тривоги.
 
-admin-ui-panic-bunker-min-account-age = Мін. вік акаунта
+admin-ui-panic-bunker-min-account-age = Хвилин. Вік рахунку
 admin-ui-panic-bunker-min-overall-minutes = Мін. награнний час
 
-admin-ui-panic-bunker-is-enabled = НАРАЗІ УВИМКНЕНО.
+admin-ui-panic-bunker-is-enabled = Наразі увімкнено аварійний бункер.
 
-admin-ui-panic-bunker-enabled-admin-alert = Панік Бункера було увимкнуто!
-admin-ui-panic-bunker-disabled-admin-alert = Панік Бункер вимкнут.
+admin-ui-panic-bunker-enabled-admin-alert = Увімкнено аварійний бункер.
+admin-ui-panic-bunker-disabled-admin-alert = Панічний бункер виведено з ладу.

@@ -1,3 +1,3 @@
-container-verb-text-enter = Вставити
-container-verb-text-empty = Опорожнити
+container-verb-text-enter = Увійдіть
+container-verb-text-empty = Порожньо
 container-thrown-missed = Промахнувся!

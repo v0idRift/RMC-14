@@ -1,29 +1,36 @@
-verb-system-null-server-response = Ця сутність не у полі зору. Ви не повинні її бачити
-verb-self-target-pronoun = себе
+verb-system-null-server-response = Об'єкта не видно. Ви не повинні цього бачити.
+
+
+# якщо дієслова мають діапазон цілей (наприклад, декілька викидань), ви можете
+# зазвичай просто використовувати Entity.Name. Але це трохи дивно, якщо ви націлюєтесь на себе
+verb-self-target-pronoun = Ти сам.
+
+
+# дієслівні категорії та загальні дієслова. Вони з'являються в різних системах, тому їх також можна розмістити тут.
 
 verb-categories-admin = Адмін
 verb-categories-debug = Дебаг
-verb-categories-examine = Одивитися
-verb-categories-eject = Витащити
+verb-categories-examine = Оглянути
+verb-categories-eject = Дістати
 verb-categories-insert = Вставити
-verb-categories-buckle = Пристебнути
-verb-categories-unbuckle = Відстебнути
-verb-categories-rotate = Обенрути
-verb-categories-smite = Наказання
-verb-categories-tricks = Фокуси
-verb-categories-transfer = Встановити суму трансферу
+verb-categories-buckle = Пристібнути
+verb-categories-unbuckle = Відстібнути
+verb-categories-rotate = Обернути
+verb-categories-smite = Ударити
+verb-categories-tricks = Хитрощі
+verb-categories-transfer = Встановити кількість до трансферу
 verb-categories-split = Розділити
 verb-categories-instrument-style = Стиль інструменту
 verb-categories-channel-select = Канали
-verb-categories-set-sensor = Сенсори
+verb-categories-set-sensor = Сенсор
 verb-categories-timer = Встановити затримку
-verb-categories-lever = Ричаг
-verb-categories-select-type = Обрати тип
-verb-categories-fax = Поставити адресата
+verb-categories-lever = Важіль
+verb-categories-select-type = Оберіть Тип
+verb-categories-fax = Встановити Місцепризначення
 verb-categories-power-level = Рівень струму
 
 verb-common-toggle-light = Перемкнути світло
-verb-common-close = Закрити
-verb-common-open = Відкрити
+verb-common-close = Зачинити
+verb-common-open = Відчинити
 verb-common-close-ui = Закрити UI
 verb-common-open-ui = Відкрити UI

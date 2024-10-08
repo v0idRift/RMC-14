@@ -1,2 +1,2 @@
 health-examinable-verb-text = Здоров'я
-health-examinable-verb-disabled = Краще одивитися людину на ушкодження.
+health-examinable-verb-disabled = Ви можете перевірити базові показники здоров'я лише з близької відстані

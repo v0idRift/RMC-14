@@ -1,5 +1,5 @@
-action-name-internals-toggle = Перемкнуть балон
-action-description-internals-toggle = Дихати з одягнутого кисневого балону та масці.
+action-name-internals-toggle = Переключити балон
+action-description-internals-toggle = Дихайте з обладнаного газового балону. Також потрібна обладнана дихальна маска.
 
-internals-no-breath-tool = Ви не носите кисневу маску
-internals-no-tank = Ви не носите кисневого балону
+internals-no-breath-tool = Ви не носите респіратор
+internals-no-tank = Ви не носите балон для дихання

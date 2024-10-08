@@ -130,3 +130,6 @@ liar-word-replacement-43 = "don't want"
 
 liar-word-44 = not
 liar-word-replacement-44 = ""
+
+liar-word-replacement-12 = ""
+liar-word-replacement-12 = ""

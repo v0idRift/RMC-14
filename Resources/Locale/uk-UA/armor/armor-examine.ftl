@@ -1,19 +1,19 @@
 # Armor examines
 armor-examinable-verb-text = Броня
-armor-examinable-verb-message = Дослідити властивості броні.
-armor-examine = Надає наступний захист:
-armor-coefficient-value = - [color=yellow]{$type}[/color] шкода зменшена на [color=lightblue]{$value}%[/color].
-armor-reduction-value = - [color=yellow]{$type}[/color] шкода зменшена на [color=lightblue]{$value}[/color].
-armor-damage-type-blunt = Тупий
-armor-damage-type-slash = Ріжучий
-armor-damage-type-piercing = Колючий
-armor-damage-type-heat = Жар
+armor-examinable-verb-message = Роздивитись показники броні.
+armor-examine = Воно забезпечує наступний захист:
+armor-coefficient-value = - [color=yellow]{$type}[/color] шкоду зменшено на [color=lightblue]{$value}%[/color].
+armor-reduction-value = - [color=yellow]{$type}[/color] шкоду зменшено на [color=lightblue]{$value}[/color].
+armor-damage-type-blunt = Удар
+armor-damage-type-slash = Поріз
+armor-damage-type-piercing = Проникаюча
+armor-damage-type-heat = Теплова
 armor-damage-type-radiation = Радіація
-armor-damage-type-caustic = Кислота
+armor-damage-type-caustic = Хаотична
 armor-damage-type-bloodloss = Крововтрата
-armor-damage-type-asphyxiation = Задуха
-armor-damage-type-cellular = Клітинне
+armor-damage-type-asphyxiation = Недостаток кисню
+armor-damage-type-cellular = Стільниковий зв'язок
 armor-damage-type-cold = Холод
 armor-damage-type-poison = Отрута
-armor-damage-type-shock = Удар струмом
-armor-damage-type-structural = Цілісність
+armor-damage-type-shock = Шок
+armor-damage-type-structural = Структурна

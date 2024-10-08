@@ -1,4 +1,4 @@
 ## AirlockComponent
 
-airlock-component-cannot-pry-is-bolted-message = Шлюз заблокований і ваші спроби відкрити його марні!
-airlock-component-cannot-pry-is-powered-message = Електродвигуни шлюзу блокують ваші спроби відкрити його!
+airlock-component-cannot-pry-is-bolted-message = Болти шлюзу не дають його зламати!
+airlock-component-cannot-pry-is-powered-message = Увімкнені двигуни блокують ваші зусилля!

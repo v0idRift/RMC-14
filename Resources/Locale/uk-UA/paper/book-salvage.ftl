@@ -1,90 +1,89 @@
-book-text-demonomicon1 = How To Summon a Demon
-          - by J.G. Wizgerald
+book-text-demonomicon1 = Як викликати демона
+          - автор Дж. Г. Візґеральд
 
-          1. todo finish writing demon summoning guide
+          1. закінчити написання посібника з виклику демонів
 
-book-text-demonomicon2 = How To Summon a Lemon
-          - by J.G. Wizgerald
+book-text-demonomicon2 = Як викликати лимон
+          - автор Дж. Г. Візджеральд
 
-          1. todo finish writing lemon summoning guide
-          2. WAit. Typo. Oh shit. Sorry guys
+          1. закінчити написання посібника з виклику лимона
+          2. ЗАЧЕКАЙТе помилочка. Оу бляха. Вибачайте люди
 
-book-text-demonomicon3 = Cool Demon Names I Found
-      - by Ms. Mossrock
+book-text-demonomicon3 = Круті імена демонів, які я знайшла
+      - пані Моссрок.
 
-      Abraxas
-      Nephilim
-      Baal
-      Leviathan
-      Gary
-      Moloch
-      Scylla
-      Phenex
+      Абраксас
+      Нефілім
+      Ваал
+      Левіафан
+      Гарі
+      Молох
+      Сцилла
+      Фенекс
 
-book-text-chemistry-insane = IGOR CHEMISTRY GUIDE TO CHEMISTRY
+book-text-chemistry-insane = ХІМІЯ ІГОРА ДОВІДНИК З ХІМІЇ
 
-      TITLE: GUIDE TO CHEMISTRY
+      НАЗВА: ДОВІДНИК З ХІМІЇ
 
-      ABSTRACT: GUIDE TO CHEMISTRY
+      АНОТАЦІЯ: ДОВІДНИК З ХІМІЇ
 
-      SECTION: WISE WORDS OF IGOR CHEMISTRY
+      РОЗДІЛ: МУДРІ СЛОВА ІГОРЯ ХІМІЇ
 
-      MY NUMBER ONE TIP. IS TO ALWAYS HAVE FUN. YOU NEVER KNOW WHEN IT'LL ALL END.
-      SO JUST KEEP AT IT!!
+      МОЯ ПОРАДА НОМЕР ОДИН. ЦЕ ЗАВЖДИ ОТРИМУВАТИ ЗАДОВОЛЕННЯ. ВИ НІКОЛИ НЕ ЗНАЄТЕ, КОЛИ ЦЕ ВСЕ ЗАКІНЧИТЬСЯ.
+      ТАК ЩО ПРОСТО ПРОДОВЖУЙТЕ!!!
 
-      MY NUMBER TWO TIP. I JUST CAN'T STOP FUCKING GRINDING UP JUMPSUITS. MY "COLLEAGUES" (agents) KEEP YELLING AT ME
-      TO STOP AND THAT 'itll come out of our paychecks' BUT THE STUFF IS SO GOOD. I'M LIKE AN INTERIOR DECORATION GENIUS.
-      SAXOPHONES AND BATTERIES TAKE MY MIND OFF OF IT BUT I'M ALWAYS BACK TO THE JUMPSUITS. HOO WEE.
+      МОЯ ПОРАДА НОМЕР ДВА. Я ПРОСТО БЛЯХА НЕ МОЖУ ПЕРЕСТАТИ ШЛІФУВАТИ КОМБІНЕЗОНИ. МОЇ "КОЛЕГИ" (агенти) продовжують кричати на мене
+      ЩОБ Я ПРИПИНИВ І ЩО "це вирахують з нашої зарплати", АЛЕ ЦЕ ТАК ТАК ДОБРЕ. Я ЯК ГЕНІЙ ІНТЕР'ЄРУ.
 
-      MY NUMBER THREE TIP. THANK YOU FOR READING!! IGOR CHEMISTRY
+      САКСОФОНИ І БАТАРЕЙКИ ВІДВОЛІКАЮТЬ МЕНЕ ВІД ЦЬОГО, АЛЕ Я ЗАВЖДИ ПОВЕРТАЮСЯ ДО КОМБІНЕЗОНІВ.
 
-      CONCLUSION: IGOR CHEMISTRY
+      МОЯ ПОРАДА НОМЕР ТРИ. ДЯКУЮ, ЩО ПРОЧИТАЛИ!!! ХІМІЯ ІГОРА
 
-book-text-botanics = ** Applications of Botanical Specimens Found In Nanotrasen Territories **
+book-text-botanics = ** Застосування ботанічних зразків, знайдених на територіях нанотехнологій
 
-      Many plants, when ground, yield useful chemicals. S. (spessmens) papaver and S. aloe vera
-      are known for their basic healing properties.
+      Багато рослин, якщо їх подрібнити, виділяють корисні хімічні речовини. S. (spessmens) papaver та S. aloe vera
+      відомі своїми основними цілющими властивостями.
 
-      S. lucidum, or lingzhi, is known for its potent ability to save those near death from toxins. Eating too much
-      is known to cause adverse effects.
+      S. lucidum, або лінчжі, відомий своєю потужною здатністю рятувати від токсинів тих, хто перебуває при смерті. Надмірне вживання в їжу
+      може призвести до несприятливих наслідків.
 
-      S. amanita, a powerfully poisonous specimen (Rest In Peace Sir Alacaster), and S. galactica, a
-      seemingly ordinary antitoxin, appear to have some sort of relation to eachother.
+      S. amanita, сильно отруйний екземпляр (Спочивай з миром, сер Алакастер), і S. galactica, на перший погляд
+      S. galactica, на перший погляд звичайний антитоксин, схоже, мають певний зв'язок між собою.
 
-      Some research is being done on combinations of the medicinal plants discussed, and they may prove fruitful.
+      Проводяться дослідження комбінацій цих лікарських рослин, і вони можуть виявитися плідними.
 
       ----
 
-      - penned by James Alacaster and Golzuk Amaranth
+      - автори Джеймс Алакастер і Голзук Амарант
 
-book-text-gnome = All Hail Our Gnome King
+book-text-gnome = Хай живе наш король гномів
 
-      He who is the grand cartographer who placed our kind into the world of the Island!
+      Того, хто є великим картографом, який помістив наш рід у світ Острова!
 
-      He who loves those with the largest of Hats!
+      Того, хто любить тих, хто має найбільший капелюх!
 
-      Struck down by the evildoers who cannot appreciate our kind!
+      Збитий лиходіями, які не вміють цінувати наш рід!
 
-      Our revenge will be dealt in full! He will Rise once more! hee Hoo!
+      Наша помста буде здійснена сповна! He will Rise once more! he will Rise once more! hee Hoo!
 
-book-text-fishing = When I grow up, I want to be one of the harvesters of the space sea!
+book-text-fishing = Коли я виросту, я хочу стати одним з комбайнів космічного моря!
 
-      I think before my days are done I want to catch the fabled space fish!
+      Думаю, до кінця своїх днів я хочу зловити легендарну космічну рибу!
 
-      I'm like a little rat sailing the seas of cheese! The bastards come to end me but I am as sly as a cat and as lucky as they come!
+      Я як маленький щур, що плаває по сирних морях! Негідники приходять, щоб покінчити зі мною, але я хитрий, як кіт, і такий же везучий, як і вони!
 
-      Press the <L BUMPER> and <R TRIGGER> to activate the fishing minigame.
+      Натисніть <L BUMPER> і <R TRIGGER>, щоб активувати міні-гру "Риболовля".
 
-      - Sgt. John Baker Aclopoly
+      - Сержант Джон Бейкер Аклаполія
 
-book-text-detective = CHAPTER 1: SMALL ADVENTURES IN A BIG STATION
+book-text-detective = РОЗДІЛ 1: МАЛЕНЬКІ ПРИГОДИ НА ВЕЛИКІЙ СТАНЦІЇ
 
-      This station is filled with crime and grime...
+      Ця станція наповнена злочинністю і брудом...
 
-      I was shooting hoops down on Bagel when I heard a cry and a laser shot. I walked under the table nearby to hide, but there wasn't a second shot.
+      Я накидав обручі на Бублика, коли почув крик і лазерний постріл. Я сховався під сусіднім столом, щоб сховатися, але другого пострілу не було.
 
-      Outside, the engineerin chief got blasted by two Syndies hooked up with some fierce contraband. There wasn't enough of him for an open casket funeral.
+      На вулиці головного інженера розстріляли двоє синдиків, пов'язаних з якоюсь запеклою контрабандою. Його не вистачило на похорон у відкритій труні.
 
-      Things always go wild here.. I'll never look at clowns the same.
+      Тут завжди щось відбувається. Я ніколи не зможу дивитися на клоунів як раніше.
 
-      The question is.. Who did it?
+      Питання в тому. хто це зробив?

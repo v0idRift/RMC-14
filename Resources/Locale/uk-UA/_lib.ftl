@@ -12,7 +12,7 @@ zzzz-fmt-pressure = { TOSTRING($divided, "G4") } { $places ->
 
 # Used internally by the POWERWATTS() function.
 zzzz-fmt-power-watts = { TOSTRING($divided, "G4") } { $places ->
-    [0] вт
+    [0] Вт
     [1] кВт
     [2] МВт
     [3] ГВт
@@ -25,7 +25,7 @@ zzzz-fmt-power-watts = { TOSTRING($divided, "G4") } { $places ->
 # Therefore 1 kilowatt-hour is equal to 3,600,000 joules (3.6MJ)
 zzzz-fmt-power-joules = { TOSTRING($divided, "G4") } { $places ->
     [0] Дж
-    [1] кДж
+    [1] КДж
     [2] МДж
     [3] ГДж
     [4] ТДж

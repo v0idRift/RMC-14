@@ -1,16 +1,16 @@
 ### Stunbaton component
 
-comp-stunbaton-stun = Оглушений
+comp-stunbaton-stun = Приголомшений
 
 ## Used when examining the stunbaton
 
-comp-stunbaton-examined-on = Його наразі [color=darkgreen]увимкнуто[/color].
-comp-stunbaton-examined-off = Його наразі [color=darkred]вимкнуто[/color]
+comp-stunbaton-examined-on = Наразі світло [color=darkgreen]ввімкнено[/color].
+comp-stunbaton-examined-off = Наразі світло [color=darkred]вимкнено[/color]
 
 ## Used when activating the stunbaton, depending on the state of its cell.
 
-comp-stunbaton-activated-low-charge = Недостатній заряд...
+comp-stunbaton-activated-low-charge = Недостатньо заряду...
 
-stunbaton-component-low-charge = Недостатній заряд...
-stunbaton-component-on-examine = Його наразі [color=darkgreen]увимкнуто[/color].
-stunbaton-component-on-examine-charge = Індікатор заряду показує [color=#5E7C16]{$charge}[/color] %
+stunbaton-component-low-charge = Недостатньо заряду...
+stunbaton-component-on-examine = Наразі світло [color=darkgreen]ввімкнено[/color].
+stunbaton-component-on-examine-charge = Індикатор заряду показує [color=#5E7C16]{$charge}[/color] %

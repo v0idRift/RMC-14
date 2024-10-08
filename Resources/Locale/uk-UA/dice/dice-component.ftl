@@ -1,3 +1,3 @@
-dice-component-on-examine-message-part-1 = Кубик з [color=lightgray]{$sidesAmount}[/color] сторонами.
-dice-component-on-examine-message-part-2 = Приземлився на [color=white]{$currentSide}[/color].
-dice-component-on-roll-land = { CAPITALIZE($die) } приземлився на {$currentSide}.
+dice-component-on-examine-message-part-1 = Кубик зі сторонами [color=lightgray]{$sidesAmount}[/color].
+dice-component-on-examine-message-part-2 = Він приземлився на [color=white]{$currentSide}[/color].
+dice-component-on-roll-land = { CAPITALIZE(THE($die)) } приземляється на {$currentSide}.

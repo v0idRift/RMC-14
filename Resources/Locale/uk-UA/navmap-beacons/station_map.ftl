@@ -1,18 +1,18 @@
-station-map-window-title = Мапа
-station-map-user-interface-flavor-left = Не паникуйте
+station-map-window-title = Мапа станції станції
+station-map-user-interface-flavor-left = Не панікуйте
 station-map-user-interface-flavor-right = v1.42
 
-nav-beacon-window-title = Маяк станції
+nav-beacon-window-title = Станційний маяк
 nav-beacon-toggle-visible = Видимий
 nav-beacon-toggle-invisible = Невидимий
-nav-beacon-text-label = Ярлик:
-nav-beacon-button-apply = Підтвердити
-nav-beacon-examine-text = Воно [color={$enabled ->
-    [true] forestgreen]вимкнено
-    *[false] crimson]увимкнено
-}[/color] та на дисплеї написано [color={$color}]"{$label}"[/color]
+nav-beacon-text-label = Етикетка:
+nav-beacon-button-apply = Подати заявку
+nav-beacon-examine-text = Це [color={$enabled ->
+    [true] forestgreen]on
+    *[false] crimson]off
+}[/color], а на екрані з'явиться [color={$color}]"{$label}"[/color]
 
-nav-beacon-pos-no-beacons = у середині нічого
-nav-beacon-pos-format = [color={$color}]поряд {$marker}[/color]
-nav-beacon-pos-format-direction = [color={$color}]{$modifier}{$direction} of {$marker}[/color]
-nav-beacon-pos-format-direction-mod-far = далеко від {""}
+nav-beacon-pos-no-beacons = в глушині
+nav-beacon-pos-format = [color={$color}]біля {$marker}[/color]
+nav-beacon-pos-format-direction = [color={$color}]{$modifier}{$direction} з {$marker}[/color]
+nav-beacon-pos-format-direction-mod-far = далеко {""}

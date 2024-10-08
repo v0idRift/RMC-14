@@ -1,20 +1,20 @@
 ### Loc for the pneumatic cannon.
 
-pneumatic-cannon-component-itemslot-name = Газовий балон
+pneumatic-cannon-component-itemslot-name = Бензобак
 
-## Shown when trying to fire, but no gas
+## Відображається при спробі запуску, але немає газу
 
-pneumatic-cannon-component-fire-no-gas = { CAPITALIZE($cannon) } клікає, але газу не виходить.
+pneumatic-cannon-component-fire-no-gas = { CAPITALIZE(THE($cannon)) } клацає, але газ не виходить.
 
-## Shown when changing power.
+## Зміна живлення
 
 pneumatic-cannon-component-change-power = { $power ->
-    [High] Ви ставите ограничувач на максимальну потугу. Можливо це занадто сильно...
-    [Medium] Ви поставили ограничувач на середню потугу.
-    *[Low] Ви поставили ограничувач на низьку потугу.
+    [High] Ви встановили обмежувач на максимальну потужність. Відчувається, що він занадто потужний...
+    [Medium] Ви встановлюєте лімітер на середню потужність.
+    *[Low] Ви встановлюєте обмежувач на низьку потужність.
 }
 
-## Shown when being stunned by having the power too high.
+## Відображається, коли ви оглушені занадто високою потужністю.
 
-pneumatic-cannon-component-power-stun = Чиста сила {$cannon} збиває вас з ніг!
+pneumatic-cannon-component-power-stun = Чиста сила { THE($cannon) } збиває вас з ніг!
 

@@ -1,17 +1,17 @@
-forensic-fibers = {LOC($material)} фібри
-forensic-fibers-colored = {LOC($color)} {LOC($material)} фібри
+forensic-fibers = {LOC($material)} волокна
+forensic-fibers-colored = {LOC($color)} {LOC($material)} волокна
 
-fibers-insulative = ізоляційні
+fibers-insulative = ізольовані
 fibers-synthetic = синтетичні
 fibers-leather = шкіряні
-fibers-durathread = дюралеві
+fibers-durathread = міцна нитка
 fibers-latex = латексні
-fibers-nitrile = натрілові
-fibers-nanomachines = ізоляційні з наномашинами
-fibers-chameleon = голографічні хамелеонні
+fibers-nitrile = нітрилові
+fibers-nanomachines = ізольовані наномашинові
+fibers-chameleon = голо-хамелеонові
 fibers-rubber = гумові
 
-fibers-purple = фіолетові
+fibers-purple = фіолетовий
 fibers-red = червоні
 fibers-black = чорні
 fibers-blue = сині
@@ -21,5 +21,5 @@ fibers-green = зелені
 fibers-orange = оранжеві
 fibers-white = білі
 fibers-yellow = жовті
-fibers-regal-blue = королівські сині
+fibers-regal-blue = сині
 fibers-olive = оливкові

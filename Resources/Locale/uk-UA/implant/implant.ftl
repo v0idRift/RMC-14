@@ -1,21 +1,30 @@
 ## Implanter Attempt Messages
 
-implanter-component-implanting-target = {$user} пробує імплантувати у вас щось!
-implanter-component-implant-failed = {$implant} не може бути імплантованим у {$target}!
-implanter-draw-failed-permanent = {$implant} злився з {$target} й не може бути деімплантованим!
-implanter-draw-failed = Ви спробували витягнути імплант, але його не було в паціенті.
-implanter-component-implant-already = {$target} вже має {$implant}!
-implanter-draw-text = Витягнути
-implanter-inject-text = Ввести
+implanter-component-implanting-target = {$user} намагається вам щось нав'язати!
+implanter-component-implant-failed = {$implant} не може бути вставлений {$target}!
+implanter-draw-failed-permanent = {$implant} у {$target} злився з ними і не може бути видалений!
+implanter-draw-failed = Ви намагалися видалити імплантат, але нічого не знайшли.
 
-implanter-empty-text = Порожня
+## ІНТЕРФЕЙС
+implanter-component-implant-already = {$target} вже має імплант {$implant}!
 
-implanter-label = [color=green]{$implantName}[/color]
-    Режим: [color=white]{$modeString}[/color]
+## UI
+implanter-draw-text = Жеребкування
+implanter-inject-text = Ін'єкція
+
+implanter-empty-text = Ні
+
+implanter-label = Імплантат: [color=green]{$implantName}[/color] | [color=white]{$modeString}[/color]{$lineBreak}{$implantDescription}
 
 implanter-contained-implant-text = [color=green]{$desc}[/color]
 
-scramble-implant-activated-popup = Ваш вигляд швидко змінюється!
+## Спливаючі вікна імплантатів
 
-deathrattle-implant-dead-message = {$user} вмер на координатах {$position}.
-deathrattle-implant-critical-message = життєві показники {$user} критичні, медічна допомога потрібна у {$position}.
+## Спливаючі вікна імплантатів
+
+scramble-implant-activated-popup = Ваша зовнішність змінюється і змінюється!
+
+## Повідомлення про імплантацію
+
+deathrattle-implant-dead-message = {$user} загинув у {$position}.
+deathrattle-implant-critical-message = Життєві показники {$user} критичні, необхідна негайна допомога у {$position}.

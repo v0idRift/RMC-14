@@ -1,2 +1,2 @@
-action-popup-combat-disabled = Режим бою вимкнуто
-action-popup-combat-enabled = Режим бою увімкнуто
+action-popup-combat-disabled = Бойовий режим вимкнено
+action-popup-combat-enabled = Бойовий режим активовано

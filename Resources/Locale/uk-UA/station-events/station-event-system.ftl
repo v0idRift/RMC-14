@@ -1,4 +1,4 @@
 ## BasicStationEventSchedulerSystem
 
-station-event-system-run-event = Запускаємо подію {$eventName}
-station-event-system-run-random-event-no-valid-events = Не надано правильних подій
+station-event-system-run-event = Запуск події { $eventName }
+station-event-system-run-random-event-no-valid-events = Не було вказано жодного дійсного івенту

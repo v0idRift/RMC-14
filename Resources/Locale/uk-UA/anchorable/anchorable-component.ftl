@@ -1,3 +1,3 @@
-anchorable-anchored = Пригвинчено
-anchorable-unanchored = Відгвинчено
-anchorable-occupied = Тайл зайнятий
+anchorable-anchored = Прикручено
+anchorable-unanchored = Відкручено
+anchorable-occupied = Плитка зайнята

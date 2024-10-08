@@ -1,33 +1,33 @@
 nukeops-title = Ядерні оперативники
-nukeops-description = Ядерні оперативники націлилися на станцію. Захистить диск ядерної активації та не дайте їм підірвати ядерну боєголовку
+nukeops-description = Оперативники націлилися на станцію. Спробуйте утримати їх від озброєння та детонації ядерної бомби, захистивши ядерний диск!
 
-nukeops-welcome = Ви - Ядерний Оперативник. Ваша ціль - підірвати {$station}, та впевнетися що від неї не залишиться і камінця. Ваш наймач, Синдикат, забезпечив вас потрібними речима.
-    Операція {$name} розпочата ! Смерть НаноТрайзен!
+nukeops-welcome = Ви ядерний оперативник. Ваша місія підірвати станцію - {$station}, і переконайтеся, що це не що інше, як купа уламків. Ваші боси, Синдикат, надали вам інструменти, необхідні для виконання завдання.
+    Операція {$name} почалась! Смерть Нанотрайзен!
 
-nukeops-opsmajor = [color=crimson]Мажорна перемога Синдикату![/color]
-nukeops-opsminor = [color=crimson]Мінорна перемога Синдикату![/color]
-nukeops-neutral = [color=yellow]Нічия![/color]
-nukeops-crewminor = [color=green]Мінорна перемога екіпажу![/color]
-nukeops-crewmajor = [color=green]Мажорна перемога екіпажу![/color]
+nukeops-opsmajor = [color=crimson]Тотальна перемога синдикату![/color]
+nukeops-opsminor = [color=crimson]Незначна перемога синдикату![/color]
+nukeops-neutral = [color=yellow]Нейтральний результат![/color]
+nukeops-crewminor = [color=green]Незначна перемога екіпажу![/color]
+nukeops-crewmajor = [color=green]Тотальна перемога екіпажу![/color]
 
-nukeops-cond-nukeexplodedoncorrectstation = The nuclear operatives managed to blow up the station.
-nukeops-cond-nukeexplodedonnukieoutpost = The nuclear operative outpost was destroyed by a nuclear blast.
-nukeops-cond-nukeexplodedonincorrectlocation = The nuclear bomb was detonated off-station.
-nukeops-cond-nukeactiveinstation = The nuclear bomb was left armed on-station.
-nukeops-cond-nukeactiveatcentcom = The nuclear bomb was delivered to Central Command!
-nukeops-cond-nukediskoncentcom = The crew escaped with the nuclear authentication disk.
-nukeops-cond-nukedisknotoncentcom = The crew left the nuclear authentication disk behind.
-nukeops-cond-nukiesabandoned = The nuclear operatives were abandoned.
-nukeops-cond-allnukiesdead = All nuclear operatives have died.
-nukeops-cond-somenukiesalive = Some nuclear operatives died.
-nukeops-cond-allnukiesalive = No nuclear operatives died.
+nukeops-cond-nukeexplodedoncorrectstation = Оперативники підірвали станцію.
+nukeops-cond-nukeexplodedonnukieoutpost = Форпост оперативників було знищено.
+nukeops-cond-nukeexplodedonincorrectlocation = Ядерна бомба була підірвана поза станцією.
+nukeops-cond-nukeactiveinstation = Ядерну бомбу залишили на станції.
+nukeops-cond-nukeactiveatcentcom = Ядерну бомбу доставили до ЦК!
+nukeops-cond-nukediskoncentcom = Екіпаж втік разом з диском.
+nukeops-cond-nukedisknotoncentcom = Екіпаж залишив ядерний диск автентифікації.
+nukeops-cond-nukiesabandoned = Оперативник були полишені.
+nukeops-cond-allnukiesdead = Всі оперативники померли
+nukeops-cond-somenukiesalive = Хтось з опертивників помер.
+nukeops-cond-allnukiesalive = Жоден з оперативників не помер.
 
-nukeops-list-start = The operatives were:
+nukeops-list-start = Оперативниками були:
 nukeops-list-name = - [color=White]{$name}[/color]
 nukeops-list-name-user = - [color=White]{$name}[/color] ([color=gray]{$user}[/color])
-nukeops-not-enough-ready-players = Not enough players readied up for the game! There were {$readyPlayersCount} players readied up out of {$minimumPlayers} needed. Can't start Nukeops.
-nukeops-no-one-ready = No players readied up! Can't start Nukeops.
+nukeops-not-enough-ready-players = Не вистачає гравців для запуску гри! Є {$readyPlayersCount} гравців готових але потрібно {$minimumPlayers}. Неможливо почати.
+nukeops-no-one-ready = Ніхто не проголосував! Не можливо запустити оперативнків.
 
-nukeops-role-commander = Commander
-nukeops-role-agent = Agent
-nukeops-role-operator = Operator
+nukeops-role-commander = Командир
+nukeops-role-agent = Агент
+nukeops-role-operator = Оперативник

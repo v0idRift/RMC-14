@@ -1,2 +1,2 @@
 sandbox-title = Пісочниця
-sandbox-description = Без стресу, просто збудуй щось!
+sandbox-description = Без стресу, будуйте щось!

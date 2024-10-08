@@ -1,11 +1,11 @@
-advertisement-ammo-1 = Станція Визволення: Магазин номер один для всього що пов'язано з другою поправкою!
-advertisement-ammo-2 = Будь патріотом вже сьогодні - візьми свій ствол!
-advertisement-ammo-3 = Якісна зброя по низький ціні!
-advertisement-ammo-4 = Краще мертвий, ніж червоний!
-advertisement-ammo-5 = Літай як астронавт, жаль як куля!
-advertisement-ammo-6 = Подякуй другій поправці!
-advertisement-ammo-7 = Зброя не вбиває людей, але ти можеш!
-advertisement-ammo-8 = Яка ще відповідальність, ви бачили розмір мого ствола?
-advertisement-ammo-9 = Смерть це весело!
-advertisement-ammo-10 = Нумо, підемо вб'ємо їх всіх!
+advertisement-ammo-1 = Liberation Station: ваше єдиний вибір для всього, що стосується другого шансу!
+advertisement-ammo-2 = Будь патріотом вже сьогодні, бери зброю в руки!
+advertisement-ammo-3 = Якісна таки зброя за доступними цінами!
+advertisement-ammo-4 = Краще мертвий ніж комуніст!
+advertisement-ammo-5 = Пурхай, як космонавт, жаль, як бджола!
+advertisement-ammo-6 = вислови своє останнє попередження вже сьогодні!
+advertisement-ammo-7 = Зброя не вбиває людей, але ви можете!
+advertisement-ammo-8 = Кому потрібна відповідальність, якщо у вас є зброя?
+advertisement-ammo-9 = Вбивати людей - це весело!
+advertisement-ammo-10 = Іди, розстріляй їх!
 

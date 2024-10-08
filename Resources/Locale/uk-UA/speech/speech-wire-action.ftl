@@ -1,1 +1,1 @@
-wire-speech-pulse = {CAPITALIZE($name)} дзижчить
+wire-speech-pulse = {CAPITALIZE(THE($name))} видає дзижчання

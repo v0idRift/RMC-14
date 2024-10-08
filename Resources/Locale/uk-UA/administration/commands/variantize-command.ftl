@@ -1,2 +1,2 @@
-﻿variantize-command-description = Randomizes all tile variants on a given grid.
-variantize-command-help-text = variantize <grid id>
+variantize-command-description = Випадковим чином виставляє всі варіанти плиток на заданій сітці.
+variantize-command-help-text = variantize <id сітки>

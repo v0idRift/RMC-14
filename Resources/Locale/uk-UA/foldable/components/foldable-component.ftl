@@ -1,10 +1,10 @@
 # Foldable
 
-foldable-deploy-fail = Ви не можете розібрати {$object} тут.
-fold-verb = Зібрати
-unfold-verb = Розібрати
+foldable-deploy-fail = Ви не можете розгорнути {$object} тут.
+fold-verb = Скласти
+unfold-verb = Розгорнути
 
 fold-flip-verb = Перевернути
 
-fold-zip-verb = Застебнути
-fold-unzip-verb = Розстебнути
+fold-zip-verb = Застібни блискавку
+fold-unzip-verb = Розстібни блискавку

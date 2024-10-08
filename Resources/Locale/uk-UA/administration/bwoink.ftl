@@ -1,16 +1,16 @@
-bwoink-user-title = Повідомлення від Адміністрації
+bwoink-user-title = Повідомлення адмінів
 
-bwoink-system-starmute-message-no-other-users = *Система: Немає адмінів у мережі. Повідомте їм у дискорд.
+bwoink-system-starmute-message-no-other-users = *СИСТЕМА: Нікому отримати повідомлення. Звернись у дискорді.
 
-bwoink-system-messages-being-relayed-to-discord = Ваше повідомлення було переправлено в Дискорд.
-    Проблема може рішитися без повідомленнь.
+bwoink-system-messages-being-relayed-to-discord = Повідомлення відправляються адмінам у Дискорд.
+    Відповідь може зайняти час.
 
 bwoink-system-typing-indicator = {$players} {$count ->
-[one] пише
-*[other] пишуть
-}...
+[one] друкує
+*[other] друкують
+} ...
 
-admin-bwoink-play-sound = Бвойньк?
+admin-bwoink-play-sound = Бвінк?
 
 bwoink-title-none-selected = Не обрано
 

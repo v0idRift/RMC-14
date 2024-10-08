@@ -1,1 +1,1 @@
-action-name-mapping-erase = Стерти сутність
+action-name-mapping-erase = Стерти суб'єкт

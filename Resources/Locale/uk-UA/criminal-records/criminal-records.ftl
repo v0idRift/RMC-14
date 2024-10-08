@@ -1,29 +1,29 @@
-criminal-records-console-window-title = Консоль записей
+criminal-records-console-window-title = Консоль Кримінальних записів
 criminal-records-console-records-list-title = Екіпаж
-criminal-records-console-select-record-info = Обрати запис.
-criminal-records-console-no-records = Нема записів!
-criminal-records-console-no-record-found = Не знайдено записів під результат пошуку.
+criminal-records-console-select-record-info = Вибрати запис
+criminal-records-console-no-records = Записів не знайдено!
+criminal-records-console-no-record-found = Для даної особи не знайдено записів.
 
 ## Status
 
 criminal-records-console-status = Статус
-criminal-records-status-none = Вільний
-criminal-records-status-wanted = Розшук
-criminal-records-status-detained = Затриманий
-criminal-records-status-suspected = Підозрюваний
-criminal-records-status-discharged = Звільнений
-criminal-records-status-paroled = УДЗ
+criminal-records-status-none = Відсутній
+criminal-records-status-wanted = У розшуку
+criminal-records-status-detained = Затримано
+criminal-records-status-suspected = Підозра
+criminal-records-status-discharged = Звільнено
+criminal-records-status-paroled = Умовно-достроково
 
-criminal-records-console-wanted-reason = [color=gray]Причина розшуку[/color]
-criminal-records-console-suspected-reason = [color=gray]Причина підозри[/color]
-criminal-records-console-reason = Причина
+criminal-records-console-wanted-reason = [color=gray]Підстава для розшуку[/color]
+criminal-records-console-suspected-reason = [color=gray]Підстава для підозри[/color]
+criminal-records-console-reason = Підстава
 criminal-records-console-reason-placeholder = Наприклад: {$placeholder}
 
 ## Crime History
 
-criminal-records-console-crime-history = Історія злочинів
-criminal-records-history-placeholder = Напишіть злочин тут
-criminal-records-no-history = Нема записів.
+criminal-records-console-crime-history = Історія правопорушень
+criminal-records-history-placeholder = Напишіть тут історію правопорушень
+criminal-records-no-history = У цього пасажира чиста історія.
 criminal-records-add-history = Додати
 criminal-records-delete-history = Видалити
 
@@ -31,23 +31,23 @@ criminal-records-permission-denied = Немає доступу
 
 ## Security channel notifications
 
-criminal-records-console-wanted = {$name} розшукується {$officer} за: {$reason}.
-criminal-records-console-suspected = {$officer} позначив {$name} як підозрюваного за: {$reason}
-criminal-records-console-not-suspected = {$name} більше не підозрюваний.
-criminal-records-console-detained = {$name} був затриманий {$officer}.
-criminal-records-console-released = {$name} був відпущений {$officer}.
-criminal-records-console-not-wanted = {$name} більше не розшукується.
-criminal-records-console-paroled = {$name} був випущений чи УДЗ {$officer}.
-criminal-records-console-not-parole = {$name} більше не на УДЗ.
-criminal-records-console-unknown-officer = <невідомим офіцером>
+criminal-records-console-wanted = {$name} подано у розшук офіцером {$officer} за: {$reason}.
+criminal-records-console-suspected = {$name} позначено як підозрілу особу офіцером {$officer} через: {$reason}
+criminal-records-console-not-suspected = {$name} більше не в підозрі.
+criminal-records-console-detained = {$name} було затримано офіцером {$officer}.
+criminal-records-console-released = {$name} було звільнено офіцером {$officer}.
+criminal-records-console-not-wanted = {$name} більше не у розшуку.
+criminal-records-console-paroled = {$name} звільнено достроково офіцером {$officer}.
+criminal-records-console-not-parole = {$name} більше не значиться як "звільнено достроково".
+criminal-records-console-unknown-officer = <невідомий офіцер>
 
 ## Filters
 
-criminal-records-filter-placeholder = Введить текст та натисніть "Enter"
-criminal-records-name-filter = Ім'я
+criminal-records-filter-placeholder = Наберіть текст на натисніть "Enter"
+criminal-records-name-filter = Імʼя
 criminal-records-prints-filter = Відбитки
 criminal-records-dna-filter = ДНК
 
 ## Arrest auto history lines
-criminal-records-console-auto-history = ЗАТРИМАНИЙ: {$reason}
-criminal-records-console-unspecified-reason = <причина не обрана>
+criminal-records-console-auto-history = АРЕСТ: {$reason}
+criminal-records-console-unspecified-reason = <не зазначено причину>

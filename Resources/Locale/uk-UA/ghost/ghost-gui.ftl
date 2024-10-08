@@ -1,19 +1,19 @@
-ghost-gui-return-to-body-button = Повернутися до тіла
-ghost-gui-ghost-warp-button = Телепортуватися
-ghost-gui-ghost-roles-button = Ролі для привідів ({$count})
+ghost-gui-return-to-body-button = Повернутися у тіло
+ghost-gui-ghost-warp-button = Примарний портал
+ghost-gui-ghost-roles-button = Ролі привидів ({$count})
 ghost-gui-toggle-ghost-visibility-popup-on = Enabled visibility of ghosts.
 ghost-gui-toggle-ghost-visibility-popup-off = Disabled visibility of ghosts.
-ghost-gui-toggle-lighting-manager-popup = Перемкнуто світло.
-ghost-gui-toggle-fov-popup = Перемкнуто поле зору.
+ghost-gui-toggle-lighting-manager-popup = Переключено все освітлення.
+ghost-gui-toggle-fov-popup = Переключено поле зору.
 
-ghost-gui-toggle-hearing-popup-on = Ви тепер чуєте усі повідомлення.
-ghost-gui-toggle-hearing-popup-off = Ви тепер чуєте тільки рацію та повідомлення поряд.
+ghost-gui-toggle-hearing-popup-on = Тепер ви можете прослухати всі повідомлення.
+ghost-gui-toggle-hearing-popup-off = Тепер ви можете чути лише радіо та повідомлення поблизу.
 
-ghost-target-window-title = Телепортуватися
-ghost-target-window-current-button = До: {$name}
+ghost-target-window-title = Примарний портал
+ghost-target-window-current-button = Переміститися: {$name}
 ghost-target-window-warp-to-most-followed = Найвідстежуваний
 
-ghost-roles-window-title = Ролі для привидів
+ghost-roles-window-title = Ролі привидів
 ghost-roles-window-join-raffle-button = Приєднатися до розіграшу
 ghost-roles-window-raffle-in-progress-button = Приєднатися (залишилося {$time}, { $players ->
          [one] {$players} гравець
@@ -23,11 +23,11 @@ ghost-roles-window-leave-raffle-button = Залишити (залишилося 
          [one] {$players} гравець
         *[other] {$players} гравців
     })
-ghost-roles-window-request-role-button = Запросити
-ghost-roles-window-request-role-button-timer = Запросити через ({$time}с)
+ghost-roles-window-request-role-button = Заявка
+ghost-roles-window-request-role-button-timer = Заявка ({$time}s)
 ghost-roles-window-follow-role-button = Слідувати
-ghost-roles-window-no-roles-available-label = Зараз немає ролей для привидів.
-ghost-roles-window-rules-footer = Кнопка буде доступна через {$time} секунд (цій таймер потрібен для того щоб ви прочитали правила).
+ghost-roles-window-no-roles-available-label = Наразі немає доступних ролей для привидів.
+ghost-roles-window-rules-footer = Кнопка буде активна після {$time} секунд (затримка зроблена для того, щоб ви встигли прочитали правила).
 
-ghost-return-to-body-title = Повернутися в тіло
-ghost-return-to-body-text = Вас було реанімовано! Повернутися в тіло?
+ghost-return-to-body-title = Повернутися у тіло
+ghost-return-to-body-text = Вас було відроджено! Повернутися у тіло?

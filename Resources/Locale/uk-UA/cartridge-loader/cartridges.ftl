@@ -1,21 +1,21 @@
 device-pda-slot-component-slot-name-cartridge = Картридж
 
-default-program-name = Застосунок
-notekeeper-program-name = Нотатник
-news-read-program-name = Новини
+default-program-name = Програма
+notekeeper-program-name = Заміки
+news-read-program-name = Новини станції станції
 
 crew-manifest-program-name = Маніфест екіпажу
-crew-manifest-cartridge-loading = Завантажується ...
+crew-manifest-cartridge-loading = Загрузка ...
 
-net-probe-program-name = NetProbe
-net-probe-scan = Просканував {$device}!
-net-probe-label-name = Ім'я
+net-probe-program-name = НетПроб
+net-probe-scan = Скановано {$device}!
+net-probe-label-name = Імʼя
 net-probe-label-address = Адреса
 net-probe-label-frequency = Частота
-net-probe-label-network = Сіть
+net-probe-label-network = Мережа
 
-log-probe-program-name = LogProbe
-log-probe-scan = Завантажили логі з {$device}!
+log-probe-program-name = ЛогПроб
+log-probe-scan = Викачані логи з {$device}!
 log-probe-label-time = Час
-log-probe-label-accessor = Використано
+log-probe-label-accessor = Доступ до
 log-probe-label-number = #

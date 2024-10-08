@@ -1,11 +1,11 @@
 reagent-name-juice-apple = яблучний сік
-reagent-desc-juice-apple = Маленька частинка Едему.
+reagent-desc-juice-apple = маленький рідкий шматок Едему!
 
 reagent-name-juice-banana = банановий сік
-reagent-desc-juice-banana = Чиста есенція банану. Хонк.
+reagent-desc-juice-banana = рідка лють всіх клунь світу.
 
 reagent-name-juice-berry = ягідний сік
-reagent-desc-juice-berry = Смачна змісь декільких видів ягід.
+reagent-desc-juice-berry = суміш кілької НЕотруйних видів ягід.
 
 reagent-name-juice-blue-pumpkin = blue pumpkin juice
 reagent-desc-juice-blue-pumpkin = The juice of a blue pumpkin. Smells like pool water.
@@ -13,32 +13,32 @@ reagent-desc-juice-blue-pumpkin = The juice of a blue pumpkin. Smells like pool 
 reagent-name-juice-bungo = bungo juice
 reagent-desc-juice-bungo = The juice of a bungo fruit. Exotic!
 
-reagent-name-juice-berry-poison = отруєний ягідний сік
-reagent-desc-juice-berry-poison = A surprisingly tasty juice blended from various kinds of very deadly and toxic berries.
+reagent-name-juice-berry-poison = отруйний ягідний сік
+reagent-desc-juice-berry-poison = Невимовно смачно...але нажаль,останнэ що ти зможеш спробувати в свому житті.
 
-reagent-name-juice-carrot = морквяний сік
-reagent-desc-juice-carrot = It's like a carrot, but less crunchy.
+reagent-name-juice-carrot = моркв'яний сік
+reagent-desc-juice-carrot = точно як морква,але не хрумтить.
 
-reagent-name-juice-grape = виноградній сік
-reagent-desc-juice-grape = Freshly squeezed juice from red grapes. Quite sweet.
+reagent-name-juice-grape = виноградний сік
+reagent-desc-juice-grape = перші кроки до вина!
 
-reagent-name-juice-lemon = лемоний сік
-reagent-desc-juice-lemon = This juice is VERY sour.
+reagent-name-juice-lemon = лимонний сік
+reagent-desc-juice-lemon = яке воно кисле! моє лице скривилося лише від його згадки!
 
 reagent-name-juice-lime = лаймовий сік
-reagent-desc-juice-lime = The sweet-sour juice of limes.
+reagent-desc-juice-lime = солодко-кислий сік лайма
 
 reagent-name-juice-orange = апельсиновий сік
-reagent-desc-juice-orange = Both delicious AND rich in Vitamin C. What more do you need?
+reagent-desc-juice-orange = смачний і корисний
 
 reagent-name-juice-pineapple = ананасовий сік
-reagent-desc-juice-pineapple = Смачний сік із ананаса.
+reagent-desc-juice-pineapple = Часто бачиш ананаси? Тепер зможеш випити один!
 
 reagent-name-juice-potato = картопляний сік
-reagent-desc-juice-potato = Сік з картоплі. Бвє.
+reagent-desc-juice-potato = Сік сирої картоплі?! Ти здурів?
 
 reagent-name-juice-tomato = томатний сік
-reagent-desc-juice-tomato = Томати перероблені в сік. Яка ж витрата томатів.
+reagent-desc-juice-tomato = помідоровий сік? Як на мене звучить краще
 
-reagent-name-juice-watermelon = кавуневий сік
-reagent-desc-juice-watermelon = Смачнющий сік із кавуна.
+reagent-name-juice-watermelon = кавуновий сік
+reagent-desc-juice-watermelon = зі смаком свят та літа!

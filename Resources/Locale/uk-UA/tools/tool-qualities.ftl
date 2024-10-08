@@ -1,35 +1,35 @@
-tool-quality-anchoring-name = Закріпляти
+tool-quality-anchoring-name = Пригвинчування
 tool-quality-anchoring-tool-name = Гайковий ключ
 
-tool-quality-prying-name = Відчинити ломиком
+tool-quality-prying-name = Пересування
 tool-quality-prying-tool-name = Лом
 
-tool-quality-screwing-name = Викручувати
+tool-quality-screwing-name = Викручування
 tool-quality-screwing-tool-name = Викрутка
 
-tool-quality-cutting-name = Різати
+tool-quality-cutting-name = Різання
 tool-quality-cutting-tool-name = Кусачки
 
-tool-quality-welding-name = Зварювати
-tool-quality-welding-tool-name = Зварювальник
+tool-quality-welding-name = Зварювання
+tool-quality-welding-tool-name = Зварювальний апарат
 
-tool-quality-pulsing-name = Пульсувати
-tool-quality-pulsing-tool-name = Тюнер доступу
+tool-quality-pulsing-name = З'єднання
+tool-quality-pulsing-tool-name = Мультитул
 
-tool-quality-slicing-name = Нарізати
+tool-quality-slicing-name = Нарізка
 tool-quality-slicing-tool-name = Ніж
 
-tool-quality-sawing-name = Пиляти
-tool-quality-sawing-tool-name = Пила
+tool-quality-sawing-name = Пиляння
+tool-quality-sawing-tool-name = Пилка
 
-tool-quality-honking-name = Сигналити
+tool-quality-honking-name = Хонкінг
 tool-quality-honking-tool-name = Велосипедний гудок
 
-tool-quality-woodcutting-name = Різати дерево
+tool-quality-woodcutting-name = Дереворубка
 tool-quality-woodcutting-tool-name = Сокира
 
-tool-quality-rolling-name = Качати
+tool-quality-rolling-name = Прокатка
 tool-quality-rolling-tool-name = Качалка
 
-tool-quality-digging-name = Копати
+tool-quality-digging-name = Копання
 tool-quality-digging-tool-name = Лопата

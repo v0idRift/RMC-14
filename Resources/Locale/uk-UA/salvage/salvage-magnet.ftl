@@ -1,38 +1,41 @@
-salvage-system-announcement-losing = Магніт більше не може утримувати уламки. До втрати уламка: {$timeLeft} секунд.
-salvage-system-announcement-spawn-debris-disintegrated = Уламок було знищено під час орбітального переміщення.
-salvage-system-announcement-spawn-no-debris-available = Жодного уламку не було притягнуто магнітом.
-salvage-system-announcement-arrived = Уламок було притягнуто магнітом. До втрати уламка: {$timeLeft} секунд.
+salvage-system-announcement-losing = Магніт більше не в змозі утримувати уламок, який можна зачистити. Приблизний час до втрати: {$timeLeft} секунд.
+salvage-system-announcement-spawn-debris-disintegrated = Уламок розвалився при орбітальному переміщенні.
+salvage-system-announcement-spawn-no-debris-available = Немає уламків, які можна притягнути магнітом.
+salvage-system-announcement-arrived = Частину уламків, які можна зачистити, притягнуто. Приблизний час утримання: {$timeLeft} секунд.
 salvage-asteroid-name = Астероїд
 
-salvage-magnet-window-title = Шахтарський магніт
-salvage-expedition-window-progression = Просування
+salvage-magnet-window-title = Магніт для порятунку
+salvage-expedition-window-progression = Прогресія
 
 salvage-magnet-resources = {$resource ->
-    [OreIron] Зализо
-    [OreCoal] Вугель
-    [OreQuartz] Квартц
+    [OreIron] Залізо
+    [OreCoal] Вугілля
+    [OreQuartz] Кварц
     [OreSalt] Сіль
     [OreGold] Золото
     [OreSilver] Срібло
     [OrePlasma] Плазма
     [OreUranium] Уран
-    [OreArtifactFragment] Фрагменти артефакта
-    [OreBananium] Бананій
+    [OreArtifactFragment] Фрагменти артефактів
     *[other] {$resource}
 }
 
 salvage-magnet-resources-count = {$count ->
-    [1] (Poor)
-    [2] (Moderate)
-    [3] (Moderate)
-    [4] (Rich)
-    [5] (Rich)
-    *[other] (Extraordinary)
+    [1] (Поганий)
+    [2] (Помірний)
+    [3] (Середній)
+    [4] (Багатий)
+    [5] (Багатий)
+    *[other] (Надзвичайне)
 }
-dungeon-config-proto-BlobAsteroid = Asteroid clump
-dungeon-config-proto-ClusterAsteroid = Asteroid cluster
-dungeon-config-proto-SpindlyAsteroid = Asteroid spiral
-dungeon-config-proto-SwissCheeseAsteroid = Asteroid fragments
+
+# Астероїди
+dungeon-config-proto-BlobAsteroid = Скупчення астероїдів
+dungeon-config-proto-ClusterAsteroid = Скупчення астероїдів
+dungeon-config-proto-SpindlyAsteroid = Спіраль астероїда
+dungeon-config-proto-SwissCheeseAsteroid = Уламки астероїдів
+
+# Уламки
 salvage-map-wreck = Salvage wreck
 salvage-map-wreck-desc-size = Розмір:
 salvage-map-wreck-size-small = [color=lime]Малий[/color]

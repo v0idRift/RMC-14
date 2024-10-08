@@ -1,20 +1,20 @@
 # UI
 ban-list-bans = Бани
-ban-list-role-bans = Бани ролей
+ban-list-role-bans = Рольові бани
 
-ban-list-header-ids = Ids
-ban-list-header-reason = Причини
-ban-list-header-role = Ролі
+ban-list-header-ids = Ідентифікатори
+ban-list-header-reason = Причина
+ban-list-header-role = Роль
 ban-list-header-time = Час бану
-ban-list-header-expires = Проходить
-ban-list-header-banning-admin = Забанен
+ban-list-header-expires = Залишилось
+ban-list-header-banning-admin = Забанив адмін
 
-ban-list-title = Бани {$player}
-ban-list-view = Подивитися
+ban-list-title = Бани для {$player}
+ban-list-view = Подивитись
 ban-list-id = ID: {$id}
 ban-list-ip = IP: {$ip}
 ban-list-hwid = HWID: {$hwid}
 ban-list-guid = GUID: {$guid}
-ban-list-permanent = НАЗАВЖДИ
-ban-list-unbanned = Розбанен (коли): {$date}
-ban-list-unbanned-by = (ким) {$unbanner}
+ban-list-permanent = ПОСТІЙНИЙ
+ban-list-unbanned = Розбанено: {$date}
+ban-list-unbanned-by = Ким знято: {$unbanner}

@@ -1,2 +1,2 @@
-objective-condition-spider-charge-title-no-target = Підірвіть павучу бомбу (будь де)
-objective-condition-spider-charge-title = Підірвіть павучу бомбу поряд з {$location}
+objective-condition-spider-charge-title-no-target = Підірвати заряд клану павуків (без цілі)
+objective-condition-spider-charge-title = Підірвати заряд клану павуків у {$location}

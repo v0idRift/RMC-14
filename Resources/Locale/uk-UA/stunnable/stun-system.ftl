@@ -1,2 +1,2 @@
-stunned-component-disarm-success = Ти штовхаєш {$target} на землю!
-stunned-component-disarm-success-others = {CAPITALIZE($source)} штовхає {$target} на землю!
+stunned-component-disarm-success = Ви штовхнули {THE($target)} на підлогу!
+stunned-component-disarm-success-others = {CAPITALIZE(THE($source))} штовхає {THE($target)} на підлогу!

@@ -1,10 +1,10 @@
-guidebook-window-title = Довідник
-guidebook-placeholder-text = Оберить запис.
-guidebook-placeholder-text-2 = Якщо ви новенький - оберить найвищий запис
-guidebook-filter-placeholder-text = Фільтрувати речі
+guidebook-window-title = Путівник
+guidebook-placeholder-text = Виберіть запис.
+guidebook-placeholder-text-2 = Якщо ви новачок, виберіть самий верхній запис, щоб почати
+guidebook-filter-placeholder-text = Фільтрувати елементи
 
 guidebook-parser-error = Помилка парсера
 guidebook-error-message = Помилка
 
-guidebook-monkey-unspin = Розкрутити мавпу
-guidebook-monkey-disco = Діско Мавпа
+guidebook-monkey-unspin = Відкрутити Мавпу
+guidebook-monkey-disco = Диско Мавпа

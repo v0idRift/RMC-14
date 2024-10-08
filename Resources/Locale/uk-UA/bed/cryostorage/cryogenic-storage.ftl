@@ -1,6 +1,6 @@
 
 ### Announcement
 
-earlyleave-cryo-job-unknown =  Невідомий
-earlyleave-cryo-announcement = {$character} ({$job}) перейшов у кріогенний сон!
+earlyleave-cryo-job-unknown = Невідомо
+earlyleave-cryo-announcement = {$character} ({$job}) надійшов у кріогенне сховище!
 earlyleave-cryo-sender = Станція

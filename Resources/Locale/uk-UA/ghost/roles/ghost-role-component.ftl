@@ -1,8 +1,9 @@
 # also used in MakeGhostRuleWindow and MakeGhostRoleCommand
-ghost-role-component-default-rules = Усі звичайні правила діють, якщо адміністрація не сказала інше.
-                                     Ви нічого не пам'ятаєте зі свого минулого життя і непам'ятаєте нічого того, чого ви дізналися поки були привидом.
-                                     You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
-                                     You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
+ghost-role-component-default-rules = Ви не пам'ятаєте [color=red]НІЧОГО[/color] зі свого попереднього життя, виключення обговорюються з адміністрацією.
+                                     Ви можете мати загальні знання про гру (як готувати, як користуватися предметами тощо).
+                                     Вам абсолютно [color=red]ЗАБОРОНЕНО[/color] пам'ятати, говорити, згадувати тощо, про вашого минулого персонажа.
+
+# Delta V soft antag rule
 ghost-role-information-nonantagonist-rules = You are a [color=green][bold]Non-antagonist[/bold][/color]. You should generally not seek to harm the station and its crew.
                                              You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
                                              You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
@@ -25,175 +26,175 @@ ghost-role-information-silicon-rules = You are a [color=#6495ed][bold]Silicon[/b
                                        You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
 
 ghost-role-information-mouse-name = Миша
-ghost-role-information-mouse-description = A hungry and mischievous mouse.
+ghost-role-information-mouse-description = Голодна пустотлива миша.
 
-ghost-role-information-mothroach-name = Ніанотарган
-ghost-role-information-mothroach-description = A cute but mischievous mothroach.
+ghost-role-information-mothroach-name = Тарганоміль
+ghost-role-information-mothroach-description = Милий, але пустотливий тарганоміль.
 
-ghost-role-information-giant-spider-name = Великий павук
-ghost-role-information-giant-spider-description = This station's inhabitants look mighty tasty, and your sticky web is perfect to catch them!
+ghost-role-information-giant-spider-name = Гігантський павук
+ghost-role-information-giant-spider-description = Мешканці цієї станції виглядають дуже смачно, а ваша липка павутина ідеально підходить для того, щоб їх зловити!
 ghost-role-information-giant-spider-rules = Ви [color=red][bold]Командний Антагоніст[/bold][/color], разом зі всіма іншими павуками.
 
-ghost-role-information-cognizine-description = Зроблений розумним завдяки магії когнізину.
+ghost-role-information-cognizine-description = Став свідомим за допомогою магії пізнання.
 
 ghost-role-information-hamster-name = Хом'як
-ghost-role-information-hamster-description = A grumpy little ball of fluff.
+ghost-role-information-hamster-description = Сварлива пухка кулька.
 
-ghost-role-information-hamlet-name = Хом'як Ґамлет.
-ghost-role-information-hamlet-description = Lives in the station bridge, has a bit of a temper and is always hungry.
+ghost-role-information-hamlet-name = Хом'як Гамлет
+ghost-role-information-hamlet-description = Живе на мостику, запальний і завжди голодний.
 
 ghost-role-information-slimes-name = Слайм
-ghost-role-information-slimes-description = An ordinary slime with no special needs or interests. You are friendly to others.
+ghost-role-information-slimes-description = Звичайний слиз без особливих потреб чи інтересів. Ви доброзичливі до інших.
 
 ghost-role-information-angry-slimes-name = Слайм
-ghost-role-information-angry-slimes-description = Everyone around you irritates your instincts, destroy them!
+ghost-role-information-angry-slimes-description = Всі навколо дратують ваші інстинкти, знищіть їх!
 ghost-role-information-angry-slimes-rules = You are a [color=red][bold]Team Antagonist[/bold][/color] with all other angry slimes.
 
-ghost-role-information-smile-name = Слайм Посмішка
-ghost-role-information-smile-description = The sweetest creature in the world. Smile Slime!
+ghost-role-information-smile-name = Слайм Посміхун
+ghost-role-information-smile-description = Наймиліша істота на світі. Слайм Посміхун!
 
 ghost-role-information-punpun-name = Пун Пун
-ghost-role-information-punpun-description = An honorable member of the monkey society in charge of the bar and helping the bartenders in any way he can.
+ghost-role-information-punpun-description = Почесний член мавпячого товариства, який відповідає за бар і допомагає барменам усіма можливими способами.
 
-ghost-role-information-xeno-name = Ксено
-ghost-role-information-xeno-description = You are a xeno, co-operate with your hive to kill all crewmembers!
-ghost-role-information-xeno-rules = You are an antagonist, smack, slash, and wack!
+ghost-role-information-xeno-name = Ксеносс
+ghost-role-information-xeno-description = Ви - ксенос, співпрацюйте зі своїм роєм, щоб вбити всіх членів екіпажу!
+ghost-role-information-xeno-rules = Ви - антагоніст, вбивати, вбивати, вбивати, вбивати, вбивати!
 
 ghost-role-information-revenant-name = Ревенант
-ghost-role-information-revenant-description = You are a Revenant. Use your powers to harvest souls and unleash chaos upon the crew. Unlock new abilities with the essence you harvest.
+ghost-role-information-revenant-description = Ви - Ревенант. Використовуйте свої здібності, щоб збирати душі та сіяти хаос серед екіпажу. Розблокуйте нові здібності за допомогою зібраних душ.
 
-ghost-role-information-kangaroo-name = Kangaroo
-ghost-role-information-kangaroo-description = You're a kangaroo! Do whatever kangaroos do.
+ghost-role-information-kangaroo-name = Кенгуру
+ghost-role-information-kangaroo-description = Ти кенгуру! Роби все, що роблять кенгуру.
 
 ghost-role-information-monkey-name = Мавпа
-ghost-role-information-monkey-description = Ook ook!
+ghost-role-information-monkey-description = Ооокк Ооок!
 
 ghost-role-information-kobold-name = Кобольд
-ghost-role-information-kobold-description = Be the little gremlin you are, yell at people and beg for meat!
+ghost-role-information-kobold-description = Будь маленьким гремліном, кричи на людей і благай м'яса!
 
-ghost-role-information-rat-king-name = Щурячий Король
-ghost-role-information-rat-king-description = You are the Rat King, scavenge food in order to produce rat minions to do your bidding
+ghost-role-information-rat-king-name = Щурячий король
+ghost-role-information-rat-king-description = Ви - Щурячий король, збираєте їжу, щоб створити щурячих слуг, які будуть виконувати ваші накази
 
 ghost-role-information-rat-servant-name = Щурячий слуга
-ghost-role-information-rat-servant-description = You are a Rat Servant. You must follow your king's orders.
+ghost-role-information-rat-servant-description = Ти Щурячий слуга. Ти повинен виконувати накази свого короля.
 
-ghost-role-information-sentient-carp-name = Розумний карп
-ghost-role-information-sentient-carp-description = Help the dragon flood the station with carps!
+ghost-role-information-sentient-carp-name = Портальний карп
+ghost-role-information-sentient-carp-description = Допоможіть дракону заполонити станцію карп!
 
-ghost-role-information-willow-name = Willow the kangaroo
-ghost-role-information-willow-description = You're a kangaroo named willow! willow likes to box.
+ghost-role-information-willow-name = Кенгуру Віллов
+ghost-role-information-willow-description = Ти кенгуру на ім'я Віллоу! Віллоу любить боксувати.
 
-ghost-role-information-honkbot-name = Honkbot
-ghost-role-information-honkbot-description = An artificial being of pure evil.
+ghost-role-information-honkbot-name = Хонкбот
+ghost-role-information-honkbot-description = Штучна істота чистого зла.
 
-ghost-role-information-jonkbot-name = Jonkbot
-ghost-role-information-jonkbot-description = An artificial being of pure evil.
+ghost-role-information-jonkbot-name = Джонкбот
+ghost-role-information-jonkbot-description = Штучна істота чистого зла.
 
-ghost-role-information-mimebot-name = Mimebot
-ghost-role-information-mimebot-description = A Mimebot, act like a mime but dont act like a greytider.
+ghost-role-information-mimebot-name = Мімбот
+ghost-role-information-mimebot-description = Мімбот - поводьтеся як мім, але не як клоун.
 
-ghost-role-information-supplybot-name = SupplyBot
-ghost-role-information-supplybot-description = Deliver goods around the station.
+ghost-role-information-supplybot-name = БотПостачальник
+ghost-role-information-supplybot-description = Розвозять товари по станції.
 
-ghost-role-information-space-bear-name = Space bear
-ghost-role-information-space-bear-description = Your tummy rumbles, and these people look really yummy... What a feast!
-ghost-role-information-tropico-name = Tropico
-ghost-role-information-tropico-description = The noble companion of Atmosia, and its most stalwart defender. Viva!
+ghost-role-information-space-bear-name = Космічний ведмідь
+ghost-role-information-space-bear-description = У вас у животику бурчить, а ці люди дуже смачні... Яке свято!
+ghost-role-information-tropico-name = Тропіко
+ghost-role-information-tropico-description = Благородний супутник Атмосії та її найвідданіший захисник. Віва!
 
-ghost-role-information-guardian-name = Guardian
-ghost-role-information-guardian-description = Listen to your owner. Don't tank damage. Punch people hard.
+ghost-role-information-guardian-name = Охоронець
+ghost-role-information-guardian-description = Слухай свого господаря. Не відволікайся на пошкодження.
 
-ghost-role-information-holoparasite-name = Holoparasite
-ghost-role-information-holoparasite-description = Listen to your owner. Don't tank damage. Punch people hard.
+ghost-role-information-holoparasite-name = Голопаразит
+ghost-role-information-holoparasite-description = Слухай свого господаря. Не відволікайся на пошкодження.
 
-ghost-role-information-holoclown-name = Holoclown
-ghost-role-information-holoclown-description = Listen to your owner. Utilize your pockets and hand to help your owner.
+ghost-role-information-holoclown-name = Голоклоун
+ghost-role-information-holoclown-description = Слухайте свого господаря. Використовуйте кишені та руки, щоб допомогти господареві.
 
-ghost-role-information-ifrit-name = Ifrit
-ghost-role-information-ifrit-description = Listen to your owner. Don't tank damage. Punch people hard.
+ghost-role-information-ifrit-name = Іфріт
+ghost-role-information-ifrit-description = Слухай свого господаря. Не відволікайся на пошкодження.
 
-ghost-role-information-space-dragon-name = Space dragon
-ghost-role-information-space-dragon-description = Call in 3 carp rifts and take over this quadrant! You have only 5 minutes in between each rift before you will disappear.
+ghost-role-information-space-dragon-name = Космічний дракон
+ghost-role-information-space-dragon-description = Викличте 3 портали та захопіть цю станцію! У вас є лише 5 хвилин між кожним порталом, перш ніж ви зникнете.
 ghost-role-information-space-dragon-rules = You are a [color=red][bold]Team Antagonist[/bold][/color] with all your summoned carp.
 ghost-role-information-space-dragon-summoned-carp-rules = You are a [color=red][bold]Team Antagonist[/bold][/color] with your dragon and its allies.
 
-ghost-role-information-space-dragon-dungeon-description = Defend the expedition dungeon with your fishy comrades!
+ghost-role-information-space-dragon-dungeon-description = Захищайте підземелля експедиції разом зі своїми рибними товаришами!
 ghost-role-information-space-dragon-dungeon-rules = You are a [color=red][bold]Team Antagonist[/bold][/color] with all dungeon mobs.
 
-ghost-role-information-cluwne-name = Cluwne
-ghost-role-information-cluwne-description = Become a pitiful cluwne, your only goal in life is to find a sweet release from your suffering (usually by being beaten to death). A cluwne is not an antagonist but may defend itself. Crewmembers may murder cluwnes freely.
+ghost-role-information-cluwne-name = Клуні
+ghost-role-information-cluwne-description = Станьте жалюгідною жертвою, ваша єдина мета в житті - знайти солодке звільнення від страждань (як правило, шляхом побиття до смерті). Клюн не є антагоністом, але може захищатися. Члени екіпажу можуть спокійно вбивати вас.
 
-ghost-role-information-skeleton-pirate-name = Skeleton Pirate
-ghost-role-information-skeleton-pirate-description = Cause chaos and loot the station for treasure.
+ghost-role-information-skeleton-pirate-name = Пірат Скелет
+ghost-role-information-skeleton-pirate-description = Спричинити хаос і розграбовуйте станцію в пошуках скарбів.
 
-ghost-role-information-skeleton-biker-name = Skeleton Biker
-ghost-role-information-skeleton-biker-description = Ride around on your sweet ride.
+ghost-role-information-skeleton-biker-name = Скелет-байкер
+ghost-role-information-skeleton-biker-description = Покатайтеся на своєму крутому мотоциклі.
 
-ghost-role-information-closet-skeleton-name = Closet Skeleton
-ghost-role-information-closet-skeleton-description = Wreak havoc! You are a primordial force with no allegiance. Live happily with the crew or wage sweet skeletal war.
+ghost-role-information-closet-skeleton-name = Шафовий Скелет
+ghost-role-information-closet-skeleton-description = Сіяти хаос! Ви — споконвічна сила без вірності. Живіть щасливо з екіпажем або ведіть солодку війну скелетів
 
-ghost-role-information-remilia-name = Remilia, the chaplain's familiar
-ghost-role-information-remilia-description = Obey your master. Eat fruit.
+ghost-role-information-remilia-name = Ремілія, фамільяр капелана
+ghost-role-information-remilia-description = Слухайся свого господаря. Їж фрукти.
 
-ghost-role-information-cerberus-name = Cerberus, Evil Familiar
-ghost-role-information-cerberus-description = Obey your master. Spread chaos.
+ghost-role-information-cerberus-name = Цербер, злий фамільяр
+ghost-role-information-cerberus-description = Слухайся свого господаря. Сій хаос.
 
-ghost-role-information-ert-leader-name = ERT Leader
-ghost-role-information-ert-leader-description = Lead a team of specialists to resolve the stations issues.
+ghost-role-information-ert-leader-name = ГШР Лідер
+ghost-role-information-ert-leader-description = Керувати командою спеціалістів для вирішення питань, пов'язаних зі станціями.
 
-ghost-role-information-ert-chaplain-name = ERT Chaplain
-ghost-role-information-ert-chaplain-description = Assist with mourning to resolve the station's crew moral issues.
+ghost-role-information-ert-chaplain-name = Капелан екстреної медичної допомоги
+ghost-role-information-ert-chaplain-description = Допомагати в жалобі, щоб вирішити моральні проблеми екіпажу станції.
 
-ghost-role-information-ert-janitor-name = ERT Janitor
-ghost-role-information-ert-janitor-description = Assist with custodial efforts to resolve the stations issues.
+ghost-role-information-ert-janitor-name = ГШР Прибиральник
+ghost-role-information-ert-janitor-description = Допомагати у вирішенні питань, пов'язаних зі збереженням станцій.
 
-ghost-role-information-ert-engineer-name = ERT Engineer
-ghost-role-information-ert-engineer-description = Assist with engineering efforts to resolve the stations issues.
+ghost-role-information-ert-engineer-name = ГШР Інженер
+ghost-role-information-ert-engineer-description = Допомагати з інженерними зусиллями для вирішення проблем зі станціями.
 
-ghost-role-information-ert-security-name = ERT Security
-ghost-role-information-ert-security-description = Assist with security efforts to resolve the stations issues.
+ghost-role-information-ert-security-name = ГШР Охоронець
+ghost-role-information-ert-security-description = Допомагати у вирішенні питань безпеки на станціях.
 
-ghost-role-information-ert-medical-name = ERT Medical
-ghost-role-information-ert-medical-description = Assist with medical efforts to resolve the stations issues.
+ghost-role-information-ert-medical-name = ГШР Медик
+ghost-role-information-ert-medical-description = Допомагати з медикаментозним забезпеченням для вирішення проблем станцій.
 
-ghost-role-information-cburn-agent-name = CBURN Agent
-ghost-role-information-cburn-agent-description = A highly trained CentCom agent, capable of dealing with various threats.
+ghost-role-information-cburn-agent-name = РХБЗ Агент
+ghost-role-information-cburn-agent-description = Висококваліфікований агент ЦК, здатний протистояти різним загрозам
 
-ghost-role-information-centcom-official-name = CentComm official
-ghost-role-information-centcom-official-description = Perform CentComm related duties such as inspect the station, jotting down performance reviews for heads of staff, and managing the fax machine.
+ghost-role-information-centcom-official-name = Представник ЦК
+ghost-role-information-centcom-official-description = Огляньте станцію, запишіть відгуки про роботу керівників, поставте прослушку капітану.
 
-ghost-role-information-nukeop-rules = You are a syndicate operative tasked with the destruction of the station. As an antagonist, do whatever is required to complete this task.
+ghost-role-information-nukeop-rules = Ви — оперативник синдикату, якому доручено знищити станцію. Як антагоніст, зробіть усе необхідне для виконання цього завдання.
 
-ghost-role-information-loneop-name = Lone Operative
-ghost-role-information-loneop-description = You are a lone nuclear operative. Destroy the station!
-ghost-role-information-loneop-rules = You are a syndicate operative tasked with the destruction of the station. As an antagonist, do whatever is required to complete this task.
+ghost-role-information-loneop-name = Самотній оперативник
+ghost-role-information-loneop-description = Ви самотній ядерний оперативник. Знищити станцію!
+ghost-role-information-loneop-rules = Ви — оперативник синдикату, якому доручено знищити станцію. Як антагоніст, зробіть усе необхідне для виконання цього завдання.
 
-ghost-role-information-behonker-name = Behonker
-ghost-role-information-behonker-description = You are an antagonist, bring death and honks to those who do not follow the honkmother.
+ghost-role-information-behonker-name = Бехонкер
+ghost-role-information-behonker-description = Ти - антагоніст, ти несеш смерть і хонк тим, хто не слідує за хонк-матір'ю.
 
-ghost-role-information-hellspawn-name = Hellspawn
-ghost-role-information-hellspawn-description = You are an antagonist, bring death to those who do not follow the great god Nar'Sie.
+ghost-role-information-hellspawn-name = Пекельний відродок
+ghost-role-information-hellspawn-description = Ви провісник Нар'Сі, і даруєте смерть всім хто стане вам на шляху.
 
-ghost-role-information-Death-Squad-name = Death Squad Operative
-ghost-role-information-Death-Squad-description = One of Nanotrasen's top internal affairs agents. Await orders from CentComm or an official.
+ghost-role-information-Death-Squad-name = Загін Смерті
+ghost-role-information-Death-Squad-description = Готуйтеся до повного наступу на станцію. Як озброєний до зубів оперативник, ваша місія — знищити все живе на своєму шляху. Без свідків.
 ghost-role-information-Death-Squad-rules = You are required to obey orders given by your superior, you are effectively their [color=#6495ed][bold]Familiar[/bold][/color].
 
-ghost-role-information-SyndiCat-name = SyndiCat
-ghost-role-information-SyndiCat-description = You're the faithful trained pet of nuclear operatives with a microbomb. Serve your master to the death!
-ghost-role-information-SyndiCat-rules = You're the faithful trained pet of nuclear operatives with a microbomb. Serve your master to the death!
+ghost-role-information-SyndiCat-name = СиндіКіт
+ghost-role-information-SyndiCat-description = Ви вірний навчений вихованець ядерників з мікробомбою. Служіть своєму панові до смерті!
+ghost-role-information-SyndiCat-rules = Ви вірний навчений вихованець ядерників з мікробомбою. Служіть своєму панові до смерті!
 
-ghost-role-information-Cak-name = Cak
-ghost-role-information-Cak-description = You are the chef's favorite child. You're a living cake cat.
+ghost-role-information-Cak-name = Кірт
+ghost-role-information-Cak-description = Ви улюблена дитина шеф-кухаря. Ти живий тортовий кіт.
 
-ghost-role-information-BreadDog-name = BreadDog
-ghost-role-information-BreadDog-description = You are the chef's favorite child. You're a living bread dog.
+ghost-role-information-BreadDog-name = Хлібний пес
+ghost-role-information-BreadDog-description = Ви улюблена дитина шеф-кухаря. Ти живий хлібо-собака.
 
-ghost-role-information-space-ninja-name = Space Ninja
-ghost-role-information-space-ninja-description = Use stealth and deception to sabotage the station.
+ghost-role-information-space-ninja-name = Космічний ніндзя
+ghost-role-information-space-ninja-description = Використовуйте скритність і обман, щоб диверсувати станцію.
 
-ghost-role-information-syndicate-reinforcement-name = Syndicate Agent
-ghost-role-information-syndicate-reinforcement-description = Someone needs reinforcements. You, the first person the syndicate could find, will help them.
-ghost-role-information-syndicate-reinforcement-rules = Normal syndicate antagonist rules apply. Work with whoever called you in, and don't harm them.
+ghost-role-information-syndicate-reinforcement-name = Агент синдикату
+ghost-role-information-syndicate-reinforcement-description = Комусь потрібне підкріплення. Ви, перший, кого зможе знайти синдикат, допоможете їм.
+ghost-role-information-syndicate-reinforcement-rules = Застосовуються звичайні правила антагоністів синдикату. Працюйте з тими, хто вас викликав, і не завдавайте їм шкоди.
 
 ghost-role-information-syndicate-reinforcement-medic-name = Syndicate Medic
 ghost-role-information-syndicate-reinforcement-medic-description = Someone needs reinforcements. Your task is to keep the agent who called you alive.
@@ -208,9 +209,9 @@ ghost-role-information-nukeop-reinforcement-name = Nuclear Operative
 ghost-role-information-nukeop-reinforcement-description = The nuclear operatives need reinforcements. You, a reserve agent, will help them.
 ghost-role-information-nukeop-reinforcement-rules = You are a [color=red][bold]Team Antagonist[/bold][/color] with the nuclear operatives who summoned you.
 
-ghost-role-information-syndicate-monkey-reinforcement-name = Syndicate Monkey Agent
-ghost-role-information-syndicate-monkey-reinforcement-description = Someone needs reinforcements. You, a trained monkey, will help them.
-ghost-role-information-syndicate-monkey-reinforcement-rules = Normal syndicate antagonist rules apply. Work with whoever called you in, and don't harm them.
+ghost-role-information-syndicate-monkey-reinforcement-name = Агент Синдикату Мавп
+ghost-role-information-syndicate-monkey-reinforcement-description = Комусь потрібне підкріплення. Ви, дресирована мавпочка, будете їм допомагати.
+ghost-role-information-syndicate-monkey-reinforcement-rules = Застосовуються звичайні правила антагоністів синдикату. Працюйте з тими, хто вас викликав, і не завдавайте їм шкоди.
 
 ghost-role-information-lost-cargo-technical-name = Lost Cargo Technician
 ghost-role-information-lost-cargo-technical-description = Something went wrong and your cargo shuttle with the goods was beamed into the sector to another station.
@@ -231,9 +232,9 @@ ghost-role-information-syndicate-kobold-reinforcement-name = Syndicate Kobold Ag
 ghost-role-information-syndicate-kobold-reinforcement-description = Someone needs reinforcements. You, a trained kobold, will help them.
 ghost-role-information-syndicate-kobold-reinforcement-rules = Normal syndicate antagonist rules apply. Work with whoever called you in, and don't harm them.
 
-ghost-role-information-artifact-name = Розумний Артефакт
-ghost-role-information-artifact-description = Enact your eldritch whims.
-      Forcibly activate your nodes for good or for evil.
+ghost-role-information-artifact-name = Чуттєвий артефакт
+ghost-role-information-artifact-description = Втілюйте свої елдричні забаганки.
+      Примусово активуйте свої вузли на добро чи на зло.
 
 ghost-role-information-syndie-assaultborg-name = Syndicate Assault Borg
 ghost-role-information-syndie-assaultborg-description = Nuclear operatives needs reinforcements. You, a cold silicon killing machine, will help them. More dakka!

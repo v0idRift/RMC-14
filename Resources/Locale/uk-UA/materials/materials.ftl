@@ -1,34 +1,44 @@
 # Glass
 materials-glass = скло
 materials-reinforced-glass = армоване скло
-materials-plasma-glass = плазмоскло
-materials-reinforced-plasma-glass = армоване плазмоскло
+materials-plasma-glass = плазмове скло
+materials-reinforced-plasma-glass = армоване плазмове скло
+
+# Метали
 materials-steel = сталь
 materials-gold = золото
 materials-silver = срібло
 materials-plasteel = пласталь
+
+# Інше
+
+# Інше
 materials-biomass = біомаса
 materials-cardboard = картон
 materials-cloth = тканина
-materials-durathread = армована тканина
+materials-durathread = міцна нитка
 materials-plasma = плазма
 materials-plastic = пластик
-materials-wood = дерево
+materials-wood = деревина
 materials-paper = папір
 materials-uranium = уран
-materials-bananium = бананій
+materials-bananium = банан
 materials-meat = м'ясо
 materials-web = шовк
-materials-bones = кість
+materials-bones = кістка
 materials-coal = вугілля
+
+# Руди
+
+# Руди
 materials-diamond = алмаз
 materials-gunpowder = порох
-materials-raw-iron = необроблене залізо
-materials-raw-quartz = необроблений кварц
-materials-raw-gold = необроблене золото
-materials-raw-silver = необроблено срібло
-materials-raw-plasma = необроблена плазма
-materials-raw-uranium = необроблений уран
-materials-raw-bananium = необроблений бананій
-materials-raw-salt = необроблена сіль
+materials-raw-iron = сире залізо
+materials-raw-quartz = кварц-сирець
+materials-raw-gold = сире золото
+materials-raw-silver = чисте срібло
+materials-raw-plasma = сира плазма
+materials-raw-uranium = сирий уран
+materials-raw-bananium = сирий банан
+materials-raw-salt = неочищена сіль
 materials-raw-diamond = необроблений алмаз

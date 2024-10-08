@@ -1,3 +1,3 @@
-deconstructible-verb-begin-deconstruct = Розібрати 
-deconstructible-verb-activate-no-target-text = Ви не можете це розібрати.
-deconstructible-verb-activate-text = Одивитися щоб побачити інструкції.
+deconstructible-verb-begin-deconstruct = Почати розбірку 
+deconstructible-verb-activate-no-target-text = Немає способу це розібрати.
+deconstructible-verb-activate-text = Роздивіться щоб побачити інструкції.

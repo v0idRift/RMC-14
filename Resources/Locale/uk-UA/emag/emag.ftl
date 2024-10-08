@@ -1,2 +1,2 @@
-emag-success = Картка замкнула проводку в {THE($target)}.
-emag-no-charges = Нема заряду!
+emag-success = Картка записує щось у {THE($target)}.
+emag-no-charges = Зарядів не залишилося!

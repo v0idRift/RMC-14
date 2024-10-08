@@ -11,7 +11,7 @@ units-si = {""}
 units-si-k = к
 units-si-m = М
 units-si-g = Г
-units-si-t = Т
+units-si-t = Ь
 units-si-p = П
 units-si-e = Е
 units-si-z = З
@@ -34,7 +34,7 @@ units-si-t-long = тера
 units-si-p-long = пета
 units-si-e-long = екса
 units-si-z-long = зета
-units-si-y-long = йото
+units-si-y-long = йота
 
 ## Pascals (Pressure)
 units-u--pascal = мкПа
@@ -87,9 +87,9 @@ units-k-kelvin = кК
 units-m-kelvin = МК
 units-g-kelvin = ГК
 
-units-u--kelvin-long = Мікрокелвін
-units-m--kelvin-long = Мілікелвін
-units-kelvin-long = Келвін
-units-k-kelvin-long = Кілокелвін
-units-m-kelvin-long = Мегакелвін
-units-g-kelvin-long = Гігакелвін
+units-u--kelvin-long = Мікрокельвін
+units-m--kelvin-long = Мілікельвін
+units-kelvin-long = Кельвін
+units-k-kelvin-long = Кілокельвін
+units-m-kelvin-long = Мегакельвін
+units-g-kelvin-long = Гігакельвін

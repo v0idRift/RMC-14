@@ -1,17 +1,19 @@
 # Uplink
-store-category-debug = debug category
-store-category-debug2 = debug category 2
+store-category-debug = категорія налагодження
+store-category-debug2 = налагодження категорії 2
 store-category-weapons = Зброя
-store-category-ammo = Набої
+store-category-ammo = Патрони
 store-category-explosives = Вибухівка
-store-category-chemicals = Хімікати
-store-category-deception = Обман
-store-category-disruption = Знешкодження
+store-category-chemicals = Хімія
+store-category-deception = Скритність
+store-category-disruption = Саботаж
 store-category-implants = Імпланти
 store-category-allies = Союзники
-store-category-job = Спеціальні
+store-category-job = Робота
 store-category-wearables = Одяг
-store-category-pointless = Інше
+store-category-pointless = Безглузде
+
+# Revenant
 store-category-abilities = Здібності
 store-caregory-spellbook-offensive = Атакуючі
 store-caregory-spellbook-defensive = Захисні

@@ -1,5 +1,5 @@
-disarm-action-disarmable = {$targetName} не можна роззброїти!
-disarm-action-popup-message-other-clients = {CAPITALIZE($performerName)} роззброїв {$targetName}!
-disarm-action-popup-message-cursor = Роззброїв {$targetName}!
-disarm-action-shove-popup-message-other-clients = {CAPITALIZE($performerName)} штовхає {$targetName}!
-disarm-action-shove-popup-message-cursor = Ти штовхаєш {$targetName}!
+disarm-action-disarmable = {THE($targetName)} не роззброєний!
+disarm-action-popup-message-other-clients = {CAPITALIZE(THE($performerName))} роззброїв {THE($targetName)}!
+disarm-action-popup-message-cursor = Роззброїв {THE($targetName)}!
+disarm-action-shove-popup-message-other-clients = {CAPITALIZE(THE($performerName))} штовхнув {THE($targetName)}!
+disarm-action-shove-popup-message-cursor = Ти штовхнув {THE($targetName)}!

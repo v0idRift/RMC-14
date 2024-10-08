@@ -1,2 +1,2 @@
-detail-examinable-verb-text = Деталі
-detail-examinable-verb-disabled = Краще одивитися річ.
+detail-examinable-verb-text = Роздивитись
+detail-examinable-verb-disabled = Роздивитись обʼєкт детальніше.

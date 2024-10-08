@@ -1,5 +1,5 @@
-devour-action-popup-message-structure = Ваші ікла впиваються у метал..
-devour-action-popup-message-fail-target-not-valid = Воно виглядає не смачним.
-devour-action-popup-message-fail-target-alive = Ви не можете з'їсти ще живих істот!
+devour-action-popup-message-structure = Ваші щелепи вгризаються в щось жорстке..
+devour-action-popup-message-fail-target-not-valid = Це не виглядає чимось їстівним.
+devour-action-popup-message-fail-target-alive = Ви не можете жерти істот які ще живі!
 
-dragon-spawn-action-popup-message-fail-no-eggs = У вас не достатньо стаміни для цього!
+dragon-spawn-action-popup-message-fail-no-eggs = У вас не вистачить на це витривалості!

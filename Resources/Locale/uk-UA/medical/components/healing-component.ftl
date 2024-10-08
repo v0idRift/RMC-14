@@ -1,4 +1,4 @@
-medical-item-finished-using = Ви закінчили лікувати з {$item}
-medical-item-cant-use = Немає ушкоджень зкі ви можете вилікувати з {$item}
-medical-item-stop-bleeding = Ви зупинили кровотечу
+medical-item-finished-using = Ви закінчили лікування за допомогою {$item}
+medical-item-cant-use = Немає пошкоджень, які можна вилікувати за допомогою {$item}
+medical-item-stop-bleeding = Вони зупинили кровотечу
 medical-item-popup-target = {CAPITALIZE($user)} намагається вилікувати вас з {$item}!

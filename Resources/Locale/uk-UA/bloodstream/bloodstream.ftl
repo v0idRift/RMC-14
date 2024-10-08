@@ -1,5 +1,5 @@
-bloodstream-component-looks-pale = [color=bisque]{CAPITALIZE(SUBJECT($target))} виглядає блідим.[/color]
-bloodstream-component-bleeding = У [color=red]{CAPITALIZE(SUBJECT($target))} тече кров.[/color]
-bloodstream-component-profusely-bleeding = У [color=crimson]{CAPITALIZE(SUBJECT($target))} сильно тече кров![/color]
+bloodstream-component-looks-pale = [color=bisque]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-BASIC($target, "look", "looks")} блідий.[/color]
+bloodstream-component-bleeding = [color=red]{CAPITALIZE(SUBJECT($target))} Кровотеча.[/color]
+bloodstream-component-profusely-bleeding = [color=crimson]{CAPITALIZE(SUBJECT($target))} сильна кровотеча![/color]
 
-bloodstream-component-wounds-cauterized = Ви відчуваєте як ваші рани з болю закриваються!
+bloodstream-component-wounds-cauterized = Ти відчуваєш як твої рани сильно болять

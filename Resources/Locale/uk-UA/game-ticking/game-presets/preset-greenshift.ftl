@@ -1,2 +1,2 @@
-greenshift-title = Спокійна
-greenshift-description = Зміна без випадкових подій. Чудово підходить для подій адміністраторів.
+greenshift-title = Гріншифт
+greenshift-description = Пресет без подій для відтворення подій адміністратора без втручання.

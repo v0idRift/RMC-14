@@ -1,25 +1,25 @@
-drink-component-on-use-is-empty = {$owner} порожній!
-drink-component-on-examine-is-empty = [color=gray]Порожній[/color]
-drink-component-on-examine-is-opened = [color=yellow]Відкритий[/color]
-drink-component-on-examine-is-sealed = Пломба не відкрита.
-drink-component-on-examine-is-unsealed = Пломба відкрита.
-drink-component-on-examine-is-full = Повний
-drink-component-on-examine-is-mostly-full = Почти що повний
-drink-component-on-examine-is-half-full = Напів повний
-drink-component-on-examine-is-half-empty = Напів порожній
-drink-component-on-examine-is-mostly-empty = Почти що порожній
-drink-component-on-examine-exact-volume = Воно тримає в собі {$amount}ю.
-drink-component-try-use-drink-not-open = Спочатку відкритий {$owner}!
-drink-component-try-use-drink-is-empty = {$entity} порожній!
-drink-component-try-use-drink-cannot-drink = Ти не можеш нічого пити!
-drink-component-try-use-drink-had-enough = Ти більше не можеш пити!
-drink-component-try-use-drink-cannot-drink-other = Вони нічого не можуть пити!
-drink-component-try-use-drink-had-enough-other = Вони більше не можуть пити!
+drink-component-on-use-is-empty = {$owner} пусте!
+drink-component-on-examine-is-empty = [color=gray]Пусте[/color]
+drink-component-on-examine-is-opened = [color=yellow]Відкрите[/color]
+drink-component-on-examine-is-sealed = Пломба ціла.
+drink-component-on-examine-is-unsealed = Пломба зламана.
+drink-component-on-examine-is-full = Повне
+drink-component-on-examine-is-mostly-full = Майже повне
+drink-component-on-examine-is-half-full = Наполовину повне
+drink-component-on-examine-is-half-empty = Напівпусте
+drink-component-on-examine-is-mostly-empty = Майже пусте
+drink-component-on-examine-exact-volume = {$amount}u Заповнене
+drink-component-try-use-drink-not-open = Відкрийте {$owner} спочатку!
+drink-component-try-use-drink-is-empty = {$entity} пусте!
+drink-component-try-use-drink-cannot-drink = Ви не можете нічого пити!
+drink-component-try-use-drink-had-enough = Ви не можете пити ще більше!
+drink-component-try-use-drink-cannot-drink-other = Вони не можуть пити!
+drink-component-try-use-drink-had-enough-other = Вони не можуть пити ще більше!
 drink-component-try-use-drink-success-slurp = Хлюп
-drink-component-try-use-drink-success-slurp-taste = Хлюп. {$flavors}
-drink-component-force-feed = {CAPITALIZE($user)} змушує тебе щось випити!
-drink-component-force-feed-success = {CAPITALIZE($user)} змусив тебе щось випити! {$flavors}
-drink-component-force-feed-success-user = Ти погодував {$target}
+drink-component-try-use-drink-success-slurp-taste = Сьорбання. {$flavors}
+drink-component-force-feed = {CAPITALIZE(THE($user))} хоче вас чимось напоїти!
+drink-component-force-feed-success = {CAPITALIZE(THE($user))} напоїв вас чимось! {$flavors}
+drink-component-force-feed-success-user = Ви успішно напоїли {THE($target)}
 
 
 drink-system-verb-drink = Пити

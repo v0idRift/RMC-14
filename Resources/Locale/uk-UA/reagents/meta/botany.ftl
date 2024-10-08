@@ -1,26 +1,26 @@
-reagent-name-e-z-nutrient = EZ nutrient
-reagent-desc-e-z-nutrient = Give your plants some of those EZ nutrients! Dionas find this delicious.
+reagent-name-e-z-nutrient = EZ поживна речовина
+reagent-desc-e-z-nutrient = Дайте своїм рослинам трохи цього EZ добрива!
 
-reagent-name-left4-zed = left-4-zed
-reagent-desc-left4-zed = A cocktail of mutagenic compounds, which cause plant life to become highly unstable.
+reagent-name-left4-zed = лефт-4-Zед
+reagent-desc-left4-zed = Коктейль мутагенних сполук, які спричиняють нестабільність росту рослин.
 
-reagent-name-pest-killer = pest killer
-reagent-desc-pest-killer = A mixture that targets pests.
+reagent-name-pest-killer = вбивця шкідників
+reagent-desc-pest-killer = Суміш для знищення шкідників.
 
-reagent-name-plant-b-gone = plant-B-gone
-reagent-desc-plant-b-gone = A harmful toxic mixture to kill plantlife. Very effective against kudzu.
+reagent-name-plant-b-gone = рослина Б зникла
+reagent-desc-plant-b-gone = Шкідлива токсична суміш для знищення рослин. Не ковтати!
 
-reagent-name-robust-harvest = robust harvest
-reagent-desc-robust-harvest = A highly effective fertilizer. A botanist's go-to and a diona's best friend.
+reagent-name-robust-harvest = міцний врожай
+reagent-desc-robust-harvest = Гормони, що стимулюють ріст рослин, корисні для підвищення потенції.
 
-reagent-name-weed-killer = weed killer
-reagent-desc-weed-killer = A mixture that targets weeds. Very effective against kudzu.
+reagent-name-weed-killer = засіб для знищення бур'янів
+reagent-desc-weed-killer = Суміш для знищення бур'янів.
 
-reagent-name-ammonia = ammonia
-reagent-desc-ammonia = An effective fertilizer.
+reagent-name-ammonia = аміак
+reagent-desc-ammonia = Ефективне добриво, яке популярне за його легкодоступність, хоча й не таке потужне, як діетиламін.
 
 reagent-name-diethylamine = діетиламін
-reagent-desc-diethylamine = A very potent fertilizer.
+reagent-desc-diethylamine = Дуже потужне добриво.
 
 reagent-name-sedin = насінин
 reagent-desc-sedin = Модіфікована версія діетиламіна, що може відновити насіння рослини ціною потенції.

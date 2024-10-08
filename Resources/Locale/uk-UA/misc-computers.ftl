@@ -1,2 +1,2 @@
-radar-console-window-title = Консоль сканування маси
-shuttle-console-window-title = Консоль шатлу
+radar-console-window-title = Сканер Космічних Тіл
+shuttle-console-window-title = Консоль Шатлу

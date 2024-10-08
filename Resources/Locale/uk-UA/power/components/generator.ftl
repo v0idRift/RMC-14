@@ -1,40 +1,40 @@
-generator-clogged = {$generator} раптово зупиняється!
+generator-clogged = {$generator} раптово вимкнувся!
 
 portable-generator-verb-start = Запустити генератор
-portable-generator-verb-start-msg-unreliable = Запускає генератор. Можливо треба буде декілька спроб.
-portable-generator-verb-start-msg-reliable = Запускає генератор.
-portable-generator-verb-start-msg-unanchored = Генератор спочатку треба пригвинтити!
+portable-generator-verb-start-msg-unreliable = Запустити генератор. На це може знадобитися декілька спроб.
+portable-generator-verb-start-msg-reliable = Запустити генератор.
+portable-generator-verb-start-msg-unanchored = Спочатку генератор треба прикрутити!
 portable-generator-verb-stop = Зупинити генератор
-portable-generator-start-fail = Ти дьорнув за дріт, але нажаль генератор не запустився.
-portable-generator-start-success = Ти дьоргаєш за дріт та генератор запускається.
+portable-generator-start-fail = Ви потягнули за шнур, але генератор не запустився.
+portable-generator-start-success = Ви смикаєте за шнур, і генератор починає дзижчати.
 
-portable-generator-ui-title = Ручний Генератор
-portable-generator-ui-status-stopped = Зупинен:
-portable-generator-ui-status-starting = Стартує:
-portable-generator-ui-status-running = Працює:
+portable-generator-ui-title = Портативний Генератор
+portable-generator-ui-status-stopped = Зупинено:
+portable-generator-ui-status-starting = Запускається:
+portable-generator-ui-status-running = Запущено:
 portable-generator-ui-start = Запустити
 portable-generator-ui-stop = Зупинити
-portable-generator-ui-target-power-label = Цільова видача (кВт):
+portable-generator-ui-target-power-label = Цільова Потужність (кВт):
 portable-generator-ui-efficiency-label = Ефективність:
 portable-generator-ui-fuel-use-label = Використання палива:
-portable-generator-ui-fuel-left-label = Залишилося палива:
-portable-generator-ui-clogged = У паливі інорідні хімікати!
+portable-generator-ui-fuel-left-label = Залишок палива:
+portable-generator-ui-clogged = У паливному баку виявлено чужорідні домішки!
 portable-generator-ui-eject = Вийняти
-portable-generator-ui-eta = (~{ $minutes } хв.)
-portable-generator-ui-unanchored = Відгвинчено
-portable-generator-ui-current-output = Поточна видача: {$voltage}
-portable-generator-ui-network-stats = Зв'язок:
+portable-generator-ui-eta = (~{ $minutes } хв)
+portable-generator-ui-unanchored = Відкручено
+portable-generator-ui-current-output = Поточний вихід: {$voltage}
+portable-generator-ui-network-stats = Мережа:
 portable-generator-ui-network-stats-value = { POWERWATTS($supply) } / { POWERWATTS($load) }
-portable-generator-ui-network-stats-not-connected = Не під'єднано
+portable-generator-ui-network-stats-not-connected = Не підключено
 
-power-switchable-generator-examine = Видача живлення {$voltage}.
-power-switchable-generator-switched = Перемкнуто живлення на {$voltage}!
+power-switchable-generator-examine = Вихід встановлено на {$voltage}.
+power-switchable-generator-switched = Вихід змінено на {$voltage}!
 
 power-switchable-voltage = { $voltage ->
-    [HV] [color=orange]ВВ[/color]
-    [MV] [color=yellow]СВ[/color]
-    *[LV] [color=green]НВ[/color]
+    [HV] [color=orange]Висока напруга[/color]
+    [MV] [color=yellow]Середня напруга[/color]
+    *[LV] [color=green]Низька напруга[/color]
 }
 power-switchable-switch-voltage = Перемкнути на {$voltage}
 
-fuel-generator-verb-disable-on = Спочатку вимкнить генератор!
+fuel-generator-verb-disable-on = Спочатку треба зупитини генератор!
