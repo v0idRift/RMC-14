@@ -272,3 +272,12 @@ cm-chatsan-replacement-ammo = плює
 
 # cm-chatsan-word-# flamethrower = # вогнемет
 # cm-chatsan-replacement-# flamethrower = вогнеметник
+
+cm-chatsan-word-avali = авалі
+cm-chatsan-replacement-avali = чотиривухий господар
+cm-chatsan-word-avalis = avalis
+cm-chatsan-replacement-avalis = чотиривухі господарі
+cm-chatsan-word-gl = gl
+cm-chatsan-replacement-gl = пускова установка зі штангою
+cm-chatsan-word-gls = gls
+cm-chatsan-replacement-gls = пускові установки зі стріловидними палицями

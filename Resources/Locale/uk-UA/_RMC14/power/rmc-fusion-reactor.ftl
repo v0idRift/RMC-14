@@ -10,3 +10,6 @@ rmc-fusion-reactor-remove-finish-self = Ви видаляєте {$cell} з {$rea
 rmc-fusion-reactor-repair-not-needed = {$reactor} does not need repairs.
 rmc-fusion-reactor-repair-different-tool = Для відновлення {$reactor} потрібен інший інструмент.
 rmc-fusion-reactor-repair-start-self = Ви починаєте ремонт {$reactor} за допомогою {$tool}.
+
+rmc-fusion-reactor-already-destroyed = Ви не бачите причин для атаки на {$reactor}.
+rmc-fusion-reactor-destroyed = The {$reactor} gets torn apart!

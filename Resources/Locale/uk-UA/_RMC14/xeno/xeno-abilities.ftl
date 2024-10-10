@@ -147,3 +147,13 @@ rmc-xeno-heal-others = {$user} places its claws on {$target}, and its wounds are
 rmc-xeno-heal-ailments-self = Лікуємо {$target}!
 rmc-xeno-heal-ailments-target = Нас лікує {$target}!
 rmc-xeno-heal-ailments-others = {$user} points at {$target}, and it spasms as it recuperates unnaturally quickly!
+
+rmc-xeno-resin-surge-shield-self = Ми нагнітаємо смолу навколо {THE($target)}, роблячи її тимчасово майже незламною!
+rmc-xeno-resin-surge-shield-others = {CAPITALIZE(THE($xeno))} виштовхує смолу навколо {THE($target))}, роблячи її тимчасово майже незламною!
+rmc-xeno-resin-surge-shield-fail = Ми безрезультатно намагаємося виплеснути смолу навколо {THE($target)}, але вона вже укріплена. Нам знадобиться деякий час, щоб відновитися.
+rmc-xeno-resin-surge-fruit = Ми нагнітаємо смолу навколо {THE($target)}, дещо прискорюючи її ріст!
+rmc-xeno-resin-surge-fruit-fail = {CAPITALIZE(THE($target))} вже дозріла. Сплеск смоли нічого не дає.
+rmc-xeno-resin-surge-wall-self = Ми нагнітаємо смолу, створюючи нестабільну стіну!
+rmc-xeno-resin-surge-wall-others = {CAPITALIZE(THE($xeno))} виштовхує смолу, створюючи нестабільну стіну!
+rmc-xeno-resin-surge-sticky-self = Ми нагнітаємо глибоку смолу, створюючи нестабільну липку смоляну пляму!
+rmc-xeno-resin-surge-sticky-others = {CAPITALIZE(THE($xeno))} виштовхує смолу вглиб, створюючи нестійку липку смоляну пляму!
