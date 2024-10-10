@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpsePrisoner
-  name: Corpse Spawner - Prisoner
+  name: "Трупний нерестовик - В'язень"
   components:
   - type: ConditionalSpawner
     prototypes:
@@ -10,7 +10,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpseChef
-  name: Corpse Spawner - Chef
+  name: "Трупний нерестовик - Шеф-кухар"
   components:
   - type: ConditionalSpawner
     prototypes:
@@ -19,7 +19,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpseDoctor
-  name: Corpse Spawner - Doctor
+  name: "Спайдер трупів - Доктор"
   components:
   - type: ConditionalSpawner
     prototypes:
@@ -28,7 +28,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpseEngineer
-  name: Corpse Spawner - Engineer
+  name: "Corpse Spawner - Інженер"
   components:
   - type: ConditionalSpawner
     prototypes:
@@ -37,7 +37,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpseScientist
-  name: Corpse Spawner - Scientist
+  name: "Трупний нерестовик - науковець"
   components:
   - type: ConditionalSpawner
     prototypes:
@@ -46,7 +46,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpseMiner
-  name: Corpse Spawner - Shaft Miner
+  name: "Corpse Spawner - Шахтар шахти"
   components:
   - type: ConditionalSpawner
     prototypes:
@@ -55,7 +55,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpseSecurity
-  name: Corpse Spawner - Security Officer
+  name: "Трупоїд - офіцер служби безпеки"
   components:
   - type: ConditionalSpawner
     prototypes:
@@ -64,7 +64,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpseDeputy
-  name: Corpse Spawner - Bureau Deputy
+  name: "Трупоїд - Заступник Бюро"
   components:
   - type: ConditionalSpawner
     prototypes:
@@ -73,7 +73,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpseLiaison
-  name: Corpse Spawner - Corporate Liaison
+  name: "Corpse Spawner - корпоративний зв'язок"
   components:
   - type: ConditionalSpawner
     prototypes:
@@ -82,7 +82,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpsePrisonGuard
-  name: Corpse Spawner - Prison Guard
+  name: "Породжувач трупів - тюремний охоронець"
   components:
   - type: ConditionalSpawner
     prototypes:
@@ -91,7 +91,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpseColonist
-  name: Corpse Spawner - Colonist
+  name: "Трупний нерестовик - Колоніст"
   components:
   - type: ConditionalSpawner
     prototypes:
@@ -100,7 +100,7 @@
 - type: entity
   parent: RMCSpawnerCorpseColonist
   id: RMCSpawnerCorpseColonistBust
-  name: Corpse Spawner - Colonist
+  name: "Трупний нерестовик - Колоніст"
   suffix: RMC14, Burst
   components:
   - type: ConditionalSpawner

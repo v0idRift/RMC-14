@@ -1,7 +1,7 @@
 - type: entity
   id: CMCatwalk
-  name: catwalk
-  description: A catwalk for easier EVA maneuvering and cable placement.
+  name: "подіум"
+  description: "Подіум для полегшення маневрування EVA та розміщення кабелю."
   placement:
     mode: SnapgridCenter
   components:
@@ -64,8 +64,8 @@
 
 - type: entity
   id: RMCMonorailStraight
-  name: monorail track
-  description: The rail system for the CORSAT monorail.
+  name: "монорейкова колія"
+  description: "Рейкова система для монорельсової дороги CORSAT."
   placement:
     mode: SnapgridCenter
   components:
@@ -106,8 +106,8 @@
 - type: entity
   parent: RMCMonorailStraight
   id: RMCRailroadStraight
-  name: rails
-  description: Minecarts and rail vehicles go on these.
+  name: "рейки"
+  description: "На них їздять вагонетки та залізничний транспорт."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/catwalk.rsi
@@ -132,8 +132,8 @@
 - type: entity
   parent: RMCRailroadStraight
   id: RMCRailroadBumper
-  name: rail bumpers
-  description: This (usually) stops minecarts and other rail vehicles at the end of a line of track.
+  name: "рейкові відбійники"
+  description: "Це (зазвичай) зупиняє вагонетки та інші рейкові транспортні засоби в кінці лінії колії."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/catwalk.rsi

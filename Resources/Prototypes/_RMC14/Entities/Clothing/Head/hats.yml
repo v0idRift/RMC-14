@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: CMHeadBeret
-  name: beret
-  description: Does not protect a head from bullet.
+  name: "берет"
+  description: "Не захищає голову від кулі."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/beret.rsi
@@ -15,7 +15,7 @@
 - type: entity
   parent: CMHeadBeret
   id: CMHeadBeretRed
-  name: MP beret
+  name: "Берет депутата"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/beret_red.rsi
@@ -25,7 +25,7 @@
 - type: entity
   parent: CMHeadBeret
   id: CMHeadBeretTan
-  name: tan beret
+  name: "коричневий берет"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/beret_tan.rsi
@@ -46,7 +46,7 @@
 - type: entity
   parent: CMHeadBeret
   id: CMHeadBeretWO
-  name: WO's beret
+  name: "Берет WO"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/beret_wo.rsi
@@ -56,7 +56,7 @@
 - type: entity
   parent: CMHeadBeret
   id: CMHeadBeretCO
-  name: CO's beret
+  name: "Берет командира"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/CO/beret.rsi
@@ -66,8 +66,8 @@
 - type: entity
   parent: CMHeadBeret
   id: CMHeadBeretCOBlack
-  name: CO's beret
-  description: A black beret with the Major insignia emblazoned on it. Its sleek black color commands power and exudes class.
+  name: "Берет командира"
+  description: "Чорний берет з емблемою майора. Його елегантний чорний колір вказує на владу та випромінює клас."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/CO/beret_black.rsi
@@ -77,8 +77,8 @@
 - type: entity
   parent: CMHeadBeret
   id: CMHeadBeretCOWhite
-  name: CO's beret
-  description: A white beret with the Major insignia emblazoned on it. Its dazzling white color commands power and exudes class.
+  name: "Берет командира"
+  description: "Білий берет зі знаками розрізнення майора. Його сліпучо-білий колір вказує на владу та випромінює клас."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/CO/beret_white.rsi
@@ -88,8 +88,8 @@
 - type: entity
   parent: CMHeadBeret
   id: CMHeadBeretCOLtCol
-  name: CO's lieutenant colonel beret
-  description: A blue beret with the Lieutenant Colonel's insignia emblazoned on it. Its blue color symbolizes loyalty, confidence, and politics - the core components of a true Colonel.
+  name: "Підполковницький берет командира"
+  description: "Синій берет з емблемою підполковника. Його синій колір символізує вірність, впевненість і політику - основні складові справжнього полковника."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/CO/beret_ltcol.rsi
@@ -99,8 +99,8 @@
 - type: entity
   parent: CMHeadBeret
   id: CMHeadBeretCOCol
-  name: CO's colonel beret
-  description: A dark blue, custom-tailored beret signifying The Colonel. Definitely not an alias for a General.
+  name: "Полковницький берет командира"
+  description: "Темно-синій берет, пошитий на замовлення, з написом \"Полковник\". Точно не псевдонім для генерала."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/CO/beret_col.rsi
@@ -110,7 +110,7 @@
 - type: entity
   parent: CMHeadBeret
   id: RMCHeadBeretGreen
-  name: UNMC beret
+  name: "Берет UNMC"
   suffix: Green
   components:
   - type: Sprite
@@ -122,8 +122,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: CMHeadCapMP
-  name: MP cap
-  description: A ball-cap worn by the more casual of the Marines' Military Police.
+  name: "Депутатський кашкет"
+  description: "Бейсболка, яку носять більш повсякденні представники військової поліції морської піхоти."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/mp_cap.rsi
@@ -155,8 +155,8 @@
 - type: entity
   parent: CMHeadCapMP
   id: CMHeadCapWarden
-  name: warden cap
-  description: Smells like donuts.
+  name: "кашкет наглядача"
+  description: "Пахне пончиками."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/warden.rsi
@@ -166,8 +166,8 @@
 - type: entity
   parent: CMHeadCapMP
   id: CMHeadCapCargo
-  name: cargo cap
-  description: It's a baseball hat in a tasteless yellow color.
+  name: "вантажна кришка"
+  description: "Це бейсболка позбавленого смаку жовтого кольору."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/cargo_cap.rsi
@@ -177,8 +177,8 @@
 - type: entity
   parent: CMHeadCapMP
   id: CMHeadCap
-  name: cap
-  description: Standard baseball cap.
+  name: "шапка"
+  description: "Стандартна бейсболка."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/cap.rsi
@@ -188,7 +188,7 @@
 - type: entity
   parent: CMHeadCap
   id: CMHeadCapCO
-  name: CO's cap
+  name: "Кашкет командира"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/CO/cap.rsi
@@ -198,7 +198,7 @@
 - type: entity
   parent: CMHeadCapCO
   id: CMHeadCapCOFormalBlack
-  name: CO's formal cap
+  name: "Офіційний ліміт CO"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/CO/formal_black.rsi
@@ -208,7 +208,7 @@
 - type: entity
   parent: CMHeadCapCO
   id: CMHeadCapCOFormalWhite
-  name: CO's formal cap
+  name: "Офіційний ліміт CO"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/CO/formal_white.rsi
@@ -218,8 +218,8 @@
 - type: entity
   parent: CMHeadCap
   id: CMHeadCapDrill
-  name: drill hat
-  description: From now on you will speak only when spoken to, and the first and last words out of your filthy sewers will be 'Sir.'
+  name: "капелюх для свердла"
+  description: "Відтепер ви будете говорити тільки тоді, коли до вас звертаються, і першим і останнім словом, що вийде з вашої брудної каналізації, буде \"пане\""
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/drill_hat.rsi
@@ -229,8 +229,8 @@
 - type: entity
   parent: CMHeadCap
   id: CMHeadCapOfficer
-  name: officer cap
-  description: A hat usually worn by officers in the UNMC. While it provides no protection, some officers wear it in the field to make themselves more recognisable.
+  name: "офіцерський кашкет"
+  description: "Капелюх, який зазвичай носять офіцери МООНК. Хоча він не забезпечує ніякого захисту, деякі офіцери носять його в польових умовах, щоб бути більш впізнаваними."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/cap_officer.rsi
@@ -240,8 +240,8 @@
 - type: entity
   parent: CMHeadCap
   id: CMHeadCapPeakedFormal
-  name: marine peaked cap
-  description: A peaked cap. Wearer may suffer the heavy weight of responsibility upon their head and shoulders.
+  name: "морська кепка з козирком"
+  description: "Кашкет з козирком. Носій може відчувати важкий тягар відповідальності на своїй голові та плечах."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/cap_peaked_formal.rsi
@@ -251,8 +251,8 @@
 - type: entity
   parent: CMHeadCap
   id: CMHeadCapPeakedService
-  name: marine service peaked cap
-  description: A peaked cap. Wearer may suffer the heavy weight of responsibility upon their head and shoulders.
+  name: "пікова кришка морської служби"
+  description: "Кашкет з козирком. Носій може відчувати важкий тягар відповідальності на своїй голові та плечах."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/cap_peaked_service.rsi
@@ -262,7 +262,7 @@
 - type: entity
   parent: CMHeadCap
   id: CMHeadCapCMO
-  name: CMO's cap
+  name: "Шапка CMO"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/cmo_cap.rsi
@@ -273,8 +273,8 @@
 - type: entity
   parent: CMHeadCap
   id: CMHeadCapSurgBlue
-  name: blue surgical cap
-  description: Standard-issue surgical cap.
+  name: "синя хірургічна шапочка"
+  description: "Стандартна хірургічна шапочка."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/SurgicalCap/blue.rsi
@@ -284,7 +284,7 @@
 - type: entity
   parent: CMHeadCapSurgBlue
   id: CMHeadCapSurgGreen
-  name: green surgical cap
+  name: "зелена хірургічна шапочка"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/SurgicalCap/green.rsi
@@ -294,7 +294,7 @@
 - type: entity
   parent: CMHeadCapSurgBlue
   id: CMHeadCapSurgPurple
-  name: purple surgical cap
+  name: "фіолетова хірургічна шапочка"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/SurgicalCap/purple.rsi
@@ -304,7 +304,7 @@
 - type: entity
   parent: CMHeadCapSurgBlue
   id: CMHeadCapSurgOrange
-  name: orange surgical cap
+  name: "хірургічна шапочка помаранчева"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/SurgicalCap/orange.rsi
@@ -315,8 +315,8 @@
 - type: entity
   parent: CMHeadBeret
   id: CMHeadDressBlues
-  name: marine dress blues cover
-  description: The combination cover of the legendary Marine dress blues, virtually unchanged since the 19th century. The polished logo sits proudly on the white cloth.
+  name: "обкладинка морської сукні в стилі блюз"
+  description: "Комбінований чохол легендарного мундира морської піхоти, практично незмінного з 19-го століття. Відполірований логотип гордо сидить на білій тканині."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/DressBlues/enlisted.rsi
@@ -326,8 +326,8 @@
 - type: entity
   parent: CMHeadBeret
   id: CMHeadDressBluesOfficer
-  name: marine dress blues officer cover
-  description: The combination cover of the legendary Marine dress blues, virtually unchanged since the 19th century. Features a gold stripe and silvered logo, emblematic of an officer.
+  name: "морська сукня синього кольору офіцерський чохол"
+  description: "Комбінований чохол легендарного мундира морської піхоти, практично незмінного з 19-го століття. Має золоту смужку та посріблений логотип, що символізує офіцера."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/DressBlues/officer.rsi
@@ -339,8 +339,8 @@
 - type: entity
   parent: CMHeadBeret
   id: RMCHeadBeretSquad
-  name: squad beret
-  description: For those who want to show pride and have nothing to lose (in their head, at least).
+  name: "берет загону"
+  description: "Для тих, хто хоче проявити гордість і не має чого втрачати (принаймні, в голові)."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/beret_squad.rsi

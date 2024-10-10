@@ -1,6 +1,6 @@
 ﻿- type: entity
   parent: Dropper
-  description: A dropper. Transfers 5 units.
+  description: "Крапельниця. Передає 5 одиниць."
   id: RMCDropper
   components:
   - type: Sprite
