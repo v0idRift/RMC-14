@@ -20,13 +20,13 @@ research-technology-super-powercells = Супер Електронакопичу
 research-technology-bluespace-storage = Блюспейс Сховища
 research-technology-portable-fission = Портативний поділ
 research-technology-space-scanning = Космічне сканування
-research-technology-excavation = Mass Excavation
+research-technology-excavation = Масові розкопки
 
 research-technology-salvage-weapons = Шахтарське Зброя
 research-technology-draconic-munitions = Запалювальні Боєприпаси
 research-technology-uranium-munitions = Уранові боєприпаси
 research-technology-explosive-technology = Технологія Вибухівки
-research-technology-special-means = Special Means
+research-technology-special-means = Спеціальні засоби
 research-technology-weaponized-laser-manipulation = Збройна лазерна маніпуляція
 research-technology-nonlethal-ammunition = Нелетальні Боєприпаси
 research-technology-practice-ammunition = Тренувальна Амуниція

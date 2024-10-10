@@ -1,4 +1,4 @@
-rmc-repairable-need-blowtorch = You need a stronger blowtorch!
+rmc-repairable-need-blowtorch = Вам потрібна сильніша паяльна лампа!
 rmc-repairable-start-self = Ви почали ремонтувати {$target}
 rmc-repairable-start-others = {$user} почав ремонтувати {$target}
 rmc-repairable-finish-self = Ви відремонтували {$target}

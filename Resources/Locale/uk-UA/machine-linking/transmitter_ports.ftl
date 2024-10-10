@@ -19,8 +19,8 @@ signal-port-description-right = Цей порт викликається щор�
 signal-port-name-doorstatus = Стан дверей
 signal-port-description-doorstatus = Цей порт викликається зі значенням HIGH, коли двері відчиняються, і LOW, коли двері зачиняються.
 
-signal-port-name-dockstatus = Dock status
-signal-port-description-dockstatus = This port is invoked with HIGH when docked and LOW when undocked.
+signal-port-name-dockstatus = Стан дока
+signal-port-description-dockstatus = Цей порт викликається зі значенням HIGH, коли він пристикований, і LOW, коли він відстикований.
 
 signal-port-name-middle = Середина
 signal-port-description-middle = Цей порт викликається щоразу, коли важіль переводиться в нейтральне положення.

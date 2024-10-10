@@ -89,7 +89,7 @@ anomaly-behavior-rapid = Частота пульсації набагато ви
 anomaly-behavior-reflect = Виявлено захисне покриття.
 anomaly-behavior-nonsensivity = Виявлено слабку реакцію на частинки.
 anomaly-behavior-sensivity = Виявлено посилену реакцію на частинки.
-anomaly-behavior-invisibility = Light wave distortion has been detected.
+anomaly-behavior-invisibility = Виявлено спотворення світлових хвиль.
 anomaly-behavior-secret = Виявлено перешкоди. Не вдається прочитати деякі дані
 anomaly-behavior-inconstancy = [color=crimson]Виявлено мінливість. Типи частинок можуть змінюватися з часом[/color]
 anomaly-behavior-fast = [color=crimson]Частота пульсації сильно збільшена[/color]

@@ -1,5 +1,5 @@
-﻿ghost-command-description = Give up on life and become a ghost.
-ghost-command-help-text = The ghost command turns you into a ghost and makes the character you played permanently catatonic.
-                          Please note that you cannot return to your character's body after ghosting.
-ghost-command-no-session = You have no session, you can't ghost.
-ghost-command-denied = You cannot ghost right now.
+ghost-command-description = Відмовитися від життя і стати примарою.
+ghost-command-help-text = Команда "Привид" перетворює вас на привида і робить персонажа, яким ви грали, назавжди кататоничним.
+                          Зверніть увагу, що ви не зможете повернутися в тіло свого персонажа після примаризації.
+ghost-command-no-session = У тебе немає сеансу, ти не можеш бути привидом.
+ghost-command-denied = Ти не можеш бути привидом зараз.

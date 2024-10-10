@@ -1,5 +1,5 @@
-cursed-mask-examine-Neutral = It depicts an entirely unremarkable visage.
-cursed-mask-examine-Joy = It depicts a face basking in joy.
-cursed-mask-examine-Despair = It depicts a face wraught with despair.
-cursed-mask-examine-Anger = It depicts a furious expression locked in rage.
-cursed-mask-takeover-popup = The mask seizes control over your body!
+cursed-mask-examine-Neutral = На ній зображений абсолютно непримітний образ.
+cursed-mask-examine-Joy = На ньому зображено обличчя, що сяє від радості.
+cursed-mask-examine-Despair = На ньому зображено обличчя, сповнене відчаю.
+cursed-mask-examine-Anger = На ньому зображено несамовитий вираз обличчя, що замикається в люті.
+cursed-mask-takeover-popup = Маска перехоплює контроль над вашим тілом!

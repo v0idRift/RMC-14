@@ -1,26 +1,26 @@
-marking-RMCUndershirtStandard = Undershirt (Standard)
-marking-RMCUndershirtStandard-t_undershirt = Undershirt
+marking-RMCUndershirtStandard = Майка (стандартна)
+marking-RMCUndershirtStandard-t_undershirt = Майка
 
-marking-RMCUndershirtSleeveless = Undershirt (Sleeveless)
-marking-RMCUndershirtSleeveless-t_undershirt_sleeveless = Undershirt
+marking-RMCUndershirtSleeveless = Майка (без рукавів)
+marking-RMCUndershirtSleeveless-t_undershirt_sleeveless = Майка
 
-marking-RMCUndershirtRolled = Undershirt (Rolled)
-marking-RMCUndershirtRolled-t_rolled_undershirt = Undershirt
+marking-RMCUndershirtRolled = Нижня сорочка (в рулоні)
+marking-RMCUndershirtRolled-t_rolled_undershirt = Майка
 
-marking-RMCUndershirtRolledSleeveless = Undershirt (Sleeveless Rolled)
-marking-RMCUndershirtRolledSleeveless-t_rolled_undershirt_sleeveless = Undershirt
+marking-RMCUndershirtRolledSleeveless = Майка (без рукавів)
+marking-RMCUndershirtRolledSleeveless-t_rolled_undershirt_sleeveless = Майка
 
-marking-RMCUndershirtLong = Undershirt (Long)
-marking-RMCUndershirtLong-t_long_undershirt = Undershirt
+marking-RMCUndershirtLong = Майка (довга)
+marking-RMCUndershirtLong-t_long_undershirt = Майка
 
-marking-RMCUndershirtClassic = Bra (Classic)
-marking-RMCUndershirtClassic-c_classic = Bra
+marking-RMCUndershirtClassic = Бюстгальтер (класичний)
+marking-RMCUndershirtClassic-c_classic = Бюстгальтер
 
-marking-RMCUndershirtSports = Bra (Sport)
-marking-RMCUndershirtSports-c_sports = Bra
+marking-RMCUndershirtSports = Бюстгальтер (спортивний)
+marking-RMCUndershirtSports-c_sports = Бюстгальтер
 
-marking-RMCUndershirtStrapless = Bra (Strapless)
-marking-RMCUndershirtStrapless-c_strapless = Bra
+marking-RMCUndershirtStrapless = Бюстгальтер (без бретелей)
+marking-RMCUndershirtStrapless-c_strapless = Бюстгальтер
 
-marking-RMCUndershirtNone = None
-marking-RMCUndershirtNone-blank = None
+marking-RMCUndershirtNone = Ні
+marking-RMCUndershirtNone-blank = Ні

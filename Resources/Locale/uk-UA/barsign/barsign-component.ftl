@@ -3,7 +3,7 @@ barsign-component-name = знак бару
 # Прототипи барних вивісок
 
 # The Harmbaton
-barsign-ui-menu = Bar Sign Configuration
+barsign-ui-menu = Конфігурація вивіски бару
 barsign-ui-set-label = Встановити знак:
 barsign-prototype-name-harmbaton = Естафета
 barsign-prototype-description-harmbaton = Чудова їдальня як для співробітників служби безпеки, так і для пасажирів.

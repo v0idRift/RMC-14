@@ -7,10 +7,12 @@ mixing-verb-centrifuge = цетрифугування
 mixing-verb-electrolysis = електроліз
 mixing-verb-holy = освятити
 ## Entity
-mixing-verb-stir = stir
-mixing-verb-shake = shake
+mixing-verb-stir = ворушитися
+mixing-verb-shake = трясти
+
+## Сутність
 
 default-mixing-success = Ви змішали {$mixed} з {$mixer}
 bible-mixing-success = Ви освятили {$mixed} з {$mixer}
-spoon-mixing-success = You stir the {$mixed} with the {$mixer}
+spoon-mixing-success = Ви перемішуєте {$mixed} з {$mixer}
 

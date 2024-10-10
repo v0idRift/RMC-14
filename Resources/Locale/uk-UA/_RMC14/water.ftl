@@ -1,2 +1,2 @@
-rmc-water-toxic-name = toxic {$baseName}
+rmc-water-toxic-name = токсичний {$baseName}
 rmc-water-purified-name = purified {$baseName}

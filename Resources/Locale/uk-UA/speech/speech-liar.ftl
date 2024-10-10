@@ -4,47 +4,47 @@ liar-word-replacement-1 = ні
 liar-word-2 = ні
 liar-word-replacement-2 = так
 
-liar-word-3 = yeah
-liar-word-replacement-3 = nuh
+liar-word-3 = так
+liar-word-replacement-3 = ні
 
-liar-word-4 = nuh
-liar-word-replacement-4 = yeah
+liar-word-4 = ні
+liar-word-replacement-4 = так
 
-liar-word-5 = yep
-liar-word-replacement-5 = nope
+liar-word-5 = так
+liar-word-replacement-5 = ні
 
-liar-word-6 = nope
-liar-word-replacement-6 = yep
+liar-word-6 = ні
+liar-word-replacement-6 = так
 
-liar-word-7 = sure
-liar-word-replacement-7 = nah
+liar-word-7 = звісно
+liar-word-replacement-7 = ні
 
-liar-word-8 = was
-liar-word-replacement-8 = wasnt
+liar-word-8 = був
+liar-word-replacement-8 = не був
 
-liar-word-9 = wasnt
-liar-word-replacement-9 = was
+liar-word-9 = не був
+liar-word-replacement-9 = був
 
-liar-word-10 = was
-liar-word-replacement-10 = wasnt
+liar-word-10 = був
+liar-word-replacement-10 = не був
 
-liar-word-11 = is
+liar-word-11 = це
 liar-word-replacement-11 = isnt
 
-liar-word-12 = not
-liar-word-replacement-12 = ""
+liar-word-12 = воля
+liar-word-replacement-12 = не хоче
 
-liar-word-13 = dont
+liar-word-13 = не треба
 liar-word-replacement-13 = ""
 
-liar-word-14 = can
-liar-word-replacement-14 = cant
+liar-word-14 = може
+liar-word-replacement-14 = не може
 
-liar-word-15 = cant
-liar-word-replacement-15 = can
+liar-word-15 = не можу
+liar-word-replacement-15 = може
 
-liar-word-16 = should
-liar-word-replacement-16 = shouldnt
+liar-word-16 = повинен
+liar-word-replacement-16 = не повинен
 
 liar-word-17 = мертвий
 liar-word-replacement-17 = живий
@@ -52,81 +52,81 @@ liar-word-replacement-17 = живий
 liar-word-18 = живий
 liar-word-replacement-18 = мертвий
 
-liar-word-19 = does
-liar-word-replacement-19 = doesnt
+liar-word-19 = робить
+liar-word-replacement-19 = не робить
 
-liar-word-20 = did
-liar-word-replacement-20 = didnt
+liar-word-20 = зробив
+liar-word-replacement-20 = не робив
 
-liar-word-21 = didnt
+liar-word-21 = не робив
 liar-word-replacement-21 = ""
 
-liar-word-22 = nothing
-liar-word-replacement-22 = something
+liar-word-22 = нічого
+liar-word-replacement-22 = щось
 
-liar-word-23 = something
-liar-word-replacement-23 = nothing
+liar-word-23 = щось
+liar-word-replacement-23 = нічого
 
-liar-word-24 = somebody
-liar-word-replacement-24 = nobody
+liar-word-24 = хтось
+liar-word-replacement-24 = ніхто
 
-liar-word-25 = nobody
-liar-word-replacement-25 = somebody
+liar-word-25 = ніхто
+liar-word-replacement-25 = хтось
 
-liar-word-26 = can
-liar-word-replacement-26 = "can't"
+liar-word-26 = може
+liar-word-replacement-26 = "не можу"
 
-liar-word-27 = "can't"
-liar-word-replacement-27 = can
+liar-word-27 = "не можу"
+liar-word-replacement-27 = може
 
-liar-word-28 = should
-liar-word-replacement-28 = "shouldn't"
+liar-word-28 = повинен
+liar-word-replacement-28 = "не повинен"
 
-liar-word-29 = do
-liar-word-replacement-29 = "don't"
+liar-word-29 = робити
+liar-word-replacement-29 = "не"
 
-liar-word-30 = "don't"
+liar-word-30 = "не"
 liar-word-replacement-30 = ""
 
-liar-word-31 = does
-liar-word-replacement-31 = "doesn't"
+liar-word-31 = робить
+liar-word-replacement-31 = "не"
 
-liar-word-32 = did
-liar-word-replacement-32 = "didn't"
+liar-word-32 = зробив
+liar-word-replacement-32 = "не"
 
-liar-word-33 = "didn't"
-liar-word-replacement-33 = did
+liar-word-33 = "не"
+liar-word-replacement-33 = зробив
 
-liar-word-34 = ye
-liar-word-34-2 = ya
-liar-word-replacement-34 = na
+liar-word-34 = так
+liar-word-34-2 = так
+liar-word-replacement-34 = ні
 
-liar-word-35 = na
-liar-word-replacement-35 = ye
+liar-word-35 = ні
+liar-word-replacement-35 = так
 
-liar-word-36 = yuh
-liar-word-replacement-36 = nuh
+liar-word-36 = так
+liar-word-replacement-36 = ні
 
-liar-word-37 = nuh
-liar-word-replacement-37 = yuh
+liar-word-37 = ні
+liar-word-replacement-37 = так
 
-liar-word-38 = love
-liar-word-replacement-38 = hate
+liar-word-38 = любов
+liar-word-replacement-38 = ненависть
 
-liar-word-39 = hate
-liar-word-replacement-39 = love
+liar-word-39 = ненависть
+liar-word-replacement-39 = любов
 
-liar-word-40 = like
-liar-word-replacement-40 = don't like
+liar-word-40 = на кшталт
+liar-word-replacement-40 = не люблю
 
-liar-word-41 = good
-liar-word-replacement-41 = bad
+liar-word-41 = добре
+liar-word-replacement-41 = поганий
 
-liar-word-42 = want
-liar-word-replacement-42 = don't want
+liar-word-42 = поганий
+liar-word-replacement-42 = добре
 
-liar-word-43 = want
-liar-word-replacement-43 = "don't want"
+liar-word-43 = хочу
+liar-word-replacement-43 = "не хочу"
 
-liar-word-44 = not
+liar-word-44 = не
 liar-word-replacement-44 = ""

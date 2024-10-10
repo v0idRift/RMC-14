@@ -6,23 +6,23 @@ cm-xeno-egg-failed-plant-outside = Краще не висаджювати йог
 cm-xeno-egg-failed-already-there = Тут вже є яйце.
 cm-xeno-egg-blocked = Тут вже щось сбудованo.
 
-rmc-xeno-egg-dead-child = This child is dead.
-rmc-xeno-egg-has-child = This one is occupied with a child.
-rmc-xeno-egg-awake-child = {CAPITALIZE($parasite)} doesn't want to go back in!
-rmc-xeno-egg-fail-return = This egg can't hold this child.
-rmc-xeno-egg-return-start = We start putting the child into the egg.
-rmc-xeno-egg-return-user = We place the child back into the egg.
-rmc-xeno-egg-return-self = {CAPITALIZE($parasite)} crawls back into the egg.
-rmc-xeno-egg-return = {CAPITALIZE($user)} slides {$parasite} back into the egg.
+rmc-xeno-egg-dead-child = Ця дитина мертва.
+rmc-xeno-egg-has-child = Цей зайнятий дитиною.
+rmc-xeno-egg-awake-child = {CAPITALIZE($parasite)} не хоче повертатися назад!
+rmc-xeno-egg-fail-return = Ця яйцеклітина не може втримати цю дитину.
+rmc-xeno-egg-return-start = Починаємо вкладати дитину в яйце.
+rmc-xeno-egg-return-user = Поміщаємо дитину назад в яйце.
+rmc-xeno-egg-return-self = {CAPITALIZE($parasite)} заповзає назад у яйце.
+rmc-xeno-egg-return = {CAPITALIZE($user)} засовує {$parasite} назад в яйце.
 
-rmc-xeno-egg-ghost-verb = Become parasite
-rmc-xeno-egg-ghost-need-time = You ghosted too recently. You cannot become a parasite until 3 minutes have passed.
-rmc-xeno-egg-ghost-confirm = Are you sure you want to become a parasite?
+rmc-xeno-egg-ghost-verb = Стати паразитом
+rmc-xeno-egg-ghost-need-time = Ти з'явився надто недавно. Ви не можете стати паразитом, поки не пройде 3 хвилини.
+rmc-xeno-egg-ghost-confirm = Ви впевнені, що хочете стати паразитом?
 
-rmc-xeno-egg-throw-xeno = Throwing the egg would break it!
-rmc-xeno-egg-throw = That's a bad idea.
+rmc-xeno-egg-throw-xeno = Якщо кинути яйце, то воно розбилося б!
+rmc-xeno-egg-throw = Це погана ідея.
 
-rmc-xeno-egg-plant-self = We start planting the egg.
-rmc-xeno-egg-plant = {CAPITALIZE($user)} starts planting an egg.
+rmc-xeno-egg-plant-self = Починаємо садити яйце.
+rmc-xeno-egg-plant = {CAPITALIZE($user)} починає відкладати яйце.
 
-rmc-xeno-egg-carrier-death = {CAPITALIZE(THE($xeno))} has dropped some precious eggs!
+rmc-xeno-egg-carrier-death = {CAPITALIZE(THE($xeno))} відклав кілька дорогоцінних яєць!

@@ -77,7 +77,7 @@ reagent-name-tazinide = тазинід
 reagent-desc-tazinide = Дуже небезпечна металева суміш, яка може заважати більшості рухів через електризуючий струм.
 
 reagent-name-lipolicide = ліполіксид
-reagent-desc-lipolicide = A powerful toxin that will destroy fat cells, massively reducing body weight in a short time. Deadly to those without nutriment in their body.
+reagent-desc-lipolicide = Потужний токсин, який руйнує жирові клітини, значно зменшуючи масу тіла за короткий час. Смертельно небезпечний для тих, хто не має поживних речовин в організмі.
 
 reagent-name-mechanotoxin = механотоксин
-reagent-desc-mechanotoxin = A neurotoxin used as venom by some species of spider. Degrades movement when built up.
+reagent-desc-mechanotoxin = Нейротоксин, що використовується як отрута деякими видами павуків. Погіршує рух при накопиченні.

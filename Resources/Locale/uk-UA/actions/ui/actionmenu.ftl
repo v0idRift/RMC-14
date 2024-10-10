@@ -11,6 +11,6 @@ ui-actionsui-function-open-abilities-menu = Відкрити меню дій
 
 ui-actionmenu-enabled = Увимкнено
 ui-actionmenu-item = Річ
-ui-actionmenu-innate = Innate
-ui-actionmenu-instant = Instant
-ui-actionmenu-targeted = Targeted
+ui-actionmenu-innate = Вроджене
+ui-actionmenu-instant = Миттєво
+ui-actionmenu-targeted = Цілеспрямовано

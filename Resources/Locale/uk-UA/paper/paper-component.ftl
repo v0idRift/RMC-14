@@ -13,4 +13,4 @@ paper-component-action-stamp-paper-self = Ви поставили печатку
 
 paper-ui-save-button = Зберегти ({$keybind})
 
-paper-tamper-proof-modified-message = This page was written using tamper-proof ink.
+paper-tamper-proof-modified-message = Ця сторінка написана чорнилом із захистом від підробки.

@@ -262,20 +262,20 @@ reagent-desc-whiskey-soda = бюджетний варіант,але досі н
 reagent-name-white-russian = білий московит
 reagent-desc-white-russian = диви який блідий: "мі нє зналі,нас заставілі :(
 
-reagent-name-vodka-red-bool = vodka red bool
-reagent-desc-vodka-red-bool = Because heart failure and liver failure go hand in hand.
+reagent-name-vodka-red-bool = горілка red bool
+reagent-desc-vodka-red-bool = Тому що серцева недостатність і печінкова недостатність йдуть пліч-о-пліч.
 
-reagent-name-xeno-basher = xeno basher
-reagent-desc-xeno-basher = The perfect drink before an expedition.
+reagent-name-xeno-basher = ксенобоєць
+reagent-desc-xeno-basher = Ідеальний напій перед експедицією.
 
-reagent-name-irish-bool = irish bool
-reagent-desc-irish-bool = Like a bool in a Ireland shop.
+reagent-name-irish-bool = ірландський бул
+reagent-desc-irish-bool = Як дурень в ірландській крамниці.
 
-reagent-name-budget-insuls = budget insuls
-reagent-desc-budget-insuls = A tider's preferred drink.
+reagent-name-budget-insuls = бюджетні інсуліни
+reagent-desc-budget-insuls = Улюблений напій тайдерів.
 
-reagent-name-watermelon-wakeup = watermelon wakeup
-reagent-desc-watermelon-wakeup = If you want to be awake, this will do it... Also sweet.
+reagent-name-watermelon-wakeup = кавунове пробудження
+reagent-desc-watermelon-wakeup = Якщо ви хочете бути бадьорими, це допоможе... Теж солодке.
 
-reagent-name-rubberneck = rubberneck
-reagent-desc-rubberneck = A popular drink amongst those adhering to an all synthetic diet.
+reagent-name-rubberneck = гумова шия
+reagent-desc-rubberneck = Популярний напій серед тих, хто дотримується повністю синтетичної дієти.

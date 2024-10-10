@@ -332,10 +332,8 @@ cmd-testlog-help = Використання: testlog <sawmill> <level> <пові
     Повідомлення: повідомлення, яке буде записано до журналу. Використовуйте подвійні лапки, якщо хочете використати пробіли.
 
 ## Команда 'vv'
-cmd-vv-desc = Відкриває вікно перегляду змінних.
-cmd-vv-help = Використання: vv <ідентифікатор сутності | назва інтерфейсу IoC | назва інтерфейсу SIoC>.
-
-## Команда 'showvelocities'
+cmd-vv-desc = Відкриває вікно перегляду змінних (VV).
+cmd-vv-help = Використання: vv <шлях | ідентифікатор сутності | guihover>
 cmd-showvelocities-desc = Відображає кутову та лінійну швидкість.
 cmd-showvelocities-help = Використання: showvelocities.
 
@@ -435,8 +433,8 @@ cmd-overrideplayername-help = Використання: overrideplayername <ім
 cmd-showanchored-desc = Показує прив'язані сутності на певній плитці
 cmd-showanchored-help = Використання: showanchored
 
-cmd-dmetamem-desc = Вивантажує члени типу в формат, придатний для конфігураційного файлу sandbox.
-cmd-dmetamem-help = Використання: dmetamem <тип>.
+cmd-dmetamem-desc = Відображає межі фрагментів для цілей рендерингу.
+cmd-dmetamem-help = Використання: showchunkbb <тип>
 
 cmd-launchauth-desc = Завантажує токени автентифікації з даних панелі запуску для полегшення тестування серверів у реальному часі.
 cmd-launchauth-help = Використання: launchauth <назва акаунта>
@@ -501,8 +499,8 @@ cmd-showgridnodes-help = Використання: showgridnodes
 cmd-profsnap-desc = Створює знімок для профілювання.
 cmd-profsnap-help = Використання: profsnap
 
-cmd-devwindow-desc = Відкриває вікно розробника.
-cmd-devwindow-help = Використання: devwindow.
+cmd-devwindow-desc = Відкриває файл
+cmd-devwindow-help = Використання: testopenfile
 
 cmd-scene-desc = Негайно змінює сцену/стан інтерфейсу.
 cmd-scene-help = Використання: scene <ім'я класу>

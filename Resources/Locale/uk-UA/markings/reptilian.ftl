@@ -68,8 +68,8 @@ marking-LizardFrillsDivinity = Оборки ящірки (Божественні
 marking-LizardFrillsBig-frills_big = Ящірка з оборками (велика)
 marking-LizardFrillsBig = Ящірка з оборками (велика)
 
-marking-LizardFrillsNeckfull-frills_neckfull = Lizard Frills (Neckfull)
-marking-LizardFrillsNeckfull = Lizard Frills (Neckfull)
+marking-LizardFrillsNeckfull-frills_neckfull = Оборки ящірки (Neckfull)
+marking-LizardFrillsNeckfull = Оборки ящірки (Neckfull)
 
 marking-LizardHornsDouble-horns_double = Роги ящірки (подвійні)
 marking-LizardHornsDouble = Роги ящірки (подвійні)
@@ -93,8 +93,8 @@ marking-LizardHornsMyrsore = Роги ящірки (Мирзор)
 marking-LizardHornsBighorn-horns_bighorn = Роги ящірки (Бігхорн)
 marking-LizardHornsBighorn = Роги ящірки (бігхорна)
 
-marking-LizardHornsDemonic-horns_demonic = Lizard Horns (Demonic)
-marking-LizardHornsDemonic = Lizard Horns (Demonic)
+marking-LizardHornsDemonic-horns_demonic = Роги ящірки (демонічний)
+marking-LizardHornsDemonic = Роги ящірки (демонічний)
 
 marking-LizardHornsKoboldEars-horns_kobold_ears = Вуха ящірки (кобольда)
 marking-LizardHornsKoboldEars = Вуха ящірки (кобольда)
@@ -108,6 +108,6 @@ marking-LizardChestUnderbelly = Грудна клітка ящірки (підч
 marking-LizardChestBackspikes-body_backspikes = Шипи на спині ящірки (чотири)
 marking-LizardChestBackspikes = Шипи на спині ящірки (чотири)
 
-marking-LizardSnoutSplotch = Lizard Snout (Splotch)
-marking-LizardSnoutSplotch-snout_splotch_primary = Muzzle
-marking-LizardSnoutSplotch-snout_splotch_secondary = Snoot
+marking-LizardSnoutSplotch = Ящірка Мордата (Плямиста)
+marking-LizardSnoutSplotch-snout_splotch_primary = Морда
+marking-LizardSnoutSplotch-snout_splotch_secondary = Зарозумілість

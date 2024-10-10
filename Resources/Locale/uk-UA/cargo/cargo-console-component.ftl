@@ -30,7 +30,7 @@ cargo-console-snip-snip = Замовлення урізано до мініму�
 cargo-console-insufficient-funds = Недостатність коштів (require {$cost})
 cargo-console-unfulfilled = Невистачає місця для виконання
 cargo-console-trade-station = Відправити до {$destination}
-cargo-console-unlock-approved-order-broadcast = [bold]{$productName} x{$orderAmount}[/bold], which cost [bold]{$cost}[/bold], was approved by [bold]{$approverName}, {$approverJob}[/bold]
+cargo-console-unlock-approved-order-broadcast = [bold]{$productName} x{$orderAmount}[/bold], який коштував [bold]{$cost}[/bold], був затверджений [bold]{$approverName}, {$approverJob}[/bold]
 
 cargo-console-paper-print-name = Замовлення #{$orderNumber}
 cargo-console-paper-print-text = Замовлення: #{$orderNumber}

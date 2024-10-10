@@ -27,7 +27,7 @@ figurines-mime-5 = ................
 figurines-musician-1 = Ніколи тебе не покину!
 figurines-musician-2 = Ніколи тебе не принижу!
 
-figurines-boxer-1 = The first rule of Fight Club is...
+figurines-boxer-1 = Перше правило Бійцівського клубу - це...
 
 figurines-captain-1 = Екіпаж, ніхто не бачив мого диска?
 figurines-captain-2 = Слава НТ!
@@ -40,7 +40,7 @@ figurines-hos-3 = Тобі зброю, тобі зброю, ні клоуне, �
 figurines-warden-1 = Стратьте його за проникнення!
 figurines-warden-2 = Видати зброю в червоний код? Ви що?!
 figurines-warden-3 = Ми обходимося зі всіма однаково і НЕ принижуємо їх, так так!
-figurines-warden-4 = Brig is my home. My home is brig. My brig is home. Stop, what?
+figurines-warden-4 = Гауптвахта - мій дім. Мій дім - гауптвахта. Моя гауптвахта - мій дім. Стій, що?
 
 figurines-detective-1 = Це був дворецький.
 figurines-detective-2 = Ех, після цього мені точно не завадить трошечки віски.
@@ -128,7 +128,7 @@ figurines-nukie-3 = Ця ядерка робить бум.
 figurines-nukie-4 = Га, який ще код?
 
 figurines-nukie-elite-1 = Не слова по нанотрайзеновські.
-figurines-nukie-elite-2 = THAT'S A KEG!
+figurines-nukie-elite-2 = ЦЕ БОЧКА!
 figurines-nukie-elite-3 = Агов, хлопці, ви там живі?
 
 figurines-nukie-commander-1 = ЗАБЕРИТЬ ТОЙ БІСІВ ДИСК!
@@ -145,28 +145,28 @@ figurines-space-dragon-1 = Спіймати рибку? А що якщо риб�
 
 figurines-rat-king-1 = Дайка мі жрачки, капіш?
 figurines-rat-king-2 = Ехзабудьпроце.
-figurines-rat-king-3 = Whack 'em!
+figurines-rat-king-3 = Бий їх!
 
 figurines-rat-servant-1 = Капіш!
 figurines-rat-servant-2 = Бос каже!
 
-figurines-mouse-1 = Piep!
-figurines-mouse-2 = Squeak!
-figurines-mouse-3 = Chuu!
-figurines-mouse-4 = Eeee!
-figurines-mouse-5 = Pip!
-figurines-mouse-6 = Fwiep!
-figurines-mouse-7 = Heep!
+figurines-mouse-1 = Піп!
+figurines-mouse-2 = Писк!
+figurines-mouse-3 = Чуу!
+figurines-mouse-4 = Ііі!
+figurines-mouse-5 = Піп!
+figurines-mouse-6 = Фвіп!
+figurines-mouse-7 = Хіп!
 
-figurines-slime-1 = Blyump.
-figurines-slime-2 = Blimpuf?
-figurines-slime-3 = Blump!
+figurines-slime-1 = Бум.
+figurines-slime-2 = Блімпуф?
+figurines-slime-3 = Бамп!
 
-figurines-hamlet-1 = Piep!
-figurines-hamlet-2 = Squeak!
-figurines-hamlet-3 = Chuu!
-figurines-hamlet-4 = Eeee!
-figurines-hamlet-5 = Pip!
-figurines-hamlet-6 = Fwiep!
-figurines-hamlet-7 = Heep!
+figurines-hamlet-1 = Піп!
+figurines-hamlet-2 = Писк!
+figurines-hamlet-3 = Чуу!
+figurines-hamlet-4 = Ііі!
+figurines-hamlet-5 = Піп!
+figurines-hamlet-6 = Фвіп!
+figurines-hamlet-7 = Хіп!
 figurines-hamlet-8 = ТІЛЬКИ НЕ В МІКРОХВИЛЬОВКУ!

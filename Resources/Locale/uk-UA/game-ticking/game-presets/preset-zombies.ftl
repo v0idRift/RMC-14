@@ -1,8 +1,8 @@
 zombie-title = Зомбі
 zombie-description = На станцію випустили мерців! Разом з екіпажем виживіть під час спалаху і захистіть станцію.
 
-zombieteors-title = Zombieteors
-zombieteors-description = The undead have been unleashed on the station amid a cataclysmic meteor shower! Work with your fellow crew and do your best to survive!
+zombieteors-title = Зомбітеори
+zombieteors-description = Під час катастрофічного метеоритного дощу на станцію вирвалася нежить! Працюйте разом з іншими членами екіпажу і зробіть все можливе, щоб вижити!
 
 zombie-not-enough-ready-players = Недостатньо гравців підготувалися до гри! Було підготовлено {$readyPlayersCount} гравців при необхідних {$minimumPlayers}. Неможливо почати гру "Зомбі".
 zombie-no-one-ready = Гравці не готові! Не можу запустити зомбі.

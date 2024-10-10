@@ -10,7 +10,9 @@ replay-loading-failed = Помилка при завантаженні повт�
                         {$reason}
 
 # Main Menu
-replay-loading-retry = Try load with more exception tolerance - MAY CAUSE BUGS!
+replay-loading-retry = Спробуйте навантаження з більшою толерантністю до винятків - МОЖЕ ВИНИКНУТИ БАГ!
+
+# Головне меню
 replay-menu-subtext = Клієнт Повтору
 replay-menu-load = Завантажити Вибраний Повтор
 replay-menu-select = Вибрати Повтор
@@ -42,4 +44,4 @@ cmd-replay-spectate-help = replay_spectate [необов'язкова сутні
 cmd-replay-spectate-desc = Приєднує або від'єднує локального гравця до заданого uid сутності.
 cmd-replay-spectate-hint = Необов'язковий EntityUid
 
-cmd-replay-toggleui-desc = Toggles the replay control UI.
+cmd-replay-toggleui-desc = Перемикає інтерфейс керування відтворенням.

@@ -4,15 +4,15 @@ loadout-group-trinkets = Дрібнички
 loadout-group-glasses = Окуляри
 loadout-group-backpack = Рюкзаки
 loadout-group-instruments = Інструменти
-loadout-group-survival-basic = Survival Box
-loadout-group-survival-extended = Extended Survival Box
-loadout-group-survival-clown = Clown Survival Box
-loadout-group-survival-medical = Medical Survival Box
-loadout-group-survival-security = Security Survival Box
-loadout-group-survival-syndicate = Github is forcing me to write text that is literally twice-impossible for the player to ever see, send help
-loadout-group-breath-tool = Species-dependent breath tools
-loadout-group-tank-harness = Species-specific survival equipment
-loadout-group-EVA-tank = Species-specific gas tank
+loadout-group-survival-basic = Ящик для виживання
+loadout-group-survival-extended = Розширений ящик для виживання
+loadout-group-survival-clown = Клоунський ящик для виживання
+loadout-group-survival-medical = Медична аптечка для виживання
+loadout-group-survival-security = Безпечний ящик для виживання
+loadout-group-survival-syndicate = Github змушує мене писати текст, який буквально двічі неможливо побачити гравцеві, надсилати допомогу
+loadout-group-breath-tool = Видозалежні дихальні інструменти
+loadout-group-tank-harness = Видове спорядження для виживання
+loadout-group-EVA-tank = Газовий бак для конкретного виду
 loadout-group-survival-mime = Mime Survival Box
 loadout-group-captain-head = Голова
 loadout-group-captain-jumpsuit = Одяг
@@ -56,7 +56,7 @@ loadout-group-janitor-head = Голова
 loadout-group-janitor-jumpsuit = Одяг
 loadout-group-janitor-gloves = Рукавички
 loadout-group-janitor-outerclothing = Зовнішний одяг
-loadout-group-janitor-plunger = Janitor plunger
+loadout-group-janitor-plunger = Плунжер для прибиральника
 
 loadout-group-botanist-head = Голова
 loadout-group-botanist-jumpsuit = Одяг
@@ -75,7 +75,7 @@ loadout-group-mime-jumpsuit = Одяг
 loadout-group-mime-backpack = Рюкзак
 loadout-group-mime-outerclothing = Зовнішний одяг
 
-loadout-group-musician-jumpsuit = Musician jumpsuit
+loadout-group-musician-jumpsuit = Комбінезон для музиканта
 loadout-group-musician-outerclothing = Зовнішний одяг
 loadout-group-quartermaster-head = Голова
 loadout-group-quartermaster-jumpsuit = Одяг
@@ -105,7 +105,7 @@ loadout-group-station-engineer-jumpsuit = Одяг
 loadout-group-station-engineer-backpack = Рюкзак
 loadout-group-station-engineer-outerclothing = Зовнішний одяг
 loadout-group-station-engineer-shoes = Взуття
-loadout-group-station-engineer-id = ID
+loadout-group-station-engineer-id = Ідентифікатор інженера станції
 
 loadout-group-atmospheric-technician-jumpsuit = Одяг
 loadout-group-atmospheric-technician-backpack = Рюкзак
@@ -124,7 +124,7 @@ loadout-group-scientist-backpack = Рюкзак
 loadout-group-scientist-outerclothing = Зовнішний одяг
 loadout-group-scientist-gloves = Рукавички
 loadout-group-scientist-shoes = Взуття
-loadout-group-scientist-id = ID
+loadout-group-scientist-id = Ідентифікатор науковця
 
 loadout-group-research-assistant-jumpsuit = Одяг
 loadout-group-head-of-security-head = Голова
@@ -139,10 +139,10 @@ loadout-group-warden-outerclothing = Зовнішний одяг
 loadout-group-security-head = Голова
 loadout-group-security-jumpsuit = Одяг
 loadout-group-security-backpack = Рюкзак
-loadout-group-security-belt = Security Belt
+loadout-group-security-belt = Пояс безпеки
 loadout-group-security-outerclothing = Зовнішний одяг
 loadout-group-security-shoes = Взуття
-loadout-group-security-id = ID
+loadout-group-security-id = Ідентифікатор безпеки
 
 loadout-group-detective-head = Голова
 loadout-group-detective-neck = Шія
@@ -150,7 +150,9 @@ loadout-group-detective-jumpsuit = Одяг
 loadout-group-detective-outerclothing = Зовнішний одяг
 
 loadout-group-security-cadet-jumpsuit = Одяг
-loadout-group-security-star = Security Star
+loadout-group-security-star = Зірка безпеки
+
+# ♪ Медична
 loadout-group-medical-gloves = Рукавички
 loadout-group-medical-mask = Маски
 
@@ -165,7 +167,7 @@ loadout-group-medical-doctor-jumpsuit = Одяг
 loadout-group-medical-doctor-outerclothing = Зовнішний одяг
 loadout-group-medical-doctor-backpack = Рюкзак
 loadout-group-medical-doctor-shoes = Взуття
-loadout-group-medical-doctor-id = ID
+loadout-group-medical-doctor-id = Посвідчення лікаря
 
 loadout-group-medical-intern-jumpsuit = Одяг
 
@@ -179,7 +181,7 @@ loadout-group-paramedic-outerclothing = Зовнішний одяг
 loadout-group-paramedic-shoes = Взуття
 loadout-group-reporter-jumpsuit = Одяг
 
-loadout-group-psychologist-jumpsuit = Psychologist jumpsuit
+loadout-group-psychologist-jumpsuit = Комбінезон психолога
 
 loadout-group-boxer-jumpsuit = Одяг
 loadout-group-boxer-gloves = Рукавички

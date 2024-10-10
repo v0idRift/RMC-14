@@ -1,2 +1,2 @@
-rmc-untuck = Untuck features when worn
-rmc-tuck = Tuck features when worn
+rmc-untuck = Функція розстібання при носінні
+rmc-tuck = Особливості підтягування при носінні

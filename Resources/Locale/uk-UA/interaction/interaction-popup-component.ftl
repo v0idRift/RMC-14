@@ -60,13 +60,13 @@ petting-success-honkbot = {THE($target)} отримує ващі пестощі 
 petting-success-mimebot = {THE($target)} отримує ващі пестощі по {POSS-ADJ($target)} холодній металевій голові.
 petting-success-cleanbot = {THE($target)} отримує ващі пестощі по {POSS-ADJ($target)} вологій металевій голові.
 petting-success-medibot = {THE($target)} отримує ващі пестощі по {POSS-ADJ($target)} стерильній металевій голові.
-petting-success-generic-cyborg = You pet {$target} on {POSS-ADJ($target)} metal head.
-petting-success-salvage-cyborg = You pet {$target} on {POSS-ADJ($target)} dirty metal head.
-petting-success-engineer-cyborg = You pet {$target} on {POSS-ADJ($target)} reflective metal head.
-petting-success-janitor-cyborg = You pet {$target} on {POSS-ADJ($target)} damp metal head.
-petting-success-medical-cyborg = You pet {$target} on {POSS-ADJ($target)} sterile metal head.
-petting-success-service-cyborg = You pet {$target} on {POSS-ADJ($target)} dapper looking metal head.
-petting-success-syndicate-cyborg = You pet {$target} on {POSS-ADJ($target)} menacing metal head.
+petting-success-generic-cyborg = Ви гладите {$target} по металевій голові {POSS-ADJ($target)}.
+petting-success-salvage-cyborg = Ви гладите {$target} по {POSS-ADJ($target)} брудній металевій голові.
+petting-success-engineer-cyborg = Ви гладите {$target} по {POSS-ADJ($target)} відбивній металевій голівці.
+petting-success-janitor-cyborg = Ви гладите {$target} по вологій металевій голівці {POSS-ADJ($target)}.
+petting-success-medical-cyborg = Ви гладите {$target} по {POSS-ADJ($target)} стерильній металевій голові.
+petting-success-service-cyborg = Ви гладите {$target} по {POSS-ADJ($target)} витонченій металевій голові.
+petting-success-syndicate-cyborg = Ви гладите {$target} по {POSS-ADJ($target)} загрозливій металевій голові.
 petting-success-recycler = {THE($target)} отримує ващі пестощі по {POSS-ADJ($target)} помірно загрозливій сталевій голові.
 
 petting-failure-honkbot = Ви тягнетесь, аби попестити «{THE($target)}», але {SUBJECT($target)} обурливо сигналить!
@@ -83,7 +83,9 @@ petting-failure-engineer-cyborg = You reach out to pet {$target}, but {SUBJECT($
 petting-failure-janitor-cyborg = You reach out to pet {$target}, but {SUBJECT($target)} {CONJUGATE-BE($target)} busy cleaning!
 petting-failure-medical-cyborg = You reach out to pet {$target}, but {SUBJECT($target)} {CONJUGATE-BE($target)} busy saving lives!
 petting-failure-service-cyborg = You reach out to pet {$target}, but {SUBJECT($target)} {CONJUGATE-BE($target)} busy serving others!
-petting-failure-syndicate-cyborg = You reach out to pet {$target}, but {POSS-ADJ($target)} treacherous affiliation makes you reconsider
+petting-failure-syndicate-cyborg = Ви простягаєте руку, щоб погладити {$target}, але підступна приналежність {POSS-ADJ($target)} змушує вас передумати.
+
+## Дзвенять паркани
 
 fence-rattle-success = *брязкіт*
 

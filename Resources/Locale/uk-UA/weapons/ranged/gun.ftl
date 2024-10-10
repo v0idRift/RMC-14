@@ -19,16 +19,18 @@ gun-FullAuto = автоматичний
 gun-ballistic-cycle = Зарядити
 gun-ballistic-cycled = Заряджено
 gun-ballistic-cycled-empty = Заряджено (порожньо)
-gun-ballistic-cycle-delayed = You begin unloading {CAPITALIZE(THE($entity))}. Hold still...
-gun-ballistic-cycle-delayed-cancelled = You stop unloading {CAPITALIZE(THE($entity))}.
-gun-ballistic-cycle-delayed-empty = {CAPITALIZE(THE($entity))} is already unloaded.
+gun-ballistic-cycle-delayed = Починається вивантаження {CAPITALIZE(THE($entity))}. Не рухайся...
+gun-ballistic-cycle-delayed-cancelled = Ви припиняєте вивантаження {CAPITALIZE(THE($entity))}.
+gun-ballistic-cycle-delayed-empty = {CAPITALIZE(THE($entity))} вже вивантажено.
 gun-ballistic-transfer-invalid = {CAPITALIZE(THE($ammoEntity))} не поміститься в середині {THE($targetEntity)}!
 gun-ballistic-transfer-empty = {CAPITALIZE(THE($entity))} порожній
 gun-ballistic-transfer-target-full = {CAPITALIZE(THE($entity))} вже повністю заповнено.
 
 # CartridgeAmmo
-gun-ballistic-transfer-cancelled = Your reload was interrupted!
-gun-ballistic-transfer-primed = You can't load a primed {$ammoEntity}!
+gun-ballistic-transfer-cancelled = Ваше перезаряджання було перервано!
+gun-ballistic-transfer-primed = Ви не можете завантажити праймовану {$ammoEntity}!
+
+# CartridgeAmmo
 gun-cartridge-spent = Він [color=red]пустий[/color].
 gun-cartridge-unspent = Він [color=lime]не пустий[/color].
 

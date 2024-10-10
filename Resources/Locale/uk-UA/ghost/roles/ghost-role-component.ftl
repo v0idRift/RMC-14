@@ -4,26 +4,26 @@ ghost-role-component-default-rules = Ви не пам'ятаєте [color=red]Н
                                      Вам абсолютно [color=red]ЗАБОРОНЕНО[/color] пам'ятати, говорити, згадувати тощо, про вашого минулого персонажа.
 
 # Delta V soft antag rule
-ghost-role-information-nonantagonist-rules = You are a [color=green][bold]Non-antagonist[/bold][/color]. You should generally not seek to harm the station and its crew.
-                                             You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
-                                             You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
-                                             You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
-ghost-role-information-freeagent-rules = You are a [color=yellow][bold]Free Agent[/bold][/color]. You are free to act as either an antagonist or a non-antagonist.
-                                         You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
-                                         You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
-                                         You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
-ghost-role-information-antagonist-rules = You are a [color=red][bold]Solo Antagonist[/bold][/color]. Your intentions are clear, and harmful to the station and its crew.
-                                          You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
-                                          You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
-                                          You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
-ghost-role-information-familiar-rules = You are a [color=#6495ed][bold]Familiar[/bold][/color]. Serve the interests of your master, whatever those may be.
-                                        You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
-                                        You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
-                                        You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
-ghost-role-information-silicon-rules = You are a [color=#6495ed][bold]Silicon[/bold][/color]. Obey your laws. You are a Free Agent if you are not currently bound by any laws.
-                                       You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
-                                       You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
-                                       You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
+ghost-role-information-nonantagonist-rules = Ви [color=green][bold]Не-антагоніст[/bold][/color]. Зазвичай ви не повинні намагатися завдати шкоди станції та її екіпажу.
+                                             Ви не пам'ятаєте нічого зі свого попереднього життя і не пам'ятаєте нічого з того, чого навчилися, будучи привидом.
+                                             Вам дозволено пам'ятати знання про гру в цілому, наприклад, як готувати їжу, як користуватися предметами тощо.
+                                             Ви абсолютно [color=red]НЕ[/color] можете пам'ятати, скажімо, ім'я, зовнішність і т.д. вашого попереднього персонажа.
+ghost-role-information-freeagent-rules = Ви - [color=yellow][bold]Вільний агент[/bold][/color]. Ви можете діяти як антагоніст або не-антагоніст.
+                                         Ви не пам'ятаєте нічого зі свого попереднього життя і не пам'ятаєте нічого з того, чого навчилися, будучи привидом.
+                                         Вам дозволено пам'ятати знання про гру в цілому, наприклад, як готувати їжу, як використовувати предмети тощо.
+                                         Ви абсолютно [color=red]НЕ[/color] можете пам'ятати, скажімо, ім'я, зовнішність і т.д. вашого попереднього персонажа.
+ghost-role-information-antagonist-rules = Ви - [color=red][bold]Самотній антагоніст[/bold][/color]. Твої наміри зрозумілі: ти хочеш завдати шкоди станції та її екіпажу.
+                                          Ви не пам'ятаєте нічого зі свого попереднього життя, і не пам'ятаєте нічого з того, чого навчилися, будучи привидом.
+                                          Вам дозволено пам'ятати знання про гру в цілому, наприклад, як готувати їжу, як користуватися предметами тощо.
+                                          Ви абсолютно [color=red]НЕ[/color] можете пам'ятати, скажімо, ім'я, зовнішність і т.д. вашого попереднього персонажа.
+ghost-role-information-familiar-rules = Ви - [color=#6495ed][bold]Знайомець[/bold][/color]. Служи інтересам свого господаря, якими б вони не були.
+                                        Ви не пам'ятаєте нічого зі свого попереднього життя і не пам'ятаєте нічого з того, чого навчилися, будучи привидом.
+                                        Вам дозволено пам'ятати знання про гру в цілому, наприклад, як готувати їжу, як користуватися предметами тощо.
+                                        Ви абсолютно [color=red]НЕ[/color] можете пам'ятати, скажімо, ім'я, зовнішність і т.д. вашого попереднього персонажа.
+ghost-role-information-silicon-rules = Ви - [color=#6495ed][bold]Кремній[/bold][/color]. Підкоряйся своїм законам. Ви - Вільний Агент, якщо на даний момент ви не зв'язані жодними законами.
+                                       Ви не пам'ятаєте нічого зі свого попереднього життя і не пам'ятаєте нічого з того, чого навчилися, будучи привидом.
+                                       Вам дозволено пам'ятати знання про гру в цілому, наприклад, як готувати їжу, як використовувати предмети тощо.
+                                       Ви абсолютно [color=red]НЕ[/color] можете пам'ятати, скажімо, ім'я, зовнішність і т.д. вашого попереднього персонажа.
 
 ghost-role-information-mouse-name = Миша
 ghost-role-information-mouse-description = Голодна пустотлива миша.
@@ -48,7 +48,7 @@ ghost-role-information-slimes-description = Звичайний слиз без �
 
 ghost-role-information-angry-slimes-name = Слайм
 ghost-role-information-angry-slimes-description = Всі навколо дратують ваші інстинкти, знищіть їх!
-ghost-role-information-angry-slimes-rules = You are a [color=red][bold]Team Antagonist[/bold][/color] with all other angry slimes.
+ghost-role-information-angry-slimes-rules = Ви [color=red][bold]Антагоніст команди[/bold][/color] з усіма іншими злими слимаками.
 
 ghost-role-information-smile-name = Слайм Посміхун
 ghost-role-information-smile-description = Наймиліша істота на світі. Слайм Посміхун!
@@ -115,11 +115,11 @@ ghost-role-information-ifrit-description = Слухай свого господ�
 
 ghost-role-information-space-dragon-name = Космічний дракон
 ghost-role-information-space-dragon-description = Викличте 3 портали та захопіть цю станцію! У вас є лише 5 хвилин між кожним порталом, перш ніж ви зникнете.
-ghost-role-information-space-dragon-rules = You are a [color=red][bold]Team Antagonist[/bold][/color] with all your summoned carp.
-ghost-role-information-space-dragon-summoned-carp-rules = You are a [color=red][bold]Team Antagonist[/bold][/color] with your dragon and its allies.
+ghost-role-information-space-dragon-rules = Ви - [color=red][bold]Антагоніст команди[/bold][/color] з усіма своїми викликаними коропами.
+ghost-role-information-space-dragon-summoned-carp-rules = Ви - [color=red][bold]Антагоніст команди[/bold][/color] зі своїм драконом та його союзниками.
 
 ghost-role-information-space-dragon-dungeon-description = Захищайте підземелля експедиції разом зі своїми рибними товаришами!
-ghost-role-information-space-dragon-dungeon-rules = You are a [color=red][bold]Team Antagonist[/bold][/color] with all dungeon mobs.
+ghost-role-information-space-dragon-dungeon-rules = Ви - [color=red][bold]Антагоніст команди[/bold][/color] з усіма мобами підземелля.
 
 ghost-role-information-cluwne-name = Клуні
 ghost-role-information-cluwne-description = Станьте жалюгідною жертвою, ваша єдина мета в житті - знайти солодке звільнення від страждань (як правило, шляхом побиття до смерті). Клюн не є антагоністом, але може захищатися. Члени екіпажу можуть спокійно вбивати вас.
@@ -177,7 +177,7 @@ ghost-role-information-hellspawn-description = Ви провісник Нар'С
 
 ghost-role-information-Death-Squad-name = Загін Смерті
 ghost-role-information-Death-Squad-description = Готуйтеся до повного наступу на станцію. Як озброєний до зубів оперативник, ваша місія — знищити все живе на своєму шляху. Без свідків.
-ghost-role-information-Death-Squad-rules = You are required to obey orders given by your superior, you are effectively their [color=#6495ed][bold]Familiar[/bold][/color].
+ghost-role-information-Death-Squad-rules = Ви зобов'язані виконувати накази свого керівника, ви фактично є його [color=#6495ed][bold]знайомим[/bold][/color].
 
 ghost-role-information-SyndiCat-name = СиндіКіт
 ghost-role-information-SyndiCat-description = Ви вірний навчений вихованець ядерників з мікробомбою. Служіть своєму панові до смерті!
@@ -196,45 +196,45 @@ ghost-role-information-syndicate-reinforcement-name = Агент синдика�
 ghost-role-information-syndicate-reinforcement-description = Комусь потрібне підкріплення. Ви, перший, кого зможе знайти синдикат, допоможете їм.
 ghost-role-information-syndicate-reinforcement-rules = Застосовуються звичайні правила антагоністів синдикату. Працюйте з тими, хто вас викликав, і не завдавайте їм шкоди.
 
-ghost-role-information-syndicate-reinforcement-medic-name = Syndicate Medic
-ghost-role-information-syndicate-reinforcement-medic-description = Someone needs reinforcements. Your task is to keep the agent who called you alive.
+ghost-role-information-syndicate-reinforcement-medic-name = Медик синдикату
+ghost-role-information-syndicate-reinforcement-medic-description = Комусь потрібне підкріплення. Ваше завдання - зберегти життя агенту, який вас викликав.
 
-ghost-role-information-syndicate-reinforcement-spy-name = Syndicate Spy
-ghost-role-information-syndicate-reinforcement-spy-description = Someone needs reinforcements. Your speciality lies in espionage, do not be discovered.
+ghost-role-information-syndicate-reinforcement-spy-name = Шпигун синдикату
+ghost-role-information-syndicate-reinforcement-spy-description = Комусь потрібне підкріплення. Твоя спеціальність - шпигунство, не дай себе викрити.
 
-ghost-role-information-syndicate-reinforcement-thief-name = Syndicate Thief
-ghost-role-information-syndicate-reinforcement-thief-description = Someone needs reinforcements. Your job is to break in and retrieve something valuable for your agent.
+ghost-role-information-syndicate-reinforcement-thief-name = Синдикатський злодій
+ghost-role-information-syndicate-reinforcement-thief-description = Комусь потрібне підкріплення. Ваше завдання - проникнути всередину і забрати щось цінне для свого агента.
 
-ghost-role-information-nukeop-reinforcement-name = Nuclear Operative
-ghost-role-information-nukeop-reinforcement-description = The nuclear operatives need reinforcements. You, a reserve agent, will help them.
-ghost-role-information-nukeop-reinforcement-rules = You are a [color=red][bold]Team Antagonist[/bold][/color] with the nuclear operatives who summoned you.
+ghost-role-information-nukeop-reinforcement-name = Ядерний оперативник
+ghost-role-information-nukeop-reinforcement-description = Ядерним оперативникам потрібне підкріплення. Ти, агент резерву, допоможеш їм.
+ghost-role-information-nukeop-reinforcement-rules = Ви - [color=red][bold]Антагоніст команди[/bold][/color] з ядерними оперативниками, які вас викликали.
 
 ghost-role-information-syndicate-monkey-reinforcement-name = Агент Синдикату Мавп
 ghost-role-information-syndicate-monkey-reinforcement-description = Комусь потрібне підкріплення. Ви, дресирована мавпочка, будете їм допомагати.
 ghost-role-information-syndicate-monkey-reinforcement-rules = Застосовуються звичайні правила антагоністів синдикату. Працюйте з тими, хто вас викликав, і не завдавайте їм шкоди.
 
-ghost-role-information-lost-cargo-technical-name = Lost Cargo Technician
-ghost-role-information-lost-cargo-technical-description = Something went wrong and your cargo shuttle with the goods was beamed into the sector to another station.
+ghost-role-information-lost-cargo-technical-name = Технік з пошуку загубленого вантажу
+ghost-role-information-lost-cargo-technical-description = Щось пішло не так, і ваш вантажний шатл з товаром був телепортований в сектор на іншу станцію.
 
-ghost-role-information-clown-troupe-name = Space Clown
-ghost-role-information-clown-troupe-description = You and your troupe have come to cheer up this station with your best jokes. Honk!
+ghost-role-information-clown-troupe-name = Космічний клоун
+ghost-role-information-clown-troupe-description = Ви зі своєю трупою прийшли розвеселити цю станцію своїми найкращими жартами. Гудок!
 
-ghost-role-information-traveling-chef-name = Traveling Chef
-ghost-role-information-traveling-chef-description = You are a chef on a traveling shuttle of exotic cuisine. Delight the station with delicious food!
+ghost-role-information-traveling-chef-name = Мандрівний шеф-кухар
+ghost-role-information-traveling-chef-description = Ви - шеф-кухар на мандрівному шатлі екзотичної кухні. Порадуйте станцію смачною їжею!
 
-ghost-role-information-disaster-victim-name = Disaster Victim
-ghost-role-information-disaster-victim-description = You were rescued in an escape pod from another station that suffered a terrible fate. Perhaps you will be found and rescued.
+ghost-role-information-disaster-victim-name = Постраждалий від стихійного лиха
+ghost-role-information-disaster-victim-description = Ви врятувалися в рятувальній капсулі з іншої станції, яку спіткала жахлива доля. Можливо, вас знайдуть і врятують.
 
-ghost-role-information-syndie-disaster-victim-name = Syndie Disaster Victim
-ghost-role-information-syndie-disaster-victim-description = You're a regular passenger from a syndicate station. Unfortunately, an evacuation pod has thrown you into an enemy sector.....
+ghost-role-information-syndie-disaster-victim-name = Жертва катастрофи Синді
+ghost-role-information-syndie-disaster-victim-description = Ви звичайний пасажир зі станції синдикату. На жаль, евакуаційна капсула закинула вас у ворожий сектор.....
 
-ghost-role-information-syndicate-kobold-reinforcement-name = Syndicate Kobold Agent
-ghost-role-information-syndicate-kobold-reinforcement-description = Someone needs reinforcements. You, a trained kobold, will help them.
-ghost-role-information-syndicate-kobold-reinforcement-rules = Normal syndicate antagonist rules apply. Work with whoever called you in, and don't harm them.
+ghost-role-information-syndicate-kobold-reinforcement-name = Агент Синдикату кобольдів
+ghost-role-information-syndicate-kobold-reinforcement-description = Декому потрібне підкріплення. Ти, тренований кобольд, допоможеш їм.
+ghost-role-information-syndicate-kobold-reinforcement-rules = Ви - [color=red][bold]Антагоніст команди[/bold][/color] разом з агентом, який вас викликав.
 
 ghost-role-information-artifact-name = Чуттєвий артефакт
 ghost-role-information-artifact-description = Втілюйте свої елдричні забаганки.
       Примусово активуйте свої вузли на добро чи на зло.
 
-ghost-role-information-syndie-assaultborg-name = Syndicate Assault Borg
-ghost-role-information-syndie-assaultborg-description = Nuclear operatives needs reinforcements. You, a cold silicon killing machine, will help them. More dakka!
+ghost-role-information-syndie-assaultborg-name = Синдикат штурмових боргів
+ghost-role-information-syndie-assaultborg-description = Ядерні оперативники потребують підкріплення. Ти, холодна кремнієва машина для вбивства, допоможеш їм. Більше дакки!

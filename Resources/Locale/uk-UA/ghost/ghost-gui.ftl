@@ -1,8 +1,8 @@
 ghost-gui-return-to-body-button = Повернутися у тіло
 ghost-gui-ghost-warp-button = Примарний портал
 ghost-gui-ghost-roles-button = Ролі привидів ({$count})
-ghost-gui-toggle-ghost-visibility-popup-on = Enabled visibility of ghosts.
-ghost-gui-toggle-ghost-visibility-popup-off = Disabled visibility of ghosts.
+ghost-gui-toggle-ghost-visibility-popup-on = Увімкнена видимість привидів.
+ghost-gui-toggle-ghost-visibility-popup-off = Відключена видимість привидів.
 ghost-gui-toggle-lighting-manager-popup = Переключено все освітлення.
 ghost-gui-toggle-fov-popup = Переключено поле зору.
 

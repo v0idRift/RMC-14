@@ -2,49 +2,51 @@ reagent-name-cmdylovene = Диловен
 reagent-desc-cmdylovene = Загальний анті-токсин, який нейтралізує дію більшості токсинів у вашої крові. Використовується в рецепті більшості поліпшених ліків.
 
 reagent-name-cmethylredoxrazine = Етилредоксразин
-reagent-desc-cmethylredoxrazine = Neutralizes the effects of alcohol in the blood stream, by oxidizing it into water molecules. However, it does not stop immediate intoxication. Ethylredoxrazine being a powerful oxidizer, it becomes toxic in high doses.
+reagent-desc-cmethylredoxrazine = Нейтралізує дію алкоголю в крові, окислюючи його до молекул води. Однак не зупиняє миттєве сп'яніння. Етилредоксразин є потужним окислювачем, тому у високих дозах стає токсичним.
 
 reagent-name-cmarithrazine = Арітразин
-reagent-desc-cmarithrazine = A stabilized variant of dylovene. Its toxin-cleansing properties are weakened and there are harmful side effects, but it does not react with other compounds to create toxin.
+reagent-desc-cmarithrazine = Стабілізований варіант диловену. Його токсиноочисні властивості ослаблені, є шкідливі побічні ефекти, але він не вступає в реакцію з іншими сполуками, утворюючи токсин.
 
 reagent-name-cmbicaridine = Бікаридин
-reagent-desc-cmbicaridine = Bicaridine is an analgesic medication and can be used to treat severe external blunt trauma and to stabilize patients. Overdosing on Bicaridine will cause caustic burns and toxins.
+reagent-desc-cmbicaridine = Бікаридин - це знеболюючий препарат, який можна використовувати для лікування важких зовнішніх тупих травм і стабілізації стану пацієнта. Передозування бікаридину спричиняє їдкі опіки та отруєння токсинами.
 
 reagent-name-cmcryoxadone = Кріоксадон
-reagent-desc-cmcryoxadone = Industrial grade cryogenic medicine. Treats most types of tissue damage. Its main limitation is that the patient's body temperature must be under 170K to metabolise correctly.
+reagent-desc-cmcryoxadone = Кріогенна медицина промислового рівня. Лікує більшість видів пошкоджень тканин. Основним обмеженням є те, що для правильного метаболізму температура тіла пацієнта повинна бути нижче 170К.
 
 reagent-name-cmdermaline = Дермалін
-reagent-desc-cmdermaline = Advanced medicine used to treat severe burn trauma. Enables the body to restore even the direst heat-damaged tissue. Overdosing on dermaline can cause severe internal tissue damage.
+reagent-desc-cmdermaline = Передові ліки для лікування важких опікових травм. Дозволяє організму відновити навіть найтяжчі термічні пошкодження тканин. Передозування дерматину може спричинити серйозні пошкодження внутрішніх тканин.
 
 reagent-name-cmdexalin = Дексалін
-reagent-desc-cmdexalin = Dexalin is used in the treatment of oxygen deprivation by feeding oxygen to red blood cells directly inside the bloodstream. Used as an antidote to lexorin poisoning.
+reagent-desc-cmdexalin = Дексалін використовується для лікування кисневого голодування шляхом подачі кисню до еритроцитів безпосередньо в кровотік. Використовується як антидот при отруєнні лексорином.
 
 reagent-name-cmdexalinplus = Дексалін Плюс
-reagent-desc-cmdexalinplus = Dexalin Plus is an upgraded form of Dexalin with added iron and carbon to quicken the rate which oxygen binds to the hemoglobin in red blood cells.
+reagent-desc-cmdexalinplus = Дексалін Плюс - це вдосконалена форма Дексаліну з додаванням заліза та вуглецю для прискорення швидкості зв'язування кисню з гемоглобіном в еритроцитах.
 
 reagent-name-cmepinephrine = Епінефрін
-reagent-desc-cmepinephrine = A natural muscle and heart stimulant. Useful for restarting the heart. Overdosing may stress the heart and cause tissue damage.
+reagent-desc-cmepinephrine = Природний стимулятор м'язів і серця. Корисний для перезапуску серця. Передозування може спричинити стрес для серця та пошкодження тканин.
 
 reagent-name-cminaprovaline = Інапровалин
-reagent-desc-cminaprovaline = Inaprovaline is a synaptic stimulant and cardiostimulant. Commonly used to stabilize patients. If the lungs are functional, inaprovaline will allow respiration while under cardiac arrest. Acts as a weak painkiller. Overdosing may cause severe damage to cardiac tissue.
+reagent-desc-cminaprovaline = Інапровалін - синаптичний стимулятор і кардіостимулятор. Зазвичай використовується для стабілізації пацієнтів. Якщо легені функціонують, інапровалін забезпечує дихання під час зупинки серця. Діє як слабкий знеболювальний засіб. Передозування може спричинити серйозне пошкодження серцевої тканини.
 
 reagent-name-cmkelotane = Келотан
-reagent-desc-cmkelotane = Common medicine used to treat burns, caustic and corrosive trauma. Overdosing on kelotane can cause internal tissue damage.
+reagent-desc-cmkelotane = Загальноприйнятий лікарський засіб, що використовується для лікування опіків, їдких та корозійних травм. Передозування келотаном може спричинити пошкодження внутрішніх тканин.
 
 reagent-name-cmleporazine = Лепоразин
-reagent-desc-cmleporazine = A drug used to treat hypothermia and hyperthermia. Stabilizes patient body temperture. Prevents the use of cryogenics. Overdosing on leporazine can cause extreme drowsyness.
+reagent-desc-cmleporazine = Препарат для лікування гіпотермії та гіпертермії. Стабілізує температуру тіла пацієнта. Перешкоджає використанню кріогенних засобів. Передозування лепоразином може викликати сильну сонливість.
 
 reagent-name-cmtricordrazine = Трікордразин
-reagent-desc-cmtricordrazine = Tricordrazine is a highly potent stimulant, originally derived from cordrazine. Can be used to treat a wide range of injuries.
+reagent-desc-cmtricordrazine = Трикордразин - сильнодіючий стимулятор, похідний від кордразину. Може використовуватися для лікування широкого спектру травм.
 
 reagent-name-cmmeralyne = Мералин
-reagent-desc-cmmeralyne = Advanced analgesic medication used to treat extremely severe blunt trauma. Allows the body to quickly repair damaged tissue. Overdosing on Meralyne can cause severe corrosion to cell membranes.
+reagent-desc-cmmeralyne = Сучасний знеболювальний препарат, що використовується для лікування надзвичайно важких тупих травм. Дозволяє організму швидко відновити пошкоджені тканини. Передозування Мераліном може спричинити сильну корозію клітинних мембран.
 
 reagent-name-cmimidazoline = Імідазолин
-reagent-desc-cmimidazoline = Used for treating non-genetic eye trauma. Generally prescribed as treatment for most cases of eye trauma instead of performing a surgical operation.
+reagent-desc-cmimidazoline = Використовується для лікування негенетичних травм очей. Зазвичай призначається для лікування більшості випадків травм очей замість проведення хірургічної операції.
 
 reagent-name-cmclonexadone = Клонексадон
-reagent-desc-cmclonexadone = Advanced cryogenic medicine made from cryoxadone. Treats most types of tissue damage. Requires temperatures below 170K to to metabolise correctly
+reagent-desc-cmclonexadone = Сучасний кріогенний препарат на основі кріоксадону. Лікує більшість видів пошкоджень тканин. Для правильного метаболізму потребує температури нижче 170К.
+
+# Етикетки з медичними значками
 rmc-tricordazine-container-label-text = TI
 rmc-bicaridine-container-label-text = БІ
 rmc-kelotane-container-label-text = КЕ

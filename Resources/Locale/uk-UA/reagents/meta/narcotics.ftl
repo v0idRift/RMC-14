@@ -38,4 +38,4 @@ reagent-name-tear-gas = сльозогінний газ
 reagent-desc-tear-gas = Хімічна речовина, яка викликає сильне роздратування та плач, зазвичай використовується для боротьби з масовими заворушеннями.
 
 reagent-name-happiness = щастя
-reagent-desc-happiness = Fills you with ecstatic numbness and causes minor brain damage. Highly addictive. If overdosed causes sudden mood swings.
+reagent-desc-happiness = Наповнює вас екстатичним заціпенінням і викликає незначні пошкодження мозку. Викликає сильне звикання. При передозуванні викликає різкі перепади настрою.

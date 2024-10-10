@@ -121,14 +121,14 @@ uplink-agent-id-card-desc = Модифікована картка монобан
 uplink-black-jetpack-name = Чорний Реактивний Ранець
 uplink-black-jetpack-desc = Чорний реактивний ранець. Дозволяє літати в космосі. Перезаправка неможлива, використовуйте паливо з розумом.
 
-uplink-reinforcement-radio-ancestor-name = Genetic Ancestor Reinforcement Teleporter
-uplink-reinforcement-radio-ancestor-desc = Call in a trained ancestor of your choosing to assist you. Comes with a single syndicate cigarette.
+uplink-reinforcement-radio-ancestor-name = Телепортатор генетичного посилення предків
+uplink-reinforcement-radio-ancestor-desc = Покличте тренованого предка на свій вибір, щоб він допоміг вам. Поставляється з однією сигаретою синдикату.
 
 uplink-reinforcement-radio-name = Телепорт Підкріплення
-uplink-reinforcement-radio-traitor-desc = Radio in a reinforcement agent of extremely questionable quality. No off button, buy this if you're ready to party. Call in a medic or spy or thief to help you out. Good luck.
+uplink-reinforcement-radio-traitor-desc = Радіо в армуючій речовині вкрай сумнівної якості. Без кнопки вимкнення, купуйте, якщо ви готові до вечірки. Викличте на допомогу медика, шпигуна чи злодія. Щасти вам.
 
-uplink-reinforcement-radio-nukeops-name = Nuclear Operative Teleporter
-uplink-reinforcement-radio-nukeops-desc = Radio in a reinforcement agent of extremely questionable quality. No off button, buy this if you're ready to party. They have a pistol with no reserve ammo, and a knife. That's it.
+uplink-reinforcement-radio-nukeops-name = Ядерний оперативний телепорт
+uplink-reinforcement-radio-nukeops-desc = Радіо в ядерному оперативнику вкрай сумнівної якості. Кнопки вимкнення немає, купуйте, якщо ви готові до вечірки. У них є базове спорядження ядерного оперативника.
 
 uplink-reinforcement-radio-cyborg-assault-name = Телепортер Штурмового Кіборга Синдикату
 uplink-reinforcement-radio-cyborg-assault-desc = Струнка, смертоносна машина з доступом до Енергетичного Меча, ЛMG, Криптографічного Секвенсера та Пінпойнтера.
@@ -162,8 +162,8 @@ uplink-radio-jammer-desc = Цей пристрій перериває будь-�
 uplink-syndicate-weapon-module-name = Модуль "Зброя-кіборг
 uplink-syndicate-weapon-module-desc = Цей модуль дасть кіборгу вдосконалений лазер і мачете
 
-uplink-syndicate-martyr-module-name = Martyr Cyborg Module
-uplink-syndicate-martyr-module-desc = Turn your emagged borg friend into a walking bomb with just this module. Make sure they're loyal to your cause, results may vary.
+uplink-syndicate-martyr-module-name = Модуль "Кіборг-мученик
+uplink-syndicate-martyr-module-desc = Перетворіть свого епатажного друга-борга на ходячу бомбу за допомогою цього модуля. Переконайтеся, що вони віддані вашій справі, результати можуть відрізнятися.
 
 uplink-singularity-beacon-name = Маяк сингулярності
 uplink-singularity-beacon-desc = Пристрій, що притягує сингулярності. Має бути закріплений і забезпечений живленням. Спричиняє зростання сингулярностей при споживанні.
@@ -297,8 +297,10 @@ uplink-cluster-banana-peel-desc = Розбивається на 6 вибухов
 
 # Броня
 
-uplink-cane-blade-name = Cane Blade
-uplink-cane-blade-desc = A cane that has a hidden blade that can be unsheathed
+uplink-cane-blade-name = Лезо тростини
+uplink-cane-blade-desc = Тростина, що має приховане лезо, яке можна витягти з піхов.
+
+# Броня
 uplink-chameleon-name = Комплект Хамелеона
 uplink-chameleon-desc = Рюкзак, повний предметів, які мають технологію хамелеона, що дозволяє вам маскуватися під будь-що на станції, і навіть більше!
 
@@ -317,14 +319,14 @@ uplink-clothing-shoes-boots-mag-syndie-desc = Пара черевиків, як�
 uplink-eva-syndie-name = Набір EVA Синдикату
 uplink-eva-syndie-desc = Простий скафандр EVA, який не забезпечує жодного захисту, окрім того, який необхідний для виживання в космосі.
 
-uplink-hardsuit-carp-name = Carp Hardsuit
-uplink-hardsuit-carp-desc = Looks like an ordinary carp suit, except fully spaceproof and tricks space carp into thinking you are one of them.
+uplink-hardsuit-carp-name = Короповий захисний костюм
+uplink-hardsuit-carp-desc = Виглядає як звичайний короповий костюм, тільки повністю космічний і обманює космічних коропів, змушуючи їх думати, що ви один з них.
 
 uplink-hardsuit-syndie-name = Космічний Костюм Синдикату
 uplink-hardsuit-syndie-desc = Добре відомий броньований криваво-червоний скафандр Синдикату, здатний виходити у відкритий космос, а ще він куленепробивний.
 
-uplink-syndie-raid-name = Syndicate Raid Suit
-uplink-syndie-raid-desc = A very durable and reasonably flexible suit of blood-red armor, reinforced against all common forms of damage but not capable of space walks. Comes with a sick helmet.
+uplink-syndie-raid-name = Костюм для рейдерських захоплень синдикатів
+uplink-syndie-raid-desc = Дуже міцний і досить гнучкий костюм з криваво-червоної броні, посилений від усіх поширених видів пошкоджень, але не здатний до космічних прогулянок. Поставляється з хворим шоломом.
 
 uplink-hardsuit-syndieelite-name = Синдикат "Елітний хардкот
 uplink-hardsuit-syndieelite-desc = Елітна версія криваво-червоного бронежилета, з покращеною мобільністю та вогнестійкістю. Власність "Мародерів Горлекса".
@@ -386,8 +388,10 @@ uplink-mobcat-microbomb-desc = Ручний кіт, оснащений імпл�
 
 # Pointless
 
-uplink-chameleon-projector-name = Chameleon Projector
-uplink-chameleon-projector-desc = Disappear in plain sight by creating a hologram of an item around you. Do not use this to play the game "Object Search"
+uplink-chameleon-projector-name = Проектор-хамелеон
+uplink-chameleon-projector-desc = Зникнути у всіх на виду, створивши голограму предмета навколо себе. Не використовуйте це для гри "Пошук предметів".
+
+# Безглуздо
 uplink-revolver-cap-gun-name = Пістолетик
 uplink-revolver-cap-gun-desc = Виглядає майже як справжній! Від 8 років і старше.
 
@@ -442,5 +446,5 @@ uplink-barber-scissors-desc = Гарний інструмент, щоб зроб
 uplink-backpack-syndicate-name = Рюкзак Синдикату
 uplink-backpack-syndicate-desc = Легкий вибухозахисний рюкзак для зберігання різних предметів зрадника
 
-uplink-combat-bakery-name = Combat Bakery Kit
-uplink-combat-bakery-desc = A kit of clandestine baked weapons. Contains a baguette which a skilled mime could use as a sword and a pair of throwing croissants. Once the job is done, eat the evidence.
+uplink-combat-bakery-name = Бойовий набір для випікання хліба
+uplink-combat-bakery-desc = Набір підпільної зброї, що випікається підпільно. Містить багет, який вправний мім міг би використати як меч, та пару метальних круасанів. Коли роботу буде виконано, з'їжте докази.

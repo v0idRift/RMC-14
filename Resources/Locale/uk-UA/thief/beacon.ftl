@@ -5,4 +5,4 @@ thief-fulton-examined-set = Коордінати введені. Переміщ�
 thief-fulton-examined-unset = Коордінати маячка не встановлені.
 
 thief-fulton-verb-text = Встановити коордінати
-thief-fulton-verb-message = Set the coordinates of your thief's hideout, where all nearby items will be sent at the end of the round.
+thief-fulton-verb-message = Встановіть координати схованки вашого злодія, куди в кінці раунду будуть відправлені всі предмети, що знаходяться поблизу.

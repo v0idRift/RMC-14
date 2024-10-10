@@ -3,19 +3,19 @@ cm-gun-no-ammo-message = У вас не залишилося набоїв!
 cm-gun-use-delay = Ви повинні зачекати {$seconds} секунд перед наступним пострілом!
 cm-gun-pump-examine = [bold]Натисніть ваше "[color=cyan]унікальна дія[/color]" скорочення (Пробіл за замовчуванням) щоб пересмикнути перед пострілом.[/bold]
 
-rmc-breech-loaded-open-shoot-attempt = You need to close the breech first!
-rmc-breech-loaded-not-ready-to-shoot = You need to open and close the breech first!
-rmc-breech-loaded-closed-load-attempt = You need to open the breech first!
+rmc-breech-loaded-open-shoot-attempt = Спочатку потрібно закрити тазове передлежання!
+rmc-breech-loaded-not-ready-to-shoot = Спочатку потрібно відкрити і закрити тазовий згин!
+rmc-breech-loaded-closed-load-attempt = Спочатку потрібно відкрити тазові передлежання!
 
-rmc-wield-use-delay = You need to wait {$seconds} seconds before wielding {THE($wieldable)}!
-rmc-shoot-use-delay = You need to wait {$seconds} seconds before shooting {THE($wieldable)}!
+rmc-wield-use-delay = Вам потрібно почекати {$seconds} секунд, перш ніж використовувати {THE($wieldable)}!
+rmc-shoot-use-delay = Вам потрібно почекати {$seconds} секунд, перш ніж стріляти {THE($wieldable)}!
 
-rmc-shoot-harness-required = Harness required
-rmc-wear-smart-gun-required = You must have your smart gun equipped to wear these.
+rmc-shoot-harness-required = Потрібен ремінь безпеки
+rmc-wear-smart-gun-required = Щоб носити їх, ви повинні мати при собі смарт-пістолет.
 
-rmc-revolver-spin = You spin the cylinder.
+rmc-revolver-spin = Ти крутиш циліндр.
 
-rmc-examine-text-scatter-max = Current maximum scatter is [color={$colour}]{TOSTRING($scatter, "F1")}[/color] degrees.
-rmc-examine-text-scatter-min = Current minimum scatter is [color={$colour}]{TOSTRING($scatter, "F1")}[/color] degrees.
+rmc-examine-text-scatter-max = Поточний максимальний розкид становить [color={$colour}]{TOSTRING($scatter, "F1")}[/color] градусів.
+rmc-examine-text-scatter-min = Поточний мінімальний розкид становить [color={$colour}]{TOSTRING($scatter, "F1")}[/color] градусів.
 rmc-examine-text-shots-to-max-scatter = It takes [color={$colour}]{$shots}[/color] shots to reach maximum scatter.
-rmc-examine-text-iff = [color=cyan]This gun will ignore and shoot past friendlies![/color]
+rmc-examine-text-iff = [color=cyan]Ця гармата ігноруватиме та стрілятиме повз дружні матчі![/color]

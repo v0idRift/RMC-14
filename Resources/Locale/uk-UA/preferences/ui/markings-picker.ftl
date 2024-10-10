@@ -14,7 +14,7 @@ marking-slot-remove = Видалити
 # Категорії
 marking-slot = Слот {$number}
 
-markings-category-Special = Special
+markings-category-Special = Спеціальний
 markings-category-Hair = Волосся
 markings-category-FacialHair = Волосся на обличчі
 markings-category-Head = Голова

@@ -1,11 +1,11 @@
-gas-miner-mines-text = It mines [color=lightgray]{$gas}[/color] when active.
+gas-miner-mines-text = Він видобуває [color=lightgray]{$gas}[/color], коли активний.
 
 gas-miner-amount-text = It mines {$moles} moles of gas a second when active.
-gas-miner-temperature-text = Mined gas temp: {$tempK}K ({$tempC}°C).
+gas-miner-temperature-text = Температура видобутого газу: {$tempK}K ({$tempC}°C).
 
-gas-miner-moles-cutoff-text = Surrounding moles cutoff: {$moles} moles.
+gas-miner-moles-cutoff-text = Відсікання навколишніх родимок: {$moles} родимок.
 gas-miner-pressure-cutoff-text = Surrounding pressure cutoff: {$pressure} kPA.
 
-gas-miner-state-working-text = The miner is [color=green]active[/color] and mining gas.
-gas-miner-state-idle-text = The miner is [color=yellow]idle[/color] and not mining gas.
-gas-miner-state-disabled-text = The miner is [color=red]disabled[/color] and not mining gas.
+gas-miner-state-working-text = Шахтар [color=green]активний[/color] і видобуває газ.
+gas-miner-state-idle-text = Шахтар [color=yellow]простоює[/color] і не видобуває газ.
+gas-miner-state-disabled-text = Шахтар [color=red]вимкнений[/color] і не видобуває газ.

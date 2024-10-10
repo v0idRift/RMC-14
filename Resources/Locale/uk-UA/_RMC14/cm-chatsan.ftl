@@ -1,257 +1,274 @@
-cm-chatsan-word-deltard = deltard
-cm-chatsan-replacement-deltard = delta
+cm-chatsan-word-deltard = дебіл
+cm-chatsan-replacement-deltard = дельта
 
-cm-chatsan-word-deltards = deltards
-cm-chatsan-replacement-deltards = deltas
+cm-chatsan-word-deltards = дебіли
+cm-chatsan-replacement-deltards = дельти
 
-cm-chatsan-word-alphoid = alphoid
-cm-chatsan-replacement-alphoid = alpha
+cm-chatsan-word-alphoid = альфоїд
+cm-chatsan-replacement-alphoid = альфа
 
-cm-chatsan-word-alphoids = alphoids
-cm-chatsan-replacement-alphoids = alpha
+cm-chatsan-word-alphoids = альфоїди
+cm-chatsan-replacement-alphoids = альфа
 
-cm-chatsan-word-bravoid = bravoid
-cm-chatsan-replacement-bravoid = bravo
+cm-chatsan-word-bravoid = бровоїд
+cm-chatsan-replacement-bravoid = браво!
 
-cm-chatsan-word-bravoids = bravoids
-cm-chatsan-replacement-bravoids = bravo
+cm-chatsan-word-bravoids = бравоїди
+cm-chatsan-replacement-bravoids = браво!
 
-cm-chatsan-word-charloid = charloid
-cm-chatsan-replacement-charloid = charlie
+cm-chatsan-word-charloid = шарлоїд
+cm-chatsan-replacement-charloid = чарлі
 
-cm-chatsan-word-charloids = charloids
-cm-chatsan-replacement-charloids = charlie
+cm-chatsan-word-charloids = чарлоїди
+cm-chatsan-replacement-charloids = чарлі
 
-cm-chatsan-word-deltoid = deltoid
-cm-chatsan-replacement-deltoid = delta
+cm-chatsan-word-deltoid = дельтовидний
+cm-chatsan-replacement-deltoid = дельта
 
-cm-chatsan-word-deltoids = deltoids
-cm-chatsan-replacement-deltoids = delta
+cm-chatsan-word-deltoids = дельтоподібні
+cm-chatsan-replacement-deltoids = дельта
 
 cm-chatsan-word-admins-marine = адміни
 cm-chatsan-replacement-admins-marine = вище командування
 
 cm-chatsan-word-eorg-marine = eorg
-cm-chatsan-replacement-eorg-marine = warcrimes
+cm-chatsan-replacement-eorg-marine = військові злочини
 
-cm-chatsan-word-xenoid = xenoid
-cm-chatsan-replacement-xenoid = xenonid
+cm-chatsan-word-xenoid = ксеноїд
+cm-chatsan-replacement-xenoid = ксенонід
 
-cm-chatsan-word-xenoids = xenoids
-cm-chatsan-replacement-xenoids = xenonids
+cm-chatsan-word-xenoids = ксеноїди
+cm-chatsan-replacement-xenoids = ксеноніди
 
-cm-chatsan-word-beno = beno
-cm-chatsan-replacement-beno = xeno
+cm-chatsan-word-beno = бено
+cm-chatsan-replacement-beno = ксено
 
-cm-chatsan-word-benos = benos
-cm-chatsan-replacement-benos = xenos
+cm-chatsan-word-benos = бенос
+cm-chatsan-replacement-benos = інопланетяни
 
 cm-chatsan-word-eorg-xeno = eorg
-cm-chatsan-replacement-eorg-xeno = sister harm
+cm-chatsan-replacement-eorg-xeno = сестринська шкода
 
-cm-chatsan-word-sniper = sniper
-cm-chatsan-replacement-sniper = long spitter
+cm-chatsan-word-sniper = снайпер
+cm-chatsan-replacement-sniper = довгий плювок
 
-cm-chatsan-word-flare = flare
-cm-chatsan-replacement-flare = glow stick
+cm-chatsan-word-flare = спалах
+cm-chatsan-replacement-flare = світлова паличка
 
-cm-chatsan-word-synth = synth
-cm-chatsan-replacement-synth = fake hosts
+cm-chatsan-word-synth = синтезатор
+cm-chatsan-replacement-synth = фальшиві хости
 
-cm-chatsan-word-synthetic = synthetic
-cm-chatsan-replacement-synthetic = fake hosts
+cm-chatsan-word-synthetic = синтетичний
+cm-chatsan-replacement-synthetic = фальшиві хости
 
-cm-chatsan-word-synths = synths
-cm-chatsan-replacement-synths = fake hosts
+cm-chatsan-word-synths = синтезатори
+cm-chatsan-replacement-synths = фальшиві хости
 
-cm-chatsan-word-synthetics = synthetics
-cm-chatsan-replacement-synthetics = fake hosts
+cm-chatsan-word-synthetics = синтетика
+cm-chatsan-replacement-synthetics = фальшиві хости
 
-cm-chatsan-word-human = human
-cm-chatsan-replacement-human = tall host
+cm-chatsan-word-human = людський
+cm-chatsan-replacement-human = високий господар
 
-cm-chatsan-word-humans = humans
-cm-chatsan-replacement-humans = tall hosts
+cm-chatsan-word-humans = люди
+cm-chatsan-replacement-humans = високі хости
 
-cm-chatsan-word-marine = marine
-cm-chatsan-replacement-marine = tall host
+cm-chatsan-word-marine = морський
+cm-chatsan-replacement-marine = високий господар
 
-cm-chatsan-word-marines = marines
-cm-chatsan-replacement-marines = tall hosts
+cm-chatsan-word-marines = морські піхотинці
+cm-chatsan-replacement-marines = високі хости
 
-cm-chatsan-word-lizard = lizard
-cm-chatsan-replacement-lizard = scaled host
+cm-chatsan-word-lizard = ящірка
+cm-chatsan-replacement-lizard = масштабований хост
 
-cm-chatsan-word-lizards = lizards
-cm-chatsan-replacement-lizards = scaled hosts
+cm-chatsan-word-lizards = ящірки
+cm-chatsan-replacement-lizards = масштабовані хости
 
-cm-chatsan-word-reptilian = reptilian
-cm-chatsan-replacement-reptilian = scaled host
+cm-chatsan-word-reptilian = рептилія
+cm-chatsan-replacement-reptilian = масштабований хост
 
-cm-chatsan-word-reptilians = reptilians
-cm-chatsan-replacement-reptilians = scaled hosts
+cm-chatsan-word-reptilians = рептилії
+cm-chatsan-replacement-reptilians = масштабовані хости
 
-cm-chatsan-word-dwarf = dwarf
-cm-chatsan-replacement-dwarf = short host
+cm-chatsan-word-dwarf = карлик
+cm-chatsan-replacement-dwarf = короткий хост
 
-cm-chatsan-word-dwarves = dwarves
-cm-chatsan-replacement-dwarves = short hosts
+cm-chatsan-word-dwarves = гноми
+cm-chatsan-replacement-dwarves = короткі хости
 
-cm-chatsan-word-slime = slime
-cm-chatsan-replacement-slime = slime host
+cm-chatsan-word-slime = слиз
+cm-chatsan-replacement-slime = хазяїн слизу
 
-cm-chatsan-word-slimes = slimes
-cm-chatsan-replacement-slimes = slime hosts
+cm-chatsan-word-slimes = слизи
+cm-chatsan-replacement-slimes = слизові господарі
 
-cm-chatsan-word-diona = diona
-cm-chatsan-replacement-diona = plant host
+cm-chatsan-word-diona = діона
+cm-chatsan-replacement-diona = рослина-хазяїн
 
-cm-chatsan-word-dionas = dionas
-cm-chatsan-replacement-dionas = plant hosts
+cm-chatsan-word-dionas = діони
+cm-chatsan-replacement-dionas = рослини-господарі
 
-cm-chatsan-word-moth = moth
-cm-chatsan-replacement-moth = winged host
+cm-chatsan-word-moth = метелик
+cm-chatsan-replacement-moth = крилатий господар
 
-cm-chatsan-word-moths = moths
-cm-chatsan-replacement-moths = winged hosts
+cm-chatsan-word-moths = метелики
+cm-chatsan-replacement-moths = крилаті господарі
 
-cm-chatsan-word-mothes = mothes
-cm-chatsan-replacement-mothes = winged hosts
+cm-chatsan-word-mothes = мотиви
+cm-chatsan-replacement-mothes = крилаті господарі
 
-cm-chatsan-word-spider = spider
-cm-chatsan-replacement-spider = webspitter
+cm-chatsan-word-spider = павук
+cm-chatsan-replacement-spider = вейп-спіттер
 
-cm-chatsan-word-spiders = spiders
-cm-chatsan-replacement-spiders = webspitters
+cm-chatsan-word-spiders = павуки
+cm-chatsan-replacement-spiders = підмітальники
 
-cm-chatsan-word-arachnid = arachnid
-cm-chatsan-replacement-arachnid = webspitting host
+cm-chatsan-word-arachnid = павукоподібний
+cm-chatsan-replacement-arachnid = ведучий веспітчингу
 
-cm-chatsan-word-arachnids = arachnids
-cm-chatsan-replacement-arachnids = webspitting hosts
+cm-chatsan-word-arachnids = павукоподібні
+cm-chatsan-replacement-arachnids = хостингу для вебпітчингу
 
-cm-chatsan-word-dropship = dropship
-cm-chatsan-replacement-dropship = metal bird
+cm-chatsan-word-dropship = дропшип
+cm-chatsan-replacement-dropship = металевий птах
 
-cm-chatsan-word-dropships = dropships
-cm-chatsan-replacement-dropships = metal birds
+cm-chatsan-word-dropships = дропшиппінг
+cm-chatsan-replacement-dropships = металеві птахи
 
-cm-chatsan-word-ship = ship
-cm-chatsan-replacement-ship = metal bird
+cm-chatsan-word-ship = корабель
+cm-chatsan-replacement-ship = металевий птах
 
-cm-chatsan-word-ships = ships
-cm-chatsan-replacement-ships = metal birds
+cm-chatsan-word-ships = кораблі
+cm-chatsan-replacement-ships = металеві птахи
 
-cm-chatsan-word-alamo = alamo
-cm-chatsan-replacement-alamo = metal bird
+cm-chatsan-word-alamo = аламо
+cm-chatsan-replacement-alamo = металевий птах
 
-cm-chatsan-word-normandy = normandy
-cm-chatsan-replacement-normandy = metal bird
+cm-chatsan-word-normandy = нормандія
+cm-chatsan-replacement-normandy = металевий птах
 
 cm-chatsan-word-almayer = almayer
-cm-chatsan-replacement-almayer = metal hive
+cm-chatsan-replacement-almayer = металевий вулик
 
 cm-chatsan-word-admins-xeno = адміни
 cm-chatsan-replacement-admins-xeno = бабці
 
-cm-chatsan-word-ob = ob
-cm-chatsan-replacement-ob = skyfire
+cm-chatsan-word-ob = об
+cm-chatsan-replacement-ob = скайфаєр
 
-cm-chatsan-word-orbital = orbital
-cm-chatsan-replacement-orbital = skyfire
+cm-chatsan-word-orbital = орбітальний
+cm-chatsan-replacement-orbital = скайфаєр
 
-cm-chatsan-word-orbital-bomb = orbital bomb
-cm-chatsan-replacement-orbital-bomb = skyfire
+cm-chatsan-word-orbital-bomb = орбітальна бомба
+cm-chatsan-replacement-orbital-bomb = скайфаєр
 
-cm-chatsan-word-orbital-bombardment = orbital bombardment
-cm-chatsan-replacement-orbital-bombardment = skyfire
+cm-chatsan-word-orbital-bombardment = орбітальне бомбардування
+cm-chatsan-replacement-orbital-bombardment = скайфаєр
 
-cm-chatsan-word-engie = engie
-cm-chatsan-replacement-engie = tall builder
+cm-chatsan-word-engie = енджі
+cm-chatsan-replacement-engie = високий будівельник
 
-cm-chatsan-word-engineer = engineer
-cm-chatsan-replacement-engineer = tall builder
+cm-chatsan-word-engineer = інженер
+cm-chatsan-replacement-engineer = високий будівельник
 
 cm-chatsan-word-comtech = comtech
-cm-chatsan-replacement-comtech = tall builder
+cm-chatsan-replacement-comtech = високий будівельник
 
-cm-chatsan-word-combat-technitian = combat technician
-cm-chatsan-replacement-combat-technician = tall builder
+cm-chatsan-word-combat-technitian = бойовий технік
+cm-chatsan-replacement-combat-technician = високий будівельник
 
-cm-chatsan-word-corpsman = corpsman
-cm-chatsan-replacement-corpsman = tall healer
+cm-chatsan-word-corpsman = санітар
+cm-chatsan-replacement-corpsman = високий цілитель
 
-cm-chatsan-word-medic = medic
-cm-chatsan-replacement-medic = tall healer
+cm-chatsan-word-medic = медик
+cm-chatsan-replacement-medic = високий цілитель
 
-cm-chatsan-word-doc = doc
-cm-chatsan-replacement-doc = tall healer
+cm-chatsan-word-doc = док
+cm-chatsan-replacement-doc = високий цілитель
 
-cm-chatsan-word-doctor = doctor
-cm-chatsan-replacement-doctor = tall healer
+cm-chatsan-word-doctor = лікар
+cm-chatsan-replacement-doctor = високий цілитель
 
-cm-chatsan-word-squad-leader = squad leader
-cm-chatsan-replacement-squad-leader = tall leader
+cm-chatsan-word-squad-leader = командир відділення
+cm-chatsan-replacement-squad-leader = високий лідер
 
 cm-chatsan-word-sl = sl
-cm-chatsan-replacement-sl = tall leader
+cm-chatsan-replacement-sl = високий лідер
 
-cm-chatsan-word-commanding-officer = commanding officer
-cm-chatsan-replacement-commanding-officer = tall queen
+cm-chatsan-word-commanding-officer = командир
+cm-chatsan-replacement-commanding-officer = висока королева
 
-cm-chatsan-word-comm-officer = comm officer
-cm-chatsan-replacement-comm-officer = tall queen
+cm-chatsan-word-comm-officer = офіцер зв'язку
+cm-chatsan-replacement-comm-officer = висока королева
 
 cm-chatsan-word-co = co
-cm-chatsan-replacement-co = tall queen
+cm-chatsan-replacement-co = висока королева
 
-cm-chatsan-word-staff-officer = staff officer
-cm-chatsan-replacement-staff-officer = young tall queen
+cm-chatsan-word-staff-officer = штабний офіцер
+cm-chatsan-replacement-staff-officer = молода висока королева
 
 cm-chatsan-word-xo = xo
-cm-chatsan-replacement-xo = young tall queen
+cm-chatsan-replacement-xo = молода висока королева
 
-cm-chatsan-word-executive-officer = executive officer
-cm-chatsan-replacement-executive-officer = young tall queen
+cm-chatsan-word-executive-officer = виконавчий директор
+cm-chatsan-replacement-executive-officer = молода висока королева
 
-cm-chatsan-word-exec-officer = exec officer
-cm-chatsan-replacement-exec-officer = young tall queen
+cm-chatsan-word-exec-officer = виконавчий директор
+cm-chatsan-replacement-exec-officer = молода висока королева
 
-cm-chatsan-word-senior-enlisted = senior enlisted
-cm-chatsan-replacement-senior-enlisted = young tall queen
+cm-chatsan-word-senior-enlisted = старший солдат строкової служби
+cm-chatsan-replacement-senior-enlisted = молода висока королева
 
-cm-chatsan-word-senior-enlisted-advisor = senior enlisted advisor
-cm-chatsan-replacement-senior-enlisted-advisor = young tall queen
+cm-chatsan-word-senior-enlisted-advisor = старший позаштатний радник
+cm-chatsan-replacement-senior-enlisted-advisor = молода висока королева
 
 cm-chatsan-word-lz = lz
-cm-chatsan-replacement-lz = metal bird perch
+cm-chatsan-replacement-lz = металева жердинка для птахів
 
-cm-chatsan-word-shoot = shoot
-cm-chatsan-replacement-shoot = spit
+cm-chatsan-word-shoot = стрілянина
+cm-chatsan-replacement-shoot = плювати
 
-cm-chatsan-word-felinid = felinid
-cm-chatsan-replacement-felinid = feline host
+cm-chatsan-word-felinid = фелінід
+cm-chatsan-replacement-felinid = котячий господар
 
-cm-chatsan-word-felinids = felinids
-cm-chatsan-replacement-felinids = feline hosts
+cm-chatsan-word-felinids = фелініди
+cm-chatsan-replacement-felinids = котячі господарі
 
-cm-chatsan-word-cat = feline host
-cm-chatsan-replacement-cat = feline host
+cm-chatsan-word-cat = кішка
+cm-chatsan-replacement-cat = котячий господар
 
-cm-chatsan-word-cats = feline hosts
-cm-chatsan-replacement-cats = feline hosts
+cm-chatsan-word-cats = коти
+cm-chatsan-replacement-cats = котячі господарі
 
-cm-chatsan-word-grenade = grenade
-cm-chatsan-replacement-grenade = boomstick
+cm-chatsan-word-grenade = граната
+cm-chatsan-replacement-grenade = штанга
 
-cm-chatsan-word-grenades = grenades
-cm-chatsan-replacement-grenades = boomsticks
+cm-chatsan-word-grenades = гранати
+cm-chatsan-replacement-grenades = штанги
 
-cm-chatsan-word-bullet = bullet
-cm-chatsan-replacement-bullet = spit
+cm-chatsan-word-bullet = куля
+cm-chatsan-replacement-bullet = плювати
 
-cm-chatsan-word-bullets = bullets
-cm-chatsan-replacement-bullets = spits
+cm-chatsan-word-bullets = кулі
+cm-chatsan-replacement-bullets = плює
 
-cm-chatsan-word-ammo = ammo
-cm-chatsan-replacement-ammo = spits
+cm-chatsan-word-ammo = боєприпаси
+cm-chatsan-replacement-ammo = плює
+
+# TODO RMC14 rouny > бігун, але тільки якщо в раунді не було створено жодного rouny
+
+# cm-chatsan-word-#tank = #tank
+# cm-chatsan-заміна-#tank = turtle
+
+# cm-chatsan-word-# laser = # лазер
+# cm-chatsan-replacement-# laser = точка
+
+# cm-chatsan-word-# lazer = # лазер
+# cm-chatsan-replacement-# lazer = dot
+
+# cm-chatsan-word-# flamer = # flamer
+# cm-chatsan-replacement-# flamer = fire spitter
+
+# cm-chatsan-word-# flamethrower = # вогнемет
+# cm-chatsan-replacement-# flamethrower = вогнеметник

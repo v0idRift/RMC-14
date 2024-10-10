@@ -57,5 +57,5 @@ salvage-air-mod-volatile-atmosphere = Нестійка атмосфера
 salvage-dungeon-mod-lava-brig = Лавова тюрма
 salvage-dungeon-mod-snowy-labs = Засніжані лабораторії
 salvage-dungeon-mod-experiment = Експеримент
-salvage-dungeon-mod-haunted = Haunted
+salvage-dungeon-mod-haunted = Привиди
 salvage-dungeon-mod-mineshaft = Шахти

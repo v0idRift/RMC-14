@@ -7,11 +7,11 @@ reagent-desc-juice-banana = рідка лють всіх клунь світу.
 reagent-name-juice-berry = ягідний сік
 reagent-desc-juice-berry = суміш кілької НЕотруйних видів ягід.
 
-reagent-name-juice-blue-pumpkin = blue pumpkin juice
-reagent-desc-juice-blue-pumpkin = The juice of a blue pumpkin. Smells like pool water.
+reagent-name-juice-blue-pumpkin = сік синього гарбуза
+reagent-desc-juice-blue-pumpkin = Сік синього гарбуза. Пахне водою з басейну.
 
-reagent-name-juice-bungo = bungo juice
-reagent-desc-juice-bungo = The juice of a bungo fruit. Exotic!
+reagent-name-juice-bungo = сік бунго
+reagent-desc-juice-bungo = Сік плоду бунго. Екзотично!
 
 reagent-name-juice-berry-poison = отруйний ягідний сік
 reagent-desc-juice-berry-poison = Невимовно смачно...але нажаль,останнэ що ти зможеш спробувати в свому житті.

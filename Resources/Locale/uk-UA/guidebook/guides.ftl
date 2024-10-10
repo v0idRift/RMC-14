@@ -76,10 +76,10 @@ guide-entry-zombies = Зомбі
 guide-entry-revolutionaries = Революціонери
 guide-entry-minor-antagonists = Другорядні антагоністи
 guide-entry-space-ninja = Космічний ніндзя
-guide-entry-thieves = Thieves
+guide-entry-thieves = Злодії
 
 guide-entry-rules = Правила сервера
-guide-entry-rules-core-only = Core Only Ruleset
+guide-entry-rules-core-only = Тільки основний набір правил
 guide-entry-rules-lrp = Стандартні правила
 guide-entry-rules-mrp = Правила МРП
 guide-entry-rules-role-types = Типи ролей

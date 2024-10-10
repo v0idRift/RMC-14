@@ -1,44 +1,44 @@
-﻿command-description-areas-load = Load all saved areas to the map as entities.
-command-description-areas-loadmortar = Load only mortarable saved areas to the map as entities.
-command-description-areas-save = Save all mapped areas to the map.
+command-description-areas-load = Завантажте всі збережені області на мапу як об'єкти.
+command-description-areas-loadmortar = Завантажуйте на мапу як об'єкти лише збережені області, які можна мінометувати.
+command-description-areas-save = Збережіть всі нанесені області на карту.
 
-command-description-bioscan-marine = Manually triggers an ARES bioscan to announce to marines where xenos are and how many are left.
-command-description-bioscan-xeno = Manually triggers a Queen Mother bioscan to announce to xenos where marines are and how many are left.
-command-description-bioscan-all = Manually triggers an ARES and Queen Mother bioscans to announce to both xenos and marines where each other are and how many are left.
+command-description-bioscan-marine = Вручну запускає біосканування ARES, щоб повідомити морським піхотинцям, де знаходяться чужинці та скільки їх залишилося.
+command-description-bioscan-xeno = Вручну запускає біосканування Королеви-матері, щоб повідомити інопланетянам, де знаходяться морпіхи і скільки їх залишилося.
+command-description-bioscan-all = Вручну запускає біосканування ARES і "Королеви-матері", щоб повідомити ксеносам і морським піхотинцям, де вони знаходяться і скільки їх залишилося.
 
-command-description-vendorpoints-get = Gets the points that a marine has left to purchase items with at an automated vendor.
-command-description-vendorpoints-getspecialist = Gets the points that a Weapons Specialist has left to purchase items with at their gear rack.
-command-description-vendorpoints-set = Sets the points that a marine or group of marines have to purchase items with at an automated vendor.
-command-description-vendorpoints-setspecialist = Sets the points that a Weapons Specialist or group of Weapons Specialists have to purchase items with at their gear rack.
+command-description-vendorpoints-get = Отримує очки, які залишилися у морпіха для придбання предметів у автоматизованого продавця.
+command-description-vendorpoints-getspecialist = Отримує очки, які залишилися у спеціаліста зі зброї для купівлі предметів на полиці зі спорядженням.
+command-description-vendorpoints-set = Встановлює бали, за які морський піхотинець або група морських піхотинців мають купувати предмети у автоматизованого продавця.
+command-description-vendorpoints-setspecialist = Задає очки, за які спеціаліст зі зброї або група спеціалістів зі зброї можуть купувати предмети на полиці зі спорядженням.
 
-command-description-evolutionpoints-get = Gets the evolution points of a xeno.
-command-description-evolutionpoints-set = Sets the evolution points of a xeno.
-command-description-evolutionpoints-max = Maxes out the evolution points of a xeno if they are lower than the max.
+command-description-evolutionpoints-get = Отримує очки еволюції ксеноса.
+command-description-evolutionpoints-set = Встановлює точки еволюції ксеноса.
+command-description-evolutionpoints-max = Збільшує кількість очок еволюції ксеноса, якщо вони нижчі за максимальну.
 
-command-description-excluderoletimer-add = Exclude a player from the playtime requirements for a specific role.
-command-description-excluderoletimer-get = See all roles for which a player is manually excluded from the regular playtime requirements for.
-command-description-excluderoletimer-remove = Removes a player's exclusion for playtime requirements for a specific role.
+command-description-excluderoletimer-add = Виключити гравця з вимог до ігрового часу для певної ролі.
+command-description-excluderoletimer-get = Переглянути всі ролі, для яких гравець вручну виключений з регулярних вимог до ігрового часу.
+command-description-excluderoletimer-remove = Знімає виключення гравця через вимоги до ігрового часу для певної ролі.
 
-command-description-figurine-export = Exports the current character as a figurine.
-command-description-figurine-openslots = Opens up infinite slots for all jobs on all map prototypes until the whole server is restarted.
+command-description-figurine-export = Експортує поточного персонажа як фігурку.
+command-description-figurine-openslots = Відкриває нескінченну кількість слотів для всіх завдань на всіх прототипах мап, доки не буде перезавантажено весь сервер.
 
-command-description-hive-alldefault = Sets the hive of a xeno or group of xenos.
+command-description-hive-alldefault = Встановлює вулик ксеноса або групи ксеносів.
 
-command-description-marine-randomize = Deletes and then spawns a marine or group of marines in the same place with a randomized name, species and appearance.
-command-description-marine-randomizewithjob = Deletes and then spawns a marine or group of marines in the same place with a set job and a randomized name, species and appearance.
+command-description-marine-randomize = Видаляє, а потім відтворює морського піхотинця або групу морських піхотинців у тому самому місці з випадковим ім'ям, видом і зовнішнім виглядом.
+command-description-marine-randomizewithjob = Видаляє, а потім відтворює морпіха або групу морпіхів у тому самому місці з заданим завданням і випадковим ім'ям, видом і зовнішністю.
 
-command-description-removeinvalidweeds = Removes any weeds that should not have normally spread to where they are from the map.
+command-description-removeinvalidweeds = Видаляє з карти всі бур'яни, які не повинні були б поширюватися в тому місці, де вони знаходяться.
 
-command-description-skills-get = Gets the level of a specific skill for a marine.
-command-description-skills-set = Sets the level of a specific skill for a marine or group of marines.
-command-description-skills-all = Sets the level of all skills for a marine or group of marines.
+command-description-skills-get = Отримує рівень певної навички для морського піхотинця.
+command-description-skills-set = Встановлює рівень певної навички для морпіха або групи морпіхів.
+command-description-skills-all = Встановлює рівень усіх навичок для піхотинця або групи піхотинців.
 
-command-description-squad-get = Gets the squad ID of a marine.
-command-description-squad-getname = Gets the squad name of a marine.
-command-description-squad-set = Sets the squad of a marine or group of marines.
-command-description-squad-with = Filters a group of marines by their squad.
-command-description-squad-refresh = Manually refreshes the members of a squad.
+command-description-squad-get = Отримує ідентифікатор підрозділу морської піхоти.
+command-description-squad-getname = Отримує назву підрозділу морпіхів.
+command-description-squad-set = Встановлює загін морпіха або групу морпіхів.
+command-description-squad-with = Фільтрує групу морпіхів за їхнім підрозділом.
+command-description-squad-refresh = Вручну оновлює членів загону.
 
-command-description-xenomature = Instantly matures a xeno. Applicable to the Queen, at which point she gets more health and abilities.
+command-description-xenomature = Миттєво дозріває ксено. Застосовується до королеви, після чого вона отримує більше здоров'я та здібностей.
 
-command-description-withxenotier = Filters entities or entity prototypes to those of a specific xenonid tier.
+command-description-withxenotier = Фільтрує сутності або прототипи сутностей до сутностей певного рівня ксенонідів.

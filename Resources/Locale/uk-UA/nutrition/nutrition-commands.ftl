@@ -3,10 +3,10 @@ cmd-nutrition-error-entity = Ви не можете використовуват
 cmd-nutrition-error-component = Ваша сутність не має {$comp} компонента.
 
 cmd-hungry-desc = робить вас голодним
-cmd-hungry-help = sets your hungry level to starving
+cmd-hungry-help = встановлює ваш рівень голоду на голодний
 cmd-setnutrit-desc = змінює рівні голоду та спраги
-cmd-setnutrit-help = set your hunger or thirst to one of the built-in thresholds
+cmd-setnutrit-help = встановіть голод або спрагу на один із вбудованих порогів
 cmd-setnutrit-error-invalid-threshold = invalid {$thresholdType} `{$thresholdString}`
 
 cmd-thirsty-desc = робить вас спраглим
-cmd-thirsty-help = sets your thirst level to partched
+cmd-thirsty-help = встановлює рівень спраги на partched

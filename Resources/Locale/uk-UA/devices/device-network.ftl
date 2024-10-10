@@ -9,8 +9,10 @@ device-frequency-prototype-name-fax = Факс
 device-frequency-prototype-name-basic-device = Основні пристрої
 
 ## частоти камер
-device-frequency-prototype-name-cyborg-control = Cyborg Control
-device-frequency-prototype-name-robotics-console = Robotics Console
+device-frequency-prototype-name-cyborg-control = Кіборг-контроль
+device-frequency-prototype-name-robotics-console = Консоль робототехніки
+
+## частоти камер
 device-frequency-prototype-name-surveillance-camera-test = Тест підмережі
 device-frequency-prototype-name-surveillance-camera-engineering = Інженерні камери
 device-frequency-prototype-name-surveillance-camera-security = Камери спостереження

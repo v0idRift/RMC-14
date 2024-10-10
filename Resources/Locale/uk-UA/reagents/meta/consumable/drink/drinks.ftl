@@ -13,8 +13,8 @@ reagent-desc-cream-of-coconut = Солодкий, сиропоподібний �
 reagent-name-cafe-latte = кава латте
 reagent-desc-cafe-latte = смачний,та навіть корисний замінник енергетиків.
 
-reagent-name-tea-powder = tea powder
-reagent-desc-tea-powder = Finely ground tea leaves, used for making tea.
+reagent-name-tea-powder = чайний порошок
+reagent-desc-tea-powder = Дрібно мелене чайне листя, що використовується для приготування чаю.
 
 reagent-name-green-tea = зелений час
 reagent-desc-green-tea = який твій улюблений зелений чай? :)

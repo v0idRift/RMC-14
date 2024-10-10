@@ -1,5 +1,5 @@
-reagent-name-rmc-sulphuric-acid = sulphuric acid
-reagent-desc-rmc-sulphuric-acid = A corrosive chemical. Keep away from your face.
+reagent-name-rmc-sulphuric-acid = сірчана кислота
+reagent-desc-rmc-sulphuric-acid = Їдкий хімікат. Тримати подалі від обличчя.
 
 reagent-name-rmc-aluminum = алюміній
-reagent-desc-rmc-aluminum = A silver, soft, non-magnetic, and ductile metal.
+reagent-desc-rmc-aluminum = Сріблястий, м'який, немагнітний і пластичний метал.

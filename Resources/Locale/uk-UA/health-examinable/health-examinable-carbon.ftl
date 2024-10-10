@@ -17,8 +17,8 @@ health-examinable-carbon-Heat-75 = [color=orange]{ CAPITALIZE(SUBJECT($target)) 
 
 health-examinable-carbon-Shock-50 = [color=lightgoldenrodyellow]У { CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } сліди ураження струмом по { POSS-ADJ($target) } тілу![/color]
 
-health-examinable-carbon-Cold-25 = [color=lightblue]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } minor frostbite across { POSS-ADJ($target) } body.[/color]
-health-examinable-carbon-Cold-50 = [color=lightblue]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } major frostbite across { POSS-ADJ($target) } body.[/color]
+health-examinable-carbon-Cold-25 = [color=lightblue]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } незначні обмороження по всьому { POSS-ADJ($target) } тілу.[/color]
+health-examinable-carbon-Cold-50 = [color=lightblue]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } сильне обмороження всього { POSS-ADJ($target) } тіла.[/color]
 health-examinable-carbon-Cold-75 = [color=lightblue]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } severe third-degree frostbite across { POSS-ADJ($target) } тілу![/color]
 
 health-examinable-carbon-Caustic-25 = [color=yellowgreen]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } легкі хімічні опіки.[/color]

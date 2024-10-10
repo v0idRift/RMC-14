@@ -122,70 +122,70 @@ chatsan-word-44 = tbf
 chatsan-replacement-44 = чесно кажучи
 
 chatsan-word-45 = tysm
-chatsan-replacement-45 = thank you so much
+chatsan-replacement-45 = велике спасибі
 
 chatsan-word-46 = tyvm
-chatsan-replacement-46 = thank you very much
+chatsan-replacement-46 = дуже дякую
 
-chatsan-word-47 = cya
-chatsan-replacement-47 = see ya
+chatsan-word-47 = привіт
+chatsan-replacement-47 = побачимося
 
 chatsan-word-48 = rn
-chatsan-replacement-48 = right now
+chatsan-replacement-48 = прямо зараз
 
-chatsan-word-49 = atm
-chatsan-replacement-49 = at the moment
+chatsan-word-49 = атм
+chatsan-replacement-49 = на даний момент
 
 chatsan-word-50 = istg
-chatsan-replacement-50 = I swear to god
+chatsan-replacement-50 = Клянуся Богом
 
 chatsan-word-51 = rq
-chatsan-replacement-51 = real quick
+chatsan-replacement-51 = дуже швидко
 
 chatsan-word-52 = dw
-chatsan-replacement-52 = don't worry
+chatsan-replacement-52 = не хвилюйся
 
 chatsan-word-53 = wru
-chatsan-replacement-53 = where are you
+chatsan-replacement-53 = де ти?
 
 chatsan-word-54 = fs
-chatsan-replacement-54 = for sure
+chatsan-replacement-54 = напевно
 
 chatsan-word-55 = ngl
-chatsan-replacement-55 = not gonna lie
+chatsan-replacement-55 = не буду брехати
 
 chatsan-word-56 = fml
-chatsan-replacement-56 = fuck my life
+chatsan-replacement-56 = до біса моє життя
 
 chatsan-word-57 = wtaf
-chatsan-replacement-57 = what the actual fuck
+chatsan-replacement-57 = якого хріна?
 
 chatsan-word-58 = wsg
-chatsan-replacement-58 = what's good
+chatsan-replacement-58 = що добре
 
-chatsan-word-59 = mb
-chatsan-replacement-59 = my bad
+chatsan-word-59 = мабуть
+chatsan-replacement-59 = винен
 
 chatsan-word-60 = jfc
-chatsan-replacement-60 = jesus fucking christ
+chatsan-replacement-60 = господи, блядь, Ісусе Христе!
 
-chatsan-word-61 = omw
-chatsan-replacement-61 = on my way
+chatsan-word-61 = омв
+chatsan-replacement-61 = я вже їду
 
 chatsan-word-62 = otw
-chatsan-replacement-62 = on the way
+chatsan-replacement-62 = по дорозі
 
 chatsan-word-63 = yk
-chatsan-replacement-63 = you know
+chatsan-replacement-63 = ти знаєш
 
 chatsan-word-64 = istfg
-chatsan-replacement-64 = i swear to fucking god
+chatsan-replacement-64 = клянуся блядським богом
 
 chatsan-word-65 = idgaf
-chatsan-replacement-65 = i don't give a fuck
+chatsan-replacement-65 = мені начхати
 
-chatsan-word-66 = smth
-chatsan-replacement-66 = something
+chatsan-word-66 = що-небудь
+chatsan-replacement-66 = щось
 
 chatsan-word-67 = allg
-chatsan-replacement-67 = all good
+chatsan-replacement-67 = все добре

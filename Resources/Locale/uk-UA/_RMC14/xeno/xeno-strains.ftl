@@ -1,9 +1,9 @@
-﻿rmc-xeno-strain-specialized-into = It has specialized into a {$strain}.
+rmc-xeno-strain-specialized-into = Він спеціалізувався на {$strain}.
 
-rmc-xeno-warden-name = Warden
-rmc-xeno-warden-description = You trade your acid ball, acid spray, dash, and a small bit of your slash damage and speed to become an effective medic.
-  You gain the ability to:
-  - Emit strong pheromones.
-  - An ability that retrieves endangered, knocked-down or resting allies and pulls them to your location.
-  - An internal hitpoint pool that fills with every slash against your enemies, which can be spent to aid your allies and yourself by healing them or curing their ailments.
-rmc-xeno-warden-popup = This one will deny her sisters' deaths until they earn it. Fight or be forgotten.
+rmc-xeno-warden-name = Наглядач
+rmc-xeno-warden-description = Ви обмінюєте свою кислотну кулю, кислотний спрей, тире та невелику частину шкоди і швидкості, щоб стати ефективним медиком.
+  Ви отримуєте здатність
+  - Випромінювати сильні феромони.
+  - Здатність знаходити союзників, які перебувають під загрозою зникнення, вибитих з ніг або відпочивають, і тягнути їх до себе.
+  - Внутрішній пул хітпоінтів, який заповнюється з кожним ударом по ворогах, і який можна витратити на допомогу союзникам і собі, зцілюючи їх або виліковуючи їхні хвороби.
+rmc-xeno-warden-popup = Ця буде заперечувати смерть своїх сестер, поки вони цього не заслужать. Борітеся або будете забуті.

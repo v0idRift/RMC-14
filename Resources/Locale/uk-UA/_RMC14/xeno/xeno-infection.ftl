@@ -12,11 +12,11 @@ rmc-xeno-infection-majorpain-chest = Ваша грудна клітина сто
 rmc-xeno-infection-majorpain-breathing = З кожною секундою вам стає все трудніше і трудніше дихати.
 rmc-xeno-infection-majorpain-heart = Ваше серце нестерпно покалує, кожний удар відчувається як укол ножем.
 
-rmc-xeno-infection-insanepain-one = IT'S IN YOUR INSIDES!
-rmc-xeno-infection-insanepain-two = IT'S GNAWING YOU!
-rmc-xeno-infection-insanepain-three = MAKE IT STOP!
-rmc-xeno-infection-insanepain-four = YOU ARE GOING TO DIE!
-rmc-xeno-infection-insanepain-five = IT'S TEARING YOU APART!
+rmc-xeno-infection-insanepain-one = ВІН У ВАС ВСЕРЕДИНІ!
+rmc-xeno-infection-insanepain-two = ВОНО ГРИЗЕ ТЕБЕ!
+rmc-xeno-infection-insanepain-three = ЗУПИНІТЬ ЦЕ!
+rmc-xeno-infection-insanepain-four = ТИ ПОМРЕШ!
+rmc-xeno-infection-insanepain-five = ЦЕ РОЗРИВАЄ ТЕБЕ НА ЧАСТИНИ!
 
 rmc-xeno-infection-burst-soon = {CAPITALIZE($victim)} почав страшено трястися з боллю на обличчі!
 rmc-xeno-infection-burst-soon-self = О, боже, щось виривається з вас! Біль, біль, боже, боже!!

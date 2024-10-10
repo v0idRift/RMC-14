@@ -10,4 +10,4 @@ cm-xeno-nest-failed = {$target} не вміщається у гніздо!
 cm-xeno-nest-failed-target-resisting = {$target} чинить опір, киньте його на землю!
 cm-xeno-nest-failed-cant-there = Ми не можемо створити гніздо тут!
 cm-xeno-nest-failed-cant-already-there = У цьому гнізді вже хтось є!
-rmc-xeno-nest-failed-dead = This host is dead.
+rmc-xeno-nest-failed-dead = Цей носій мертвий.

@@ -36,7 +36,7 @@ dungeon-config-proto-SpindlyAsteroid = Спіраль астероїда
 dungeon-config-proto-SwissCheeseAsteroid = Уламки астероїдів
 
 # Уламки
-salvage-map-wreck = Salvage wreck
+salvage-map-wreck = Врятований корабель
 salvage-map-wreck-desc-size = Розмір:
 salvage-map-wreck-size-small = [color=lime]Малий[/color]
 salvage-map-wreck-size-medium = [color=cornflowerblue]Середній[/color]

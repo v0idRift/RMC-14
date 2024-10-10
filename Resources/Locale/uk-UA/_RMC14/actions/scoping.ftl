@@ -7,4 +7,4 @@ cm-action-popup-scoping-user-must-not-contained = Ви не можете кор�
 cm-action-popup-scoping-user-must-wield = Ви повинні тримати {$scope} в обох руках.
 cm-action-popup-scoping-must-attach = {CAPITALIZE($scope)} має бути приєднаний до зброї!
 
-rcm-action-popup-scope-cycle-zoom = Magnification level changed to {$zoom}.
+rcm-action-popup-scope-cycle-zoom = Рівень збільшення змінено на {$zoom}.

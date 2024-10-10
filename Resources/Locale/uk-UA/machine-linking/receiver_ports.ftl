@@ -82,7 +82,7 @@ signal-port-description-logic-input-b = Другий вхід логічного
 signal-port-name-logic-input = Вхідні дані
 signal-port-description-logic-input = Вхідний сигнал на детектор фронтів не може бути імпульсним.
 
-signal-port-description-logic-memory-input = Signal to load into the memory cell, when enabled.
+signal-port-description-logic-memory-input = Сигнал для завантаження в комірку пам'яті, якщо увімкнено.
 
-signal-port-name-logic-enable = Enable
-signal-port-description-logic-enable = Only loads the input signal into the memory cell when HIGH.
+signal-port-name-logic-enable = Увімкнути
+signal-port-description-logic-enable = Завантажує вхідний сигнал у комірку пам'яті лише тоді, коли він має значення HIGH.

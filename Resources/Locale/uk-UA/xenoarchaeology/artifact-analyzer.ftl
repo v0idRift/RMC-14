@@ -8,8 +8,8 @@ analysis-console-extract-button = Вилучити
 analysis-console-extract-button-info = Вилучіть бали з артефакту на основі нещодовно досліджених вузлів.
 analysis-console-bias-up = Вище
 analysis-console-bias-down = Нижче
-analysis-console-bias-button-info-up = Toggles the bias an artifact has in moving between its nodes. Up heads toward zero depth.
-analysis-console-bias-button-info-down = Toggles the bias an artifact has in moving between its nodes. Down heads toward ever-higher depths.
+analysis-console-bias-button-info-up = Вмикає або вимикає зміщення артефакту при переміщенні між вузлами. Вгору - до нульової глибини.
+analysis-console-bias-button-info-down = Перемикає зсув артефакту при переміщенні між вузлами. Вниз - рухається до все більшої глибини.
 
 analysis-console-info-no-scanner = Аналізатор не підключено! Будь ласка, підключіть його за допомогою мультитула.
 analysis-console-info-no-artifact = Артефакт відсутній! Помістіть артефакт на платформу і проскануйте.

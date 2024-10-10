@@ -1,4 +1,4 @@
 rmc-ghost-role-information-bureau-marshal-name = Бюро - Маршал
-rmc-ghost-role-information-bureau-marshal-description = Get your instructions from the CMB Office at Anchorpoint Station, and carry out your orders. Ensure that Colonial assets are safe and in your custody. Do not enforce or override Marine Law on a Marine Ship unless requested, as it's outside of your jurisdiction.
+rmc-ghost-role-information-bureau-marshal-description = Отримуйте інструкції від офісу CMB на станції Анкорпойнт і виконуйте накази. Переконайтеся, що колоніальні активи знаходяться у безпеці та під вашою відповідальністю. Не застосовуйте і не відміняйте морські закони на військовому кораблі, якщо вас про це не попросять, оскільки це поза вашою юрисдикцією.
 
 rmc-ghost-role-information-bureau-deputy-name = Бюро - Помічник 

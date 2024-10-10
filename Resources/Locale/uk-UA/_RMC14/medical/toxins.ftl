@@ -1,4 +1,4 @@
-reagent-name-rmcmolecularacid = Diluted Molecular Acid
-reagent-desc-rmcmolecularacid = An acid of unknown composition, this sample doesn't seem to be as dangerous those found within Xenomorph bloodstreams.
+reagent-name-rmcmolecularacid = Розбавлена молекулярна кислота
+reagent-desc-rmcmolecularacid = Кислота невідомого складу, цей зразок, схоже, не настільки небезпечний, як ті, що містяться в крові ксенонідів.
 
-rmc-body-stings = Your body stings slightly.
+rmc-body-stings = Твоє тіло злегка пече.

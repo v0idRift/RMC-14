@@ -69,18 +69,18 @@ reagent-effect-guidebook-health-change = { $chance ->
     } { $changes }
 
 reagent-effect-guidebook-status-effect = { $type ->
-        [add]   { $chance ->
-                    [1] Causes
-                    *[other] cause
-                } {LOC($key)} for at least {NATURALFIXED($time, 3)} {MANY("second", $time)} with accumulation
-        *[set]  { $chance ->
-                    [1] Causes
-                    *[other] cause
-                } {LOC($key)} for at least {NATURALFIXED($time, 3)} {MANY("second", $time)} without accumulation
+        [add] { $chance ->
+                    [1] Причини
+                    *[other] причина
+                } {LOC($key)} for at least {NATURALFIXED($time, 3)} {MANY("second", $time)} з накопиченням
+        *[set] { $chance ->
+                    [1] Причини
+                    *[other] причина
+                } {LOC($key)} принаймні для {NATURALFIXED($time, 3)} {MANY("second", $time)} без накопичення
         [remove]{ $chance ->
-                    [1] Removes
-                    *[other] remove
-                } {NATURALFIXED($time, 3)} {MANY("second", $time)} of {LOC($key)}
+                    [1] Видаляє
+                    *[other] видаляє
+                } {NATURALFIXED($time, 3)} {MANY("second", $time)} з {LOC($key)}
     }
 
 reagent-effect-guidebook-activate-artifact = { $chance ->
@@ -235,9 +235,9 @@ reagent-effect-guidebook-make-sentient = { $chance ->
     } метаболізатор розумним
 
 reagent-effect-guidebook-make-polymorph = { $chance ->
-        [1] Polymorphs
-        *[other] polymorph
-    } the metabolizer into a { $entityname }
+        [1] Поліморфи
+        *[other] поліморф
+    } метаболізатор у { $entityname }
 
 reagent-effect-guidebook-modify-bleed-amount = { $chance ->
         [1] { $deltasign ->
@@ -302,34 +302,34 @@ reagent-effect-guidebook-reduce-rotting = { $chance ->
     } {NATURALFIXED($time, 3)} {MANY("second", $time)} гниття
 
 reagent-effect-guidebook-area-reaction = { $chance ->
-        [1] Causes
-        *[other] cause
-    } a smoke or foam reaction for {NATURALFIXED($duration, 3)} {MANY("second", $duration)}
+        [1] Причини
+        *[other] причина
+    } реакцію диму або піни для {NATURALFIXED($duration, 3)} {MANY("second", $duration)}
 
 reagent-effect-guidebook-add-to-solution-reaction = { $chance ->
-        [1] Causes
-        *[other] cause
-    } chemicals applied to an object to be added to its internal solution container
+        [1] Причини
+        *[other] причина
+    } хімічні речовини, застосовані до об'єкта, які буде додано до його внутрішнього контейнера з розчином
 
 reagent-effect-guidebook-plant-attribute = { $chance ->
-        [1] Adjusts
-        *[other] adjust
-    } {$attribute} by [color = {$colorName}]{$amount}[/color]
+        [1] коригує
+        *[other] налаштовує
+    } {$attribute} за [color={$colorName}]{$amount}[/color]
 
 reagent-effect-guidebook-plant-cryoxadone = { $chance ->
-        [1] Ages back
-        *[other] age back
-    } the plant, depending on the plant's age and time to grow
+        [1] Століття тому
+        *[other] вік назад
+    } рослина, залежно від віку рослини та часу на вирощування
 
 reagent-effect-guidebook-plant-phalanximine = { $chance ->
-        [1] Makes
-        *[other] make
-    } a plant not viable due to mutation viable again
+        [1] відновлює
+        *[other] відновлює
+    } життєздатність рослині, яка стала нежиттєздатною внаслідок мутації
 
 reagent-effect-guidebook-plant-diethylamine = { $chance ->
-        [1] Increases
-        *[other] increase
-    } the plant's lifespan and/or base health with 10% chance for each
+        [1] Збільшує
+        *[other] збільшення
+    } тривалість життя та/або базовий запас здоров'я рослини з ймовірністю 10% для кожного
 
 reagent-effect-guidebook-plant-robust-harvest = { $chance ->
         [1] Increases

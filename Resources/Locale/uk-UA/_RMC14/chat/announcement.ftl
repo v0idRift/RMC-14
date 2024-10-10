@@ -11,7 +11,7 @@ rmc-announcement-message-signed = [font size=14][bold][color=white]Оголош�
     Signed by,
     {$job} {$name}[/color][/font]
 
-rmc-announcement-ares-message = [color=white][font size=16][bold]ARES v3.2 Operation Staging Order[/bold][/font][/color][color=red][font size=14][bold]
+rmc-announcement-ares-message = [color=white][font size=16][bold]ARES v3.2 Порядок проведення операцій[/bold][/font][/color][color=red][font size=14][bold]
 
     {$message}[/bold][/font][/color]
 

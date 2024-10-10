@@ -3,7 +3,7 @@ rmc-dropship-pre-flight-fueling = Човник все ще підзаряжає�
 rmc-dropship-weapons-title = Консоль Озброєння
 
 rmc-dropship-weapons-main-screen-text = U.N.M.C.
-  Dropship Weapons Control System
+  Система управління безпілотним озброєнням
   V 0.1
 
 rmc-dropship-weapons-weapon-selected = {$weapon}
@@ -12,15 +12,15 @@ rmc-dropship-weapons-weapon-selected-ammo = {$weapon}
   {$ammo}
   Набої {$rounds} / {$maxRounds}
 
-rmc-dropship-weapons-target-strike = Target Acquisition
+rmc-dropship-weapons-target-strike = Цільове наведення
 
-  Strike mode: {$mode}
+  Ударний режим: {$mode}
 
-  Strike configuration {$weapon}
+  Конфігурація удару {$weapon}
 
-  Target selected: {$target}
+  Обрана ціль: {$target}
 
-  Offset {$xOffset},{$yOffset}
+  Зміщення {$xOffset},{$yOffset}
 
 rmc-dropship-weapons-equip-weapon-ammo = {$weapon}
   {$rounds} набоїв
@@ -34,7 +34,7 @@ rmc-dropship-weapons-cancel = ВІДМИНИТИ
 rmc-dropship-weapons-exit = ВИЙТИ
 
 rmc-dropship-weapons-offset-calibration = Калібрування зміщення
-rmc-dropship-weapons-offset-calibration-does-not-affect-direct-bombardment = Does not affect direct bombardment!
+rmc-dropship-weapons-offset-calibration-does-not-affect-direct-bombardment = Не впливає на пряме бомбардування!
 
 rmc-dropship-weapons-fire = ВОГОНЬ
 rmc-dropship-weapons-strike = ВРАЗИТИ
@@ -55,14 +55,14 @@ rmc-dropship-weapons-fire-no-ammo = {$weapon} не має набоїв.
 rmc-dropship-weapons-fire-cooldown = {$weapon} щойно стріляло, зачекайте на перезарядку.
 
 rmc-dropship-weapons-point-gun = It has a {$weapon} loaded.
-rmc-dropship-weapons-point-ammo = It has a {$ammo} loaded.
-rmc-dropship-weapons-rounds-left = It has {$current} out of {$max} rounds left.
+rmc-dropship-weapons-point-ammo = У нього завантажено {$ammo}.
+rmc-dropship-weapons-rounds-left = У нього залишилося {$current} з {$max} раундів.
 
 rmc-dropship-flyby-no-skill = У вас немає навичок для виконання прольоту.
 
 rmc-dropship-fabricator-title = Друкувач Деталей
 rmc-dropship-fabricator-points = Балів: {$points}
-rmc-dropship-fabricator-equipment = [bold]Equipment[/bold]
+rmc-dropship-fabricator-equipment = [bold]Обладнання[/bold]
 rmc-dropship-fabricator-ammo = [bold]Набої[/bold]
 rmc-dropship-fabricator-fabricate = Надрукувати ({$cost})
 rmc-dropship-fabricator-busy = Друкувач деталей зайнятий. Будь ласка, зачекайте.

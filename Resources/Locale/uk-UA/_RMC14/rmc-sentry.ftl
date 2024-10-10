@@ -1,63 +1,63 @@
-rmc-sentry-need-open-area = You need a clear, open area to build a {$sentry}, something is blocking the way in front of you!
-rmc-sentry-on = {CAPITALIZE(THE($sentry))} hums to life and emits several beeps.
-rmc-sentry-off = {CAPITALIZE(THE($sentry))} powers down and goes silent.
-rmc-sentry-magazine-invalid = {CAPITALIZE(THE($item))} isn't a valid sentry magazine!
-rmc-sentry-magazine-swap-not-empty = You can't swap the magazine until it's empty.
-rmc-sentry-magazine-swap-start-user = You begin swapping a new {$magazine} into {THE($sentry)}.
-rmc-sentry-magazine-swap-start-others = {$user} begins swapping a new {$magazine} into {THE($sentry)}.
-rmc-sentry-magazine-swap-finish-user = You swap a new {$magazine} into {THE($sentry)}.
-rmc-sentry-magazine-swap-finish-others = {$user} swaps a new {$magazine} into {THE($sentry)}.
+rmc-sentry-need-open-area = Вам потрібне вільне, відкрите місце для побудови {$sentry}, але перед вами щось перегороджує шлях!
+rmc-sentry-on = {CAPITALIZE(THE($sentry))} загуде і видасть кілька звукових сигналів.
+rmc-sentry-off = {CAPITALIZE(THE($sentry))} вимикається і замовкає.
+rmc-sentry-magazine-invalid = {CAPITALIZE(THE($item))} не є дійсним вартовим журналом!
+rmc-sentry-magazine-swap-not-empty = Ви не можете замінити магазин, доки він не буде порожнім.
+rmc-sentry-magazine-swap-start-user = Ви починаєте заміну нового {$magazine} на {THE($sentry)}.
+rmc-sentry-magazine-swap-start-others = {$user} починає підстановку нового {$magazine} у {THE($sentry)}.
+rmc-sentry-magazine-swap-finish-user = Ви замінюєте новий {$magazine} на {THE($sentry)}.
+rmc-sentry-magazine-swap-finish-others = {$user} замінює новий {$magazine} на {THE($sentry)}.
 rmc-sentry-limited-rotation = [color=red]It can only turn a maximum of {$degrees} degrees when firing.[/color]
 rmc-sentry-disassembled-with-multitool = Ви можете розібрати її за допомогою [color=cyan]мультітула[/color].
-rmc-sentry-rotate-with-screwdriver = It can be rotated with a [color=cyan]screwdriver[/color].
-rmc-sentry-too-close = This is too close to {INDEFINITE($defense)} {$defense}!
-rmc-sentry-active-norot = {CAPITALIZE(THE($sentry))} is currently active. The motors will prevent you from rotating it safely.
-rmc-sentry-item-norot = You can't rotate it like this!
-rmc-sentry-magazine-does-not-fit = {CAPITALIZE(THE($magazine))} doesn't fit into {THE($sentry)}!
+rmc-sentry-rotate-with-screwdriver = Його можна повернути за допомогою [color=cyan]викрутки[/color].
+rmc-sentry-too-close = Це занадто близько до {INDEFINITE($defense)} {$defense}!
+rmc-sentry-active-norot = {CAPITALIZE(THE($sentry))} наразі активний. Двигуни заважатимуть вам безпечно обертати його.
+rmc-sentry-item-norot = Не можна так крутити!
+rmc-sentry-magazine-does-not-fit = {CAPITALIZE(THE($magazine))} не вписується в {THE($sentence)}!
 
-rmc-sentry-upgrade-not-item = You need to disassemble {THE($sentry)} with a multitool before upgrading it!
-rmc-sentry-upgrade-not-holding = You need to be holding an upgrade kit in your active hand to upgrade {THE($sentry)}!
+rmc-sentry-upgrade-not-item = Перед оновленням вам потрібно розібрати {THE($sentry)} за допомогою мультиінструменту!
+rmc-sentry-upgrade-not-holding = Щоб оновити {THE($sentry)}, вам потрібно тримати в активній руці набір для оновлення!
 rmc-sentry-upgrade-not-upgradeable = Ви не можете покращити {$sentry}!
 
-rmc-sentry-spikes-self = The sentry's steel tusks cut into you!
-rmc-sentry-spikes-others = The sentry's steel tusks cut into {$target}!
+rmc-sentry-spikes-self = Сталеві ікла вартового впиваються в тебе!
+rmc-sentry-spikes-others = Сталеві ікла вартового впиваються в {$target}!
 
-rmc-sentry-rotate-self = You rotate {THE($sentry)}.
-rmc-sentry-rotate-others = {$user} rotates {THE($sentry)}.
+rmc-sentry-rotate-self = Ви обертаєте {THE($sentry)}.
+rmc-sentry-rotate-others = {$user} обертає {THE($sentry)}.
 
-rmc-sentry-disassemble-start-self = You begin disassembling {THE($sentry)}.
-rmc-sentry-disassemble-start-others = {$user} begins disassembling {THE($sentry)}.
+rmc-sentry-disassemble-start-self = Ви починаєте дизасемблювати {THE($sentry)}.
+rmc-sentry-disassemble-start-others = {$user} починає дизасемблювати {THE($sentry)}.
 rmc-sentry-disassemble-finish-self = Ви розібрали {$sentry}.
 rmc-sentry-disassemble-finish-others = {$user} розібрав {$sentry}.
 
-rmc-sentry-unanchor-is-on = {CAPITALIZE($sentry)} is currently active. The motors will prevent you from unanchoring it safely.
+rmc-sentry-unanchor-is-on = {CAPITALIZE(THE($sentry))} наразі активно. Двигуни заважатимуть вам безпечно від'єднати його від якоря.
 
-health-examinable-sentry-none = {CAPITALIZE(SUBJECT($target))} {CONJUGATE-BE($target)} in pristine condition.
+health-examinable-sentry-none = Він знаходиться в первозданному стані.
 
-health-examinable-sentry-Blunt-10 = [color=yellow]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-HAVE($target)} a few dents.[/color]
-health-examinable-sentry-Blunt-25 = [color=orange]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-BE($target)} a bit beat up.[/color]
-health-examinable-sentry-Blunt-50 = [color=red]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-BE($target)} very caved in![/color]
-health-examinable-sentry-Blunt-75 = [color=crimson]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-BE($target)} barely holding together![/color]
+health-examinable-sentry-Blunt-10 = [color=yellow]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-HAVE($target)} кілька вм'ятин.[/color]
+health-examinable-sentry-Blunt-25 = [color=orange]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-BE($target)} трохи побитий.[/color]
+health-examinable-sentry-Blunt-50 = [color=red]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-BE($target)} дуже прогнувся![/color]
+health-examinable-sentry-Blunt-75 = [color=crimson]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-BE($target)} ледве тримаються разом![/color]
 
-health-examinable-sentry-Slash-10 = [color=yellow]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-HAVE($target)} a few scratches.[/color]
-health-examinable-sentry-Slash-25 = [color=orange]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-BE($target)} scratched up.[/color]
-health-examinable-sentry-Slash-50 = [color=red]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-BE($target)} covered in slash marks![/color]
-health-examinable-sentry-Slash-75 = [color=crimson]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-BE($target)} falling apart![/color]
+health-examinable-sentry-Slash-10 = [color=yellow]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-HAVE($target)} кілька подряпин.[/color]
+health-examinable-sentry-Slash-25 = [color=orange]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-BE($target)} подряпано.[/color]
+health-examinable-sentry-Slash-50 = [color=red]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-BE($target)} покрито косою рискою![/color]
+health-examinable-sentry-Slash-75 = [color=crimson]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-BE($target)} розвалюється![/color]
 
-health-examinable-sentry-Piercing-10 = [color=yellow]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-HAVE($target)} a few holes.[/color]
-health-examinable-sentry-Piercing-25 = [color=orange]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-HAVE($target)} quite a few holes.[/color]
-health-examinable-sentry-Piercing-50 = [color=red]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-BE($target)} littered with holes![/color]
-health-examinable-sentry-Piercing-75 = [color=crimson]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-BE($target)} about to collapse![/color]
+health-examinable-sentry-Piercing-10 = [color=yellow]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-HAVE($target)} кілька дірок.[/color]
+health-examinable-sentry-Piercing-25 = [color=orange]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-HAVE($target)} досить багато дірок.[/color]
+health-examinable-sentry-Piercing-50 = [color=red]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-BE($target)} в дірках![/color]
+health-examinable-sentry-Piercing-75 = [color=crimson]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-BE($target)} ось-ось зруйнується![/color]
 
-health-examinable-sentry-Heat-10 = [color=yellow]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-HAVE($target)} spots of corrosion.[/color]
-health-examinable-sentry-Heat-25 = [color=orange]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-BE($target)} starting to corrode.[/color]
-health-examinable-sentry-Heat-50 = [color=red]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-HAVE($target)} almost melted![/color]
-health-examinable-sentry-Heat-75 = [color=crimson]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-BE($target)} barely recognizable![/color]
+health-examinable-sentry-Heat-10 = [color=yellow]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-HAVE($target)} плями корозії.[/color]
+health-examinable-sentry-Heat-25 = [color=orange]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-BE($target)} починає піддаватися корозії.[/color]
+health-examinable-sentry-Heat-50 = [color=red]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-HAVE($target)} майже розтанув![/color]
+health-examinable-sentry-Heat-75 = [color=crimson]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-BE($target)} ледве впізнати![/color]
 
-health-examinable-sentry-Shock-10 = [color=yellow]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-HAVE($target)} a few scorch marks.[/color]
-health-examinable-sentry-Shock-25 = [color=orange]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-BE($target)} lightly charred.[/color]
-health-examinable-sentry-Shock-50 = [color=red]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-BE($target)} letting off sparks![/color]
-health-examinable-sentry-Shock-75 = [color=crimson]{CAPITALIZE(SUBJECT($target))} can barely function![/color]
+health-examinable-sentry-Shock-10 = [color=yellow]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-HAVE($target)} кілька обгорілих слідів.[/color]
+health-examinable-sentry-Shock-25 = [color=orange]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-BE($target)} злегка обвуглені.[/color]
+health-examinable-sentry-Shock-50 = [color=red]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-BE($target)} випускаючи іскри![/color]
+health-examinable-sentry-Shock-75 = [color=crimson]{CAPITALIZE(SUBJECT($target))} ледве працює![/color]
 
-rmc-sentry-not-emergency = {CAPITALIZE(THE($deployer))} can only be activated in emergencies.
-rmc-sentry-deploy = You deploy {THE($spawned)}
+rmc-sentry-not-emergency = {CAPITALIZE(THE($deployer))} можна активувати лише у надзвичайних ситуаціях.
+rmc-sentry-deploy = Ви розгортаєте {THE($spawned)}

@@ -88,10 +88,10 @@ ui-options-vp-integer-scaling-tooltip = Якщо ця опція увімкне�
                                         Хоча це і призводить до чітких текстур, це також часто означає,
                                         що чорні полоси будуть у верхній/нижній частині екрана або
                                         що частина вікна не буде видна.
-ui-options-vp-vertical-fit = Vertical viewport fitting
-ui-options-vp-vertical-fit-tooltip = When enabled, the main viewport will ignore the horizontal axis entirely when
-                                     fitting to your screen. If your screen is smaller than the viewport, then this
-                                     will cause the viewport to be cut off on the horizontal axis.
+ui-options-vp-vertical-fit = Вертикальне кріплення оглядового вікна
+ui-options-vp-vertical-fit-tooltip = Якщо увімкнено, головне вікно перегляду повністю ігноруватиме горизонтальну вісь під час
+                                     під час підгонки під ваш екран. Якщо ваш екран менший за область перегляду, це
+                                     призведе до обрізання області перегляду по горизонтальній осі.
 ui-options-vp-low-res = Зображення з низькою роздільною здатністю
 ui-options-parallax-low-quality = Паралакс низької якості (фон)
 ui-options-fps-counter = Показати лічильник FPS
@@ -182,7 +182,7 @@ ui-options-function-open-inventory-menu = Відкритий інвентар
 ui-options-function-open-a-help = Відкрити адмін допомогу
 ui-options-function-open-abilities-menu = Відкрити меню дій
 ui-options-function-open-emotes-menu = Відкрити меню емоцій
-ui-options-function-toggle-round-end-summary-window = Toggle round end summary window
+ui-options-function-toggle-round-end-summary-window = Перемикання раундового кінцевого вікна підсумків
 ui-options-function-open-entity-spawn-window = Відкрити меню створення сутності
 ui-options-function-open-sandbox-window = Відкрити меню пісочниці
 ui-options-function-open-tile-spawn-window = Відкрити меню створення тайлів

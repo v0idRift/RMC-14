@@ -57,7 +57,7 @@ marking-FelinidTailBasicWithBowAndBell-basic_tail_stripes_odd = Смуги на 
 marking-FelinidTailBasicWithBowAndBell-basic_bow = Уклін
 marking-FelinidTailBasicWithBowAndBell-basic_bell = Дзвони
 
-marking-FelinidTiger = Tiger tail
-marking-FelinidTiger-m_tail_tiger_primary = Primary
-marking-FelinidTiger-m_tail_tiger_secondary = Tip of tail
-marking-FelinidTiger-m_tail_tiger_tertiary = Stripes
+marking-FelinidTiger = Тигровий хвіст
+marking-FelinidTiger-m_tail_tiger_primary = Початковий
+marking-FelinidTiger-m_tail_tiger_secondary = Кінчик хвоста
+marking-FelinidTiger-m_tail_tiger_tertiary = Смуги

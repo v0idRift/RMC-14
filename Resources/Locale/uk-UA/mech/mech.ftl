@@ -13,7 +13,7 @@ mech-menu-title = панель контролю
 
 mech-integrity-display = Цілістність: {$amount}%
 mech-energy-display = Зарядка: {$amount}%
-mech-energy-missing = Energy: MISSING
+mech-energy-missing = Енергія: ВІДСУТНЬО
 mech-slot-display = Доступні місця: {$amount}
 
 mech-no-enter = Ви не можете пілотувати це.

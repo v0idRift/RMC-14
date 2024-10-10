@@ -137,13 +137,13 @@ reagent-name-aloxadone = алоксадон
 reagent-desc-aloxadone = Кріогенний хімікат. Використовується для лікування важких опіків третього ступеня шляхом регенерації обпаленої тканини. Діє незалежно від того, живий чи мертвий пацієнт.
 
 reagent-name-mannitol = манітол
-reagent-desc-mannitol = Efficiently restores brain damage.
+reagent-desc-mannitol = Ефективно відновлює пошкодження мозку.
 
 reagent-name-psicodine = псікодін
-reagent-desc-psicodine = Suppresses anxiety and other various forms of mental distress. Overdose causes hallucinations and minor toxin damage.
+reagent-desc-psicodine = Пригнічує тривогу та інші різні форми психічного розладу. Передозування викликає галюцинації та незначні токсичні ураження.
 
 reagent-name-potassium-iodide = іодід калію
-reagent-desc-potassium-iodide = Will reduce the damaging effects of radiation by 90%. Prophylactic use only.
+reagent-desc-potassium-iodide = Зменшить шкідливий вплив радіації на 90%. Тільки для профілактичного використання.
 
 reagent-name-haloperidol = галоперідол
-reagent-desc-haloperidol = Removes most stimulating and hallucinogenic drugs. Reduces druggy effects and jitteriness. Causes drowsiness.
+reagent-desc-haloperidol = Виводить більшість стимулюючих та галюциногенних препаратів. Зменшує ефекти наркотичного сп'яніння та нервозність. Викликає сонливість.

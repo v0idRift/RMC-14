@@ -28,7 +28,7 @@ cmd-panicbunker_min_account_age-help = Використання: panicbunker_min
 panicbunker-command-min-account-age-is = Мінімальний вік акаунта в бункері становить {$hours} годин.
 panicbunker-command-min-account-age-set = Встановіть мінімальний вік акаунта для панічного бункера у {$hours} годин.
 
-cmd-panicbunker_min_overall_minutes-desc = Gets or sets the minimum overall playtime in minutes that an account must have to be allowed to connect with the panic bunker enabled.
-cmd-panicbunker_min_overall_minutes-help = Usage: panicbunker_min_overall_minutes <minutes>
+cmd-panicbunker_min_overall_minutes-desc = Отримує або встановлює мінімальний загальний ігровий час у хвилинах, який повинен мати акаунт для підключення з увімкненим аварійним бункером.
+cmd-panicbunker_min_overall_minutes-help = Використання: panicbunker_min_overall_minutes хвилини
 panicbunker-command-min-overall-minutes-is = The minimum overall playtime for the panic bunker is {$minutes} minutes.
 panicbunker-command-min-overall-minutes-set = Set the minimum overall playtime for the panic bunker to {$minutes} minutes.

@@ -173,15 +173,19 @@ flavor-complex-lost-friendship = як втрачена дружба
 flavor-complex-light = наче світло згасло
 flavor-complex-profits = наприклад, прибутки
 flavor-complex-fishops = як жахливі фішопи
-flavor-complex-blue-pumpkin = like a mouthful of pool water
+flavor-complex-blue-pumpkin = як повний рот води з басейну
 flavor-complex-violets = як фіалки.
 
 # Аромати для напоїв.
 
 ## Загальний смак алкоголю/соди. Він повинен бути замінений на справжній профіль смаку
-flavor-complex-pyrotton = like a burning mouth
-flavor-complex-mothballs = like mothballs
-flavor-complex-paint-thinner = like paint thinner
+flavor-complex-pyrotton = як пекучий рот
+flavor-complex-mothballs = як нафталін
+flavor-complex-paint-thinner = як розчинник для фарби.
+
+# Ароматизатори для напоїв.
+
+## Загальний смак алкоголю/соди. Його слід замінити на справжній смаковий профіль.
 flavor-complex-alcohol = як майбутній перегар
 flavor-complex-soda = наче газики уже в твоїй голові
 flavor-complex-juice = як вижатий фрукт
@@ -250,12 +254,12 @@ flavor-complex-atomic-cola = як термоядерний двигун без �
 flavor-complex-cuba-libre = як збройний переворот на Кубі
 flavor-complex-gin-tonic = як дешевий напій з АТБ
 flavor-complex-screwdriver = як відпочинок в гаражному кооперативі
-flavor-complex-vodka-red-bool = like a heart attack
-flavor-complex-irish-bool = caffine and Ireland
-flavor-complex-xeno-basher = like killing bugs
-flavor-complex-budget-insuls-drink = like door hacking
-flavor-complex-watermelon-wakeup = like a sweet wakeup call
-flavor-complex-rubberneck = like synthetics
+flavor-complex-vodka-red-bool = як серцевий напад
+flavor-complex-irish-bool = кофеїн та Ірландія
+flavor-complex-xeno-basher = наприклад, вбивати жуків
+flavor-complex-budget-insuls-drink = наприклад, злом дверей
+flavor-complex-watermelon-wakeup = як солодкий дзвінок для пробудження
+flavor-complex-rubberneck = як синтетика
 flavor-complex-irish-car-bomb = як шипуча кола
 flavor-complex-themartinez = як пригоди
 flavor-complex-cogchamp = як заступництво Ратвара

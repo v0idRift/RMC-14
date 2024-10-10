@@ -15,4 +15,4 @@ handcuff-component-cuff-interrupt-other-message = Ви завадили {$otherN
 handcuff-component-cuff-interrupt-self-message = Вам завадили затримати себе.
 handcuff-component-cuff-interrupt-buckled-message = Ви не можете пристібнутись коли затримані!
 handcuff-component-cuff-interrupt-unbuckled-message = Ви не можете відстібнутись коли затримані!
-handcuff-component-cannot-drop-cuffs = You are unable to put the restraints on {$target}
+handcuff-component-cannot-drop-cuffs = Ви не можете накласти обмеження на {$target}

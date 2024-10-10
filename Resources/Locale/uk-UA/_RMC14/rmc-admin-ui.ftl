@@ -14,6 +14,6 @@ rmc-ui-xeno-hive = Вулик:
 rmc-ui-create-new-hive = Створити новий вулик
 rmc-ui-create-hive-title = Нова назва вулику
 rmc-ui-humanoid = Гуманоїд
-rmc-ui-tier = Tier {$tier}
+rmc-ui-tier = Рівень {$tier}
 
 rmc-ui-admin = КМП Дієвидло Адміна

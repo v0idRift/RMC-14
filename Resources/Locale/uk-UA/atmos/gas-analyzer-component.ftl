@@ -1,6 +1,6 @@
 ## Entity
 
-gas-analyzer-object-out-of-range = The object went out of range.
+gas-analyzer-object-out-of-range = Об'єкт вийшов за межі досяжності.
 gas-analyzer-shutoff = Газоаналізатор вимкнено.
 
 ## UI
