@@ -98,7 +98,7 @@ admin-smite-super-bonk-lite-description = Б'є ними по кожному с�
 admin-smite-terminate-description = Створює роль примари-термінатора з єдиною метою - вбити їх.
 
 ## Описи трюків
-admin-smite-super-slip-description = Дуже, дуже сильно ковзає ними.
+admin-smite-super-slip-description = Дуже, дуже сильно ковзає ними
 admin-trick-unbolt-description = Розблоковує цільовий шлюз.
 admin-trick-bolt-description = Закриває цільовий шлюз.
 admin-trick-emergency-access-on-description = Вмикає аварійний доступ до цільового шлюзу.
