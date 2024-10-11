@@ -16,7 +16,7 @@ admin-smite-lung-removal-self = Ти не можеш дихати!
 
 admin-smite-explode-name = Вибухни!
 admin-smite-chess-dimension-name = Шаховий вимір
-admin-smite-set-alight-name = Set Alight
+admin-smite-set-alight-name = Підпалюємо
 admin-smite-monkeyify-name = Мавпувати
 admin-smite-electrocute-name = Сміттєвий бак
 admin-smite-creampie-name = Вбити електричним струмом
