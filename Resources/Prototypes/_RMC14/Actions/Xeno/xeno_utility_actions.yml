@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: ActionXenoTransferPlasma
   parent: ActionXenoBase
-  name: Transfer plasma (50) # TODO RMC14 proper plasma costs
-  description: Give plasma to a nearby xenonid.
+  name: "Трансферна плазма (50)" # TODO RMC14 proper plasma costs
+  description: "Передайте плазму на сусідній ксенонід."
   components:
   - type: EntityTargetAction
     itemIconStyle: NoItem
@@ -15,8 +15,8 @@
 - type: entity
   id: ActionXenoResinSurge
   parent: ActionXenoBase
-  name: Resin Surge (75)
-  description: Speed up plant growth, create temporary walls or heavily reinforce existing ones, or create patches of sticky resin.
+  name: "Викид смоли (75)"
+  description: "Прискорюйте ріст рослин, створюйте тимчасові стіни або сильно зміцнюйте існуючі, або створюйте плями з липкої смоли."
   components:
   - type: EntityWorldTargetAction
     itemIconStyle: NoItem
@@ -36,8 +36,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoRetrieve
-  name: Retrieve (180 plasma, 100 energy)
-  description: Pull a xenonid to you if they are in crit, stunned, lying down, or small enough.
+  name: "Отримати (180 плазми, 100 енергії)"
+  description: "Тягніть ксеноніда до себе, якщо він у критичному стані, оглушений, лежить або досить малий."
   components:
   - type: EntityTargetAction
     itemIconStyle: NoItem
@@ -57,8 +57,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoAid
-  name: Aid Xenonid (100 plasma, 100 energy)
-  description: Heal a xenonid next to you and yourself, or remove ailments and stuns from a further away xenonid. Healing will consume an additional half of your remaining points for extra healing.
+  name: "Допомога Ксеноніда (100 плазми, 100 енергії)"
+  description: "Зціліть ксеноніда поруч з вами і себе, або зніміть хвороби і оглушення з більш віддаленого ксеноніда. На додаткове зцілення витрачається ще половина очок, що залишилися у вас в запасі."
   components:
   - type: EntityTargetAction
     itemIconStyle: NoItem
@@ -75,8 +75,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoAidToggle
-  name: Toggle Aid Type
-  description: Toggles between healing or removing ailments with Aid Xenonid.
+  name: "Переключити тип допомоги"
+  description: "Перемикається між зціленням та усуненням недуг за допомогою Aid Xenonid."
   components:
   - type: InstantAction
     itemIconStyle: NoItem

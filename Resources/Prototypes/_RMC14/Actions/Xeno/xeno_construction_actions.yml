@@ -8,8 +8,8 @@
 - type: entity
   id: ActionXenoPlantWeeds
   parent: ActionXenoBase
-  name: Plant Weeds (75) # TODO RMC14 proper plasma costs
-  description: Plant a weed node that will spread more weeds.
+  name: "Рослинні бур'яни (75)" # TODO RMC14 proper plasma costs
+  description: "Посадіть бур'яновий вузол, який буде поширювати більше бур'янів."
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -22,8 +22,8 @@
 - type: entity
   id: ActionXenoChooseStructure
   parent: ActionXenoBase
-  name: Choose Resin Structure
-  description: "Choose a structure to secrete with the 'Secrete Resin' action."
+  name: "Виберіть структуру смоли"
+  description: "Виберіть структуру для виділення за допомогою дії \"Виділити смолу\"."
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -36,8 +36,8 @@
 - type: entity
   id: ActionXenoSecreteStructure
   parent: ActionXenoBase
-  name: Secrete Resin
-  description: "Builds the structure chosen with the 'Choose Resin Structure' action."
+  name: "Секретна смола"
+  description: "Будує структуру, обрану за допомогою дії \"Вибрати структуру смоли\"."
   components:
   - type: WorldTargetAction
     itemIconStyle: NoItem
@@ -55,8 +55,8 @@
 - type: entity
   id: ActionXenoOrderConstruction
   parent: ActionXenoBase
-  name: Order Construction
-  description: Starts construction of an important hive structure.
+  name: "Замовити будівництво"
+  description: "Починає будівництво важливої конструкції вулика."
   components:
   - type: WorldTargetAction
     itemIconStyle: NoItem
@@ -73,8 +73,8 @@
 - type: entity
   id: ActionXenoResinHole
   parent: ActionXenoBase
-  name: Plant Resin Hole (200)
-  description: Places a resin hole on weeds. It can be filled with boiler gas, acid, or parasites.
+  name: "Отвір для рослинної смоли (200)"
+  description: "Розміщує смоляну яму на бур'янах. Її можна заповнити котельним газом, кислотою або паразитами."
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -88,8 +88,8 @@
 - type: entity
   id: ActionXenoFruitChoose
   parent: ActionXenoBase
-  name: Change Fruit
-  description: Choose a fruit to be planted with 'Plant Resin Fruit' action.
+  name: "Змінити Фрукт"
+  description: "Виберіть фрукт для посадки за допомогою дії \"Посадити смоляний фрукт\"."
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -102,8 +102,8 @@
 - type: entity
   id: ActionXenoFruitPlant
   parent: ActionXenoBase
-  name: Plant Resin Fruit (100)
-  description: Plant chosen resin fruit at the cost of health and plasma.
+  name: "Рослинна смола Фрукти (100)"
+  description: "Висаджуйте вибрані смолисті плоди ціною здоров'я і плазми."
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -116,8 +116,8 @@
 - type: entity
   id: ActionXenoPlantWeedsHardy
   parent: ActionXenoBase
-  name: Plant Hardy Weeds (125) # TODO RMC14 proper plasma costs
-  description: Plant a weed node that will spread hardier weeds.
+  name: "Висаджувати витривалі бур'яни (125)" # TODO RMC14 proper plasma costs
+  description: "Посадіть бур'яновий вузол, який буде поширювати більш жорсткі бур'яни."
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -134,8 +134,8 @@
 - type: entity
   id: ActionXenoFruitPlantLesser
   parent: ActionXenoFruitPlant
-  name: Plant Resin Fruit (50)
-  description: Plant resin fruit at the cost of health and plasma.
+  name: "Рослинна смола Фрукти (50)"
+  description: "Рослинна смола приносить плоди ціною здоров'я та плазми крові."
   components:
   - type: InstantAction
     event: !type:XenoFruitPlantActionEvent

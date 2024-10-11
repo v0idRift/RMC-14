@@ -1,8 +1,8 @@
 - type: entity
   parent: ActionMarineBase
   id: CMActionToggleScope
-  name: Toggle Optics
-  description: Scope in or out with your optics.
+  name: "Перемикання оптики"
+  description: "Зазирніть всередину або назовні за допомогою оптики."
   components:
   - type: InstantAction
     icon:
@@ -14,8 +14,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionCycleZoomLevel
-  name: Cycle Zoom Level
-  description: Change the level of magnification of your optics.
+  name: "Рівень циклічного масштабування"
+  description: "Змініть рівень збільшення вашої оптики."
   components:
   - type: InstantAction
     icon:
@@ -30,8 +30,8 @@
 - type: entity
   parent: ActionMarineBase
   id: CMActionToggleScoutVision
-  name: Toggle the M42 scout sight
-  description: Allows you to see even in complete darkness.
+  name: "Перемикання прицілу розвідника M42"
+  description: "Дозволяє бачити навіть у повній темряві."
   components:
   - type: InstantAction
     icon:
@@ -46,8 +46,8 @@
 - type: entity
   parent: ActionMarineBase
   id: CMActionToggleAttachable
-  name: Toggle Attachable
-  description: Toggle an attachable. If you're seeing this, someone forgot to set the description properly.
+  name: "Перемикач Прикріплюваний"
+  description: "Перемикання вкладеного файлу. Якщо ви бачите це, це означає, що хтось забув налаштувати опис належним чином."
   components:
   - type: InstantAction
     icon:
@@ -58,8 +58,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionWhistle
-  name: Whistle
-  description: Blow the whistle.
+  name: "Свист"
+  description: "Свистіть."
   components:
   - type: InstantAction
     itemIconStyle: NoItem

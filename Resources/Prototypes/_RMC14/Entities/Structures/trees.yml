@@ -1,6 +1,6 @@
 - type: entity
   id: RMCBaseTree
-  description: Yep, it's a tree.
+  description: "Так, це дерево."
   components:
   - type: SpriteFade
   - type: Clickable
@@ -104,7 +104,7 @@
 - type: entity
   parent: RMCBaseTree
   id: RMCFloraTree01
-  name: tree
+  name: "дерево"
   components:
   - type: Sprite
     state: tree01
@@ -112,7 +112,7 @@
 - type: entity
   parent: RMCBaseTree
   id: RMCFloraTree02
-  name: tree
+  name: "дерево"
   components:
   - type: Sprite
     state: tree02
@@ -120,7 +120,7 @@
 - type: entity
   parent: RMCBaseTree
   id: RMCFloraTree03
-  name: tree
+  name: "дерево"
   components:
   - type: Sprite
     state: tree03
@@ -128,7 +128,7 @@
 - type: entity
   parent: RMCBaseTree
   id: RMCFloraTree04
-  name: tree
+  name: "дерево"
   components:
   - type: Sprite
     state: tree04
@@ -136,7 +136,7 @@
 - type: entity
   parent: RMCBaseTree
   id: RMCFloraTree05
-  name: tree
+  name: "дерево"
   components:
   - type: Sprite
     state: tree05
@@ -144,7 +144,7 @@
 - type: entity
   parent: RMCBaseTree
   id: RMCFloraTree06
-  name: tree
+  name: "дерево"
   components:
   - type: Sprite
     state: tree06
@@ -152,7 +152,7 @@
 - type: entity
   parent: RMCBaseTreeSnow
   id: RMCFloraTreeSnow01
-  name: snowy tree
+  name: "засніжене дерево"
   components:
   - type: Sprite
     state: treesnow01
@@ -160,7 +160,7 @@
 - type: entity
   parent: RMCBaseTreeSnow
   id: RMCFloraTreeSnow02
-  name: snowy tree
+  name: "засніжене дерево"
   components:
   - type: Sprite
     state: treesnow02
@@ -168,7 +168,7 @@
 - type: entity
   parent: RMCBaseTreeSnow
   id: RMCFloraTreeSnow03
-  name: snowy tree
+  name: "засніжене дерево"
   components:
   - type: Sprite
     state: treesnow03
@@ -176,7 +176,7 @@
 - type: entity
   parent: RMCBaseTreeSnow
   id: RMCFloraTreeSnow04
-  name: snowy tree
+  name: "засніжене дерево"
   components:
   - type: Sprite
     state: treesnow04
@@ -184,7 +184,7 @@
 - type: entity
   parent: RMCBaseTreeSnow
   id: RMCFloraTreeSnow05
-  name: snowy tree
+  name: "засніжене дерево"
   components:
   - type: Sprite
     state: treesnow05
@@ -192,7 +192,7 @@
 - type: entity
   parent: RMCBaseTreeSnow
   id: RMCFloraTreeSnow06
-  name: snowy tree
+  name: "засніжене дерево"
   components:
   - type: Sprite
     state: treesnow06
@@ -200,7 +200,7 @@
 - type: entity
   parent: RMCBaseTreeSnow
   id: RMCFloraTreeStump
-  name: tree stump
+  name: "пеньок"
   components:
   - type: Sprite
     state: treestump
@@ -208,7 +208,7 @@
 - type: entity
   parent: RMCBaseTreeLarge
   id: RMCFloraTreeLarge01
-  name: large tree
+  name: "велике дерево"
   components:
   - type: Sprite
     state: treelarge01
@@ -216,7 +216,7 @@
 - type: entity
   parent: RMCBaseTreeLarge
   id: RMCFloraTreeLarge02
-  name: large tree
+  name: "велике дерево"
   components:
   - type: Sprite
     state: treelarge02
@@ -224,7 +224,7 @@
 - type: entity
   parent: RMCBaseTreeLarge
   id: RMCFloraTreeLarge03
-  name: large tree
+  name: "велике дерево"
   components:
   - type: Sprite
     state: treelarge03
@@ -232,7 +232,7 @@
 - type: entity
   parent: RMCBaseTreeLarge
   id: RMCFloraTreeLarge04
-  name: large tree
+  name: "велике дерево"
   components:
   - type: Sprite
     state: treelarge04
@@ -240,7 +240,7 @@
 - type: entity
   parent: RMCBaseTreeLarge
   id: RMCFloraTreeLarge05
-  name: large tree
+  name: "велике дерево"
   components:
   - type: Sprite
     state: treelarge05
@@ -248,7 +248,7 @@
 - type: entity
   parent: RMCBaseTreeLarge
   id: RMCFloraTreeLarge06
-  name: large tree
+  name: "велике дерево"
   components:
   - type: Sprite
     state: treelarge06
@@ -256,7 +256,7 @@
 - type: entity
   parent: RMCBaseTreeConifer
   id: RMCFloraTreeConifer01
-  name: snowy conifer
+  name: "засніжена хвойна рослина"
   components:
   - type: Sprite
     state: treeconifer01
@@ -264,7 +264,7 @@
 - type: entity
   parent: RMCBaseTreeConifer
   id: RMCFloraTreeConifer02
-  name: snowy conifer
+  name: "засніжена хвойна рослина"
   components:
   - type: Sprite
     state: treeconifer02
@@ -272,7 +272,7 @@
 - type: entity
   parent: RMCBaseTreeConifer
   id: RMCFloraTreeConifer03
-  name: snowy conifer
+  name: "засніжена хвойна рослина"
   components:
   - type: Sprite
     state: treeconifer03
@@ -280,7 +280,7 @@
 - type: entity
   parent: RMCBaseTreeConifer
   id: RMCFloraTreeStumpConifer
-  name: tree stump
+  name: "пеньок"
   components:
   - type: Sprite
     state: treestumpconifer

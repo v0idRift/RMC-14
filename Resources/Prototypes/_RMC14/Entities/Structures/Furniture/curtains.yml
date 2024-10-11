@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: BaseCurtains
   id: RMCCurtainBase
-  name: curtain
+  name: "завіса"
   abstract: true
   components:
   - type: Destructible
@@ -32,7 +32,7 @@
 - type: entity
   parent: RMCCurtainBase
   id: RMCCurtainMedical
-  name: plastic curtain
+  name: "пластикова штора"
   components:
   - type: Sprite
     snapCardinals: true
@@ -45,7 +45,7 @@
 - type: entity
   parent: RMCCurtainBase
   id: RMCCurtainShower
-  name: shower curtain
+  name: "шторка для душу"
   components:
   - type: Sprite
     snapCardinals: true
@@ -69,7 +69,7 @@
 - type: entity
   parent: RMCCurtainBase
   id: RMCCurtainRed
-  name: red curtain
+  name: "червона завіса"
   components:
   - type: Sprite
     snapCardinals: true

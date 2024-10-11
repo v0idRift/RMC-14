@@ -52,7 +52,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointChiefEngineer
-  name: chief engineer spawn point
+  name: "головний інженер spawn point"
   components:
   - type: SpawnPoint
     job_id: CMChiefEngineer

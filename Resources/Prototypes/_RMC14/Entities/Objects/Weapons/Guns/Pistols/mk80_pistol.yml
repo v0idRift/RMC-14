@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMWeaponPistolBase
   id: CMWeaponPistolMK80
-  name: MK80 pistol
-  description: A massive, formidable semi-automatic handgun chambered in 9mm squash-head rounds. A common sight throughout both UA and 3WE space, often held by both We-Ya PMC units and corporate executives. This weapon is also undergoing limited field testing as part of the Marines' next generation pistol program. The slide is engraved with the We-Ya logo reminding you who's really in charge.
+  name: "Пістолет MK80"
+  description: "Масивний, грізний напівавтоматичний пістолет, споряджений 9-міліметровими патронами з плескатою голівкою. Його часто можна зустріти в зоні АТО та 3WE, як у підрозділах ПВК \"Ми-Я\", так і у керівників компаній. Ця зброя також проходить обмежені польові випробування в рамках програми Морської піхоти по створенню пістолетів нового покоління. На затворі викарбувано логотип We-Ya, який нагадує, хто тут головний."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Pistols/mk80.rsi
@@ -80,7 +80,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: CMMagazinePistolMK80
-  name: MK80 magazine (9mm Squash-Head)
+  name: "Магазин MK80 (9мм Squash-Head)"
   components:
   - type: Tag
     tags:
@@ -104,7 +104,7 @@
 
 - type: entity
   id: RCMCartridgePistol9mmSquashHead
-  name: cartridge (9mm Squash-Head)
+  name: "патрон (9мм Squash-Head)"
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -117,7 +117,7 @@
 - type: entity # todo rmc14 this is missing a lot of effects, shrapnel, debilitate etc
   parent: CMBulletBase
   id: RCMBulletPistol9mmSquashHead
-  name: bullet (9mm Squash-Head)
+  name: "куля (9мм Squash-Head)"
   components:
   - type: Projectile
     damage:

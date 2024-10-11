@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: LogicEmptyCircuit
-  name: empty circuit
-  description: Something seems to be missing.
+  name: "порожній контур"
+  description: "Здається, чогось не вистачає."
   components:
   - type: Sprite
     sprite: Objects/Devices/gates.rsi
@@ -28,8 +28,8 @@
 - type: entity
   parent: BaseLogicItem
   id: LogicGateOr
-  name: logic gate
-  description: A logic gate with two inputs and one output. Technicians can change its mode of operation using a screwdriver.
+  name: "логічний вентиль"
+  description: "Логічний вентиль з двома входами та одним виходом. Технічний персонал може змінювати режим його роботи за допомогою викрутки."
   suffix: Or
   components:
   - type: Sprite
@@ -132,8 +132,8 @@
 - type: entity
   parent: BaseLogicItem
   id: EdgeDetector
-  name: edge detector
-  description: Splits rising and falling edges into unique pulses and detects how edgy you are.
+  name: "детектор країв"
+  description: "Фронтальний детектор сигналів."
   components:
   - type: Sprite
     layers:
@@ -156,8 +156,8 @@
 - type: entity
   parent: BaseLogicItem
   id: PowerSensor
-  name: power sensor
-  description: Generates signals in response to powernet changes. Can be cycled between cable voltages.
+  name: "датчик потужності"
+  description: "Пристрій для перевірки сигналів в електромережі."
   components:
   - type: Sprite
     layers:
@@ -203,8 +203,8 @@
 - type: entity
   parent: BaseLogicItem
   id: MemoryCell
-  name: memory cell
-  description: A D-Latch circuit that stores a signal which can be changed depending on input and enable ports.
+  name: "комірка пам'яті"
+  description: "Схема D-Latch, яка зберігає сигнал, що може бути змінений залежно від вхідних і вихідних портів."
   components:
   - type: Sprite
     layers:
