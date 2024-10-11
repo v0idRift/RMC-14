@@ -8,7 +8,7 @@
 - type: entity
   abstract: true
   id: RMCAreaBase
-  name: "площа"
+  name: area
   suffix: Area
   placement:
     mode: SnapgridCenter
@@ -39,7 +39,7 @@
   parent: RMCAreaBase
   abstract: true
   id: RMCAreaProtectionZero
-  name: "захист 0"
+  name: protection 0
   components:
   - type: Area
     CAS: true
@@ -54,19 +54,19 @@
   parent: RMCAreaProtectionZero
   abstract: true
   id: RMCAreaNone
-  name: "ні"
+  name: none
 
 - type: entity
   parent: RMCAreaProtectionZero
   abstract: true
   id: RMCAreaGlass
-  name: "скло"
+  name: glass
 
 - type: entity
   parent: RMCAreaBase
   abstract: true
   id: RMCAreaProtectionOne
-  name: "захист 1"
+  name: protection 1
   components:
   - type: Area
     lasing: false
@@ -77,13 +77,13 @@
   parent: RMCAreaProtectionOne
   abstract: true
   id: RMCAreaProtectionMetal
-  name: "металл"
+  name: metal
 
 - type: entity
   parent: RMCAreaBase
   abstract: true
   id: RMCAreaProtectionTwo
-  name: "захист 2"
+  name: protection 2
   components:
   - type: Area
     fulton: false
@@ -93,19 +93,19 @@
   parent: RMCAreaProtectionTwo
   abstract: true
   id: RMCAreaUndergroundAllowCAS
-  name: "підземний дозвіл кас"
+  name: underground allow cas
 
 - type: entity
   parent: RMCAreaProtectionTwo
   abstract: true
   id: RMCAreaUndergroundMetalAllowCAS
-  name: "underground metal allow cas"
+  name: underground metal allow cas
 
 - type: entity
   parent: RMCAreaBase
   abstract: true
   id: RMCAreaProtectionThree
-  name: "захист 3"
+  name: protection 3
   components:
   - type: Area
     CAS: false
@@ -114,19 +114,19 @@
   parent: RMCAreaProtectionThree
   abstract: true
   id: RMCAreaUndergroundBlockCAS
-  name: "підземний блок КАС"
+  name: underground block cas
 
 - type: entity
   parent: RMCAreaProtectionThree
   abstract: true
   id: RMCAreaUndergroundMetalBlockCAS
-  name: "підземний металевий блок-каркас"
+  name: underground metal block cas
 
 - type: entity
   parent: RMCAreaBase
   abstract: true
   id: RMCAreaProtectionFour
-  name: "захист 4"
+  name: protection 4
   components:
   - type: Area
     OB: false
@@ -135,28 +135,28 @@
   parent: RMCAreaProtectionFour
   abstract: true
   id: RMCAreaDeepUnderground
-  name: "глибоко під землею"
+  name: deep underground
 
 - type: entity
   parent: RMCAreaProtectionFour
   abstract: true
   id: RMCAreaDeepUndergroundMetal
-  name: "глибокий підземний метал"
+  name: deep underground metal
 
 - type: entity
   parent: RMCAreaProtectionFour
   abstract: true
   id: RMCAreaReinforcedMetal
-  name: "армований металл"
+  name: reinforced metal
 
 - type: entity
   parent: RMCAreaProtectionFour
   abstract: true
   id: RMCAreaResin
-  name: "смола"
+  name: resin
 
 - type: entity
   parent: RMCAreaProtectionFour
   abstract: true
   id: RMCAreaMax
-  name: "макс"
+  name: max

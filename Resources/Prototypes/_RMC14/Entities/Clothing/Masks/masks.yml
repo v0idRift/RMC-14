@@ -11,8 +11,8 @@
 - type: entity
   parent: CMBaseMask
   id: CMMaskGas
-  name: "протигаз"
-  description: "Маска, що закриває обличчя, яку можна під'єднати до системи подачі повітря. Фільтрує шкідливі гази з повітря."
+  name: gas mask
+  description: A face-covering mask that can be connected to an air supply. Filters harmful gases from the air.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/gas.rsi
@@ -33,8 +33,8 @@
 - type: entity
   parent: CMBaseMask
   id: CMMaskSterile
-  name: "стерильна маска"
-  description: "Стерильна маска, призначена для запобігання поширенню хвороб."
+  name: sterile mask
+  description: A sterile mask designed to help prevent the spread of diseases.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/sterile.rsi
@@ -46,8 +46,8 @@
 - type: entity # TODO RMC14 this needs a lizard sprite
   parent: ClothingMaskGas
   id: CMMaskGasMedical
-  name: "медичний протигаз"
-  description: "Стерильна маска, що щільно прилягає, яку можна під'єднати до системи подачі повітря."
+  name: medical gas mask
+  description: A close-fitting sterile mask that can be connected to an air supply.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/medical.rsi
@@ -57,8 +57,8 @@
 - type: entity
   parent: CMBaseMask
   id: CMMaskCoif
-  name: "теплопоглинаюча зачіска"
-  description: "Щільно прилягаюча шапка, яка закриває маківку, потилицю та бокові частини голови. Також може бути відрегульована так, щоб закривати нижню частину обличчя, щоб зігріти користувача в суворих умовах."
+  name: heat absorbent coif
+  description: A close-fitting cap that covers the top, back, and sides of the head. Can also be adjusted to cover the lower part of the face so it keeps the user warm in harsh conditions.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/coif.rsi

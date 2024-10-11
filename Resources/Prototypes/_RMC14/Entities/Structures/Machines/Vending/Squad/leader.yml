@@ -3,8 +3,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechSLGear
-  name: "Багажник для командира відділення ColMarTech"
-  description: "Автоматизована стійка для спорядження для командирів відділень."
+  name: ColMarTech squad leader gear rack
+  description: An automated gear rack for Squad Leaders.
   components:
   - type: AccessReader
     access:
@@ -205,8 +205,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechSLEquipment
-  name: "Стійка для спорядження командира відділення ColMarTech"
-  description: "Автоматизований стелаж, під'єднаний до величезного сховища стандартного спорядження Squad Leader."
+  name: ColMarTech squad leader equipment rack
+  description: An automated rack hooked up to a colossal storage of Squad Leader standard-issue equipment.
   components:
   - type: AccessReader
     access:
@@ -286,8 +286,8 @@
 - type: entity
   parent: CMVendorBundleRiflemanApparel
   id: RMCVendorBundleCrewLeader
-  name: "необхідний набір SL"
-  description: "Містить лазерний цілевказівник, пакет сигнальних ракет, проривний заряд і вогнегасник."
+  name: essential SL kit
+  description: Contains a laser designator, a pack of signal flares, a breaching charge and a fire extinguisher.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Explosives/satchel_charge.rsi # TODO RMC14 plastic explosives icon
@@ -302,8 +302,8 @@
 - type: entity
   parent: RMCKitBase
   id: RMCKitRifleM4SPR
-  name: "Комплект снайпера M4SPR"
-  description: "Містить гвинтівку M4SPR, 4-кратний оптичний приціл, глушник, подовжений ствол та 2 магазини AP."
+  name: M4SPR marksman kit
+  description: Contains a M4SPR rifle, a 4x telescopic scope, a suppressor, an extended barrel and 2 AP magazines.
   components:
   - type: Storage
     maxItemSize: Huge
@@ -321,8 +321,8 @@
 - type: entity
   parent: RMCKitBase
   id: RMCKitCM54C
-  name: "Комплект для гвинтівки M54C"
-  description: "Містить гвинтівку M54C, кутову рукоятку, глушник, подовжений ствол та 2 магазини AP."
+  name: M54C rifle kit
+  description: Contains a M54C rifle, an angled grip, a suppressor, an extended barrel and 2 AP magazines.
   components:
   - type: Storage
     maxItemSize: Huge
@@ -340,8 +340,8 @@
 - type: entity
   parent: RMCKitBase
   id: RMCKitEngineering
-  name: "комплект інженерного забезпечення"
-  description: "Містить будівельну сумку з 50 металевими, 30 пластиковими та 15 колючими дротами, а також сумку для електроніки з трьома потужними елементами живлення."
+  name: engineering supply kit
+  description: Contains a construction pouch with 50 metal, 30 plasteel and 15 barbed wire, and an electronics pouch with three high-capacity power cells.
   components:
   - type: Storage
     maxItemSize: Huge

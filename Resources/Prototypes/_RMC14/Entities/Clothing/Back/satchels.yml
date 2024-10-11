@@ -2,8 +2,8 @@
 - type: entity
   parent: CMPersonalStorageBase
   id: CMSatchel
-  name: "шкіряна сумка"
-  description: "Дуже вишукана сумка з тонкої шкіри. Виглядає досить дорого."
+  name: leather satchel
+  description: A very fancy satchel made of fine leather. Looks pretty pricey.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Satchels/Civilians/classic.rsi
@@ -18,8 +18,8 @@
 - type: entity
   parent: CMSatchel
   id: CMBackpackSniper
-  name: "Комбінезон снайпера М3"
-  description: "Спеціально розроблений халат з кишенями для всіх потреб снайпера."
+  name: M3 sniper's smock
+  description: A specially-designed smock with pockets for all your sniper needs.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/smock.rsi
@@ -30,8 +30,8 @@
 - type: entity
   parent: CMSatchel
   id: RMCBackpackScout
-  name: "Термоплащ M68"
-  description: "Легкі теплові демпфери та оптичний камуфляж, які забезпечує цей плащ, слабші, ніж у стандартних костюмах \"гіллі\" від UNMC. Натомість, плащ можна носити поверх бойової броні, і він забезпечує високу маневреність та пристосованість до багатьох умов навколишнього середовища."
+  name: M68 thermal cloak
+  description: The lightweight thermal dampeners and optical camouflage provided by this cloak are weaker than those found in standard UNMC ghillie suits. In exchange, the cloak can be worn over combat armor and offers the wearer high maneuverability and adaptability to many environments.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/scout_cloak.rsi
@@ -61,8 +61,8 @@
 - type: entity
   parent: CMSatchel
   id: CMSatchelEngineer
-  name: "промислова сумка"
-  description: "Міцний рюкзак з додатковими кишенями."
+  name: industrial satchel
+  description: A tough satchel with extra pockets.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Satchels/Civilians/engineer.rsi
@@ -70,8 +70,8 @@
 - type: entity
   parent: CMSatchel
   id: CMSatchelMedical
-  name: "медична сумка"
-  description: "Стерильна сумка, яку використовують у медичних відділеннях."
+  name: medical satchel
+  description: A sterile satchel used in medical departments.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Satchels/Civilians/medical.rsi
@@ -79,8 +79,8 @@
 - type: entity
   parent: CMSatchel
   id: CMSatchelSecurity
-  name: "сумка безпеки"
-  description: "Міцна сумка, що складається з двох підсумків та великої внутрішньої кишені. Виготовлений з жорсткої тканини, не дуже зручний у носінні."
+  name: security satchel
+  description: A robust satchel composed of two drop pouches and a large internal pocket. Made of a stiff fabric, it isn't very comfy to wear.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Satchels/Civilians/security.rsi
@@ -88,8 +88,8 @@
 - type: entity
   parent: CMSatchel
   id: CMSatchelMarine
-  name: "Ранець морського піхотинця"
-  description: "Важкий ранець, який носять деякі солдати морської піхоти та допоміжний персонал."
+  name: Marine satchel
+  description: A heavy-duty satchel carried by some Marine soldiers and support personnel.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Satchels/Marines/standard.rsi
@@ -97,8 +97,8 @@
 - type: entity
   parent: CMSatchelMarine
   id: CMSatchelMarineIntel
-  name: "Морський легкий експедиційний рюкзак"
-  description: "Надміцний рюкзак на основі IMP, який можна носити спереду або збоку і швидко дістати однією рукою. Зазвичай видається офіцерам морської розвідки."
+  name: Marine lightweight expedition pack
+  description: A heavy-duty IMP based backpack that can be slung around the front or to the side, and can quickly be accessed with only one hand. Usually issued to Marine intelligence officers.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Satchels/Marines/big.rsi
@@ -109,8 +109,8 @@
 - type: entity
   parent: CMSatchelMarineIntel
   id: CMSatchelMarineLogistics
-  name: "Морський логістичний рюкзак IMP"
-  description: "Стандартний рюкзак, який носять працівники логістики. Іноді видається бойовому персоналу для довготривалих експедицій та виходів у відкритий космос."
+  name: Marine logistics IMP backpack
+  description: A standard-issue backpack worn by logistics personnel. It is occasionally issued to combat personnel for longer term expeditions and deep space incursions.
   components:
   - type: Storage
     grid:
@@ -119,8 +119,8 @@
 - type: entity
   parent: CMSatchelMarine
   id: CMSatchelMarineMedic
-  name: "Ранець морського піхотинця"
-  description: "Надміцний ранець, який використовують медики морської піхоти. Місткість принесена в жертву зручності. До верхнього клапану пришита невелика латка."
+  name: Marine corpsman satchel
+  description: A heavy-duty satchel used by Marine medics. It sacrifices capacity for usability. A small patch is sewn to the top flap.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Satchels/Marines/medic.rsi
@@ -128,8 +128,8 @@
 - type: entity
   parent: CMSatchelMarine
   id: CMSatchelMarineTech
-  name: "Морський технік Честріг"
-  description: "Надміцний чепрак, що використовується деякими технічними фахівцями морської піхоти."
+  name: Marine technician chestrig
+  description: A heavy-duty chestrig used by some Marine technicians.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Satchels/Marines/techi.rsi
@@ -137,8 +137,8 @@
 - type: entity
   parent: CMSatchel
   id: RMCSatchelGrenadeSpec
-  name: "Підсумок для гранат UNMC IMP M63A1"
-  description: "Ранець, спеціально розроблений для того, щоб максимізувати місткість гранати та мінімізувати ризики вторинного займання."
+  name: UNMC IMP M63A1 grenade satchel
+  description: A satchel specially designed to maximize grenade carrying capacity while minimizing the risks of secondary ignition.
   components:
   # TODO ID locking feature + make lights green when unlocked.
   - type: ExplosionResistance
@@ -157,8 +157,8 @@
 - type: entity
   parent: CMSatchel
   id: RMCSatchelWelder
-  name: "Зварювальник-сумка для технічного зварювальника UNMC"
-  description: "Спеціалізований ранець, який носять техніки та інженери ЦВС ООН. Він містить два невеликі паливні баки для швидкої заправки та використання зварювальником."
+  name: UNMC technician welder-satchel
+  description: A specialized satchel worn by UNMC technicians and engineers. It carries two small fuel tanks for quick welder refueling and use.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Satchels/Marines/welder.rsi
@@ -192,8 +192,8 @@
 - type: entity
   parent: RMCSatchelWelder
   id: RMCSatchelWelderChestrig
-  name: "технік-зварювальник Честріг"
-  description: "Спеціалізований честріг, який носять техніки та інженери. Він має один середній паливний бак для швидкої заправки та використання зварювальником."
+  name: technician welder chestrig
+  description: A specialized Chestrig worn by technicians and engineers. It carries one medium fuel tank for quick welder refueling and use.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Satchels/Marines/welder_chestrig.rsi
@@ -201,8 +201,8 @@
 - type: entity
   parent: CMSatchel
   id: RMCSatchelDemoSpec
-  name: "Ракетні сумки UNMC IMP M22"
-  description: "Спеціально розроблений рюкзак, який кріпиться на монтажну рамку IMP на стандартну піхотну бронежилет UNMC. Він складається з двох легкодоступних, водонепроникних армованих тубусів та одного меншого рюкзака, що кріпиться на дні. Обидва відсіки призначені для ракет, але ніхто не заважає вам запхати туди й інші речі."
+  name: UNMC IMP M22 rocket bags
+  description: A specially-designed backpack that fits to the IMP mounting frame on standard UNMC infantry armor. It's made of two easily-accessible, waterproofed reinforced tubes and one smaller satchel slung at the bottom. The two silos are for rockets, but no one is stopping you from cramming other things in there.
   components:
   - type: ExplosionResistance
     damageCoefficient: 0

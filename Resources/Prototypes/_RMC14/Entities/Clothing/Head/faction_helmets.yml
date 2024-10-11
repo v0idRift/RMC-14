@@ -3,8 +3,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: RMCArmorHelmetMARSOC
-  name: "Шолом оператора SOF"
-  description: "Спеціальний варіант каски M10 Pattern Helmet, яку носять військовослужбовці UNMC SOF."
+  name: SOF operator helmet
+  description: A special variant of the M10 Pattern Helmet worn by UNMC SOF.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/marsoc.rsi
@@ -15,8 +15,8 @@
 - type: entity
   parent: ArmorHelmetPMC
   id: RMCArmorHelmetDutch
-  name: "голландська дюжина шолом"
-  description: "Захисний шолом, який носять досвідчені найманці."
+  name: dutch's dozen helmet
+  description: A protective helmet worn by some seriously experienced mercs.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Dutch/helmet.rsi
@@ -26,8 +26,8 @@
 - type: entity
   parent: RMCArmorHelmetDutch
   id: RMCArmorHelmetDutchCap
-  name: "шапка голландської дюжини"
-  description: "Захисний ковпак, який носять деякі досвідчені найманці."
+  name: dutch's dozen cap
+  description: A protective cap worn by some seriously experienced mercs.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Dutch/cap.rsi
@@ -37,8 +37,8 @@
 - type: entity
   parent: RMCArmorHelmetDutch
   id: RMCArmorHelmetDutchBand
-  name: "група \"Голландська дюжина"
-  description: "Захисна пов'язка, яку носять деякі досвідчені найманці."
+  name: dutch's dozen band
+  description: A protective band worn by some seriously experienced mercs.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Dutch/band.rsi
@@ -49,8 +49,8 @@
 - type: entity
   parent: ArmorHelmetPMC
   id: RMCArmorHelmetBear
-  name: "залізний ведмежий шолом"
-  description: "Добре підходить для зими, бо має отвір, через який можна заливати горілку."
+  name: iron bear helmet
+  description: Is good for winter, because it has hole to put vodka through.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Dutch/helmet.rsi
@@ -61,8 +61,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: RMCArmorHelmetSkullcap
-  name: "тюбетейка"
-  description: "Добре захищає очі від поту."
+  name: skullcap
+  description: Good for keeping sweat out of your eyes.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/skullcap.rsi
@@ -72,8 +72,8 @@
 - type: entity
   parent: RMCArmorHelmetSkullcap
   id: RMCArmorHelmetSkullcapCowl
-  name: "Камуфляж для стрільця M8"
-  description: "Капюшон, який носять, щоб приховати обличчя стрільця в джунглях."
+  name: M8 marksman cowl
+  description: A cowl worn to conceal the face of a marksman in the jungle.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/skullcapm.rsi
@@ -84,8 +84,8 @@
 - type: entity
   parent: ArmorHelmetPMC
   id: RMCArmorHelmetMercenary
-  name: "керамічний шолом найманця K12"
-  description: "Міцний шолом, який носить невідома група найманців."
+  name: mercenary K12 ceramic helmet
+  description: A sturdy helmet worn by an unknown mercenary group.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Mercenary/heavy.rsi
@@ -95,8 +95,8 @@
 - type: entity
   parent: RMCArmorHelmetMercenary
   id: RMCArmorHelmetMercenaryReinforced
-  name: "модифікований для найманців керамічний шолом K12"
-  description: "Міцний шолом, який носила невідома група найманців. Посилений додатковим покриттям."
+  name: mercenary modified K12 ceramic helmet
+  description: A sturdy helmet worn by an unknown mercenary group. Reinforced with extra plating.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Mercenary/heavy.rsi
@@ -106,8 +106,8 @@
 - type: entity
   parent: RMCArmorHelmetMercenary
   id: RMCArmorHelmetMercenaryMiner
-  name: "каска найманця Y8 шахтарська"
-  description: "Міцна каска, спеціалізована для видобутку корисних копалин, яку носить невідома група найманців."
+  name: mercenary Y8 miner helmet
+  description: A sturdy helmet, specialised for mining, worn by an unknown mercenary group.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Mercenary/miner.rsi
@@ -117,8 +117,8 @@
 - type: entity
   parent: RMCArmorHelmetMercenary
   id: RMCArmorHelmetMercenarySupport
-  name: "шолом підтримки найманця Z7"
-  description: "Міцний шолом, який носить невідома група найманців."
+  name: mercenary Z7 support helmet
+  description: A sturdy helmet worn by an unknown mercenary group.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Mercenary/engi.rsi
@@ -128,8 +128,8 @@
 - type: entity
   parent: RMCArmorHelmetMercenarySupport
   id: RMCArmorHelmetMercenaryEngineer
-  name: "інженерний шолом найманця Z7"
-  description: "Міцний шолом, який носить невідома група найманців. Цей шолом має захисний зварювальний козирок."
+  name: mercenary Z7 engineer helmet
+  description: A sturdy helmet worn by an unknown mercenary group. This one includes a protective welding visor.
   components:
   - type: EyeProtection
 
@@ -138,8 +138,8 @@
 - type: entity
   parent: RMCArmorHelmetM3G4
   id: RMCArmorHelmetHEFA
-  name: "Шолом HEFA"
-  description: "Чомусь, побачивши цей шолом, ви відчуваєте себе вкрай засмученими."
+  name: HEFA helmet
+  description: For some reason, seeing this helmet causes you to feel extremely distressed.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Mercenary/hefa.rsi
@@ -150,8 +150,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: RMCArmorHelmetCBRN
-  name: "Протихімічна маска M3 MOPP"
-  description: "Маска M3 MOPP включає в себе капюшон, який надійно кріпиться до костюма MOPP. Маска відфільтровує шкідливі частинки в повітрі, дозволяючи користувачеві безпечно дихати в польових умовах. Залежно від рівня небезпеки на забрудненій території, фільтр маски працює в середньому 12 годин або менше."
+  name: CBRN M3 MOPP mask
+  description: The M3 MOPP mask includes a full covering cowl that securely attaches to the MOPP suit. The mask filters out harmful particles in the air to allow the wearer to breathe safely in the field. Depending on the hostility of the contaminated area the mask’s filter will last an average of 12 hours or less.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/cbrn.rsi

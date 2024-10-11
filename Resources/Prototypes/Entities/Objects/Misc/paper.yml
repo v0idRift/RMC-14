@@ -1,8 +1,8 @@
 - type: entity
-  name: "папір"
+  name: paper
   parent: BaseItem
   id: Paper
-  description: "Аркуш білого паперу."
+  description: 'A piece of white paper.'
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
@@ -72,7 +72,7 @@
         - ReagentId: Fiber
           Quantity: 1
   - type: FixedIdentity
-    name: "папір"
+    name: paper
     whitelist:
       components:
       - Xeno
@@ -82,10 +82,10 @@
       - Xeno
 
 - type: entity
-  name: "макулатура"
+  name: paper scrap
   parent: Paper
   id: PaperScrap
-  description: "Зім'ятий аркуш білого паперу."
+  description: 'A crumpled up piece of white paper.'
   components:
   - type: Sprite
     layers:
@@ -98,10 +98,10 @@
       visible: false
 
 - type: entity
-  name: "офісний папір"
+  name: office paper
   parent: Paper
   id: PaperOffice
-  description: "Звичайний аркуш офісного паперу."
+  description: 'A plain sheet of office paper.'
   components:
   - type: PaperVisuals
     backgroundImagePath: "/Textures/Interface/Paper/paper_background_default.svg.96dpi.png"
@@ -110,10 +110,10 @@
     contentMargin: 16.0, 16.0, 16.0, 16.0
 
 - type: entity
-  name: "роздруківка аналізатора артефактів"
+  name: artifact analyzer printout
   parent: Paper
   id: PaperArtifactAnalyzer
-  description: "Показання пристрою, про який забули вчасно"
+  description: The readout of a device forgotten to time.
   components:
   - type: Sprite
     layers:
@@ -140,10 +140,10 @@
     maxWritableArea: 400.0, 0.0
 
 - type: entity
-  name: "думки капітана"
+  name: captain's thoughts
   parent: Paper
   id: PaperCaptainsThoughts
-  description: "Сторінка щоденника капітана. Розкішного лавандового кольору."
+  description: "A page of the captain's journal. In luxurious lavender."
   components:
   - type: Sprite
     layers:
@@ -166,10 +166,10 @@
     contentMargin: 32.0, 16.0, 32.0, 0.0
 
 - type: entity
-  name: "вантажна накладна"
+  name: cargo invoice
   parent: Paper
   id: PaperCargoInvoice
-  description: "Єдина одиниця бюрократії."
+  description: 'A single unit of bureaucracy.'
   components:
   - type: Sprite
     layers:
@@ -197,8 +197,8 @@
 - type: entity
   id: PaperCargoBountyManifest
   parent: PaperCargoInvoice
-  name: "маніфест про винагороду"
-  description: "Паперова етикетка з позначкою, що ящик містить винагороду. Продаж ящика з такою етикеткою принесе винагороду."
+  name: bounty manifest
+  description: A paper label designating a crate as containing a bounty. Selling a crate with this label will fulfill the bounty.
   components:
   - type: Sprite
     layers:
@@ -231,10 +231,10 @@
     - Cargo
 
 - type: entity
-  name: "таблиця символів"
+  name: character sheet
   parent: Paper
   id: PaperCNCSheet # legally gray zone of using "D&D" and "DND"
-  description: "Аркуш для ваших персонажів Коропів і Крипт."
+  description: 'A sheet for your Carps and Crypts characters.'
   components:
   - type: Paper
     contentSize: 10000
@@ -272,7 +272,7 @@
 - type: entity
   parent: Paper
   id: NukeCodePaper
-  name: "ядерні коди автентифікації"
+  name: nuclear authentication codes
   components:
   - type: NukeCodePaper
     allNukesAvailable: true
@@ -287,7 +287,7 @@
 - type: entity
   id: BoxFolderNuclearCodes
   parent: BaseItem
-  name: "папка ядерного коду"
+  name: nuclear code folder
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
@@ -307,8 +307,8 @@
 - type: entity
   id: BoxFolderBase
   parent: BoxBase
-  name: "папка"
-  description: "Папка з надсекретними документами."
+  name: folder
+  description: A folder filled with top secret paperwork.
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
@@ -439,10 +439,10 @@
 
 - type: entity
   id: BoxFolderCentCom
-  name: "Папка CentCom"
+  name: CentComm folder
   parent: BoxFolderBase
   suffix: DO NOT MAP
-  description: "Жалюгідна маленька купка секретів CentCom!"
+  description: CentComm's miserable little pile of secrets!
   components:
   - type: Sprite
     layers:
@@ -452,8 +452,8 @@
 - type: entity
   id: BoxFolderClipboard
   parent: BoxFolderBase
-  name: "буфер обміну"
-  description: "Зброя вибору для тих, хто знаходиться на передовій лінії бюрократії."
+  name: clipboard
+  description: The weapon of choice for those on the front lines of bureaucracy.
   components:
   - type: Sprite
     sprite: Objects/Misc/clipboard.rsi
@@ -511,8 +511,8 @@
 - type: entity
   id: BoxFolderCentComClipboard
   parent: BoxFolderClipboard
-  name: "Буфер обміну CentCom"
-  description: "Розкішний блокнот, оббитий зеленим оксамитом. Його часто носять із собою чиновники Центру, але рідко коли ним користуються."
+  name: CentComm clipboard
+  description: A luxurious clipboard upholstered with green velvet. Often seen carried by CentComm officials, seldom seen actually used.
   components:
   - type: Sprite
     sprite: Objects/Misc/cc-clipboard.rsi
@@ -533,8 +533,8 @@
 - type: entity
   id: BoxFolderQmClipboard
   parent: [BoxFolderClipboard, BaseGrandTheftContraband]
-  name: "цифрова дошка реквізиції"
-  description: "Громіздкий електричний буфер обміну, заповнений замовленнями на доставку та фінансовими деталями. Маючи стільки компрометуючих документів, ви повинні зберігати його в безпеці."
+  name: requisition digi-board
+  description: A bulky electric clipboard, filled with shipping orders and financing details. With so many compromising documents, you ought to keep this safe.
   components:
   - type: Sprite
     sprite: Objects/Misc/qm_clipboard.rsi
@@ -597,8 +597,8 @@
 - type: entity
   parent: [Paper, BaseSyndicateContraband] # eat or burn your damn piece of paper damn thieves
   id: TraitorCodePaper
-  name: "кодове слово синдикату"
-  description: "Витік кодового слова для можливого зв'язку з Синдикатом."
+  name: syndicate codeword
+  description: A leaked codeword to possibly get in touch with the Syndicate.
   suffix: DO NOT MAP
   components:
   - type: TraitorCodePaper
@@ -606,8 +606,8 @@
 - type: entity
   parent: [Paper, BaseSyndicateContraband]
   id: AllTraitorCodesPaper
-  name: "реєстр синдикативних кодових слів"
-  description: "Реєстр усіх активних кодових слів Синдикату."
+  name: syndicate codewords registry
+  description: A registry of all active Syndicate codewords.
   suffix: Admeme
   components:
   - type: TraitorCodePaper
@@ -615,10 +615,10 @@
     codewordShowAll: true
 
 - type: entity
-  name: "конверт"
+  name: envelope
   parent: BaseItem
   id: Envelope
-  description: "Невеликий конверт для захисту ваших важливих документів від сторонніх очей."
+  description: 'A small envelope for keeping prying eyes off of your sensitive documents.'
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi

@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: CMIDCardSilver
   id: CMIDCardSeniorEnlistedAdvisor
-  name: "посвідчення старшого позаштатного радника"
+  name: senior enlisted advisor ID card
   components:
   - type: PresetIdCard
     job: CMSeniorEnlistedAdvisor
@@ -9,7 +9,7 @@
 - type: entity
   parent: CMIDCardBase
   id: CMIDCardCorrespondent
-  name: "посвідчення кореспондента"
+  name: correspondent ID card
   components:
   - type: PresetIdCard
     job: CMCorrespondent
@@ -17,7 +17,7 @@
 - type: entity
   parent: CMIDCardLanyard
   id: CMIDCardColonist
-  name: "посвідчення особи колоніста"
+  name: colonist ID card
   components:
   - type: PresetIdCard
     job: CMSurvivor
@@ -25,7 +25,7 @@
 - type: entity
   parent: CMIDCardGold
   id: CMIDCardLiaison
-  name: "ідентифікаційна картка зв'язкового"
+  name: liaison ID card
   components:
   - type: PresetIdCard
     job: CMLiaison
@@ -33,7 +33,7 @@
 - type: entity
   parent: CMIDCardBase
   id: CMIDCardMessTech
-  name: "посвідчення кухаря"
+  name: mess tech's ID card
   components:
   - type: PresetIdCard
     job: CMMessTech
@@ -41,23 +41,23 @@
 - type: entity
   parent: CMIDCardGold
   id: RMCIDCardPizza
-  name: "значок рознощика піци"
-  description: "На ній написано: \"Профспілка піцайоло № 217\", \"Ми завжди доставляємо!\""
+  name: pizza guy badge
+  description: It reads 'Pizza-guy local union No. 217', 'We always deliver!'
 
 - type: entity
   parent: CMIDCardGold
   id: RMCIDCardMarshal
-  name: "золотий значок бюро маршала"
-  description: "Бажаний золотий значок, який означає, що його власник є одним з небагатьох маршалів КМБ, які патрулюють зовнішній периметр. Це знак справедливості, влади та захисту. Захисту тих, хто не може. Цей значок уособлює відданість присязі, якої завжди дотримуються."
+  name: bureau marshal gold badge
+  description: A coveted gold badge signifying that the wearer is one of the few CMB Marshals patroling the outer rim. It is a sign of justice, authority, and protection. Protecting those who can't. This badge represents a commitment to a sworn oath always kept.
 
 - type: entity
   parent: CMIDCardSilver
   id: RMCIDCardDeputy
-  name: "срібний значок заступника бюро"
-  description: "Срібний значок, який означає, що його власник є заступником Бюро. Це знак справедливості, влади та захисту. Захисту тих, хто не може цього зробити. Цей значок символізує відданість присязі, якої завжди дотримуються."
+  name: bureau deputy silver badge
+  description: The silver badge which represents that the wearer is a Bureau Deputy. It is a sign of justice, authority, and protection. Protecting those who can't. This badge represents a commitment to a sworn oath always kept.
 
 - type: entity
   parent: CMIDCardGold
   id: RMCIDCardPMC
-  name: "Голо-бейдж ПВК"
-  description: "Корпоративний голо-бейдж. Має унікальне незакрите дно."
+  name: PMC holo-badge
+  description: A corporate holo-badge. It has a unique uncapped bottom.

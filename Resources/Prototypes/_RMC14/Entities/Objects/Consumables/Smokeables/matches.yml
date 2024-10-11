@@ -1,6 +1,6 @@
 - type: entity
-  name: "сірникову коробку"
-  description: "сірникова коробка"
+  name: match box
+  description: matchbox
   parent: Matchbox
   id: RMCMatchbox
   components:

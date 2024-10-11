@@ -8,8 +8,8 @@
 - type: entity
   id: ActionXenoPlantWeeds
   parent: ActionXenoBase
-  name: "Рослинні бур'яни (75)" # TODO RMC14 proper plasma costs
-  description: "Посадіть бур'яновий вузол, який буде поширювати більше бур'янів."
+  name: Plant Weeds (75) # TODO RMC14 proper plasma costs
+  description: Plant a weed node that will spread more weeds.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -22,8 +22,8 @@
 - type: entity
   id: ActionXenoChooseStructure
   parent: ActionXenoBase
-  name: "Виберіть структуру смоли"
-  description: "Виберіть структуру для виділення за допомогою дії \"Виділити смолу\"."
+  name: Choose Resin Structure
+  description: "Choose a structure to secrete with the 'Secrete Resin' action."
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -36,8 +36,8 @@
 - type: entity
   id: ActionXenoSecreteStructure
   parent: ActionXenoBase
-  name: "Секретна смола"
-  description: "Будує структуру, обрану за допомогою дії \"Вибрати структуру смоли\"."
+  name: Secrete Resin
+  description: "Builds the structure chosen with the 'Choose Resin Structure' action."
   components:
   - type: WorldTargetAction
     itemIconStyle: NoItem
@@ -55,8 +55,8 @@
 - type: entity
   id: ActionXenoOrderConstruction
   parent: ActionXenoBase
-  name: "Замовити будівництво"
-  description: "Починає будівництво важливої конструкції вулика."
+  name: Order Construction
+  description: Starts construction of an important hive structure.
   components:
   - type: WorldTargetAction
     itemIconStyle: NoItem
@@ -73,8 +73,8 @@
 - type: entity
   id: ActionXenoResinHole
   parent: ActionXenoBase
-  name: "Отвір для рослинної смоли"
-  description: "Розміщує смоляну яму на бур'янах. Її можна заповнити котельним газом, кислотою або паразитами."
+  name: Plant Resin Hole (200)
+  description: Places a resin hole on weeds. It can be filled with boiler gas, acid, or parasites.
   components:
   - type: InstantAction
     itemIconStyle: NoItem

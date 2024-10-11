@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: RMCAreaBase
   id: RMCAreaDesertDam
-  name: "Дамба пустелі"
+  name: Desert Dam
   suffix: Trijent Dam
   components:
   - type: Sprite
@@ -28,7 +28,7 @@
 - type: entity
   parent: RMCAreaDesertDamInterior
   id: RMCAreaDesertDamInteriorLabNortheast
-  name: "Північно-Східна лабораторія"
+  name: Northeastern Lab
   components:
   - type: Sprite
     state: purple
@@ -38,7 +38,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorLabNortheast
   id: RMCAreaDesertDamInteriorLabNortheastEastLabLobby
-  name: "Вестибюль Східної лабораторії"
+  name: East Lab Lobby
   components:
   - type: Sprite
     state: green
@@ -46,7 +46,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorLabNortheast
   id: RMCAreaDesertDamInteriorLabNortheastEastLabWestHallway
-  name: "Східна лабораторія Західний коридор"
+  name: East Lab Western Hallway
   components:
   - type: Sprite
     state: blue
@@ -54,7 +54,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorLabNortheast
   id: RMCAreaDesertDamInteriorLabNortheastEastLabCentralHallway
-  name: "Центральний коридор Східної лабораторії"
+  name: East Lab Central Hallway
   components:
   - type: Sprite
     state: green
@@ -62,7 +62,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorLabNortheast
   id: RMCAreaDesertDamInteriorLabNortheastEastLabEastHallway
-  name: "Східна лабораторія Східний коридор"
+  name: East Lab East Hallway
   components:
   - type: Sprite
     state: yellow
@@ -70,7 +70,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorLabNortheast
   id: RMCAreaDesertDamInteriorLabNortheastEastLabWorkshop
-  name: "Майстерня Східної лабораторії"
+  name: East Lab Workshop
   components:
   - type: Sprite
     state: ass_line
@@ -78,7 +78,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorLabNortheast
   id: RMCAreaDesertDamInteriorLabNortheastEastLabStorage
-  name: "Східний склад лабораторії"
+  name: East Lab Storage
   components:
   - type: Sprite
     state: storage
@@ -86,7 +86,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorLabNortheast
   id: RMCAreaDesertDamInteriorLabNortheastEastLabRDOffice
-  name: "Офіс директора з досліджень East Lab"
+  name: East Lab Research Director's Office
   components:
   - type: Sprite
     state: yellow
@@ -94,7 +94,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorLabNortheast
   id: RMCAreaDesertDamInteriorLabNortheastEastLabMaintenence
-  name: "Обслуговування лабораторії East"
+  name: East Lab Maintenence
   components:
   - type: Sprite
     state: maintcentral
@@ -102,7 +102,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorLabNortheast
   id: RMCAreaDesertDamInteriorLabNortheastEastLabContainment
-  name: "Ізоляція Східної лабораторії"
+  name: East Lab Containment
   components:
   - type: Sprite
     state: purple
@@ -110,7 +110,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorLabNortheast
   id: RMCAreaDesertDamInteriorLabNortheastEastLabRND
-  name: "East Lab Дослідження та розробки"
+  name: East Lab Research and Development
   components:
   - type: Sprite
     state: purple
@@ -118,7 +118,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorLabNortheast
   id: RMCAreaDesertDamInteriorLabNortheastEastLabBiology
-  name: "Біологія East Lab"
+  name: East Lab Biology
   components:
   - type: Sprite
     state: purple
@@ -126,7 +126,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorLabNortheast
   id: RMCAreaDesertDamInteriorLabNortheastEastLabSurgery
-  name: "Східна лабораторна хірургія"
+  name: East Lab Surgery
   components:
   - type: Sprite
     state: red
@@ -134,7 +134,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorLabNortheast
   id: RMCAreaDesertDamInteriorLabNortheastEastLabExcavation
-  name: "Підготовка до розкопок у Східній лабораторії"
+  name: East Lab Excavation Prep
   components:
   - type: Sprite
     state: blue
@@ -142,7 +142,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorLabNortheast
   id: RMCAreaDesertDamInteriorLabNortheastEastLabWestEntrance
-  name: "Східна лабораторія Західний вхід"
+  name: East Lab West Entrance
   components:
   - type: Sprite
     state: purple
@@ -150,7 +150,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorLabNortheast
   id: RMCAreaDesertDamInteriorLabNortheastEastLabEastEntrance
-  name: "Східний вхід до лабораторії"
+  name: East Lab Entrance
   components:
   - type: Sprite
     state: purple
@@ -158,7 +158,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorLabNortheast
   id: RMCAreaDesertDamInteriorLabNortheastEastLabSecurityCheckpoint
-  name: "Контрольно-пропускний пункт \"Східна лабораторія"
+  name: East Lab Security Checkpoint
   components:
   - type: Sprite
     state: purple
@@ -166,7 +166,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorLabNortheast
   id: RMCAreaDesertDamInteriorLabNortheastEastLabSecurityOffice
-  name: "Офіс безпеки Східної лабораторії"
+  name: East Lab Security Office
   components:
   - type: Sprite
     state: security
@@ -174,7 +174,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorLabNortheast
   id: RMCAreaDesertDamInteriorLabNortheastEastLabSecurityArmory
-  name: "Оружейна кімната Східної лабораторії"
+  name: East Lab Armory
   components:
   - type: Sprite
     state: armory
@@ -182,7 +182,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorLabNortheast
   id: RMCAreaDesertDamInteriorLabNortheastEastLabXenobiology
-  name: "East Lab Ксенобіологія"
+  name: East Lab Xenobiology
   components:
   - type: Sprite
     state: red
@@ -190,7 +190,7 @@
 - type: entity
   parent: RMCAreaDesertDamInterior
   id: RMCAreaDesertDamInteriorDamInterior
-  name: "Інжиніринг"
+  name: Engineering
   components:
   - type: Area
     minimapColor: '#C19504E7'
@@ -198,7 +198,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorDamInterior
   id: RMCAreaDesertDamInteriorDamInteriorEngineRoom
-  name: "Інженерна генераторна"
+  name: Engineering Generator Room
   components:
   - type: Sprite
     state: yellow
@@ -206,7 +206,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorDamInterior
   id: RMCAreaDesertDamInteriorDamInteriorControlRoom
-  name: "Інженерна диспетчерська"
+  name: Engineering Control Room
   components:
   - type: Sprite
     state: red
@@ -214,7 +214,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorDamInterior
   id: RMCAreaDesertDamInteriorDamInteriorSmesMain
-  name: "Інженерна головна підстанція"
+  name: Engineering Main Substation
   components:
   - type: Sprite
     state: purple
@@ -222,7 +222,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorDamInterior
   id: RMCAreaDesertDamInteriorDamInteriorSmesBackup
-  name: "Інженерна вторинна резервна підстанція"
+  name: Engineering Secondary Backup Substation
   components:
   - type: Sprite
     state: green
@@ -230,7 +230,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorDamInterior
   id: RMCAreaDesertDamInteriorDamInteriorEngineEastWing
-  name: "Інженерне східне машинне крило"
+  name: Engineering East Engine Wing
   components:
   - type: Sprite
     state: blue-red
@@ -238,7 +238,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorDamInterior
   id: RMCAreaDesertDamInteriorDamInteriorEngineWestWing
-  name: "Інженерне західне машинне крило"
+  name: Engineering West Engine Wing
   components:
   - type: Sprite
     state: yellow
@@ -246,7 +246,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorDamInterior
   id: RMCAreaDesertDamInteriorDamInteriorLobby
-  name: "Інженерне лобі"
+  name: Engineering Lobby
   components:
   - type: Sprite
     state: purple
@@ -254,7 +254,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorDamInterior
   id: RMCAreaDesertDamInteriorDamInteriorAtmosStorage
-  name: "Інженерне атмосферне сховище"
+  name: Engineering Atmospheric Storage
   components:
   - type: Sprite
     state: purple
@@ -262,7 +262,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorDamInterior
   id: RMCAreaDesertDamInteriorDamInteriorNorthwesternTunnel
-  name: "Проектування Північно-Західного тунелю"
+  name: Engineering Northwestern Tunnel
   components:
   - type: Sprite
     state: green
@@ -270,7 +270,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorDamInterior
   id: RMCAreaDesertDamInteriorDamInteriorNorthTunnel
-  name: "Інженерний Північний тунель"
+  name: Engineering Northern Tunnel
   components:
   - type: Sprite
     state: blue-red
@@ -278,7 +278,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorDamInterior
   id: RMCAreaDesertDamInteriorDamInteriorWestTunnel
-  name: "Інженерний Західний тунель"
+  name: Engineering Western Tunnel
   components:
   - type: Sprite
     state: yellow
@@ -286,7 +286,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorDamInterior
   id: RMCAreaDesertDamInteriorDamInteriorCentralTunnel
-  name: "Інженерний центральний тунель"
+  name: Engineering Central Tunnel
   components:
   - type: Sprite
     state: red
@@ -294,7 +294,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorDamInterior
   id: RMCAreaDesertDamInteriorDamInteriorSouthTunnel
-  name: "Інженерний Південний тунель"
+  name: Engineering Southern Tunnel
   components:
   - type: Sprite
     state: purple
@@ -302,7 +302,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorDamInterior
   id: RMCAreaDesertDamInteriorDamInteriorNortheasternTunnel
-  name: "Інженерний Північно-східний тунель"
+  name: Engineering Northeastern Tunnel
   components:
   - type: Sprite
     state: green
@@ -310,7 +310,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorDamInterior
   id: RMCAreaDesertDamInteriorDamInteriorCEOffice
-  name: "Інженерний відділ головного інженера"
+  name: Engineering Chief Engineer's Office
   components:
   - type: Sprite
     state: yellow
@@ -318,7 +318,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorDamInterior
   id: RMCAreaDesertDamInteriorDamInteriorWorkshop
-  name: "Інженерна майстерня"
+  name: Engineering Workshop
   components:
   - type: Sprite
     state: purple
@@ -326,7 +326,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorDamInterior
   id: RMCAreaDesertDamInteriorDamInteriorHanger
-  name: "Інженерний ангар"
+  name: Engineering Hangar
   components:
   - type: Sprite
     state: hangar
@@ -334,7 +334,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorDamInterior
   id: RMCAreaDesertDamInteriorDamInteriorHangarStorage
-  name: "Інженерне ангарне сховище"
+  name: Engineering Hangar Storage
   components:
   - type: Sprite
     state: storage
@@ -342,7 +342,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorDamInterior
   id: RMCAreaDesertDamInteriorDamInteriorAuxilaryToolStorage
-  name: "Сховище інженерного допоміжного інструменту"
+  name: Engineering Auxiliary Tool Storage
   components:
   - type: Sprite
     state: red
@@ -350,7 +350,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorDamInterior
   id: RMCAreaDesertDamInteriorDamInteriorPrimaryToolStorage
-  name: "Сховище інженерних первинних інструментів"
+  name: Engineering Primary Tool Storage
   components:
   - type: Sprite
     state: blue
@@ -358,7 +358,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorDamInterior
   id: RMCAreaDesertDamInteriorDamInteriorTechStorage
-  name: "Інженерне безпечне зберігання техніки"
+  name: Engineering Secure Tech Storage
   components:
   - type: Sprite
     state: dark
@@ -366,7 +366,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorDamInterior
   id: RMCAreaDesertDamInteriorDamInteriorBreakRoom
-  name: "Інженерна кімната відпочинку"
+  name: Engineering Breakroom
   components:
   - type: Sprite
     state: yellow
@@ -374,7 +374,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorDamInterior
   id: RMCAreaDesertDamInteriorDamInteriorDisposals
-  name: "Інженерні утилізації"
+  name: Engineering Disposals
   components:
   - type: Sprite
     state: disposal
@@ -382,7 +382,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorDamInterior
   id: RMCAreaDesertDamInteriorDamInteriorWesternDamCave
-  name: "Інженерний західний вхід"
+  name: Engineering West Entrance
   components:
   - type: Sprite
     state: red
@@ -390,7 +390,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorDamInterior
   id: RMCAreaDesertDamInteriorDamInteriorOffice
-  name: "Інженерний відділ"
+  name: Engineering Office
   components:
   - type: Sprite
     state: red
@@ -398,7 +398,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorDamInterior
   id: RMCAreaDesertDamInteriorDamInteriorNorthTunnelEntrance
-  name: "Інженерний північний вхід до тунелю"
+  name: Engineering North Tunnel Entrance
   components:
   - type: Sprite
     state: yellow
@@ -406,7 +406,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorDamInterior
   id: RMCAreaDesertDamInteriorDamInteriorEastTunnelEntrance
-  name: "Інженерний східний вхід до тунелю"
+  name: Engineering East Tunnel Entrance
   components:
   - type: Sprite
     state: yellow
@@ -414,7 +414,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorDamInterior
   id: RMCAreaDesertDamInteriorDamInteriorSouthTunnelEntrance
-  name: "Інженерний південний вхід до тунелю"
+  name: Engineering South Tunnel Entrance
   components:
   - type: Sprite
     state: red
@@ -422,7 +422,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorDamInterior
   id: RMCAreaDesertDamInteriorDamInteriorGarage
-  name: "Гараж"
+  name: Garage
   components:
   - type: Sprite
     state: green
@@ -430,7 +430,7 @@
 - type: entity
   parent: RMCAreaDesertDamInterior
   id: RMCAreaDesertDamInteriorCaves
-  name: "Печери"
+  name: Caves
   components:
   - type: Sprite
     state: red
@@ -448,7 +448,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorCaves
   id: RMCAreaDesertDamInteriorCavesNorthernCaves
-  name: "Північні печери"
+  name: Northern Caves
   components:
   - type: Sprite
     state: red
@@ -456,7 +456,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorCaves
   id: RMCAreaDesertDamInteriorCavesEastCaves
-  name: "Східні печери"
+  name: Eastern Caves
   components:
   - type: Sprite
     state: red
@@ -464,7 +464,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorCaves
   id: RMCAreaDesertDamInteriorCavesCentralCaves
-  name: "Центральні печери"
+  name: Central Caves
   components:
   - type: Sprite
     state: yellow
@@ -477,7 +477,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorCavesCentralCavesEntrances
   id: RMCAreaDesertDamInteriorCavesCentralCavesEntrancesEastTunnelEntrance
-  name: "Східний центральний вхід до тунелю"
+  name: Eastern Central Tunnel Entrance
   components:
   - type: Sprite
     state: red
@@ -485,7 +485,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorCavesCentralCavesEntrances
   id: RMCAreaDesertDamInteriorCavesCentralCavesEntrancesSouthTunnelEntrance
-  name: "Південний центральний вхід до тунелю"
+  name: Southern Central Tunnel Entrance
   components:
   - type: Sprite
     state: red
@@ -493,7 +493,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorCavesCentralCavesEntrances
   id: RMCAreaDesertDamInteriorCavesCentralCavesEntrancesWestTunnelEntrance
-  name: "Західний центральний вхід до тунелю"
+  name: Western Central Tunnel Entrance
   components:
   - type: Sprite
     state: red
@@ -501,7 +501,7 @@
 - type: entity
   parent: RMCAreaDesertDamInteriorCaves
   id: RMCAreaDesertDamInteriorCavesTemple
-  name: "Піщаний храм"
+  name: Sand Temple
   components:
   - type: Sprite
     state: green
@@ -523,7 +523,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuilding
   id: RMCAreaDesertDamBuildingSubstation
-  name: "Підстанція"
+  name: Substation
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_dam.rsi
@@ -534,7 +534,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingSubstation
   id: RMCAreaDesertDamBuildingSubstationNorthwest
-  name: "Командна підстанція"
+  name: Command Substation
   components:
   - type: Sprite
     state: northewestern_ss
@@ -544,7 +544,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingSubstation
   id: RMCAreaDesertDamBuildingSubstationNortheast
-  name: "Командна підстанція"
+  name: Command Substation
   components:
   - type: Sprite
     state: northeastern_ss
@@ -552,7 +552,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingSubstation
   id: RMCAreaDesertDamBuildingSubstationEast
-  name: "Командна підстанція"
+  name: Command Substation
   components:
   - type: Sprite
     state: eastern_ss
@@ -560,7 +560,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingSubstation
   id: RMCAreaDesertDamBuildingSubstationSoutheast
-  name: "Командна підстанція"
+  name: Command Substation
   components:
   - type: Sprite
     state: southeastern_ss
@@ -568,7 +568,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingSubstation
   id: RMCAreaDesertDamBuildingSubstationCentral
-  name: "Командна підстанція"
+  name: Command Substation
   components:
   - type: Sprite
     state: central_ss
@@ -576,7 +576,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingSubstation
   id: RMCAreaDesertDamBuildingSubstationSouthwest
-  name: "Командна підстанція"
+  name: Command Substation
   components:
   - type: Sprite
     state: southwestern_ss
@@ -584,7 +584,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingSubstation
   id: RMCAreaDesertDamBuildingSubstationWest
-  name: "Командна підстанція"
+  name: Command Substation
   components:
   - type: Sprite
     state: western_ss
@@ -601,7 +601,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingAdministration
   id: RMCAreaDesertDamBuildingAdministrationControlRoom
-  name: "Адміністративна диспетчерська посадочного майданчика"
+  name: Administration Landing Control Room
   components:
   - type: Sprite
     state: yellow
@@ -611,7 +611,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingAdministration
   id: RMCAreaDesertDamBuildingAdministrationLobby
-  name: "Вестибюль адміністрації"
+  name: Administration Lobby
   components:
   - type: Sprite
     state: green
@@ -621,7 +621,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingAdministration
   id: RMCAreaDesertDamBuildingAdministrationHallway
-  name: "Адміністративний коридор"
+  name: Administration Hallway
   components:
   - type: Sprite
     state: purple
@@ -631,7 +631,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingAdministration
   id: RMCAreaDesertDamBuildingAdministrationOffice
-  name: "Адміністративний офіс"
+  name: Administration Office
   components:
   - type: Sprite
     state: blue-red
@@ -641,7 +641,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingAdministration
   id: RMCAreaDesertDamBuildingAdministrationOverseerOffice
-  name: "Офіс адміністративного наглядача"
+  name: Administration Overseer's Office
   components:
   - type: Sprite
     state: red
@@ -651,7 +651,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingAdministration
   id: RMCAreaDesertDamBuildingAdministrationMeetingrooom
-  name: "Зал засідань адміністрації"
+  name: Administration Meeting Room
   components:
   - type: Sprite
     state: yellow
@@ -661,7 +661,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingAdministration
   id: RMCAreaDesertDamBuildingAdministrationArchives
-  name: "Архіви адміністрації"
+  name: Administration Archives
   components:
   - type: Sprite
     state: green
@@ -676,7 +676,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingBar
   id: RMCAreaDesertDamBuildingBarBar
-  name: "Бар"
+  name: Bar
   components:
   - type: Sprite
     state: yellow
@@ -684,7 +684,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingBar
   id: RMCAreaDesertDamBuildingBarBackroom
-  name: "Підсобка бару"
+  name: Bar Backroom
   components:
   - type: Sprite
     state: green
@@ -692,7 +692,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingBar
   id: RMCAreaDesertDamBuildingBarBarRestroom
-  name: "Барна вбиральня"
+  name: Bar Restroom
   components:
   - type: Sprite
     state: purple
@@ -701,12 +701,12 @@
   abstract: true
   parent: RMCAreaDesertDamBuilding
   id: RMCAreaDesertDamBuildingCafeteria
-  name: "Кафетерій"
+  name: Cafeteria
 
 - type: entity
   parent: RMCAreaDesertDamBuildingCafeteria
   id: RMCAreaDesertDamBuildingCafeteriaCafeteria
-  name: "Кафетерій"
+  name: Cafeteria
   components:
   - type: Sprite
     state: yellow
@@ -714,7 +714,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingCafeteria
   id: RMCAreaDesertDamBuildingCafeteriaBackroom
-  name: "Підсобне приміщення кафетерію"
+  name: Cafeteria Backroom
   components:
   - type: Sprite
     state: green
@@ -722,7 +722,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingCafeteria
   id: RMCAreaDesertDamBuildingCafeteriaRestroom
-  name: "Вбиральня кафетерію"
+  name: Cafeteria Restroom
   components:
   - type: Sprite
     state: purple
@@ -730,7 +730,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingCafeteria
   id: RMCAreaDesertDamBuildingCafeteriaLoading
-  name: "Завантажувальна кімната кафетерію"
+  name: Cafeteria Loading Room
   components:
   - type: Sprite
     state: blue-red
@@ -738,7 +738,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingCafeteria
   id: RMCAreaDesertDamBuildingCafeteriaColdRoom
-  name: "Холодильна камера кафетерію"
+  name: Cafeteria Coldroom
   components:
   - type: Sprite
     state: red
@@ -751,7 +751,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingDorms
   id: RMCAreaDesertDamBuildingDormsHallwayNorthwing
-  name: "Гуртожиток Північне крило"
+  name: Dormitory North Wing
   components:
   - type: Sprite
     state: yellow
@@ -759,7 +759,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingDorms
   id: RMCAreaDesertDamBuildingDormsHallwayWestwing
-  name: "Західне крило гуртожитку"
+  name: Dormitory West Wing
   components:
   - type: Sprite
     state: green
@@ -767,7 +767,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingDorms
   id: RMCAreaDesertDamBuildingDormsHallwayEastwing
-  name: "Східне крило гуртожитку"
+  name: Dormitory East Wing
   components:
   - type: Sprite
     state: purple
@@ -775,7 +775,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingDorms
   id: RMCAreaDesertDamBuildingDormsRestroom
-  name: "Душові в гуртожитках"
+  name: Dormitory Showers
   components:
   - type: Sprite
     state: blue-red
@@ -783,7 +783,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingDorms
   id: RMCAreaDesertDamBuildingDormsPool
-  name: "Більярдна в гуртожитку"
+  name: Dormitory Pool Room
   components:
   - type: Sprite
     state: red
@@ -791,7 +791,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingMedical
   id: RMCAreaDesertDamBuildingMedicalGarage
-  name: "Медичний гараж"
+  name: Medical Garage
   components:
   - type: Sprite
     state: garage
@@ -799,7 +799,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingMedical
   id: RMCAreaDesertDamBuildingMedicalEmergencyRoom
-  name: "Відділення невідкладної медичної допомоги"
+  name: Medical Emergency Room
   components:
   - type: Sprite
     state: medbay
@@ -807,7 +807,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingMedical
   id: RMCAreaDesertDamBuildingMedicalTreatmentRoom
-  name: "Медичний кабінет"
+  name: Medical Treatment Room
   components:
   - type: Sprite
     state: medbay2
@@ -815,7 +815,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingMedical
   id: RMCAreaDesertDamBuildingMedicalLobby
-  name: "Медичне лобі"
+  name: Medical Lobby
   components:
   - type: Sprite
     state: medbay3
@@ -823,7 +823,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingMedical
   id: RMCAreaDesertDamBuildingMedicalChemistry
-  name: "Медична фармація"
+  name: Medical Pharmacy
   components:
   - type: Sprite
     state: medbay
@@ -831,7 +831,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingMedical
   id: RMCAreaDesertDamBuildingMedicalWestWingHallway
-  name: "Західне медичне крило"
+  name: Medical West Wing
   components:
   - type: Sprite
     state: medbay2
@@ -839,7 +839,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingMedical
   id: RMCAreaDesertDamBuildingMedicalNorthWingHallway
-  name: "Медичне північне крило"
+  name: Medical North Wing
   components:
   - type: Sprite
     state: medbay3
@@ -847,7 +847,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingMedical
   id: RMCAreaDesertDamBuildingMedicalEastWingHallway
-  name: "Медичне східне крило"
+  name: Medical East Wing
   components:
   - type: Sprite
     state: medbay
@@ -855,7 +855,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingMedical
   id: RMCAreaDesertDamBuildingMedicalPrimaryStorage
-  name: "Медичне первинне зберігання"
+  name: Medical Primary Storage
   components:
   - type: Sprite
     state: red
@@ -863,7 +863,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingMedical
   id: RMCAreaDesertDamBuildingMedicalSurgeryRoomOne
-  name: "Медична хірургічна палата номер один"
+  name: Medical Surgery Room One
   components:
   - type: Sprite
     state: yellow
@@ -871,7 +871,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingMedical
   id: RMCAreaDesertDamBuildingMedicalSurgeryRoomTwo
-  name: "Медична хірургічна палата №2"
+  name: Medical Surgery Room Two
   components:
   - type: Sprite
     state: purple
@@ -879,7 +879,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingMedical
   id: RMCAreaDesertDamBuildingMedicalSurguryObservation
-  name: "Медичне хірургічне спостереження"
+  name: Medical Surgery Observation
   components:
   - type: Sprite
     state: medbay2
@@ -887,7 +887,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingMedical
   id: RMCAreaDesertDamBuildingMedicalMorgue
-  name: "Медичний морг"
+  name: Medical Morgue
   components:
   - type: Sprite
     state: blue
@@ -895,7 +895,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingMedical
   id: RMCAreaDesertDamBuildingMedicalBreakRoom
-  name: "Медична кімната відпочинку"
+  name: Medical Breakroom
   components:
   - type: Sprite
     state: medbay
@@ -903,7 +903,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingMedical
   id: RMCAreaDesertDamBuildingMedicalCMO
-  name: "Офіс CMO з медичних питань"
+  name: Medical CMO's Office
   components:
   - type: Sprite
     state: cmo
@@ -911,7 +911,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingMedical
   id: RMCAreaDesertDamBuildingMedicalOffice1
-  name: "Медичний кабінет номер один"
+  name: Medical Office One
   components:
   - type: Sprite
     state: red
@@ -919,7 +919,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingMedical
   id: RMCAreaDesertDamBuildingMedicalOffice2
-  name: "Другий медичний кабінет"
+  name: Medical Office Two
   components:
   - type: Sprite
     state: blue
@@ -927,7 +927,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingMedical
   id: RMCAreaDesertDamBuildingMedicalPatientWing
-  name: "Медичне пацієнтське крило"
+  name: Medical Patient Wing
   components:
   - type: Sprite
     state: medbay2
@@ -935,7 +935,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingMedical
   id: RMCAreaDesertDamBuildingMedicalVirologyWing
-  name: "Відділення медичної вірусології"
+  name: Medical Virology Wing
   components:
   - type: Sprite
     state: medbay3
@@ -943,7 +943,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingMedical
   id: RMCAreaDesertDamBuildingMedicalVirologyIsolation
-  name: "Медична вірусологія Ізоляція"
+  name: Medical Virology Isolation
   components:
   - type: Sprite
     state: medbay
@@ -951,7 +951,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuilding
   id: RMCAreaDesertDamBuildingMedical
-  name: "Медичні"
+  name: Medical
   components:
   - type: Sprite
     state: medbay2
@@ -966,7 +966,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingWarehouse
   id: RMCAreaDesertDamBuildingWarehouseWarehouse
-  name: "Склад"
+  name: Warehouse
   components:
   - type: Sprite
     state: yellow
@@ -976,7 +976,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingWarehouse
   id: RMCAreaDesertDamBuildingWarehouseLoading
-  name: "Складське приміщення для завантаження"
+  name: Warehouse Loading Room
   components:
   - type: Sprite
     state: red
@@ -986,7 +986,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingWarehouse
   id: RMCAreaDesertDamBuildingWarehouseBreakroom
-  name: "Складська кімната відпочинку"
+  name: Warehouse Breakroom
   components:
   - type: Sprite
     state: green
@@ -1003,7 +1003,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingHydroponics
   id: RMCAreaDesertDamBuildingHydroponicsHydroponics
-  name: "Гідропоніка"
+  name: Hydroponics
   components:
   - type: Sprite
     state: hydro
@@ -1011,7 +1011,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingHydroponics
   id: RMCAreaDesertDamBuildingHydroponicsHydroponicsStorage
-  name: "Зберігання гідропоніки"
+  name: Hydroponics Storage
   components:
   - type: Sprite
     state: green
@@ -1019,7 +1019,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingHydroponics
   id: RMCAreaDesertDamBuildingHydroponicsHydroponicsLoading
-  name: "Завантажувальна кімната для гідропоніки"
+  name: Hydroponics Loading Room
   components:
   - type: Sprite
     state: garage
@@ -1027,7 +1027,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingHydroponics
   id: RMCAreaDesertDamBuildingHydroponicsHydroponicsBreakroom
-  name: "Кімната відпочинку з гідропоніки"
+  name: Hydroponics Breakroom
   components:
   - type: Sprite
     state: red
@@ -1035,7 +1035,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuilding
   id: RMCAreaDesertDamBuildingTelecommunication
-  name: "Телекомунікації"
+  name: Telecommunications
   components:
   - type: Sprite
     state: yellow
@@ -1045,7 +1045,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuilding
   id: RMCAreaDesertDamBuildingWaterTreatmentOne
-  name: "Водоочистка номер один"
+  name: Water Treatment One
   components:
   - type: Sprite
     state: yellow
@@ -1055,7 +1055,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingWaterTreatmentOne
   id: RMCAreaDesertDamBuildingWaterTreatmentOneLobby
-  name: "Водопідготовка Один вестибюль"
+  name: Water Treatment One Lobby
   components:
   - type: Sprite
     state: red
@@ -1063,7 +1063,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingWaterTreatmentOne
   id: RMCAreaDesertDamBuildingWaterTreatmentOneBreakroom
-  name: "Водопідготовка Одна кімната відпочинку"
+  name: Water Treatment One Breakroom
   components:
   - type: Sprite
     state: green
@@ -1071,7 +1071,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingWaterTreatmentOne
   id: RMCAreaDesertDamBuildingWaterTreatmentOneGarage
-  name: "Очищення води Один гараж"
+  name: Water Treatment One Garage
   components:
   - type: Sprite
     state: garage
@@ -1079,7 +1079,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingWaterTreatmentOne
   id: RMCAreaDesertDamBuildingWaterTreatmentOneSedimentation
-  name: "Очищення води Один відстійник"
+  name: Water Treatment One Sedimentation
   components:
   - type: Sprite
     state: blue
@@ -1087,7 +1087,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingWaterTreatmentOne
   id: RMCAreaDesertDamBuildingWaterTreatmentOneEquipment
-  name: "Водопідготовка Одна кімната для обладнання"
+  name: Water Treatment One Equipment Room
   components:
   - type: Sprite
     state: red
@@ -1095,7 +1095,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingWaterTreatmentOne
   id: RMCAreaDesertDamBuildingWaterTreatmentOneHallway
-  name: "Водопідготовка один коридор"
+  name: Water Treatment One Hallway
   components:
   - type: Sprite
     state: purple
@@ -1103,7 +1103,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingWaterTreatmentOne
   id: RMCAreaDesertDamBuildingWaterTreatmentOneControlRoom
-  name: "Диспетчерська водопідготовки №1"
+  name: Water Treatment One Control Room
   components:
   - type: Sprite
     state: yellow
@@ -1111,7 +1111,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingWaterTreatmentOne
   id: RMCAreaDesertDamBuildingWaterTreatmentOnePurification
-  name: "Водопідготовка Одне очищення"
+  name: Water Treatment One Purification
   components:
   - type: Sprite
     state: green
@@ -1119,7 +1119,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingWaterTreatmentOne
   id: RMCAreaDesertDamBuildingWaterTreatmentOneFloodgateControl
-  name: "Водопідготовка Один контроль шлюзів"
+  name: Water Treatment One Floodgate Control
   components:
   - type: Sprite
     state: green
@@ -1127,7 +1127,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingWaterTreatmentOneFloodgateControl
   id: RMCAreaDesertDamBuildingWaterTreatmentOneFloodgateControlCentral
-  name: "Централізоване управління шлюзами"
+  name: Central Floodgate Control
   components:
   - type: Sprite
     state: green
@@ -1135,7 +1135,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingWaterTreatmentOneFloodgateControl
   id: RMCAreaDesertDamBuildingWaterTreatmentOneFloodgateControlCentral2
-  name: "Центральне сховище для управління шлюзами"
+  name: Central Floodgate Control Storage
   components:
   - type: Sprite
     state: green
@@ -1143,7 +1143,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuilding
   id: RMCAreaDesertDamBuildingWaterTreatmentTwo
-  name: "Водоочищення номер два"
+  name: Water Treatment Two
   components:
   - type: Sprite
     state: yellow
@@ -1153,7 +1153,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingWaterTreatmentTwo
   id: RMCAreaDesertDamBuildingWaterTreatmentTwoLobby
-  name: "Водопідготовка два вестибюля"
+  name: Water Treatment Two Lobby
   components:
   - type: Sprite
     state: red
@@ -1161,7 +1161,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingWaterTreatmentTwo
   id: RMCAreaDesertDamBuildingWaterTreatmentTwoBreakroom
-  name: "Водопідготовка Дві кімнати відпочинку"
+  name: Water Treatment Two Breakroom
   components:
   - type: Sprite
     state: green
@@ -1169,7 +1169,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingWaterTreatmentTwo
   id: RMCAreaDesertDamBuildingWaterTreatmentTwoGarage
-  name: "Водопідготовка Два гаража"
+  name: Water Treatment Two Garage
   components:
   - type: Sprite
     state: garage
@@ -1177,7 +1177,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingWaterTreatmentTwo
   id: RMCAreaDesertDamBuildingWaterTreatmentTwoSedimentation
-  name: "Водопідготовка Два відстоювання"
+  name: Water Treatment Two Sedimentation
   components:
   - type: Sprite
     state: blue
@@ -1185,7 +1185,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingWaterTreatmentTwo
   id: RMCAreaDesertDamBuildingWaterTreatmentTwoEquipment
-  name: "Водопідготовка Два обладнання"
+  name: Water Treatment Two Equipment
   components:
   - type: Sprite
     state: red
@@ -1193,7 +1193,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingWaterTreatmentTwo
   id: RMCAreaDesertDamBuildingWaterTreatmentTwoHallway
-  name: "Водопідготовка два коридору"
+  name: Water Treatment Two Hallway
   components:
   - type: Sprite
     state: purple
@@ -1201,7 +1201,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingWaterTreatmentTwo
   id: RMCAreaDesertDamBuildingWaterTreatmentTwoControlRoom
-  name: "Диспетчерська водопідготовки №2"
+  name: Water Treatment Two Control Room
   components:
   - type: Sprite
     state: yellow
@@ -1209,7 +1209,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingWaterTreatmentTwo
   id: RMCAreaDesertDamBuildingWaterTreatmentTwoPurification
-  name: "Очищення води Друге очищення"
+  name: Water Treatment Two Purification
   components:
   - type: Sprite
     state: green
@@ -1217,7 +1217,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingWaterTreatmentTwo
   id: RMCAreaDesertDamBuildingWaterTreatmentTwoFloodgateControl
-  name: "Водопідготовка Два шлюзу управління"
+  name: Water Treatment Two Floodgate Control
   components:
   - type: Sprite
     state: green
@@ -1232,7 +1232,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingSecurity
   id: RMCAreaDesertDamBuildingSecurityPrison
-  name: "В'язниця безпеки"
+  name: Security Prison
   components:
   - type: Sprite
     state: sec_prison
@@ -1240,7 +1240,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingSecurity
   id: RMCAreaDesertDamBuildingSecurityMarshalsOffice
-  name: "Служба маршала безпеки"
+  name: Security Marshal's Office
   components:
   - type: Sprite
     state: sec_hos
@@ -1248,7 +1248,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingSecurity
   id: RMCAreaDesertDamBuildingSecurityArmory
-  name: "Зброярня безпеки"
+  name: Security Armory
   components:
   - type: Sprite
     state: armory
@@ -1256,7 +1256,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingSecurity
   id: RMCAreaDesertDamBuildingSecurityWarden
-  name: "Кабінет начальника охорони"
+  name: Security Warden's Office
   components:
   - type: Sprite
     state: warden
@@ -1264,7 +1264,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingSecurity
   id: RMCAreaDesertDamBuildingSecurityInterrogation
-  name: "Допит з питань безпеки"
+  name: Security Interrogation
   components:
   - type: Sprite
     state: interrogation
@@ -1272,7 +1272,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingSecurity
   id: RMCAreaDesertDamBuildingSecurityBackroom
-  name: "Допит з питань безпеки"
+  name: Security Interrogation
   components:
   - type: Sprite
     state: sec_backroom
@@ -1280,7 +1280,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingSecurity
   id: RMCAreaDesertDamBuildingSecurityObservation
-  name: "Спостереження за безпекою"
+  name: Security Observation
   components:
   - type: Sprite
     state: observatory
@@ -1288,7 +1288,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingSecurity
   id: RMCAreaDesertDamBuildingSecurityDetective
-  name: "Офіс детектива служби безпеки"
+  name: Security Detective's Office
   components:
   - type: Sprite
     state: detective
@@ -1296,7 +1296,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingSecurity
   id: RMCAreaDesertDamBuildingSecurityOffice
-  name: "Служба безпеки"
+  name: Security Office
   components:
   - type: Sprite
     state: yellow
@@ -1304,7 +1304,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingSecurity
   id: RMCAreaDesertDamBuildingSecurityLobby
-  name: "Вестибюль безпеки"
+  name: Security Lobby
   components:
   - type: Sprite
     state: green
@@ -1312,7 +1312,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingSecurity
   id: RMCAreaDesertDamBuildingSecurityNorthernHallway
-  name: "Охорона північного коридору"
+  name: Security North Hallway
   components:
   - type: Sprite
     state: purple
@@ -1320,7 +1320,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingSecurity
   id: RMCAreaDesertDamBuildingSecurityCourtroom
-  name: "Зал судових засідань"
+  name: Security Courtroom
   components:
   - type: Sprite
     state: courtroom
@@ -1328,7 +1328,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingSecurity
   id: RMCAreaDesertDamBuildingSecurityEvidence
-  name: "Докази безпеки"
+  name: Security Evidence
   components:
   - type: Sprite
     state: red
@@ -1336,7 +1336,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingSecurity
   id: RMCAreaDesertDamBuildingSecurityHolding
-  name: "Зал очікування служби безпеки"
+  name: Security Holding Room
   components:
   - type: Sprite
     state: yellow
@@ -1344,7 +1344,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingSecurity
   id: RMCAreaDesertDamBuildingSecuritySouthernHallway
-  name: "Охорона Південний коридор"
+  name: Security South Hallway
   components:
   - type: Sprite
     state: green
@@ -1352,7 +1352,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingSecurity
   id: RMCAreaDesertDamBuildingSecurityDeathrow
-  name: "Камера смертників"
+  name: Security Death Row
   components:
   - type: Sprite
     state: cells_max_n
@@ -1360,7 +1360,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingSecurity
   id: RMCAreaDesertDamBuildingSecurityExecutionChamber
-  name: "Виконавча палата з питань безпеки"
+  name: Security Execution Chamber
   components:
   - type: Sprite
     state: red
@@ -1368,7 +1368,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingSecurity
   id: RMCAreaDesertDamBuildingSecurityStaffroom
-  name: "Кімната для персоналу служби безпеки"
+  name: Security Staffroom
   components:
   - type: Sprite
     state: security
@@ -1376,7 +1376,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuilding
   id: RMCAreaDesertDamBuildingChurch
-  name: "Церква"
+  name: Church
   components:
   - type: Sprite
     state: courtroom
@@ -1391,7 +1391,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingMining
   id: RMCAreaDesertDamBuildingMiningWorkshop
-  name: "Гірнича майстерня"
+  name: Mining Workshop
   components:
   - type: Sprite
     state: yellow
@@ -1399,7 +1399,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingMining
   id: RMCAreaDesertDamBuildingMiningWorkshopFoyer
-  name: "Фойє гірничої майстерні"
+  name: Mining Workshop Foyer
   components:
   - type: Sprite
     state: purple
@@ -1414,7 +1414,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingLabNorthwest
   id: RMCAreaDesertDamBuildingLabNorthwestWestLabRobotics
-  name: "West Lab Robotics"
+  name: West Lab Robotics
   components:
   - type: Sprite
     state: ass_line
@@ -1422,7 +1422,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingLabNorthwest
   id: RMCAreaDesertDamBuildingLabNorthwestWestLabRoboticsMechbay
-  name: "Західна лабораторія Мехблок"
+  name: West Lab Mechbay
   components:
   - type: Sprite
     state: purple
@@ -1430,7 +1430,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingLabNorthwest
   id: RMCAreaDesertDamBuildingLabNorthwestWestLabEastHallway
-  name: "Західний коридор лабораторії"
+  name: West Lab Hallway
   components:
   - type: Sprite
     state: red
@@ -1438,7 +1438,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingLabNorthwest
   id: RMCAreaDesertDamBuildingLabNorthwestWestLabWestHallway
-  name: "Західний коридор лабораторії"
+  name: West Lab Hallway
   components:
   - type: Sprite
     state: red
@@ -1446,7 +1446,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingLabNorthwest
   id: RMCAreaDesertDamBuildingLabNorthwestWestLabMaintenance
-  name: "Технічне обслуговування Західної лабораторії"
+  name: West Lab Maintenance
   components:
   - type: Sprite
     state: purple
@@ -1454,7 +1454,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingLabNorthwest
   id: RMCAreaDesertDamBuildingLabNorthwestWestLabChemistry
-  name: "West Lab Chemistry"
+  name: West Lab Chemistry
   components:
   - type: Sprite
     state: yellow
@@ -1462,7 +1462,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingLabNorthwest
   id: RMCAreaDesertDamBuildingLabNorthwestWestLabCafeteria
-  name: "Кафетерій Західної лабораторії"
+  name: West Lab Cafeteria
   components:
   - type: Sprite
     state: blue
@@ -1470,7 +1470,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingLabNorthwest
   id: RMCAreaDesertDamBuildingLabNorthwestWestLabKitchen
-  name: "West Lab Kitchen"
+  name: West Lab Kitchen
   components:
   - type: Sprite
     state: kitchen
@@ -1478,7 +1478,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingLabNorthwest
   id: RMCAreaDesertDamBuildingLabNorthwestWestLabDormitory
-  name: "Гуртожиток Західної лабораторії"
+  name: West Lab Dormitory
   components:
   - type: Sprite
     state: red
@@ -1486,7 +1486,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingLabNorthwest
   id: RMCAreaDesertDamBuildingLabNorthwestWestLabMeetingRoom
-  name: "Конференц-зал Західної лабораторії"
+  name: West Lab Meeting Room
   components:
   - type: Sprite
     state: purple
@@ -1494,7 +1494,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingLabNorthwest
   id: RMCAreaDesertDamBuildingLabNorthwestWestLabXenoflora
-  name: "Ксенофлора Західної лабораторії"
+  name: West Lab Xenoflora
   components:
   - type: Sprite
     state: purple
@@ -1507,7 +1507,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingLabNortheast
   id: RMCAreaDesertDamBuildingLabNortheastCheckpoint
-  name: "Контрольно-пропускний пункт \"Східна лабораторія"
+  name: East Lab Checkpoint
   components:
   - type: Sprite
     state: red
@@ -1515,7 +1515,7 @@
 - type: entity
   parent: RMCAreaDesertDamBuildingLabNortheast
   id: RMCAreaDesertDamBuildingLabNortheastGarage
-  name: "Гараж Східної лабораторії"
+  name: East Lab Garage
   components:
   - type: Sprite
     state: garage
@@ -1527,7 +1527,7 @@
 - type: entity
   parent: RMCAreaDesertDamExterior
   id: RMCAreaDesertDamExteriorRock
-  name: "Рок"
+  name: Rock
   components:
   - type: Sprite
     state: cave
@@ -1535,7 +1535,7 @@
 - type: entity
   parent: RMCAreaDesertDamExterior
   id: RMCAreaDesertDamExteriorLandingPadOne
-  name: "Злітно-посадковий майданчик аеродрому"
+  name: Airstrip Landing Pad
   components:
   - type: Sprite
     state: landing_pad
@@ -1547,7 +1547,7 @@
 - type: entity
   parent: RMCAreaDesertDamExterior
   id: RMCAreaDesertDamExteriorLandingPadOneExternal
-  name: "Злітно-посадкова долина аеродрому"
+  name: Airstrip Landing Valley
   components:
   - type: Sprite
     state: landing_pad_ext
@@ -1558,7 +1558,7 @@
 - type: entity
   parent: RMCAreaDesertDamExterior
   id: RMCAreaDesertDamExteriorLandingPadTwo
-  name: "Злітно-посадковий майданчик аеродрому"
+  name: Aerodrome Landing Pad
   components:
   - type: Sprite
     state: landing_pad
@@ -1570,7 +1570,7 @@
 - type: entity
   parent: RMCAreaDesertDamExterior
   id: RMCAreaDesertDamExteriorLandingPadTwoExternal
-  name: "Посадкова долина аеродрому"
+  name: Aerodrome Landing Valley
   components:
   - type: Sprite
     state: landing_pad_ext
@@ -1585,7 +1585,7 @@
 - type: entity
   parent: RMCAreaDesertDamExteriorValley
   id: RMCAreaDesertDamExteriorValleyValleyNorthwest
-  name: "Північно-Західна долина"
+  name: Northwest Valley
   components:
   - type: Sprite
     state: valley_north_west
@@ -1595,7 +1595,7 @@
 - type: entity
   parent: RMCAreaDesertDamExteriorValley
   id: RMCAreaDesertDamExteriorValleyValleyCargo
-  name: "Судноплавна долина"
+  name: Shipping Valley
   components:
   - type: Sprite
     state: valley_south_west
@@ -1605,7 +1605,7 @@
 - type: entity
   parent: RMCAreaDesertDamExteriorValley
   id: RMCAreaDesertDamExteriorValleyValleyTelecoms
-  name: "Телекомунікаційна долина"
+  name: Telecomms Valley
   components:
   - type: Sprite
     state: valley_west
@@ -1615,7 +1615,7 @@
 - type: entity
   parent: RMCAreaDesertDamExteriorValley
   id: RMCAreaDesertDamExteriorValleyValleyBridge
-  name: "Долинний міст"
+  name: Valley Bridge
   components:
   - type: Sprite
     state: valley
@@ -1623,7 +1623,7 @@
 - type: entity
   parent: RMCAreaDesertDamExterior
   id: RMCAreaDesertDamExteriorTelecomm
-  name: "Реле зв'язку дамби Тріджент"
+  name: Trijent Dam Communications Relay
   components:
   - type: Sprite
     state: ass_line
@@ -1633,37 +1633,37 @@
 - type: entity
   parent: RMCAreaDesertDamExteriorTelecomm
   id: RMCAreaDesertDamExteriorTelecommLz2Containers
-  name: "Контейнери Комунікаційне реле"
+  name: Containers Communications Relay
 
 - type: entity
   parent: RMCAreaDesertDamExteriorTelecomm
   id: RMCAreaDesertDamExteriorTelecommLz2Tcomms
-  name: "Телекомунікаційне реле зв'язку"
+  name: Telecomms Communications Relay
 
 - type: entity
   parent: RMCAreaDesertDamExteriorTelecomm
   id: RMCAreaDesertDamExteriorTelecommLz2Storage
-  name: "Комунікаційне реле East LZ2"
+  name: East LZ2 Communications Relay
 
 - type: entity
   parent: RMCAreaDesertDamExteriorTelecomm
   id: RMCAreaDesertDamExteriorTelecommLz1South
-  name: "Південне реле зв'язку LZ1"
+  name: South LZ1 Communications Relay
 
 - type: entity
   parent: RMCAreaDesertDamExteriorTelecomm
   id: RMCAreaDesertDamExteriorTelecommLz1Valley
-  name: "LZ1 Долинне комунікаційне реле"
+  name: LZ1 Valley Communications Relay
 
 - type: entity
   parent: RMCAreaDesertDamExteriorTelecomm
   id: RMCAreaDesertDamExteriorTelecommLz1Xenoflora
-  name: "Комунікаційна естафета Xenoflora"
+  name: Xenoflora Communications Relay
 
 - type: entity
   parent: RMCAreaDesertDamExteriorValley
   id: RMCAreaDesertDamExteriorValleyValleyLabs
-  name: "Лабораторна долина"
+  name: Lab Valley
   components:
   - type: Sprite
     state: valley_north
@@ -1671,7 +1671,7 @@
 - type: entity
   parent: RMCAreaDesertDamExteriorValley
   id: RMCAreaDesertDamExteriorValleyValleyMining
-  name: "Гірнича долина"
+  name: Mining Valley
   components:
   - type: Sprite
     state: valley_east
@@ -1679,7 +1679,7 @@
 - type: entity
   parent: RMCAreaDesertDamExteriorValley
   id: RMCAreaDesertDamExteriorValleyValleyCivilian
-  name: "Цивільна долина"
+  name: Civilian Valley
   components:
   - type: Sprite
     state: valley_south_excv
@@ -1687,7 +1687,7 @@
 - type: entity
   parent: RMCAreaDesertDamExteriorValley
   id: RMCAreaDesertDamExteriorValleyValleyMedical
-  name: "Медична долина"
+  name: Medical Valley
   components:
   - type: Sprite
     state: valley
@@ -1695,7 +1695,7 @@
 - type: entity
   parent: RMCAreaDesertDamExteriorValley
   id: RMCAreaDesertDamExteriorValleyValleyHydro
-  name: "Гідрологічна долина"
+  name: Hydro Valley
   components:
   - type: Sprite
     state: valley
@@ -1703,7 +1703,7 @@
 - type: entity
   parent: RMCAreaDesertDamExteriorValley
   id: RMCAreaDesertDamExteriorValleyValleyCrashsite
-  name: "Долина місця аварії"
+  name: Crash Site Valley
   components:
   - type: Sprite
     state: yellow
@@ -1711,7 +1711,7 @@
 - type: entity
   parent: RMCAreaDesertDamExteriorValley
   id: RMCAreaDesertDamExteriorValleyNorthValleyDam
-  name: "Долина Північної Дамби"
+  name: North Dam Valley
   components:
   - type: Sprite
     state: valley
@@ -1719,7 +1719,7 @@
 - type: entity
   parent: RMCAreaDesertDamExteriorValley
   id: RMCAreaDesertDamExteriorValleySouthValleyDam
-  name: "Долина Південної Дамби"
+  name: South Dam Valley
   components:
   - type: Sprite
     state: valley
@@ -1727,7 +1727,7 @@
 - type: entity
   parent: RMCAreaDesertDamExteriorValley
   id: RMCAreaDesertDamExteriorValleyBarValleyDam
-  name: "Барська долина"
+  name: Bar Valley
   components:
   - type: Sprite
     state: yellow
@@ -1735,7 +1735,7 @@
 - type: entity
   parent: RMCAreaDesertDamExteriorValley
   id: RMCAreaDesertDamExteriorValleyValleyWilderness
-  name: "Пустельна долина"
+  name: Wilderness Valley
   components:
   - type: Sprite
     state: central
@@ -1743,7 +1743,7 @@
 - type: entity
   parent: RMCAreaDesertDamExterior
   id: RMCAreaDesertDamExteriorRiver
-  name: "Річка"
+  name: River
   components:
   - type: Sprite
     state: bluenew
@@ -1751,7 +1751,7 @@
 - type: entity
   parent: RMCAreaDesertDamExteriorRiver
   id: RMCAreaDesertDamExteriorRiverRiversideNorthwest
-  name: "Північно-західне русло річки"
+  name: Northwestern Riverbed
   components:
   - type: Sprite
     state: bluenew
@@ -1759,7 +1759,7 @@
 - type: entity
   parent: RMCAreaDesertDamExteriorRiver
   id: RMCAreaDesertDamExteriorRiverRiversideCentralNorth
-  name: "Північне центральне русло річки"
+  name: Northern Central Riverbed
   components:
   - type: Sprite
     state: purple
@@ -1767,7 +1767,7 @@
 - type: entity
   parent: RMCAreaDesertDamExteriorRiver
   id: RMCAreaDesertDamExteriorRiverRiversideCentralSouth
-  name: "Русло Південно-Центральної річки"
+  name: Southern Central Riverbed
   components:
   - type: Sprite
     state: purple
@@ -1775,7 +1775,7 @@
 - type: entity
   parent: RMCAreaDesertDamExteriorRiver
   id: RMCAreaDesertDamExteriorRiverRiversideSouth
-  name: "Південне русло річки"
+  name: Southern Riverbed
   components:
   - type: Sprite
     state: bluenew
@@ -1783,7 +1783,7 @@
 - type: entity
   parent: RMCAreaDesertDamExteriorRiver
   id: RMCAreaDesertDamExteriorRiverRiversideEast
-  name: "Східне русло річки"
+  name: Eastern Riverbed
   components:
   - type: Sprite
     state: bluenew
@@ -1791,7 +1791,7 @@
 - type: entity
   parent: RMCAreaDesertDamExteriorRiver
   id: RMCAreaDesertDamExteriorRiverRiversideNortheast
-  name: "Північно-східне русло річки"
+  name: Northeastern Riverbed
   components:
   - type: Sprite
     state: bluenew
@@ -1799,17 +1799,17 @@
 - type: entity
   parent: RMCAreaDesertDamExteriorRiver
   id: RMCAreaDesertDamExteriorRiverFiltrationA
-  name: "Фільтрувальна станція А"
+  name: Filtration Plant A
 
 - type: entity
   parent: RMCAreaDesertDamExteriorRiver
   id: RMCAreaDesertDamExteriorRiverFiltrationB
-  name: "Фільтрувальна станція Б"
+  name: Filtration Plant B
 
 - type: entity
   parent: RMCAreaDesertDamExteriorRiverMouth
   id: RMCAreaDesertDamExteriorRiverMouthSouthern
-  name: "Південне гирло річки"
+  name: Southern River Mouth
   components:
   - type: Sprite
     state: purple
@@ -1822,7 +1822,7 @@
 - type: entity
   parent: RMCAreaDesertDamExteriorRiverMouth
   id: RMCAreaDesertDamExteriorRiverMouthEastern
-  name: "Східне гирло річки"
+  name: Eastern River Mouth
   components:
   - type: Sprite
     state: purple
@@ -1835,7 +1835,7 @@
 - type: entity
   parent: RMCAreaDesertDamLanding
   id: RMCAreaDesertDamLandingConsole
-  name: "LZ1 'Адміністратор'"
+  name: LZ1 'Admin'
   components:
   - type: Sprite
     state: tcomsatcham
@@ -1843,7 +1843,7 @@
 - type: entity
   parent: RMCAreaDesertDamLanding
   id: RMCAreaDesertDamLandingConsole2
-  name: "LZ2 \"Постачання"
+  name: LZ2 'Supply'
   components:
   - type: Sprite
     state: tcomsatcham

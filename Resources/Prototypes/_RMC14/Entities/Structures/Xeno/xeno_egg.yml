@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: BaseItem
   id: XenoEgg
-  name: "яйце"
+  name: egg
   placement:
     mode: SnapgridCenter
     snap:

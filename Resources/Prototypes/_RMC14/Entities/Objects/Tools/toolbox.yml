@@ -24,7 +24,7 @@
   suffix: RMC14 
 
 - type: entity
-  name: "аварійний набір інструментів"
+  name: emergency toolbox
   parent: [RMCToolboxEmergency, ToolboxEmergencyFilled]
   id: RMCToolboxEmergencyFilled
   components:
@@ -42,7 +42,7 @@
   suffix: RMC14, Filled 
 
 - type: entity
-  name: "електричний ящик для інструментів"
+  name: electrical toolbox
   parent: [RMCToolboxBase, ToolboxElectrical]
   id: RMCToolboxElectrical
   components:
@@ -72,7 +72,7 @@
   suffix: RMC14, Filled 
 
 - type: entity
-  name: "механічний ящик для інструментів"
+  name: mechanical toolbox
   parent: [RMCToolboxBase, ToolboxMechanical]
   id: RMCToolboxMechanical
   components:

@@ -1,7 +1,7 @@
 # Used for PVS loading
 - type: entity
   id: CMScopingChunkLoader
-  name: "ПРИ СКАНУВАННІ ЗАВАНТАЖУВАЧА ШМАТКІВ ВИ НЕ ПОВИННІ ЦЬОГО БАЧИТИ"
+  name: SCOPING CHUNK LOADER YOU SHOULD NOT SEE THIS
   noSpawn: true
   components:
     - type: Eye

@@ -1,7 +1,7 @@
 - type: entity
   id: ActionForceWall
-  name: "силова стіна"
-  description: "Створює магічний бар'єр."
+  name: forcewall
+  description: Creates a magical barrier.
   components:
   - type: InstantAction
     useDelay: 10

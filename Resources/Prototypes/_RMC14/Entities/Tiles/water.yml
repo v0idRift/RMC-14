@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: CMFloorShallowWaterEntity
-  name: "мілководдя"
+  name: shallow water
   description: ""
   placement:
     mode: SnapgridCenter
@@ -55,7 +55,7 @@
 - type: entity
   parent: CMFloorShallowWaterEntity
   id: CMFloorDeepWaterEntity
-  name: "глибока вода"
+  name: deep water
   description: ""
   components:
   - type: Sprite
