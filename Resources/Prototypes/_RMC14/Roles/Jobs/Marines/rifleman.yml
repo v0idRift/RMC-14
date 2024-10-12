@@ -48,7 +48,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointRifleman
-  name: rifleman spawn point
+  name: "точка розмноження стрільців"
   components:
   - type: SpawnPoint
     job_id: CMRifleman

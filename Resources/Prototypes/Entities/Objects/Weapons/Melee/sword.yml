@@ -17,10 +17,10 @@
       - Knife
 
 - type: entity
-  name: captain's sabre
+  name: "шабля капітана"
   parent: [ BaseSword, BaseCommandContraband ]
   id: CaptainSabre
-  description: A ceremonial weapon belonging to the captain of the station.
+  description: "Церемоніальна зброя, що належить капітану станції."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/captain_sabre.rsi
@@ -47,10 +47,10 @@
     # not putting a BlockMovement component here cause that's funny.
 
 - type: entity
-  name: katana
+  name: "катана"
   parent: [ BaseSword, BaseMajorContraband ]
   id: Katana
-  description: Ancient craftwork made with not so ancient plasteel.
+  description: "Старовинний ремісничий виріб із не такої вже й давньої сталі."
   components:
   - type: Tag
     tags:
@@ -68,10 +68,10 @@
   - type: DisarmMalus
 
 - type: entity
-  name: energy katana
+  name: "енергетична катана"
   parent: Katana
   id: EnergyKatana
-  description: A katana infused with strong energy.
+  description: "Катана, наповнена сильною енергією."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/energykatana.rsi
@@ -97,10 +97,10 @@
   - type: Reflect
 
 - type: entity
-  name: machete
+  name: "мачете"
   parent: [ BaseSword, BaseMajorContraband ]
   id: Machete
-  description: A large, vicious looking blade.
+  description: "Велике, злісне на вигляд лезо."
   components:
   - type: Tag
     tags:
@@ -118,10 +118,10 @@
   - type: DisarmMalus
 
 - type: entity
-  name: claymore
+  name: "клаймор"
   parent: [ BaseSword, BaseMajorContraband ]
   id: Claymore
-  description: An ancient war blade.
+  description: "Стародавній бойовий клинок."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/claymore.rsi
@@ -140,10 +140,10 @@
   - type: DisarmMalus
 
 - type: entity
-  name: cutlass
+  name: "шабля"
   parent: [ BaseSword, BaseMajorContraband ]
   id: Cutlass
-  description: A wickedly curved blade, often seen in the hands of space pirates.
+  description: "Зловісно вигнуте лезо, яке часто можна побачити в руках космічних піратів."
   components:
   - type: Tag
     tags:
@@ -161,10 +161,10 @@
   - type: DisarmMalus
 
 - type: entity
-  name: Throngler
+  name: "Розбишака"
   parent: [ BaseSword, BaseMajorContraband ]
   id: Throngler
-  description: Why would you make this?
+  description: "Навіщо ви це робите?"
   components:
     - type: Sprite
       sprite: Objects/Weapons/Melee/Throngler2.rsi

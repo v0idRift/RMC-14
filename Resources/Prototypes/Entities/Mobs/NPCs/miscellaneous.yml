@@ -1,8 +1,8 @@
 - type: entity
-  name: laser raptor
+  name: "лазерний хижак"
   id: MobLaserRaptor
   parent: SimpleMobBase
-  description: From the Viking age.
+  description: "З часів вікінгів."
   components:
     - type: NpcFactionMember
       factions:
@@ -75,8 +75,8 @@
   - MobBloodstream
   - MobFlammable
   - MobCombat
-  name: tomato killer
-  description: Looks like it's not you eating tomatoes today, it's the tomatoes eating you.
+  name: "помідор-вбивця"
+  description: "Це дійсно дозволить вам залучити кількох веганів до наступної онлайн-дискусії."
   components:
   - type: Item
   - type: NpcFactionMember

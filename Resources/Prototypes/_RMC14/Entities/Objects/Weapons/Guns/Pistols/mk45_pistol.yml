@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMWeaponPistolBase
   id: RMCWeaponPistolMK45
-  name: "MK-45 'high-power' automagnum"
-  description: Originally designed as a replacement for the UNMC's M44 combat revolver, it was rejected at the last minute by a committee, citing its need to be cocked after every loaded magazine to be too cumbersone and antiquated.
+  name: "MK-45 \"надпотужний\" автоматичний магнум"
+  description: "Спочатку розроблений як заміна бойовому револьверу М44, він був відхилений в останню хвилину комісією, посилаючись на необхідність перезаряджати його після кожного заряджання магазину, як на занадто громіздкий і застарілий."
   suffix: Filled
   components:
   - type: RMCSelectiveFire
@@ -73,8 +73,8 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: RMCMagazinePistolMK45
-  name: mk-45 automagnum magazine (.45)
-  description: A pistol magazine.
+  name: "магазин mk-45 automagnum (.45)"
+  description: "Магазин для пістолета."
   components:
   - type: Tag
     tags:
@@ -111,7 +111,7 @@
 - type: entity
   parent: CMBulletBase
   id: CMBulletPistolMK45
-  name: high-powered pistol bullet (.45)
+  name: "потужна пістолетна куля (.45)"
   components:
   - type: Projectile
     damage:
