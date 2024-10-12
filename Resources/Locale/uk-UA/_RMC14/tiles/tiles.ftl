@@ -57,3 +57,5 @@ tiles-rmc-tcomms = tcomms плитка
 tiles-rmc-outer-hull = зовнішня черепиця корпусу
 
 tiles-rmc-escape-pod = черепиця рятувального шатлу
+
+tiles-rmc-grate = колосникова плитка
