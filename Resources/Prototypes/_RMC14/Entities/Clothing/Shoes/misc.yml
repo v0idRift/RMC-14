@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: RMCShoesLaceup
-  name: "взуття на шнурівці"
-  description: "Пік моди, і вони попередньо відполіровані!"
+  name: laceup shoes
+  description: The height of fashion, and they're pre-polished!
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/laceup.rsi
@@ -21,8 +21,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: RMCShoesJackboots
-  name: "черевики"
-  description: "Захисні бойові черевики для бойових сценаріїв або бойових ситуацій. Завжди бойові, завжди."
+  name: jackboots
+  description: Security combat boots for combat scenarios or combat situations. All combat, all the time.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Boots/jackboots.rsi

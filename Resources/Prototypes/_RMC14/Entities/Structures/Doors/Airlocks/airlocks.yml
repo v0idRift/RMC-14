@@ -3,7 +3,7 @@
   - CMBaseDoor
   - CMBaseDoorConstructible
   id: CMAirlock
-  name: "повітряний шлюз"
+  name: airlock
   placement:
     mode: SnapgridCenter
   components:
@@ -61,7 +61,7 @@
 - type: entity
   parent: CMAirlock
   id: CMAirlockMaint
-  name: "обслуговування"
+  name: maintenance
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Airlocks/maint_door.rsi
@@ -69,7 +69,7 @@
 - type: entity
   parent: CMAirlockMaint
   id: CMAirlockMaintReinforced
-  name: "посилений люк для обслуговування"
+  name: reinforced maintenance hatch
   suffix: Reinforced
   components:
   - type: Destructible
@@ -84,7 +84,7 @@
 - type: entity
   parent: CMAirlock
   id: CMAirlockSecure
-  name: "безпечний шлюз"
+  name: secure airlock
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Airlocks/secure_door.rsi
@@ -92,7 +92,7 @@
 - type: entity
   parent: CMAirlock
   id: CMAirlockCell
-  name: "двері камери"
+  name: cell door
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Airlocks/cell_door.rsi
@@ -100,7 +100,7 @@
 - type: entity
   parent: CMAirlock
   id: CMAirlockPrison
-  name: "люк для обслуговування"
+  name: maintenance hatch
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Airlocks/prison_door.rsi
@@ -109,7 +109,7 @@
 - type: entity
   parent: CMAirlock
   id: CMAirlockGlass
-  name: "скляний шлюз"
+  name: glass airlock
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Airlocks/personal_door_glass.rsi
@@ -172,7 +172,7 @@
 - type: entity
   parent: CMAirlockGlass
   id: CMAirlockPrep
-  name: "підготовчий шлюз"
+  name: preparations airlock
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Airlocks/prep_door.rsi
@@ -180,7 +180,7 @@
 - type: entity
   parent: CMAirlockPrep
   id: CMAirlockPrepAlpha
-  name: "підготовка загону \"альфа"
+  name: alpha squad preparations
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Airlocks/prep_door_alpha.rsi
@@ -188,7 +188,7 @@
 - type: entity
   parent: CMAirlockPrep
   id: CMAirlockPrepBravo
-  name: "підготовка загону \"Браво"
+  name: bravo squad preparations
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Airlocks/prep_door_bravo.rsi
@@ -196,7 +196,7 @@
 - type: entity
   parent: CMAirlockPrep
   id: CMAirlockPrepCharlie
-  name: "підготовка загону Чарлі"
+  name: charlie squad preparations
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Airlocks/prep_door_charlie.rsi
@@ -204,7 +204,7 @@
 - type: entity
   parent: CMAirlockPrep
   id: CMAirlockPrepDelta
-  name: "підготовка загону \"дельта"
+  name: delta squad preparations
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Airlocks/prep_door_delta.rsi

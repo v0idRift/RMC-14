@@ -2,7 +2,7 @@
   parent: BaseItem
   abstract: true
   id: CMWebbingBase
-  name: "павутиння"
+  name: webbing
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbing
-  name: "павутиння"
-  description: "Міцна плутанина ременів і пряжок з синтетичної бавовни, готових розділити ваш тягар."
+  name: webbing
+  description: A sturdy mess of synthcotton belts and buckles, ready to share your burden.
   components:
   - type: Sprite
     state: webbing
@@ -87,8 +87,8 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbingBlack
-  name: "чорний жилет з павутинкою"
-  description: "Міцний чорний жилет з синтетичної бавовни з безліччю кишень, в яких можна тримати все, що потрібно, але не можна тримати в руках."
+  name: black webbing vest
+  description: Robust black synthcotton vest with lots of pockets to hold whatever you need, but cannot hold in hands.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing_black.rsi
@@ -129,8 +129,8 @@
 - type: entity
   parent: CMWebbingBlack
   id: CMWebbingBrown
-  name: "коричневий жилет на ремінній стрічці"
-  description: "Поношений коричневий жилет з синтепону з великою кількістю кишень, щоб розвантажити руки."
+  name: brown webbing vest
+  description: Worn brownish synthcotton vest with lots of pockets to unload your hands.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing_brown.rsi
@@ -159,8 +159,8 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbingPouch
-  name: "мішок для крапель"
-  description: "Зручний мішечок для перенесення дрібних предметів."
+  name: drop pouch
+  description: A convenient pouch to carry loose items around.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/drop_pouch.rsi

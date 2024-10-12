@@ -5,8 +5,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechCargoGuns
-  name: "Постачальник автоматизованого озброєння ColMarTech"
-  description: "Автоматизований стелаж, підключений до великого сховища різноманітної вогнепальної зброї та вибухівки. Доступ до нього мають працівники відділу заявок та вантажники."
+  name: ColMarTech automated armaments vendor
+  description: An automated supply rack hooked up to a big storage of various firearms and explosives. Can be accessed by the Requisitions Officer and Cargo Techs.
   components:
   - type: AccessReader
     access:
@@ -251,8 +251,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechCargoAmmo
-  name: "Постачальник автоматизованих боєприпасів ColMarTech"
-  description: "Автоматизований стелаж, підключений до великого сховища різних типів боєприпасів. Доступ до нього мають офіцер по роботі з заявками та вантажники."
+  name: ColMarTech automated munition vendor
+  description: An automated supply rack hooked up to a big storage of various ammunition types. Can be accessed by the Requisitions Officer and Cargo Techs.
   components:
   - type: AccessReader
     access:
@@ -347,8 +347,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechCargoAttachments
-  name: "Постачальник навісного обладнання Aegis Armaments"
-  description: "Автоматизований стелаж для постачання, під'єднаний до великого сховища збройового приладдя. Доступ до нього мають офіцер по роботі з заявками та вантажники."
+  name: Aegis Armaments attachments vendor
+  description: An automated supply rack hooked up to a big storage of weapons attachments. Can be accessed by the Requisitions Officer and Cargo Techs.
   components:
   - type: AccessReader
     access:
@@ -431,8 +431,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechCargoUniform
-  name: "Постачальник надлишкової уніформи ColMarTech"
-  description: "Автоматизований стелаж, під'єднаний до великого сховища стандартної морської форми. Доступ до нього мають офіцер по роботі з заявками та вантажний технік."
+  name: ColMarTech surplus uniform vendor
+  description: An automated supply rack hooked up to a big storage of standard marine uniforms. Can be accessed by the Requisitions Officer and Cargo Techs.
   components:
   - type: AccessReader
     access:

@@ -1,7 +1,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerCorpse
-  name: "Трупний спайдер - невідомий"
+  name: Corpse Spawner - Unknown
   suffix: RMC
   components:
   - type: Sprite

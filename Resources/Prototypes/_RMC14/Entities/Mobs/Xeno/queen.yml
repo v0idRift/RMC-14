@@ -4,8 +4,8 @@
   - CMXenoTail
   - RMCXenoSpeechSounds
   id: CMXenoQueen
-  name: "Королева"
-  description: "Величезна, загрозлива інопланетна істота. Найбільше і найстрашніше."
+  name: Queen
+  description: A huge, looming alien creature. The biggest and the baddest.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-queen

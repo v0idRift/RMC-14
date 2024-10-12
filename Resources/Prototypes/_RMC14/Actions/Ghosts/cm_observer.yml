@@ -1,7 +1,7 @@
 - type: entity
   id: ActionToggleMarineHud
-  name: "Ввімкнути морську піхоту"
-  description: "Перемикайте морські іконки."
+  name: Toggle Marine Hud
+  description: Toggle marine icons.
   components:
   - type: InstantAction
     checkCanInteract: false
@@ -15,8 +15,8 @@
 
 - type: entity
   id: ActionToggleXenoHud
-  name: "Ввімкнути Xeno Hud"
-  description: "Перемикайте ксеноздоров'я та плазмові батончики."
+  name: Toggle Xeno Hud
+  description: Toggle xeno health and plasma bars.
   components:
   - type: InstantAction
     checkCanInteract: false
