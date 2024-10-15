@@ -35,7 +35,7 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerScrapCommon
-  name: Salvage Scrap Spawner
+  name: "Спайдер для утилізації металобрухту"
   suffix: Common, 50%
   components:
   - type: Sprite
@@ -96,7 +96,7 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerScrapValuable
-  name: Salvage Scrap Spawner
+  name: "Спайдер для утилізації металобрухту"
   suffix: Valuable, 50%
   components:
   - type: Sprite
@@ -124,7 +124,7 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerTreasure
-  name: Salvage Treasure Spawner
+  name: "Salvage Treasure Sproner"
   suffix: Common, 75%
   components:
   - type: Sprite
@@ -184,7 +184,7 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerTreasureValuable
-  name: Salvage Treasure Spawner
+  name: "Salvage Treasure Sproner"
   suffix: Valuable, 75%
   components:
   - type: Sprite
@@ -249,7 +249,7 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerEquipment
-  name: Salvage Equipment Spawner
+  name: "Рятувальне обладнання Spawner"
   suffix: Common, 75%
   components:
   - type: Sprite
@@ -303,7 +303,7 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerEquipmentValuable
-  name: Salvage Equipment Spawner
+  name: "Рятувальне обладнання Spawner"
   suffix: Valuable, 75%
   components:
   - type: Sprite
@@ -361,7 +361,7 @@
           tableId: SyndieMaintLoot
 
 - type: entity
-  name: Salvage Canister Spawner
+  name: "Спайдер для рятувальних каністр"
   id: SalvageCanisterSpawner
   parent: MarkerBase
   components:
@@ -405,7 +405,7 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerMobMagnet
-  name: Salvage Magnet Mob Spawner
+  name: "Спайдер спасительного магнітного мобу"
   suffix: 50%
   components:
   - type: Sprite
@@ -441,7 +441,7 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerMobShark
-  name: Salvage Sharkminnow Spawner
+  name: "Рятувальний нерестовик Sharkminnow Sprender"
   components:
   - type: Sprite
     layers:

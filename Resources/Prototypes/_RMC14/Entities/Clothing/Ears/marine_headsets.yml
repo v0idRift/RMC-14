@@ -8,8 +8,8 @@
 - type: entity
   parent: RMCHeadsetMarine
   id: CMHeadsetAlpha
-  name: marine alpha radio headset
-  description: This is used by Alpha squad members.
+  name: "морська радіогарнітура alpha"
+  description: "Ним користуються бійці загону \"Альфа\"."
   components:
   - type: Sprite
     state: alpha_headset
@@ -22,8 +22,8 @@
 - type: entity
   parent: CMHeadsetAlpha
   id: CMHeadsetAlphaLeader
-  name: marine alpha leader radio headset
-  description: This is used by the marine Alpha squad leader.
+  name: "морська радіогарнітура alpha leader"
+  description: "Ним користується командир підрозділу морської піхоти \"Альфа\"."
   components:
   - type: ContainerFill
     containers:
@@ -35,8 +35,8 @@
 - type: entity
   parent: CMHeadsetAlpha
   id: CMHeadsetAlphaTeamLeader
-  name: marine alpha team leader radio headset
-  description: This is used by the marine Alpha team leader.
+  name: "радіогарнітура лідера морської альфа-команди"
+  description: "Ним користується командир морської піхоти \"Альфа\"."
   components:
   - type: ContainerFill
     containers:
@@ -48,8 +48,8 @@
 - type: entity
   parent: CMHeadsetAlpha
   id: CMHeadsetAlphaEngineer
-  name: marine alpha engineer radio headset
-  description: This is used by the marine Alpha combat engineers.
+  name: "морська радіогарнітура alpha engineer"
+  description: "Ним користуються бойові інженери морської піхоти \"Альфа\"."
   components:
   - type: ContainerFill
     containers:
@@ -61,8 +61,8 @@
 - type: entity
   parent: CMHeadsetAlpha
   id: CMHeadsetAlphaMedic
-  name: marine alpha corpsman radio headset
-  description: This is used by the marine Alpha combat medics.
+  name: "радіогарнітура морського санітара alpha corpsman"
+  description: "Ним користуються бойові медики морської піхоти \"Альфа\"."
   components:
   - type: ContainerFill
     containers:
@@ -76,8 +76,8 @@
 - type: entity
   parent: RMCHeadsetMarine
   id: CMHeadsetBravo
-  name: marine bravo radio headset
-  description: This is used by Bravo squad members.
+  name: "радіогарнітура marine bravo"
+  description: "Ним користуються бійці загону \"Браво\"."
   components:
   - type: Sprite
     state: bravo_headset
@@ -90,8 +90,8 @@
 - type: entity
   parent: CMHeadsetBravo
   id: CMHeadsetBravoLeader
-  name: marine bravo leader radio headset
-  description: This is used by the marine Bravo squad leader.
+  name: "радіогарнітура marine bravo leader"
+  description: "Ним користується командир підрозділу морської піхоти \"Браво\"."
   components:
   - type: ContainerFill
     containers:
@@ -103,8 +103,8 @@
 - type: entity
   parent: CMHeadsetBravo
   id: CMHeadsetBravoTeamLeader
-  name: marine bravo team leader radio headset
-  description: This is used by the marine Bravo team leader.
+  name: "радіогарнітура marine bravo team leader"
+  description: "Ним користується командир морської піхоти \"Браво\"."
   components:
   - type: ContainerFill
     containers:
@@ -116,8 +116,8 @@
 - type: entity
   parent: CMHeadsetBravo
   id: CMHeadsetBravoEngineer
-  name: marine bravo engineer radio headset
-  description: This is used by the marine Bravo combat engineers.
+  name: "морська радіогарнітура Bravo Engineer"
+  description: "Ним користуються бойові інженери морської піхоти \"Браво\"."
   components:
   - type: ContainerFill
     containers:
@@ -129,8 +129,8 @@
 - type: entity
   parent: CMHeadsetBravo
   id: CMHeadsetBravoMedic
-  name: marine bravo corpsman radio headset
-  description: This is used by the marine Bravo combat medics.
+  name: "морська радіогарнітура Bravo Corpsman"
+  description: "Ним користуються бойові медики морської піхоти \"Браво\"."
   components:
   - type: ContainerFill
     containers:
@@ -144,8 +144,8 @@
 - type: entity
   parent: RMCHeadsetMarine
   id: CMHeadsetCharlie
-  name: marine charlie radio headset
-  description: This is used by Charlie squad members.
+  name: "радіогарнітура морський чарлі"
+  description: "Цим користуються члени загону \"Чарлі\"."
   components:
   - type: Sprite
     state: charlie_headset
@@ -158,8 +158,8 @@
 - type: entity
   parent: CMHeadsetCharlie
   id: CMHeadsetCharlieLeader
-  name: marine charlie leader radio headset
-  description: This is used by the marine Charlie squad leader.
+  name: "радіогарнітура морського піхотинця Чарлі Лідера"
+  description: "Цим користується командир відділення морпіх Чарлі."
   components:
   - type: ContainerFill
     containers:
@@ -171,8 +171,8 @@
 - type: entity
   parent: CMHeadsetCharlie
   id: CMHeadsetCharlieTeamLeader
-  name: marine charlie team leader radio headset
-  description: This is used by the marine Charlie team leader.
+  name: "радіогарнітура \"морський піхотинець Чарлі"
+  description: "Цим користується командир групи морпіхів Чарлі."
   components:
   - type: ContainerFill
     containers:
@@ -184,8 +184,8 @@
 - type: entity
   parent: CMHeadsetCharlie
   id: CMHeadsetCharlieEngineer
-  name: marine charlie engineer radio headset
-  description: This is used by the marine Charlie combat engineers.
+  name: "морська інженерна радіогарнітура charlie"
+  description: "Цим користуються бойові інженери морської піхоти \"Чарлі\"."
   components:
   - type: ContainerFill
     containers:
@@ -197,8 +197,8 @@
 - type: entity
   parent: CMHeadsetCharlie
   id: CMHeadsetCharlieMedic
-  name: marine charlie corpsman radio headset
-  description: This is used by the marine Charlie combat medics.
+  name: "радіогарнітура морського піхотинця charlie corpsman"
+  description: "Ним користуються бойові медики морської піхоти \"Чарлі\"."
   components:
   - type: ContainerFill
     containers:
@@ -212,8 +212,8 @@
 - type: entity
   parent: RMCHeadsetMarine
   id: CMHeadsetDelta
-  name: marine delta radio headset
-  description: This is used by Delta squad members.
+  name: "морська дельта-радіогарнітура"
+  description: "Ним користуються члени загону \"Дельта\"."
   components:
   - type: Sprite
     state: delta_headset
@@ -226,8 +226,8 @@
 - type: entity
   parent: CMHeadsetDelta
   id: CMHeadsetDeltaLeader
-  name: marine delta leader radio headset
-  description: This is used by the marine Delta squad leader.
+  name: "морська радіогарнітура delta leader"
+  description: "Цим користується командир морського загону \"Дельта\"."
   components:
   - type: ContainerFill
     containers:
@@ -239,8 +239,8 @@
 - type: entity
   parent: CMHeadsetDelta
   id: CMHeadsetDeltaTeamLeader
-  name: marine delta team leader radio headset
-  description: This is used by the marine Delta team leader.
+  name: "радіогарнітура морського лідера команди \"Дельта"
+  description: "Цим користується керівник морської команди \"Дельта\"."
   components:
   - type: ContainerFill
     containers:
@@ -252,8 +252,8 @@
 - type: entity
   parent: CMHeadsetDelta
   id: CMHeadsetDeltaEngineer
-  name: marine delta engineer radio headset
-  description: This is used by the marine Delta combat engineers.
+  name: "морська дельта-гарнітура для інженерів"
+  description: "Ним користуються бойові інженери морської піхоти \"Дельта\"."
   components:
   - type: ContainerFill
     containers:
@@ -265,8 +265,8 @@
 - type: entity
   parent: CMHeadsetDelta
   id: CMHeadsetDeltaMedic
-  name: marine delta corpsman radio headset
-  description: This is used by the marine Delta combat medics.
+  name: "морська дельта-гарнітура морського санітара"
+  description: "Ним користуються бойові медики морської піхоти \"Дельта\"."
   components:
   - type: ContainerFill
     containers:
@@ -280,8 +280,8 @@
 - type: entity
   parent: RMCHeadsetMarine
   id: CMHeadsetEcho
-  name: marine echo radio headset
-  description: This is used by Echo squad members.
+  name: "морська ехо-радіогарнітура"
+  description: "Ним користуються члени загону \"Ехо\"."
   components:
   - type: Sprite
     state: echo_headset
@@ -294,8 +294,8 @@
 - type: entity
   parent: CMHeadsetEcho
   id: CMHeadsetEchoLeader
-  name: marine echo leader radio headset
-  description: This is used by the marine Echo squad leader.
+  name: "морська радіогарнітура Echo Leader"
+  description: "Ним користується командир загону морської піхоти \"Ехо\"."
   components:
   - type: ContainerFill
     containers:
@@ -307,8 +307,8 @@
 - type: entity
   parent: CMHeadsetEcho
   id: CMHeadsetEchoTeamLeader
-  name: marine echo team leader radio headset
-  description: This is used by the marine Echo team leader.
+  name: "радіогарнітура лідера морської ехокоманди"
+  description: "Ним користується керівник морської команди \"Ехо\"."
   components:
   - type: ContainerFill
     containers:
@@ -320,8 +320,8 @@
 - type: entity
   parent: CMHeadsetEcho
   id: CMHeadsetEchoEngineer
-  name: marine echo engineer radio headset
-  description: This is used by the marine Echo combat engineers.
+  name: "радіогарнітура морського ехолота"
+  description: "Цим користуються морські інженери \"Ехо\"."
   components:
   - type: ContainerFill
     containers:
@@ -333,8 +333,8 @@
 - type: entity
   parent: CMHeadsetEcho
   id: CMHeadsetEchoMedic
-  name: marine echo corpsman radio headset
-  description: This is used by the marine Echo combat medics.
+  name: "радіогарнітура морського ехолота"
+  description: "Ним користуються бойові медики морської піхоти \"Ехо\"."
   components:
   - type: ContainerFill
     containers:
@@ -348,8 +348,8 @@
 - type: entity
   parent: RMCHeadsetMarine
   id: CMHeadsetFoxtrot
-  name: marine foxtrot radio headset
-  description: This is used by Foxtrot squad members.
+  name: "радіогарнітура морський фокстрот"
+  description: "Ним користуються бійці загону \"Фокстрот\"."
   components:
   - type: Sprite
     state: cryo_headset
@@ -362,8 +362,8 @@
 - type: entity
   parent: CMHeadsetFoxtrot
   id: CMHeadsetFoxtrotLeader
-  name: marine foxtrot leader radio headset
-  description: This is used by the marine Foxtrot squad leader.
+  name: "радіогарнітура marine foxtrot leader"
+  description: "Цим користується командир відділення морських піхотинців \"Фокстрот\"."
   components:
   - type: ContainerFill
     containers:
@@ -375,8 +375,8 @@
 - type: entity
   parent: CMHeadsetFoxtrot
   id: CMHeadsetFoxtrotTeamLeader
-  name: marine foxtrot team leader radio headset
-  description: This is used by the marine Foxtrot team leader.
+  name: "радіогарнітура \"морський фокстрот"
+  description: "Цим користується командир морської піхоти \"Фокстрот\"."
   components:
   - type: ContainerFill
     containers:
@@ -388,8 +388,8 @@
 - type: entity
   parent: CMHeadsetFoxtrot
   id: CMHeadsetFoxtrotEngineer
-  name: marine foxtrot engineer radio headset
-  description: This is used by the marine Foxtrot combat engineers.
+  name: "морська інженерна радіогарнітура \"морський фокстрот"
+  description: "Ним користуються бойові інженери морської піхоти \"Фокстрот\"."
   components:
   - type: ContainerFill
     containers:
@@ -401,8 +401,8 @@
 - type: entity
   parent: CMHeadsetFoxtrot
   id: CMHeadsetFoxtrotMedic
-  name: marine foxtrot corpsman radio headset
-  description: This is used by the marine Foxtrot combat medics.
+  name: "радіогарнітура морський фокстрот санітара"
+  description: "Ним користуються бойові медики морської піхоти \"Фокстрот\"."
   components:
   - type: ContainerFill
     containers:

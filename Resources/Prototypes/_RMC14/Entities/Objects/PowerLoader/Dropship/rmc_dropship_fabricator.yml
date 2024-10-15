@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseMachinePowered
   id: RMCDropshipFabricator
-  name: dropship part fabricator
-  description: A large automated 3D printer for producing dropship parts. # You can recycle parts or ammo in it, and get 80% of your points back, by clicking it while holding them in a powerloader claw. # TODO RMC14
+  name: "виробник деталей для дропшиппінгу"
+  description: "Великий автоматизований 3D-принтер для виготовлення деталей для дропшиппінгу." # You can recycle parts or ammo in it, and get 80% of your points back, by clicking it while holding them in a powerloader claw. # TODO RMC14
   components:
   - type: Corrodible
     isCorrodible: false

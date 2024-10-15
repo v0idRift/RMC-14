@@ -3,7 +3,7 @@
   parent: BaseMobSpecies
   id: CMBaseMobSpeciesOrganic
   abstract: true
-  name: Urist C.M. McHands
+  name: "Уріст К.М. МакХендс"
   suffix: RMC14
   components:
   - type: Fixtures

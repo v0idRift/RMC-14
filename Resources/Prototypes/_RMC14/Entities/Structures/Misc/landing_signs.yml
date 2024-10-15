@@ -2,8 +2,8 @@
   parent: CMBaseStructureCorrodible
   abstract: true
   id: RMCBaseLandingSign
-  name: sign
-  description: A sign.
+  name: "знак"
+  description: "Знак."
   components:
   - type: Transform
     anchored: false
@@ -18,8 +18,8 @@
 - type: entity
   parent: RMCBaseLandingSign
   id: RMCLazarusLandingSign
-  name: Lazarus landing sign
-  description: A large sign reading 'lazarus landing por-' the rest of it is smeared in blood.
+  name: "Знак приземлення Лазаря"
+  description: "Велика вивіска з написом \"Лазар приземляється в порту\", решта вимазана кров'ю."
   components:
   - type: Sprite
     state: laz_sign
@@ -27,8 +27,8 @@
 - type: entity
   parent: RMCBaseLandingSign
   id: RMCSolarisRidgeSign
-  name: Solaris Ridge sign
-  description: A large sign that reads 'Solaris Ridge -', the rest of it is scraped away.
+  name: "Знак хребта Соляріс"
+  description: "Велика вивіска з написом \"Хребет Соляріс\", решта зішкрябана."
   components:
   - type: Sprite
     state: red_sign
@@ -36,8 +36,8 @@
 - type: entity
   parent: RMCBaseLandingSign
   id: RMCPrisonSign
-  name: UA Prison Docking sign
-  description: A large sign that reads 'UA Prison Docking -', the rest of it is obscured by claw marks.
+  name: "UA В'язничний швартовний знак"
+  description: "Велика вивіска з написом \"UA Prison Docking -\", решта закрита слідами від кігтів."
   components:
   - type: Sprite
     state: prison_sign
@@ -45,8 +45,8 @@
 - type: entity
   parent: RMCBaseLandingSign
   id: RMCShivaIceSign
-  name: Shiva's Ice landing sign
-  description: A large sign that reads 'Shiva's Ice L-nding -', bullet holes and torn metal obscure the rest of the signage.
+  name: "Знак приземлення \"Крига Шиви"
+  description: "Велика вивіска з написом \"Ice L-nding Shiva's Ice L-nding -\", дірки від куль і розірваний метал затьмарюють решту вивісок."
   components:
   - type: Sprite
     state: ice_sign
@@ -54,8 +54,8 @@
 - type: entity
   parent: RMCBaseLandingSign
   id: RMCTrijentSign
-  name: Trijent landing sign
-  description: A large sign that reads 'Trijent mining col-', with the rest being obscured by what looks to be dried blood, and damage.
+  name: "Посадковий знак Trijent"
+  description: "Велика вивіска з написом \"Trijent mining col-\", решту закривають засохлі сліди крові та пошкодження."
   components:
   - type: Sprite
     state: dam_sign
@@ -63,7 +63,7 @@
 - type: entity
   parent: RMCTrijentSign
   id: RMCTrijentSignAlt
-  description: A large sign that reads 'Trijent mining colony', with half the sign written in Japanese.
+  description: "Велика вивіска з написом \"Шахтарська колонія Тріджент\", половина вивіски написана японською мовою."
   components:
   - type: Sprite
     state: dam_sign_2
@@ -71,8 +71,8 @@
 - type: entity
   parent: RMCBaseLandingSign
   id: RMCSorokyneSign
-  name: Sorokyne landing sign
-  description: A large sign that reads 'Sorokyne - СОРОКІНО - POP. 110' The Company logo is proudly emblazoned in the corner. Don't eat the resin coated snow.
+  name: "Посадочний знак \"Сорокине"
+  description: "Велика вивіска з написом \"Сорокине - СОРОКІНО - POP. 110\" Логотип компанії гордо красується в кутку. Не їжте сніг, покритий смолою."
   components:
   - type: Sprite
     state: sorokyne_1
@@ -80,7 +80,7 @@
 - type: entity
   parent: RMCSorokyneSign
   id: RMCSorokyneSignAlt
-  description: A large sign that reads 'Sorokyne - СОРОКІНО - POP. 110' The Company logo is proudly emblazoned in the corner. Someone has crudely written 'FUCK OFF' in teal paint across the majority of the sign.
+  description: "Велика вивіска з написом \"Сорокине - СОРОКІНО - POP. 110\" Логотип компанії гордо красується в кутку. На більшій частині вивіски хтось грубо написав бірюзовою фарбою \"FUCK OFF\"."
   components:
   - type: Sprite
     state: sorokyne
@@ -88,8 +88,8 @@
 - type: entity
   parent: RMCBaseLandingSign
   id: RMCNewVaraderoSign
-  name: New Varadero landing sign
-  description: A large sign that reads 'New Varadero'. Its always sunny here!
+  name: "Новий посадковий знак Варадеро"
+  description: "Велика вивіска з написом \"Новий Варадеро\". Тут завжди сонячно!"
   components:
   - type: Sprite
     state: new_varadero
@@ -97,8 +97,8 @@
 - type: entity
   parent: RMCBaseLandingSign
   id: RMCFortBicepSign
-  name: Fort Bicep sign
-  description: A large sign that reads 'Fort Bicep, T-COMMS'.
+  name: "Знак Форт Біцепс"
+  description: "Велика вивіска з написом \"Форт Біцепс, T-COMMS\"."
   components:
   - type: Sprite
     state: fort_biceps

@@ -3,7 +3,7 @@
   abstract: true
   parent: CMMREComponentBase
   id: CMMRESideComponentBase
-  description: An MRE side component. Contains a side, to be eaten alongside the main.
+  description: "Побічний компонент MRE. Містить гарнір, який можна їсти разом з основним продуктом."
   components:
   - type: Sprite
     state: side
@@ -11,8 +11,8 @@
 - type: entity
   parent: CMMRESideComponentBase
   id: CMMREComponentCracker
-  name: MRE component (cracker)
-  description: An MRE side component. Contains a side, to be eaten alongside the main. This one is a cracker.
+  name: "Компонент MRE (сухарі)"
+  description: "Побічний компонент MRE. Містить гарнір, який їдять разом з основним продуктом. Це крекер."
   components:
   - type: SpawnItemsOnUse
     items:
@@ -21,8 +21,8 @@
 - type: entity
   parent: CMMRESideComponentBase
   id: CMMREComponentRiceOnigiri
-  name: MRE component (rice onigiri)
-  description: An MRE side component. Contains a side, to be eaten alongside the main. This one is rice onigiri.
+  name: "Компонент MRE (рисові онігірі)"
+  description: "Побічний компонент MRE. Містить гарнір, який їдять разом з основною стравою. Це рисові оніґірі."
   components:
   - type: SpawnItemsOnUse
     items:
@@ -31,8 +31,8 @@
 - type: entity
   parent: CMMRESideComponentBase
   id: CMMREComponentMashedPotatoes
-  name: MRE component (mashed potatoes)
-  description: An MRE side component. Contains a side, to be eaten alongside the main. This one is mashed potatoes.
+  name: "Компонент MRE (картопляне пюре)"
+  description: "Побічний компонент MRE. Містить гарнір, який їдять разом з основною стравою. Це картопляне пюре."
   components:
   - type: SpawnItemsOnUse
     items:
@@ -41,8 +41,8 @@
 - type: entity
   parent: CMMRESideComponentBase
   id: CMMREComponentRisotto
-  name: MRE component (risotto)
-  description: An MRE side component. Contains a side, to be eaten alongside the main. This one is risotto.
+  name: "Компонент MRE (різотто)"
+  description: "Побічний компонент MRE. Містить гарнір, який їдять разом з основною стравою. Це різотто."
   components:
   - type: SpawnItemsOnUse
     items:
@@ -69,8 +69,8 @@
 - type: entity
   parent: CMMREFoodSide
   id: CMMREFoodCracker
-  name: cracker
-  description: The contents of a Marine Standard issue MRE. This one is a cracker.
+  name: "крекер"
+  description: "Вміст морського стандартного набору MRE. Цей - просто чудовий."
   components:
   - type: Sprite
     state: cracker
@@ -81,8 +81,8 @@
 - type: entity
   parent: CMMREFoodSide
   id: CMMREFoodRiceOnigiri
-  name: rice onigiri
-  description: The contents of a Marine Standard issue MRE. This one is rice onigiri.
+  name: "рисове онігірі"
+  description: "Вміст сухпайку морського стандарту. Це рисові онігірі."
   components:
   - type: Sprite
     state: rice_onigiri
@@ -93,8 +93,8 @@
 - type: entity
   parent: CMMREFoodSide
   id: CMMREFoodMashedPotatoes
-  name: mashed potatoes
-  description: The contents of a Marine Standard issue MRE. This one is mashed potatoes.
+  name: "картопляне пюре"
+  description: "Вміст сухпайка морського стандарту. Це картопляне пюре."
   components:
   - type: Sprite
     state: mashed_potatoes
@@ -105,8 +105,8 @@
 - type: entity
   parent: CMMREFoodSide
   id: CMMREFoodRisotto
-  name: risotto
-  description: The contents of a Marine Standard issue MRE. This one is risotto.
+  name: "різотто"
+  description: "Вміст сухпайка морського стандарту. Це різотто."
   components:
   - type: Sprite
     state: risotto
@@ -118,19 +118,19 @@
 - type: flavor
   id: Cracker
   flavorType: Complex
-  description: like crackers
+  description: "як крекери"
 
 - type: flavor
   id: RiceOnigiri
   flavorType: Complex
-  description: like rice
+  description: "як рис"
 
 - type: flavor
   id: Potato
   flavorType: Complex
-  description: like potatoes
+  description: "як картопля"
 
 - type: flavor
   id: Risotto
   flavorType: Complex
-  description: like risotto
+  description: "як різотто"

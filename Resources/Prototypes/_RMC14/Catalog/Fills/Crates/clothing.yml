@@ -1,7 +1,7 @@
 - type: entity
   id: RMCCrateClothingLargePouches
   parent: RMCCrateWeldable
-  name: large pouches crate (2x Pistol, Magazine, General)
+  name: "ящик для великих підсумків (2х пістолетних, магазинних, загальних)"
   components:
   - type: StorageFill
     contents:
@@ -15,7 +15,7 @@
 - type: entity
   id: RMCCrateClothingMedicalPouches
   parent: RMCCrateWeldable
-  name: medical pouches crate (1x firstaid, medical, syringe, medkit)
+  name: "ящик з медичними сумками (1x аптечка, медична, шприц, медикаменти)"
   components:
   - type: StorageFill
     contents:
@@ -33,7 +33,7 @@
 - type: entity
   id: RMCCrateClothingWebbing
   parent: RMCCrateWeldable
-  name: webbing crate (x4)
+  name: "решітчастий ящик (x4)"
   components:
   - type: StorageFill
     contents:
@@ -43,7 +43,7 @@
 - type: entity
   id: RMCCrateClothingWebbingPouch
   parent: RMCCrateWeldable
-  name: drop pouch crate (x4)
+  name: "ящик для піддонів (x4)"
   components:
   - type: StorageFill
     contents:
@@ -53,7 +53,7 @@
 - type: entity
   id: RMCCrateClothingOfficerOutfit
   parent: RMCCrateWeldable
-  name: officer outfit crate
+  name: "ящик для офіцерського обмундирування"
   components:
   - type: StorageFill
     contents:
