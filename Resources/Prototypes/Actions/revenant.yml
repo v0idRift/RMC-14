@@ -1,7 +1,7 @@
 - type: entity
   id: ActionRevenantShop
-  name: "Магазин"
-  description: "Відкриває крамницю здібностей."
+  name: Shop
+  description: Opens the ability shop.
   components:
   - type: InstantAction
     icon: Interface/Actions/shop.png
@@ -9,8 +9,8 @@
 
 - type: entity
   id: ActionRevenantDefile
-  name: "Дефіле"
-  description: "Коштує 30 есенції."
+  name: Defile
+  description: Costs 30 Essence.
   components:
   - type: InstantAction
     icon: Interface/Actions/defile.png
@@ -19,8 +19,8 @@
 
 - type: entity
   id: ActionRevenantOverloadLights
-  name: "Індикатори перевантаження"
-  description: "Коштує 40 есенції."
+  name: Overload Lights
+  description: Costs 40 Essence.
   components:
   - type: InstantAction
     icon: Interface/Actions/overloadlight.png
@@ -39,8 +39,8 @@
 
 - type: entity
   id: ActionRevenantMalfunction
-  name: "Несправність"
-  description: "Коштує 60 есенції."
+  name: Malfunction
+  description: Costs 60 Essence.
   components:
   - type: InstantAction
     icon: Interface/Actions/malfunction.png

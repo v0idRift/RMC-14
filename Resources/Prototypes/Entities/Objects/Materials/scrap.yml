@@ -2,8 +2,8 @@
   parent: BaseItem
   id: BaseScrap
   abstract: true
-  name: "брухт"
-  description: "Нікчемний мотлох. Хоча, можливо, з нього можна було б отримати якісь матеріали."
+  name: scrap
+  description: Worthless junk. You could probably get some materials out of it though.
   suffix: Scrap
   components:
   - type: Sprite
@@ -29,8 +29,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapSteel
-  name: "паля з вибухової сталі"
-  description: "Купа сталі, звареної в умовах екстремальної спеки. Загалом вона пристойного розміру, з неї, мабуть, можна було б отримати чималу кількість листів."
+  name: blasted steel pile
+  description: An pile of steel welded together in extreme heat. It's of a decent size overall; you could probably get a fair amount of sheets out of it.
   components:
   - type: Sprite
     layers:
@@ -53,8 +53,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapGlass
-  name: "лом схеми"
-  description: "Величезна купа різноманітних схем, дивним чином спаяних між собою. З цього, ймовірно, можна було б витягти якісь матеріали."
+  name: scrap circuitry
+  description: A huge lump of various circuits, strangely fused together. You could likely extract some materials out of this.
   components:
   - type: Sprite
     layers:
@@ -82,8 +82,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapAirlock1
-  name: "двері шлюзу"
-  description: "Раніше це тримало повітря всередині. Тепер, здається, вона взагалі нічого не робить."
+  name: airlock door
+  description: This used to keep air in. Now it doesn't seem to be doing anything at all.
   components:
   - type: Sprite
     layers:
@@ -105,8 +105,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapAirlock2
-  name: "світло шлюзу"
-  description: "За те, що весь час блимав червоним."
+  name: airlock light
+  description: Serves it right for flashing red all those times.
   components:
   - type: Sprite
     layers:
@@ -123,8 +123,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapBucket
-  name: "розбите відро"
-  description: "Боже мій..."
+  name: busted bucket
+  description: Dear god...
   components:
   - type: Sprite
     layers:
@@ -136,8 +136,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapCamera
-  name: "розбита камера"
-  description: "Можливо, він все ще спостерігає."
+  name: broken camera
+  description: It might still be watching.
   components:
   - type: Sprite
     layers:
@@ -150,8 +150,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapCanister1
-  name: "ручка каністри"
-  description: "Допомагає тримати каністру. Тепер вам потрібна лише сама каністра."
+  name: canister handle
+  description: Helpful for holding a canister. Now you just need the actual canister part.
   components:
   - type: Sprite
     layers:
@@ -163,8 +163,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapCanister2
-  name: "клапан каністри"
-  description: "Клапан від газового балончика."
+  name: canister valve
+  description: A valve from a gas canister.
   components:
   - type: Sprite
     layers:
@@ -178,8 +178,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapCloset
-  name: "двері шафи"
-  description: "Вибиті двері з підсобного приміщення. Виглядає як гарний настінний декор."
+  name: closet door
+  description: A blown off door from a maintenance closet. Looks like a nice piece of wall decor.
   components:
   - type: Sprite
     layers:
@@ -197,8 +197,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapFaxMachine
-  name: "факс"
-  description: "Нещасливий результат того, що до Центрального командування було надіслано забагато ASCII-артів."
+  name: fax machine
+  description: The unfortunate result of one too many ASCII arts being sent to Central Command.
   components:
   - type: Sprite
     layers:
@@ -213,8 +213,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapFireExtinguisher
-  name: "вогнегасник розщеплений"
-  description: "Велика дірка по центру змушує хвилюватися за попереднього користувача."
+  name: split fire extinguisher
+  description: The large gash down the center makes you worry for the previous user.
   components:
   - type: Sprite
     layers:
@@ -226,8 +226,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapFirelock1
-  name: "двері з протипожежним замком"
-  description: "Принаймні, ви все ще знаєте, для чого вона призначена."
+  name: firelock door
+  description: At least you still know what it's meant for.
   components:
   - type: Sprite
     layers:
@@ -243,8 +243,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapFirelock2
-  name: "двері з протипожежним замком"
-  description: "ОХ! Ось куди поділася друга половина!"
+  name: firelock door
+  description: OH! That's where the other half went!
   components:
   - type: Sprite
     layers:
@@ -260,7 +260,7 @@
 - type: entity
   parent: BaseScrap
   id: ScrapFirelock3
-  name: "рама брандспойта"
+  name: firelock frame
   components:
   - type: Sprite
     layers:
@@ -274,8 +274,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapIntercom
-  name: "брухт домофона"
-  description: "Хотілося б, щоб до нього додавалися хоча б ключі шифрування."
+  name: intercom scrap
+  description: You wish it at least came with some encryption keys.
   components:
   - type: Sprite
     layers:
@@ -296,8 +296,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapJetpack
-  name: "зламаний реактивний ранець"
-  description: "Схоже, він більше не буде літати."
+  name: busted jetpack
+  description: Looks like it won't be flying any more.
   components:
   - type: Sprite
     layers:
@@ -313,8 +313,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapMedkit
-  name: "розбита аптечка"
-  description: "Сподіваємось, вони отримали від цього користь."
+  name: snapped medkit
+  description: Hopefully they got some use out of it.
   components:
   - type: Sprite
     layers:
@@ -334,8 +334,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapMopBucket
-  name: "піввідра для швабри"
-  description: "Тайдери помирають. Прибиральники виживають."
+  name: half a mop bucket
+  description: Tiders die. Janitors survive.
   components:
   - type: Sprite
     layers:
@@ -349,8 +349,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapPAI
-  name: "персональний ай-пристрій"
-  description: "Друже! Ти ще там? Агов? Приятелю?"
+  name: personal ai device
+  description: A buddy! You still in there? Hello? Buddy???
   components:
   - type: Sprite
     layers:
@@ -365,8 +365,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapPAIGold
-  name: "позолочений персональний ai пристрій"
-  description: "Ого! Знахідка на мільйон! Вона могла б коштувати цілий статок... якби була в хорошому стані."
+  name: gilded personal ai device
+  description: Wow! What a one-in-a-million find! This would be worth a fortune... if it was in good condition.
   components:
   - type: Sprite
     layers:
@@ -381,8 +381,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapTube
-  name: "розбита пробірка для зразків"
-  description: "Скляна пробірка з якимось рідкісним зразком. Принаймні, колись містила. Зараз там мало що залишилося."
+  name: shattered sample tube
+  description: A glass tube containing some kind of rare sample. Or at least, it used to contain it. Not much left in there now.
   components:
   - type: Sprite
     layers:

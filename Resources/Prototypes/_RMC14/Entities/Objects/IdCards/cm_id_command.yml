@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: CMIDCardSilver
   id: CMIDCardStaffOfficer
-  name: "посвідчення штабного офіцера"
+  name: staff officer ID card
   components:
   - type: PresetIdCard
     job: CMStaffOfficer
@@ -9,7 +9,7 @@
 - type: entity
   parent: CMIDCardGold
   id: CMIDCardCommandingOfficer
-  name: "посвідчення особи командира"
+  name: commanding officer ID card
   components:
   - type: PresetIdCard
     job: CMCommandingOfficer
@@ -17,7 +17,7 @@
 - type: entity
   parent: CMIDCardSilver
   id: CMIDCardExecutiveOfficer
-  name: "посвідчення особи керівника"
+  name: executive officer ID card
   components:
   - type: PresetIdCard
     job: CMExecutiveOfficer
@@ -25,9 +25,9 @@
 - type: entity
   parent: IDCardStandard # Deliberately parenting off of upstream ID card cause it needs to work with admin access configurator.
   id: CMIDCardHighCommand
-  name: "посвідчення особи вищого командування"
+  name: high command ID card
   suffix: Admin
-  description: "Позолочений голографічний значок, призначений виключно для тих, хто має вищий ранг."
+  description: A gold-plated holo-badge reserved for those exclusively above your rank.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/CMIDs/gold_id.rsi

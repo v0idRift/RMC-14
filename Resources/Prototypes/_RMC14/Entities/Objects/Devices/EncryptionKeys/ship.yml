@@ -3,8 +3,8 @@
   abstract: true
   parent: BaseItem
   id: CMEncryptionKey
-  name: "стандартний ключ шифрування"
-  description: "Ключ шифрування для радіогарнітури."
+  name: standard encryption key
+  description: An encryption key for a radio headset.
   components:
   - type: EncryptionKey
   - type: Item
@@ -19,7 +19,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyCommon
-  name: "ключ шифрування громадського радіо"
+  name: public radio encryption Key
   components:
   - type: EncryptionKey
     channels:
@@ -32,7 +32,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyColony
-  name: "ключ шифрування колонії"
+  name: colony encryption Key
   components:
   - type: EncryptionKey
     channels:
@@ -45,7 +45,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyWEYA
-  name: "ми-я ключ шифрування"
+  name: we-ya encryption Key
   components:
   - type: EncryptionKey
     channels:
@@ -58,7 +58,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyCommand
-  name: "ключ шифрування команди"
+  name: command encryption Key
   components:
   - type: EncryptionKey
     channels:
@@ -71,7 +71,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: RMCEncryptionKeyHighCommand
-  name: "ключ шифрування високих команд"
+  name: high command encryption Key
   components:
   - type: EncryptionKey
     channels:
@@ -84,7 +84,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyJTAC
-  name: "Ключ радіошифрування JTAC"
+  name: JTAC radio encryption Key
   components:
   - type: EncryptionKey
     channels:
@@ -98,7 +98,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyIntel
-  name: "ключ шифрування радіосигналу intel"
+  name: intel radio encryption Key
   components:
   - type: EncryptionKey
     channels:
@@ -112,7 +112,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: RMCEncryptionKeySeniorCommand
-  name: "ключ шифрування радіозв'язку вищого командування морської піхоти"
+  name: marine senior command radio encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -137,7 +137,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: RMCEncryptionKeyMarineCommand
-  name: "ключ шифрування морського командного радіозв'язку"
+  name: marine command radio encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -185,7 +185,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyEngineer
-  name: "інженерний ключ шифрування"
+  name: engineering encryption Key
   components:
   - type: EncryptionKey
     channels:
@@ -198,7 +198,7 @@
 - type: entity
   parent: CMEncryptionKeyEngineer
   id: CMEncryptionKeyCE
-  name: "ключ шифрування головного інженера"
+  name: chief engineer's encryption Key
   components:
   - type: EncryptionKey
     channels:
@@ -216,7 +216,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyMedical
-  name: "медичний ключ шифрування"
+  name: medical encryption Key
   components:
   - type: EncryptionKey
     channels:
@@ -229,7 +229,7 @@
 - type: entity
   parent: CMEncryptionKeyMedical
   id: CMEncryptionKeyCMO
-  name: "ключ шифрування головного лікаря"
+  name: chief medical officer's encryption Key
   components:
   - type: EncryptionKey
     channels:
@@ -249,7 +249,7 @@
 - type: entity
   parent: CMEncryptionKeyMedical
   id: CMEncryptionKeyResearcher
-  name: "ключ шифрування дослідника"
+  name: researcher's encryption Key
   components:
   - type: EncryptionKey
     channels:
@@ -263,7 +263,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyMilitaryPolice
-  name: "ключ шифрування військової поліції"
+  name: military police encryption Key
   components:
   - type: EncryptionKey
     channels:
@@ -276,7 +276,7 @@
 - type: entity
   parent: CMEncryptionKeyMilitaryPolice
   id: CMEncryptionKeyCMP
-  name: "головний ключ шифрування військової поліції"
+  name: chief military police encryption Key
   components:
   - type: EncryptionKey
     channels:
@@ -299,7 +299,7 @@
 - type: entity
   parent: CMEncryptionKeyMilitaryPolice
   id: CMEncryptionKeyMPO
-  name: "ключ шифрування офіцера військової поліції"
+  name: military police officer's encryption Key
   components:
   - type: EncryptionKey
     channels:
@@ -321,7 +321,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyRequisition
-  name: "ключ шифрування запиту Ключ шифрування"
+  name: requisition encryption Key
   components:
   - type: EncryptionKey
     channels:
@@ -334,7 +334,7 @@
 - type: entity
   parent: CMEncryptionKeyRequisition
   id: RMCEncryptionKeyQuartermaster
-  name: "ключ шифрування запиту Ключ шифрування"
+  name: requisition encryption Key
   components:
   - type: EncryptionKey
     channels:
@@ -349,7 +349,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: RMCEncryptionKeyLiaison
-  name: "ключ шифрування радіостанції корпоративного зв'язку"
+  name: corporate liaison radio encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -368,7 +368,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyPilot
-  name: "ключ шифрування пілота"
+  name: pilot's encryption Key
   components:
   - type: EncryptionKey
     channels:
@@ -385,7 +385,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyIntelOfficer
-  name: "ключ шифрування офіцера розвідки"
+  name: intel officer's encryption Key
   components:
   - type: EncryptionKey
     channels:
@@ -402,7 +402,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyCrewman
-  name: "ключ шифрування екіпажу транспортного засобу"
+  name: vehicle crewman's encryption Key
   components:
   - type: EncryptionKey
     channels:
@@ -419,7 +419,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyMasterSquad
-  name: "ключ шифрування головного загону"
+  name: master squad encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -435,7 +435,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyMasterShip
-  name: "ключ шифрування головного корабля"
+  name: master ship encryption Key
   components:
   - type: EncryptionKey
     channels:

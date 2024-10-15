@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseStorageItem
   id: RMCBoxShotgunBase
-  name: "коробка набоїв для дробовика"
+  name: box of shotgun shells
   components:
   - type: Item
     size: Large
@@ -28,8 +28,8 @@
 - type: entity
   parent: RMCBoxShotgunBase
   id: RMCBoxShotgunBuckshot
-  name: "ящик патронів з картеччю"
-  description: "Ящик, наповнений картеччю, розкиданий дробовими гільзами. 12-й калібр."
+  name: box of buckshot shells
+  description: A box filled with buckshot spread shotgun shells. 12 Gauge.
   components:
   - type: Storage
     whitelist:
@@ -49,8 +49,8 @@
 - type: entity
   parent: RMCBoxShotgunBase
   id: RMCBoxShotgunSlugs
-  name: "коробка з набоями для дробовика"
-  description: "Ящик, наповнений важкими дробовими набоями. Вічна класика. 12-й калібр."
+  name: box of shotgun slugs
+  description: A box filled with heavy shotgun shells. A timeless classic. 12 Gauge.
   components:
   - type: Storage
     whitelist:
@@ -70,8 +70,8 @@
 - type: entity
   parent: RMCBoxShotgunBase
   id: RMCBoxShotgunIncendiary
-  name: "коробка із запалювальними кулями"
-  description: "Ящик, наповнений самопідривними запалювальними дробовими набоями. 12-й калібр."
+  name: box of incendiary slugs
+  description: A box filled with self-detonating incendiary shotgun rounds. 12 Gauge.
   components:
   - type: Storage
     whitelist:
@@ -91,8 +91,8 @@
 - type: entity
   parent: RMCBoxShotgunBase
   id: RMCBoxShotgunBeanbag
-  name: "коробка з кулями для бобових мішків"
-  description: "Ящик, наповнений набоями для дробовика, що використовується для несмертельної боротьби з натовпом. 12-й калібр."
+  name: box of beanbag slugs
+  description: A box filled with beanbag shotgun shells used for non-lethal crowd control. 12 Gauge.
   components:
   - type: Storage
     whitelist:
@@ -112,8 +112,8 @@
 - type: entity
   parent: RMCBoxShotgunBase
   id: RMCBoxShotgunFlechette
-  name: "коробка флешевих оболонок"
-  description: "Ящик, наповнений набоями для флешевих рушниць. 12-й калібр."
+  name: box of flechette shells
+  description: A box filled with flechette shotgun shells. 12 Gauge.
   components:
   - type: Storage
     whitelist:
@@ -133,8 +133,8 @@
 - type: entity
   parent: RMCBoxShotgunBase
   id: RMCBoxShotgunIncendiaryBuckshot
-  name: "ящик запалювальних картечі"
-  description: "Ящик, наповнений самодетонуючими картеччю запалювальними дробовими набоями для рушниці. 12-й калібр."
+  name: box of incendiary buckshots
+  description: A box filled with self-detonating buckshot incendiary shotgun rounds. 12 Gauge.
   components:
   - type: Storage
     whitelist:

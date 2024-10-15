@@ -6,8 +6,8 @@
   - CMXenoFlammable
   - RMCXenoSpeechSounds
   id: CMXenoPraetorianBase
-  name: "Преторіанський"
-  description: "Величезний, загрозливий інопланетний звір."
+  name: Praetorian
+  description: A huge, looming beast of an alien.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-praetorian

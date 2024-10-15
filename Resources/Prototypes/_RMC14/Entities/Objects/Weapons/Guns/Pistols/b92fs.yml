@@ -1,8 +1,8 @@
 - type: entity
   parent: CMWeaponPistolBase
   id: RMCWeaponPistolB92FS
-  name: "Беретта 92FS"
-  description: "Популярна поліцейська вогнепальна зброя у 20-му столітті, яку часто використовували круті копи під час боротьби з терористами. Класика свого часу, під набій .45 ACP. Зазвичай зустрічається в руках \"Уцілілих\" та Фронту визволення колоній."
+  name: Beretta 92FS
+  description: A popular police firearm in the 20th century, often employed by hard-boiled cops while confronting terrorists. A classic of its time, chambered with .45 ACP. Normally found in the hands of Survivors and the Colony Liberation Front.
   components:
   - type: RMCSelectiveFire
     scatterWielded: 8
@@ -53,7 +53,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: RMCMagazinePistolB92FS
-  name: "Магазин Beretta M92FS (9мм)"
+  name: Beretta M92FS magazine (9mm)
   components:
   - type: Tag
     tags:

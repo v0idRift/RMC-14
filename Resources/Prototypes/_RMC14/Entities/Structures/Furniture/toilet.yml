@@ -1,9 +1,9 @@
 - type: entity
   parent: SeatBase
   id: CMToiletEmpty
-  name: "туалет"
+  name: toilet
   suffix: Empty
-  description: "HT-451 - це пристрій для утилізації дрібного сміття, що працює на основі обертального моменту. Цей здається напрочуд чистим."
+  description: The HT-451, a torque rotation-based, waste disposal unit for small matter. This one seems remarkably clean.
   placement:
     mode: SnapgridCenter
     snap:

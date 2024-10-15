@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: MarkerBase
   id: RMCDropshipDoorBlocker
-  name: "блокіратор дверей для дропшиппінгу"
-  description: "Блокує барикади від втягування в дропшип."
+  name: dropship door blocker
+  description: Blocks barricades from being pulled into the dropship.
   components:
   - type: Transform
     anchored: true

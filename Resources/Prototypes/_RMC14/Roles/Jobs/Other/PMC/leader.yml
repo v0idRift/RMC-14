@@ -3,7 +3,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerPMCLeader
-  name: "Спайдер \"Ми-Я\" - лідер ПВК \"Лідер"
+  name: We-Ya PMC Leader spawner
   suffix: Spawner
   components:
     - type: Sprite
@@ -17,7 +17,7 @@
 
 - type: entity
   id: RMCRandomHumanoidPMCLeader
-  name: "Примарна роль лідера ПВК \"Ми-Я"
+  name: We-Ya PMC Leader ghost role
   suffix: Role
   components:
     - type: Sprite
