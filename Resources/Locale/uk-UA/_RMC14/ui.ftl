@@ -53,3 +53,5 @@ rmc-ui-shoutout-xeno = [bold]Надав допомогу вулику [color=pur
 
 rmc-ui-discord = Discord
 rmc-ui-patreon = Patreon
+
+rmc-other-credits-tab = Інше

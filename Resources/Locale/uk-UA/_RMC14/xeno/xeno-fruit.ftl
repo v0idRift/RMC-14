@@ -89,3 +89,6 @@ rmc-xeno-fruit-examine-grown = [color=darkgreen]повністю виріс[/col
 # Текст інтерфейсу
 rmc-xeno-fruit-ui-title = Вибрати смоляний фрукт
 rmc-xeno-fruit-ui-count = Посаджені фрукти: {$count}/{$max}
+
+rmc-xeno-fruit-wrong-hive = Це не з нашого вулика!
+rmc-xeno-fruit-feed-wrong-hive = {THE($target)} не з нашого вулика!
