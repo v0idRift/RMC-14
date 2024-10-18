@@ -14,8 +14,8 @@
     price: 0
 
 - type: entity
-  name: ointment
-  description: Used to treat those nasty burns. Less effective on caustic burns.
+  name: "мазь"
+  description: "Використовується для лікування неприємних опіків. Менш ефективний при опіках їдкими речовинами."
   parent: BaseHealingItem
   id: Ointment
   suffix: Full
@@ -65,8 +65,8 @@
     count: 10
 
 - type: entity
-  name: regenerative mesh
-  description: Used to treat even the nastiest burns. Also effective against caustic burns.
+  name: "регенеративна сітка"
+  description: "Використовується для лікування навіть найнеприємніших опіків. Також ефективний при опіках їдкими речовинами."
   parent: BaseHealingItem
   id: RegenerativeMesh
   suffix: Full
@@ -107,8 +107,8 @@
     count: 1
 
 - type: entity
-  name: bruise pack
-  description: A therapeutic gel pack and bandages designed to treat blunt-force trauma.
+  name: "пакет від синців"
+  description: "Лікувальний гель-пакет та бинти, призначені для лікування травм від ударів тупими предметами."
   parent: BaseHealingItem
   id: Brutepack
   suffix: Full
@@ -153,8 +153,8 @@
     count: 10
 
 - type: entity
-  name: medicated suture
-  description: A suture soaked in medicine, treats blunt-force trauma effectively and closes wounds.
+  name: "медикаментозний шов"
+  description: "Шов, просочений ліками, ефективно лікує травми від ударів тупими предметами та закриває рани."
   parent: BaseHealingItem
   id: MedicatedSuture
   suffix: Full
@@ -194,8 +194,8 @@
     count: 1
 
 - type: entity
-  name: blood pack
-  description: Contains a groundbreaking universal blood replacement created by Nanotrasen's advanced medical science.
+  name: "пакет крові"
+  description: "Містить революційний універсальний кровозамінник, створений передовою медичною наукою Nanotrasen."
   parent: BaseHealingItem
   id: Bloodpack
   suffix: Full
@@ -233,8 +233,8 @@
 - type: entity
   parent: BaseHealingItem
   id: Tourniquet
-  name: tourniquet
-  description: Stops bleeding! Hopefully.
+  name: "джгут"
+  description: "Зупиняє кровотечу! Сподіваюся."
   components:
     - type: Tag
       tags:
@@ -257,8 +257,8 @@
         path: "/Audio/Items/Medical/brutepack_end.ogg"
 
 - type: entity
-  name: roll of gauze
-  description: Some sterile gauze to wrap around bloody stumps.
+  name: "рулон марлі"
+  description: "Стерильну марлю, щоб обмотати закривавлені обрубки."
   parent: BaseHealingItem
   id: Gauze
   suffix: Full
@@ -307,8 +307,8 @@
     count: 10
 
 - type: entity
-  name: aloe cream
-  description: A topical cream for burns.
+  name: "крем з алое"
+  description: "Місцевий крем від опіків."
   parent: Ointment ##Yes it's a direct reskin
   id: AloeCream
   components:
@@ -322,8 +322,8 @@
 - type: entity
   parent: BaseHealingItem
   id: HealingToolbox
-  name: healing toolbox
-  description: A powerful toolbox imbued with robust energy. It can heal your wounds and fill you with murderous intent.
+  name: "інструментарій зцілення"
+  description: "Потужний набір інструментів, просякнутий сильною енергією. Він може зцілити ваші рани і наповнити вас вбивчим наміром."
   suffix: DO NOT MAP
   components:
   - type: Sprite
@@ -347,7 +347,7 @@
 
 # Pills
 - type: entity
-  name: pill
+  name: "таблетка (дексалін 10u)"
   suffix: Dexalin 10u
   parent: Pill
   id: PillDexalin
@@ -367,7 +367,7 @@
           Quantity: 10
 
 - type: entity
-  name: pill canister
+  name: "каністра з-під таблеток (дексалін 10u)"
   parent: PillCanister
   id: PillCanisterDexalin
   suffix: Dexalin 10u, 7
@@ -380,7 +380,7 @@
       amount: 7
 
 - type: entity
-  name: pill
+  name: "таблетка (дексалін 10u)"
   suffix: Dylovene 10u
   parent: Pill
   id: PillDylovene
@@ -400,7 +400,7 @@
           Quantity: 10
 
 - type: entity
-  name: pill canister
+  name: "каністра з-під таблеток (дексалін 10u)"
   parent: PillCanister
   id: PillCanisterDylovene
   suffix: Dylovene 10u, 5
@@ -413,7 +413,7 @@
       amount: 5
 
 - type: entity
-  name: pill
+  name: "таблетка (дексалін 10u)"
   suffix: Hyronalin 10u
   parent: Pill
   id: PillHyronalin
@@ -433,7 +433,7 @@
           Quantity: 10
 
 - type: entity
-  name: pill canister
+  name: "каністра з-під таблеток (дексалін 10u)"
   parent: PillCanister
   id: PillCanisterHyronalin
   suffix: Hyronalin 10u, 5
@@ -446,7 +446,7 @@
       amount: 5
 
 - type: entity
-  name: pill
+  name: "таблетка (дексалін 10u)"
   suffix: Potassium iodide 10u
   parent: Pill
   id: PillPotassiumIodide
@@ -466,7 +466,7 @@
           Quantity: 10
 
 - type: entity
-  name: pill canister
+  name: "каністра з-під таблеток (дексалін 10u)"
   parent: PillCanister
   id: PillCanisterPotassiumIodide
   suffix: Potassium iodide 10u, 5
@@ -479,7 +479,7 @@
       amount: 5
 
 - type: entity
-  name: pill
+  name: "таблетка (дексалін 10u)"
   suffix: Iron 10u
   parent: Pill
   id: PillIron
@@ -499,7 +499,7 @@
           Quantity: 10
 
 - type: entity
-  name: pill
+  name: "таблетка (дексалін 10u)"
   suffix: Copper 10u
   parent: Pill
   id: PillCopper
@@ -519,7 +519,7 @@
           Quantity: 10
 
 - type: entity
-  name: pill canister
+  name: "каністра з-під таблеток (дексалін 10u)"
   parent: PillCanister
   id: PillCanisterIron
   suffix: Iron 10u, 5
@@ -532,7 +532,7 @@
       amount: 5
 
 - type: entity
-  name: pill canister
+  name: "каністра з-під таблеток (дексалін 10u)"
   parent: PillCanister
   id: PillCanisterCopper
   suffix: Copper 10u, 5
@@ -545,7 +545,7 @@
       amount: 5
 
 - type: entity
-  name: pill
+  name: "таблетка (дексалін 10u)"
   suffix: Kelotane 10u
   parent: Pill
   id: PillKelotane
@@ -565,7 +565,7 @@
           Quantity: 10
 
 - type: entity
-  name: pill canister
+  name: "каністра з-під таблеток (дексалін 10u)"
   parent: PillCanister
   id: PillCanisterKelotane
   suffix: Kelotane 10u, 5
@@ -578,7 +578,7 @@
       amount: 5
 
 - type: entity
-  name: pill
+  name: "таблетка (дексалін 10u)"
   suffix: Dermaline 10u
   parent: Pill
   id: PillDermaline
@@ -598,7 +598,7 @@
           Quantity: 10
 
 - type: entity
-  name: pill canister
+  name: "каністра з-під таблеток (дексалін 10u)"
   parent: PillCanister
   id: PillCanisterDermaline
   suffix: Dermaline 10u, 5
@@ -611,7 +611,7 @@
       amount: 5
 
 - type: entity
-  name: space mirage
+  name: "космічні наркотики"
   parent: Pill
   id: PillSpaceDrugs
   components:
@@ -624,7 +624,7 @@
           Quantity: 15
 
 - type: entity
-  name: pill
+  name: "таблетка (дексалін 10u)"
   suffix: Tricordrazine 10u
   parent: Pill
   id: PillTricordrazine
@@ -644,7 +644,7 @@
           Quantity: 10
 
 - type: entity
-  name: pill canister
+  name: "каністра з-під таблеток (дексалін 10u)"
   parent: PillCanister
   id: PillCanisterTricordrazine
   suffix: Tricordrazine 10u, 5
@@ -657,7 +657,7 @@
       amount: 5
 
 - type: entity
-  name: pill
+  name: "таблетка (дексалін 10u)"
   suffix: Bicaridine 10u
   parent: Pill
   id: PillBicaridine
@@ -677,7 +677,7 @@
           Quantity: 10
 
 - type: entity
-  name: pill canister
+  name: "каністра з-під таблеток (дексалін 10u)"
   parent: PillCanister
   id: PillCanisterBicaridine
   suffix: Bicaridine 10u, 5
@@ -690,7 +690,7 @@
       amount: 5
 
 - type: entity
-  name: pill
+  name: "таблетка (дексалін 10u)"
   suffix: Charcoal 10u
   parent: Pill
   id: PillCharcoal
@@ -710,7 +710,7 @@
           Quantity: 10
 
 - type: entity
-  name: pill canister
+  name: "каністра з-під таблеток (дексалін 10u)"
   parent: PillCanister
   id: PillCanisterCharcoal
   suffix: Charcoal 10u, 3
@@ -723,7 +723,7 @@
       amount: 3
 
 - type: entity
-  name: romerol pill
+  name: "ромерол таблетки"
   parent: Pill
   id: PillRomerol
   components:
@@ -736,7 +736,7 @@
           Quantity: 10
 
 - type: entity
-  name: ambuzol pill
+  name: "амбузол таблетки"
   parent: Pill
   id: PillAmbuzol
   components:
@@ -749,7 +749,7 @@
               Quantity: 10
 
 - type: entity
-  name: ambuzol plus pill
+  name: "амбузол плюс таблетки"
   parent: Pill
   id: PillAmbuzolPlus
   components:
@@ -835,7 +835,7 @@
 
 # Syringes
 - type: entity
-  name: ephedrine syringe
+  name: "шприц з ефедрином"
   parent: PrefilledSyringe
   id: SyringeEphedrine
   components:
@@ -848,7 +848,7 @@
           Quantity: 15
 
 - type: entity
-  name: inaprovaline syringe
+  name: "шприц з інапроваліном"
   parent: PrefilledSyringe
   id: SyringeInaprovaline
   components:
@@ -861,7 +861,7 @@
           Quantity: 15
 
 - type: entity
-  name: tranexamic acid syringe
+  name: "шприц з транексамовою кислотою"
   parent: PrefilledSyringe
   id: SyringeTranexamicAcid
   components:
@@ -874,7 +874,7 @@
           Quantity: 15
 
 - type: entity
-  name: bicaridine syringe
+  name: "шприц з бікаридином"
   parent: PrefilledSyringe
   id: SyringeBicaridine
   components:
@@ -887,7 +887,7 @@
           Quantity: 15
 
 - type: entity
-  name: dermaline syringe
+  name: "шприц для дерматину"
   parent: PrefilledSyringe
   id: SyringeDermaline
   components:
@@ -900,7 +900,7 @@
           Quantity: 15
 
 - type: entity
-  name: hyronalin syringe
+  name: "гіроналіновий шприц"
   parent: PrefilledSyringe
   id: SyringeHyronalin
   components:
@@ -913,7 +913,7 @@
           Quantity: 15
 
 - type: entity
-  name: ipecac syringe
+  name: "шприц для іпекаку"
   parent: PrefilledSyringe
   id: SyringeIpecac
   components:
@@ -926,7 +926,7 @@
           Quantity: 15
 
 - type: entity
-  name: ambuzol syringe
+  name: "шприц з амбузолом"
   parent: PrefilledSyringe
   id: SyringeAmbuzol
   components:
@@ -939,7 +939,7 @@
               Quantity: 15
 
 - type: entity
-  name: sigynate syringe
+  name: "шприц із сигінатом"
   parent: PrefilledSyringe
   id: SyringeSigynate
   components:
@@ -952,7 +952,7 @@
               Quantity: 15
 
 - type: entity
-  name: ethylredoxrazine syringe
+  name: "шприц з етилредоксазином"
   parent: PrefilledSyringe
   id: SyringeEthylredoxrazine
   components:
@@ -965,7 +965,7 @@
               Quantity: 15
 
 - type: entity
-  name: phalanximine syringe
+  name: "шприц з фалангініном"
   parent: PrefilledSyringe
   id: SyringePhalanximine
   components:
@@ -978,7 +978,7 @@
               Quantity: 15
 
 - type: entity
-  name: saline syringe
+  name: "шприц з фізіологічним розчином"
   parent: PrefilledSyringe
   id: SyringeSaline
   components:
@@ -992,7 +992,7 @@
 
 #this is where all the syringes are so i didn't know where to put it
 - type: entity
-  name: romerol syringe
+  name: "шприц з ромеролом"
   parent: [PrefilledSyringe, BaseSyndicateContraband]
   id: SyringeRomerol
   components:
@@ -1005,7 +1005,7 @@
           Quantity: 15
 
 - type: entity
-  name: hyperzine syringe
+  name: "шприц зі стимуляторами"
   parent: [PrefilledSyringe, BaseSyndicateContraband]
   id: SyringeStimulants
   components:

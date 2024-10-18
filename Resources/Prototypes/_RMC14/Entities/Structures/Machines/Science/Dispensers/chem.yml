@@ -1,8 +1,8 @@
 - type: entity
   parent: ChemDispenser
   id: RMCDispenserChem
-  name: chemical dispenser
-  description: A complex machine for mixing elements into chemicals. A We-Ya product.
+  name: "дозатор хімікатів"
+  description: "Складна машина для змішування елементів у хімічні речовини. Продукт компанії We-Ya."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/Science/dispenser.rsi

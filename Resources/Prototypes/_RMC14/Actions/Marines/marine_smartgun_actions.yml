@@ -12,8 +12,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionToggleAmmo
-  name: Toggle Ammo Type
-  description: Switch the ammo type fired by this gun.
+  name: "Переключити тип боєприпасів"
+  description: "Змінити тип боєприпасів, якими стріляє ця гармата."
   components:
   - type: InstantAction
     icon:
@@ -26,8 +26,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionToggleRecoil
-  name: Toggle Recoil Compensation
-  description: Removes all recoil when firing this gun.
+  name: "Ввімкнути компенсацію віддачі"
+  description: "Усуває віддачу під час стрільби з цієї зброї."
   components:
   - type: InstantAction
     icon:
@@ -40,8 +40,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionToggleAutoFire
-  name: Toggle Auto Fire
-  description: Makes the gun automatically shoot a single shot towards a target every couple seconds.
+  name: "Ввімкнути автоматичний вогонь"
+  description: "Змушує зброю автоматично робити один постріл у бік цілі кожні пару секунд."
   components:
   - type: InstantAction
     icon:
@@ -54,8 +54,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionToggleFarSight
-  name: Toggle Far Sight
-  description: Lets you see slightly farther away.
+  name: "Ввімкнути дальній приціл"
+  description: "Дозволяє бачити трохи далі."
   components:
   - type: InstantAction
     icon:

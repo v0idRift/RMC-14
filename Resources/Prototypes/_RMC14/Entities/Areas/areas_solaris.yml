@@ -11,7 +11,7 @@
 - type: entity
   parent: RMCAreaBigred
   id: RMCAreaBigredGround
-  name: ground
+  name: "земля"
   components:
   - type: Sprite
     state: blue
@@ -19,7 +19,7 @@
 - type: entity
   parent: RMCAreaBigred
   id: RMCAreaBigredUground
-  name: uground
+  name: "наземний"
   components:
   - type: Sprite
     state: blue
@@ -27,7 +27,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundGarageWorkshop
-  name: Garage Workshop
+  name: "Гаражна майстерня"
   components:
   - type: Sprite
     state: green
@@ -44,7 +44,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundShip
-  name: Crashed Vessel
+  name: "Розбите судно"
   components:
   - type: Sprite
     state: syndie-ship
@@ -52,7 +52,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundNexus
-  name: Central Nexus
+  name: "Центральний Нексус"
   components:
   - type: Sprite
     state: hallc1
@@ -67,7 +67,7 @@
 - type: entity
   parent: RMCAreaBigredGroundEngineering
   id: RMCAreaBigredGroundEngineeringEngineeringHall
-  name: Engineering Hallway
+  name: "Інженерний коридор"
   components:
   - type: Sprite
     state: engine_hallway
@@ -75,7 +75,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundCentralHall
-  name: Central Hallway
+  name: "Центральний коридор"
   components:
   - type: Sprite
     state: hallc2
@@ -83,7 +83,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundCanteen
-  name: Cafeteria
+  name: "Кафетерій"
   components:
   - type: Sprite
     state: cafeteria
@@ -91,7 +91,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundKitchen
-  name: Kitchen
+  name: "Кухня"
   components:
   - type: Sprite
     state: kitchen
@@ -99,7 +99,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundSecurity
-  name: Security Module
+  name: "Модуль безпеки"
   components:
   - type: Sprite
     state: security
@@ -107,7 +107,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundBridge
-  name: Command Room
+  name: "Командна кімната"
   components:
   - type: Sprite
     state: bridge
@@ -115,7 +115,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundMedbay
-  name: Medical Bay
+  name: "Медичний відсік"
   components:
   - type: Sprite
     state: medbay
@@ -127,7 +127,7 @@
 - type: entity
   parent: RMCAreaBigredGroundMedical
   id: RMCAreaBigredGroundMedicalLobby
-  name: Medical Lobby
+  name: "Медичне лобі"
   components:
   - type: Sprite
     state: medbay2
@@ -135,7 +135,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundCentralHall3
-  name: Central Hallway
+  name: "Центральний коридор"
   components:
   - type: Sprite
     state: hallc3
@@ -143,7 +143,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundGarden
-  name: Garden
+  name: "Сад"
   components:
   - type: Sprite
     state: garden
@@ -151,7 +151,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundCryogenics
-  name: Cryogenic Vault
+  name: "Кріогенне сховище"
   components:
   - type: Sprite
     state: auxstorage
@@ -159,7 +159,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundLaundry
-  name: Laundrette
+  name: "Пральня"
   components:
   - type: Sprite
     state: green
@@ -167,7 +167,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundHanger
-  name: Hanger
+  name: "Вішалка"
   components:
   - type: Sprite
     state: storage
@@ -175,7 +175,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundCrewQuarters
-  name: Crew Dormitories
+  name: "Гуртожитки для екіпажу"
   components:
   - type: Sprite
     state: crew_quarters
@@ -183,7 +183,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundForehall
-  name: Fore Hallway
+  name: "Передній коридор"
   components:
   - type: Sprite
     state: hallf
@@ -191,7 +191,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundChapel
-  name: Chapel
+  name: "Каплиця"
   components:
   - type: Sprite
     state: chapel
@@ -199,7 +199,7 @@
 - type: entity
   parent: RMCAreaBigredGroundEngineering
   id: RMCAreaBigredGroundEngineeringSmesRoom
-  name: Power Storage
+  name: "Накопичувач енергії"
   components:
   - type: Sprite
     state: engine_storage
@@ -207,7 +207,7 @@
 - type: entity
   parent: RMCAreaBigredGroundEngineering
   id: RMCAreaBigredGroundEngineeringEngineControl
-  name: Core Control
+  name: "Управління ядром"
   components:
   - type: Sprite
     state: engine_control
@@ -215,7 +215,7 @@
 - type: entity
   parent: RMCAreaBigredGroundEngineering
   id: RMCAreaBigredGroundEngineeringEngine
-  name: Engine Room
+  name: "Машинне відділення"
   components:
   - type: Sprite
     state: engine
@@ -223,7 +223,7 @@
 - type: entity
   parent: RMCAreaBigredGroundEngineering
   id: RMCAreaBigredGroundEngineeringCustodial
-  name: Custodial Storage
+  name: "Зберігання на відповідальному зберіганні"
   components:
   - type: Sprite
     state: janitor
@@ -231,7 +231,7 @@
 - type: entity
   parent: RMCAreaBigredGroundEngineering
   id: RMCAreaBigredGroundEngineeringAtmospherics
-  name: Atmospherics
+  name: "Атмосферика"
   components:
   - type: Sprite
     state: atmos
@@ -239,7 +239,7 @@
 - type: entity
   parent: RMCAreaBigredGroundEngineeringAtmospherics
   id: RMCAreaBigredGroundEngineeringAtmosphericsGenerator
-  name: Terraforming Processor
+  name: "Процесор тераформування"
   components:
   - type: Sprite
     state: atmos
@@ -252,7 +252,7 @@
 - type: entity
   parent: RMCAreaBigredGroundScience
   id: RMCAreaBigredGroundScienceDecon
-  name: Decontamination
+  name: "Знезараження"
   components:
   - type: Sprite
     state: decontamination
@@ -260,7 +260,7 @@
 - type: entity
   parent: RMCAreaBigredGroundScience
   id: RMCAreaBigredGroundScienceHall
-  name: Science Hallway
+  name: "Науковий коридор"
   components:
   - type: Sprite
     state: blue-red2
@@ -268,7 +268,7 @@
 - type: entity
   parent: RMCAreaBigredGroundScience
   id: RMCAreaBigredGroundScienceRobotics
-  name: Robotics Laboratory
+  name: "Лабораторія робототехніки"
   components:
   - type: Sprite
     state: mechbay
@@ -276,7 +276,7 @@
 - type: entity
   parent: RMCAreaBigredGroundScience
   id: RMCAreaBigredGroundScienceAssembly
-  name: Assembly room
+  name: "Актова зала"
   components:
   - type: Sprite
     state: mechbay
@@ -284,7 +284,7 @@
 - type: entity
   parent: RMCAreaBigredGroundScience
   id: RMCAreaBigredGroundScienceOffice
-  name: Administration
+  name: "Адміністрація"
   components:
   - type: Sprite
     state: mechbay
@@ -292,7 +292,7 @@
 - type: entity
   parent: RMCAreaBigredGroundScience
   id: RMCAreaBigredGroundScienceResearch
-  name: Research Lab
+  name: "Дослідницька лабораторія"
   components:
   - type: Sprite
     state: research
@@ -300,7 +300,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundToilet
-  name: Toilets
+  name: "Туалети"
   components:
   - type: Sprite
     state: yellow
@@ -308,7 +308,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundHr
-  name: Human Resources Office
+  name: "Відділ кадрів"
   components:
   - type: Sprite
     state: head_quarters
@@ -321,7 +321,7 @@
 - type: entity
   parent: RMCAreaBigredGroundMaint
   id: RMCAreaBigredGroundMaintCentral
-  name: Central Maintenance Shaft
+  name: "Центральний вал технічного обслуговування"
   components:
   - type: Sprite
     state: maintcentral
@@ -329,7 +329,7 @@
 - type: entity
   parent: RMCAreaBigredGroundMaint
   id: RMCAreaBigredGroundMaintScience
-  name: Science Maintenance
+  name: "Підтримка науки"
   components:
   - type: Sprite
     state: maint_research_starboard
@@ -337,7 +337,7 @@
 - type: entity
   parent: RMCAreaBigredGroundMaint
   id: RMCAreaBigredGroundMaintCommand
-  name: Command Maintenance
+  name: "Командне обслуговування"
   components:
   - type: Sprite
     state: maintcentral
@@ -345,7 +345,7 @@
 - type: entity
   parent: RMCAreaBigredGroundMaint
   id: RMCAreaBigredGroundMaintEngineering
-  name: Engineering Maintenance
+  name: "Інженерне обслуговування"
   components:
   - type: Sprite
     state: maint_engine
@@ -353,7 +353,7 @@
 - type: entity
   parent: RMCAreaBigredGroundMaint
   id: RMCAreaBigredGroundMaintAtmos
-  name: Atmospherics Maintenance
+  name: "Обслуговування атмосфери"
   components:
   - type: Sprite
     state: asmaint
@@ -361,7 +361,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundExterior
-  name: Underground
+  name: "Під землею"
   components:
   - type: Sprite
     state: blue-red
@@ -369,7 +369,7 @@
 - type: entity
   parent: RMCAreaBigredGroundExterior
   id: RMCAreaBigredGroundExteriorNorth
-  name: Northern Facility Exterior
+  name: "Зовнішній вигляд північного корпусу"
   components:
   - type: Sprite
     state: north
@@ -377,7 +377,7 @@
 - type: entity
   parent: RMCAreaBigredGroundExterior
   id: RMCAreaBigredGroundExteriorSouth
-  name: Southern Facility Exterior
+  name: "Зовнішній вигляд південного корпусу"
   components:
   - type: Sprite
     state: south
@@ -385,7 +385,7 @@
 - type: entity
   parent: RMCAreaBigredGroundExterior
   id: RMCAreaBigredGroundExteriorWest
-  name: Western Facility Exterior
+  name: "Зовнішній вигляд західного корпусу"
   components:
   - type: Sprite
     state: west
@@ -393,7 +393,7 @@
 - type: entity
   parent: RMCAreaBigredGroundExterior
   id: RMCAreaBigredGroundExteriorEast
-  name: Eastern Facility Exterior
+  name: "Зовнішній вигляд східного корпусу"
   components:
   - type: Sprite
     state: east
@@ -401,7 +401,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundCargo
-  name: Cargo Bay
+  name: "Вантажний відсік"
   components:
   - type: Sprite
     state: primarystorage
@@ -409,7 +409,7 @@
 - type: entity
   parent: RMCAreaBigredUground
   id: RMCAreaBigredUgroundLobby
-  name: Research Lobby
+  name: "Дослідницьке лобі"
   components:
   - type: Sprite
     state: research
@@ -417,7 +417,7 @@
 - type: entity
   parent: RMCAreaBigredUground
   id: RMCAreaBigredUgroundHallway
-  name: Research Hallway
+  name: "Дослідницький коридор"
   components:
   - type: Sprite
     state: research
@@ -425,7 +425,7 @@
 - type: entity
   parent: RMCAreaBigredUground
   id: RMCAreaBigredUgroundXeno
-  name: Xenobiology Lab
+  name: "Лабораторія ксенобіології"
   components:
   - type: Sprite
     state: xeno_lab
@@ -433,7 +433,7 @@
 - type: entity
   parent: RMCAreaBigredUground
   id: RMCAreaBigredUgroundXenoFlora
-  name: Xeno-Flora Lab
+  name: "Лабораторія ксенофлори"
   components:
   - type: Sprite
     state: xeno_f_lab
@@ -441,7 +441,7 @@
 - type: entity
   parent: RMCAreaBigredUground
   id: RMCAreaBigredUgroundChemistry
-  name: Chemistry Lab
+  name: "Хімічна лабораторія"
   components:
   - type: Sprite
     state: chem
@@ -449,7 +449,7 @@
 - type: entity
   parent: RMCAreaBigredUground
   id: RMCAreaBigredUgroundDisection
-  name: Dissection Lab
+  name: "Лабораторія препарування"
   components:
   - type: Sprite
     state: observatory
@@ -457,7 +457,7 @@
 - type: entity
   parent: RMCAreaBigredUground
   id: RMCAreaBigredUgroundMiscLab
-  name: Miscellaneous Lab
+  name: "Лабораторія \"Різне"
   components:
   - type: Sprite
     state: toxmisc
@@ -465,7 +465,7 @@
 - type: entity
   parent: RMCAreaBigredUground
   id: RMCAreaBigredUgroundAnomalyLab
-  name: Anomalous Materials Lab
+  name: "Лабораторія аномальних матеріалів"
   components:
   - type: Sprite
     state: blueold
@@ -473,7 +473,7 @@
 - type: entity
   parent: RMCAreaBigredUground
   id: RMCAreaBigredUgroundTeleporter
-  name: Teleportation Lab
+  name: "Лабораторія телепортації"
   components:
   - type: Sprite
     state: teleporter
@@ -481,7 +481,7 @@
 - type: entity
   parent: RMCAreaBigredUground
   id: RMCAreaBigredUgroundVirology
-  name: Virology Laboratory
+  name: "Вірусологічна лабораторія"
   components:
   - type: Sprite
     state: blue2
@@ -489,7 +489,7 @@
 - type: entity
   parent: RMCAreaBigredUground
   id: RMCAreaBigredUgroundQuarantine
-  name: Quarantine Zone
+  name: "Карантинна зона"
   components:
   - type: Sprite
     state: red2
@@ -497,7 +497,7 @@
 - type: entity
   parent: RMCAreaBigredUground
   id: RMCAreaBigredUgroundCargoElevator
-  name: Cargo Elevator
+  name: "Вантажний ліфт"
   components:
   - type: Sprite
     state: primarystorage
@@ -505,7 +505,7 @@
 - type: entity
   parent: RMCAreaBigredUground
   id: RMCAreaBigredUgroundSafeRoom
-  name: Corporate Saferoom
+  name: "Корпоративна кімната безпеки"
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas.rsi
@@ -529,7 +529,7 @@
 - type: entity
   parent: RMCAreaBigredv2CavesLambda
   id: RMCAreaBigredv2CavesLambdaVirology
-  name: Lambda Virology
+  name: "Лямбда-вірусологія"
   components:
   - type: Sprite
     state: lam_virology
@@ -537,7 +537,7 @@
 - type: entity
   parent: RMCAreaBigredv2CavesLambda
   id: RMCAreaBigredv2CavesLambdaResearch
-  name: Lambda Research
+  name: "Лямбда-дослідження"
   components:
   - type: Sprite
     state: lam_research
@@ -545,7 +545,7 @@
 - type: entity
   parent: RMCAreaBigredv2CavesLambda
   id: RMCAreaBigredv2CavesLambdaBreakroom
-  name: Lambda Breakroom
+  name: "Кімната відпочинку Lambda"
   components:
   - type: Sprite
     state: lam_break
@@ -553,7 +553,7 @@
 - type: entity
   parent: RMCAreaBigredv2CavesLambda
   id: RMCAreaBigredv2CavesLambdaXenobiology
-  name: Lambda Xenobiology
+  name: "Лямбда-ксенобіологія"
   components:
   - type: Sprite
     state: lam_xeno
@@ -561,7 +561,7 @@
 - type: entity
   parent: RMCAreaBigredv2
   id: RMCAreaBigredv2LambdaCaves
-  name: Lambda Lab Caves
+  name: "Печери лабораторії Лямбда"
   components:
   - type: Sprite
     state: caves_lambda
@@ -578,7 +578,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideLambdaCaveCas
-  name: Lambda Lockdown Caves Entrance
+  name: "Вхід до печер Лямбда Блокування"
   components:
   - type: Sprite
     state: decontamination
@@ -604,7 +604,7 @@
 - type: entity
   parent: RMCAreaBigredv2
   id: RMCAreaBigredv2Oob
-  name: Big Red Out of Bounds
+  name: "Великий червоний поза межами"
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_kutjevo.rsi
@@ -627,7 +627,7 @@
 - type: entity
   parent: RMCAreaBigredv2
   id: RMCAreaBigredv2Outside
-  name: Colony Grounds
+  name: "Територія колонії"
   components:
   - type: Sprite
     state: red
@@ -644,7 +644,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideNe
-  name: Northeast Colony Grounds
+  name: "Територія Північно-Східної колонії"
   components:
   - type: Sprite
     state: northeast
@@ -652,7 +652,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideNw
-  name: Northwest Colony Grounds
+  name: "Територія Північно-Західної колонії"
   components:
   - type: Sprite
     state: northwest
@@ -676,7 +676,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideC
-  name: Central Colony Grounds
+  name: "Центральна територія колонії"
   components:
   - type: Sprite
     state: purple
@@ -684,7 +684,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideN
-  name: Northern Colony Grounds
+  name: "Територія Північної колонії"
   components:
   - type: Sprite
     state: north
@@ -692,7 +692,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideW
-  name: Western Colony Grounds
+  name: "Територія Західної колонії"
   components:
   - type: Sprite
     state: west
@@ -702,7 +702,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideE
-  name: Eastern Colony Grounds
+  name: "Територія Східної колонії"
   components:
   - type: Sprite
     state: east
@@ -710,7 +710,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideSe
-  name: Southeast Colony Grounds
+  name: "Територія Південно-Східної колонії"
   components:
   - type: Sprite
     state: southeast
@@ -718,7 +718,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideS
-  name: Southern Colony Grounds
+  name: "Територія Південної колонії"
   components:
   - type: Sprite
     state: south
@@ -726,7 +726,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideSw
-  name: Southwest Colony Grounds
+  name: "Територія Південно-Західної колонії"
   components:
   - type: Sprite
     state: southwest
@@ -736,7 +736,7 @@
 - type: entity
   parent: RMCAreaBigredv2
   id: RMCAreaBigredv2Caves
-  name: Unknown Area
+  name: "Невідома територія"
   components:
   - type: Sprite
     state: bluenew
@@ -754,7 +754,7 @@
 - type: entity
   parent: RMCAreaBigredv2Caves
   id: RMCAreaBigredv2CavesMining
-  name: Southwest Abandoned Mining Caves
+  name: "Південно-західні покинуті шахтні печери"
   components:
   - type: Sprite
     state: bluenew
@@ -776,7 +776,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideEta
-  name: Eta Labs Compound
+  name: "З'єднання Eta Labs"
   components:
   - type: Sprite
     state: yellow
@@ -793,7 +793,7 @@
 - type: entity
   parent: RMCAreaBigredv2CavesEta
   id: RMCAreaBigredv2CavesEtaLiving
-  name: Eta Living Quarters
+  name: "Житлові приміщення Eta"
   components:
   - type: Sprite
     state: eta_living
@@ -801,7 +801,7 @@
 - type: entity
   parent: RMCAreaBigredv2CavesEta
   id: RMCAreaBigredv2CavesEtaXenobiology
-  name: Eta Xenobiology
+  name: "Ета ксенобіологія"
   components:
   - type: Sprite
     state: eta_xeno
@@ -809,7 +809,7 @@
 - type: entity
   parent: RMCAreaBigredv2CavesEta
   id: RMCAreaBigredv2CavesEtaStorage
-  name: Eta Storage
+  name: "Ета Сховище"
   components:
   - type: Sprite
     state: eta_storage
@@ -817,7 +817,7 @@
 - type: entity
   parent: RMCAreaBigredv2CavesEta
   id: RMCAreaBigredv2CavesEtaResearch
-  name: Eta Research
+  name: "Дослідження Eta Research"
   components:
   - type: Sprite
     state: eta_research
@@ -825,7 +825,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideCargo
-  name: Cargo
+  name: "Вантаж"
   components:
   - type: Sprite
     state: storage
@@ -843,7 +843,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideGeneralStore
-  name: General Store
+  name: "Універсальний магазин"
   components:
   - type: Sprite
     state: blueold
@@ -860,7 +860,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideMarshalOffice
-  name: Marshal Offices
+  name: "Служби судових виконавців"
   components:
   - type: Sprite
     state: brig
@@ -878,7 +878,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideMedical
-  name: Hospital
+  name: "Лікарня"
   components:
   - type: Sprite
     state: cmo
@@ -896,7 +896,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideAdminBuilding
-  name: Administration
+  name: "Адміністрація"
   components:
   - type: Sprite
     state: bridge
@@ -914,7 +914,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideFiltrationPlant
-  name: Filtration Plant
+  name: "Фільтрувальна станція"
   components:
   - type: Sprite
     state: atmos
@@ -932,7 +932,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideVirology
-  name: Virology Lab
+  name: "Вірусологічна лабораторія"
   components:
   - type: Sprite
     state: lp
@@ -950,7 +950,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideDorms
-  name: Dormitories
+  name: "Гуртожитки"
   components:
   - type: Sprite
     state: fitness
@@ -967,7 +967,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideBar
-  name: Bar
+  name: "Бар"
   components:
   - type: Sprite
     state: bar
@@ -984,7 +984,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideChapel
-  name: Chapel
+  name: "Каплиця"
   components:
   - type: Sprite
     state: courtroom
@@ -1001,7 +1001,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideHydroponics
-  name: Hydroponics
+  name: "Гідропоніка"
   components:
   - type: Sprite
     state: garden
@@ -1018,7 +1018,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideLibrary
-  name: Library
+  name: "Бібліотека"
   components:
   - type: Sprite
     state: library
@@ -1035,7 +1035,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideOfficeComplex
-  name: Office Complex
+  name: "Офісний комплекс"
   components:
   - type: Sprite
     state: explored
@@ -1052,7 +1052,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideSpacePort
-  name: Space Port
+  name: "Космічний порт"
   components:
   - type: Sprite
     state: green
@@ -1071,7 +1071,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideSpacePortLz2
-  name: Cargo Landing Pad
+  name: "Вантажний посадковий майданчик"
   components:
   - type: Sprite
     state: green
@@ -1091,7 +1091,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideTelecomm
-  name: LZ1 Communications Relay
+  name: "LZ1 Комунікаційне реле"
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas.rsi
@@ -1111,7 +1111,7 @@
 - type: entity
   parent: RMCAreaBigredv2OutsideTelecomm
   id: RMCAreaBigredv2OutsideTelecommLz2Cave
-  name: Central Grounds Communications Relay
+  name: "Центральне наземне реле зв'язку"
   components:
   - type: Area
     landingZone: false
@@ -1119,7 +1119,7 @@
 - type: entity
   parent: RMCAreaBigredv2OutsideTelecomm
   id: RMCAreaBigredv2OutsideTelecommNCave
-  name: North Cave Communications Relay
+  name: "Естафета зв'язку в Північній печері"
   components:
   - type: Area
     landingZone: false
@@ -1127,7 +1127,7 @@
 - type: entity
   parent: RMCAreaBigredv2OutsideTelecomm
   id: RMCAreaBigredv2OutsideTelecommWarehouse
-  name: Warehouse Communications Relay
+  name: "Комунікаційне реле для складу"
   components:
   - type: Area
     landingZone: false
@@ -1135,7 +1135,7 @@
 - type: entity
   parent: RMCAreaBigredv2OutsideTelecomm
   id: RMCAreaBigredv2OutsideTelecommSecurity
-  name: Security Communications Relay
+  name: "Реле зв'язку системи безпеки"
   components:
   - type: Area
     landingZone: false
@@ -1143,7 +1143,7 @@
 - type: entity
   parent: RMCAreaBigredv2OutsideTelecomm
   id: RMCAreaBigredv2OutsideTelecommStore
-  name: General Store Communications Relay
+  name: "Загальне реле зв'язку магазину"
   components:
   - type: Area
     landingZone: false
@@ -1151,7 +1151,7 @@
 - type: entity
   parent: RMCAreaBigredv2OutsideTelecomm
   id: RMCAreaBigredv2OutsideTelecommAdmin
-  name: Administrative Communications Relay
+  name: "Естафета адміністративних комунікацій"
   components:
   - type: Area
     landingZone: false
@@ -1159,7 +1159,7 @@
 - type: entity
   parent: RMCAreaBigredv2OutsideTelecomm
   id: RMCAreaBigredv2OutsideTelecommEngi
-  name: Engineering Communications Relay
+  name: "Реле інженерних комунікацій"
   components:
   - type: Area
     landingZone: false
@@ -1167,7 +1167,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideEngineering
-  name: Engineering Complex
+  name: "Інженерний комплекс"
   components:
   - type: Sprite
     state: engine
@@ -1184,7 +1184,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideStorage
-  name: Storage
+  name: "Зберігання"
   components:
   - type: Sprite
     state: storage
@@ -1201,7 +1201,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideSolarPlant
-  name: Solar Power Plant
+  name: "Сонячна електростанція"
   components:
   - type: Sprite
     state: substation
@@ -1218,7 +1218,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideAtmos
-  name: Atmospheric Stabilizer
+  name: "Атмосферний стабілізатор"
   components:
   - type: Sprite
     state: party
@@ -1235,7 +1235,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideGeneralOffices
-  name: General Offices
+  name: "Загальні офіси"
   components:
   - type: Sprite
     state: storage
@@ -1252,7 +1252,7 @@
 - type: entity
   parent: RMCAreaBigredv2
   id: RMCAreaBigredv2CavesVirology
-  name: Virology Caves
+  name: "Вірусологічні печери"
   components:
   - type: Sprite
     state: caves_virology
@@ -1269,7 +1269,7 @@
 - type: entity
   parent: RMCAreaBigredv2
   id: RMCAreaBigredv2CavesSw
-  name: Southwestern Caves
+  name: "Південно-Західні печери"
   components:
   - type: Sprite
     state: caves_sw
@@ -1286,7 +1286,7 @@
 - type: entity
   parent: RMCAreaBigredv2
   id: RMCAreaBigredv2CavesResearch
-  name: We-Ya Research Lab Caves
+  name: "Печери дослідницької лабораторії We-Ya"
   components:
   - type: Sprite
     state: caves_research
@@ -1304,7 +1304,7 @@
 - type: entity
   parent: RMCAreaBigredv2
   id: RMCAreaBigredv2CavesSe
-  name: Southeastern Caves
+  name: "Південно-Східні печери"
   components:
   - type: Sprite
     state: caves_se
@@ -1321,7 +1321,7 @@
 - type: entity
   parent: RMCAreaBigredv2
   id: RMCAreaBigredv2CavesEast
-  name: Eastern Caves
+  name: "Східні печери"
   components:
   - type: Sprite
     state: caves_east
@@ -1338,7 +1338,7 @@
 - type: entity
   parent: RMCAreaBigredv2
   id: RMCAreaBigredv2CavesNorth
-  name: Northern Caves
+  name: "Північні печери"
   components:
   - type: Sprite
     state: caves_north
@@ -1365,17 +1365,17 @@
 - type: entity
   parent: RMCAreaBigredv2Landing
   id: RMCAreaBigredv2LandingConsole
-  name: LZ1 'Telecomms'
+  name: "LZ1 \"Телекомунікації"
 
 - type: entity
   parent: RMCAreaBigredv2Landing
   id: RMCAreaBigredv2LandingConsole2
-  name: LZ2 'Cargo'
+  name: "LZ2 \"Вантаж"
 
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideLz1NorthCas
-  name: Northern Caves Entrance
+  name: "Північний вхід до печер"
   components:
   - type: Sprite
     state: garden
@@ -1392,7 +1392,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideLz1TelecommCas
-  name: Virology Caves Entrance
+  name: "Вхід до вірусологічних печер"
   components:
   - type: Sprite
     state: garden
@@ -1409,7 +1409,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideLz2WestCas
-  name: Southwestern Caves Entrance
+  name: "Вхід до Південно-Західних печер"
   components:
   - type: Sprite
     state: garden
@@ -1426,7 +1426,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideLz2SouthCas
-  name: ETA Lockdown Caves Entrance
+  name: "Орієнтовний час закриття входу до печер"
   components:
   - type: Sprite
     state: garden
@@ -1443,7 +1443,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideFiltrationCaveCas
-  name: Filtration Lockdown Caves Entrance
+  name: "Вхід до печер з фільтраційним блокуванням"
   components:
   - type: Sprite
     state: garden

@@ -14,7 +14,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorEngineer
-  name: survivor engineer spawn point
+  name: "точка спавну інженера-вцілілого"
   components:
   - type: SpawnPoint
     job_id: CMSurvivor

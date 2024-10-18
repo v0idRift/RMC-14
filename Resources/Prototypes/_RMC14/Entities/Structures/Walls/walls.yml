@@ -2,8 +2,8 @@
 - type: entity
   parent: CMBaseWall
   id: CMWallMetal
-  name: wall
-  description: A huge chunk of metal used to separate rooms.
+  name: "стіна"
+  description: "Величезний шматок металу використовувався для розділення кімнат."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/metal.rsi
@@ -30,8 +30,8 @@
 - type: entity
   parent: CMWallMetal
   id: CMWallMetalAlmayer
-  name: wall
-  description: A huge chunk of metal used to separate rooms.
+  name: "стіна"
+  description: "Величезний шматок металу використовувався для розділення кімнат."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_black.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: CMWallMetal
   id: CMWallMetalAlmayerWhite
-  name: wall
-  description: A huge chunk of metal used to separate rooms.
+  name: "стіна"
+  description: "Величезний шматок металу використовувався для розділення кімнат."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_white.rsi
@@ -61,8 +61,8 @@
 - type: entity
   parent: CMBaseWall
   id: CMWallReinforced
-  name: reinforced wall
-  description: A huge chunk of reinforced metal used to separate rooms.
+  name: "посилена стіна"
+  description: "Величезний шматок армованого металу використовувався для розділення кімнат."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/rwall.rsi
@@ -90,9 +90,9 @@
 
 - type: entity
   parent: CMBaseWall
-  name: reinforced wall
+  name: "посилена стіна"
   id: CMWallSuperReinforced
-  description: A huge chunk of reinforced metal used to separate rooms. Looks very robust.
+  description: "Величезний шматок армованого металу, що використовується для розділення кімнат. Виглядає дуже міцно."
   suffix: Super Reinforced
   components:
   - type: Sprite
@@ -117,8 +117,8 @@
 - type: entity
   parent: CMWallReinforced
   id: CMWallReinforcedAlmayer
-  name: reinforced hull
-  description: A reinforced metal wall used to separate rooms and make up the ship.
+  name: "посилений корпус"
+  description: "Армована металева стіна, що розділяла приміщення та складала корабель."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_black.rsi
@@ -132,8 +132,8 @@
 - type: entity
   parent: CMWallReinforced
   id: CMWallReinforcedAlmayerWhite
-  name: reinforced hull
-  description: A reinforced metal wall used to separate rooms and make up the ship.
+  name: "посилений корпус"
+  description: "Армована металева стіна, що розділяла приміщення та складала корабель."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_white.rsi
@@ -147,8 +147,8 @@
 - type: entity
   parent: CMWallReinforced
   id: CMWallReinforcedAlmayerAI
-  name: reinforced hull
-  description: A reinforced metal wall used to isolate potentially dangerous areas.
+  name: "посилений корпус"
+  description: "Армована металева стіна, що використовується для ізоляції потенційно небезпечних зон."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_aicore.rsi
@@ -163,8 +163,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: CMWallReinforcedHeavy
-  name: heavy reinforced hull
-  description: A huge chunk of ultra-reinforced metal used to separate rooms. Looks virtually indestructible.
+  name: "важкий посилений корпус"
+  description: "Величезний шматок надміцного металу, що використовується для розділення кімнат. Виглядає практично незнищенним."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/rwall.rsi
@@ -180,8 +180,8 @@
 - type: entity
   parent: CMWallReinforcedHeavy
   id: CMWallReinforcedHeavyAlmayer
-  name: heavy reinforced hull
-  description: A highly reinforced metal wall used to separate rooms and make up the ship. It would take a great impact to weaken this wall.
+  name: "важкий посилений корпус"
+  description: "Високоміцна металева стіна, що розділяла приміщення та складала корабель. Щоб послабити цю стіну, потрібен сильний удар."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_black.rsi
@@ -195,8 +195,8 @@
 - type: entity
   parent: CMWallReinforcedHeavy
   id: CMWallReinforcedHeavyAlmayerWhite
-  name: heavy reinforced hull
-  description: A highly reinforced metal wall used to separate rooms and make up the ship. It would take a great impact to weaken this wall.
+  name: "важкий посилений корпус"
+  description: "Високоміцна металева стіна, що розділяла приміщення та складала корабель. Щоб послабити цю стіну, потрібен сильний удар."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_white.rsi
@@ -210,8 +210,8 @@
 - type: entity
   parent: CMWallReinforcedHeavy
   id: CMWallReinforcedHeavyAlmayerAI
-  name: heavy reinforced hull
-  description: An extremely reinforced metal wall used to isolate potentially dangerous areas. Looks virtually indestructible.
+  name: "важкий посилений корпус"
+  description: "Надзвичайно міцна металева стіна, що використовується для ізоляції потенційно небезпечних зон. Виглядає практично незламною."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_aicore.rsi
@@ -258,8 +258,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: CMWallRock
-  name: rock wall
-  description: A rough wall of hardened rock.
+  name: "скельна стіна"
+  description: "Груба стіна із затверділого каменю."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/cave.rsi
@@ -275,8 +275,8 @@
 - type: entity
   parent: CMBaseWall
   id: CMWallCult
-  name: wall
-  description: The patterns engraved on the wall seem to shift as you try to focus on them. You feel sick.
+  name: "стіна"
+  description: "Візерунки, викарбувані на стіні, ніби зміщуються, коли ти намагаєшся зосередитися на них. Ти почуваєшся погано."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/cult.rsi
@@ -303,8 +303,8 @@
 - type: entity
   parent: CMBaseWall
   id: CMWallWood
-  name: wood wall
-  description: A wooden wall used to separate rooms.
+  name: "дерев'яна стіна"
+  description: "Дерев'яна стіна, що розділяла кімнати."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/wood.rsi
@@ -330,8 +330,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: CMWallJungle
-  name: jungle vegetation
-  description: Exceptionally dense vegetation that you can't see through.
+  name: "рослинність джунглів"
+  description: "Надзвичайно густа рослинність, крізь яку не видно."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/jungle.rsi
@@ -349,7 +349,7 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RMCWallElevator
-  name: elevator wall
+  name: "стіна ліфта"
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator.rsi
@@ -366,7 +366,7 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RMCWallElevatorBroken
-  name: elevator wall
+  name: "стіна ліфта"
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator.rsi
@@ -382,8 +382,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RMCWallHunter
-  name: hunter wall
-  description: Nigh indestructible walls that make up the hull of a hunter ship.
+  name: "стіна мисливця"
+  description: "Поруч непорушні стіни, з яких складається корпус корабля-мисливця."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/hunter.rsi
@@ -400,8 +400,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RMCWallHunterDegraded
-  name: degraded hunter wall
-  description: Ancient beyond measure, these walls make up the hull of a vessel of non human origin. Despite this, they can be felled with plastic explosives like any other opaque blocker.
+  name: "деградований мисливський мур"
+  description: "Древні, як світ, ці стіни складають корпус судна нелюдського походження. Незважаючи на це, вони можуть бути зруйновані пластиковою вибухівкою, як і будь-який інший непрозорий блокер."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/hunter_degraded.rsi
