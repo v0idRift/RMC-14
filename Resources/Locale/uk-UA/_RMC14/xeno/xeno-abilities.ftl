@@ -161,3 +161,7 @@ rmc-xeno-resin-surge-sticky-others = {CAPITALIZE(THE($xeno))} виштовхує
 rmc-xeno-heal-sisters = Ми повинні вибрати одну з наших сестер!
 
 # Resin Surge
+rmc-xeno-evolution-start-self = Починаємо скручуватися і викривлятися.
+rmc-xeno-evolution-start-others = {$xeno} починає скручуватися і викривлятися.
+
+# ♪ Зміцнюй

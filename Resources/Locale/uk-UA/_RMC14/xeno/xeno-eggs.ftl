@@ -26,3 +26,4 @@ rmc-xeno-egg-plant-self = Починаємо садити яйце.
 rmc-xeno-egg-plant = {CAPITALIZE($user)} починає відкладати яйце.
 
 rmc-xeno-egg-carrier-death = {CAPITALIZE(THE($xeno))} відклав кілька дорогоцінних яєць!
+rmc-xeno-egg-ghost-bypass-time = Ви успішно заразили свою ціль. Ви можете знову стати паразитом.
