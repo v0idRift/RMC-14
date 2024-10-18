@@ -1,8 +1,8 @@
 - type: entity
   noSpawn: true
   id: CMIntercom
-  name: "домофон"
-  description: "Переговорний пристрій. Для випадків, коли морпіхам просто потрібно щось знати."
+  name: intercom
+  description: An intercom. For when the marines just needs to know something.
   abstract: true
   components:
   - type: WallMount

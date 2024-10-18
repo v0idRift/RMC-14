@@ -1,8 +1,8 @@
 - type: entity
-  name: "BaseSMG"
+  name: BaseSMG
   parent: BaseItem
   id: BaseWeaponSubMachineGun
-  description: "Корінцевий зубастий і пагонистий."
+  description: A rooty tooty point and shooty.
   abstract: true
   components:
   - type: Sprite
@@ -57,10 +57,10 @@
     price: 500
 
 - type: entity
-  name: "Атрейдс"
+  name: Atreides
   parent: [BaseWeaponSubMachineGun, BaseMajorContraband]
   id: WeaponSubMachineGunAtreides
-  description: "Пла-кет-кет-кет-кет-кет! Використовує автоматичні набої 35-го калібру."
+  description: Pla-ket-ket-ket-ket! Uses .35 auto ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/atreides.rsi
@@ -80,10 +80,10 @@
   - type: Appearance
 
 - type: entity
-  name: "Пістолет-кулемет C-20r"
+  name: C-20r sub machine gun
   parent: [BaseWeaponSubMachineGun, BaseSyndicateContraband]
   id: WeaponSubMachineGunC20r
-  description: "Вогнепальна зброя, яку часто використовують сумнозвісні ядерні оперативники. Використовує автоматичні набої калібру .35."
+  description: A firearm that is often used by the infamous nuclear operatives. Uses .35 auto ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/c20r.rsi
@@ -118,10 +118,10 @@
   - type: Appearance
 
 - type: entity
-  name: "Дрозд"
+  name: Drozd
   parent: [BaseWeaponSubMachineGun, BaseRestrictedContraband]
   id: WeaponSubMachineGunDrozd
-  description: "Чудовий повністю автоматичний важкий кулемет Heavy SMG."
+  description: An excellent fully automatic Heavy SMG.
   components:
     - type: Sprite
       sprite: Objects/Weapons/Guns/SMGs/drozd.rsi
@@ -172,11 +172,11 @@
     - type: Appearance
 
 - type: entity
-  name: "Вектор"
+  name: Vector
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunVector
   suffix: Deprecated use Drozd
-  description: "Відмінна повністю автоматична важка гвинтівка Heavy SMG. Використовує набої .45 магнум."
+  description: An excellent fully automatic Heavy SMG. Uses .45 magnum ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/vector.rsi
@@ -220,10 +220,10 @@
   - type: Appearance
 
 - type: entity
-  name: "WT550"
+  name: WT550
   parent: [ BaseWeaponSubMachineGun, BaseRestrictedContraband ]
   id: WeaponSubMachineGunWt550
-  description: "Відмінний SMG, вироблений підрозділом стрілецької зброї компанії NanoTrasen. Використовує автомобільні набої калібру .35."
+  description: An excellent SMG, produced by NanoTrasen's Small Arms Division. Uses .35 auto ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/wt550.rsi

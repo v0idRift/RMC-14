@@ -3,7 +3,7 @@
 #Req
 - type: accessLevel
   id: CMAccessRequisitions
-  name: "см-відділ-Реквізиції"
+  name: cm-department-Requisitions
 
 - type: accessLevel
   id: CMAccessKitchen

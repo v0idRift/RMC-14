@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: RMCShutterBase
   id: RMCPodDoor
-  name: "підзамковий замок"
-  description: "Схоже, вона не відкривається легко. Може, пошукати кнопку або використати заряд для злому?"
+  name: podlock
+  description: That looks like it doesn't open easily. Maybe look for a button or use a breaching charge?
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Shutters/poddoor.rsi
@@ -56,7 +56,7 @@
 - type: entity
   parent: RMCPodDoorAlmayer
   id: RMCPodDoorAlmayerLocked
-  description: "Схоже, вона не відкривається легко. Може, пошукати кнопку або використати заряд для злому?"
+  description: That looks like it doesn't open easily. Maybe look for a button or use a breaching charge?
   suffix: Locked
   components:
   - type: Door

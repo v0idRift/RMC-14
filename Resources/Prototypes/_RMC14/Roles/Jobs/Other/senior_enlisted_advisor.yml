@@ -71,7 +71,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointSeniorEnlistedAdvisor
-  name: "старший радник, старший солдат-строковик точка розмноження"
+  name: senior enlisted advisor spawn point
   components:
   - type: SpawnPoint
     job_id: CMSeniorEnlistedAdvisor
@@ -84,8 +84,8 @@
 - type: entity
   parent: CMGuidebookRole
   id: CMGuidebookRoleSEA
-  name: "Старший військовий радник"
-  description: "Наставник для Морпіхів!"
+  name: Senior Enlisted Advisor
+  description: Mentor for the Marines!
   noSpawn: false
   components:
   - type: Sprite

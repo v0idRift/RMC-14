@@ -24,7 +24,7 @@
 
 - type: accessLevel
   id: CMAccessCE
-  name: "cm-job-name-ce"
+  name: cm-job-name-ce
 
 - type: accessLevel
   id: CMAccessASO
@@ -32,7 +32,7 @@
 
 - type: accessLevel
   id: CMAccessCorp
-  name: "cm-job-name-corp"
+  name: cm-job-name-corp
 
 # Admin only.
 - type: accessLevel

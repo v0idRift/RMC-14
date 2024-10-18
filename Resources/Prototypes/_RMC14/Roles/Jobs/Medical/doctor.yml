@@ -52,7 +52,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointDoctor
-  name: "точка розмноження лікарів"
+  name: doctor spawn point
   components:
   - type: SpawnPoint
     job_id: CMDoctor

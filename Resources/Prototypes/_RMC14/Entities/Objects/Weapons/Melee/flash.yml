@@ -1,8 +1,8 @@
 - type: entity
   parent: Flash
   id: CMFlash
-  name: "спалах"
-  description: "Використовується для засліплення і для того, щоб бути засранцем. Перезаряджає один спалах кожні 30 секунд. Між використаннями потрібно почекати 1 секунду, щоб перезарядити конденсатор."
+  name: flash
+  description: Used for blinding and being an asshole. Recharges one flash every 30 seconds. You must wait 1 second between uses for the capacitor to recharge.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Melee/flash.rsi

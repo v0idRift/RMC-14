@@ -2,8 +2,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCMarineUniformDressEnlisted
-  name: "форма морського піхотинця синього кольору"
-  description: "Сорочка і штани легендарної форми морської піхоти, практично незмінної з 19-го століття. Цей варіант без прикрас призначений для військовослужбовців строкової служби, від E-1 до E-3."
+  name: marine enlisted dress blues uniform
+  description: The undershirt and trousers of the legendary Marine dress blues, virtually unchanged since the 19th century. This unadorned variant is for enlisted personnel, E-1 thru E-3.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/DressBlues/enlisted.rsi
@@ -11,8 +11,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCMarineUniformDressSenior
-  name: "форма морської піхоти старшого віку синього кольору"
-  description: "Нижня сорочка та штани легендарної морської мундирної форми, практично незмінної з 19 століття. Цей варіант має знакову криваву смужку, яку носять сержанти та офіцери."
+  name: marine senior dress blues uniform
+  description: The undershirt and trousers of the legendary Marine dress blues, virtually unchanged since the 19th century. This variant features the iconic Blood Stripe, worn by NCOs and officers.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/DressBlues/senior.rsi
@@ -20,8 +20,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCMarineUniformDressGeneral
-  name: "форма морської піхоти загальновійськова синя"
-  description: "Сорочка і штани легендарної форми морської піхоти, практично незмінної з 19-го століття. Цей варіант має чорні штани та велику криваву смугу, яку носили генеральські офіцери."
+  name: marine general dress blues uniform
+  description: The undershirt and trousers of the legendary Marine dress blues, virtually unchanged since the 19th century. This variant features black trousers and a large Blood Stripe, worn by general officers.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/DressBlues/general.rsi

@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseItem
   id: RMCBinoculars
-  name: "бінокль"
-  description: "Бінокль військового зразка."
+  name: binoculars
+  description: A military-issued pair of binoculars.
   components:
   - type: Item
     size: Small
@@ -27,8 +27,8 @@
 - type: entity
   parent: RMCBinoculars
   id: RMCRangefinder
-  name: "далекомір"
-  description: "Бінокль з функцією далекоміра. Натисніть на плитку, щоб отримати її координати."
+  name: rangefinder
+  description: "A pair of binoculars with a rangefinding function. Click a tile to acquire it's coordinates."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Devices/binoculars.rsi
@@ -53,8 +53,8 @@
 - type: entity
   parent: RMCRangefinder
   id: RMCLaserDesignator
-  name: "лазерний покажчик"
-  description: "Лазерний цілевказівник з двома режимами: маркування цілей для КАС за допомогою ІЧ-лазера та визначення дальності. Натисніть на плитку, щоб навести на ціль."
+  name: laser designator
+  description: "A laser designator with two modes: target marking for CAS with IR laser and rangefinding. Click a tile to target something."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Devices/binoculars.rsi
@@ -70,8 +70,8 @@
 - type: entity
   parent: RMCLaserDesignator
   id: RMCLaserDesignatorScout
-  name: "розвідувальний лазерний цілевказівник"
-  description: "Покращений лазерний цілевказівник, що видається розвідникам УНСО, з двома режимами: позначення цілей для ПЗРК за допомогою ІЧ-лазера та визначення дальності. Клацніть плитку, щоб націлитися на щось."
+  name: scout laser designator
+  description: "An improved laser designator, issued to UNMC scouts, with two modes: target marking for CAS with IR laser and rangefinding. Click a tile to target something."
   components:
   - type: Rangefinder
     delay: 3
@@ -80,7 +80,7 @@
 
 - type: entity
   id: RMCRangefinderTarget
-  name: "лазерний"
+  name: laser
   components:
   - type: Transform
     anchored: true
@@ -94,7 +94,7 @@
 - type: entity
   parent: RMCRangefinderTarget
   id: RMCLaserDesignatorTarget
-  description: "Це лазер для позначення артилерійських цілей, відійдіть від нього!"
+  description: It's a laser to designate artillery targets, get away from it!
   components:
   - type: Sprite
     sprite: _RMC14/Effects/laser.rsi
@@ -103,7 +103,7 @@
 
 - type: entity
   id: RMCLaserDropshipTarget
-  name: "миготливий лазер"
+  name: blinking laser
   components:
   - type: Transform
     anchored: true

@@ -1,8 +1,8 @@
 - type: entity
   parent: hydroponicsTray
-  name: "лоток для гідропоніки"
+  name: hydroponics tray
   id: CMHydroponicsTray
-  description: "Використовується для вирощування рослин."
+  description: Used for growing plants.
   components:
   - type: Destructible
     thresholds:

@@ -41,7 +41,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointMessTech
-  name: "точка спавну \"Техніка безладу"
+  name: mess tech spawn point
   components:
   - type: SpawnPoint
     job_id: CMMessTech
