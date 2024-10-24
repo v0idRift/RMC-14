@@ -1,4 +1,5 @@
 using System.Linq;
+using Content.Server._Pirate.PacifiedNewbies;
 using Content.Server.Administration.Logs;
 using Content.Server.EUI;
 using Content.Server.Ghost.Roles.Components;
@@ -486,7 +487,13 @@ public sealed class GhostRoleSystem : EntitySystem
             return false;
 
         if (player.AttachedEntity != null)
-            _adminLogger.Add(LogType.GhostRoleTaken, LogImpact.Low, $"{player:player} took the {role.Comp.RoleName:roleName} ghost role {ToPrettyString(player.AttachedEntity.Value):entity}");
+        {
+            _adminLogger.Add(LogType.GhostRoleTaken,
+                LogImpact.Low,
+                $"{player:player} took the {role.Comp.RoleName:roleName} ghost role {ToPrettyString(player.AttachedEntity.Value):entity}");
+            var pirateEvent = new GhostRoleTakenPirate(player, player.AttachedEntity.Value); // PIRATE PACIFICATION
+            RaiseLocalEvent(pirateEvent); // PIRATE PACIFICATION
+        }
 
         CloseEui(player);
         return true;
