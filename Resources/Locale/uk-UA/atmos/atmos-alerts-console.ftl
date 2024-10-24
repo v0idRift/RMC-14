@@ -7,7 +7,7 @@ atmos-alerts-window-tab-alerts = Сповіщення ({$value})
 atmos-alerts-window-tab-air-alarms = Повітряна сигналізація
 atmos-alerts-window-tab-fire-alarms = Пожежна сигналізація
 
-atmos-alerts-window-alarm-label = {CAPITALIZE($name)} ({$адреса})
+atmos-alerts-window-alarm-label = {CAPITALIZE($name)} ({$address})
 atmos-alerts-window-temperature-label = Температура
 atmos-alerts-window-temperature-value = {$valueInC} °C ({$valueInK} K)
 atmos-alerts-window-pressure-label = Тиск
@@ -15,7 +15,7 @@ atmos-alerts-window-pressure-value = {$value} кПа
 atmos-alerts-window-oxygenation-label = Оксигенація
 atmos-alerts-window-oxygenation-value = {$value}%
 atmos-alerts-window-other-gases-label = Інші присутні гази
-atmos-alerts-window-other-gases-value = {$shorthand} ({$value}%) 
+atmos-alerts-window-other-gases-value = {$shorthand} ({$value}%)
 atmos-alerts-window-other-gases-value-nil = Ні
 atmos-alerts-window-silence-alerts = Сповіщення про тишу від цієї тривоги
 
