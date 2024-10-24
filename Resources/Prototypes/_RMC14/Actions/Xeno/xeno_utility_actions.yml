@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: ActionXenoTransferPlasma
   parent: ActionXenoBase
-  name: "Трансферна плазма (50)" # TODO RMC14 proper plasma costs
-  description: "Передайте плазму на сусідній ксенонід."
+  name: Transfer plasma (50) # TODO RMC14 proper plasma costs
+  description: Give plasma to a nearby xenonid.
   components:
   - type: EntityTargetAction
     itemIconStyle: NoItem
@@ -15,8 +15,8 @@
 - type: entity
   id: ActionXenoResinSurge
   parent: ActionXenoBase
-  name: "Викид смоли (75)"
-  description: "Прискорює ріст фруктів на 5 секунд при використанні на фруктах, створює тимчасові стіни при використанні на бур'янах або використовується на існуючих стінах, щоб зміцнити їх з 6000 хп на 15 секунд." #or create patches of sticky resin. TODO RMC14
+  name: Resin Surge (75)
+  description: Speeds up fruit growth by 5 seconds when used on fruit, creates temporary walls when used on weeds or use on existing walls to reinforce them with 6000 hp for 15 seconds. #or create patches of sticky resin. TODO RMC14
   components:
   - type: EntityWorldTargetAction
     itemIconStyle: NoItem
@@ -36,8 +36,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoRetrieve
-  name: "Отримати (180 плазми, 100 енергії)"
-  description: "Підтягніть ксенонід до себе, якщо він не рухається, через 0,6 секунди після цього."
+  name: Retrieve (180 plasma, 100 energy)
+  description: Pull a xenonid to you if they are still, with a 0.6 second doafter.
   components:
   - type: EntityTargetAction
     itemIconStyle: NoItem
@@ -57,8 +57,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoAid
-  name: "Допомога Ксеноніда (100 плазми, 100 енергії)"
-  description: "Зціліть ксеноніда поруч з вами і себе, або зніміть хвороби і оглушення з більш віддаленого ксеноніда. На додаткове зцілення витрачається ще половина очок, що залишилися у вас в запасі."
+  name: Aid Xenonid (100 plasma, 100 energy)
+  description: Heal a xenonid next to you and yourself, or remove ailments and stuns from a further away xenonid. Healing will consume an additional half of your remaining points for extra healing.
   components:
   - type: EntityTargetAction
     itemIconStyle: NoItem
@@ -75,8 +75,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoAidToggle
-  name: "Переключити тип допомоги"
-  description: "Перемикається між зціленням та усуненням недуг за допомогою Aid Xenonid."
+  name: Toggle Aid Type
+  description: Toggles between healing or removing ailments with Aid Xenonid.
   components:
   - type: InstantAction
     itemIconStyle: NoItem

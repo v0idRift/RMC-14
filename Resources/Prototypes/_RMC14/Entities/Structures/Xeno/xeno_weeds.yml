@@ -1,7 +1,7 @@
 ﻿- type: entity # TODO RMC14 sound
   id: XenoWeeds
-  name: "бур'яни"
-  description: "Дивні чорні бур'яни..."
+  name: weeds
+  description: Weird black weeds...
   placement:
     mode: SnapgridCenter
     snap:
@@ -102,8 +102,8 @@
 - type: entity # TODO RMC14 sound
   parent: XenoWeeds
   id: XenoWeedsSource
-  name: "вузол бур'яну"
-  description: "Дивний, пульсуючий вузол"
+  name: weed node
+  description: A weird, pulsating node
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_weeds.rsi
@@ -123,7 +123,7 @@
 - type: entity # TODO RMC14 sound
   parent: XenoWeeds
   id: XenoHiveWeeds
-  name: "вуликові бур'яни"
+  name: hive weeds
   placement:
     mode: SnapgridCenter
     snap:
@@ -182,8 +182,8 @@
 - type: entity # TODO RMC14 sound
   parent: XenoHiveWeeds
   id: XenoHiveWeedsSource
-  name: "вулик бур'яновий вузол"
-  description: "Дивний, пульсуючий вузол"
+  name: hive weed node
+  description: A weird, pulsating node
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_weeds.rsi
@@ -202,7 +202,7 @@
 
 - type: entity
   id: XenoWeedsWall
-  name: "бур'яни"
+  name: weeds
   placement:
     mode: SnapgridCenter
     snap:
@@ -274,8 +274,8 @@
 - type: entity # TODO RMC14 sound
   parent: XenoHardyWeeds
   id: XenoHardyWeedsSource
-  name: "витривалий вузол бур'яну"
-  description: "Дивний, пульсуючий вузол"
+  name: hardy weed node
+  description: A weird, pulsating node
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_weeds.rsi

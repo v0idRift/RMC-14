@@ -5,7 +5,7 @@
   save: false
   parent: MobSkeletonPerson
   id: CMMobSkeletonPerson
-  name: "Уріст К.М. МакСкеллі"
+  name: Urist C.M McSkelly
   suffix: RMC14
   components:
   - type: Marine

@@ -4,8 +4,8 @@
 - type: entity
   parent: CMVendor
   id: CMVendorTool
-  name: "машина для зберігання інструментів"
-  description: "Велика складська машина, що містить різні інструменти та пристосування для загального ремонту."
+  name: tool storage machine
+  description: A large storage machine containing various tools and devices for general repair.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/tool.rsi
@@ -43,8 +43,8 @@
 - type: entity
   parent: CMVendorTool
   id: CMVendorCircuits
-  name: "постачальник друкованих плат"
-  description: "Надійне сховище для попередньо запрограмованих плат, з внутрішнім гіроскопом, що запобігає переміщенню плат під дією зовнішніх сил, товстою ізоляцією та спеціальним 2,1-міліметровим портом ДБЖ для заряджання різних ексклюзивних пристроїв We-Ya (продається окремо)."
+  name: circuit board vendor
+  description: A safe storage for pre-programmed circuit boards, it has an internal gyroscope to keep any external force from moving the boards, thick insulation and a custom 2.1mm UPS port for charging various We-Ya exclusive devices (sold separately).
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/robotics.rsi
@@ -77,8 +77,8 @@
 - type: entity
   parent: CMVendorTool
   id: CMVendorElectronics
-  name: "постачальник електроніки"
-  description: "Постачальник запасних інструментів. Що? Ви очікували дотепного опису?"
+  name: electronics vendor
+  description: Spare tool vendor. What? Did you expect some witty description?
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/engivend.rsi
@@ -100,8 +100,8 @@
 - type: entity
   parent: CMVendorTool
   id: CMVendorComponent
-  name: "машина для зберігання компонентів"
-  description: "Велика машина для зберігання різних компонентів."
+  name: component storage machine
+  description: A large storage machine containing various components.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/engi.rsi
@@ -127,8 +127,8 @@
 - type: entity
   parent: CMVendor
   id: CMVendorScience
-  name: "We-Ya SciVend"
-  description: "Постачальник, що містить основне обладнання для ваших експериментів."
+  name: We-Ya SciVend
+  description: Vendor containing basic equipment for your experiments.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/robotics.rsi
@@ -154,8 +154,8 @@
 - type: entity
   parent: CMVendorScience
   id: CMVendorRobotics
-  name: "Robotech Deluxe"
-  description: "Всі інструменти, необхідні для створення власної армії роботів."
+  name: Robotech Deluxe
+  description: All the tools you need to create your own robot army.
   components:
   - type: VendingMachine
     pack: CMVendorRobotics

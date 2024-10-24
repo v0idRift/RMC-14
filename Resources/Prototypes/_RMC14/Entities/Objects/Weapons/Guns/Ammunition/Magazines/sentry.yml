@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseMagazineRifle
   id: RMCMagazineSentry
-  name: "Барабан для набоїв M30 (10x28 мм без гільзи)"
-  description: "Барабан з 500 безоболонковими патронами калібру 10x28 мм для сторожової рушниці UN 571-C Sentry Gun. Просто вставте його в патронний отвір дозорної гармати, коли боєприпаси закінчаться."
+  name: "M30 ammo drum (10x28mm Caseless)"
+  description: "An ammo drum of 500 10x28mm caseless rounds for the UN 571-C Sentry Gun. Just feed it into the sentry gun's ammo port when its ammo is depleted."
   components:
   - type: Item
     size: Normal
@@ -34,8 +34,8 @@
 - type: entity
   parent: BaseMagazineRifle
   id: RMCMagazineSentryShotgun
-  name: "Барабан з картеччю 12г"
-  description: "Бочка з 50 12-грамовими картеччю для дробовика UN 12-G Shotgun Sentry. Просто вставте його в патронний отвір вартової рушниці, коли боєприпаси закінчаться."
+  name: "12g buckshot drum"
+  description: "An ammo drum of 50 12g buckshot shells for the UN 12-G Shotgun Sentry. Just feed it into the sentry gun's ammo port when its ammo is depleted."
   components:
   - type: Tag
     tags:

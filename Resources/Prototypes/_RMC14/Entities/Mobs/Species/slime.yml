@@ -2,7 +2,7 @@
   save: false
   parent: CMBaseMobSpeciesOrganic
   id: CMMobSlimePerson
-  name: "Уріст К.М. МакСлайм"
+  name: Urist C.M McSlime
   suffix: RMC14
   components:
   - type: HumanoidAppearance

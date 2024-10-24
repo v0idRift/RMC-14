@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckBronzeheart
-  name: "медаль \"Бронзове серце"
-  description: "Надається членам екіпажу за зразкову хоробрість перед обличчям небезпеки."
+  name: bronzeheart medal
+  description: Given to crewmates for exemplary bravery in the face of danger.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Medals/bronzeheart.rsi
@@ -16,8 +16,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckGoldmedal
-  name: "золота медаль за майстерність екіпажу"
-  description: "Надається членам екіпажу, які демонструють відмінну роботу в команді."
+  name: gold medal of crewmanship
+  description: Given to crewmates who display excellent crewmanship.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Medals/gold.rsi
@@ -32,8 +32,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCargomedal
-  name: "медаль за логістику"
-  description: "Чи то за відмінну бухгалтерію, мужню рятувальну роботу, чи просто за доброзичливість - ця медаль призначається лише за найкращу роботу у відділі матеріально-технічного забезпечення."
+  name: cargo medal
+  description: Given for the best work in the cargo department.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Medals/cargomedal.rsi
@@ -46,8 +46,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckEngineermedal
-  name: "медаль інженера"
-  description: "Чи то завдяки підтримці дихання екіпажу, ретельному переобладнанню та модернізації, чи просто наявності великої кількості матеріалів під рукою - ця медаль присуджується лише за найкращу роботу в інженерному відділі."
+  name: engineer medal
+  description: Given for the best work in the engineering department.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Medals/engineermedal.rsi
@@ -60,8 +60,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckMedicalmedal
-  name: "медична медаль"
-  description: "Чи то перше прибуття на місце нещасного випадку, чи то найдбайливіший догляд за хворим, чи то просто турбота про те, щоб пацієнти не з'їхали з глузду - ця медаль призначається лише за найкращу роботу в медичному відділенні."
+  name: medical medal
+  description: Given for the best work in the medical department.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Medals/medicalmedal.rsi
@@ -74,8 +74,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckSciencemedal
-  name: "медаль за епістемологію"
-  description: "Незалежно від того, чи це просування на межі сучасної науки і технологій, чи вилазка на безкраї простори ноосфери, чи просто принесення кави - ця медаль призначається лише за найкращу роботу в галузі епістеміки."
+  name: science medal
+  description: Given for the best work in the science department.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Medals/sciencemedal.rsi
@@ -88,8 +88,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckSecuritymedal
-  name: "медаль за безпеку"
-  description: "Затримання озброєних терористів, охорона екіпажу від інопланетних загроз чи просто розмова в коридорі - ця медаль призначається лише за найкращу роботу у відділі безпеки."
+  name: security medal
+  description: Given for the best work in the security department.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Medals/securitymedal.rsi
@@ -102,8 +102,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckClownmedal
-  name: "медаль за браваду"
-  description: "Нагорода вручається членам екіпажу, які сміються в обличчя смерті, піднімають настрій своїм товаришам і ведуть себе та своїх друзів до успіху"
+  name: clown medal
+  description: Given for the best joke in the universe. HONK!
   components:
   - type: Sprite
     sprite: Clothing/Neck/Medals/clownmedal.rsi

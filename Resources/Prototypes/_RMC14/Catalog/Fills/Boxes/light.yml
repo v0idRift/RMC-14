@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: RMCBoxCardboard
   id: RMCBoxLightsMixed
-  name: "коробка запасних ламп"
-  description: "Ця коробка зсередини має таку форму, щоб туди помістилися лише лампочки та трубки."
+  name: box of replacement lights
+  description: This box is shaped on the inside so that only light tubes and bulbs fit.
   components:
   - type: Storage
     grid:

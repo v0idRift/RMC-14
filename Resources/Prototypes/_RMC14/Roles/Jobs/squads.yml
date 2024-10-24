@@ -17,7 +17,7 @@
 - type: entity
   parent: SquadBase
   id: SquadAlpha
-  name: "Альфа"
+  name: Alpha
   components:
   - type: SquadTeam
     roundStart: true
@@ -28,7 +28,7 @@
 - type: entity
   parent: SquadBase
   id: SquadBravo
-  name: "Браво"
+  name: Bravo
   components:
   - type: SquadTeam
     roundStart: true
@@ -39,7 +39,7 @@
 - type: entity
   parent: SquadBase
   id: SquadCharlie
-  name: "Чарлі"
+  name: Charlie
   components:
   - type: SquadTeam
     roundStart: true
@@ -50,7 +50,7 @@
 - type: entity
   parent: SquadBase
   id: SquadDelta
-  name: "Дельта"
+  name: Delta
   components:
   - type: SquadTeam
     roundStart: true
@@ -61,7 +61,7 @@
 - type: entity
   parent: SquadBase
   id: SquadEcho
-  name: "Ехо"
+  name: Echo
   components:
   - type: SquadTeam
     color: "#67D692"
@@ -74,7 +74,7 @@
 - type: entity
   parent: SquadBase
   id: SquadFoxtrot
-  name: "Фокстрот"
+  name: Foxtrot
   components:
   - type: SquadTeam
     color: "#C47A50"

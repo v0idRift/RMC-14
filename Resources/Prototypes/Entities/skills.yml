@@ -7,12 +7,12 @@
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillAntagonist
-  name: "Антагоніст"
+  name: Antagonist
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillConstruction
-  name: "Будівництво"
+  name: Construction
   components:
   - type: SkillDefinition
     delayMultipliers: [1, 1, 0.5]
@@ -21,22 +21,22 @@
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillCqc
-  name: "Cqc"
+  name: Cqc
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillDomestics
-  name: "Домашнє господарство"
+  name: Domestics
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillEndurance
-  name: "Витривалість"
+  name: Endurance
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillEngineer
-  name: "Інженер"
+  name: Engineer
   components:
   - type: SkillDefinition
     delayMultipliers: [1, 0.75, 0.5, 0.375, 0.25]
@@ -44,91 +44,91 @@
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillExecution
-  name: "Страта"
+  name: Execution
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillFirearms
-  name: "Вогнепальна зброя"
+  name: Firearms
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillFireman
-  name: "Пожежник"
+  name: Fireman
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillIntel
-  name: "Інтел"
+  name: Intel
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillJtac
-  name: "Джейтаку"
+  name: Jtac
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillLeadership
-  name: "Лідерство"
+  name: Leadership
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillMedical
-  name: "Медичні"
+  name: Medical
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillMeleeWeapons
-  name: "Зброя ближнього бою"
+  name: MeleeWeapons
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillNavigations
-  name: "Навігація"
+  name: Navigations
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillOverwatch
-  name: "Overwatch"
+  name: Overwatch
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillPilot
-  name: "Пілот"
+  name: Pilot
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillPolice
-  name: "Поліція"
+  name: Police
 
 # Forklift certified
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillPowerLoader
-  name: "PowerLoader"
+  name: PowerLoader
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillResearch
-  name: "Дослідження"
+  name: Research
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillSmartGun
-  name: "SmartGun"
+  name: SmartGun
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillSpecialistWeapons
-  name: "Спеціаліст Зброя"
+  name: SpecialistWeapons
 
 # No longer a week away
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillSurgery
-  name: "Хірургія"
+  name: Surgery
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillVehicles
-  name: "Транспортні засоби"
+  name: Vehicles
