@@ -13,7 +13,7 @@ emergency-shuttle-command-launch-desc = Ранній запуск аварійн
 # Emergency shuttle
 emergency-shuttle-left = Аварійний шатл покинув станцію. Приблизний час: {$transitTime} секунд до прибуття до CentCom.
 emergency-shuttle-launch-time = Аварійний шатл стартує через {$consoleAccumulator} секунд.
-emergency-shuttle-docked = Аварійний шатл пристикувався до станції зі сторони: {$direction}. Він відчалює через {$time} секунд.
+emergency-shuttle-docked = Аварійний шатл пристикувався до станції зі сторони: {$direction}. Він відчалює через {$time} секунд
 emergency-shuttle-good-luck = Аварійний шатл не може знайти станцію. Хай щастить.
 emergency-shuttle-nearby = Аварійний шатл не може знайти дійсний стикувальний порт. Він був переміщений у напрямку {$direction} від станції.
 
@@ -33,3 +33,9 @@ emergency-shuttle-ui-authorize = АВТОРИЗАЦІЯ
 emergency-shuttle-ui-repeal = ВІДКРИТТЯ
 emergency-shuttle-ui-authorizations = Авторизацій
 emergency-shuttle-ui-remaining = Залишилося: {$remaining}
+
+emergency-shuttle-extended = {" "}Час запуску продовжено через незручні обставини.
+
+# Аварійне спливаюче вікно на консолі шатла / оголошення
+map-name-centcomm = Центральне командування
+map-name-terminal = Термінал прильоту

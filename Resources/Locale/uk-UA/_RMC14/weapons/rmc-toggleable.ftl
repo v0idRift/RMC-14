@@ -6,3 +6,6 @@ rmc-toggleable-recoil-compensation-on = Ви вмикаєте {POSS-ADJ($gun)} �
 rmc-toggleable-recoil-compensation-off = Ви вимикаєте {POSS-ADJ($gun)} компенсацію віддачі.
 
 rmc-toggleable-autofire-requires-wielding = Щоб увімкнути автоматичний вогонь, вам потрібно взяти в дві руки {THE($gun)}.
+
+rmc-toggleable-motion-detector-on = Ви вмикаєте датчик руху {THE($gun)}.
+rmc-toggleable-motion-detector-off = Ви відключаєте датчик руху {THE($gun)}.

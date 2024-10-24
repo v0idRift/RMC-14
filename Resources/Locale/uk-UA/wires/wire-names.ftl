@@ -40,7 +40,7 @@ wires-board-name-fatextractor = Жиросорб
 wires-board-name-flatpacker = Флетпакер
 wires-board-name-spaceheater = Обігрівач Простору
 
-# імена, які відображаються в логах hud та адміністратора злому дроту.
+# імена, які відображаються в логах hud та адміністратора злому дроту
 
 wire-name-access = ДОСТУПТУП
 wire-name-arcade-overflow = ПЕРЕПОВН
@@ -67,3 +67,8 @@ wire-name-bomb-bolt = БОЛТ
 wire-name-speech = ГОЛОС
 wire-name-listen = МІКРОО
 wire-name-log = ПАМ
+
+wires-board-name-jukebox = Музичний автомат
+wires-board-name-computer = Комп'ютер.
+
+# імена, які відображаються в журналах hud та адміністратора.

@@ -21,3 +21,7 @@ store-caregory-spellbook-utility = Допоміжні
 store-caregory-spellbook-equipment = Обладнання
 store-caregory-spellbook-events = Евентові
 
+
+store-discounted-items = Знижки
+
+# Revenant

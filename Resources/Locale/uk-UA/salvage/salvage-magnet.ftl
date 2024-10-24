@@ -41,3 +41,7 @@ salvage-map-wreck-desc-size = Розмір:
 salvage-map-wreck-size-small = [color=lime]Малий[/color]
 salvage-map-wreck-size-medium = [color=cornflowerblue]Середній[/color]
 salvage-map-wreck-size-large = [color=orchid]Великий[/color]
+
+salvage-magnet-debris-ChunkDebris = Космічне сміття
+
+# Астероїди

@@ -86,3 +86,6 @@ signal-port-description-logic-memory-input = Сигнал для заванта�
 
 signal-port-name-logic-enable = Увімкнути
 signal-port-description-logic-enable = Завантажує вхідний сигнал у комірку пам'яті лише тоді, коли він має значення HIGH.
+
+signal-port-name-timer = Таймер
+signal-port-description-timer = Запускає зворотний відлік таймера пристрою.

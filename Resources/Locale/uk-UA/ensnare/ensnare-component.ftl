@@ -3,3 +3,6 @@ ensnare-component-try-free-complete = Ви успішно звільняєте �
 ensnare-component-try-free-fail = Вам не вдається звільнитися від {$ensnare}!
 
 ensnare-component-try-free-other = Ви починаєте видаляти {$ensnare}, спійманий на {$user}!
+
+ensnare-component-try-free-complete-other = Ви успішно звільнили {$user} з {$ensnare}!
+ensnare-component-try-free-fail-other = Вам не вдалося звільнити {$user} з {$ensnare}!

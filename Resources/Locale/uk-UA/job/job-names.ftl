@@ -108,3 +108,13 @@ JobTechnicalAssistant = Технічний Асистент
 JobVisitor = Відвідувач
 JobWarden = Варден
 JobZookeeper = Зоолог
+
+job-name-cburn = Карантинний офіцер Centcomm
+job-name-deathsquad = Агент Centcomm
+job-name-station-ai = Станція штучного інтелекту
+job-title-visitor = Відвідувач
+job-title-cluwne = Клюн
+job-title-universal = Універсальний
+
+# Таймери ролей - зробіть їх в алфавітному порядку, або я вас поріжу
+JobStationAi = Станція штучного інтелекту

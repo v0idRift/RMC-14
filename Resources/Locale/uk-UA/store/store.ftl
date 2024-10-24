@@ -11,3 +11,6 @@ store-not-account-owner = Цей {$store} не прив'язаний до вас
 
 store-preset-name-uplink = Аплінк
 store-preset-name-spellbook = Книга замовлянь
+
+store-ui-discount-display-with-currency = {$amount} off on {$currency}
+store-ui-discount-display = ({$amount} off!)

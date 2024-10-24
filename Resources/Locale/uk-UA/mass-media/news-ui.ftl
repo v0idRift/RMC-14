@@ -35,3 +35,5 @@ news-write-ui-richtext-tooltip = Статті новин підтримують 
 
 news-pda-notification-header = Нова стаття в новинах
 news-publish-admin-announcement = {$actor} опубликував новий артикль {$title} від {$author}
+
+news-write-ui-save-text = Зберегти

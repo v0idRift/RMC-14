@@ -128,3 +128,5 @@ tiles-jungle-astro-grass = астро-трава джунглів
 tiles-astro-ice = астро-лід
 tiles-astro-snow = астро-сніг
 tiles-wood-large = велика деревина
+
+tiles-red-circuit-floor = червона підлога контуру

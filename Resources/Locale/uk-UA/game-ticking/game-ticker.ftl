@@ -42,3 +42,8 @@ latejoin-arrivals-teleport-to-spawn = Містична сила переноси
 
 preset-not-enough-ready-players = Не вдається запустити {$presetName}. Потрібно {$minimumPlayers} гравців, але у нас є {$readyPlayersCount}.
 preset-no-one-ready = Не вдається запустити {$presetName}. Жоден гравець не готовий.
+
+latejoin-arrival-announcement-special = {$job} {$character} on deck!
+game-run-level-PreRoundLobby = Вестибюль перед раундом
+game-run-level-InRound = У раунді
+game-run-level-PostRound = Після раунду

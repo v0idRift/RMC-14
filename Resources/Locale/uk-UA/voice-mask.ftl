@@ -6,3 +6,5 @@ voice-mask-name-change-set-description = Зміни імʼя щоб вдават
 
 voice-mask-popup-success = Імʼя встановлено.
 voice-mask-popup-failure = Імʼя не може бути встановлено.
+
+voice-mask-default-name-override = Невідомо

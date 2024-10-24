@@ -20,3 +20,14 @@ ui-vote-map-tie = Нічия у голосувані! Вибираємо... { $p
 ui-vote-map-win = { $winner } виграв голосування за мапу!
 ui-vote-map-notlobby = Голосування за мапу дійсне лише в лобі!
 ui-vote-map-notlobby-time = Голосування за мапи дійсне лише в передраундовому лобі з { $time } залишилось!
+
+ui-vote-votekick-unknown-initiator = Гравець
+ui-vote-votekick-unknown-target = Невідомий гравець
+ui-vote-votekick-title = { $initiator } викликав votekick для користувача: { $targetEntity }. Причина: { $reason }
+ui-vote-votekick-yes = Так
+ui-vote-votekick-no = Ні
+ui-vote-votekick-abstain = Утриматися
+ui-vote-votekick-success = Votekick для { $target } пройшов успішно. Причина голосування: { $reason }
+ui-vote-votekick-failure = Votekick для { $target } не вдалося. Причина голосування: { $reason }
+ui-vote-votekick-not-enough-eligible = Недостатньо виборців, які мають право голосу, онлайн, щоб розпочати голосування: { $voters }/{ $requirement }
+ui-vote-votekick-server-cancelled = Votekick для { $target } було скасовано сервером.

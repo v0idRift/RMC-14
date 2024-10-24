@@ -9,8 +9,10 @@ paper-component-examine-detail-has-words = {CAPITALIZE($paper)} має щось 
 paper-component-examine-detail-stamped-by = {CAPITALIZE($paper)} завірено печаткою {$stamps}.
 
 paper-component-action-stamp-paper-other = {CAPITALIZE($user)} поставив печатку на {$target} за допомогою {$stamp}.
-paper-component-action-stamp-paper-self = Ви поставили печатку на {$target} за допомогою {$stamp}.
+paper-component-action-stamp-paper-self = Ви поставили печатку на {$target} за допомогою {$stamp}
 
 paper-ui-save-button = Зберегти ({$keybind})
 
 paper-tamper-proof-modified-message = Ця сторінка написана чорнилом із захистом від підробки.
+
+paper-ui-fill-level = {$currentLength}/{$maxLength}

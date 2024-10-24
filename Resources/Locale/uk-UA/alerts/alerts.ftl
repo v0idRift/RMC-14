@@ -106,3 +106,6 @@ alerts-revenant-essence-desc = Сила душ. Вона підтримує ва
 
 alerts-revenant-corporeal-name = Тілесний
 alerts-revenant-corporeal-desc = Ви проявилися фізично. Люди навколо вас можуть бачити і завдавати вам болю.
+
+alerts-adrenaline-name = [color=red]Адреналін[/color]
+alerts-adrenaline-desc = Ви сповнені адреналіну: біль не сповільнить вас.

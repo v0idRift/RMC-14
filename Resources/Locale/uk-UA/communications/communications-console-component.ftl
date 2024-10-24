@@ -24,3 +24,5 @@ comms-console-announcement-unknown-sender = Анонім
 comms-console-announcement-title-station = Комунікаційна консоль
 comms-console-announcement-title-centcom = Центральний комітет
 comms-console-announcement-title-nukie = Ядерні Оперативники 'СИНДИКАТ'
+
+comms-console-announcement-title-station-ai = Станція штучного інтелекту

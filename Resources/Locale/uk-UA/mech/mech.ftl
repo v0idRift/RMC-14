@@ -17,3 +17,5 @@ mech-energy-missing = Енергія: ВІДСУТНЬО
 mech-slot-display = Доступні місця: {$amount}
 
 mech-no-enter = Ви не можете пілотувати це.
+
+mech-eject-pilot-alert = {$user} витягує пілот з {$item}!

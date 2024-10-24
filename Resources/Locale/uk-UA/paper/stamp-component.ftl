@@ -17,3 +17,6 @@ stamp-component-stamped-name-warden = Наглядач
 stamp-component-stamped-name-trader = Торговець
 stamp-component-stamped-name-syndicate = Синдикат
 stamp-component-stamped-name-ce = Головний Інженер
+
+stamp-component-stamped-name-greytide = Сірість
+stamp-component-stamped-name-psychologist = Психолог

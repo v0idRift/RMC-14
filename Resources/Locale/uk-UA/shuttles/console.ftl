@@ -50,3 +50,7 @@ shuttle-console-docks-label = Стикувальні порти
 
 shuttle-console-undock-fail = Невдала відстиковка
 shuttle-console-dock-fail = Невдала стиковка
+
+shuttle-console-static = Сітка статична
+
+# NAV

@@ -238,3 +238,65 @@ ghost-role-information-artifact-description = Втілюйте свої елдр
 
 ghost-role-information-syndie-assaultborg-name = Синдикат штурмових боргів
 ghost-role-information-syndie-assaultborg-description = Ядерні оперативники потребують підкріплення. Ти, холодна кремнієва машина для вбивства, допоможеш їм. Більше дакки!
+
+ghost-role-information-rules-team-antagonist = Ви - [color=red][bold]Антагоніст команди[/bold][/color]. Ваші наміри зрозумілі і шкідливі для станції та її екіпажу.
+                                               Ви повинні [bold]працювати зі своєю командою[/bold] або виконувати розумні вказівки лідерів вашої команди.
+                                               Ви не пам'ятаєте нічого зі свого попереднього життя і не пам'ятаєте нічого з того, чого навчилися, будучи привидом.
+                                               Вам дозволено пам'ятати знання про гру в цілому, наприклад, як готувати їжу, як використовувати предмети тощо.
+                                               Ви абсолютно [color=red]НЕ[/color] можете пам'ятати, скажімо, ім'я, зовнішність і т.д. вашого попереднього персонажа.
+ghost-role-information-snail-name = Равлик
+ghost-role-information-snail-description = Маленький равлик, який не проти трохи простору. Просто залишайся на сітці!
+ghost-role-information-snailspeed-name = Равлик
+ghost-role-information-snailspeed-description = Маленький равлик з равликовими рушіями.
+ghost-role-information-snoth-name = Слимак
+ghost-role-information-snoth-description = Маленький слимачок, який не проти трохи простору. Просто залишайся в сітці!
+ghost-role-information-salvage-carp-name = Космічний короп на врятованому кораблі
+ghost-role-information-salvage-carp-description = Захистіть здобич всередині врятованого корабля!
+ghost-role-information-syndicate-cyborg-assault-name = Штурмовий кіборг Синдикату
+ghost-role-information-syndicate-cyborg-saboteur-name = Синдикат Диверсант Кіборг
+ghost-role-information-syndicate-cyborg-description = Синдикат потребує підкріплення. Ти, холодна кремнієва машина для вбивства, допоможеш їм.
+ghost-role-information-security-name = Безпека
+ghost-role-information-security-description = Ви входите до складу спецпідрозділу, але, схоже, опинилися в дивній ситуації...
+ghost-role-information-medical-name = Медичні
+ghost-role-information-medical-virologist-name = Вірусолог
+ghost-role-information-medical-geneticist-name = Генетик
+ghost-role-information-medical-dentist-name = Стоматолог
+ghost-role-information-medical-description = Ви медичний працівник, але, здається, опинилися в дивній ситуації...
+ghost-role-information-cargo-name = Вантаж
+ghost-role-information-cargo-description = Ви берете участь у логістичній місії, але, схоже, опинилися в дивній ситуації...
+ghost-role-information-engineering-name = Інжиніринг
+ghost-role-information-engineering-description = Ви працюєте інженером, але, здається, потрапили в дивну ситуацію...
+ghost-role-information-science-name = Наука
+ghost-role-information-science-description = Ви є частиною наукової команди, але, здається, опинилися в дивній ситуації...
+ghost-role-information-civilian-name = Цивільний
+ghost-role-information-civilian-description = Ви просто тусувалися, але, здається, опинилися в дивній ситуації...
+ghost-role-information-civilian-centcom-lawyer-name = Юрист Centcom
+ghost-role-information-civilian-centcom-lawyer-description = Юрист безпосередньо з Центрального юридичного відділу.
+ghost-role-information-command-name = Командире!
+ghost-role-information-command-description = Ви є членом командування, але, здається, опинилися в дивній ситуації...
+ghost-role-information-lost-challenge-commander-name = Командир у береговій відпустці
+ghost-role-information-lost-challenge-commander-description = Ви - член команди іншого зорельота, який отримав відпустку на берег разом з одним з ваших вантажних техніків.
+ghost-role-information-lost-challenge-commander-rules = Ви не вороже налаштовані до станції, ви робите те, що повинні, щоб забезпечити власне виживання.
+                                     Ви не пам'ятаєте нічого зі свого попереднього життя, і ви не пам'ятаєте нічого з того, чого навчилися, будучи привидом.
+                                     Вам дозволено пам'ятати знання про гру в цілому, наприклад, як готувати їжу, як користуватися предметами тощо.
+                                     Ви абсолютно [color=red]НЕ[/color] можете пам'ятати, скажімо, ім'я, зовнішність і т.д. вашого попереднього персонажа.
+ghost-role-information-lost-challenge-cargo-technican-name = Вантажний водій
+ghost-role-information-lost-challenge-cargo-technican-description = Ви - вантажний технік, який отримав відпустку на берег разом з одним зі своїх командирів.
+ghost-role-information-lost-challenge-cargo-technican-rules = Ви не вороже налаштовані до станції, ви робите те, що повинні, щоб забезпечити власне виживання.
+                                     Ви не пам'ятаєте нічого зі свого попереднього життя, і ви не пам'ятаєте нічого з того, чого навчилися, будучи привидом.
+                                     Вам дозволено пам'ятати знання про гру в цілому, наприклад, як готувати їжу, як користуватися предметами тощо.
+                                     Ви абсолютно [color=red]НЕ[/color] можете пам'ятати, скажімо, ім'я, зовнішність і т.д. вашого попереднього персонажа.
+ghost-role-information-syndie-soldier-name = Солдат Синдикату
+ghost-role-information-syndie-soldier-description = Ти солдат Синдикату.
+ghost-role-information-syndie-soldier-teamlead-name = Керівник синдикату
+ghost-role-information-syndie-soldier-teamlead-description = Ви - командир вогневої групи в оперативній групі Синдикату.
+ghost-role-information-blackmarketeer-name = Торговець на чорному ринку
+ghost-role-information-blackmarketeer-description = Укладайте угоди або беріть підробіток, щоб зібрати найцікавіші предмети до кінця зміни.
+ghost-role-information-cossack-name = Стародавній мандрівник
+ghost-role-information-cossack-description = З історії, загубленої в часі, ви опиняєтесь у сьогоденні.
+ghost-role-information-pirate-name = Космічний пірат
+ghost-role-information-pirate-description = Ох, друже! Зберіть трохи крутої здобичі, але намагайтеся уникати охорони та рятувальників!
+ghost-role-information-pirate-captain-name = Капітан космічних піратів
+ghost-role-information-pirate-captain-description = Ох, друже! Ти тут головний, і тобі потрібно розробити план, щоб отримати цю соковиту здобич усіма правдами і неправдами. Тільки не проходьте повз охорону та рятувальників!
+ghost-role-information-tomatokiller-name = Томатний вбивця
+ghost-role-information-tomatokiller-description = Цей маленький помідор буде служити ботаніку до кінця його життя... тобто пару хвилин

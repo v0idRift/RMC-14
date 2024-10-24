@@ -132,3 +132,16 @@ seeds-pyrotton-name =  пироттону
 seeds-pyrotton-display-name = рослина пироттону
 seeds-capfruit-name = капфрут
 seeds-capfruit-display-name = дерево каперсів
+
+seeds-meatwheat-name = м'ясна крупа
+seeds-meatwheat-display-name = стебла м'ясної гречки
+seeds-extradimensionalorange-name = екстравимірний помаранчевий
+seeds-extradimensionalorange-display-name = екстравимірні апельсинові дерева
+seeds-holymelon-name = кавун
+seeds-holymelon-display-name = лози хурми
+seeds-worldpea-name = світовий горох
+seeds-worldpea-display-name = світові лози гороху
+seeds-cherry-name = вишня
+seeds-cherry-display-name = вишневе дерево
+seeds-anomaly-berry-name = аномальна ягода
+seeds-anomaly-berry-display-name = аномальні ягоди

@@ -16,3 +16,10 @@ health-analyzer-window-scan-mode-inactive = НЕАКТИВНИЙ
 health-analyzer-window-malnutrition = Сильне недоїдання
 
 health-analyzer-popup-scan-target = {CAPITALIZE($user)} намагається просканувати вас!
+
+health-analyzer-window-entity-unknown-species-text = Негуманоїд
+health-analyzer-window-entity-unknown-value-text = Н/Д
+health-analyzer-window-entity-alive-text = Живий
+health-analyzer-window-entity-dead-text = Мертвий
+health-analyzer-window-entity-critical-text = Критично важливо
+health-analyzer-window-entity-status-text = Статус:

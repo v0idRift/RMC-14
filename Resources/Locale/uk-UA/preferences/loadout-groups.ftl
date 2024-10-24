@@ -185,3 +185,6 @@ loadout-group-psychologist-jumpsuit = Комбінезон психолога
 
 loadout-group-boxer-jumpsuit = Одяг
 loadout-group-boxer-gloves = Рукавички
+
+loadout-group-pocket-tank-double = Спеціальний подвійний аварійний резервуар у кишені
+loadout-group-mime-belt = Пояс для пантоміми

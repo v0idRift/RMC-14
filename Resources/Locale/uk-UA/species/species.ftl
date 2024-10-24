@@ -9,3 +9,5 @@ species-name-arachnid = Арахнід
 species-name-moth = Міль
 species-name-skeleton = Скелет
 species-name-vox = Вокс
+
+snail-hurt-by-salt-popup = Солоний розчин пече, як кислота!

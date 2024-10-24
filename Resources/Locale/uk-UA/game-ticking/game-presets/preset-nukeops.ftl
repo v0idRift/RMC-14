@@ -31,3 +31,5 @@ nukeops-no-one-ready = Ніхто не проголосував! Не можли
 nukeops-role-commander = Командир
 nukeops-role-agent = Агент
 nukeops-role-operator = Оперативник
+
+nukeops-briefing = Ваші завдання прості. Доставити вантаж і переконатися, що він здетонує. Починайте місію.

@@ -59,3 +59,4 @@ tiles-rmc-outer-hull = зовнішня черепиця корпусу
 tiles-rmc-escape-pod = черепиця рятувального шатлу
 
 tiles-rmc-grate = колосникова плитка
+tiles-rmc-supply-pad = плитка для припливної колодки

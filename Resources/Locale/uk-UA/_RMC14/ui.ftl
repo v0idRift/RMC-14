@@ -55,3 +55,6 @@ rmc-ui-discord = Discord
 rmc-ui-patreon = Patreon
 
 rmc-other-credits-tab = Інше
+rmc-ui-ghost-color = Примарний колір
+rmc-ui-ghost-color-clear = Чисто
+rmc-ui-ghost-color-save = Зберегти

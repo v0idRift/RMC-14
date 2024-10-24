@@ -170,3 +170,7 @@ figurines-hamlet-5 = Піп!
 figurines-hamlet-6 = Фвіп!
 figurines-hamlet-7 = Хіп!
 figurines-hamlet-8 = ТІЛЬКИ НЕ В МІКРОХВИЛЬОВКУ!
+
+figurines-boxer-2 = Ми вирішимо це на рингу, добре?
+figurines-boxer-3 = I. Є. ЧЕМПІОН ЧЕМПІОН!!
+figurines-boxer-4 = Не дивись на мене, його застрелили, а не побили.

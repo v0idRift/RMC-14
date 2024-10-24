@@ -20,3 +20,5 @@ chat-radio-colony = Колонія
 chat-radio-WY = Ве-Я
 
 chat-radio-hivemind = Вулик
+
+chat-radio-CMB = Бюро маршалів колоній

@@ -8,3 +8,10 @@ rmc-pull-infect-self = Ви намагаєтеся тягнути {$pulled}, а�
 rmc-pull-infect-others = {$puller} намагається потягнути {$pulled}, але в процесі на нього наскакують і заражають!
 
 rmc-prevent-pull-alive = You can't pull {THE($target)} while {SUBJECT($target)} {CONJUGATE-BE($target)} alive!
+
+rmc-pull-aggressive-self = Ви агресивно схопили {$pulled}!
+rmc-pull-aggressive-others = {$puller} агресивно схопив {$pulled}!
+rmc-pull-break-start-self = Ви з усіх сил намагаєтеся вирватися з лещат {$puller}!
+rmc-pull-break-start-others = {$pulled} намагається вирватися з рук {$puller}!
+rmc-pull-break-finish-self = Ти вирвешся з рук {$puller}!
+rmc-pull-break-finish-others = {$pulled} вирвався з рук {$puller}!

@@ -122,3 +122,9 @@ accent-words-nymph-1 = Цвірінькай!
 accent-words-nymph-2 = Чуррр...
 accent-words-nymph-3 = Дешево?
 accent-words-nymph-4 = Хрупе!
+
+accent-words-tomato-1 = Тотато!
+accent-words-tomato-2 = Тротротест
+accent-words-tomato-3 = Масте?
+accent-words-tomato-4 = Реати!
+accent-words-tomato-5 = Води...

@@ -112,3 +112,17 @@ food-sequence-burger-content-spacemans-trumpet = spacetrump
 food-sequence-taco-gen = taco з {$content}
 
 food-sequence-skewer-gen = {$content} шашлик
+food-sequence-content-world-pea = світовий горох
+food-sequence-content-holymelon = кавун
+food-sequence-content-cherry = вишня
+food-sequence-content-snail = равлик
+food-sequence-content-anomaly-berry = аномальна ягода
+
+# БУРГЕРИ
+food-sequence-burger-content-crab = краби
+food-sequence-burger-content-holymelon = святий
+food-sequence-burger-content-anomaly-berry = аном
+food-sequence-burger-content-extradimensional-orange = 3d
+food-sequence-burger-content-world-pea = мир
+
+# TACO

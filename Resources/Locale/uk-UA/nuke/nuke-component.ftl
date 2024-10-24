@@ -44,3 +44,5 @@ nuke-slot-component-slot-name-disk = Диск
 ## Вивчити
 nuke-examine-armed = Ей, а чому блимає [color=red]червоне світло[/color]?
 nuke-examine-exploding = Так... Думаю, вже запізно, приятелю.
+
+nuke-component-cant-anchor-toggle = Диск з ядерною автентифікацією необхідний для перемикання болтів на підлозі!

@@ -23,3 +23,6 @@ fibers-white = білі
 fibers-yellow = жовті
 fibers-regal-blue = сині
 fibers-olive = оливкові
+
+fibers-insulative-frayed = пошарпаний ізолятор
+fibers-teal = чирок

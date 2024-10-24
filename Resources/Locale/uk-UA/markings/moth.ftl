@@ -394,3 +394,6 @@ marking-MothLArmWitchwing = Моль ліворука (Відьмине крил
 
 marking-MothRArmWitchwing-witchwing_r_arm = Права рука
 marking-MothRArmWitchwing = Права рука метелика (Відьмине крило)
+
+marking-MothWingsMaple-maple_primary = Початковий
+marking-MothWingsMaple-maple_secondary = Вторинний
