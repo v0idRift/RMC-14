@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMBaseWeaponRifle
   id: WeaponRifleM16
-  name: M16 rifle
-  description: An old, reliable design first adopted by the U.S. military in the 1960s. Something like this belongs in a museum of war history. It is chambered in 5.56x45mm.
+  name: "Гвинтівка M16"
+  description: "Стара, надійна конструкція, вперше прийнята на озброєння американськими військовими в 1960-х роках. Щось на зразок цього має бути в музеї військової історії. Калібр 5,56х45 мм."
   suffix: Filled
   components:
   - type: Sprite
@@ -74,7 +74,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleM16 # TODO RMC14 attachments
-  name: "M16 Magazine (5.56x45mm)"
+  name: "Магазин M16 (5.56x45мм)"
   components:
   - type: Tag
     tags:
@@ -99,8 +99,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeRifleM16
-  name: Cartridge (7.62x51)
-  description: A 7.62x51 rifle cartridge
+  name: "Патрон (7.62x51)"
+  description: "Гвинтівковий набій 7.62x51"
   components:
   - type: Tag
     tags:

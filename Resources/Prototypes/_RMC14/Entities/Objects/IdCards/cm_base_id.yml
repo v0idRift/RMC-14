@@ -2,8 +2,8 @@
 - type: entity
   parent: [Clothing, CMIDCardBase]
   id: CMIDCardStandardDogtag
-  name: dog tag
-  description: A marine dog tag.
+  name: "жетон"
+  description: "Морський жетон."
   categories: [ HideSpawnMenu ]
   components:
   - type: Item
@@ -26,8 +26,8 @@
 - type: entity
   parent: Clothing
   id: CMIDCardBase
-  name: identification holo-badge
-  description: A slice of encoded compressed fiber glass. Used for identification and access control.
+  name: "ідентифікаційний голо-бейдж"
+  description: "Шматочок закодованого пресованого скловолокна. Використовується для ідентифікації та контролю доступу."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -55,8 +55,8 @@
 - type: entity
   parent: CMIDCardBase
   id: CMIDCardGold
-  name: gold identification holo-badge
-  description: A gold plated holo-badge which shows power and might.
+  name: "золотий ідентифікаційний голо-бейдж"
+  description: "Позолочений голографічний значок, що демонструє силу та міць."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -70,8 +70,8 @@
 - type: entity
   parent: CMIDCardBase
   id: CMIDCardSilver
-  name: silver identification holo-badge
-  description: A silver plated holo-badge which shows honour and dedication.
+  name: "срібний ідентифікаційний голо-бейдж"
+  description: "Посріблений голографічний значок, який демонструє честь і відданість."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -85,8 +85,8 @@
 - type: entity
   parent: CMIDCardBase
   id: CMIDCardLanyard
-  name: identification holo-lanyard
-  description: A crude holo-lanyard. As cheap as they come.
+  name: "ідентифікаційний голографічний ремінець"
+  description: "Грубий голографічний шнурок. Найдешевший з усіх можливих."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

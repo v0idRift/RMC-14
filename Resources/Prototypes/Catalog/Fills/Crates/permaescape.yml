@@ -1,5 +1,5 @@
 - type: entity
-  name: Perma Escape Crate Spawner
+  name: "Нерестовик ящиків для втечі Perma"
   id: CratePermaEscapeSpawner
   parent: CrateEmptySpawner
   components:

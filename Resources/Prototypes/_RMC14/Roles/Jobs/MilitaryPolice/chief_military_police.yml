@@ -62,7 +62,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointChiefMP
-  name: chief mp spawn point
+  name: "головна точка нересту мп"
   components:
   - type: SpawnPoint
     job_id: CMChiefMP

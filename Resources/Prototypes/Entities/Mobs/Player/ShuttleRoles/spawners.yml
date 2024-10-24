@@ -5,7 +5,7 @@
 # Command
 
 - type: entity
-  name: command visitor spawner
+  name: "спавнер відвідувачів команди"
   id: CommandVisitorSpawner
   parent: MarkerBase
   components:
@@ -25,7 +25,7 @@
     - RandomHumanoidVisitorRD
 
 - type: entity
-  name: visiting captain spawner
+  name: "в гостях у капітана споунера"
   id: VisitorCaptainSpawner
   parent: MarkerBase
   components:
@@ -39,7 +39,7 @@
     - RandomHumanoidVisitorCaptain
 
 - type: entity
-  name: visiting chief engineer spawner
+  name: "запрошений головний інженер спавнер"
   id: VisitorCESpawner
   parent: MarkerBase
   components:
@@ -53,7 +53,7 @@
     - RandomHumanoidVisitorCE
 
 - type: entity
-  name: visiting chief medical officer spawner
+  name: "запрошений головний лікар спавнер"
   id: VisitorCMOSpawner
   parent: MarkerBase
   components:
@@ -67,7 +67,7 @@
     - RandomHumanoidVisitorCMO
 
 - type: entity
-  name: visiting head of personnel spawner
+  name: "запрошений керівник відділу по роботі з персоналом"
   id: VisitorHOPSpawner
   parent: MarkerBase
   components:
@@ -81,7 +81,7 @@
     - RandomHumanoidVisitorHOP
 
 - type: entity
-  name: visiting head of security spawner
+  name: "запрошений керівник служби безпеки spawner"
   id: VisitorHOSSpawner
   parent: MarkerBase
   components:
@@ -95,7 +95,7 @@
     - RandomHumanoidVisitorHOS
 
 - type: entity
-  name: visiting research director spawner
+  name: "запрошений дослідницький директор spawner"
   id: VisitorRDSpawner
   parent: MarkerBase
   components:
@@ -109,7 +109,7 @@
     - RandomHumanoidVisitorRD
 
 - type: entity
-  name: visiting quartermaster spawner
+  name: "приїжджий інтендант нерестовик"
   id: VisitorQMSpawner
   parent: MarkerBase
   components:
@@ -125,7 +125,7 @@
 # Security
 
 - type: entity
-  name: security visitor spawner
+  name: "спавнер відвідувачів безпеки"
   id: SecurityVisitorSpawner
   parent: MarkerBase
   components:
@@ -145,7 +145,7 @@
     rareChance: 0.05
 
 - type: entity
-  name: visiting security cadet spawner
+  name: "виїзний вишкіл курсантів-безпекарів"
   id: VisitorSecurityCadetSpawner
   parent: MarkerBase
   components:
@@ -159,7 +159,7 @@
     - RandomHumanoidVisitorSecurityCadet
 
 - type: entity
-  name: visiting security officer spawner
+  name: "приїжджий співробітник служби безпеки спавнер"
   id: VisitorSecurityOfficerSpawner
   parent: MarkerBase
   components:
@@ -173,7 +173,7 @@
     - RandomHumanoidVisitorSecurityOfficer
 
 - type: entity
-  name: visiting detective spawner
+  name: "приїжджий детектив спавнер"
   id: VisitorDetective
   parent: MarkerBase
   components:
@@ -187,7 +187,7 @@
     - RandomHumanoidVisitorDetective
 
 - type: entity
-  name: visiting warden spawner
+  name: "приїжджий наглядач нерестовик"
   id: VisitorWarden
   parent: MarkerBase
   components:
@@ -203,7 +203,7 @@
 # Cargo
 
 - type: entity
-  name: cargonian visitor spawner
+  name: "каргоніст-відвідувач нерестовик"
   id: VisitingCargonianSpawner
   parent: MarkerBase
   components:
@@ -221,7 +221,7 @@
     rareChance: 0.05
 
 - type: entity
-  name: visiting cargo technician spawner
+  name: "приїжджий вантажний технік спайдер"
   id: VisitorCargoTechnicianSpawner
   parent: MarkerBase
   components:
@@ -235,7 +235,7 @@
     - RandomHumanoidVisitorCargoTechnician
 
 - type: entity
-  name: visiting salvage specialist spawner
+  name: "приїжджий фахівець з порятунку спайнера"
   id: VisitorSalvageSpecialistSpawner
   parent: MarkerBase
   components:
@@ -251,7 +251,7 @@
 # Engineering
 
 - type: entity
-  name: engineering visitor spawner
+  name: "інженерний відвідувач спайдер"
   id: EngineeringVisitorSpawner
   parent: MarkerBase
   components:
@@ -270,7 +270,7 @@
     rareChance: 0.05
 
 - type: entity
-  name: visiting atmospheric technician spawner
+  name: "приїжджий атмосферний технік-спойлер"
   id: VisitorAtmosTechSpawner
   parent: MarkerBase
   components:
@@ -284,7 +284,7 @@
     - RandomHumanoidVisitorAtmosTech
 
 - type: entity
-  name: visiting technical assistant spawner
+  name: "запрошений технічний асистент нерестовика"
   id: VisitorTechnicalAssistantSpawner
   parent: MarkerBase
   components:
@@ -298,7 +298,7 @@
     - RandomHumanoidVisitorTechnicalAssistant
 
 - type: entity
-  name: visiting engineer spawner
+  name: "запрошений інженер-спостерігач"
   id: VisitorEngineerSpawner
   parent: MarkerBase
   components:
@@ -314,7 +314,7 @@
 # Medical
 
 - type: entity
-  name: medical visitor spawner
+  name: "спайдер медичних відвідувачів"
   id: VisitingMedicalSpawner
   parent: MarkerBase
   components:
@@ -338,7 +338,7 @@
     rareChance: 0.05
 
 - type: entity
-  name: visiting chemist spawner
+  name: "приїжджий хімік-спостерігач"
   id: VisitorChemistSpawner
   parent: MarkerBase
   components:
@@ -352,7 +352,7 @@
     - RandomHumanoidVisitorChemist
 
 - type: entity
-  name: visiting medical intern spawner
+  name: "приїжджий лікар-інтерн спайдер"
   id: VisitorMedicalInternSpawner
   parent: MarkerBase
   components:
@@ -366,7 +366,7 @@
     - RandomHumanoidVisitorMedicalIntern
 
 - type: entity
-  name: visiting medical doctor spawner
+  name: "відвідування лікаря нерестовика"
   id: VisitorMedicalDoctorSpawner
   parent: MarkerBase
   components:
@@ -380,7 +380,7 @@
     - RandomHumanoidVisitorMedicalDoctor
 
 - type: entity
-  name: visiting paramedic spawner
+  name: "приїжджий парамедик нерестовик"
   id: VisitorParamedicSpawner
   parent: MarkerBase
   components:
@@ -394,7 +394,7 @@
     - RandomHumanoidVisitorParamedic
 
 - type: entity
-  name: visiting virologist spawner
+  name: "запрошений вірусолог нерестовик"
   id: VisitorVirologistSpawner
   parent: MarkerBase
   components:
@@ -408,7 +408,7 @@
     - RandomHumanoidVisitorVirologist
 
 - type: entity
-  name: visiting geneticist spawner
+  name: "приїжджий генетик нерестовик"
   id: VisitorGeneticistSpawner
   parent: MarkerBase
   components:
@@ -422,7 +422,7 @@
     - RandomHumanoidVisitorGeneticist
 
 - type: entity
-  name: visiting psychologist spawner
+  name: "приїжджий психолог-співробітник"
   id: VisitorPsychologistSpawner
   parent: MarkerBase
   components:
@@ -436,7 +436,7 @@
     - RandomHumanoidVisitorPsychologist
 
 - type: entity
-  name: visiting dentist spawner
+  name: "відвідування лікаря-стоматолога нерестовик"
   id: VisitorDentistSpawner
   parent: MarkerBase
   components:
@@ -452,7 +452,7 @@
 # Science
 
 - type: entity
-  name: scientific visitor spawner
+  name: "науковий відвідувач спайдер"
   id: VisitingScientistSpawner
   parent: MarkerBase
   components:
@@ -470,7 +470,7 @@
     rareChance: 0.05
 
 - type: entity
-  name: visiting scientist spawner
+  name: "запрошений науковець нерестовик"
   id: VisitorScientistSpawner
   parent: MarkerBase
   components:
@@ -484,7 +484,7 @@
     - RandomHumanoidVisitorScientist
 
 - type: entity
-  name: visiting research assistant spawner
+  name: "запрошений науковий співробітник спайдер"
   id: VisitorResearchAssistantSpawner
   parent: MarkerBase
   components:
@@ -500,7 +500,7 @@
 # Civilian
 
 - type: entity
-  name: civilian visitor spawner
+  name: "спайдер цивільних відвідувачів"
   id: VisitingCivilianSpawner
   parent: MarkerBase
   components:
@@ -530,7 +530,7 @@
     rareChance: 0.03
 
 - type: entity
-  name: visiting bartender spawner
+  name: "приїжджий бармен спавнер"
   id: VisitorBartenderSpawner
   parent: MarkerBase
   components:
@@ -544,7 +544,7 @@
     - RandomHumanoidVisitorBartender
 
 - type: entity
-  name: visiting botanist spawner
+  name: "приїжджий ботанік нерестовик"
   id: VisitorBotanistSpawner
   parent: MarkerBase
   components:
@@ -558,7 +558,7 @@
     - RandomHumanoidVisitorBotanist
 
 - type: entity
-  name: visiting boxer spawner
+  name: "приїжджий нерест боксерів"
   id: VisitorBoxerSpawner
   parent: MarkerBase
   components:
@@ -572,7 +572,7 @@
     - RandomHumanoidVisitorBoxer
 
 - type: entity
-  name: visiting chaplain spawner
+  name: "приїжджий капелан-співробітник"
   id: VisitorChaplainSpawner
   parent: MarkerBase
   components:
@@ -586,7 +586,7 @@
     - RandomHumanoidVisitorChaplain
 
 - type: entity
-  name: visiting chef spawner
+  name: "запрошений шеф-кухар спавнер"
   id: VisitorChefSpawner
   parent: MarkerBase
   components:
@@ -600,7 +600,7 @@
     - RandomHumanoidVisitorChef
 
 - type: entity
-  name: visiting clown spawner
+  name: "приїжджий клоунський нерестовик"
   id: VisitorClownSpawner
   parent: MarkerBase
   components:
@@ -614,7 +614,7 @@
     - RandomHumanoidVisitorClown
 
 - type: entity
-  name: visiting janitor spawner
+  name: "приїжджий прибиральник нерестовик"
   id: VisitorJanitorSpawner
   parent: MarkerBase
   components:
@@ -628,7 +628,7 @@
     - RandomHumanoidVisitorJanitor
 
 - type: entity
-  name: visiting lawyer spawner
+  name: "запрошений юрист спавнер"
   id: VisitorLawyerSpawner
   parent: MarkerBase
   components:
@@ -642,7 +642,7 @@
     - RandomHumanoidVisitorLawyer
 
 - type: entity
-  name: visiting centcom lawyer spawner
+  name: "гостьовий юрист центкому споунер"
   id: VisitorLawyerCentcomSpawner
   parent: MarkerBase
   components:
@@ -656,7 +656,7 @@
     - RandomHumanoidVisitorLawyerCentcom
 
 - type: entity
-  name: visiting librarian spawner
+  name: "приїжджий бібліотекар спайдер"
   id: VisitorLibrarianSpawner
   parent: MarkerBase
   components:
@@ -670,7 +670,7 @@
     - RandomHumanoidVisitorLibrarian
 
 - type: entity
-  name: visiting musician spawner
+  name: "приїжджий музикант-спойлер"
   id: VisitorMusicianSpawner
   parent: MarkerBase
   components:
@@ -684,7 +684,7 @@
     - RandomHumanoidVisitorMusician
 
 - type: entity
-  name: visiting fancy musician spawner
+  name: "приїжджий модний музикант-спайдер"
   id: VisitorMusicianFancySpawner
   parent: MarkerBase
   components:
@@ -698,7 +698,7 @@
     - RandomHumanoidVisitorMusicianFancy
 
 - type: entity
-  name: visiting relaxed musician spawner
+  name: "відвідування розслабленого музиканта-спайнера"
   id: VisitorMusicianRelaxedSpawner
   parent: MarkerBase
   components:
@@ -712,7 +712,7 @@
     - RandomHumanoidVisitorMusicianRelaxed
 
 - type: entity
-  name: visiting mime spawner
+  name: "приїжджий нерестовик мімів"
   id: VisitorMimeSpawner
   parent: MarkerBase
   components:
@@ -726,7 +726,7 @@
     - RandomHumanoidVisitorMime
 
 - type: entity
-  name: visiting reporter spawner
+  name: "запрошений репортер спавнер"
   id: VisitorReporterSpawner
   parent: MarkerBase
   components:
@@ -740,7 +740,7 @@
     - RandomHumanoidVisitorReporter
 
 - type: entity
-  name: visiting service worker spawner
+  name: "приїжджий сервісний працівник нерестовик"
   id: VisitorServiceWorkerSpawner
   parent: MarkerBase
   components:
@@ -754,7 +754,7 @@
     - RandomHumanoidVisitorServiceWorker
 
 - type: entity
-  name: visiting zookeeper spawner
+  name: "приїжджий доглядач зоопарку нерестовик"
   id: VisitorZookeeperSpawner
   parent: MarkerBase
   components:
@@ -772,7 +772,7 @@
 # Command
 
 - type: entity
-  name: disaster victim spawner
+  name: "спайдер жертв стихійного лиха"
   id: ChallengeVictimSpawner
   parent: MarkerBase
   suffix: CHALLENGE
@@ -800,7 +800,7 @@
 # Cargo
 
 - type: entity
-  name: challenge cargo technician spawner
+  name: "виклик вантажний технік спавнер"
   id: ChallengeCargoTechnicianSpawner
   parent: MarkerBase
   suffix: CHALLENGE
@@ -827,7 +827,7 @@
 ### Misc
 
 - type: entity
-  name: NanoTrasen visitor spawner
+  name: "Розплідник відвідувачів NanoTrasen"
   id: NTVisitorSpawner
   parent: MarkerBase
   components:
@@ -881,7 +881,7 @@
     - MobSkeletonCloset
 
 - type: entity
-  name: NanoTrasen visitor spawner
+  name: "Розплідник відвідувачів NanoTrasen"
   suffix: 50
   id: NTVisitorSpawner50
   parent: MarkerBase
@@ -897,7 +897,7 @@
     chance: 0.5
 
 - type: entity
-  name: NanoTrasen visitor spawner
+  name: "Розплідник відвідувачів NanoTrasen"
   suffix: 33
   id: NTVisitorSpawner33
   parent: NTVisitorSpawner50
@@ -908,7 +908,7 @@
     chance: 0.33
 
 - type: entity
-  name: NanoTrasen visitor spawner
+  name: "Розплідник відвідувачів NanoTrasen"
   suffix: 25
   id: NTVisitorSpawner25
   parent: NTVisitorSpawner50
@@ -919,7 +919,7 @@
     chance: 0.25
 
 - type: entity
-  name: NanoTrasen visitor spawner
+  name: "Розплідник відвідувачів NanoTrasen"
   suffix: 20
   id: NTVisitorSpawner20
   parent: NTVisitorSpawner50
@@ -930,7 +930,7 @@
     chance: 0.20
 
 - type: entity
-  name: NanoTrasen visitor spawner
+  name: "Розплідник відвідувачів NanoTrasen"
   suffix: 10
   id: NTVisitorSpawner10
   parent: NTVisitorSpawner50
@@ -943,7 +943,7 @@
 ### Syndicate & Hostiles
 
 - type: entity
-  name: syndicate team leader spawner
+  name: "лідер команди синдикату спавнер"
   id: SyndieSoldierTeamLeaderSpawner
   parent: MarkerBase
   components:
@@ -957,7 +957,7 @@
     - RandomHumanoidSyndieSoldierTeamLeader
 
 - type: entity
-  name: syndicate soldier spawner
+  name: "солдат синдикату, породження синдикату"
   id: SyndieSoldierSpawner
   parent: MarkerBase
   components:
@@ -971,7 +971,7 @@
     - RandomHumanoidSyndieSoldier
 
 - type: entity
-  name: syndie disaster victim spawner
+  name: "породження жертв синдикативної катастрофи"
   id: SyndieVisitorSpawner
   parent: MarkerBase
   components:
@@ -985,7 +985,7 @@
     - RandomHumanoidSyndieVisitor
 
 - type: entity
-  name: pirate crewman spawner
+  name: "спайдер піратського екіпажу"
   suffix: scooner
   id: PirateScoonerSpawner
   parent: MarkerBase
@@ -1000,7 +1000,7 @@
     - RandomHumanoidPirateScooner
 
 - type: entity
-  name: pirate captain spawner
+  name: "піратський капітан спавнер"
   suffix: scooner
   id: PirateCaptainScoonerSpawner
   parent: MarkerBase
@@ -1017,7 +1017,7 @@
 ### Other
 
 - type: entity
-  name: Blackmarketeer spawner
+  name: "Породження чорного ринку"
   id: VisitorBlackmarketeerSpawner
   parent: MarkerBase
   components:
@@ -1031,7 +1031,7 @@
     - RandomHumanoidVisitorBlackmarketeer
 
 - type: entity
-  name: cossack spawner
+  name: "козацькі розвідники"
   id: CossackSpawner
   parent: MarkerBase
   components:

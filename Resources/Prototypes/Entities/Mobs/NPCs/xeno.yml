@@ -1,9 +1,9 @@
 # Hacky for the stress test so don't even consider adding to this
 - type: entity
-  name: burrower
+  name: "нюхач"
   id: MobXeno
   parent: SimpleSpaceMobBase
-  description: They mostly come at night. Mostly.
+  description: "Вони приходять переважно вночі. Здебільшого."
   components:
   - type: Insulated
   - type: CombatMode
@@ -121,7 +121,7 @@
     speechVerb: LargeMob
 
 - type: entity
-  name: praetorian
+  name: "преторіанський"
   parent: MobXeno
   id: MobXenoPraetorian
   components:
@@ -154,7 +154,7 @@
         - MobLayer
 
 - type: entity
-  name: drone
+  name: "дрон"
   parent: MobXeno
   id: MobXenoDrone
   components:
@@ -191,7 +191,7 @@
         - MobLayer
 
 - type: entity
-  name: queen
+  name: "королева"
   parent: MobXeno
   id: MobXenoQueen
   components:
@@ -230,7 +230,7 @@
     - CannotSuicide
 
 - type: entity
-  name: ravager
+  name: "спустошувач"
   parent: MobXeno
   id: MobXenoRavager
   components:
@@ -267,7 +267,7 @@
         - MobLayer
 
 - type: entity
-  name: runner
+  name: "бігун"
   parent: MobXeno
   id: MobXenoRunner
   components:
@@ -297,7 +297,7 @@
         - MobLayer
 
 - type: entity
-  name: rouny
+  name: "руні"
   parent: MobXenoRunner
   id: MobXenoRouny
   components:
@@ -312,7 +312,7 @@
       amount: 3
 
 - type: entity
-  name: spitter
+  name: "спіттер"
   parent: MobXeno
   id: MobXenoSpitter
   components:
@@ -359,10 +359,10 @@
         - MobLayer
 
 - type: entity
-  name: space adder
+  name: "просторовий суматор"
   parent: SimpleSpaceMobBase
   id: MobPurpleSnake
-  description: A menacing purple snake from Kepler-283c.
+  description: "Загрозлива фіолетова змія з Kepler-283c."
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -428,11 +428,11 @@
     - FootstepSound
 
 - type: entity
-  name: space adder
+  name: "просторовий суматор"
   parent: MobPurpleSnake
   id: MobSmallPurpleSnake
   suffix: small
-  description: A smaller version of the menacing purple snake from Kepler-283c.
+  description: "Зменшена версія загрозливої фіолетової змії з Kepler-283c."
   components:
   - type: Sprite
     drawdepth: Mobs

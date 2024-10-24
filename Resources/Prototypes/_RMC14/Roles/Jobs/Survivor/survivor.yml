@@ -48,7 +48,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointSurvivor
-  name: survivor spawn point
+  name: "точка нересту вцілілих риб"
   components:
   - type: SpawnPoint
     job_id: CMSurvivor

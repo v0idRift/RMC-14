@@ -13,7 +13,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorSecurity
-  name: survivor security spawn point
+  name: "точка спавну безпеки для тих, хто вижив"
   components:
   - type: SpawnPoint
     job_id: CMSurvivor

@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseFigurine
   id: RMCBaseFigurinePatron
-  description: A small, detailed miniature.
+  description: "Маленька, деталізована мініатюра."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/patron_figurines.rsi
@@ -14,8 +14,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerFigurinePatron
-  name: patron figurine spawner
-  description: A patron figurine spawner.
+  name: "фігурка покровителя нерестовик"
+  description: "Фігурка покровителя, що розмножується."
   components:
   - type: Sprite
     layers:
@@ -27,8 +27,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronFoxBridgeton
-  name: Fox Bridgeton figurine
-  description: This is like that book by George Orwell, Nineteen Eighty Fo'
+  name: "Фігурка лисиці з Бриджстона"
+  description: "Це як у книзі Джорджа Орвелла \"Дев'ятнадцять вісімдесят років потому\""
   components:
   - type: Sprite
     state: Fox_Bridgeton
@@ -38,8 +38,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronKillsTheMice
-  name: Kills-The-Mice figurine
-  description: It looks neat.
+  name: "Фігурка \"Вбиває мишей"
+  description: "Виглядає акуратно."
   components:
   - type: Sprite
     state: Kills-The-Mice
@@ -49,8 +49,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronFritzVohlkson
-  name: Fritz Vohlkson figurine
-  description: "SIR YES SIR OORAH!"
+  name: "Фігурка Фріца Фольксона"
+  description: "СЕР, ТАК, СЕР!"
   components:
   - type: Sprite
     state: Fritz_Vohlkson
@@ -60,8 +60,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronMinervaHostel
-  name: Minerva Hostel figurine
-  description: The battle's maestro, always in tune with the chaos.
+  name: "Фігурка \"Мінерва хостел"
+  description: "Маестро битви, завжди в гармонії з хаосом."
   components:
   - type: Sprite
     state: minerva_hostel
@@ -71,8 +71,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronTempestasFrostbiteGlacies
-  name: Tempestas 'Frostclaw' Glacies figurine
-  description: If I die before you continue, You shall have heard my final dying roar.
+  name: "Фігурка льодовиків Tempestas 'Frostclaw'"
+  description: "Якщо я помру раніше, ніж ти продовжиш, ти почуєш мій останній передсмертний рев."
   components:
   - type: Sprite
     state: Tempestas_Frostbite_Glacies
@@ -82,8 +82,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronSilvanodAndrea
-  name: Silvano d'Andrea figurine
-  description: Employee of the Month, every month.
+  name: "Статуетка Сільвано д'Андреа"
+  description: "Працівник місяця, щомісяця."
   components:
   - type: Sprite
     state: Silvano_dAndrea
@@ -93,8 +93,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronIanthaAtikson
-  name: Iantha Atikson
-  description: This Figurine of a Quartermaster, despite it's inanimate nature, seems to stare back at you with cold, refined calculation. That glossy look in those fake eyes make you feel uncomfortable, and you get the impression that you're just another number to her.
+  name: "Янта Атіксон"
+  description: "Ця фігурка інтенданта, незважаючи на свою неживу природу, здається, дивиться на вас з холодним, витонченим розрахунком. Цей глянцевий погляд фальшивих очей змушує вас почуватися некомфортно, і у вас складається враження, що ви для неї - просто черговий номер."
   components:
   - type: Sprite
     state: Iantha_Atikson
@@ -104,8 +104,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronScott
-  name: Scott Hoover figurine
-  description: "I work for the company. But don't let that fool you, I'm really an OK guy!"
+  name: "Фігурка Скотта Гувера"
+  description: "Я працюю на компанію. Але нехай вас це не вводить в оману, я дійсно хороший хлопець!"
   components:
   - type: Sprite
     state: Scott_Hoover
@@ -115,8 +115,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurineRyanRockstarRuan
-  name: Ryan "Rockstar" Ruan
-  description: "He had big dreams of being a rockstar, but the marines corps had other plans. That, and also the fact that he has no idea how to play the guitar."
+  name: "Райан \"Рокстар\" Руан"
+  description: "Він мріяв стати рок-зіркою, але у морської піхоти були інші плани. Це, а також той факт, що він не має жодного уявлення про те, як грати на гітарі."
   components:
   - type: Sprite
     state: ryan_rockstar_ruan
@@ -126,8 +126,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronKasumiAyako
-  name: Kasumi Ayako figurine
-  description: "The emotional support cat."
+  name: "Фігурка Касумі Аяко"
+  description: "Кішка для емоційної підтримки."
   components:
   - type: Sprite
     state: kasumi_ayako
@@ -137,8 +137,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronChikiSugimoto
-  name: Chiki Suzuki figurine
-  description: “Hi! Me Chiki!”
+  name: "Фігурка Чікі Сузукі"
+  description: "Привіт! Я Чікі!"
   components:
   - type: Sprite
     state: chiki_sugimoto
@@ -148,8 +148,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronArchylleCatleay
-  name: Archylle Catleay figurine
-  description: The inspirational cat, following the footsteps of her mother
+  name: "Фігурка Арчілла Кетлея"
+  description: "Натхненна кішка, що йде слідами своєї матері"
   components:
   - type: Sprite
     state: archylle_catleay
@@ -159,8 +159,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronTessieTerrence
-  name: Tessie Terrence figurine
-  description: "She's here to brighten your day!"
+  name: "Фігурка Тессі Терренс"
+  description: "Вона тут, щоб прикрасити ваш день!"
   components:
   - type: Sprite
     state: tessie_terrence
@@ -170,8 +170,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronDagobertDogburglar
-  name: Dagobert Dogburglar figurine
-  description: "One must imagine marines happy."
+  name: "Фігурка Дагоберта Песиголовця"
+  description: "Треба уявляти морпіхів щасливими."
   components:
   - type: Sprite
     state: dagobert_dogburglar
@@ -181,8 +181,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronHerbsquirto
-  name: Herbsquirto figurine
-  description: "The corporation's best botanist."
+  name: "Фігурка Herbsquirto"
+  description: "Найкращий ботанік корпорації."
   components:
   - type: Sprite
     state: herbsquirto
@@ -192,8 +192,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronRainyCloudly
-  name: Rainy Cloudly figurine
-  description: "The pearlescent slimeperson figurine ripples and shimmers like a puddle, emanating a faint scent of fresh rain and whispers of distant thunder."
+  name: "Фігурка \"Дощова хмаринка"
+  description: "Перламутрова фігурка стрункої людини рябить і переливається, як калюжа, випромінюючи слабкий аромат свіжого дощу і шепіт далекого грому."
   components:
   - type: Sprite
     state: rainy_cloudly
@@ -203,8 +203,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronAtlasBootes
-  name: Atlas 'The Law' Bootes figurine
-  description: "A young career officer with a big tail and heart."
+  name: "Фігурка атласу \"Закон\" Бутс"
+  description: "Молодий кадровий офіцер з великим хвостом і серцем."
   components:
   - type: Sprite
     state: atlas_bootes
@@ -214,8 +214,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronKameronCook
-  name: Kameron Cook figurine
-  description: "I Cooka Da Pizza."
+  name: "Фігурка Кемерон Кук"
+  description: "Я готую піцу."
   components:
   - type: Sprite
     state: kameron_cook
@@ -225,8 +225,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronSatoruSuzuki
-  name: Satoru Suzuki figurine
-  description: "Gods strongest Medic."
+  name: "Фігурка Сатору Сузукі"
+  description: "Найсильніший лікар богів."
   components:
   - type: Sprite
     state: satoru_suzuki
@@ -236,8 +236,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronRytilPyain
-  name: Rytil Pyain figurine
-  description: "Rytil may lack a lot of empathy, but she does her best to maintain the law and not get pissed off by the idiots breaking it."
+  name: "Фігурка Rytil Pyain"
+  description: "Можливо, Ритіл бракує емпатії, але вона робить все можливе, щоб підтримувати закон і не злитися на ідіотів, які його порушують."
   components:
   - type: Sprite
     state: rytil_pyain
@@ -247,7 +247,7 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronBillTitan
-  name: Bill Titan figurine
+  name: "Фігурка Білла Титана"
   components:
   - type: Sprite
     state: bill_titan
@@ -257,7 +257,7 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronJimmyPunishedPitJohnson
-  name: Jimmy 'Punished Pit' Johnson figurine
+  name: "Фігурка Джиммі \"Покарана яма\" Джонсона"
   description: "\"ah been smokin in medbay\""
   components:
   - type: Sprite
@@ -268,8 +268,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronSimonStarseeker
-  name: Simon Starseeker figurine
-  description: "Silent But Deadly."
+  name: "Фігурка Саймона \"Шукач зірок"
+  description: "Тихий, але смертоносний."
   components:
   - type: Sprite
     state: simon_starseeker
@@ -279,8 +279,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronLenaMilize
-  name: Lena Milize figurine
-  description: "Nanotrasen's Trademark Bartender: Handler-One."
+  name: "Фігурка Лєни Міліз"
+  description: "Бармен Нанотрасену: Оброблювач-один."
   components:
   - type: Sprite
     state: lena_milize
@@ -290,8 +290,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronBites-The-Dust
-  name: Bites-The-Dust figurine
-  description: A small, detailed miniature of a skilled corpsman.
+  name: "Фігурка \"Укуси-пил"
+  description: "Невеличка, деталізована мініатюра вправного санітара."
   components:
   - type: Sprite
     state: bites-the-dust
@@ -301,8 +301,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronOrionBlackburn
-  name: Orion Blackburn figurine
-  description: "Alright, recruits, we're doing 50 laps... around the nearest vending machine because I forgot my lunch."
+  name: "Фігурка Оріона Блекберна"
+  description: "Гаразд, новобранці, ми робимо 50 кіл... навколо найближчого торгового автомата, бо я забув свій обід."
   components:
   - type: Sprite
     state: orion_blackburn
@@ -312,8 +312,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronLillyPipsqueakHarding
-  name: Lilly 'Pipsqueak' Harding figurine
-  description: "She may be a pipsqueak, but she is mighty!!!"
+  name: "Фігурка Ліллі 'Pipsqueak' Хардінг"
+  description: "Може, вона й писклява, але вона сильна!!!"
   components:
   - type: Sprite
     state: lilly_pipsqueak_harding
@@ -323,8 +323,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronKateFleming
-  name: Kate 'Engie' Fleming figurine
-  description: "Smells like welding fuel."
+  name: "Фігурка Кейт \"Енджі\" Флемінг"
+  description: "Пахне зварювальним паливом."
   components:
   - type: Sprite
     state: kate_engie_fleming
@@ -334,8 +334,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronKaylieRowleyininski
-  name: Kaylie Rowleyininski figurine
-  description: "Smells of freshly baked bread."
+  name: "Фігурка Кейлі Роулейнінські"
+  description: "Пахне свіжоспеченим хлібом."
   components:
   - type: Sprite
     state: kaylie_rowleyininski
@@ -345,7 +345,7 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronAmariDroppingHotWilliams
-  name: Amari 'Dropping Hot' Williams figurine
+  name: "Фігурка Амарі \"Dropping Hot\" Вільямс"
   description: "\"FLYING LOW, DROPPING HOT, DRINKING LOTS! OORAH!\""
   components:
   - type: Sprite
@@ -357,8 +357,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronAlexGregory
-  name: Alex Gregory figurine
-  description: "A prominent Nanotrasen Captain. You think you might have seen him before."
+  name: "Фігурка Алекса Грегорі"
+  description: "Видатний капітан нанотрасенів. Вам здається, що ви могли бачити його раніше."
   components:
   - type: Sprite
     state: alex_gregory
@@ -368,8 +368,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronMadelynnBuzzLewis
-  name: Madelynn 'Buzz' Lewis figurine
-  description: "Best chef on the field."
+  name: "Фігурка Меделін \"Базз\" Льюїс"
+  description: "Найкращий кухар на полі."
   components:
   - type: Sprite
     state: madelynn_buzz_lewis
@@ -379,8 +379,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronShawnFox
-  name: Shawn Fox figurine
-  description: "The figurine smells of ..news.."
+  name: "Фігурка Шона Фокса"
+  description: "Фігурка пахне ... новинами."
   components:
   - type: Sprite
     state: shawn_fox
@@ -390,8 +390,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronPandiFackler
-  name: CMO Pandi Fackler figurine
-  description: "A small and kind Redsuko, a rare race of felinid with the markings and characteristics of a Red Panda. Pacifist by nature, she’s often found healing others in the medical bay"
+  name: "Фігурка CMO Pandi Fackler"
+  description: "Маленька і добра Редсуко, рідкісна раса фелінідів з ознаками і характеристиками Червоної Панди. Пацифістка за своєю природою, вона часто лікує інших у медичному відсіку"
   components:
   - type: Sprite
     state: pandi_fackler
@@ -401,8 +401,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronJermaineBaitMcClune
-  name: Jermaine 'Bait' McClune figurine
-  description: "Let's see... e-barrels, smarties, drums, plasteel, cardboard, rockets, HEDP, cells, and a LOT of metal..."
+  name: "Фігурка Джермейна \"Приманка\" МакКлюна"
+  description: "Погляньмо... електронні бочки, смартфони, барабани, пластик, картон, ракети, HEDP, клітини та БАГАТО металу..."
   components:
   - type: Sprite
     state: jermaine_bait_mcclune
@@ -412,8 +412,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronMazyTheFortressTusji
-  name: Mazy 'The Fortress' Tusji figurine
-  description: "This figurine is covered in chew marks and acid burns, yet remains recognizable and unbroken."
+  name: "Фігурка Mazy \"Фортеця\" Tusji"
+  description: "Ця фігурка вкрита слідами від жування та опіками від кислоти, проте залишається впізнаваною та непошкодженою."
   components:
   - type: Sprite
     state: mazy_the_fortress_tusji
@@ -423,8 +423,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronAstorDebb
-  name: Astor Debb figurine
-  description: "Full-time demolitionist, she moves with a purpose, wielding her ~Magic Missile~"
+  name: "Фігурка Астор Дебб"
+  description: "Вона рухається цілеспрямовано, орудуючи своєю \"Чарівною ракетою\""
   components:
   - type: Sprite
     state: astor_debb
@@ -434,8 +434,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronNesartOnan
-  name: Nesart Onan figurine
-  description: "Blood loss is no joke! Come get some gauze from your local medbay today!"
+  name: "Фігурка Несарта Онана"
+  description: "Втрата крові - це не жарти! Приходьте за марлею до місцевого медпункту вже сьогодні!"
   components:
   - type: Sprite
     state: nesart_onan
@@ -445,8 +445,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronDaltonHarris
-  name: Dalton Harris figurine
-  description: Former NFSD sergeant, but through some weird military loopholes ended up on the Almayer.
+  name: "Фігурка Далтона Гарріса"
+  description: "Колишній сержант НФСД, але через якісь дивні військові лазівки опинився на \"Алмайєрі\"."
   components:
   - type: Sprite
     state: dalton_harris
@@ -456,7 +456,7 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronChadScott
-  name: Chad Scott figurine
+  name: "Фігурка Чеда Скотта"
   description: "\"This is Chad Scott, last survivor of the warship, signing off.\""
   components:
   - type: Sprite
@@ -467,8 +467,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronWorships-The-Gods
-  name: Worships-The-Gods figurine
-  description: Just a Silly Lizzy.
+  name: "Фігурка \"Поклоніння Богам"
+  description: "Просто Дурненька Ліззі."
   components:
   - type: Sprite
     state: worships-the-gods
@@ -478,8 +478,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronSukunaKurze
-  name: Sukuna Kurze figurine
-  description: "This man is fueled by root beer and patriotism, and brother we're all outta root beer..."
+  name: "Фігурка Сукуна Курзе"
+  description: "Ця людина підживлюється рутбіром і патріотизмом, а рутбир, брате, у нас закінчився..."
   components:
   - type: Sprite
     state: sukuna_kurze
@@ -489,8 +489,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronTheSoilofMartyrs
-  name: The Soil of Martyrs figurine
-  description: "It used to be green."
+  name: "Фігурка \"Земля мучеників"
+  description: "Раніше вона була зеленою."
   components:
   - type: Sprite
     state: the_soil_of_martyrs
@@ -500,8 +500,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronSethSleeper
-  name: Seth Sleeper figurine
-  description: "The type of guy to bring a pillow to a gunfight."
+  name: "Фігурка Сет Сплячий"
+  description: "З тих, хто приносить подушку на перестрілку."
   components:
   - type: Sprite
     state: seth_sleeper
@@ -511,8 +511,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronLanceVictors
-  name: Lance Victors figurine
-  description: This detailed figurine of a Marine Corps Warden just LOOKS like it's going to bury you in paperwork. And it has an eye scar. Edgy.
+  name: "Фігурка \"Переможці списа"
+  description: "Ця деталізована фігурка наглядача морської піхоти виглядає так, ніби збирається поховати вас у паперовій тяганині. І у неї шрам на оці. Різкий."
   components:
   - type: Sprite
     state: lance_victors
@@ -522,8 +522,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronBredDahne
-  name: Bred Dahne figurine
-  description: "Gluten Free"
+  name: "Фігурка Бред Дане"
+  description: "Без глютену"
   components:
   - type: Sprite
     state: bred_dahne
@@ -533,7 +533,7 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronDartingSleepyGroth
-  name: Darting 'Sleepy' Groth figurine
+  name: "Фігурка для дартсу \"Сонний\" Groth"
   description: "\"Is it naptime yet..?\""
   components:
   - type: Sprite
@@ -544,8 +544,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronSamAli
-  name: Sam Ali figurine
-  description: "Heavily wounded dwarf."
+  name: "Фігурка Сема Алі"
+  description: "Важко поранений гном."
   components:
   - type: Sprite
     state: sam_ali
@@ -555,7 +555,7 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronWalks-The-Graves
-  name: Walks-The-Graves figurine
+  name: "Фігурка \"Прогулянки по могилам"
   components:
   - type: Sprite
     state: walks-the-graves
@@ -565,7 +565,7 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronHonkzeeBeezs
-  name: Honkzee Beezs figurine
+  name: "Фігурка Honkzee Beezs"
   description: "\"Wowies, marines eated more crayons than honkzee!\"\nThis figurine is horrifically unbalanced."
   components:
   - type: Sprite
@@ -576,8 +576,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronVellaMorticianSakeao
-  name: Vella 'Mortician' Sakeao figurine
-  description: "Detachable SMG arm not included*"
+  name: "Фігурка сакеао Vella \"Гробар"
+  description: "Знімний кронштейн SMG не входить до комплекту*"
   components:
   - type: Sprite
     state: vella_mortician_sakeao
@@ -587,8 +587,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronSeeks-to-Fight
-  name: Seeks-to-Fight figurine
-  description: "Navy is just the taxi service for the Marines."
+  name: "Фігурка \"Прагне до бою"
+  description: "Військово-морські сили - це просто служба таксі для морської піхоти."
   components:
   - type: Sprite
     state: seeks-to-fight
@@ -598,8 +598,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronStares-at-Stars
-  name: Stares-at-Stars figurine
-  description: "Smells of citrus."
+  name: "Фігурка \"Витріщається на зірки"
+  description: "Пахне цитрусовими."
   components:
   - type: Sprite
     state: stares-at-stars
@@ -609,8 +609,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronRhettRainmanMcIndrick
-  name: Rhett 'Rainman' McIndrick figurine
-  description: Former Scout Sergeant McIndrick. "Where's the glory in waiting?"
+  name: "Фігурка Ретта \"Людина дощу\" МакІндріка"
+  description: "Колишній сержант-розвідник МакІндрік. \"Де слава в очікуванні?\""
   components:
   - type: Sprite
     state: rhett_rainman_mcindrick
@@ -620,7 +620,7 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronDoes-The-Dishes
-  name: Does-The-Dishes figurine
+  name: "Фігурка \"Миє посуд"
   description: "\"Anybody want a sssmoke?\""
   components:
   - type: Sprite
@@ -631,8 +631,8 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronTempest
-  name: Tempest figurine
-  description: "A beam of light through the clouds. Smells of blue raspberry."
+  name: "Фігурка \"Буря"
+  description: "Промінь світла крізь хмари. Пахне синьою малиною."
   components:
   - type: Sprite
     state: tempest
@@ -642,7 +642,7 @@
 - type: entity
   parent: RMCBaseFigurinePatron
   id: RMCFigurinePatronBeatriceBeaBootes
-  name: Beatrice 'Bea' Bootes figurine
+  name: "Фігурка Беатріс \"Беа\" Бутс"
   description: "Born, adopted, and raised in Madawaska, Maine, this lesbian felinid tries her best to lead. She would go on to join the UNMC and later become a sergeant. Loves dual SMG. She lost her wife to a horrific accident and reached a low point in her life, but she fought on eventually. She is a social democrat who is a prominent member of “The Doves”. Her opponents throw rumors of her giving $1.4 million to the North Korean government and eating human organs. She is silly but deeply caring.
 
     Strives to be a CO.

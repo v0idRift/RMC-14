@@ -3,8 +3,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechMedicalGear
-  name: ColMarTech squad medical gear rack
-  description: An automated gear rack for hospital corpsmen.
+  name: "Стелаж для медичного спорядження підрозділу ColMarTech"
+  description: "Автоматизований стелаж для санітарів лікарні."
   components:
   - type: AccessReader
     access:
@@ -193,8 +193,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechMedicalEquipment
-  name: ColMarTech squad medical equipment rack
-  description: An automated rack hooked up to a colossal storage of hospital corpsman standard-issue equipment.
+  name: "Стелаж для медичного обладнання підрозділу ColMarTech"
+  description: "Автоматизований стелаж, під'єднаний до величезного сховища стандартного обладнання санітарів."
   components:
   - type: AccessReader
     access:

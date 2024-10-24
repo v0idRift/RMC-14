@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   id: RMCChemDispenserBase
-  name: chemical dispenser
-  description: A complex machine for mixing elements into chemicals. A We-Ya product.
+  name: "дозатор хімікатів"
+  description: "Складна машина для змішування елементів у хімічні речовини. Продукт компанії We-Ya."
   placement:
     mode: SnapgridCenter
   components:
@@ -98,8 +98,8 @@
 - type: entity
   abstract: true
   id: RMCChemStorageBase
-  name: chemical storage system
-  description: Storage system for a large supply of chemicals, which slowly recharges.
+  name: "система зберігання хімічних речовин"
+  description: "Система зберігання великого запасу хімікатів, яка повільно перезаряджається."
   placement:
     mode: SnapgridCenter
   components:

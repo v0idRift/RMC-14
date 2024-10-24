@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: CMHandsBlackMarine # TODO RMC14 armor
-  name: marine combat gloves
-  description: "Standard issue marine tactical gloves. It reads: 'knit by Marine Widows Association'."
+  name: "морські бойові рукавиці"
+  description: "Морські тактичні рукавиці стандартного зразка. Тут написано: \"В'язані Асоціацією вдів морських піхотинців\"."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/black.rsi
@@ -16,8 +16,8 @@
 - type: entity
   parent: CMHandsBlackMarine
   id: RMCHandsM3G4
-  name: M3-G4 grenadier gloves
-  description: A pair of plated, but nimble, gloves.
+  name: "Рукавички гренадерські M3-G4"
+  description: "Пара пластинчастих, але спритних рукавичок."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/grenadier.rsi
