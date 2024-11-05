@@ -1,0 +1,10 @@
+rmc-autoinjector-ez-1 = Автоінжектор (e-u) (1x1)
+rmc-autoinjector-ez-5 = Автоінжектор (e-vs) (5x1)
+rmc-autoinjector-ez-10 = Автоінжектор (e-s) (10x1)
+rmc-autoinjector-ez-15 = Автоінжектор (e-t) (15x1)
+rmc-autoinjector-ez-30 = Автоінжектор (e-m) (30x1)
+rmc-autoinjector-ez-45 = Автоінжектор (e-l) (45x1)
+rmc-autoinjector-ez-60 = Автоінжектор (e-xl) (60x1)
+
+rmc-autoinjector-medic-15 = Автоінжектор (m-m) (15x6)
+rmc-autoinjector-medic-30 = Автоінжектор (m-l) (30x6)

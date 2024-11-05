@@ -29,7 +29,7 @@ liar-word-10 = був
 liar-word-replacement-10 = не був
 
 liar-word-11 = це
-liar-word-replacement-11 = isnt
+liar-word-replacement-11 = not
 
 liar-word-12 = воля
 liar-word-replacement-12 = не хоче

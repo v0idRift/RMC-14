@@ -7,3 +7,4 @@ rmc-sleeves-verb-fold = Підняти рукава
 rmc-sleeves-verb-unfold = Спустити рукава
 rmc-pants-verb-fold = Підкотити штани
 rmc-pants-verb-unfold = Спустити штани
+rmc-buttons-verb-fold = Кнопки перемикання

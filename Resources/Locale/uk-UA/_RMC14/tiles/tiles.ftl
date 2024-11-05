@@ -60,3 +60,7 @@ tiles-rmc-escape-pod = черепиця рятувального шатлу
 
 tiles-rmc-grate = колосникова плитка
 tiles-rmc-supply-pad = плитка для припливної колодки
+tiles-cm-default-orange = помаранчева металочерепиця
+tiles-cm-default-cyan = блакитна металочерепиця
+tiles-cm-default-tan = металочерепиця під загар
+tiles-cm-default-grey = сіра металочерепиця

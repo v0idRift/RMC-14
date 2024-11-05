@@ -23,3 +23,5 @@ rmc-announcement-cooldown = Будь ласка, зачекайте щонайм
 
 rmc-announcement-emergency-dropship-crash = [font size=14][bold][color=white]НАДЗВИЧАЙНА СИТУАЦІЯ[/color][/bold][/font][font size=12][color=red]
   ЧОВНИК НА КУРСІ ЗІТКНЕННЯ. КАТАСТРОФА НЕМИНУЧА.[/color][/font]
+
+rmc-announcement-dropship-message = [color=white][font size=16][bold]Дропшіп сповіщення[/bold][/font][/color][color=red][font size=14][bold] {$message}[/bold][/font][/color]
