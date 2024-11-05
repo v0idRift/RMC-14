@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseStructure
   id: RMCCommunicationsTower
-  name: TC-3T static telecommunications tower
-  description: A static heavy-duty TC-3T telecommunications tower. Used to set up subspace communications lines between planetary and extra-planetary locations. Will need to have extra communication frequencies programmed into it by multitool.
+  name: "Статична телекомунікаційна вежа TC-3T"
+  description: "Стаціонарна надміцна телекомунікаційна вежа ТС-3Т. Використовується для встановлення підпросторових ліній зв'язку між планетарними та позапланетними локаціями. Потрібно запрограмувати додаткові частоти зв'язку за допомогою мультитула."
   components:
   - type: Transform
     anchored: false
@@ -78,7 +78,7 @@
   abstract: true
   parent: MarkerBase
   id: RMCSpawnerCommunicationsTowerBase
-  name: static comms
+  name: "статичний зв'язок"
   components: # TODO RMC14 some start broken
   - type: Sprite
     sprite: _RMC14/Structures/communications_tower.rsi

@@ -1,7 +1,7 @@
 - type: entity
   id: RMCCrateRestrictedEquipmentArmorM4
   parent: RMCCrateWeldable
-  name: M4 pattern marine armor crate (x1 helmet, x1 armor)
+  name: "Ящик для морської піхоти зразка М4 (х1 шолом, х1 бронежилет)"
   components:
   - type: StorageFill
     contents:
@@ -11,7 +11,7 @@
 - type: entity
   id: RMCCrateRestrictedEquipmentArmorB12
   parent: RMCCrateWeldable
-  name: B12 pattern marine armor crate (x1 helmet, x1 armor)
+  name: "Ящик для морської броні зразка B12 (x1 шолом, x1 броня)"
   components:
   - type: StorageFill
     contents:

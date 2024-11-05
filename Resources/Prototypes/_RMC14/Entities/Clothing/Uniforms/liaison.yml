@@ -3,8 +3,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: CMJumpsuitLiaison
-  name: liaison's tan suit
-  description: A stiff, stylish tan suit commonly worn by businessmen from the We-Ya corporation. Expertly crafted to make you look like a prick.
+  name: "коричневий костюм зв'язкового"
+  description: "Строгий, стильний костюм для засмаги, який зазвичай носять бізнесмени з корпорації We-Ya. Майстерно пошитий, щоб зробити вас схожим на придурка."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/liaison_regular.rsi
@@ -14,8 +14,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: CMJumpsuitLiaisonCharcoal
-  name: liaison's charcoal suit
-  description: A stiff, stylish charcoal suit commonly worn by businessmen from the We-Ya corporation. Expertly crafted to make you look like a prick.
+  name: "вугільний костюм зв'язкового"
+  description: "Строгий, стильний вугільний костюм, який зазвичай носять бізнесмени з корпорації We-Ya. Майстерно пошитий, щоб зробити вас схожим на придурка."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/liaison_charcoal.rsi
@@ -25,8 +25,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: CMJumpsuitLiaisonOuting
-  name: liaison's outfit
-  description: A casual outfit consisting of a collared shirt and a vest. Looks like something you might wear on the weekends, or on a visit to a derelict colony.
+  name: "екіпірування зв'язкового"
+  description: "Повсякденне вбрання, що складається з сорочки з комірцем і жилетки. Виглядає як щось, що можна вдягнути на вихідні або під час візиту до занедбаної колонії."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/liaison_outing.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: CMJumpsuitLiaisonFormal
-  name: liaison's white suit
-  description: A formal, white suit. Looks like something you'd wear to a funeral, a We-Ya corporate dinner, or both. Stiff as a board, but makes you feel like rolling out of a Rolls-Royce.
+  name: "білий костюм зв'язкового"
+  description: "Офіційний, білий костюм. Виглядає як щось, що можна вдягнути на похорон, корпоративну вечерю We-Ya, або і те, і інше. Жорсткий, як дошка, але змушує вас почуватися так, ніби ви виїжджаєте з Роллс-Ройса."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/liaison_formal.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: CMJumpsuitLiaisonSuspenders
-  name: liaison's attire
-  description: A collared shirt, complimented by a pair of suspenders. Worn by We-Ya employees who ask the tough questions. Smells faintly of cigars and bad acting.
+  name: "одяг зв'язкового"
+  description: "Сорочка з комірцем, доповнена парою підтяжок. Носять працівники \"Ми-Я\", які ставлять складні запитання. Слабко пахне сигарами і поганою грою."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/liaison_suspenders.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: CMJumpsuitLiaisonBlazer
-  name: liaison's blue blazer
-  description: A stiff but casual blue blazer. Similar can be found in any We-Ya office. Only the finest wear for the galaxy's most cunning.
+  name: "синій піджак зв'язкового"
+  description: "Строгий, але повсякденний синій піджак. Такий можна знайти в будь-якому офісі We-Ya. Тільки найкращий одяг для найхитріших у галактиці."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/liaison_blue_blazer.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: CMJumpsuitLiaisonField
-  name: corporate casual
-  description: A pair of dark brown slacks paired with a dark blue button-down shirt. A popular look among those in the corporate world that conduct the majority of their business from night clubs.
+  name: "корпоративний повсякденний"
+  description: "Темно-коричневі штани в поєднанні з темно-синьою сорочкою на ґудзиках. Популярний образ серед представників корпоративного світу, які ведуть більшу частину свого бізнесу в нічних клубах."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/corporate_field.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: CMJumpsuitLiaisonIvy
-  name: country club outfit
-  description: A pair of khaki slacks paired with a light blue button-down shirt. A popular look with those in the corporate world that conduct the majority of their business from country clubs.
+  name: "вбрання для заміського клубу"
+  description: "Штани кольору хакі в поєднанні зі світло-блакитною сорочкою на ґудзиках. Популярний образ серед представників корпоративного світу, які ведуть більшу частину свого бізнесу в заміських клубах."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/corporate_ivy.rsi
@@ -100,8 +100,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: CMJumpsuitLiaisonCorporateFormal
-  name: white suit pants
-  description: A pair of ivory slacks paired with a white shirt. A popular pairing for formal corporate events.
+  name: "білі костюмні штани"
+  description: "Пара брюк кольору слонової кістки в поєднанні з білою сорочкою. Популярна пара для офіційних корпоративних заходів."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/corporate_formal.rsi
@@ -111,8 +111,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: CMJumpsuitLiaisonBlack
-  name: black suit pants
-  description: A pair of black slacks paired with a white shirt. The most common pairing among corporate workers.
+  name: "чорні костюмні штани"
+  description: "Пара чорних штанів у поєднанні з білою сорочкою. Найпоширеніша пара серед корпоративних працівників."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/corporate_black.rsi
@@ -122,8 +122,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: CMJumpsuitLiaisonBrown
-  name: brown suit pants
-  description: A pair of brown slacks paired with a white shirt. A common pairing among corporate workers.
+  name: "коричневі костюмні штани"
+  description: "Коричневі штани в парі з білою сорочкою. Поширена пара серед корпоративних працівників."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/corporate_brown.rsi
@@ -133,8 +133,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: CMJumpsuitLiaisonBlue
-  name: blue suit pants
-  description: A pair of blue slacks paired with a white shirt. A common pairing among corporate workers.
+  name: "сині костюмні штани"
+  description: "Сині штани в парі з білою сорочкою. Поширена пара серед корпоративних працівників."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/corporate_blue.rsi

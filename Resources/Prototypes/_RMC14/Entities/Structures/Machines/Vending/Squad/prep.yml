@@ -3,8 +3,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechGuns
-  name: ColMarTech automated weapons rack
-  description: An automated weapon rack hooked up to a big storage of standard-issue weapons.
+  name: "Стійка для автоматичної зброї ColMarTech"
+  description: "Автоматичний стелаж для зброї, під'єднаний до великого сховища зі штатною зброєю."
   components:
   - type: AccessReader
     access:
@@ -82,8 +82,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechSurplus
-  name: ColMarTech surplus uniform vendor
-  description: An automated rack hooked up to a small storage of standard marine uniforms.
+  name: "Постачальник надлишкової уніформи ColMarTech"
+  description: "Автоматизований стелаж, під'єднаний до невеликого сховища стандартної морської форми."
   components:
   - type: AccessReader
     access:
@@ -279,8 +279,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechMunitions
-  name: ColMarTech automated munition squad vendor
-  description: An automated supply rack hooked up to a small storage of various ammunition types. Can be accessed by any Marine Rifleman.
+  name: "Постачальник автоматизованих боєприпасів ColMarTech"
+  description: "Автоматизований стелаж для зберігання боєприпасів, з'єднаний з невеликим сховищем різних типів боєприпасів. Доступний для кожного морського піхотинця."
   components:
   - type: AccessReader
     access:
@@ -336,8 +336,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechUtilities
-  name: ColMarTech automated utilities squad vendor
-  description: An automated supply rack hooked up to a small storage of various utilities and tools. Can be accessed by any Marine Rifleman.
+  name: "Постачальник автоматизованих комунальних бригад ColMarTech"
+  description: "Автоматизований стелаж для постачання, з'єднаний з невеликим сховищем різноманітних засобів та інструментів. Доступний для кожного морського піхотинця."
   components:
   - type: AccessReader
     access:
@@ -408,8 +408,8 @@
 - type: entity
   parent: ColMarTechBase
   id: CMVendorAttachments
-  name: Aegis Armaments squad attachments vendor
-  description: An automated supply rack hooked up to a small storage of weapons attachments. Can be accessed by any Marine Rifleman.
+  name: "Постачальник навісного обладнання для підрозділів Aegis Armaments"
+  description: "Автоматизований стелаж для постачання, з'єднаний з невеликим сховищем для зброї. Доступний для кожного морського піхотинця."
   components:
   - type: AccessReader
     access:

@@ -2,8 +2,8 @@
 - type: entity
   parent: CMBarricadeBase
   id: RMCBarricadePlasteel
-  name: plasteel barricade
-  description: A sturdy and easily assembled barricade made of reinforced plasteel plates, the pinnacle of strongpoints. Upgradable with metal, plasteel, or metal rods for different attributes. Repair with a welder.
+  name: "пластикова барикада"
+  description: "Міцна і легко монтується барикада з армованих сталевих пластин, що є вершиною укріплень. Модернізується за допомогою металевих, пластикових або металевих прутів для різних атрибутів. Ремонт за допомогою зварювального апарату."
   components:
   - type: Climbable
   - type: Anchorable
@@ -76,8 +76,8 @@
 - type: entity
   parent: RMCBarricadePlasteel
   id: RMCBarricadeBurnPlasteel
-  name: plasteel anti-biohazard barricade
-  description: A sturdy barricade incredibly resistant to corrosive and fire damage but breaks easier. Repair with a welder.
+  name: "пластикова барикада для захисту від біологічної небезпеки"
+  description: "Міцна барикада неймовірно стійка до корозії та вогню, але легше ламається. Ремонт за допомогою зварювального апарату."
   components:
     - type: Sprite
       sprite: _RMC14/Structures/Walls/Barricades/barricade.rsi
@@ -101,8 +101,8 @@
 - type: entity
   parent: RMCBarricadePlasteel
   id: RMCBarricadeBrutePlasteel
-  name: plasteel reinforced barricade
-  description: A heavy-duty plasteel barricade reinforced with metal and resistant against thrashing. Repair with a welder.
+  name: "армована пластиком барикада"
+  description: "Надміцна пластикова барикада, посилена металом і стійка до ударів. Ремонт за допомогою зварювального апарату."
   components:
     - type: Sprite
       sprite: _RMC14/Structures/Walls/Barricades/barricade.rsi
@@ -126,8 +126,8 @@
 - type: entity
   parent: RMCBarricadePlasteel
   id: RMCBarricadeExplosivePlasteel
-  name: plasteel blast-resistant barricade
-  description: An sturdy blast-resistant barricade made out of the same stuff in EODs. Repair with a welder.
+  name: "пластикова вибухостійка барикада"
+  description: "Міцна вибухостійка барикада, зроблена з того ж матеріалу, що й у саперів. Відремонтувати за допомогою зварювальника."
   components:
     - type: Sprite
       sprite: _RMC14/Structures/Walls/Barricades/barricade.rsi
@@ -150,8 +150,8 @@
 - type: entity
   parent: CMBarricadeMetalDoor
   id: CMBarricadePlasteelDoor
-  name: folding plasteel barricade
-  description: A tough folding plasteel barricade stronger than its metal counterpart. Can be closed and opened at a moment's notice. Repair with a welder.
+  name: "складна пластикова барикада"
+  description: "Міцна складна пластикова барикада, міцніша за металеві аналоги. Закривається і відкривається в одну мить. Ремонт за допомогою зварювального апарату."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/Barricades/barricade.rsi

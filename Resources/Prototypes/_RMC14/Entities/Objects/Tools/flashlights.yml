@@ -58,8 +58,8 @@
 - type: entity
   parent: RMCFlashlightBase
   id: RMCFlashlight
-  name: flashlight
-  description: A hand-held emergency light.
+  name: "ліхтарик"
+  description: "Ручний аварійний ліхтар."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/Light/flashlight.rsi
@@ -77,8 +77,8 @@
 - type: entity
   parent: RMCFlashlightBase
   id: RMCFlashlightPen
-  name: penlight
-  description: A pen-sized light, used by medical staff.
+  name: "ліхтарик"
+  description: "Ліхтарик розміром з ручку, що використовується медичним персоналом."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/Light/penlight.rsi
@@ -103,8 +103,8 @@
 - type: entity
   parent: RMCFlashlightBase
   id: RMCLamp
-  name: desk lamp
-  description: A desk lamp with an adjustable mount.
+  name: "настільна лампа"
+  description: "Настільна лампа з регульованим кріпленням."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/Light/lamp.rsi
@@ -119,7 +119,7 @@
 - type: entity
   parent: RMCLamp
   id: RMCLampGreen
-  description: A classic green-shaded desk lamp.
+  description: "Класична настільна лампа з зеленим плафоном."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/Light/green_lamp.rsi
@@ -132,8 +132,8 @@
 - type: entity
   parent: RMCLamp
   id: RMCLampMenorah
-  name: Menorah
-  description: For celebrating Chanukah.
+  name: "Менора"
+  description: "Для святкування Хануки."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/Light/menorah.rsi
@@ -146,8 +146,8 @@
 - type: entity
   parent: RMCLamp
   id: RMCLampCandelabra
-  name: candelabra
-  description: A fire hazard that can be used to thwack things with impunity.
+  name: "канделябри"
+  description: "Небезпека пожежі, яку можна використовувати для безкарного підпалу речей."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/Light/candelabra.rsi
@@ -160,8 +160,8 @@
 - type: entity
   parent: RMCLamp
   id: RMCLampTripod
-  name: tripod lamp
-  description: An emergency light tube mounted onto a tripod. It seemingly lasts forever.
+  name: "штативна лампа"
+  description: "Лампа аварійного освітлення, встановлена на тринозі. Здається, що вона триває вічно."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/Light/tripod_lamp.rsi
@@ -188,8 +188,8 @@
 - type: entity
   parent: RMCFlashlightBase
   id: RMCFlashlightLantern
-  name: lantern
-  description: A mining lantern.
+  name: "ліхтар"
+  description: "Шахтарський ліхтар."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/Light/lantern.rsi
