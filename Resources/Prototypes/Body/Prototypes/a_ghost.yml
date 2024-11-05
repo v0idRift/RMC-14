@@ -1,6 +1,6 @@
 ﻿- type: body
   id: Aghost
-  name: "привид"
+  name: "aghost"
   root: torso
   slots:
     torso:

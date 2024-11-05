@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCBaseGunCase
   id: RMCSmartPistolCase
-  name: "Розумний чохол для пістолета SU-6"
-  description: "Футляр для пістолета SU-6 Smart. Поставляється з повноцінною поясною кобурою."
+  name: SU-6 smart pistol case
+  description: A gun case containing the SU-6 smart pistol. Comes with a full belt holster.
   components:
   - type: Storage
     maxItemSize: Huge
@@ -20,8 +20,8 @@
 - type: entity
   parent: RMCBaseGunCase
   id: RMCMK80Case
-  name: "Футляр для пістолета MK80"
-  description: "Футляр для пістолета MK80. Поставляється з двома магазинами."
+  name: MK80 pistol case
+  description: A gun case containing the MK80. Comes with two magazines.
   components:
   - type: Storage
     maxItemSize: Huge
@@ -40,8 +40,8 @@
 - type: entity
   parent: RMCBaseGunCase
   id: RMCM54CE2Case
-  name: "Чохол для важкої штурмової гвинтівки M54CE2"
-  description: "Футляр для важкої штурмової гвинтівки M54CE2. Додаткові боєприпаси можна отримати за реквізиціями."
+  name: M54CE2 heavy assault rifle case
+  description: A gun case containing the M54CE2 heavy assault rifle. You can get additional ammunition at requisitions.
   components:
   - type: Storage
     maxItemSize: Huge

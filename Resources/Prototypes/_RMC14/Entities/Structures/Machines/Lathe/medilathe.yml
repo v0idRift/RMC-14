@@ -1,9 +1,9 @@
 ﻿- type: entity
   parent: BaseMachinePowered
   id: RMCMedilathe
-  name: "medilathe"
+  name: medilathe
   suffix: Right Output
-  description: "Спеціалізований автомат для друку медичних виробів."
+  description: A specialized autolathe made for printing medical items.
   components:
   - type: ApcPowerReceiver
     powerLoad: 0

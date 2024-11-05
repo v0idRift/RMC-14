@@ -2,8 +2,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: RMCCrateBase
-  name: "ящик"
-  description: "Прямокутний металевий ящик."
+  name: crate
+  description: A rectangular metal crate.
   components:
   - type: Transform
     noRot: true
@@ -95,8 +95,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: RMCCrateLarge
-  name: "великий ящик"
-  description: "Важкий дерев'яний ящик."
+  name: large crate
+  description: A hefty wooden crate.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/densecrate.rsi
@@ -168,8 +168,8 @@
 - type: entity
   parent: RMCCrateWeldable
   id: RMCCrateAlpha
-  name: "ящик загону \"альфа"
-  description: "Ящик із символікою підрозділу \"Альфа\"."
+  name: alpha squad crate
+  description: A crate with alpha squad's symbol on it.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/alpha.rsi
@@ -191,8 +191,8 @@
 - type: entity
   parent: RMCCrateWeldable
   id: RMCCrateBravo
-  name: "ящик загону \"Браво"
-  description: "Ящик із символікою загону \"Браво\"."
+  name: bravo squad crate
+  description: A crate with bravo squad's symbol on it.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/bravo.rsi
@@ -214,8 +214,8 @@
 - type: entity
   parent: RMCCrateWeldable
   id: RMCCrateCharlie
-  name: "ящик загону чарлі"
-  description: "Ящик із символікою загону Чарлі."
+  name: charlie squad crate
+  description: A crate with charlie squad's symbol on it.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/charlie.rsi
@@ -237,8 +237,8 @@
 - type: entity
   parent: RMCCrateWeldable
   id: RMCCrateDelta
-  name: "ящик загону \"Дельта"
-  description: "Ящик із символікою загону \"Дельта\"."
+  name: delta squad crate
+  description: A crate with delta squad's symbol on it.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/delta.rsi
@@ -260,8 +260,8 @@
 - type: entity
   parent: RMCCrateWeldable
   id: RMCCrateAmmo
-  name: "ящик для боєприпасів"
-  description: "Ящик з боєприпасами."
+  name: ammunitions crate
+  description: An ammunitions crate.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/ammo.rsi
@@ -283,8 +283,8 @@
 - type: entity
   parent: RMCCrateWeldable
   id: RMCCrateGreen
-  name: "зелений ящик"
-  description: "Стандартний зелений ящик для зберігання, який використовують морські піхотинці. Ці речі настільки поширені, що всередині може бути що завгодно."
+  name: green crate
+  description: A standard green storage crate employed by the Marines. These things are so common, just about anything could be inside.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/green.rsi
@@ -306,8 +306,8 @@
 - type: entity
   parent: RMCCrateWeldable
   id: RMCCrateConstruction
-  name: "будівельна обрешітка"
-  description: "Будівельний ящик."
+  name: construction crate
+  description: A construction crate.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/construction.rsi
@@ -329,8 +329,8 @@
 - type: entity
   parent: RMCCrateWeldable
   id: RMCCrateExplosives
-  name: "ящик для вибухівки"
-  description: "Ящик з вибухівкою."
+  name: explosives crate
+  description: An explosives crate.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/explosives.rsi
@@ -352,8 +352,8 @@
 - type: entity
   parent: RMCCrateWeldable
   id: RMCCrateFreezer
-  name: "морозильна камера"
-  description: "Морозильна камера."
+  name: freezer crate
+  description: A freezer crate.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/freezer.rsi
@@ -375,8 +375,8 @@
 - type: entity
   parent: RMCCrateWeldable
   id: RMCCrateHydro
-  name: "ящик для гідропоніки"
-  description: "Все, що вам потрібно - це знищити набридливі бур'яни та шкідників."
+  name: hydroponics crate
+  description: All you need to destroy those pesky weeds and pests.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/hydro.rsi
@@ -398,8 +398,8 @@
 - type: entity
   parent: RMCCrateWeldable
   id: RMCCrateInternals
-  name: "внутрішній ящик"
-  description: "Ящик для внутрішніх органів."
+  name: internals crate
+  description: An internals crate.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/oxygen.rsi
@@ -421,8 +421,8 @@
 - type: entity
   parent: RMCCrateWeldable
   id: RMCCratePlastic
-  name: "пластиковий ящик"
-  description: "Прямокутний пластиковий ящик."
+  name: plastic crate
+  description: A rectangular plastic crate.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/plastic.rsi
@@ -444,8 +444,8 @@
 - type: entity
   parent: RMCCrateWeldable
   id: RMCCrateRadiation
-  name: "ящик для радіоактивного спорядження"
-  description: "Ящик зі знаком радіації на ньому."
+  name: radioactive gear crate
+  description: A crate with a radiation sign on it.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/radioactive.rsi
@@ -467,8 +467,8 @@
 - type: entity
   parent: RMCCrateWeldable
   id: RMCCrateScience
-  name: "науковий ящик"
-  description: "Науковий ящик."
+  name: science crate
+  description: A science crate.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/science.rsi
@@ -490,8 +490,8 @@
 - type: entity
   parent: RMCCrateWeldable
   id: RMCCrateSupply
-  name: "ящик для постачання"
-  description: "Ящик з припасами."
+  name: supply crate
+  description: A supply crate.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/supply.rsi
@@ -513,8 +513,8 @@
 - type: entity
   parent: RMCCrateWeldable
   id: RMCCrateWeapons
-  name: "ящик зі зброєю"
-  description: "Ящик зі зброєю."
+  name: weapons crate
+  description: A weapons crate.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/weapons.rsi
@@ -536,8 +536,8 @@
 - type: entity
   parent: RMCCrateWeldable
   id: RMCCrateMedical
-  name: "медичний ящик"
-  description: "Медичний ящик."
+  name: medical crate
+  description: A medical crate.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/medical.rsi
@@ -560,8 +560,8 @@
 - type: entity
   parent: RMCCrateWeldable
   id: RMCCrateSecure
-  name: "безпечний ящик"
-  description: "Безпечний ящик."
+  name: secure crate
+  description: A secure crate.
   suffix: Secure
   components:
   - type: Sprite
@@ -592,8 +592,8 @@
 - type: entity
   parent: RMCCrateSecure
   id: RMCCrateSecureAmmo
-  name: "захищений ящик для боєприпасів"
-  description: "Безпечний ящик для боєприпасів."
+  name: secure ammunitions crate
+  description: A secure ammunitions crate.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/secure_ammo.rsi
@@ -618,8 +618,8 @@
 - type: entity
   parent: RMCCrateSecure
   id: RMCCrateSecureExplosives
-  name: "ящик для вибухівки"
-  description: "Ящик з вибухівкою."
+  name: explosives crate
+  description: An explosives crate.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/secure_explosives.rsi
@@ -644,14 +644,14 @@
 - type: entity
   parent: RMCCrateSecureAmmo
   id: RMCCrateSecureGear
-  name: "ящик для спорядження"
-  description: "Надійний ящик для спорядження."
+  name: gear crate
+  description: A secure gear crate.
 
 - type: entity
   parent: RMCCrateSecure
   id: RMCCrateSecureHydro
-  name: "безпечний ящик для гідропоніки"
-  description: "Ящик із замком, розмальований за схемою ботаніків станції."
+  name: secure hydroponics crate
+  description: A crate with a lock on it, painted in the scheme of the station's botanists.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/secure_hydro.rsi
@@ -676,8 +676,8 @@
 - type: entity
   parent: RMCCrateSecure
   id: CMCrateSecureSurgery
-  name: "операційний стіл"
-  description: "Операційний ящик."
+  name: surgery crate
+  description: A surgery crate.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/secure_medical.rsi
@@ -704,8 +704,8 @@
 - type: entity
   parent: RMCCrateSecure
   id: RMCCrateSecureWeapons
-  name: "ящик зі зброєю"
-  description: "Безпечний ящик для зброї."
+  name: weapons crate
+  description: A secure weapons crate.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/secure_weapons.rsi
@@ -730,8 +730,8 @@
 - type: entity
   parent: RMCCrateSecure
   id: RMCCrateSecureWeYa
-  name: "безпечний ящик We-Ya"
-  description: "Безпечний ящик з емблемою We-Ya на ньому."
+  name: secure We-Ya crate
+  description: A secure crate with a We-Ya insignia on it.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/secure_we_ya.rsi
@@ -758,8 +758,8 @@
 - type: entity
   parent: RMCCrateSecure
   id: RMCCrateSecurePhoron
-  name: "ящик для форону"
-  description: "Ящик з фороном."
+  name: phoron crate
+  description: A phoron crate.
   components:
   - type: AccessReader
     access: [["CMAccessResearch"],["CMAccessEngineering"]]
@@ -767,8 +767,8 @@
 - type: entity
   parent: RMCCrateWeldable
   id: RMCCrateMinecart
-  name: "міновий візок"
-  description: "По суті, це велике металеве відро на колесах. Цей має сучасний пластиковий кожух."
+  name: minecart
+  description: Essentially a big metal bucket on wheels. This one has a modern plastic shroud.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/minecart.rsi
@@ -786,8 +786,8 @@
 - type: entity
   parent: RMCCrateWeldable
   id: RMCCrateMortarAmmo
-  name: "ящик для мінометних боєприпасів"
-  description: "Ящик з бойовими мінометними мінами з різним корисним навантаженням. НЕ КИДАТИ. ТРИМАТИ ПОДАЛІ ВІД ДЖЕРЕЛ ВОГНЮ."
+  name: mortar ammo crate
+  description: A crate containing live mortar shells with various payloads. DO NOT DROP. KEEP AWAY FROM FIRE SOURCES.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/mortar_ammo.rsi

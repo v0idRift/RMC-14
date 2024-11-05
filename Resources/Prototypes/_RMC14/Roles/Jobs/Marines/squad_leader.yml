@@ -68,7 +68,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointSquadLeader
-  name: "точка спарювання командира загону"
+  name: squad leader spawn point
   components:
   - type: SpawnPoint
     job_id: CMSquadLeader

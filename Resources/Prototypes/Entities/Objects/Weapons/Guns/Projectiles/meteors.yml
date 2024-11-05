@@ -1,7 +1,7 @@
 - type: entity
   id: BaseMeteor
-  name: "метеорит"
-  description: "Ви віддаєте перевагу їм, коли вони згорають в атмосфері."
+  name: meteor
+  description: You prefer them when they're burning up in the atmosphere.
   abstract: true
   components:
   - type: Sprite
@@ -48,8 +48,8 @@
 - type: entity
   parent: BaseMeteor
   id: MeteorSpaceDust
-  name: "космічний пил"
-  description: "Змушує станцію чхати."
+  name: space dust
+  description: Makes a station sneeze.
   components:
   - type: Sprite
     state: space_dust
@@ -193,8 +193,8 @@
 - type: entity
   parent: BaseMeteor
   id: MeteorUrist
-  name: "Уріст МакМетеор"
-  description: "Як успішного члена суспільства зі стійкою непохитною психікою і безмежним драйвом, природною схильністю до фінансів і домінування, вас обрали, ні, вас без особливих зусиль направили до цього моменту божественною (біологічною) травмою. Ворота долі відчиняються, і ви знову залишаєтеся стояти в пульсуючому небутті. Стробоскопічний головний біль душі."
+  name: Urist McMeteor
+  description: As a successful member of society with a stable unflinching psyche and limitless drive, natural affinity for finance and domination, you have been selected, no, you have been effortlessly guided by divine (biological) trauma towards this moment. The gates of destiny fling open, and once again you're left standing on pulsating nothingness. A strobing headache of the soul.
   suffix: Meteor
   components:
   - type: Sprite

@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: RMCSmokeAcid
-  name: "кислий газ"
+  name: acid gas
   categories: [ HideSpawnMenu ]
   components:
   - type: Transform
@@ -52,7 +52,7 @@
 
 - type: entity
   id: RMCSmokeNeurotoxin
-  name: "нейротоксиновий газ"
+  name: neurotoxin gas
   categories: [ HideSpawnMenu ]
   components:
   - type: Transform
@@ -113,7 +113,7 @@
 - type: entity
   parent: RMCSmokeAcid
   id: RMCSmokeAcidShroud
-  name: "кислий газ"
+  name: acid gas
   categories: [ HideSpawnMenu ]
   components:
   - type: EvenSmoke
@@ -123,7 +123,7 @@
 - type: entity
   parent: RMCSmokeNeurotoxin
   id: RMCSmokeNeurotoxinShroud
-  name: "нейротоксиновий газ"
+  name: neurotoxin gas
   categories: [ HideSpawnMenu ]
   components:
   - type: EvenSmoke

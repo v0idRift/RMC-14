@@ -2,7 +2,7 @@
   abstract: true
   parent: CMBaseWallInvincible
   id: RMCBaseERTShuttleWall
-  name: "шатл-стіна"
+  name: shuttle wall
   components:
   - type: Corrodible
     isCorrodible: false
@@ -14,7 +14,7 @@
 - type: entity
   parent: RMCBaseERTShuttleWall
   id: RMCERTShuttleEngineLeft1
-  name: "двигун"
+  name: engine
   suffix: Left
   components:
   - type: Sprite
@@ -27,7 +27,7 @@
 - type: entity
   parent: RMCBaseERTShuttleWall
   id: RMCERTShuttleEngineLeft2
-  name: "двигун"
+  name: engine
   suffix: Left
   components:
   - type: Sprite
@@ -40,7 +40,7 @@
 - type: entity
   parent: RMCBaseERTShuttleWall
   id: RMCERTShuttleEngineLeft3
-  name: "двигун"
+  name: engine
   suffix: Left
   components:
   - type: Sprite
@@ -53,7 +53,7 @@
 - type: entity
   parent: RMCBaseERTShuttleWall
   id: RMCERTShuttleEngineRight1
-  name: "двигун"
+  name: engine
   suffix: Right
   components:
   - type: Sprite
@@ -66,7 +66,7 @@
 - type: entity
   parent: RMCBaseERTShuttleWall
   id: RMCERTShuttleEngineRight2
-  name: "двигун"
+  name: engine
   suffix: Right
   components:
   - type: Sprite
@@ -79,7 +79,7 @@
 - type: entity
   parent: RMCBaseERTShuttleWall
   id: RMCERTShuttleEngineRight3
-  name: "двигун"
+  name: engine
   suffix: Right
   components:
   - type: Sprite

@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [ BoxCardboard, BaseBagOpenClose ]
   id: RMCBoxDonut
-  name: "Ням! Пончики!"
-  description: "Коробка апетитних пончиків торгової марки \"Ням!"
+  name: Yum! donuts
+  description: A box of mouth-watering "Yum!" brand donuts
   components:
   - type: Sprite #TODO RMC14 - the different donuts have diff storage sprites that should show up based on varieties
     sprite: _RMC14/Objects/Storage/donutbox.rsi
@@ -74,8 +74,8 @@
 - type: entity
   parent: FoodInjectableBase
   id: RMCFoodDonut
-  name: "пончик"
-  description: "Пончик. Рідкісний на кордоні, тому бережіть його."
+  name: donut
+  description: A donut. Rare on the frontier, so take care of it.
   components:
   - type: Food
     transferAmount: 1 # 3 bites
@@ -102,8 +102,8 @@
 - type: entity
   parent: RMCFoodDonut
   id: RMCFoodDonutFrosted
-  name: "глазурований пончик"
-  description: "Рожевий глазурований пончик. Ще більш рідкісний на пограниччі."
+  name: frosted donut
+  description: A pink frosted donut. Even more rare on the frontier.
   components:
   - type: Food
     transferAmount: 2 # 3 bites

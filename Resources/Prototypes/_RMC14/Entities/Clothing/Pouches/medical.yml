@@ -2,8 +2,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchFirstAid
-  name: "аптечка"
-  description: "За замовчуванням вона містить автоін'єктори. Але він також може містити мазі, бинти та пакетики з таблетками."
+  name: first-aid pouch
+  description: It contains, by default, autoinjectors. But it may also hold ointments, bandages, and pill packets.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/firstaid.rsi
@@ -64,7 +64,7 @@
 - type: entity
   parent: RMCPouchFirstAid
   id: RMCPouchFirstAidERT
-  description: "У ній можуть бути автоін'єктори, мазі та бинти. У цій є додаткові речі."
+  description: It can contain autoinjectors, ointments, and bandages. This one has some extra stuff.
   suffix: ERT
   components:
   - type: Storage
@@ -90,8 +90,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchMedical
-  name: "медична сумка"
-  description: "Він може перевозити невеликі медикаменти."
+  name: medical pouch
+  description: It can carry small medical supplies.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/medical.rsi
@@ -154,8 +154,8 @@
 - type: entity
   parent: RMCPouchMedical
   id: RMCPouchMedicalSoc
-  name: "тактичний медичний підсумок"
-  description: "Важка сумка з усім необхідним для того, щоб звестися на ноги. Непоганий вибір."
+  name: tactical medical pouch
+  description: A heavy pouch containing everything one needs to get themselves back on their feet. Quite the selection.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/socmed.rsi
@@ -201,8 +201,8 @@
 - type: entity
   parent: RMCPouchMedicalSoc
   id: RMCPouchMedicalSocDutch
-  name: "Медична сумка Датчанина"
-  description: "Підсумок, куплений голландцями у торговця на чорному ринку кілька років тому. За чутками, він був викрадений з секретного майна морської піхоти. Його вміст повільно витрачався і замінювався протягом багатьох років."
+  name: Dutch's Medical Pouch
+  description: A pouch bought from a black market trader by Dutch quite a few years ago. Rumoured to be stolen from secret Marine assets. Its contents have been slowly used up and replaced over the years.
 
 - type: entity
   parent: RMCPouchMedicalSocDutch
@@ -226,16 +226,16 @@
 - type: entity
   parent: RMCPouchMedicalSocDutch
   id: RMCPouchMedicalSocDutchUnmarked
-  name: "тактичний медичний підсумок"
-  description: "Важка сумка з усім необхідним для того, щоб звестися на ноги. Непоганий вибір. Якимось чином уся сумка виглядає засекреченою, здається, що за один лише погляд на неї можна потрапити під трибунал."
+  name: tactical medical pouch
+  description: A heavy pouch containing everything one needs to get themselves back on their feet. Quite the selection. Somehow, the whole pouch manages to look classified, you feel like you're going to get court-marshalled for even looking at it.
 
 
 # Pouch First Responder
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchFirstResponder
-  name: "сумка першого реагування"
-  description: "Підсумок призначений для перенесення матеріалів для допомоги медичному персоналу та швидкого реагування на поранення на полі бою без негайного лікування. Може вміщати такі засоби, як роликові ліжка, кровоспинні мішки та аналізатори стану здоров'я."
+  name: first responder pouch
+  description: A pouch designed for carrying supplies to assist medical personnel and quickly respond to injuries on the battlefield without immediately treating them. Can hold supplies such as roller beds, stasis bags, and health analysers.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/frt_med.rsi
@@ -279,8 +279,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchVial
-  name: "мішечок для флаконів"
-  description: "Чохол для перенесення скляних флаконів."
+  name: vial pouch
+  description: A pouch for carrying glass vials.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/vial.rsi
@@ -308,8 +308,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchChem
-  name: "аптечка"
-  description: "Чохол для перенесення скляних склянок."
+  name: chemist pouch
+  description: A pouch for carrying glass beakers.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/chemist.rsi
@@ -338,8 +338,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchAutoinjector
-  name: "чохол для автоінжектора"
-  description: "Чохол спеціально для автоінжекторів."
+  name: auto-injector pouch
+  description: A pouch specifically for auto-injectors.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/injectors.rsi
@@ -372,8 +372,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchSyringe
-  name: "шприц-сумка"
-  description: "Він може переносити шприци."
+  name: syringe pouch
+  description: It can carry syringes.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/syringe.rsi
@@ -400,8 +400,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchMedkit
-  name: "сумка для аптечки"
-  description: "Він спеціально зроблений для зберігання медичних препаратів."
+  name: medical kit pouch
+  description: It's specifically made to hold medical items.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/medkit.rsi

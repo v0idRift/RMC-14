@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: RMCGeneratorFusion
-  name: "Термоядерний реактор S-52"
+  name: S-52 fusion reactor
   placement:
     mode: SnapgridCenter
   components:
@@ -53,8 +53,8 @@
 - type: entity
   parent: RMCGeneratorFusion
   id: RMCGeneratorFusionColony
-  name: "Геотермальний генератор G-11"
-  description: "Термоелектричний генератор, розташований на вершині заповненої плазмою свердловини."
+  name: G-11 geothermal generator
+  description: A thermoelectric generator sitting atop a plasma-filled borehole.
   components:
   - type: RMCFusionReactor
     watts: 100000
@@ -63,8 +63,8 @@
 - type: entity
   parent: BaseItem
   id: RMCGeneratorFusionCell
-  name: "Універсальний паливний елемент WL-6"
-  description: "Паливний елемент, що перезаряджається."
+  name: WL-6 universal fuel cell
+  description: A rechargeable fuel cell.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Power/fusion_fuel_cell.rsi

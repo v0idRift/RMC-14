@@ -13,8 +13,8 @@
 - type: entity
   parent: CMComputerDropship
   id: CMComputerDropshipNavigation
-  name: "навігаційний комп'ютер для дропшиппінгу"
-  description: "Бортовий комп'ютер, який можна використовувати для автопілотування або польотів на великі відстані."
+  name: dropship navigation computer
+  description: A flight computer that can be used for autopilot or long-range flights.
   components:
   - type: Sprite
     state: console
@@ -34,8 +34,8 @@
 - type: entity
   parent: CMComputerDropship
   id: CMComputerDropshipNavigationPlanetside
-  name: "навігаційний комп'ютер для дропшиппінгу"
-  description: "Бортовий комп'ютер, який можна використовувати для керування дропшиппінгами."
+  name: dropship navigation computer
+  description: A flight computer that can be used to direct linked dropships.
   suffix: Planetside
   components:
   - type: Sprite
@@ -56,8 +56,8 @@
 - type: entity
   parent: CMComputerDropship
   id: CMComputerDropshipCamerasAlamo
-  name: "управління камерою"
-  description: "Комп'ютер для моніторингу камер, пов'язаних з дропшипом."
+  name: camera controls
+  description: A computer to monitor cameras linked to the dropship.
   components:
   - type: Sprite
     state: consoleleft
@@ -65,8 +65,8 @@
 - type: entity
   parent: CMComputerDropship
   id: CMComputerDropshipWeapons
-  name: "контроль над озброєнням"
-  description: "Комп'ютер для управління обладнанням, зброєю та симуляторами, встановленими на дропшип."
+  name: weapons controls
+  description: A computer to manage equipment, weapons and simulations installed on the dropship.
   components:
   - type: Sprite
     state: consoleright
@@ -87,8 +87,8 @@
 - type: entity
   parent: MarkerBase
   id: CMDropshipDestination
-  name: "місце призначення дропшиппінгу"
-  description: "Визначає допустиме місце розташування дропшипів для переходу на надзвукову швидкість під час пілотування."
+  name: dropship destination
+  description: Defines a valid location for the dropships to FTL to when piloted.
   placement:
     mode: SnapgridCenter
   components:
@@ -100,8 +100,8 @@
 - type: entity
   parent: MarkerBase
   id: CMDropshipHijackDestination
-  name: "місце викрадення"
-  description: "Визначає допустиме місце розташування дропшипів для переходу на надзвукову швидкість при викраденні."
+  name: hijack destination
+  description: Defines a valid location for the dropships to FTL to when hijacked.
   placement:
     mode: SnapgridCenter
   components:

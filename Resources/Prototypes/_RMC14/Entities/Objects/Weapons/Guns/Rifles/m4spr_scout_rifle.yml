@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: WeaponRifleM4SPR
-  name: "Кастомна бойова гвинтівка M4SPR"
+  name: M4SPR custom battle rifle
   id: WeaponRifleM4SPRCustom
-  description: "Покращення у порівнянні з вже чудовою M4SPR. Здатний приймати набої A19, а також має кращий контроль і точність, але складніший у використанні. Може використовувати традиційні магазини M4SPR з меншими втратами."
+  description: An improvement over the already great M4SPR. Able to take A19 rounds, as well as having better control and accuracy at the cost of being harder to use. Can take traditional M4SPR mags, at lower damage.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m4spr_custom.rsi
@@ -91,8 +91,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleM4SPRA19
-  name: "Магазин M4SPR A19 (високошвидкісний)"
-  description: "Магазин для високошвидкісних набоїв A19 для бойової гвинтівки M4SPR."
+  name: "M4SPR A19 magazine (high-velocity)"
+  description: "A magazine of high-velocity A19 rounds for use in the M4SPR battle rifle."
   components:
   - type: Tag
     tags:
@@ -116,8 +116,8 @@
 - type: entity
   parent: RMCMagazineRifleM4SPRA19
   id: RMCMagazineRifleM4SPRA19Impact
-  name: "Магазин M4SPR A19 (високошвидкісний ударний)"
-  description: "Магазин для високошвидкісних ударних набоїв A19 для бойової гвинтівки M4SPR."
+  name: "M4SPR A19 magazine (high-velocity high impact)"
+  description: "A magazine of high-velocity high impact A19 rounds for use in the M4SPR battle rifle."
   components:
   - type: Tag
     tags:
@@ -141,8 +141,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeRifleM4SPRA19
-  name: "патрон (високошвидкісний A19)"
-  description: "Високошвидкісний патрон А19. Підходить для кастомних магазинів M4SPR."
+  name: cartridge (A19 high-velocity)
+  description: A high-velocity A19 cartridge. Fits in M4SPR custom magazines.
   components:
   - type: Tag
     tags:
@@ -154,8 +154,8 @@
 - type: entity
   parent: RMCCartridgeRifleM4SPRA19
   id: RMCCartridgeRifleM4SPRA19Impact
-  name: "патрон (високошвидкісний ударний A19)"
-  description: "Високошвидкісний ударний патрон А19. Підходить для кастомних магазинів M4SPR."
+  name: cartridge (A19 high-velocity high impact)
+  description: A high-velocity high impact A19 cartridge. Fits in M4SPR custom magazines.
   components:
   - type: Tag
     tags:

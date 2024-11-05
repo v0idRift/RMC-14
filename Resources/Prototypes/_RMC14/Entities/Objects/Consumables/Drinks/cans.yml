@@ -31,8 +31,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanCola
-  name: "класична кола"
-  description: "Класична кола зі смаком, який не змінюється століттями. Ніхто не може його перевершити."
+  name: classic cola
+  description: A classic cola with a taste that's been around for centuries. Nobody can beat it.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/cola.rsi
@@ -49,8 +49,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanMountainWind
-  name: "гірський вітер"
-  description: "Проникає крізь тебе, як космічний вітер."
+  name: mountain wind
+  description: Blows right through you like a space wind.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/mountain_wind.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanThirteenLoko
-  name: "тринадцять локо"
-  description: "Вживання \"Тринадцяти Локо\" може призвести до судом, сліпоти, сп'яніння або навіть смерті. Будь ласка, пийте відповідально."
+  name: thirteen loko
+  description: Consumption of Thirteen Loko may result in seizures, blindness, drunkenness, or even death. Please Drink Responsibly.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/thirteen_loko.rsi
@@ -85,8 +85,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanDrGibb
-  name: "доктор Гібб"
-  description: "Смачна суміш 42 різних смаків хімічних речовин, які ви не можете вимовити."
+  name: dr. gibb
+  description: A delicious mixture of 42 different flavors of chemicals that you can't pronounce.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/dr_gibb.rsi
@@ -103,8 +103,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanStarkist
-  name: "стар-кіст"
-  description: "Смак зірки в рідкому вигляді. І трохи тунця...?"
+  name: star-kist
+  description: The taste of a star in liquid form. And, a bit of tuna...?
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/starkist.rsi
@@ -121,8 +121,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanSpaceUp
-  name: "пробіл вгору"
-  description: "Смак у роті, наче пробоїна в оболонці."
+  name: space-up
+  description: Tastes like a hull breach in your mouth.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/space_up.rsi
@@ -139,8 +139,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanLemonLime
-  name: "лимонно-лаймовий"
-  description: "Ви хотіли апельсин. А отримав лимонний лайм."
+  name: lemon-lime
+  description: You wanted ORANGE. It gave you Lemon Lime.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/lemon_lime.rsi
@@ -157,8 +157,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanIcedTea
-  name: "банка чаю з льодом"
-  description: "Точнісінько як та, яку колись купувала бабуся селюка."
+  name: iced tea can
+  description: Just like the squad redneck's grandmother used to buy.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/ice_tea.rsi
@@ -175,8 +175,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanGrape
-  name: "виноградний сік"
-  description: "Банку, ймовірно, не виноградного соку."
+  name: grape juice
+  description: A can of probably not grape juice.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/purple.rsi
@@ -193,8 +193,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanTonic
-  name: "тонізуюча вода"
-  description: "Крок перший: тонік. Є. Крок другий: джин."
+  name: tonic water
+  description: "Step One: Tonic. Check. Step Two: Gin."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/tonic.rsi
@@ -211,8 +211,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanSoda
-  name: "газована вода"
-  description: "Банку газованої води. Вода з-під крана - більш освіжаюча кузина... якщо вірити цим європейцям."
+  name: soda water
+  description: A can of soda water. Tap water's more refreshing cousin...according to those Europe-folk.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/sodawater.rsi
@@ -229,8 +229,8 @@
 - type: entity
   parent: CMDrinkCanSoda
   id: CMDrinkCanBoda
-  name: "бода"
-  description: "Газований напій, що регулюється державою. Смачного, товариші."
+  name: boda
+  description: State regulated soda beverage. Enjoy comrades.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/boda.rsi
@@ -240,8 +240,8 @@
 - type: entity
   parent: CMDrinkCanCola
   id: CMDrinkCanBodaPlyus
-  name: "бодай-плюс"
-  description: "Регульований державою газований напій, тепер ще й з додатковими ароматизаторами. Смачного, товариші."
+  name: boda-plyus
+  description: State regulated soda beverage, now with added surplus flavoring. Enjoy comrades.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/blank.rsi
@@ -251,8 +251,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanFruitBeer
-  name: "фруктово-пиво"
-  description: "Теоретично, кореневе пиво зі смаком манго звучить досить непогано. Компанія We-Ya спростувала ще одну теорію своєю останньою лінійкою кока-коли. Консервована корпорацією We-Ya."
+  name: fruit-beer
+  description: In theory, Mango flavored root beer sounds like a pretty good idea. We-Ya has disproved yet another theory with its latest line of cola. Canned by the We-Ya Corporation.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/fruit_beer.rsi
@@ -269,8 +269,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanBeerLite
-  name: "we-ya lite"
-  description: "Пиво. Ви набрали ціль. Час стріляти для ефекту."
+  name: we-ya lite
+  description: Beer. You've dialed in your target. Time to fire for effect.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/beer.rsi
@@ -287,8 +287,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanAle
-  name: "we-ya IPA"
-  description: "Пиво - незрозумілий двоюрідний брат."
+  name: we-ya IPA
+  description: Beer's misunderstood cousin.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/ale.rsi
@@ -306,8 +306,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanBobda
-  name: "бобину для бобини"
-  description: "Консерви в Гавані."
+  name: bobda can
+  description: Canned in Havana.
   abstract: true
   components:
   - type: Sprite
@@ -318,8 +318,8 @@
 - type: entity
   parent: CMDrinkCanBobda
   id: CMDrinkCanBobdaClassic
-  name: "бобда класична"
-  description: "На банці сміливо заявлено, що вона зі смаком мандарина. Ви не можете не думати, що це брехня. Зроблено в Гавані."
+  name: bobda classic
+  description: The can boldly proclaims it to be tangerine flavored. You can't help but think that's a lie. Canned in Havana.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -332,8 +332,8 @@
 - type: entity
   parent: CMDrinkCanBobda
   id: CMDrinkCanBobdaCherry
-  name: "вишнева бобда"
-  description: "Тепер з більшою кількістю штучних ароматизаторів! Консерви в Гавані"
+  name: cherry bobda
+  description: Now with more artificial flavors! Canned in Havana
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/Bobda/cherry.rsi
@@ -350,8 +350,8 @@
 - type: entity
   parent: CMDrinkCanBobda
   id: CMDrinkCanBobdaLime
-  name: "вапняна бобда"
-  description: "Непогано. Не дуже, але теж непогано. Консерви з Гавани."
+  name: lime bobda
+  description: It's not bad. It's not good either, but it's not bad. Canned in Havana.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/Bobda/lime.rsi
@@ -368,8 +368,8 @@
 - type: entity
   parent: CMDrinkCanBobda
   id: CMDrinkCanBobdaGrape
-  name: "виноградна бобда"
-  description: "Стара добра пам'ятка для смаків газованої води. Однак на смак це сироп від кашлю зі смаком винограду. Зроблено в Гавані."
+  name: grape bobda
+  description: An old standby for soda flavors. This, however, tastes like grape flavored cough syrup. Canned in Havana.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/Bobda/grape.rsi
@@ -386,8 +386,8 @@
 - type: entity
   parent: CMDrinkCanBobda
   id: CMDrinkCanBobdaBlue
-  name: "блакитна малина бобда"
-  description: "На смак він нагадує синій колір. Технологія справді дивовижна. Консервують у Гавані."
+  name: blue raspberry bobda
+  description: It tastes like the color blue. Technology really is amazing. Canned in Havana.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/Bobda/blueraspberry.rsi
@@ -404,8 +404,8 @@
 - type: entity
   parent: CMDrinkCanBobda
   id: CMDrinkCanBobdaPeach
-  name: "персикова бобда"
-  description: "З одного боку, це дуже смачно. З іншого боку, тобі здається, що ти чуєш, як всередині торохтить персикова кісточка. Консервовані в Гавані."
+  name: peach bobda
+  description: On one hand, it tastes pretty good. On the other hand, you think you can hear a peach pit rattling on the inside. Canned in Havana.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/Bobda/peach.rsi
@@ -422,8 +422,8 @@
 - type: entity
   parent: CMDrinkCanBobda
   id: CMDrinkCanBobdaCranberry
-  name: "журавлинна бобда"
-  description: "При ближчому розгляді, на бляшанці написано: \"КРЕМБЕРІ БОБДА\". Що в біса таке \"полуниця\"? Консерви з Гавани."
+  name: cranberry bobda
+  description: On closer inspection, the can reads, 'CRAMberry Bobda.' What the Hell is a Cramberry? Canned in Havana.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/Bobda/cranberry.rsi
@@ -440,8 +440,8 @@
 - type: entity
   parent: CMDrinkCanBobda
   id: CMDrinkCanBobdaVanilla
-  name: "ванільна бобда"
-  description: "Коли на більшості безалкогольних напоїв пишуть \"ванільний\", вони насправді мають на увазі класичний смак з додаванням ванілі. АЛЕ НЕ КОРПОРАЦІЯ БОБДА, КРИХІТКО! Цей поганець наповнений до країв 100% чистим газованим екстрактом ванілі! Смак жахливий. Зроблено в Гавані."
+  name: vanilla bobda
+  description: When most soft drinks say 'vanilla,' they really mean their classic flavor with a bit of vanilla added. NOT THE BOBDA CORPORATION, BABY! This bad boy is filled to the brim with 100% pure carbonated vanilla extract! It tastes terrible. Canned in Havana.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/Bobda/vanilla.rsi
@@ -458,8 +458,8 @@
 - type: entity
   parent: CMDrinkCanBobda
   id: CMDrinkCanBobdaPineapple
-  name: "ананасова бобда"
-  description: "За смаком нагадує акумуляторну кислоту з додаванням повної склянки цукру. Консервують у Гавані."
+  name: pineapple bobda
+  description: This tastes like battery acid with a full cup of sugar mixed in. Canned in Havana.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/Bobda/pineapple.rsi
@@ -477,8 +477,8 @@
 - type: entity
   parent: CMDrinkCanBobda
   id: CMDrinkCanBobdaDiet
-  name: "дієтична бобда"
-  description: "Тепер з 0% фруктового соку! Консервовані в Гавані"
+  name: diet bobda
+  description: Now with 0% fruit juice! Canned in Havana
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/Bobda/Diet/classic.rsi
@@ -495,8 +495,8 @@
 - type: entity
   parent: CMDrinkCanBobdaDiet
   id: CMDrinkCanBobdaClassicDiet
-  name: "дієта бобда класик"
-  description: "Тепер з 0% фруктового соку! Консервовані в Гавані"
+  name: diet bobda classic
+  description: Now with 0% fruit juice! Canned in Havana
   components:
   - type: SolutionContainerManager
     solutions:
@@ -509,8 +509,8 @@
 - type: entity
   parent: CMDrinkCanBobdaDiet
   id: CMDrinkCanBobdaCherryDiet
-  name: "дієтична вишня бобда"
-  description: "Він не дієтичний і не зі смаком вишні. Консервовані в Гавані."
+  name: diet cherry bobda
+  description: It's neither diet nor cherry flavored. Canned in Havana.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/Bobda/Diet/cherry.rsi
@@ -527,8 +527,8 @@
 - type: entity
   parent: CMDrinkCanBobdaDiet
   id: CMDrinkCanBobdaLimeDiet
-  name: "дієтична вапняна бобда"
-  description: "Десять видів кислоти, дві чашки фальшивого цукру, майже повний бак вуглекислого газу і близько 210 кПа - і все це в алюмінієвій банці. Що тут може не сподобатися? Зроблено в Гавані."
+  name: diet lime bobda
+  description: Ten kinds of acid, two cups of fake sugar, almost a full tank of carbon dioxide, and about 210 kPa all crammed into an aluminum can. What's not to love? Canned in Havana.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/Bobda/Diet/lime.rsi
@@ -545,8 +545,8 @@
 - type: entity
   parent: CMDrinkCanBobdaDiet
   id: CMDrinkCanBobdaGrapeDiet
-  name: "дієтична виноградна бобда"
-  description: "Ви майже впевнені, що це просто виноградний сироп від кашлю та газована вода. Консерви з Гавани."
+  name: diet grape bobda
+  description: You're fairly certain that this is just grape cough syrup and carbonated water. Canned in Havana.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/Bobda/Diet/grape.rsi
@@ -563,8 +563,8 @@
 - type: entity
   parent: CMDrinkCanBobdaDiet
   id: CMDrinkCanBobdaBlueDiet
-  name: "дієтична блакитна малина бобда"
-  description: "ЩО ЗА ШАХРАЙСТВО! Це навіть на смак не блакитний! У кращому випадку, на смак як блакитний. Консерви з Гавани."
+  name: diet blue raspberry bobda
+  description: WHAT A SCAM! It doesn't even taste like blue! At best, it tastes like cyan. Canned in Havana.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/Bobda/Diet/blueraspberry.rsi
@@ -581,8 +581,8 @@
 - type: entity
   parent: CMDrinkCanBobdaDiet
   id: CMDrinkCanBobdaPeachDiet
-  name: "дієтична персикова бобда"
-  description: "З одного боку, це дуже смачно. З іншого боку, тобі здається, що ти чуєш, як всередині торохтить половинка персикової кісточки. Консервовані в Гавані."
+  name: diet peach bobda
+  description: On one hand, it tastes pretty good. On the other hand, you think you can hear half of a peach pit rattling on the inside. Canned in Havana.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/Bobda/Diet/peach.rsi
@@ -599,8 +599,8 @@
 - type: entity
   parent: CMDrinkCanBobdaDiet
   id: CMDrinkCanBobdaCranberryDiet
-  name: "дієтична журавлина бобда"
-  description: "На смак більше схоже на чорнослив, ніж на журавлину. Це не погано, це просто неправильно. Консерви з Гавани."
+  name: diet cranberry bobda
+  description: This tastes more like prunes than cranberries. It's not bad; it's just wrong. Canned in Havana.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/Bobda/Diet/cranberry.rsi
@@ -619,8 +619,8 @@
 - type: entity
   parent: CMDrinkCanBobdaDiet
   id: CMDrinkCanBobdaVanillaDiet
-  name: "дієтична ванільна бобда"
-  description: "Це баночка з водянистим гірким екстрактом ванілі. Ви навіть не уявляєте, хто міг дати зелене світло такій концепції. Зроблено в Гавані."
+  name: diet vanilla bobda
+  description: This is a can of watery bitter vanilla extract. You can't possibly imagine who would greenlight such a concept. Canned in Havana.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/Bobda/Diet/vanilla.rsi
@@ -639,8 +639,8 @@
 - type: entity
   parent: CMDrinkCanBobdaDiet
   id: CMDrinkCanBobdaPineappleDiet
-  name: "дієтична ананасова бобда"
-  description: "За смаком нагадує акумуляторну кислоту з додаванням півсклянки цукру. Консервують у Гавані."
+  name: diet pineapple bobda
+  description: This tastes like battery acid with a half cup of sugar mixed in. Canned in Havana.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/Bobda/Diet/pineapple.rsi

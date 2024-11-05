@@ -32,8 +32,8 @@
 - type: entity
   parent: MarkerBase
   id: CMSpawnPointXeno
-  name: "точка розмноження ксеносів"
-  description: "Розплідник RMC14. Використовується для ксеносів."
+  name: xeno spawn point
+  description: A RMC14 spawner. Used for xenos.
   components:
   - type: XenoSpawnPoint
   - type: Sprite
@@ -43,8 +43,8 @@
 - type: entity
   parent: MarkerBase
   id: CMSpawnPointXenoLeader
-  name: "точка зародження лідера ксеносів"
-  description: "Розплідник RMC14. Використовується для ксеносів Квінс."
+  name: xeno leader spawn point
+  description: A RMC14 spawner. Used for xenos Queens.
   components:
   - type: XenoLeaderSpawnPoint
   - type: Sprite

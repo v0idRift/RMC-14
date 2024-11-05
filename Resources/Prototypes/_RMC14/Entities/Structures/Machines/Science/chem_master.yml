@@ -1,8 +1,8 @@
 - type: entity
   parent: ChemMaster
   id: CMChemMaster
-  name: "ChemMaster 3000"
-  description: "Хімічний маніпулятор промислового класу з можливістю виробництва таблеток та пляшок."
+  name: ChemMaster 3000
+  description: An industrial grade chemical manipulator with pill and bottle production included.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/Science/chem_master.rsi

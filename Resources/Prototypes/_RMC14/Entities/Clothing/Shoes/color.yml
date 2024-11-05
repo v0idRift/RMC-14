@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: RMCShoesBlack
-  name: "чорні туфлі"
-  description: "Пара чорних туфель."
+  name: black shoes
+  description: A pair of black shoes.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Sneakers/black.rsi
@@ -14,8 +14,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: RMCShoesBrown
-  name: "коричневі туфлі"
-  description: "Пара коричневих туфель."
+  name: brown shoes
+  description: A pair of brown shoes.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Sneakers/brown.rsi
@@ -26,8 +26,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: RMCShoesBlue
-  name: "сині туфлі"
-  description: "Пара синіх туфель."
+  name: blue shoes
+  description: A pair of blue shoes.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Sneakers/blue.rsi
@@ -38,8 +38,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: RMCShoesGreen
-  name: "зелені туфлі"
-  description: "Пара зелених туфель."
+  name: green shoes
+  description: A pair of green shoes.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Sneakers/green.rsi
@@ -50,8 +50,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: RMCShoesYellow
-  name: "жовті туфлі"
-  description: "Пара жовтих туфель."
+  name: yellow shoes
+  description: A pair of yellow shoes.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Sneakers/yellow.rsi
@@ -62,8 +62,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: RMCShoesPurple
-  name: "фіолетові туфлі"
-  description: "Пара фіолетових туфель."
+  name: purple shoes
+  description: A pair of purple shoes.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Sneakers/purple.rsi
@@ -74,8 +74,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: RMCShoesRed
-  name: "червоні туфлі"
-  description: "Стильні червоні туфлі."
+  name: red shoes
+  description: Stylish red shoes.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Sneakers/red.rsi
@@ -86,8 +86,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: RMCShoesOrange
-  name: "помаранчеві туфлі"
-  description: "Пара помаранчевих туфель."
+  name: orange shoes
+  description: A pair of orange shoes.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Sneakers/orange.rsi
@@ -98,8 +98,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: RMCShoesWhite
-  name: "білі туфлі"
-  description: "Пара білих туфель."
+  name: white shoes
+  description: A pair of white shoes.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Sneakers/white.rsi
@@ -110,8 +110,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: RMCShoesLeather
-  name: "шкіряне взуття"
-  description: "Міцна пара шкіряних черевиків."
+  name: leather shoes
+  description: A sturdy pair of leather shoes.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/leather.rsi
