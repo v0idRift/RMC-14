@@ -1,5 +1,5 @@
 - type: entity
-  name: Empty Crate Spawner
+  name: "Порожній ящик - спайдер для порожніх ящиків"
   id: CrateEmptySpawner
   parent: MarkerBase
   components:
@@ -25,7 +25,7 @@
       offset: 0.0
 
 - type: entity
-  name: Filled Crate Spawner
+  name: "Заповнений ящиковий нерестовик"
   id: CrateFilledSpawner
   suffix: Low Value
   parent: MarkerBase
@@ -63,7 +63,7 @@
       offset: 0.0
 
 - type: entity
-  name: random engineering crate spawner
+  name: "випадковий спавнер інженерних ящиків"
   id: LootSpawnerRandomCrateEngineering
   parent: MarkerBase
   components:
@@ -106,7 +106,7 @@
       offset: 0.0
 
 - type: entity
-  name: random security crate spawner
+  name: "випадковий спавнер ящиків безпеки"
   id: LootSpawnerRandomCrateSecurity
   parent: MarkerBase
   components:

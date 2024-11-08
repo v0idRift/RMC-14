@@ -167,7 +167,7 @@
       - id: RubberStampGreytide
 
 - type: entity
-  name: Maint Loot Spawner
+  name: "спавнер луту із техів"
   suffix: Fluff+Clothes
   id: MaintenanceFluffSpawner
   parent: MarkerBase
@@ -293,7 +293,7 @@
         weight: 0.05
 
 - type: entity
-  name: Maint Loot Spawner
+  name: "спавнер луту із техів"
   suffix: Tools+Cells+Mats
   id: MaintenanceToolSpawner
   parent: MarkerBase
@@ -350,7 +350,7 @@
       - id: HydroponicsToolMiniHoe
 
 - type: entity
-  name: Maint Loot Spawner
+  name: "спавнер луту із техів"
   suffix: Scrap+Weapons
   id: MaintenanceWeaponSpawner
   parent: MarkerBase
@@ -366,7 +366,7 @@
       prob: 0.6
 
 - type: entity
-  name: Maint Loot Spawner
+  name: "спавнер луту із техів"
   suffix: Plants
   id: MaintenancePlantSpawner
   parent: MarkerBase

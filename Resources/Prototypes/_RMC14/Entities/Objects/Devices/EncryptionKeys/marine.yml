@@ -1,7 +1,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeySquadLeader
-  name: squad leader's encryption key
+  name: "ключ шифрування командира загону"
   components:
   - type: EncryptionKey
     channels:
@@ -15,7 +15,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyAlpha
-  name: alpha encryption Key
+  name: "альфа-шифрування Ключ шифрування"
   components:
   - type: EncryptionKey
     channels:
@@ -28,7 +28,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyBravo
-  name: bravo encryption Key
+  name: "ключ шифрування bravo"
   components:
   - type: EncryptionKey
     channels:
@@ -41,7 +41,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyCharlie
-  name: charlie encryption Key
+  name: "ключ шифрування charlie"
   components:
   - type: EncryptionKey
     channels:
@@ -54,7 +54,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyDelta
-  name: delta encryption Key
+  name: "ключ дельта-шифрування"
   components:
   - type: EncryptionKey
     channels:
@@ -67,7 +67,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyEcho
-  name: echo encryption Key
+  name: "ключ ехо-шифрування"
   components:
   - type: EncryptionKey
     channels:
@@ -80,7 +80,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyFoxtrot
-  name: foxtrot encryption Key
+  name: "ключ шифрування foxtrot"
   components:
   - type: EncryptionKey
     channels:
@@ -93,7 +93,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeySOF
-  name: sof's encryption Key
+  name: "ключ шифрування sof"
   components:
   - type: EncryptionKey
     channels:

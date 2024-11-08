@@ -16,7 +16,7 @@
 - type: guideEntry
   parent: RMC
   id: RMCGuideNewPlayer
-  name: "New Player Guide"
+  name: "Посібник для нових гравців"
   text: "/ServerInfo/Guidebook/_RMC14/RMCGuideNewPlayer.xml"
   children:
   - CMGuideRoleRifleman
@@ -26,21 +26,21 @@
   parent: RMC
   id: CMGuideRoleRifleman
   priority: 0
-  name: "Rifleman Guide"
+  name: "Посібник стрільця"
   text: "/ServerInfo/Guidebook/_RMC14/NewPlayerGuide/CMGuideRoleRifleman.xml"
 
 - type: guideEntry
   parent: RMC
   id: CMGuideRoleDrone
   priority: 1
-  name: "Drone Guide"
+  name: "Путівник по дронам"
   text: "/ServerInfo/Guidebook/_RMC14/NewPlayerGuide/CMGuideRoleDrone.xml"
 
 - type: guideEntry
   parent: RMC
   id: RMCMedical
   priority: 2
-  name: "Medical"
+  name: "Медичні"
   text: "/ServerInfo/Guidebook/_RMC14/Medical/RMCMedical.xml"
   children:
   - CMChemicals
@@ -49,5 +49,5 @@
   parent: RMC
   id: RMCRequisitions
   priority: 3
-  name: "Requisitions"
+  name: "Реквізити"
   text: "/ServerInfo/Guidebook/_RMC14/RMCRequisitions.xml"

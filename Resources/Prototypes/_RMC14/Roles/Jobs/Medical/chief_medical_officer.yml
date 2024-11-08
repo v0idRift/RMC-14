@@ -69,7 +69,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointCMO
-  name: chief medical officer spawn point
+  name: "головний лікар spawn point"
   components:
   - type: SpawnPoint
     job_id: CMCMO

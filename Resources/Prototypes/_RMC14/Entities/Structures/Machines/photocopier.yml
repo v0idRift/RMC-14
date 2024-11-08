@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseMachinePowered
   id: RMCBasePhotocopier
-  name: Photocopier
-  description: A photocopier used for copying... you know, photos! Also useful for copying documents on paper. This specific model has been manufactured by Aegis Armaments in a cheaper frame than most modern photocopiers. It uses more primitive copying technology resulting in more toner waste and less printing capabilities. Nonetheless, its cheap construction means cheaper costs, and for people that only need to print a paper or two most of the time, it becomes cost-effective.
+  name: "Ксерокс"
+  description: "Ксерокс, який використовується для копіювання... ну ви знаєте, фотографій! Також корисний для копіювання документів на папері. Ця конкретна модель була виготовлена компанією Aegis Armaments у дешевшому корпусі, ніж більшість сучасних копіювальних апаратів. Він використовує більш примітивну технологію копіювання, що призводить до більших відходів тонера і менших можливостей друку. Тим не менш, його дешева конструкція означає дешевшу вартість, і для людей, яким потрібно друкувати лише один-два документи більшу частину часу, він стає економічно вигідним."
   components:
   - type: Transform
     anchored: false
@@ -32,7 +32,7 @@
 - type: entity
   parent: RMCBasePhotocopier
   id: RMCPhotocopier
-  name: Photocopier
+  name: "Ксерокс"
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/photocopier.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: RMCBasePhotocopier
   id: RMCPhotocopierPro
-  name: We-Ya Photocopier
-  description: A photocopier used for copying... you know, photos! Also useful for copying documents on paper. This specific model has been manufactured by We-Ya in a more modern and robust frame than the average photocopiers you see from smaller companies. It uses some of the most advanced technologies in the area of paper-printing such as bigger toner economy and much higher printing capabilities. All that makes it the favorite among consumers that need to print high amounts of paperwork for their daily duties.
+  name: "Ксерокс We-Ya"
+  description: "Ксерокс, який використовується для копіювання... ну ви знаєте, фотографій! Також корисний для копіювання документів на папері. Ця конкретна модель виготовлена компанією We-Ya у більш сучасному та міцному корпусі, ніж середньостатистичні копіювальні апарати, які ви бачите у менших компаніях. У ньому використовуються деякі з найсучасніших технологій у сфері друку на папері, такі як більша економія тонера та значно вищі можливості друку. Все це робить його фаворитом серед користувачів, яким потрібно друкувати великі обсяги документів для виконання своїх щоденних обов'язків."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/photocopier.rsi
