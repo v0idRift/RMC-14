@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: RMCBaseArmor
   id: RMCArmorSecurity
-  name: "захисна броня"
-  description: "Бронежилет, який захищає від деяких пошкоджень. Цей має корпоративний значок Weston-Yamada."
+  name: security armor
+  description: An armored vest that protects against some damage. This one has a Weston-Yamada corporate badge.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/security_armor.rsi

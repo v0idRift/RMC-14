@@ -1,8 +1,8 @@
 - type: entity
   id: CrateCargoLuxuryHardsuit
   parent: CratePirate
-  name: "розкішний шахтерський комбінезон ящик"
-  description: "Нарешті, бронежилет, який офіцер з логістики міг би назвати своїм. Центр почув вас, тепер перестаньте питати."
+  name: luxury mining hardsuit crate
+  description: Finally, a hardsuit Quartermasters could call their own. Centcomm has heard you, now stop asking.
   components:
   - type: StorageFill
     contents:
@@ -10,8 +10,8 @@
 
 - type: entity
   id: CrateCargoGambling
-  name: "велика лотерея $$$"
-  description: "Коробка зі скарбами, що перевершують ваші найсміливіші фантазії!"
+  name: the grand lottery $$$
+  description: A box containing treasure beyond your greatest imaginations!
   parent: CratePrivateSecure
   components:
   #never make a storage fill this large

@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: ActionXenoRest
   parent: ActionXenoBase
-  name: "Відпочинок"
-  description: "Лягайте, щоб швидше відновити здоров'я, перебуваючи на бур'янах."
+  name: Rest
+  description: Lie down to regenerate health more quickly while on weeds.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -15,8 +15,8 @@
 - type: entity
   parent: CMGuidebookActionXenoBase
   id: CMGuidebookActionXenoRest
-  name: "Відпочинок"
-  description: "Лягайте, щоб швидше відновити здоров'я, перебуваючи на бур'янах."
+  name: Rest
+  description: Lie down to regenerate health more quickly while on weeds.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -25,7 +25,7 @@
 - type: entity
   id: ActionXenoWatch
   parent: ActionXenoBase
-  name: "Дивіться \"Ксенонід"
+  name: Watch Xenonid
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -37,8 +37,8 @@
 - type: entity
   id: ActionXenoPheromones
   parent: ActionXenoBase
-  name: "Виділяють феромони (35)" # TODO RMC14 proper plasma costs
-  description: "Надає баф на ксенонідів поблизу. [color=cyan]Споживає 2,5 плазми на секунду[/color]"
+  name: Emit Pheromones (35) # TODO RMC14 proper plasma costs
+  description: Gives a buff to nearby xenonids. [color=cyan]Consumes 2.5 plasma per second.[/color]
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -51,8 +51,8 @@
 - type: entity
   id: ActionXenoHide
   parent: ActionXenoBase
-  name: "Приховати"
-  description: "Ховайтеся під столами та іншими предметами."
+  name: Hide
+  description: Hide under tables and other objects.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -65,8 +65,8 @@
 - type: entity
   id: ActionXenoToggleCrest
   parent: ActionXenoBase
-  name: "Ввімкнути захист гребеня"
-  description: "Збільшує вашу стійкість до прямих ушкоджень, але уповільнює вас. Ви вважаєтесь на один розмір більшим, поки ваш гребінь опущений."
+  name: Toggle Crest Defense
+  description: Increases your resistance to direct damage but slows you down. You count as one size bigger while you're crest is lowered.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -82,8 +82,8 @@
 - type: entity
   id: ActionXenoFortify
   parent: ActionXenoBase
-  name: "Зміцнити"
-  description: "Станьте нерухомим і непрохідним для мобів, що значно збільшує ваш опір до прямої шкоди. Ушкодження ще більше зменшуються, якщо ви стоїте обличчям до ворога. Ви не можете бути оглушені, коли перебуваєте в укріпленні, і вважаєтесь на два розміри більшими."
+  name: Fortify
+  description: Become immobile and impassable to mobs, dramatically increasing your resistance to direct damage. Damage is further reduced from the direction you are facing. You can't be stunned while fortified and count as two sizes bigger.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -99,8 +99,8 @@
 - type: entity
   id: ActionXenoResinWalker
   parent: ActionXenoBase
-  name: "Смолоскип (50)" # TODO RMC14 proper plasma costs
-  description: "Швидше бігає по бур'янах. [color=cyan]Споживає 30 плазми на секунду.[/color]"
+  name: Resin Walker (50) # TODO RMC14 proper plasma costs
+  description: Run faster on weeds. [color=cyan]Consumes 30 plasma per second.[/color]
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -113,7 +113,7 @@
 - type: entity
   id: ActionXenoZoom
   parent: ActionXenoBase
-  name: "Перемикач далекобійного прицілу"
+  name: Toggle Long-Range Sight
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -126,8 +126,8 @@
 - type: entity
   id: ActionXenoWordQueen
   parent: ActionXenoBase
-  name: "Слово цариці (50)" # TODO RMC14 proper plasma costs
-  description: "Надсилає повідомлення всім членам вашого вулика."
+  name: Word of the Queen (50) # TODO RMC14 proper plasma costs
+  description: Sends a message to all members of your hive.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -141,8 +141,8 @@
 - type: entity
   id: ActionXenoGrowOvipositor
   parent: ActionXenoBase
-  name: "Вирощування яйцекладу (700)" # TODO RMC14 proper plasma costs
-  description: "Стають нерухомими і починають відкладати яйця, з яких з'являться паразити. Має 5 хвилин перезарядки. [color=red]Ви повинні бути в режимі яйцекладача, щоб інші ксеноніди отримували очки еволюції після початку раунду![/color]"
+  name: Grow Ovipositor (700) # TODO RMC14 proper plasma costs
+  description: Become immobile and start laying eggs which will produce parasites. Has a 5 minute cooldown. [color=red]You must be in ovipositor mode for other xenonids to gain evolution points after round-start![/color]
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -155,8 +155,8 @@
 - type: entity
   id: ActionXenoTurnInvisible
   parent: ActionXenoBase
-  name: "Стати невидимим (20)" # TODO RMC14 proper plasma costs
-  description: "Стає частково невидимим на 30 секунд, або доки ви не завдасте шкоди ворогу чи не спробуєте його поглинути. Здатність можна вимкнути, щоб знову стати видимим, з поверненням 90% часу маскування, що залишився. Збільшує швидкість пересування на 15%, доки не закінчиться дія здатності."
+  name: Turn Invisible (20) # TODO RMC14 proper plasma costs
+  description: Become partially invisible for 30 seconds, or until you either damage or attempt to devour an enemy. Can be toggled off to become visible again, with a refund of 90% remaining cloak time. Increases your movement speed by 15% until the ability expires.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -168,8 +168,8 @@
 - type: entity
   id: ActionXenoDefensiveShield
   parent: ActionXenoBase
-  name: "Захисний щит (50)"
-  description: "Отримайте тимчасовий щит, який блокує наступні 200 одиниць шкоди (і має імунітет до вибухової шкоди) на 7 секунд. Будь-яка шкода, що потрапляє на щит, зменшується на 10 перед обробкою. [color=green]Перезарядка частково відшкодовується при атаці ворога[/color]"
+  name: Defensive Shield (50)
+  description: Gain a temporary shield that blocks the next 200 damage (and is immune to explosive damage) that lasts 7 seconds. Any damage that impacts the shield is reduced by 10 before processing. [color=green]Cooldown is partially refunded upon attacking an enemy.[/color]
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -182,8 +182,8 @@
 - type: entity
   id: ActionXenoRetrieveEgg
   parent: ActionXenoBase
-  name: "Отримати яйце"
-  description: "Забирає яйце зі сховища, якщо у вас порожня рука. Якщо використати цю команду на нерозподіленому яйці, вона забере всі сусідні нерозподілені яйця. Використання на яйці, що знаходиться в руці, покладе його до вашого сховища."
+  name: Retrieve Egg
+  description: Retrieves an egg from your storage if you have an empty hand. Using this on an unplanted egg will pick up all nearby unplanted eggs. Using an egg in hand will put it into your storage.
   components:
   - type: WorldTargetAction
     itemIconStyle: NoItem
@@ -198,8 +198,8 @@
 - type: entity
   id: ActionXenoThrowParasite
   parent: ActionXenoBase
-  name: "Кинути паразита"
-  description: "Витягує паразита з вашого сховища, якщо у вас порожня рука. Якщо використати його на паразита, що лежить на землі, він підніме всіх паразитів, що знаходяться поруч. Якщо ви націлитеся на тайл з паразитом у руці, то відкинете його на 4 тайли, де паразит буде оглушений на 5 секунд. Використання паразита в руці додасть його до вашого сховища.[color=green]Паразити не помруть від часу, поки ви їх тримаєте або переносите.[/color]"
+  name: Throw Parasite
+  description: Retrieves a parasite from your storage if you have an empty hand. Using this on a parasite on the ground will pickup all nearby parasites. Targeting a tile with a parasite in hand will throw it up to 4 tiles away, where the parasite will be stunned for 5 seconds. Using a parasite in hand will add it to your storage.[color=green]Parasites won't die due to time while you hold or carry them.[/color]
   components:
   - type: WorldTargetAction
     itemIconStyle: NoItem
@@ -215,8 +215,8 @@
 - type: entity
   id: ActionXenoParasiteReserve
   parent: ActionXenoBase
-  name: "Встановити заповідник паразитів"
-  description: "Встановлює ваш резерв паразитів. Спостерігачі не можуть приєднатися як збережені паразити, якщо кількість збережених паразитів менша або дорівнює вашому резерву."
+  name: Set Parasite Reserve
+  description: Sets your parasite Reserves. Observers cannot join as a stored parasite if your parasites stored is less than or equal to your reserve.
   components:
   - type: InstantAction
     itemIconStyle: NoItem

@@ -2,7 +2,7 @@
   save: false
   parent: CMBaseMobSpeciesOrganic
   id: CMMobMoth
-  name: "Уріст К.М. МакФлафф"
+  name: Urist C.M McFluff
   suffix: RMC14
   components:
   - type: HumanoidAppearance

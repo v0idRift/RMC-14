@@ -62,7 +62,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointStaffOfficer
-  name: "штабна офіцерська точка розмноження"
+  name: staff officer spawn point
   components:
   - type: SpawnPoint
     job_id: CMStaffOfficer

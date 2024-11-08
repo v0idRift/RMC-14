@@ -1,6 +1,6 @@
 #Industrial spawners
 - type: entity
-  name: "промисловий нерестовик пуху"
+  name: industrial fluff spawner
   id: LootSpawnerIndustrialFluff
   parent: MarkerBase
   components:
@@ -33,7 +33,7 @@
       offset: 0.0
 
 - type: entity
-  name: "розмножувач промислового лута"
+  name: industrial loot spawner
   suffix: Tools + Materials
   id: LootSpawnerIndustrial
   parent: MarkerBase

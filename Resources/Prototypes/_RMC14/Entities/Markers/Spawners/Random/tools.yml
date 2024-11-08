@@ -1,7 +1,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerRandomTools
-  name: "генератор випадкових інструментів"
+  name: random tools spawner
   components:
     - type: Sprite
       layers:

@@ -4,8 +4,8 @@
 - type: entity
   parent: [RMCAllowSuitStorageClothingJacketMB, RMCBaseJacket]
   id: RMCCoatBureauDeputy
-  name: "піджак заступника бюро"
-  description: "Щільна та стильна чорна шкіряна куртка з прикріпленим до неї значком заступника маршала. На спині - потужні літери \"DEPUTY\", що уособлюють правосуддя, владу та захист у зовнішньому обрамленні. Закони Землі простягаються за межі Сонця."
+  name: bureau deputy jacket
+  description: A thick and stylish black leather jacket with a Marshal's Deputy badge pinned to it. The back is enscribed with the powerful letters of 'DEPUTY' representing justice, authority, and protection in the outer rim. The laws of the Earth stretch beyond the Sol.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Bureau/deputy.rsi
@@ -19,8 +19,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCCoatBureauMarshal
-  name: "піджак бюро маршала"
-  description: "Щільна та стильна чорна шкіряна куртка з маршальським значком, прикріпленим до неї. На спині - потужні літери \"MARSHAL\", що уособлюють правосуддя, владу та захист у зовнішньому обідку. Закони Землі простягаються за межі Сонця."
+  name: bureau marshal jacket
+  description: A thick and stylish black leather jacket with a Marshal's badge pinned to it. The back is enscribed with the powerful letters of 'MARSHAL' representing justice, authority, and protection in the outer rim. The laws of the Earth stretch beyond the Sol.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Bureau/marshal.rsi
@@ -32,8 +32,8 @@
 - type: entity
   parent: RMCCoatBureauDeputy
   id: RMCCoatJacketGeneral
-  name: "генеральська куртка"
-  description: "Чорний тренч із золотистою металізованою обробкою. Епатажний, дуже захисний і надмірно вигадливий. Як для короля - або, в даному випадку, для генерала. Має чимало кишень."
+  name: general's jacket
+  description: A black trench coat with gold metallic trim. Flashy, highly protective, and over-the-top. Fit for a king - or, in this case, a General. Has quite a few pockets.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/jacket_general.rsi

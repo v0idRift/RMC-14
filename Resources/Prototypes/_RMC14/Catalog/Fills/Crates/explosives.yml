@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCCrateExplosives
   id: RMCCrateGrenadesHighExplosive
-  name: "Ящик для світлошумових гранат M40 HEDP (x6)"
+  name: M40 HEDP blast grenades crate (x6)
   components:
   - type: StorageFill
     contents:
@@ -11,7 +11,7 @@
 - type: entity
   parent: RMCCrateExplosives
   id: RMCCrateGrenadesFrag
-  name: "Ящик для осколкових гранат M40 HEFA (x6)"
+  name: M40 HEFA fragmentation grenades crate (x6)
   components:
   - type: StorageFill
     contents:
@@ -21,7 +21,7 @@
 - type: entity
   parent: RMCCrateExplosives
   id: RMCCrateGrenadesSmoke
-  name: "Ящик для димових гранат M40 HSDP (x6)"
+  name: M40 HSDP smoke grenades crate (x6)
   components:
   - type: StorageFill
     contents:
@@ -32,7 +32,7 @@
 - type: entity
   parent: RMCCrateExplosives
   id: RMCCrateGrenadesFragOld
-  name: "Ящик для осколкових гранат М15 (х6)"
+  name: M15 fragmentation grenades crate (x6)
   components:
   - type: StorageFill
     contents:
@@ -42,7 +42,7 @@
 - type: entity
   parent: RMCCrateExplosives
   id: RMCCrateBreachingCharges
-  name: "ящик зі звинуваченнями у порушенні (x4)"
+  name: breaching charges crate (x4)
   components:
   - type: StorageFill
     contents:

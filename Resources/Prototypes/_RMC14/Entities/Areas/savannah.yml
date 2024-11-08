@@ -23,7 +23,7 @@
   - RMCAreaSavannah
   id: RMCAreaSavannahMaints
   abstract: true
-  name: "Мережа"
+  name: Maints
   components:
   - type: Sprite
     sprite: _RMC14/Areas/savannah.rsi
@@ -33,37 +33,37 @@
   parent:
   - RMCAreaSavannahMaints
   id: RMCAreaSavannahMaintsStarboardBow
-  name: "Носові гвинти правого борту"
+  name: Starboard Bow Maints
 
 - type: entity
   parent:
   - RMCAreaSavannahMaints
   id: RMCAreaSavannahMaintsPortBow
-  name: "Лівий нос корабля"
+  name: Port Bow Maints
 
 - type: entity
   parent:
   - RMCAreaSavannahMaints
   id: RMCAreaSavannahMaintsStarboardBeam
-  name: "Правобережні променеві магістралі"
+  name: Starboard Beam Maints
 
 - type: entity
   parent:
   - RMCAreaSavannahMaints
   id: RMCAreaSavannahMaintsPortBeam
-  name: "Лівобережна балочна магістраль"
+  name: Port Beam Maints
 
 - type: entity
   parent:
   - RMCAreaSavannahMaints
   id: RMCAreaSavannahMaintsStarboardQuarter
-  name: "Праворуч по борту"
+  name: Starboard Quarter Maints
 
 - type: entity
   parent:
   - RMCAreaSavannahMaints
   id: RMCAreaSavannahMaintsPortQuarter
-  name: "Мережа портового кварталу"
+  name: Port Quarter Maints
 
 # Corridors
 
@@ -71,7 +71,7 @@
   parent:
   - RMCAreaSavannah
   id: RMCAreaSavannahCorridorAmidship
-  name: "Коридор у середній частині корабля"
+  name: Amidship Corridor
   components:
   - type: Sprite
     sprite: _RMC14/Areas/savannah.rsi
@@ -93,37 +93,37 @@
   parent:
   - RMCAreaSavannahBrig
   id: RMCAreaSavannahBrigBow
-  name: "Бриг Боу"
+  name: Brig Bow
 
 - type: entity
   parent:
   - RMCAreaSavannahBrig
   id: RMCAreaSavannahBrigCorridors
-  name: "Коридори гауптвахти"
+  name: Brig Corridors
 
 - type: entity
   parent:
   - RMCAreaSavannahBrig
   id: RMCAreaSavannahBrigPrison
-  name: "Гауптвахта"
+  name: Brig Prison
 
 - type: entity
   parent:
   - RMCAreaSavannahBrig
   id: RMCAreaSavannahBrigPrep
-  name: "Підготовка до гауптвахти"
+  name: Brig Preparations
 
 - type: entity
   parent:
   - RMCAreaSavannahBrig
   id: RMCAreaSavannahStarboardPointDefense
-  name: "Захист правого борту"
+  name: Starboard Point Defense
 
 - type: entity
   parent:
   - RMCAreaSavannahBrig
   id: RMCAreaSavannahPortPointDefense
-  name: "Захист Порт-Пойнта"
+  name: Port Point Defense
 
 # COMMAND
 
@@ -146,37 +146,37 @@
   parent:
   - RMCAreaSavannahCommand
   id: RMCAreaSavannahLiaison
-  name: "Офіс зв'язку"
+  name: Liaison Office
 
 - type: entity
   parent:
   - RMCAreaSavannahCommand
   id: RMCAreaSavannahPilotBunks
-  name: "Койки для пілотів"
+  name: Pilot Bunks
 
 - type: entity
   parent:
   - RMCAreaSavannahCommand
   id: RMCAreaSavannahOfficerBunks
-  name: "Офіцер Банкс"
+  name: Officer Bunks
 
 - type: entity
   parent:
   - RMCAreaSavannahCommand
   id: RMCAreaSavannahCommandingOfficer
-  name: "Командирські койки"
+  name: Commanding Officer Bunks
 
 - type: entity
   parent:
   - RMCAreaSavannahCommand
   id: RMCAreaSavannahCICCorridor
-  name: "Коридор CIC"
+  name: CIC Corridor
 
 - type: entity
   parent:
   - RMCAreaSavannahCommand
   id: RMCAreaSavannahCIC
-  name: "Центр бойової інформації"
+  name: Combat Information Centre
 
 # MEDICAL
 
@@ -184,7 +184,7 @@
   parent:
   - RMCAreaSavannah
   id: RMCAreaSavannahMedical
-  name: "Медичні"
+  name: Medical
   components:
   - type: Sprite
     sprite: _RMC14/Areas/savannah.rsi
@@ -194,7 +194,7 @@
   parent:
   - RMCAreaSavannahMedical
   id: RMCAreaSavannahMedicalResearch
-  name: "Дослідження"
+  name: Research
 
 # Auxiliary
 
@@ -212,25 +212,25 @@
   parent:
   - RMCAreaSavannahAuxiliary
   id: RMCAreaSavannahHangar
-  name: "Ангар"
+  name: Hangar
 
 - type: entity
   parent:
   - RMCAreaSavannahAuxiliary
   id: RMCAreaSavannahPilotsRoom
-  name: "Кімната для пілотів"
+  name: Pilots Room
 
 - type: entity
   parent:
   - RMCAreaSavannahAuxiliary
   id: RMCAreaSavannahRequisitions
-  name: "Реквізити"
+  name: Requisitions
 
 - type: entity
   parent:
   - RMCAreaSavannahAuxiliary
   id: RMCAreaSavannahCanteen
-  name: "Їдальня"
+  name: Canteen
 
 # PREP
 
@@ -238,7 +238,7 @@
   parent:
   - RMCAreaSavannah
   id: RMCAreaSavannahAlphaBravo
-  name: "Препарат Альфа-Браво"
+  name: Alpha-Bravo Preparation
   components:
   - type: Sprite
     sprite: _RMC14/Areas/savannah.rsi
@@ -248,7 +248,7 @@
   parent:
   - RMCAreaSavannah
   id: RMCAreaSavannahAlpha
-  name: "Альфа-підготовка"
+  name: Alpha Preparation
   components:
   - type: Sprite
     sprite: _RMC14/Areas/savannah.rsi
@@ -258,7 +258,7 @@
   parent:
   - RMCAreaSavannah
   id: RMCAreaSavannahBravo
-  name: "Підготовка Браво"
+  name: Bravo Preparation
   components:
   - type: Sprite
     sprite: _RMC14/Areas/savannah.rsi
@@ -268,7 +268,7 @@
   parent:
   - RMCAreaSavannah
   id: RMCAreaSavannahCharlieDelta
-  name: "Підготовка \"Чарлі-Дельта"
+  name: Charlie-Delta Preparation
   components:
   - type: Sprite
     sprite: _RMC14/Areas/savannah.rsi
@@ -278,7 +278,7 @@
   parent:
   - RMCAreaSavannah
   id: RMCAreaSavannahCharlie
-  name: "Чарлі Підготовка"
+  name: Charlie Preparation
   components:
   - type: Sprite
     sprite: _RMC14/Areas/savannah.rsi
@@ -288,7 +288,7 @@
   parent:
   - RMCAreaSavannah
   id: RMCAreaSavannahDelta
-  name: "Підготовка до дельти"
+  name: Delta Preparation
   components:
   - type: Sprite
     sprite: _RMC14/Areas/savannah.rsi
@@ -300,7 +300,7 @@
   parent:
   - RMCAreaSavannah
   id: RMCAreaSavannahEngineering
-  name: "Інжиніринг"
+  name: Engineering
   components:
   - type: Sprite
     sprite: _RMC14/Areas/savannah.rsi
@@ -312,19 +312,19 @@
   parent:
   - RMCAreaSavannahEngineering
   id: RMCAreaSavannahEngineeringGenerator
-  name: "Інженерний генератор"
+  name: Engineering Generator
 
 - type: entity
   parent:
   - RMCAreaSavannahEngineering
   id: RMCAreaSavannahAtmosStarboard
-  name: "Атмос правого борту"
+  name: Starboard Atmos
 
 - type: entity
   parent:
   - RMCAreaSavannahEngineering
   id: RMCAreaSavannahAtmosPort
-  name: "Порт Атмос"
+  name: Port Atmos
 
 # OTHER
 
@@ -332,10 +332,10 @@
   parent:
   - RMCAreaSavannah
   id: RMCAreaSavannahPressSEA
-  name: "Преса та офіси Південно-Східної Європи"
+  name: Press and SEA Offices
 
 - type: entity
   parent:
   - RMCAreaSavannah
   id: RMCAreaSavannahBriefing
-  name: "Брифінг"
+  name: Briefing

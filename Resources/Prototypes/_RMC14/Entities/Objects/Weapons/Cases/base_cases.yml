@@ -2,8 +2,8 @@
   parent: BaseStorageItem
   id: RMCBaseGunCase
   abstract: true
-  name: "базовий кейс для рушниці"
-  description: "Футляр для пістолета."
+  name: base gun case
+  description: A gun case.
   components:
   - type: Sprite
     noRot: true
@@ -37,8 +37,8 @@
   parent: RMCBaseGunCase
   id: RMCBaseEquipmentCase
   abstract: true
-  name: "корпус базової комплектації"
-  description: "Ящик для розвантаження."
+  name: base equipment case
+  description: A loadout case.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/loadout_kits.rsi

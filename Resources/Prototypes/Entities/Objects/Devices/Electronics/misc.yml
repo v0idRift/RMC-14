@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseElectronics
   id: FreezerElectronics
-  name: "електроніка морозильної камери"
-  description: "Електронна плата, що використовується в кухонних морозильних камерах."
+  name: freezer electronics
+  description: An electronics board used in kitchen freezers.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi

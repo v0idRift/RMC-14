@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: RMCFuelPump
-  name: "паливний насос"
-  description: "Це машина, яка перекачує паливо навколо корабля."
+  name: fuel pump
+  description: It is a machine that pumps fuel around the ship.
   placement:
     mode: SnapgridCenter
   components:
