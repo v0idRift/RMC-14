@@ -61,3 +61,5 @@ humanoid-profile-editor-trait-count-hint = Балів доступно: [{$curre
 trait-category-disabilities = Вади
 trait-category-speech = Вимова
 trait-category-quirks = Примхи
+
+humanoid-profile-editor-preferred-armor-label = Бажана броня:

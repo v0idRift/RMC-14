@@ -13,3 +13,4 @@ rmc-storage-limit-one-command-tablet = Це вже вміщує планшет!
 rmc-holster-verb = Розстебни кобуру
 rmc-storage-webbing-remove-verb = Зніміть стрічку
 rmc-storage-holster-eject-verb = Розстебни кобуру
+rmc-storage-limit-max-ammo-webbing = Більше набоїв у стрічку не влізе!
