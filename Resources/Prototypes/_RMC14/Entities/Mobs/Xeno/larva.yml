@@ -3,7 +3,7 @@
   - CMXenoUndeveloped
   - CMXenoFlammable
   id: CMXenoLarva
-  name: "Личинка"
+  name: Larva
   components:
   - type: GhostRole
     name: cm-job-name-xeno-larva
@@ -78,8 +78,8 @@
 - type: entity
   id: RMCXenoEmbryo
   parent: BaseItem
-  name: "чужорідний ембріон"
-  description: "Все слизьке і бридке."
+  name: alien embryo
+  description: All slimy and yucky.
   components:
     - type: Sprite
       sprite: _RMC14/Mobs/Xenonids/Larva/larva.rsi

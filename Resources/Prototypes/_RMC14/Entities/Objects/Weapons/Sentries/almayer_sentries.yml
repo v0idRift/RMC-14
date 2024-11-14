@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: RMCBaseTurret
   id: RMCTurretAlmayer
-  name: "Статична гауссова башта UN-635C"
-  description: "Повністю автоматизована оборонна башта з можливістю наведення на ціль середньої дальності. Озброєна модифікованою автоматичною гарматою M32-S з внутрішньою стрічковою подачею та модифікована для використання на військових кораблях ООН."
+  name: UN-635C static gauss turret
+  description: A fully-automated defence turret with mid-range targeting capabilities. Armed with a modified M32-S Autocannon and an internal belt feed and modified for UN warship use.
   components:
   - type: InteractionPopup
     interactDelay: 0.2
@@ -54,8 +54,8 @@
 - type: entity
   parent: BaseStructure
   id: RMCDeployerSentry
-  name: "система розстановки вартових"
-  description: "Коробка, в якій розгортається дозорна вежа."
+  name: sentry deployment system
+  description: A box that deploys a sentry turret.
   components:
   - type: Transform
     anchored: true

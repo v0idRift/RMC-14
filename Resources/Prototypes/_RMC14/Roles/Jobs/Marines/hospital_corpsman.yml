@@ -65,7 +65,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointHospitalCorpsman
-  name: "точка народження санітара в лікарні"
+  name: hospital corpsman spawn point
   components:
   - type: SpawnPoint
     job_id: CMHospitalCorpsman

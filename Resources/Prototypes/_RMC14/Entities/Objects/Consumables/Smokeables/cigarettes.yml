@@ -1,8 +1,8 @@
 - type: entity
   parent: CigPackBase
   id: CMCigarettePackLuckySlothsMini
-  name: "lucky sloths міні-пакет"
-  description: "Ці чотири пачки Luckies є в кожному пайку MRE. Вони не такі смачні, як Habana Reals, що входять до пайків LACN, але принаймні вони безкоштовні."
+  name: lucky sloths mini packet
+  description: These four-packs of Luckies come in every MRE. They're not as good as the Habana Reals that come in the LACN MREs, but at least they're free.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Smokeables/Cigarettes/lucky_sloths_4.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: CigPackBase
   id: RMCCigarettePackLuckySloths
-  name: "пакет щасливих лінивців"
-  description: "Lucky Sloths - це якісний тютюн! 9/10 лікарів сходяться на думці, що Lucky Sloths... є основною причиною морського раку легенів."
+  name: lucky sloths packet
+  description: Lucky Sloths Means Fine Tobacco! 9/10 doctors agree on Lucky Sloths...as the leading cause of marine lung cancer.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Smokeables/Cigarettes/lucky_sloths.rsi
@@ -175,7 +175,7 @@
 - type: entity
   parent: Cigarette
   id: RMCCigarette
-  description: "Нефільтрований згорток тютюну та нікотину. При курінні цього тютюну в ротову порожнину потрапляє ще більше смоли та кіптяви."
+  description: An unfiltered roll of tobacco and nicotine. Smoking this releases even more tar and soot into your mouth.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Smokeables/Cigarettes/unfiltered_roll.rsi
@@ -203,8 +203,8 @@
 - type: entity
   parent: RMCCigarettePackLuckySloths
   id: RMCCigarettePackWeYaGold
-  name: "Золотий пакет We-Ya"
-  description: "Прокладати кращі світи та скручувати кращі сигарети. Ці вишукані сигарети - вихід Weston-Yamada на ринок. За ним стоїть потужна команда юристів."
+  name: We-Ya gold packet
+  description: Paving Better Worlds, and rolling better cigarettes. These fancy cigarettes are Weston-Yamada's entry into the market. Comes backed by a fierce legal team.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Smokeables/Cigarettes/we_ya_gold_packet.rsi
@@ -212,8 +212,8 @@
 - type: entity
   parent: RMCCigarettePackLuckySloths
   id: RMCCigarettePackExecutiveSelect
-  name: "пакет executive select"
-  description: "Ці сигарети - верх розкоші. Вони м'які, прохолодні і пахнуть перемогою... і сигаретним димом."
+  name: executive select packet
+  description: These cigarettes are the height of luxury. They're smooth, they're cool, and they smell like victory...and cigarette smoke.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Smokeables/Cigarettes/executive_select.rsi

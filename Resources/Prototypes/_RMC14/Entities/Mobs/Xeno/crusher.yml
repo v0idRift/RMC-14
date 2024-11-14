@@ -5,8 +5,8 @@
   - CMXenoFlammable
   - RMCXenoSpeechSounds
   id: CMXenoCrusher
-  name: "Дробарка"
-  description: "Величезний інопланетянин з величезним броньованим гребенем."
+  name: Crusher
+  description: A huge alien with an enormous armored crest.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-crusher

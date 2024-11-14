@@ -5,8 +5,8 @@
   - CMXenoFlammable
   - RMCXenoSpeechSounds
   id: CMXenoHivelord
-  name: "Hivelord"
-  description: "Будівельник дуже великих вуликів."
+  name: Hivelord
+  description: A builder of really big hives.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-hivelord

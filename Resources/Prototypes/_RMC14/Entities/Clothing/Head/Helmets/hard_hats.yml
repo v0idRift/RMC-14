@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCHelmetBase
   id: RMCHardHat
-  name: "каска"
-  description: "Частина головного убору, що використовується в небезпечних умовах праці для захисту голови. Поставляється з вбудованим ліхтариком."
+  name: hard hat
+  description: A piece of headgear used in dangerous working conditions to protect the head. Comes with a built-in flashlight.
   components:
   - type: Item
     heldPrefix: off
@@ -74,7 +74,7 @@
 - type: entity
   parent: RMCHardHat
   id: RMCHardhatRed
-  name: "каска пожежника"
+  name: firefighter helmet
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/Hardhats/red.rsi

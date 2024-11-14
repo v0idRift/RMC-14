@@ -3,8 +3,8 @@
 - type: entity
   id: ShuttleGunSvalinnMachineGunCircuitboard
   parent: BaseMachineCircuitboard
-  name: "Станок LSE-400c \"Свалінський кулемет"
-  description: "Машинна друкована плата для кулемета LSE-400c \"Свалінн"
+  name: LSE-400c "Svalinn machine gun" machine board
+  description: A machine printed circuit board for an LSE-400c "Svalinn machine gun".
   suffix: DO NOT MAP, Machine Board
   components:
   - type: Sprite
@@ -20,8 +20,8 @@
 - type: entity
   id: ShuttleGunPerforatorCircuitboard
   parent: BaseMachineCircuitboard
-  name: "Плата верстата LSE-1200c \"Перфоратор"
-  description: "Друкована плата для верстата LSE-1200c \"Перфоратор"
+  name: LSE-1200c "Perforator" machine board
+  description: A machine printed circuit board for an LSE-1200c "Perforator".
   suffix: DO NOT MAP, Machine Board
   components:
   - type: Sprite
@@ -37,8 +37,8 @@
 - type: entity
   id: ShuttleGunFriendshipCircuitboard
   parent: BaseMachineCircuitboard
-  name: "EXP-320g \"Дружба\" машинна плата"
-  description: "Машинна друкована плата для ЕКСП-320г \"Дружба"
+  name: EXP-320g "Friendship" machine board
+  description: A machine printed circuit board for an EXP-320g "Friendship".
   suffix: DO NOT MAP, Machine Board
   components:
   - type: Sprite
@@ -54,8 +54,8 @@
 - type: entity
   id: ShuttleGunDusterCircuitboard
   parent: BaseMachineCircuitboard
-  name: "EXP-2100g Плата верстата \"Duster"
-  description: "Друкована плата для машини EXP-2100g \"Duster"
+  name: EXP-2100g "Duster" machine board
+  description: A machine printed circuit board for an EXP-2100g "Duster".
   suffix: DO NOT MAP, Machine Board
   components:
   - type: Sprite
@@ -72,8 +72,8 @@
 - type: entity
   id: ShuttleGunKineticCircuitboard
   parent: BaseMachineCircuitboard
-  name: "Плата машини PTK-800 \"Дематеріалізатор матерії"
-  description: "Машинна друкована плата для \"Дематеріалізатора матерії\" PTK-800"
+  name: PTK-800 "Matter Dematerializer" machine board
+  description: A machine printed circuit board for an PTK-800 "Matter Dematerializer".
   suffix: DO NOT MAP, Machine Board
   components:
   - type: Sprite

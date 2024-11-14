@@ -12,7 +12,7 @@
 - type: entity
   parent: CMTileItemBase
   id: CMTileItemSteel
-  name: "металева підлога"
+  name: metal floor
   components:
   - type: Sprite
     state: steel
@@ -28,7 +28,7 @@
 - type: entity
   parent: CMTileItemBase
   id: CMTileItemWood
-  name: "дерев'яна підлога"
+  name: wood floor
   components:
   - type: Sprite
     state: wood

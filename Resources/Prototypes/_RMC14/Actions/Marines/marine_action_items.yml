@@ -1,8 +1,8 @@
 - type: entity
   parent: ActionMarineBase
   id: CMActionToggleScope
-  name: "Перемикання оптики"
-  description: "Зазирніть всередину або назовні за допомогою оптики."
+  name: Toggle Optics
+  description: Scope in or out with your optics.
   components:
   - type: InstantAction
     icon:
@@ -14,8 +14,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionCycleZoomLevel
-  name: "Рівень циклічного масштабування"
-  description: "Змініть рівень збільшення вашої оптики."
+  name: Cycle Zoom Level
+  description: Change the level of magnification of your optics.
   components:
   - type: InstantAction
     icon:
@@ -30,8 +30,8 @@
 - type: entity
   parent: ActionMarineBase
   id: CMActionToggleScoutVision
-  name: "Перемикання прицілу розвідника M42"
-  description: "Дозволяє бачити навіть у повній темряві."
+  name: Toggle the M42 scout sight
+  description: Allows you to see even in complete darkness.
   components:
   - type: InstantAction
     icon:
@@ -46,8 +46,8 @@
 - type: entity
   parent: ActionMarineBase
   id: CMActionToggleAttachable
-  name: "Перемикач Прикріплюваний"
-  description: "Перемикання вкладеного файлу. Якщо ви бачите це, це означає, що хтось забув налаштувати опис належним чином."
+  name: Toggle Attachable
+  description: Toggle an attachable. If you're seeing this, someone forgot to set the description properly.
   components:
   - type: InstantAction
     icon:
@@ -58,8 +58,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionWhistle
-  name: "Свист"
-  description: "Свистіть."
+  name: Whistle
+  description: Blow the whistle.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -72,8 +72,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionTelephone
-  name: "Використовуйте телефон"
-  description: "Дзвонив на інший телефон."
+  name: Use Phone
+  description: Used to call another phone.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -89,8 +89,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionToggleMedhud
-  name: "Перемкнути медичний HUD"
-  description: "Перемикання оптичної матриці медичного HUD."
+  name: Toggle Medical HUD
+  description: Toggle the optical matrix of the medical HUD.
   components:
   - type: InstantAction
     itemIconStyle: BigItem

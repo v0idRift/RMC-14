@@ -1,7 +1,7 @@
 - type: entity
   id: RMCCrateM54C
   parent: RMCCrateWeapons
-  name: "Футляр для гвинтівки M54C MK1 (x2 MK2, x2 магазини)"
+  name: M54C MK1 Rifle Crate (x2 MK2, x2 magazines)
   components:
   - type: StorageFill
     contents:
@@ -13,7 +13,7 @@
 - type: entity
   id: RMCCrateM54CE2
   parent: RMCCrateWeapons
-  name: "M54CE2 Ящик HAR (HAR x2, ящик для набоїв HAR x2)"
+  name: M54CE2 HAR crate (HAR x2, HAR ammo box x2)
   components:
   - type: StorageFill
     contents:
@@ -25,7 +25,7 @@
 - type: entity
   id: RMCCrateMK80
   parent: RMCCrateWeapons
-  name: "MK80 Ящик для ручної гармати (x2)"
+  name: MK80 Hand Cannon Crate (x2)
   components:
   - type: StorageFill
     contents:
@@ -37,7 +37,7 @@
 - type: entity
   id: RMCCrateXM88
   parent: RMCCrateWeapons
-  name: "XM88 Ящик для важкої гвинтівки (XM88 x2)"
+  name: XM88 Heavy Rifle crate (XM88 x2)
   components:
   - type: StorageFill
     contents:
@@ -47,7 +47,7 @@
 - type: entity
   parent: RMCCrateWeapons
   id: RMCCrateSmartGunSet
-  name: "ML66A Розумна гармата ML66A Smart Gun System Package"
+  name: ML66A Smart Gun System Package
   components:
   - type: StorageFill
     contents:
@@ -57,7 +57,7 @@
 - type: entity
   id: RMCCrateSU6
   parent: RMCCrateWeapons
-  name: "SU-6 Розумний кейс для пістолета (x2)"
+  name: SU-6 Smart Pistol Crate (x2)
   components:
   - type: StorageFill
     contents:
@@ -67,7 +67,7 @@
 - type: entity
   id: RMCCrateMOU53
   parent: RMCCrateWeapons
-  name: "MOU-53 Кейс для дробовика Break Action (x2)"
+  name: MOU-53 Break Action Shotgun Crate (x2)
   components:
   - type: StorageFill
     contents:
@@ -77,7 +77,7 @@
 - type: entity
   parent: RMCCrateWeapons
   id: RMCCrateXM51
-  name: "XM51 Ящик для розкидачів (x2)"
+  name: XM51 Breaching Scattergun Crate (x2)
   components:
   - type: StorageFill
     contents:

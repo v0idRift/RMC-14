@@ -63,7 +63,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointCombatTech
-  name: "точка спавну бойової техніки"
+  name: combat tech spawn point
   components:
   - type: SpawnPoint
     job_id: CMCombatTech

@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   id: CMApcBase
-  name: "регулятор потужності зони"
-  description: "Ця модель поки що не дозволяє змінювати елемент живлення!"
+  name: area power controller
+  description: This model doesn't let you change its power cell yet!
   categories: [ HideSpawnMenu ]
   components:
   - type: Transform

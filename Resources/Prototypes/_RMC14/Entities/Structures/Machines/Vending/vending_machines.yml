@@ -2,8 +2,8 @@
 - type: entity
   parent: VendingMachine
   id: CMVendor
-  name: "Vendomat"
-  description: "Типовий торговий автомат."
+  name: Vendomat
+  description: A generic vending machine.
   components:
   - type: Transform
     anchored: false
@@ -119,8 +119,8 @@
 - type: entity
   parent: CMVendor
   id: CMVendorCoffee
-  name: "Автомат для гарячих напоїв"
-  description: "Торговий автомат, який видає гарячі напої."
+  name: Hot Drinks machine
+  description: A vending machine which dispenses hot drinks.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/coffee.rsi
@@ -140,8 +140,8 @@
 - type: entity
   parent: CMVendor
   id: CMVendorSnack
-  name: "Машина для приготування гарячих продуктів"
-  description: "Торговий автомат, повний готових страв, м-м-м, скуштуйте поживну смакоту!"
+  name: Hot Foods Machine
+  description: A vending machine full of ready to cook meals, mhmmmm taste the nutritional goodness!
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/snack.rsi
@@ -167,8 +167,8 @@
 - type: entity
   parent: CMVendor
   id: CMVendorCola
-  name: "Безалкогольні напої Bobda"
-  description: "Постачальник безалкогольних напоїв, наданий компанією Bobda Soda Company, Гавана."
+  name: Bobda Softdrinks
+  description: A softdrink vendor provided by Bobda Soda Company, Havana.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/cola.rsi
@@ -206,8 +206,8 @@
 - type: entity
   parent: CMVendor
   id: CMVendorCigs
-  name: "Сигаретний автомат"
-  description: "Якщо хочете захворіти на рак, зробіть це стильно!"
+  name: Cigarette Machine
+  description: If you want to get cancer, might as well do it in style!
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/cigs.rsi
@@ -228,8 +228,8 @@
 - type: entity
   parent: CMVendor
   id: CMVendorSec
-  name: "SecTech"
-  description: "Постачальник охоронного обладнання."
+  name: SecTech
+  description: A security equipment vendor.
   suffix: Military Police
   components:
   - type: Sprite
@@ -267,8 +267,8 @@
 - type: entity
   parent: CMVendor
   id: CMVendorSEA
-  name: "SEATech"
-  description: "Постачальник обладнання, покликаного рятувати життя"
+  name: SEATech
+  description: An equipment vendor designed to save lives
   suffix: SEA
   components:
   - type: Sprite
@@ -299,8 +299,8 @@
 - type: entity
   parent: CMVendor
   id: CMVendorNutri
-  name: "NutriMax"
-  description: "Постачальник поживних речовин для рослин."
+  name: NutriMax
+  description: A plant nutrient vendor.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/nutri.rsi
@@ -324,8 +324,8 @@
 - type: entity
   parent: CMVendor
   id: CMVendorSeeds
-  name: "MegaSeed Servitor"
-  description: "Коли насіння потрібне швидко!"
+  name: MegaSeed Servitor
+  description: When you need seeds fast!
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/seeds.rsi
@@ -372,8 +372,8 @@
 - type: entity
   parent: CMVendor
   id: CMVendorDinnerware
-  name: "Посуд"
-  description: "Постачальник кухонного та ресторанного обладнання."
+  name: Dinnerware
+  description: A kitchen and restaraunt equipment vendor.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/dinnerware.rsi
@@ -397,8 +397,8 @@
 - type: entity
   parent: CMVendor
   id: CMVendorSodaSoviet
-  name: "БОДА"
-  description: "Старий автомат з солодкою водою, як він тут опинився?"
+  name: BODA
+  description: An old sweet water vending machine, how did this end up here?
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/sovietsoda.rsi
@@ -415,8 +415,8 @@
 - type: entity
   parent: CMVendor
   id: CMVendorIngredients
-  name: "Система подачі заявок на допоміжні складські приміщення на камбузі"
-  description: "Торговий автомат, призначений для кухарів."
+  name: Galley Auxiliary Storage Requisition System
+  description: A vending machine meant to be use for cooks.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/snack.rsi
