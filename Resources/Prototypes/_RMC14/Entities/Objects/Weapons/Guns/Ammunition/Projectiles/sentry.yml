@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: RMCBaseBullet
   id: CMBulletSentry10x50mm
-  name: "куля (10х50мм)"
+  name: bullet (10x50mm)
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -25,7 +25,7 @@
 - type: entity
   parent: RMCBaseBullet
   id: RMCBulletSentry
-  name: "куля (10x28мм)"
+  name: bullet (10x28mm)
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

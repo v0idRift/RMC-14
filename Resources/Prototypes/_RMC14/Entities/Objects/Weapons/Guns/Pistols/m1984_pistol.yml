@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMWeaponPistolBase
   id: CMWeaponPistolM1984
-  name: "Службовий пістолет M1984"
-  description: "Службовий пістолет M1984, який колись був стандартною зброєю морських піхотинців, але нещодавно був замінений на бойовий пістолет M77. Стріляє 9-мм пістолетними патронами."
+  name: M1984 service pistol
+  description: An M1984 Service Pistol, once the standard issue sidearm of the Marines but has recently been replaced with the M77 combat pistol. Fires 9mm pistol rounds.
   components:
   - type: RMCSelectiveFire
     scatterWielded: 10
@@ -55,7 +55,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: CMMagazinePistolM1984
-  name: "Магазин M1984 (9мм)"
+  name: M1984 magazine (9mm)
   components:
   - type: Tag
     tags:
@@ -78,7 +78,7 @@
 
 - type: entity
   id: CMCartridgePistol9mm
-  name: "патрон (9 мм)"
+  name: cartridge (9mm)
   parent: CMCartridgePistolBase
   components:
   - type: Tag

@@ -42,8 +42,8 @@
 - type: entity
   parent: CMLightTubeBase
   id: CMLightTube
-  name: "світлова трубка"
-  description: "Запасна лампочка."
+  name: light tube
+  description: A replacement light tube.
   components:
   - type: LightBulb
     color: "#FFE4CE" # 5000K color temp
@@ -55,8 +55,8 @@
 - type: entity
   parent: CMLightTubeBase
   id: CMLightTubeBroken
-  name: "світлова трубка"
-  description: "Запасна лампочка."
+  name: light tube
+  description: A replacement light tube.
   suffix: Broken
   components:
   - type: LightBulb

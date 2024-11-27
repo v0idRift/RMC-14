@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: MarkerBase
   id: RMCSpawnerCorporateExecutiveSpecialist
-  name: "корпоративний управлінець фахівець spawner"
+  name: corporate executive specialist spawner
   suffix: Spawner
   components:
   - type: Sprite
@@ -15,7 +15,7 @@
 
 - type: entity
   id: RMCRandomHumanoidCorporateExecutiveSpecialist
-  name: "корпоративний спеціаліст з управління примарна роль"
+  name: corporate executive specialist ghost role
   suffix: Role
   components:
   - type: Sprite

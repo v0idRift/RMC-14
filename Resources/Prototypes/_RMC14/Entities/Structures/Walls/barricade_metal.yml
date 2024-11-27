@@ -103,8 +103,8 @@
 - type: entity
   parent: CMBarricadeBase
   id: CMBarricadeMetal
-  name: "металева барикада"
-  description: "Металева барикада, яка не пропускає небажаних. Модернізується за допомогою металевих, пластикових або металевих прутів для різних атрибутів. Ремонт за допомогою зварювальника."
+  name: metal barricade
+  description: A sturdy and easily assembled barricade made of metal plates, often used for quick fortifications. Use a blowtorch to repair.
   components:
   - type: Climbable
   - type: Anchorable
@@ -237,8 +237,8 @@
 - type: entity
   parent: CMBarricadeBase
   id: CMBarricadeTurnstile
-  name: "турнікет"
-  description: "Перила, щоб морпіхи не виходили за лінію."
+  name: turnstile
+  description: A railing to prevent marines from stepping out of line.
   components:
     - type: Anchorable
     - type: Sprite
@@ -266,8 +266,8 @@
 - type: entity
   parent: CMBarricadeTurnstile
   id: CMBarricadeTurnstileMed
-  name: "турнікет"
-  description: "Перила, щоб морпіхи не виходили за лінію. Ця розроблена спеціально для медиків."
+  name: turnstile
+  description: A railing to prevent marines from stepping out of line. This one is designed specifically for medical.
   components:
     - type: Sprite
       sprite: _RMC14/Structures/Walls/Barricades/barricade.rsi
@@ -282,8 +282,8 @@
 - type: entity
   parent: CMBarricadeBase
   id: RMCBarricadeHandrail
-  name: "поручень"
-  description: "Перила, для рук. Ого."
+  name: handrail
+  description: A railing, for your hands. Woooow.
   components:
     - type: Anchorable
     - type: Sprite
@@ -380,8 +380,8 @@
 - type: entity
   parent: CMBarricadeBase
   id: CMBarricadeMetalDoor
-  name: "складна металева барикада"
-  description: "Складана металева барикада слабша за нерозкладний аналог. Може бути відкрита і закрита в будь-який момент. Ремонт за допомогою зварювального апарату."
+  name: folding metal barricade
+  description: A folding metal barricade weaker than the non-folding counterpart. Able to be opened and closed at a moment's notice. Repair with a welder.
   components:
   - type: Anchorable
   - type: MeleeSound

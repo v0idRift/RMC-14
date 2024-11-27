@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [StorageTank, StructureWheeled]
   id: RMCTankReagentEmpty
-  name: "бак для реагентів"
-  description: "Резервуар для реагентів, який зазвичай використовується для зберігання великої кількості хімікатів."
+  name: reagent tank
+  description: A reagent tank, typically used to store large quantities of chemicals.
   suffix: Empty
   components:
   - type: Sprite

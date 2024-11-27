@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: MarkerBase
   id: RMCSpawnerICBLiaison
-  name: "міжзоряне торговельне бюро зв'язку спайдер спайдер"
+  name: interstellar commerce bureau liaison spawner
   suffix: Spawner
   components:
   - type: Sprite
@@ -15,7 +15,7 @@
 
 - type: entity
   id: RMCRandomHumanoidICBLiaison
-  name: "бюро зв'язку міжзоряної торгівлі роль примари"
+  name: interstellar commerce bureau liaison ghost role
   suffix: Role
   components:
   - type: Sprite

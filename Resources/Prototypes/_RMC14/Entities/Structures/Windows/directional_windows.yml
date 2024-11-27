@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: CMWindowDirectional
   parent: WindowDirectional
-  name: "вікно"
-  description: "Скляне вікно. Воно виглядає тонким і крихким. Кілька ударів чим-небудь мають розбити його вщент."
+  name: window
+  description: A glass window. It looks thin and flimsy. A few knocks with anything should shatter it.
   components:
   - type: Transform
     anchored: true
@@ -57,8 +57,8 @@
 - type: entity
   id: CMWindowReinforcedDirectional
   parent: CMWindowDirectional
-  name: "армоване вікно"
-  description: "Скляне вікно, укріплене прутами. Виглядає досить міцним. Щоб розбити його, знадобиться кілька хороших ударів."
+  name: reinforced window
+  description: A glass window reinforced with bracing rods. It looks rather strong. Might take a few good hits to shatter it.
   components:
   - type: Sprite
     state: rwindow
@@ -97,8 +97,8 @@
 - type: entity
   id: CMWindowTintedDirectional
   parent: CMWindowDirectional
-  name: "тоноване скло"
-  description: "Вікно з тонованого скла. Виглядає досить міцним і непрозорим. Щоб розбити його, знадобиться кілька сильних ударів."
+  name: tinted window
+  description: A tinted glass window. It looks rather strong and opaque. Might take a few good hits to shatter it.
   components:
   - type: Sprite
     state: twindow
@@ -109,8 +109,8 @@
 - type: entity
   id: CMWindowUltraDirectional
   parent: CMWindowDirectional
-  name: "надміцне вікно"
-  description: "Надміцне вікно, призначене для того, щоб трибуна для брифінгів була безпечною зоною."
+  name: ultra-reinforced window
+  description: An ultra-reinforced window designed to keep the briefing podium a secure area.
   components:
   - type: Sprite
     state: fwindow

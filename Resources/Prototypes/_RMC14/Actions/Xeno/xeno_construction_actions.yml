@@ -8,8 +8,8 @@
 - type: entity
   id: ActionXenoPlantWeeds
   parent: ActionXenoBase
-  name: "Рослинні бур'яни (75)" # TODO RMC14 proper plasma costs
-  description: "Посадіть бур'яновий вузол, який буде поширювати більше бур'янів."
+  name: Plant Weeds (75) # TODO RMC14 proper plasma costs
+  description: Plant a weed node that will spread more weeds.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -22,8 +22,8 @@
 - type: entity
   id: ActionXenoChooseStructure
   parent: ActionXenoBase
-  name: "Виберіть структуру смоли"
-  description: "Виберіть структуру для виділення за допомогою дії \"Виділити смолу\"."
+  name: Choose Resin Structure
+  description: "Choose a structure to secrete with the 'Secrete Resin' action."
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -36,8 +36,8 @@
 - type: entity
   id: ActionXenoSecreteStructure
   parent: ActionXenoBase
-  name: "Секретна смола"
-  description: "Будує структуру, обрану за допомогою дії \"Вибрати структуру смоли\"."
+  name: Secrete Resin
+  description: "Builds the structure chosen with the 'Choose Resin Structure' action."
   components:
   - type: WorldTargetAction
     itemIconStyle: NoItem
@@ -57,8 +57,8 @@
 - type: entity
   id: ActionXenoOrderConstruction
   parent: ActionXenoBase
-  name: "Замовити будівництво"
-  description: "Починає будівництво важливої конструкції вулика."
+  name: Order Construction
+  description: Starts construction of an important hive structure.
   components:
   - type: WorldTargetAction
     itemIconStyle: NoItem
@@ -75,8 +75,8 @@
 - type: entity
   id: ActionXenoResinHole
   parent: ActionXenoBase
-  name: "Отвір для рослинної смоли (200)"
-  description: "Розміщує смоляну яму на бур'янах. Її можна заповнити котельним газом, кислотою або паразитами."
+  name: Plant Resin Hole (200)
+  description: Places a resin hole on weeds. It can be filled with boiler gas, acid, or parasites.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -90,8 +90,8 @@
 - type: entity
   id: ActionXenoFruitChoose
   parent: ActionXenoBase
-  name: "Змінити Фрукт"
-  description: "Виберіть фрукт для посадки за допомогою дії \"Посадити смоляний фрукт\"."
+  name: Change Fruit
+  description: Choose a fruit to be planted with 'Plant Resin Fruit' action.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -104,8 +104,8 @@
 - type: entity
   id: ActionXenoFruitPlant
   parent: ActionXenoBase
-  name: "Рослинна смола Фрукти (100)"
-  description: "Висаджуйте вибрані смоляні плоди на бур'янах ціною здоров'я і плазми. Ксеноси можуть збирати ці плоди, коли вони дозріють, ви також можете зірвати рослину раніше, щоб позбутися її. Ксеноси можуть використовувати їх в руках або їсти їх на землі, щоб отримати ефект. Вони також можуть бути використані на інших ксеносах, щоб годувати їх. За один раз ви можете посадити і зібрати лише 6 плодів."
+  name: Plant Resin Fruit (100)
+  description: Plant chosen resin fruit on weeds at the cost of health and plasma. Xenos can pick these fruits once they're mature, you can also pick a plant early to get rid of it. Xenos can use them in hand or eat them on the ground to gain their effects. They can also be used on other xenos to feed them. You can only have 6 fruits planted and picked at a time.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -118,8 +118,8 @@
 - type: entity
   id: ActionXenoPlantWeedsHardy
   parent: ActionXenoBase
-  name: "Висаджувати витривалі бур'яни (125)" # TODO RMC14 proper plasma costs
-  description: "Посадіть бур'яновий вузол, який буде поширювати більш витривалі бур'яни, які дають плоди на 25% швидше, мають трохи більше здоров'я і можуть поширюватися на деяких поверхнях, де звичайні бур'яни не будуть рости."
+  name: Plant Hardy Weeds (125) # TODO RMC14 proper plasma costs
+  description: Plant a weed node that will spread hardier weeds, which grow fruit 25% faster, have slightly more health, and can be spread on some surfaces where normal weeds won't grow.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -136,8 +136,8 @@
 - type: entity
   id: ActionXenoFruitPlantLesser
   parent: ActionXenoFruitPlant
-  name: "Рослинна смола Фрукти (50)"
-  description: "Висаджувати смолоскипи на бур'яни ціною здоров'я та плазми крові."
+  name: Plant Resin Fruit (50)
+  description: Plant resin fruit on weeds at the cost of health and plasma.
   components:
   - type: InstantAction
     event: !type:XenoFruitPlantActionEvent

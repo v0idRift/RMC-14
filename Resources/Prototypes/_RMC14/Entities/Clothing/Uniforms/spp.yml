@@ -2,8 +2,8 @@
 - type: entity
   parent: JumpsuitMarine
   id: CMJumpsuitSPP
-  name: "Втома СЕС"
-  description: "Комплект обмундирування SPP, серійно виготовлений для збройних сил Соціалістичних Прогресивних Народів."
+  name: SPP fatigues
+  description: A set of SPP fatigues, mass produced for the armed-forces of the Socialist Progressive Peoples.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/SPP/uniform.rsi
@@ -14,8 +14,8 @@
 - type: entity
   parent: CMJumpsuitSPP
   id: CMJumpsuitSPPMedic
-  name: "Втомлюваність медиків СЕС"
-  description: "Комплект медичної форми SPP, серійно виготовлений для збройних сил Соціалістичних Прогресивних Народів."
+  name: SPP medic fatigues
+  description: A set of SPP medic fatigues, mass produced for the armed-forces of the Socialist Progressive Peoples.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/SPP/medic.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: CMJumpsuitSPP
   id: CMJumpsuitSPPEngi
-  name: "Втома інженерів СЕС"
-  description: "Комплект інженерного обмундирування SPP, серійно виготовлений для збройних сил Соціалістичної Країни Прогресивних Народів."
+  name: SPP engineer fatigues
+  description: A set of SPP engineer fatigues, mass produced for the armed-forces of the Socialist Progressive Peoples.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/SPP/engi.rsi
@@ -32,8 +32,8 @@
 - type: entity
   parent: CMJumpsuitSPP
   id: CMJumpsuitSPPMP
-  name: "Формений одяг військової поліції SPP"
-  description: "Комплект військово-поліцейського обмундирування ССП, серійно виготовлений для збройних сил Соціалістичної партії прогресивних народів."
+  name: SPP military police fatigues
+  description: A set of SPP military police fatigues, mass produced for the armed-forces of the Socialist Progressive Peoples.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/SPP/mp.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: CMJumpsuitSPP
   id: CMJumpsuitSPPOfficer
-  name: "Втома офіцерів ППО"
-  description: "Комплект офіцерського обмундирування ССП, серійно виготовлений для збройних сил Соціалістичної партії прогресивних народів."
+  name: SPP officer fatigues
+  description: A set of SPP officer fatigues, mass produced for the armed-forces of the Socialist Progressive Peoples.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/SPP/officer.rsi
@@ -51,8 +51,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: CMJumpsuitSPPCiv1
-  name: "Помаранчевий комбінезон SPP в цивільному стилі"
-  description: "Комплект помаранчевого комбінезона в цивільному стилі з темно-коричневою майкою. Матеріал низької якості, але це краще, ніж нічого. Одяг такого стилю зазвичай видають тим, хто працює на важких роботах."
+  name: SPP civilian-style orange overalls
+  description: A set of civilian-style orange overalls with a dark tan undershirt. The material is of a poor quality, however it's better than nothing. Clothing of this style is typically given out to those who work laborious jobs.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/SPP/civ1.rsi
@@ -60,8 +60,8 @@
 - type: entity
   parent: CMJumpsuitSPPCiv1
   id: CMJumpsuitSPPCiv2
-  name: "Комбінезон для засмаги в цивільному стилі SPP"
-  description: "Комплект коричневого комбінезона в цивільному стилі з блакитною майкою. Матеріал низької якості, але це краще, ніж нічого. Одяг такого стилю зазвичай видають тим, хто виконує важку роботу."
+  name: SPP civilian-style tan overalls
+  description: A set of Civilian-style Tan Overalls with a Blue undershirt. The material is of a poor quality, however it's better than nothing. Clothing of this style is typically given to those who work laborious jobs.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/SPP/civ2.rsi
@@ -69,8 +69,8 @@
 - type: entity
   parent: CMJumpsuitSPPCiv1
   id: CMJumpsuitSPPCiv3
-  name: "Сорочка та штани в цивільному стилі SPP"
-  description: "Комплект із сорочки та джинсів у цивільному стилі. Матеріал, хоч і неякісний, але досить зручний, щоб носити його протягом усього дня."
+  name: SPP civilian-style shirt and pants
+  description: A set of civilian-style tan shirt and jeans. The material, while poor, is comfortable enough to be worn during all periods of the day.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/SPP/civ3.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: CMJumpsuitSPPCiv1
   id: CMJumpsuitSPPCiv4
-  name: "Жилет і штани в цивільному стилі SPP"
-  description: "Комплект з коричневого жилета та помаранчевих штанів у цивільному стилі. Матеріал напрочуд пристойний, таке не часто носять цивільні особи ПСП з двох причин. Зазвичай вони не можуть дозволити собі такий одяг, а якщо і можуть, то він малює мішень на спині."
+  name: SPP civilian-style vest and pants
+  description: A set of civilian-style brown vest and orange pants. The material is surprisingly decent, something not often worn by the civilians of the SPP for two reasons. They typically can't afford such clothing, and if they can, it paints a target on their back.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/SPP/civ4.rsi
@@ -87,8 +87,8 @@
 - type: entity
   parent: CMJumpsuitSPPCiv1
   id: CMJumpsuitSPPBear
-  name: "Форма Залізного Ведмедя"
-  description: "Форма, яку носять найманці Залізних Ведмедів. Трохи пахне справжнім ведмедем."
+  name: Iron Bear uniform
+  description: A uniform worn by Iron Bears mercenaries. Smells a little like an actual bear.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/SPP/bear.rsi

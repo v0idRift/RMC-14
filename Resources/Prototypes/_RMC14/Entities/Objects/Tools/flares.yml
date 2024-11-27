@@ -1,8 +1,8 @@
 - type: entity
-  name: "спалах"
+  name: flare
   parent: BaseItem
   id: CMFlare
-  description: "Червоний морський піхотинець випустив сигнальну ракету. Збоку є інструкція, там написано \"тягни за шнур, запалюй\"."
+  description: A red Marine issued flare. There are instructions on the side, it reads 'pull cord, make light'.
   components:
   - type: Tag
     tags:
@@ -61,8 +61,8 @@
 - type: entity
   parent: CMFlare
   id: RMCFlareCAS
-  name: "сигнальна ракета"
-  description: "Зелена сигнальна ракета UNMC випустила сигнальну ракету. Телеметричний комп'ютер працює на хімічній реакції, яка випускає дим і світло, і тому працює тільки поки горить факел."
+  name: signal flare
+  description: A green UNMC issued signal flare. The telemetry computer works on chemical reaction that releases smoke and light and thus works only while the flare is burning.
   components:
   - type: Tag
     tags:
@@ -203,8 +203,8 @@
   abstract: true
   parent: BaseItem
   id: CMPackFlareBase
-  name: "Маркувальна сигнальна ракета M94"
-  description: "Пакет з восьми маркувальних сигнальних ракет M94. Носять з собою солдати морської піхоти, щоб освітити темні ділянки, до яких неможливо дістатися звичайним тротиловим ліхтарем на плече."
+  name: M94 marking flare pack
+  description: A packet of eight M94 Marking Flares. Carried by Marine soldiers to light dark areas that cannot be reached with the usual TNR Shoulder Lamp.
   components:
   - type: Item
     size: Normal
@@ -253,8 +253,8 @@
 - type: entity
   parent: CMPackFlareBase
   id: RMCPackFlareCAS
-  name: "Сигнальна сигнальна ракета M89-S"
-  description: "Пакет з восьми сигнально-маркувальних ракет M89-S."
+  name: M89-S signal flare pack
+  description: A packet of eight M89-S Signal Marking Flares.
   suffix: Filled
   components:
   - type: Tag
