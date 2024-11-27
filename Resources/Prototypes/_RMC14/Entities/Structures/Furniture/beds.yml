@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: Bed
   id: CMBed
-  name: bed
-  description: A mattress seated on a rectangular metallic frame. This is used to support a lying person in a comfortable manner, notably for regular sleep. Ancient technology, but still useful.
+  name: "ліжко"
+  description: "Матрац на прямокутному металевому каркасі. Використовується для комфортної підтримки лежачої людини, особливо для нормального сну. Давня технологія, але все ще корисна."
   components:
   - type: Transform
     anchored: false
@@ -58,8 +58,8 @@
 - type: entity
   parent: [BaseItem, BaseFoldable]
   id: Bedroll
-  name: bedroll
-  description: A foldable bedroll, just about the only thing of comfort in the field. You're generally supposed to unroll it before sleeping, but who needs rules?
+  name: "простирадло"
+  description: "Складаний каремат - чи не єдиний предмет комфорту в польових умовах. Зазвичай його потрібно розгортати перед сном, але кому потрібні правила?"
   components:
   - type: Transform
     noRot: true

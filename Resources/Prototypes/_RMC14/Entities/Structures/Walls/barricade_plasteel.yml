@@ -26,8 +26,8 @@
 - type: entity
   parent: CMBarricadeBase
   id: RMCBarricadePlasteel
-  name: plasteel barricade
-  description: A sturdy and easily assembled barricade made of reinforced plasteel plates, the pinnacle of strongpoints. Use a blowtorch to repair.
+  name: "пластикова барикада"
+  description: "Міцна і легко монтується барикада з армованих сталевих пластин, що є вершиною укріплень. Модернізується за допомогою металевих, пластикових або металевих прутів для різних атрибутів. Ремонт за допомогою зварювального апарату."
   components:
   - type: Climbable
   - type: Anchorable
@@ -173,8 +173,8 @@
 - type: entity
   parent: CMBarricadeMetalDoor
   id: CMBarricadePlasteelDoor
-  name: folding plasteel barricade
-  description: A tough folding plasteel barricade stronger than its metal counterpart. Can be closed and opened at a moment's notice. Repair with a welder.
+  name: "складна пластикова барикада"
+  description: "Міцна складна пластикова барикада, міцніша за металеві аналоги. Закривається і відкривається в одну мить. Ремонт за допомогою зварювального апарату."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/Barricades/barricade.rsi

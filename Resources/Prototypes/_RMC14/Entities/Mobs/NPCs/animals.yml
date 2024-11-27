@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: RMCSmallHost
-  name: abstract small host
+  name: "абстрактний малий хост"
   abstract: true
   components:
   - type: Infectable
@@ -79,8 +79,8 @@
 - type: entity
   parent: MobCorgiPuppy
   id: CMMobWiggles
-  name: Mister Wiggles
-  description: It's a corgi puppy. MISTER WIGGLES!! HE IS THE GREATEST!
+  name: "Містере Вігглз"
+  description: "Це цуценя коргі. МІСТЕР ВІГГЛС!!! ВІН НАЙКРАЩИЙ!"
   components:
   - type: WarpPoint
     follow: true
@@ -96,8 +96,8 @@
 - type: entity
   parent: MobCatCalico
   id: CMMobJones
-  name: Jones
-  description: A tough, old stray whose origin no one seems to know.
+  name: "Джонс"
+  description: "Жорсткий, старий безпритульний, походження якого, здається, ніхто не знає."
   components:
   - type: WarpPoint
     follow: true
@@ -113,8 +113,8 @@
 - type: entity
   parent: MobCatCalico
   id: RMCMobOrion
-  name: Orion
-  description: A domesticated, feline pet. The collar says 'Orion'.
+  name: "Оріон"
+  description: "Домашній котячий улюбленець. На нашийнику написано \"Оріон\"."
   components:
   - type: WarpPoint
     follow: true
@@ -149,7 +149,7 @@
 - type: entity
   parent: MarkerBase
   id: CMSpawnMobMonkey
-  name: monkey spawner
+  name: "мавпяче нерестовище"
   suffix: RMC
   components:
   - type: Sprite
@@ -164,7 +164,7 @@
 - type: entity
   parent: MarkerBase
   id: CMSpawnMobKobold
-  name: kobold spawner
+  name: "нерестовик кобольдів"
   suffix: RMC
   components:
   - type: Sprite
@@ -191,7 +191,7 @@
 - type: entity
   parent: MarkerBase
   id: CMSpawnMobWiggles
-  name: Mr. Wiggles Spawner
+  name: "Містер Вігглс Споунер"
   suffix: CM
   components:
   - type: Sprite
@@ -206,7 +206,7 @@
 - type: entity
   parent: MarkerBase
   id: CMSpawnMobJones
-  name: Jones Spawner
+  name: "Джонс Споунер"
   suffix: CM
   components:
   - type: Sprite
@@ -221,7 +221,7 @@
 - type: entity
   parent: MarkerBase
   id: CMSpawnMobOrion
-  name: Orion Spawner
+  name: "Оріон Спайнер"
   suffix: RMC
   components:
   - type: Sprite

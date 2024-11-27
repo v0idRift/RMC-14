@@ -1,6 +1,6 @@
 - type: entity
   id: RMCASRSAccount
-  name: ASRS account
+  name: "Рахунок ASRS"
   categories: [ HideSpawnMenu ]
   components:
   - type: RequisitionsAccount
@@ -8,8 +8,8 @@
 - type: entity
   parent: [ CMBaseStructureCorrodible, CMCargoCatalog ]
   id: CMASRSConsole
-  name: ASRS console
-  description: A console for the Automated Storage Retrieval System.
+  name: "Консоль ASRS"
+  description: "Консоль для автоматизованої системи зберігання та пошуку інформації."
   suffix: Requisitions
   components:
   - type: Sprite
@@ -90,7 +90,7 @@
 
 - type: entity
   id: CMCargoElevator
-  name: cargo elevator
+  name: "вантажний ліфт"
   suffix: Lowered, Requisitions
   placement:
     mode: SnapgridCenter
@@ -134,8 +134,8 @@
 - type: entity
   parent: CMBaseStructureCorrodible
   id: CMRailing
-  name: retractable railing
-  description: That looks like it doesn't open easily.
+  name: "висувні перила"
+  description: "Виглядає так, ніби вона не відкривається легко."
   suffix: Raised
   components:
   - type: Transform
@@ -167,7 +167,7 @@
 
 - type: entity
   id: CMGear
-  name: gear
+  name: "спорядження"
   description: ""
   placement:
     mode: SnapgridCenter
