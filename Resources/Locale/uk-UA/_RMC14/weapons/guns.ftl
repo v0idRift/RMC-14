@@ -26,3 +26,10 @@ rmc-gun-rack-examine = [b]Натисніть [color=cyan]унікальну ко
 rmc-gun-rack-first-with = Спершу вам потрібно натиснути {$key} на пістолет!
 rmc-gun-rack-first = Спочатку треба поставити пістолет на стійку!
 rmc-breech-loaded-closed-extract-attempt = Вам потрібно спочатку відкрити затвор!
+
+rmc-examine-text-weapon-accuracy = Поточний множник точності [color={$colour}]{TOSTRING($accuracy, "F2")}[/color].
+rmc-assisted-reload-fail-angle = Ви повинні стояти за {$target}, щоб перезарядити зброю {POSS-ADJ($target)}!
+rmc-assisted-reload-fail-full = {CAPITALIZE(POSS-ADJ($target))} {$зброя} вже завантажена.
+rmc-assisted-reload-fail-mismatch = {$ammo} не можна зарядити у {$weapon}!
+rmc-assisted-reload-start-user = Ви починаєте заряджати {$weapon} для {$target}! Не рухайтесь...
+rmc-assisted-reload-start-target = {$reloader} починає заряджати ваш {$weapon} за допомогою {$ammo}! Не рухайтесь...

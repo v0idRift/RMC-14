@@ -67,3 +67,5 @@ rmc-attachable-examine-speed-walk = [color={$colour}]{$sign}{TOSTRING($speed, "F
 rmc-attachable-examine-speed-sprint = [color={$colour}]{$sign}{TOSTRING($speed, "F2")}[/color] множник швидкості виконання.
 
 rmc-attachable-examine-wield-delay = [color={$colour}]{$sign}{$delay}[/color] секунди затримки використання зброї.
+
+rmc-attachable-examine-ranged-accuracy = [color={$colour}]{$sign}{$accuracy}[/color] множник точності.

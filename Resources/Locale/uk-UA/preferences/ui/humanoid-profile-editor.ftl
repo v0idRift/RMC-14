@@ -63,3 +63,9 @@ trait-category-speech = Вимова
 trait-category-quirks = Примхи
 
 humanoid-profile-editor-preferred-armor-label = Бажана броня:
+humanoid-profile-editor-enable-playtime-perks = Увімкніть ігрові бонуси:
+humanoid-profile-editor-xeno-prefix = Приставка "ксено":
+humanoid-profile-editor-xeno-prefix-tooltip = 2 літери або 3, якщо у вас 124 години в ксеноролях. Ви не можете мати постфікс з префіксом з 3 літер.
+humanoid-profile-editor-xeno-postfix = Постфікс Ксено:
+humanoid-profile-editor-xeno-postfix-tooltip = 1 літера, якщо ви провели в ксеноролях 24 години. 2 літери або 1 літера і 1 цифра, якщо у вас є 300 годин в ксеноролях. Ви не можете мати постфікс з префіксом з 3 букв.
+humanoid-profile-editor-enable = Увімкнути
