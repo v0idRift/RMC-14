@@ -87,7 +87,7 @@
 - type: entity
   parent: BaseCartridgeRifle
   id: RMCBaseCartridgeLMG
-  name: cartridge
+  name: "картридж"
   abstract: true
   components:
   - type: CartridgeAmmo

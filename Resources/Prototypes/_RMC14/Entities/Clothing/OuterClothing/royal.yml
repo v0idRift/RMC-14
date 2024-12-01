@@ -3,8 +3,8 @@
 - type: entity
   parent: [RMCArmorM4PMC, RMCAllowSuitStorageClothingArmorRoyal]
   id: RMCArmorRoyal
-  name: kestrel armoured vest
-  description: A customizable personal armor system used by the Royal Marines Commandos. # TODO: write new, legally distinct description
+  name: "бронежилет \"пустельга"
+  description: "Індивідуальна бронесистема, що використовується командос Королівської морської піхоти." # TODO: write new, legally distinct description
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Royal/light.rsi
@@ -12,7 +12,7 @@
 - type: entity
   parent: RMCArmorRoyal
   id: RMCArmorRoyalLight
-  name: kestrel light armoured vest
+  name: "легкий бронежилет kestrel"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Royal/light.rsi
@@ -27,7 +27,7 @@
 - type: entity
   parent: RMCArmorRoyal
   id: RMCArmorRoyalPadded
-  name: kestrel armoured carry vest
+  name: "бронежилет kestrel"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Royal/padded.rsi
@@ -38,7 +38,7 @@
 - type: entity
   parent: RMCArmorRoyal
   id: RMCArmorRoyalHarness
-  name: kestrel armoured smart gun harness
+  name: "броньований розумний збройовий ремінь kestrel"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Royal/padded.rsi
@@ -47,7 +47,7 @@
 - type: entity
   parent: RMCArmorRoyalPadded
   id: RMCArmorRoyalPointman
-  name: kestrel pointman armour
+  name: "броня пустельги-стрільця"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Royal/pointman.rsi

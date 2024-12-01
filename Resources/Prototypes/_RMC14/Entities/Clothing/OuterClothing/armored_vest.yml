@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: RMCBaseArmor
   id: RMCArmorVest
-  name: armored vest
-  description: An armored vest that protects against some damage.
+  name: "бронежилет"
+  description: "Бронежилет, який захищає від деяких пошкоджень."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/armored_vest.rsi

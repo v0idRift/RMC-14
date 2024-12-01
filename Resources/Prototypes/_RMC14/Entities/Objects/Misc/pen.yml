@@ -3,8 +3,8 @@
 - type: entity
   parent: Pen
   id: CMPen
-  name: pen
-  description: It's a normal black ink pen.
+  name: "ручка"
+  description: "Це звичайна ручка з чорним чорнилом."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/paper.rsi
@@ -23,14 +23,14 @@
 - type: entity
   parent: CMPen
   id: CMPenClicky # TODO RMC14 make it clicky
-  name: WEYA pen
-  description: It's a WEYA brand extra clicky black ink pen.
+  name: "Ручка WEYA"
+  description: "Це ручка з чорним чорнилом марки WEYA, що дуже швидко натискається."
 
 - type: entity
   parent: CMPen
   id: CMPenFountain
-  name: fountain pen
-  description: A lavish testament to the ingenuity of AEGIS' craftsmanship, this fountain pen is a paragon of design and functionality. Detailed with golden accents and intricate mechanics, the pen allows for a swift change between a myriad of ink colors with a simple twist. A product of precision engineering, each mechanism inside the pen is designed to provide a seamless, effortless transition from one color to the next, creating an instrument of luxurious versatility.
+  name: "авторучка"
+  description: "Ця авторучка - яскраве свідчення винахідливості майстрів AEGIS - є взірцем дизайну та функціональності. Деталізована золотистими акцентами та складною механікою, ручка дозволяє швидко змінювати безліч кольорів чорнила простим поворотом. Продукт точної інженерії, кожен механізм всередині ручки розроблений таким чином, щоб забезпечити плавний, легкий перехід від одного кольору до іншого, створюючи інструмент розкішної універсальності."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/paper.rsi

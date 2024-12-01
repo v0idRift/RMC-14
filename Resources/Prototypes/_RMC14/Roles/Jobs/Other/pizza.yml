@@ -1,7 +1,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerPizzaDeliveryBoy
-  name: pizza delivery boy spawner
+  name: "хлопчик-рознощик піци спавнер"
   suffix: Spawner
   components:
     - type: Sprite
@@ -15,7 +15,7 @@
 
 - type: entity
   id: RMCRandomHumanoidPizzaDeliveryBoy
-  name: pizza delivery boy ghost role
+  name: "роль примари рознощика піци"
   suffix: Role
   components:
     - type: Sprite

@@ -40,8 +40,8 @@
 - type: entity
   parent: RMCStockAttachmentBase
   id: RMCAttachmentM42A2WoodenStock
-  name: M42A2 wooden stock
-  description: A non-standard heavy wooden stock for the M42A2 Shotgun. More cumbersome than the standard issue stakeout, but reduces recoil and scatter. Allegedly makes a pretty good club in a fight too.
+  name: "Дерев'яна ложа M42A2"
+  description: "Нестандартна важка дерев'яна ложа для дробовика M42A2. Більш громіздка, ніж стандартна ложа, але зменшує віддачу та розсіювання. Як стверджується, також є непоганою дубинкою в бою."
   components:
   - type: Sprite
     state: d-stock
@@ -82,8 +82,8 @@
 - type: entity
   parent: RMCStockAttachmentBase
   id: RMCAttachmentMOU53Stock
-  name: MOU53 tactical stock
-  description: A metal stock fitted specifically for the MOU53 break action shotgun.
+  name: "Тактичний приклад MOU53"
+  description: "Металева ложа, спеціально розроблена для рушниці MOU53 з переломним механізмом."
   components:
   - type: Sprite
     state: ou_stock
@@ -123,8 +123,8 @@
 - type: entity
   parent: RMCStockAttachmentBase
   id: RMCAttachmentXM51Stock # TODO RMC14 burst
-  name: XM51 stock
-  description: A specialized stock designed for XM51 breaching shotguns. Helps the user absorb the recoil of the weapon while also reducing scatter. Integrated mechanisms inside the stock allow use of a devastating two-shot burst. This comes at a cost of the gun becoming too unwieldy to holster, worse handling and mobility.
+  name: "Запас XM51"
+  description: "Спеціалізована ложа, розроблена для пробивних рушниць XM51. Допомагає користувачеві поглинати віддачу зброї, а також зменшує розсіювання. Інтегровані механізми всередині ложі дозволяють використовувати руйнівну серію з двох пострілів. За це доводиться платити тим, що пістолет стає занадто громіздким для кобури, гіршою керованістю та мобільністю."
   components:
   - type: Sprite
     state: xm51_stock
@@ -164,8 +164,8 @@
 - type: entity
   parent: RMCStockAttachmentBase
   id: RMCAttachmentDoubleBarrelShotgunStock
-  name: double barrel shotgun stock
-  description: A chunky piece of wood coated in varnish and age.
+  name: "ложа двоствольної рушниці"
+  description: "Грубезний шматок дерева, покритий лаком і зістарений."
   components:
   - type: Sprite
     state: db-stock
@@ -181,8 +181,8 @@
 - type: entity
   parent: RMCStockAttachmentBase
   id: RMCAttachmentM890Stock
-  name: M890 Tactical Stock
-  description: Standard Stock for the M890 tactical shotgun.
+  name: "Тактичний приклад M890"
+  description: "Стандартна ложа для тактичної рушниці M890."
   components:
   - type: Sprite
     state: tactical_stock_221
@@ -219,8 +219,8 @@
 - type: entity
   parent: RMCStockAttachmentBase
   id: RMCAttachmentSlavicStock
-  name: double barrel shotgun stock
-  description: A chunky piece of wood coated in varnish and age.
+  name: "ложа двоствольної рушниці"
+  description: "Грубезний шматок дерева, покритий лаком і зістарений."
   components:
   - type: Sprite
     state: slavicstock
@@ -245,8 +245,8 @@
 - type: entity
   parent: RMCStockAttachmentBase
   id: RMCAttachmentM54CStockSolid
-  name: M54C solid stock
-  description: A rare stock distributed in small numbers to UNMC forces. Compatible with the M54C, this stock reduces recoil and scatter, but at a reduction to handling and agility. Also enhances the thwacking of things with the stock-end of the rifle.
+  name: "Основний запас M54C"
+  description: "Рідкісний приклад, який у невеликих кількостях надходив на озброєння підрозділів UNMC. Сумісна з M54C, ця ложа зменшує віддачу та розсіювання, але за рахунок погіршення керованості та маневреності. Також покращує удари прикладом по предметах."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_stock.rsi
@@ -286,8 +286,8 @@
 - type: entity
   parent: RMCAttachmentM54CStockSolid
   id: RMCAttachmentM54CStockSolidMarksman
-  name: M54C marksman stock
-  description: A rare stock distributed in small numbers to UNMC forces. Compatible with the M54C, this stock reduces recoil and scatter, but at a reduction to handling and agility. Also enhances the thwacking of things with the stock-end of the rifle.
+  name: "Снайперська ложа M54C"
+  description: "Рідкісний приклад, який у невеликих кількостях надходив на озброєння підрозділів UNMC. Сумісна з M54C, ця ложа зменшує віддачу та розсіювання, але за рахунок погіршення керованості та маневреності. Також покращує удари прикладом по предметах."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/stock.rsi
@@ -302,8 +302,8 @@
 - type: entity
   parent: RMCStockAttachmentCollapsibleBase
   id: RMCAttachmentM54CStockCollapsible
-  name: M54C folding stock
-  description: The standard back end of any gun starting with M54. Compatible with the M54C series, this stock reduces recoil and scatter, but at a reduction to handling and agility. Also enhances the thwacking of things with the stock-end of the rifle.
+  name: "Складаний приклад M54C"
+  description: "Стандартна задня частина будь-якого пістолета, починаючи з M54. Сумісна з серією M54C, ця ложа зменшує віддачу та розсіювання, але при цьому погіршує керованість та маневреність гвинтівки. Також покращує удари прикладом по предметах."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_stock.rsi
@@ -355,8 +355,8 @@
 - type: entity
   parent: RMCStockAttachmentBase
   id: RMCAttachmentM16Stock
-  name: M16 bump stock
-  description: Technically illegal in the state of California.
+  name: "Приклад M16"
+  description: "Технічно нелегальна в штаті Каліфорнія."
   components:
   - type: Sprite
     state: m16-stock
@@ -373,8 +373,8 @@
 - type: entity
   parent: RMCStockAttachmentBase
   id: RMCAttachmentM16StockCollapsible
-  name: collapsible M16 stock
-  description: Very illegal in the state of California.
+  name: "розбірний приклад M16"
+  description: "Дуже незаконно в штаті Каліфорнія."
   components:
   - type: Sprite
     state: m16-folding
@@ -417,8 +417,8 @@
 - type: entity
   parent: RMCStockAttachmentBase
   id: RMCAttachmentM79Stock
-  name: M79 hardened polykevlon stock
-  description: Helps to mitigate the recoil of launching a 40mm grenade. Fits only to the M79.
+  name: "Приклад із загартованого полікевлону M79"
+  description: "Допомагає пом'якшити віддачу при пострілі 40-мм гранати. Підходить лише для M79."
   components:
   - type: Sprite
     state: m79-stock
@@ -434,8 +434,8 @@
 - type: entity
   parent: RMCStockAttachmentBase
   id: RMCAttachmentM63Stock
-  name: submachinegun stock
-  description: A rare AEGIS stock distributed in small numbers to UNMC forces. Compatible with the M63, this stock reduces recoil and scatter, but at a reduction to handling and agility. Seemingly a bit more effective in a brawl.
+  name: "запас пістолетів-кулеметів"
+  description: "Рідкісний приклад системи AEGIS, який у невеликій кількості надходив у війська UNMC. Сумісний з M63, цей приклад зменшує віддачу та розсіювання, але за рахунок погіршення керованості та маневреності. Здається, що він трохи ефективніший у сутичці."
   components:
   - type: Sprite
     state: smgstock
@@ -472,8 +472,8 @@
 - type: entity
   parent: RMCStockAttachmentCollapsibleBase
   id: RMCAttachmentM63StockCollapsible
-  name: submachinegun folding stock
-  description: A Kirchner brand K2 M63 folding stock, standard issue in the UNMC. The stock, when extended, reduces recoil and scatter, but at a reduction to handling and agility. Seemingly a bit more effective in a brawl. This stock can collapse in, removing all positive and negative effects.
+  name: "складний приклад для пістолета-кулемета"
+  description: "Складаний приклад K2 M63 марки Kirchner, що входить до стандартної комплектації УНСО. Висунута ложа зменшує віддачу та розкид, але при цьому погіршує керованість та маневреність. Здається, що це трохи ефективніше в сутичці. Цей приклад можна скласти, прибравши всі позитивні та негативні ефекти."
   components:
   - type: Sprite
     state: smgstockcol
@@ -524,8 +524,8 @@
 - type: entity
   parent: RMCStockAttachmentCollapsibleBase
   id: RMCAttachmentM63ArmBrace
-  name: submachinegun arm brace
-  description: A specialized stock for use on an M63 submachine gun. It makes one handing more accurate at the expense of burst amount. Wielding the weapon with this stock attached confers a major inaccuracy and recoil debuff.
+  name: "кріплення для пістолета-кулемета"
+  description: "Спеціалізована ложа для використання на пістолеті-кулеметі M63. Підвищує точність стрільби з однієї руки за рахунок збільшення потужності пострілу. Стрільба зі зброєю з таким прикладом призводить до значної неточності та дебафів від віддачі."
   components:
   - type: Sprite
     state: smg-brace
@@ -571,8 +571,8 @@
 - type: entity
   parent: RMCStockAttachmentCollapsibleBase
   id: RMCAttachmentM44MagnumSharpshooterStock
-  name: M44 magnum sharpshooter stock
-  description: A wooden stock modified for use on a 44-magnum. Increases accuracy and reduces recoil at the expense of handling and agility. Less effective in melee as well.
+  name: "Приклад для снайперської гвинтівки M44 Magnum"
+  description: "Дерев'яна ложа, модифікована для використання з набоєм 44-го калібру. Підвищує точність і зменшує віддачу за рахунок керованості та маневреності. Менш ефективний у ближньому бою."
   components:
   - type: Sprite
     state: 44stock
@@ -626,8 +626,8 @@
 - type: entity
   parent: RMCStockAttachmentBase
   id: RMCAttachmentXM88Stock
-  name: XM88 padded stock
-  description: A specially made compound polymer stock reinforced with aluminum rods and thick rubber padding to shield the user from recoil. Fitted specifically for the XM88 Heavy Rifle.
+  name: "М'яка підкладка XM88"
+  description: "Спеціально виготовлена ложа з комбінованого полімеру, армована алюмінієвими стрижнями та товстою гумовою прокладкою, що захищає користувача від віддачі. Розроблено спеціально для важкої гвинтівки XM88."
   components:
   - type: Sprite
     state: d_boomslang-stock

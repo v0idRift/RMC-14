@@ -19,8 +19,8 @@
 - type: entity
   parent: CMBaseWindow
   id: RMCWindowStrata
-  name: window
-  description: A glass window inside a wall frame.
+  name: "вікно"
+  description: "Скляне вікно всередині стінної рами."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/strata_window.rsi

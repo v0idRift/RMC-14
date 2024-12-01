@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [ RMCBaseBreechloader, RMCBaseAttachableHolder ]
-  name: M357 Rival
+  name: "M357 Rival"
   id: WeaponShotgunM357
-  description: A double barrel shotgun produced by Aegis. Archaic, sturdy, affordable. Only holds two 12g shells at a time.
+  description: "Двоствольна рушниця виробництва Aegis. Архаїчна, міцна, доступна за ціною. Вміщує лише два 12-грамові набої за раз."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Shotguns/doublebarrel.rsi

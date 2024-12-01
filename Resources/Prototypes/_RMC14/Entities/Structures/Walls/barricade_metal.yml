@@ -66,7 +66,7 @@
 - type: entity
   parent: RMCBarricadeUpgradeBase
   id: RMCExplosiveUpgrade
-  name: composite upgrade (++Explosive, ++Projectile, ++Fire)
+  name: "комбінований апгрейд (++Вибуховий, ++Спеціальний, ++Вогонь)"
   components:
   - type: RMCConstructionUpgrade
     upgradedPopup: rmc-construction-upgrade-explosive
@@ -77,7 +77,7 @@
 - type: entity
   parent: RMCBarricadeUpgradeBase
   id: RMCBiohazardUpgrade
-  name: biohazard upgrade (+Burn)
+  name: "підвищення рівня біологічної небезпеки (+Burn)"
   components:
   - type: RMCConstructionUpgrade
     upgradedPopup: rmc-construction-upgrade-burn
@@ -88,7 +88,7 @@
 - type: entity
   parent: RMCBarricadeUpgradeBase
   id: RMCBruteUpgrade
-  name: reinforced upgrade (+Brute)
+  name: "посилений апгрейд (+Brute)"
   components:
   - type: RMCConstructionUpgrade
     upgradedPopup: rmc-construction-upgrade-brute
@@ -103,8 +103,8 @@
 - type: entity
   parent: CMBarricadeBase
   id: CMBarricadeMetal
-  name: metal barricade
-  description: A sturdy and easily assembled barricade made of metal plates, often used for quick fortifications. Use a blowtorch to repair.
+  name: "металева барикада"
+  description: "Міцна і легко монтується барикада з металевих пластин, часто використовується для швидкого укріплення. Для ремонту використовуйте паяльну лампу."
   components:
   - type: Climbable
   - type: Anchorable
@@ -241,8 +241,8 @@
 - type: entity
   parent: CMBarricadeBase
   id: CMBarricadeTurnstile
-  name: turnstile
-  description: A railing to prevent marines from stepping out of line.
+  name: "турнікет"
+  description: "Перила, щоб морпіхи не виходили за лінію."
   components:
     - type: Anchorable
     - type: Sprite
@@ -270,8 +270,8 @@
 - type: entity
   parent: CMBarricadeTurnstile
   id: CMBarricadeTurnstileMed
-  name: turnstile
-  description: A railing to prevent marines from stepping out of line. This one is designed specifically for medical.
+  name: "турнікет"
+  description: "Перила, щоб морпіхи не виходили за лінію. Ця розроблена спеціально для медиків."
   components:
     - type: Sprite
       sprite: _RMC14/Structures/Walls/Barricades/barricade.rsi
@@ -286,8 +286,8 @@
 - type: entity
   parent: CMBarricadeBase
   id: RMCBarricadeHandrail
-  name: handrail
-  description: A railing, for your hands. Woooow.
+  name: "поручень"
+  description: "Перила, для рук. Ого."
   components:
     - type: Anchorable
     - type: Sprite
@@ -384,8 +384,8 @@
 - type: entity
   parent: CMBarricadeBase
   id: CMBarricadeMetalDoor
-  name: folding metal barricade
-  description: A folding metal barricade weaker than the non-folding counterpart. Able to be opened and closed at a moment's notice. Repair with a welder.
+  name: "складна металева барикада"
+  description: "Складана металева барикада слабша за нерозкладний аналог. Може бути відкрита і закрита в будь-який момент. Ремонт за допомогою зварювального апарату."
   components:
   - type: Anchorable
   - type: MeleeSound
