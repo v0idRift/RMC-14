@@ -106,7 +106,7 @@ marking-VulpTailAlt = Vulpkanin (alt, без виляння)
 
 marking-VulpTailAltTip-vulp_alt = Вулканічний хвіст (основа)
 marking-VulpTailAltTip-vulp_alt-tip = Вулканічний хвіст (кінчик)
-marking-VulpTailAltTip = 
+marking-VulpTailAltTip = Vulpkanin (alt, tip, no wag)
 
 marking-VulpTailFox-fox = Лисячий хвіст (основа)
 marking-VulpTailFox-fox-fade = Лисячий хвіст (вицвітання)

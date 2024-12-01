@@ -29,7 +29,7 @@ rmc-breech-loaded-closed-extract-attempt = Вам потрібно спочат�
 
 rmc-examine-text-weapon-accuracy = Поточний множник точності [color={$colour}]{TOSTRING($accuracy, "F2")}[/color].
 rmc-assisted-reload-fail-angle = Ви повинні стояти за {$target}, щоб перезарядити зброю {POSS-ADJ($target)}!
-rmc-assisted-reload-fail-full = {CAPITALIZE(POSS-ADJ($target))} {$зброя} вже завантажена.
+rmc-assisted-reload-fail-full = {CAPITALIZE(POSS-ADJ($target))} {$weapon} вже завантажена.
 rmc-assisted-reload-fail-mismatch = {$ammo} не можна зарядити у {$weapon}!
 rmc-assisted-reload-start-user = Ви починаєте заряджати {$weapon} для {$target}! Не рухайтесь...
 rmc-assisted-reload-start-target = {$reloader} починає заряджати ваш {$weapon} за допомогою {$ammo}! Не рухайтесь...
