@@ -6,8 +6,8 @@
   - CMXenoFlammable
   - RMCXenoSpeechSounds
   id: CMXenoRunnerBase
-  name: "Бігун"
-  description: "Маленький червоний прибулець, який виглядає так, ніби може досить швидко бігати..."
+  name: Runner
+  description: A small red alien that looks like it could run fairly quickly...
   components:
   - type: GhostRole
     name: cm-job-name-xeno-runner

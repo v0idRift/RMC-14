@@ -2,7 +2,7 @@
   abstract: true
   parent: [ BaseStructureDynamic, BaseBagOpenClose ]
   id: CMFilingCabinetBase
-  description: "Велика шафа з висувними ящиками."
+  description: A large cabinet with drawers.
   suffix: Empty
   components:
   - type: Storage
@@ -60,7 +60,7 @@
 - type: entity
   parent: CMFilingCabinetBase
   id: CMFilingCabinet
-  name: "шафа для документів"
+  name: filing cabinet
   components:
   - type: Sprite
     state: filingcabinet
@@ -72,7 +72,7 @@
 - type: entity
   parent: CMFilingCabinetBase
   id: CMFilingCabinetTall
-  name: "висока шафа для документів"
+  name: tall filing cabinet
   components:
   - type: Sprite
     state: tallcabinet
@@ -84,7 +84,7 @@
 - type: entity
   parent: CMFilingCabinetTall
   id: CMFilingCabinetTallWood
-  name: "висока дерев'яна шафа для документів"
+  name: tall wooden filing cabinet
   components:
   - type: Sprite
     state: tallcabinet
@@ -96,7 +96,7 @@
 - type: entity
   parent: CMFilingCabinetBase
   id: CMFilingCabinetChest
-  name: "шухляда комода"
+  name: chest drawer
   components:
   - type: Storage
     grid:
@@ -129,7 +129,7 @@
 - type: entity
   parent: CMFilingCabinetChest
   id: CMFilingCabinetChestWood
-  name: "дерев'яна шухляда комода"
+  name: wooden chest drawer
   components:
   - type: Sprite
     state: chestdrawer

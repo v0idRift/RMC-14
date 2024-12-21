@@ -1,9 +1,9 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodBioGeneral
-  name: "біо-витяжка"
+  name: bio hood
   suffix: Generic
-  description: "Капюшон, який захищає голову та обличчя від біологічних забруднень."
+  description: A hood that protects the head and face from biological contaminants.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Bio/general.rsi
@@ -24,9 +24,9 @@
 - type: entity
   parent: ClothingHeadHatHoodBioGeneral
   id: ClothingHeadHatHoodBioCmo
-  name: "біо-витяжка"
+  name: bio hood
   suffix: CMO
-  description: "Удосконалений капюшон для головних лікарів, який захищає голову та обличчя від біологічних забруднень."
+  description: An advanced hood for chief medical officers that protects the head and face from biological contaminants.
   components:
   - type: IdentityBlocker
   - type: Sprite
@@ -37,9 +37,9 @@
 - type: entity
   parent: ClothingHeadHatHoodBioGeneral
   id: ClothingHeadHatHoodBioJanitor
-  name: "біо-витяжка"
+  name: bio hood
   suffix: Janitor
-  description: "Капюшон, який захищає голову та обличчя від біологічних забруднень."
+  description: A hood that protects the head and face from biological contaminants.
   components:
   - type: IdentityBlocker
   - type: Sprite
@@ -50,9 +50,9 @@
 - type: entity
   parent: ClothingHeadHatHoodBioGeneral
   id: ClothingHeadHatHoodBioScientist
-  name: "біо-витяжка"
+  name: bio hood
   suffix: Science
-  description: "Капюшон, який захищає голову та обличчя від біологічних забруднень."
+  description: A hood that protects the head and face from biological contaminants.
   components:
   - type: IdentityBlocker
   - type: Sprite
@@ -63,9 +63,9 @@
 - type: entity
   parent: ClothingHeadHatHoodBioGeneral
   id: ClothingHeadHatHoodBioSecurity
-  name: "біо-витяжка"
+  name: bio hood
   suffix: Security
-  description: "Капюшон, який захищає голову та обличчя від біологічних забруднень."
+  description: A hood that protects the head and face from biological contaminants.
   components:
   - type: IdentityBlocker
   - type: Sprite
@@ -76,9 +76,9 @@
 - type: entity
   parent: ClothingHeadHatHoodBioGeneral
   id: ClothingHeadHatHoodBioVirology
-  name: "біо-витяжка"
+  name: bio hood
   suffix: Virology
-  description: "Капюшон, який захищає голову та обличчя від біологічних забруднень."
+  description: A hood that protects the head and face from biological contaminants.
   components:
   - type: IdentityBlocker
   - type: Sprite
@@ -90,8 +90,8 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodChaplainHood
   categories: [ HideSpawnMenu ]
-  name: "капелюх капелана"
-  description: "Максимальна побожність у цій зоряній системі."
+  name: chaplain's hood
+  description: Maximum piety in this star system.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/chaplain.rsi
@@ -108,8 +108,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodCulthood
-  name: "культовий капюшон"
-  description: "Не буває культу без культових капюшонів."
+  name: cult hood
+  description: There's no cult without cult hoods.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/cult.rsi
@@ -125,8 +125,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodNunHood
-  name: "монастирський капюшон"
-  description: "Максимальна побожність у цій зоряній системі."
+  name: nun hood
+  description: Maximum piety in this star system.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/nun.rsi
@@ -143,8 +143,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodRad
-  name: "радіаційна витяжка"
-  description: "Капюшон захисного костюма, призначений для захисту від високої радіоактивності."
+  name: radiation hood
+  description: A hood of the hazmat suit, designed for protection from high radioactivity.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/rad.rsi
@@ -167,8 +167,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodGoliathCloak
-  name: "капюшон плаща голіафа"
-  description: "Капюшон плаща Голіафа, виготовлений зі шкури витривалої фауни з далекої планети."
+  name: goliath cloak hood
+  description: A hood of a goliath cloak, it is made from the hide of resilient fauna from a distant planet.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/goliathcloak.rsi
@@ -185,8 +185,8 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodIan
   categories: [ HideSpawnMenu ]
-  name: "ян гуд"
-  description: "Капюшон для завершення образу \"хорошого хлопчика\"."
+  name: ian hood
+  description: A hood to complete the 'Good boy' look.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/iansuit.rsi
@@ -200,8 +200,8 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodCarp
   categories: [ HideSpawnMenu ]
-  name: "короповий капюшон"
-  description: "Кострубатий капюшон, прикрашений пластиковими зубами космічного коропа."
+  name: carp hood
+  description: A gnarly hood adorned with plastic space carp teeth.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/carpsuit.rsi
@@ -231,8 +231,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodMoth
-  name: "маска від молі"
-  description: "Маска у вигляді голови метелика зазвичай виготовляється з легких матеріалів. Вона імітує форму голови метелика з великими очима і довгими вусиками. Такі маски часто використовують у косплеї, або під час зйомок фільмів та відео."
+  name: moth mask
+  description: A mask in the form of a moths head is usually made of lightweight materials. It mimics the shape of a moths head with large eyes and long antennae. Such masks are often used in cosplay, or when shooting movies and videos.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/moth.rsi
@@ -254,7 +254,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterDefault
   categories: [ HideSpawnMenu ]
-  name: "капюшон зимового пальто за замовчуванням"
+  name: default winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -265,7 +265,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterBartender
   categories: [ HideSpawnMenu ]
-  name: "капюшон зимового пальто бармена"
+  name: bartender winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodbartender.rsi
@@ -276,8 +276,8 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterCaptain
   categories: [ HideSpawnMenu ]
-  name: "капюшон зимового пальто капітана"
-  description: "Дорогий капюшон, щоб голова капітана була в теплі."
+  name: captain's winter coat hood
+  description: An expensive hood, to keep the captain's head warm.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodcaptain.rsi
@@ -288,7 +288,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterCargo
   categories: [ HideSpawnMenu ]
-  name: "логістичне зимове пальто з капюшоном"
+  name: cargo winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodcargo.rsi
@@ -299,7 +299,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterCE
   categories: [ HideSpawnMenu ]
-  name: "капюшон зимового пальто головного інженера"
+  name: chief engineer's winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodce.rsi
@@ -310,8 +310,8 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterCentcom
   categories: [ HideSpawnMenu ]
-  name: "Капюшон для зимового пальто Centcom"
-  description: "Капюшон для збереження голови центрального командира в теплі."
+  name: CentComm winter coat hood
+  description: A hood for keeping the central comander's head warm.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodcentcom.rsi
@@ -322,7 +322,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterChem
   categories: [ HideSpawnMenu ]
-  name: "капюшон аптекарського зимового пальто"
+  name: chemist winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodchemist.rsi
@@ -333,7 +333,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterCMO
   categories: [ HideSpawnMenu ]
-  name: "капюшон зимового пальто головного лікаря"
+  name: chief medical officer's winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodcmo.rsi
@@ -344,7 +344,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterEngineer
   categories: [ HideSpawnMenu ]
-  name: "капюшон інженерного зимового пальто"
+  name: engineer winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodengi.rsi
@@ -355,7 +355,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterHOP
   categories: [ HideSpawnMenu ]
-  name: "капюшон зимового пальто керівника персоналу"
+  name: head of personnel's winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodhop.rsi
@@ -366,7 +366,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterHOS
   categories: [ HideSpawnMenu ]
-  name: "капюшон зимового пальто керівника служби безпеки"
+  name: head of security's winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodhos.rsi
@@ -377,7 +377,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterHydro
   categories: [ HideSpawnMenu ]
-  name: "гідропоніка капюшон пальто"
+  name: hydroponics coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodhydro.rsi
@@ -388,7 +388,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterJani
   categories: [ HideSpawnMenu ]
-  name: "капюшон куртки прибиральника"
+  name: janitor coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodjani.rsi
@@ -399,7 +399,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterMed
   categories: [ HideSpawnMenu ]
-  name: "капюшон медичного халата"
+  name: medic coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodmed.rsi
@@ -410,7 +410,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterMime
   categories: [ HideSpawnMenu ]
-  name: "капюшон мімічного пальто"
+  name: mime coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodmime.rsi
@@ -421,7 +421,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterMiner
   categories: [ HideSpawnMenu ]
-  name: "капюшон шахтарського пальто"
+  name: miner coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodminer.rsi
@@ -432,7 +432,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterPara
   categories: [ HideSpawnMenu ]
-  name: "капюшон парамедика"
+  name: paramedic coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodpara.rsi
@@ -443,7 +443,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterQM
   categories: [ HideSpawnMenu ]
-  name: "капюшон пальто офіцера логістики"
+  name: quartermaster's coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodqm.rsi
@@ -454,7 +454,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterRD
   categories: [ HideSpawnMenu ]
-  name: "капюшон пальто містифікатора"
+  name: research director's coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodrd.rsi
@@ -465,7 +465,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterRobo
   categories: [ HideSpawnMenu ]
-  name: "капюшон з робототехніки"
+  name: robotics coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodrobo.rsi
@@ -476,7 +476,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterSci
   categories: [ HideSpawnMenu ]
-  name: "капюшон наукового пальто"
+  name: scientist coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodsci.rsi
@@ -487,7 +487,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterSec
   categories: [ HideSpawnMenu ]
-  name: "капюшон захисного пальто"
+  name: security coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodsec.rsi
@@ -498,7 +498,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterSyndie
   categories: [ HideSpawnMenu ]
-  name: "синдикатський капюшон"
+  name: syndicate coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodsyndicate.rsi
@@ -509,7 +509,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterWarden
   categories: [ HideSpawnMenu ]
-  name: "капюшон пальто наглядача"
+  name: warden's coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodsec.rsi
@@ -520,7 +520,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterWeb
   categories: [ HideSpawnMenu ]
-  name: "капюшон з павутини"
+  name: web coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodweb.rsi
@@ -531,7 +531,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterColorBlack
   categories: [ HideSpawnMenu ]
-  name: "капюшон чорного зимового пальто"
+  name: black winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -551,7 +551,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterColorPurple
   categories: [ HideSpawnMenu ]
-  name: "фіолетовий капюшон зимового пальто"
+  name: purple winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -571,7 +571,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterColorRed
   categories: [ HideSpawnMenu ]
-  name: "червоний капюшон зимового пальто"
+  name: red winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -591,7 +591,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterColorBlue
   categories: [ HideSpawnMenu ]
-  name: "синій капюшон зимового пальто"
+  name: blue winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -611,7 +611,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterColorBrown
   categories: [ HideSpawnMenu ]
-  name: "коричневий капюшон зимового пальто"
+  name: brown winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -631,7 +631,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterColorGray
   categories: [ HideSpawnMenu ]
-  name: "капюшон сірого зимового пальто"
+  name: gray winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -651,7 +651,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterColorGreen
   categories: [ HideSpawnMenu ]
-  name: "зелений капюшон зимового пальто"
+  name: green winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -671,7 +671,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterColorLightBrown
   categories: [ HideSpawnMenu ]
-  name: "світло-коричневий капюшон зимового пальто"
+  name: light brown winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -691,7 +691,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterColorOrange
   categories: [ HideSpawnMenu ]
-  name: "помаранчевий капюшон зимового пальто"
+  name: orange winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -711,7 +711,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterColorWhite
   categories: [ HideSpawnMenu ]
-  name: "капюшон білого зимового пальто"
+  name: white winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -731,7 +731,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterColorYellow
   categories: [ HideSpawnMenu ]
-  name: "жовтий капюшон зимового пальто"
+  name: yellow winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -750,8 +750,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodVoidCloak
-  name: "порожній капюшон плаща"
-  description: "Капюшон плаща порожнечі. Для тих, хто перейшов на темний бік сили."
+  name: void cloak hood
+  description: The hood of a void cloak. For those who have gone to the dark side of the force.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/voidcloak.rsi

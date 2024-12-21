@@ -1,8 +1,8 @@
 - type: entity
   parent: FaxMachineBase
   id: CMFax
-  name: "факс"
-  description: "Найкращий і єдиний друг зв'язкового."
+  name: fax machine
+  description: Liaison's best and only friend.
   components:
   - type: ApcPowerReceiver
     needsPower: false # TODO RMC14
@@ -33,7 +33,7 @@
 - type: entity
   parent: CMFax
   id: CMFaxCMB
-  name: "факсимільний апарат бюро маршала колонії"
+  name: colony marshal bureau fax machine
   suffix: CMB
   components:
   - type: FaxMachine
@@ -43,7 +43,7 @@
 - type: entity
   parent: CMFax
   id: CMFaxWY
-  name: "ми-я факсимільний апарат"
+  name: we-ya fax machine
   suffix: WEYA
   components:
   - type: FaxMachine
@@ -53,7 +53,7 @@
 - type: entity
   parent: CMFax
   id: CMFaxHighCom
-  name: "морський факсимільний апарат вищого командування"
+  name: marine high command fax machine
   suffix: Marine HC
   components:
   - type: FaxMachine

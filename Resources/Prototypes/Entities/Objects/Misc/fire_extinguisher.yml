@@ -1,8 +1,8 @@
 - type: entity
-  name: "вогнегасник"
+  name: fire extinguisher
   parent: BaseItem
   id: FireExtinguisher
-  description: "Він гасить пожежі."
+  description: It extinguishes fires.
   components:
   - type: Sprite
     sprite: Objects/Misc/fire_extinguisher.rsi
@@ -76,7 +76,7 @@
       Steel: 100
 
 - type: entity
-  name: "вогнегасник спрей"
+  name: extinguisher spray
   id: ExtinguisherSpray
   parent: Vapor
   categories: [ HideSpawnMenu ]
@@ -94,10 +94,10 @@
     animationState: extinguish
 
 - type: entity
-  name: "кишеньковий вогнегасник"
+  name: pocket fire extinguisher
   parent: FireExtinguisher
   id: FireExtinguisherMini
-  description: "Легка і компактна модель вогнегасника зі скловолокна. Вміщує менше води, ніж його старший брат."
+  description: A light and compact fibreglass-framed model fire extinguisher. It holds less water than its bigger brother.
   components:
   - type: Sprite
     sprite: Objects/Misc/fire_extinguisher_mini.rsi

@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMBaseWeaponRifle
-  name: "Штурмова гвинтівка M54C MK2"
+  name: M54C assault rifle MK2
   id: WeaponRifleM54C
-  description: "Стандартна гвинтівка морської піхоти. Зазвичай носиться більшістю військовослужбовців. Використовує безоболонкові набої 10х24 мм."
+  description: The standard issue rifle of the Marines. Commonly carried by most combat personnel. Uses 10x24mm caseless ammunition.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m54c.rsi
@@ -98,7 +98,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: CMMagazineRifleM54C
-  name: "Магазин M54C (10x24мм)"
+  name: "M54C magazine (10x24mm)"
   components:
   - type: Tag
     tags:
@@ -123,7 +123,7 @@
 - type: entity
   parent: CMMagazineRifleM54C
   id: CMMagazineRifleM54CAP
-  name: "Магазин M54C AP (10x24мм)"
+  name: "M54C AP magazine (10x24mm)"
   suffix: AP
   components:
   - type: Tag
@@ -148,7 +148,7 @@
 - type: entity
   parent: CMMagazineRifleM54C
   id: CMMagazineRifleM54CExt
-  name: "Подовжений магазин M54C (10x24мм)"
+  name: "M54C extended magazine (10x24mm)"
   components:
   - type: Tag
     tags:
@@ -177,8 +177,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: CMCartridgeRifle10x24mm
-  name: "патрон (10x24мм)"
-  description: "Патрони калібру 10х24 мм. Підходить для магазинів калібру 10х24 мм."
+  name: cartridge (10x24mm)
+  description: A 10x24mm cartridge. Fits in 10x24mm magazines.
   components:
   - type: Tag
     tags:
@@ -190,8 +190,8 @@
 - type: entity
   parent: CMCartridgeRifle10x24mm
   id: CMCartridgeRifle10x24mmAP
-  name: "Патрони AP (10x24 мм)"
-  description: "Бронебійний патрон 10х24 мм. Підходить для магазинів 10х24 мм від ПТР."
+  name: AP cartridge (10x24mm)
+  description: An armor piercing 10x24mm cartridge. Fits in 10x24mm AP magazines.
   components:
   - type: Tag
     tags:

@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: CMBaseDoor
   id: CMAlamoDoor
-  name: "люк для екіпажу alamo"
+  name: alamo crew hatch
   placement:
     mode: SnapgridCenter
   components:
@@ -52,7 +52,7 @@
 - type: entity
   parent: CMBaseDoor
   id: CMAlamoCockpit
-  name: "кабіна пілота"
+  name: cockpit
   suffix: Alamo
   components:
   - type: Sprite

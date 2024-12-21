@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: HiveCoreXeno
-  name: "серцевина вулика" # TODO RMC14 allow other structures to be built
-  description: "Гігантський пульсуючий курган маси. Він виглядає дуже живим."
+  name: hive core # TODO RMC14 allow other structures to be built
+  description: A giant pulsating mound of mass. It looks very much alive.
   components: # TODO RMC14 block ob
   - type: Transform
     anchored: true
@@ -60,8 +60,8 @@
 
 - type: entity
   id: HiveCoreXenoConstructionNode
-  name: "серцевина вулика"
-  description: "Дивна грудочка, що звивається. Схоже на маркер для чогось."
+  name: hive core
+  description: A strange wriggling lump. Looks like a marker for something.
   suffix: Construction
   components:
   - type: Transform

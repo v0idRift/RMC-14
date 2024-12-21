@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: MarkerBase
   id: RMCSpawnerCorporateExecutiveSupervisor
-  name: "корпоративний виконавчий супервайзер spawner"
+  name: corporate executive supervisor spawner
   suffix: Spawner
   components:
   - type: Sprite
@@ -15,7 +15,7 @@
 
 - type: entity
   id: RMCRandomHumanoidCorporateExecutiveSupervisor
-  name: "роль примари корпоративного виконавчого керівника"
+  name: corporate executive supervisor ghost role
   suffix: Role
   components:
   - type: Sprite

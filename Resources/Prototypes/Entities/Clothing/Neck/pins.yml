@@ -2,8 +2,8 @@
   parent: ClothingNeckBase
   id: ClothingNeckPinBase
   abstract: true
-  name: "шпилька"
-  description: "бути нічим, не чинити злочинів"
+  name: pin
+  description: Be nothing do crime.
   components:
   - type: Item
     size: Tiny
@@ -15,8 +15,8 @@
 - type: entity
   parent: ClothingNeckPinBase
   id: ClothingNeckLGBTPin
-  name: "ЛГБТ-значок"
-  description: "бути геєм, скоювати злочини"
+  name: LGBT pin
+  description: Be gay do crime.
   components:
   - type: Sprite
     state: lgbt
@@ -26,8 +26,8 @@
 - type: entity
   parent: ClothingNeckPinBase
   id: ClothingNeckAromanticPin
-  name: "ароматична шпилька"
-  description: "бути аро чинити злочин"
+  name: aromantic pin
+  description: Be aro do crime.
   components:
   - type: Sprite
     state: aro
@@ -37,8 +37,8 @@
 - type: entity
   parent: ClothingNeckPinBase
   id: ClothingNeckAsexualPin
-  name: "асексуальна шпилька"
-  description: "бути асом чинити злочини"
+  name: asexual pin
+  description: Be ace do crime.
   components:
   - type: Sprite
     state: asex
@@ -48,8 +48,8 @@
 - type: entity
   parent: ClothingNeckPinBase
   id: ClothingNeckBisexualPin
-  name: "бісексуальна шпилька"
-  description: "бути бісексуалом чинити злочин"
+  name: bisexual pin
+  description: Be bi do crime.
   components:
   - type: Sprite
     state: bi
@@ -59,8 +59,8 @@
 - type: entity
   parent: ClothingNeckPinBase
   id: ClothingNeckGayPin
-  name: "гей-значок"
-  description: "Бути геєм - скоювати злочини."
+  name: gay pin
+  description: Be gay~ do crime.
   components:
   - type: Sprite
     state: gay
@@ -70,8 +70,8 @@
 - type: entity
   parent: ClothingNeckPinBase
   id: ClothingNeckIntersexPin
-  name: "інтерсекс-шпилька"
-  description: "бути інтерсексуалом, скоювати злочини"
+  name: intersex pin
+  description: Be intersex do crime.
   components:
   - type: Sprite
     state: inter
@@ -81,8 +81,8 @@
 - type: entity
   parent: ClothingNeckPinBase
   id: ClothingNeckLesbianPin
-  name: "лесбійський значок"
-  description: "бути лесбійкою чинити злочини"
+  name: lesbian pin
+  description: Be lesbian do crime.
   components:
   - type: Sprite
     state: les
@@ -92,7 +92,7 @@
 - type: entity
   parent: ClothingNeckPinBase
   id: ClothingNeckNonBinaryPin
-  name: "небінарний вивід"
+  name: non-binary pin
   description: "01100010 01100101 00100000 01100101 01101110 01100010 01111001 00100000 01100100 01101111 00100000 01100011 01110010 01101001 01101101 01100101"
   components:
   - type: Sprite
@@ -103,8 +103,8 @@
 - type: entity
   parent: ClothingNeckPinBase
   id: ClothingNeckPansexualPin
-  name: "пансексуальний значок"
-  description: "бути паном чинити злочин"
+  name: pansexual pin
+  description: Be pan do crime.
   components:
   - type: Sprite
     state: pan
@@ -114,8 +114,8 @@
 - type: entity
   parent: ClothingNeckPinBase
   id: ClothingNeckTransPin
-  name: "трансгендерний значок"
-  description: "бути трансом чинити злочин"
+  name: transgender pin
+  description: Be trans do crime.
   components:
   - type: Sprite
     state: trans
@@ -125,8 +125,8 @@
 - type: entity
   parent: ClothingNeckPinBase
   id: ClothingNeckAutismPin
-  name: "значок аутизму"
-  description: "будь аутистом чини злочин"
+  name: autism pin
+  description: Be autism do crime.
   components:
   - type: Sprite
     state: autism
@@ -136,8 +136,8 @@
 - type: entity
   parent: ClothingNeckPinBase
   id: ClothingNeckGoldAutismPin
-  name: "золотий значок аутизму"
-  description: "будь аутистом чини військовий злочин"
+  name: golden autism pin
+  description: Be autism do warcrime.
   components:
   - type: Sprite
     state: goldautism

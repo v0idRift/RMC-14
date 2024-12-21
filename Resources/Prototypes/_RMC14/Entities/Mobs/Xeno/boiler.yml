@@ -5,8 +5,8 @@
   - CMXenoFlammable
   - RMCXenoSpeechSounds
   id: CMXenoBoiler
-  name: "Котел"
-  description: "Величезний, гротескний ксенонід, вкритий сяючим, сочащимся кислотним слизом."
+  name: Boiler
+  description: A huge, grotesque xenonid covered in glowing, oozing acid slime.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-boiler

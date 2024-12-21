@@ -2,8 +2,8 @@
 - type: entity
   parent: ClosetBase
   id: CMClosetBase
-  name: "шафа"
-  description: "Це базова одиниця зберігання."
+  name: closet
+  description: It's a basic storage unit.
   components:
   - type: Transform
     anchored: true
@@ -36,8 +36,8 @@
 - type: entity
   parent: CMClosetBase
   id: RMCCabinetBase
-  name: "шафа"
-  description: "Старе завжди буде в моді."
+  name: cabinet
+  description: Old will forever be in fashion.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/cabinet.rsi
@@ -50,8 +50,8 @@
 - type: entity
   parent: CMClosetBase
   id: RMCClosetBlack
-  name: "офіційний гардероб"
-  description: "Це приміщення для зберігання офіційного одягу."
+  name: formal closet
+  description: It's a storage unit for formal clothing.
   components:
   - type: Sprite
     sprite: _RMC14\Structures\Storage\Closets\black.rsi
@@ -59,8 +59,8 @@
 - type: entity
   parent: CMClosetBase
   id: RMCClosetBlue
-  name: "юридична шафа"
-  description: "Це сховище для зберігання одягу та предметів, необхідних для роботи в суді."
+  name: legal closet
+  description: It's a storage unit for courtroom apparel and items.
   components:
   - type: Sprite
     sprite: _RMC14\Structures\Storage\Closets\blue.rsi
@@ -68,8 +68,8 @@
 - type: entity
   parent: CMClosetBase
   id: RMCClosetPurple
-  name: "шафа для зберігання цінностей"
-  description: "Це приміщення для зберігання одягу та інвентарю двірників."
+  name: custodial closet
+  description: It's a storage unit for janitorial clothes and gear.
   components:
   - type: Sprite
     sprite: _RMC14\Structures\Storage\Closets\purple.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: CMClosetBase
   id: CMClosetEmergency
-  name: "аварійна шафа"
-  description: "Це приміщення для зберігання аварійних респіраторів та кисневих балонів."
+  name: emergency closet
+  description: It's a storage unit for emergency breathmasks and o2 tanks.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Closets/emergency.rsi
@@ -87,8 +87,8 @@
 - type: entity
   parent: CMClosetBase
   id: CMClosetFire
-  name: "протипожежна шафа"
-  description: "Це склад для зберігання протипожежного приладдя."
+  name: fire-safety closet
+  description: It's a storage unit for fire-fighting supplies.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Closets/firecloset.rsi
@@ -96,8 +96,8 @@
 - type: entity
   parent: CMClosetBase
   id: CMClosetTool
-  name: "шафа для інструментів"
-  description: "Це місце для зберігання інструментів."
+  name: tool closet
+  description: It's a storage unit for tools.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Closets/toolcloset.rsi
@@ -105,8 +105,8 @@
 - type: entity
   parent: CMClosetBase
   id: CMClosetRadiation
-  name: "шафа для протирадіаційних костюмів"
-  description: "Це склад для зберігання протирадіаційних костюмів."
+  name: radiation suit closet
+  description: It's a storage unit for rad-protective suits.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Closets/radsuit.rsi
@@ -114,8 +114,8 @@
 - type: entity
   parent: CMClosetBase
   id: CMClosetBomb
-  name: "Шафа для знешкодження вибухонебезпечних предметів"
-  description: "Це склад для зберігання вибухозахисних костюмів."
+  name: EOD closet
+  description: It's a storage unit for explosion-protective suits.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Closets/bombsuit.rsi
@@ -124,8 +124,8 @@
 - type: entity
   parent: CMClosetBase
   id: CMClosetBio
-  name: "шафа для костюмів біологічного захисту 3-го рівня"
-  description: "Це сховище для зберігання спорядження 3-го рівня біологічної небезпеки."
+  name: level-3 biohazard suit closet
+  description: It's a storage unit for level-3 biohazard gear.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Closets/bio.rsi
@@ -166,8 +166,8 @@
 - type: entity
   parent: CMClosetBase
   id: CMClosetAlien
-  name: "дивна шафа"
-  description: "Виглядає інопланетним!"
+  name: strange closet
+  description: It looks alien!
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Closets/acloset.rsi

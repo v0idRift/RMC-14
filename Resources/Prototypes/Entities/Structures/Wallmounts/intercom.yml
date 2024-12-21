@@ -1,7 +1,7 @@
 - type: entity
   id: BaseIntercom
-  name: "домофон"
-  description: "Переговорний пристрій. Для випадків, коли станція просто хоче щось дізнатися."
+  name: intercom
+  description: An intercom. For when the station just needs to know something.
   abstract: true
   components:
   - type: StationAiWhitelist
@@ -127,8 +127,8 @@
 
 - type: entity
   id: IntercomAssembly
-  name: "монтаж домофона"
-  description: "Домофон. Не думаю, що він зараз дуже допоможе."
+  name: intercom assembly
+  description: An intercom. It doesn't seem very helpful right now.
   components:
   - type: WallMount
   - type: Clickable
@@ -237,7 +237,7 @@
   id: IntercomCommand
   parent: BaseIntercomSecure
   suffix: Command
-  description: "Домофон. Він укріплений металом."
+  description: An intercom. It's been reinforced with metal.
   components:
   - type: ContainerFill
     containers:
@@ -290,7 +290,7 @@
   id: IntercomSecurity
   parent: BaseIntercomSecure
   suffix: Security
-  description: "Домофон. Він укріплений металом від шоломів безпеки, тому його дуже важко відкрити."
+  description: An intercom. It's been reinforced with metal from security helmets, making it a bitch-and-a-half to open.
   components:
   - type: ContainerFill
     containers:

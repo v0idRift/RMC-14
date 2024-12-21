@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: CMIDCardSilver
   id: CMIDCardQuartermaster
-  name: "посвідчення інтенданта"
+  name: quartermaster ID card
   components:
   - type: PresetIdCard
     job: CMQuartermaster
@@ -9,7 +9,7 @@
 - type: entity
   parent: CMIDCardBase
   id: CMIDCardCargoTech
-  name: "посвідчення вантажника"
+  name: cargo tech's ID card
   components:
   - type: PresetIdCard
     job: CMCargoTech

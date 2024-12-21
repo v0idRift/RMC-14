@@ -2,8 +2,8 @@
 - type: entity
   parent: CMHeadset
   id: CMHeadsetColony
-  name: "гарнітура для колонії"
-  description: "Стандартна гарнітура, яку використовували колоністи."
+  name: colony headset
+  description: A standard headset used by colonists.
   components:
   - type: ContainerFill
     containers:
@@ -14,8 +14,8 @@
 - type: entity
   parent: CMHeadset
   id: RMCHeadsetDistressBureau
-  name: "навушник-бюро"
-  description: "Елегантна гарнітура, яку використовує Бюро колоніальних маршалів, виготовлена в Солі. Непомітна і зручна. Ніхто не стоїть над законом."
+  name: bureau earpiece
+  description: A sleek headset used by The Colonial Marshal Bureau, crafted in Sol. Low profile and comfortable. No one is above the law.
   components:
   - type: ContainerFill
     containers:
@@ -26,8 +26,8 @@
 - type: entity
   parent: CMHeadset
   id: RMCHeadsetDistressWeYa
-  name: "Корпоративна гарнітура WeYa"
-  description: "Гарнітура, яку зазвичай носить корпоративний персонал WeYa."
+  name: WeYa corporate headset
+  description: A headset commonly worn by WeYa corporate personnel.
   components:
   - type: ContainerFill
     containers:
@@ -38,8 +38,8 @@
 - type: entity
   parent: CMHeadset
   id: RMCHeadsetDistressPMC
-  name: "Гарнітура PMC"
-  description: "Спеціальна гарнітура, що використовується корпоративним персоналом."
+  name: PMC headset
+  description: A special headset used by corporate personnel.
   components:
   - type: ContainerFill
     containers:

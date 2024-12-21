@@ -4,8 +4,8 @@
 - type: entity
   parent: RollerBed
   id: CMRollerBed
-  name: "роликове ліжко"
-  description: "Розкладне роликове ліжко, яке можна переносити з собою."
+  name: roller bed
+  description: A collapsed roller bed that can be carried around.
   components:
   - type: Tag
     tags:
@@ -55,8 +55,8 @@
 - type: entity
   parent: CMRollerBed
   id: CMPortableSurgicalBed
-  name: "портативне хірургічне ліжко"
-  description: "Розбірне хірургічне ліжко. Воно не ідеальне, але це найкраще, що ви можете отримати, не маючи справжнього хірургічного столу."
+  name: portable surgical bed
+  description: A collapsible surgical bed. It's not perfect, but it's the best you'll get short of an actual surgical table.
   components:
   - type: Sprite
     layers:

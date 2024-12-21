@@ -4,8 +4,8 @@
   parent: RubberStampBase
   id: CMStampBase
   abstract: true
-  name: "гумовий штамп"
-  description: "Гумовий штамп для проставлення печатки на важливих документах."
+  name: rubber stamp
+  description: A rubber stamp for stamping important documents.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/paper.rsi
@@ -19,7 +19,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampCO
-  name: "Гумовий штамп керівника"
+  name: CO's rubber stamp
   components:
   - type: Sprite
     state: stamp-cap
@@ -31,7 +31,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampASO
-  name: "Гумовий штамп ASO"
+  name: ASO's rubber stamp
   components:
   - type: Sprite
     state: stamp-hop
@@ -43,7 +43,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampCMP
-  name: "Гумовий штамп ЧМК"
+  name: CMP's rubber stamp
   components:
   - type: Sprite
     state: stamp-hos
@@ -55,7 +55,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampCMO
-  name: "Гумовий штамп операційного директора"
+  name: CMO's rubber stamp
   components:
   - type: Sprite
     state: stamp-cmo
@@ -67,7 +67,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampQM
-  name: "Гумовий штамп QM"
+  name: QM's rubber stamp
   components:
   - type: Sprite
     state: stamp-ro
@@ -79,7 +79,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampCE
-  name: "Гумовий штамп CE"
+  name: CE's rubber stamp
   components:
   - type: Sprite
     state: stamp-ce
@@ -93,7 +93,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampApproved
-  name: "ЗАТВЕРДЖЕНА гумова печатка"
+  name: APPROVED rubber stamp
   components:
   - type: Sprite
     state: stamp-approve
@@ -105,7 +105,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampDenied
-  name: "ВІДМОВЛЕНА гумова печатка"
+  name: DENIED rubber stamp
   components:
   - type: Sprite
     state: stamp-deny
@@ -119,7 +119,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampWeYa
-  name: "Гумовий штамп WEYA"
+  name: WEYA rubber stamp
   components:
   - type: Sprite
     state: stamp-we_ya
@@ -131,7 +131,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampMarine
-  name: "Морська гумова печатка"
+  name: Marine rubber stamp
   components:
   - type: Sprite
     state: stamp-marine
@@ -143,7 +143,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampCMB
-  name: "Гумовий штамп CMB"
+  name: CMB rubber stamp
   components:
   - type: Sprite
     state: stamp-cmb

@@ -2,8 +2,8 @@
 - type: entity
   parent: [CMArmorM3Medium, RMCAllowSuitStorageClothingArmorPMC]
   id: RMCArmorM4PMC
-  name: "Бронежилет ПВК зразка M4"
-  description: "Модифікація стандартного бронежилета М3. Призначена для високопоставлених охоронців та корпоративних найманців."
+  name: M4 pattern PMC armor
+  description: A modification of the standard M3 armor. Designed for high-profile security operators and corporate mercenaries in mind.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/pmc.rsi
@@ -21,8 +21,8 @@
 - type: entity
   parent: RMCArmorM4PMC
   id: RMCArmorM4PMCLight
-  name: "Легка броня для ПВК зразка M4"
-  description: "Модифікація стандартного бронежилета М3. Призначена для високопоставлених охоронців та корпоративних найманців. Має зняте бронепокриття для більшої мобільності."
+  name: M4 pattern light PMC armor
+  description: A modification of the standard M3 armor. Designed for high-profile security operators and corporate mercenaries in mind. Has some armor plating removed for extra mobility.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/sniper.rsi
@@ -37,8 +37,8 @@
 - type: entity
   parent: RMCArmorM4PMCLight
   id: RMCArmorM4PMCCorporate
-  name: "Бронежилет корпоративної безпеки зразка М1"
-  description: "Базовий жилет зі значком We-Ya на правій стороні грудей. Його зазвичай носять охоронці нижчої ланки, які захищають об'єкти We-Ya."
+  name: M1 pattern corporate security armor
+  description: A basic vest with a We-Ya badge on the right breast. This is commonly worn by low-level guards protecting We-Ya facilities.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/corporate.rsi
@@ -49,7 +49,7 @@
 - type: entity
   parent: RMCArmorM4PMCCorporate
   id: RMCArmorM4PMCCorporateLead
-  description: "Базовий жилет зі значком We-Ya на правій стороні грудей. Цей варіант носять охоронці нижчого рівня, які отримали підвищення у званні завдяки \"хорошій поведінці на службі\", також відомому як корпоративне підлабузництво."
+  description: A basic vest with a We-Ya badge on the right breast. This variant is worn by low-level guards that have elevated in rank due to 'good conduct in the field', also known as corporate bootlicking.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/corporate_lead.rsi
@@ -57,8 +57,8 @@
 - type: entity
   parent: RMCArmorM4PMC
   id: RMCArmorM4PMCLeader
-  name: "Бронежилет лідера ПВК зразка М4"
-  description: "Модифікація стандартного бронежилета М3. Призначена для високопоставлених охоронців та корпоративних найманців. Саме цей костюм виглядає так, ніби належить високопоставленому офіцеру."
+  name: M4 pattern PMC leader armor
+  description: A modification of the standard M3 armor. Designed for high-profile security operators and corporate mercenaries in mind. This particular suit looks like it belongs to a high-ranking officer.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/officer.rsi
@@ -66,8 +66,8 @@
 - type: entity
   parent: RMCArmorM4PMC
   id: RMCArmorM4PMCSniper
-  name: "Бронежилет снайпера ПВК зразка М4"
-  description: "Модифікація стандартного бронежилета М3. Призначена для високопоставлених охоронців та корпоративних найманців. Саме цей костюм виглядає так, ніби належить високопоставленому офіцеру."
+  name: M4 pattern PMC sniper armor
+  description: A modification of the standard M3 armor. Designed for high-profile security operators and corporate mercenaries in mind. This particular suit looks like it belongs to a high-ranking officer.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/sniper.rsi
@@ -75,8 +75,8 @@
 - type: entity
   parent: RMCArmorM4PMCLight
   id: RMCArmorM4PMCSynth
-  name: "Синтетична броня ПВК зразка M4"
-  description: "Серйозна модифікація стандартної броні M3. Цей варіант був розроблений для польових підрозділів підтримки приватних військових компаній зі знятими броньовими вставками. Він розроблений з думкою про те, щоб бути високошвидкісним рятівником."
+  name: M4 pattern PMC synthetic armor
+  description: A serious modification of the standard M3 armor. This variant was designed for PMC Support Units in the field, with every armor insert removed. It's designed with the idea of a high speed lifesaver in mind.
   components:
   - type: Clothing
     equipDelay: 1
@@ -93,8 +93,8 @@
 - type: entity
   parent: CMArmorSmartGunCombatHarness
   id: RMCArmorM4PMCSmartGunHarness
-  name: "Бронежилет оператора кулемета ПВК"
-  description: "Модифікація стандартного бронежилета M3. Кріпиться за допомогою ременів та ременів, що дозволяють користувачеві носити ML66A Smart Gun."
+  name: PMC gun operator armor
+  description: A modification of the standard M3 armor. Hooked up with harnesses and straps allowing the user to carry a ML66A Smart Gun.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/heavy.rsi
@@ -106,8 +106,8 @@
 - type: entity
   parent: RMCArmorM4PMCSmartGunHarness
   id: RMCArmorM4PMCSmartGunHarnessCommando
-  name: "Бронежилет екзоскелета оператора кулемета M5Xg"
-  description: "Складна система пластин, що накладаються одна на одну, призначена для того, щоб зробити власника майже непроникним для вогню зі стрілецької зброї. Пасивний екзоскелет витримує вагу бронежилета, дозволяючи людині переносити його масивну частину. Цей варіант розроблений для підтримки ML66A Smart Gun."
+  name: M5Xg exoskeleton gun operator armor
+  description: A complex system of overlapping plates intended to render the wearer all but impervious to small arms fire. A passive exoskeleton supports the weight of the armor, allowing a human to carry its massive bulk. This variant is designed to support ML66A Smart Gun.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/commando.rsi
@@ -127,8 +127,8 @@
 - type: entity
   parent: RMCArmorM4PMC
   id: RMCArmorM4PMCCommando
-  name: "Броня екзоскелету M5X"
-  description: "Складна система пластин, що накладаються одна на одну, призначена для того, щоб зробити власника майже непроникним для вогню зі стрілецької зброї. Пасивний екзоскелет витримує вагу бронежилета, дозволяючи людині переносити його масивну частину."
+  name: M5X exoskeleton armor
+  description: A complex system of overlapping plates intended to render the wearer all but impervious to small arms fire. A passive exoskeleton supports the weight of the armor, allowing a human to carry its massive bulk.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/commando.rsi
