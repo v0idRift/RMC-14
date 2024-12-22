@@ -287,6 +287,8 @@
     blacklist:
       components:
       - Marine
+  - type: BlockIdExamine
+  - type: NoStunOnExit
 
 - type: entity
   abstract: true
@@ -393,6 +395,12 @@
     damage: #per second, scales with number of fire 'stacks'
       types:
         Heat: 1
+
+- type: entity
+  abstract: true
+  id: RMCXenoCommendationReceiver
+  components:
+  - type: CommendationReceiver
 
 - type: entity
   abstract: true
