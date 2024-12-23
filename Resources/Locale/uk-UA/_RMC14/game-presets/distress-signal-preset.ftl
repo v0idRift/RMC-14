@@ -13,3 +13,6 @@ cm-distress-signal-marine = {$player}
 rmc-distress-signal-next-map-title = Наступна планета
 rmc-distress-signal-next-map-tie = Нічия на голосуванні за планету! Обираємо... {$picked}
 rmc-distress-signal-next-map-win = {$winner} перемогла голосування за планету!
+
+cm-distress-signal-medals = Нагородження медалями:
+cm-distress-signal-jellies = Нагороди "Королівське желе":

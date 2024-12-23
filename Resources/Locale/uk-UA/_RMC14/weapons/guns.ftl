@@ -33,3 +33,19 @@ rmc-assisted-reload-fail-full = {CAPITALIZE(POSS-ADJ($target))} {$weapon} вже
 rmc-assisted-reload-fail-mismatch = {$ammo} не можна зарядити у {$weapon}!
 rmc-assisted-reload-start-user = Ви починаєте заряджати {$weapon} для {$target}! Не рухайтесь...
 rmc-assisted-reload-start-target = {$reloader} починає заряджати ваш {$weapon} за допомогою {$ammo}! Не рухайтесь...
+
+rmc-shoot-id-lock-unauthorized = Спусковий гачок заблоковано. Неавторизований користувач.
+rmc-id-lock-unauthorized = У виконанні дії відмовлено. Неавторизований користувач.
+rmc-id-lock-authorization = Ви підібрали {$gun}, реєструючи себе як власник зброї.
+rmc-id-lock-authorization-combat = {$gun} подає звуковий сигнал, реєструючи вас як свого власника.
+rmc-id-lock-toggle-lock = Ви {$action} ідентифікатор блокування на {$gun}.
+rmc-id-lock-color-unauthorized = червоний
+rmc-id-lock-color-authorized = шартрез
+rmc-id-lock-toggle-on = замок
+rmc-id-lock-toggle-off = розблокувати
+rmc-iff-toggle = Ти {$action} IFF на {$gun}.
+rmc-iff-toggle-off = відключити
+rmc-iff-toggle-on = ввімкнути
+rmc-examine-text-id-lock-no-user = [color=chartreuse]Він незареєстрований. Візьміть його, щоб зареєструвати себе як власника[/color]
+rmc-examine-text-id-lock = [color=chartreuse]Він зареєстрований на [/color][color={$color}]{$name}[/color][color=chartreuse]
+rmc-examine-text-id-lock-unlocked = [color=chartreuse]Він зареєстрований на [/color][color={$color}]{$name}[/color][color=chartreuse], але має розблоковані обмеження доступу[/color]

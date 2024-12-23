@@ -66,3 +66,8 @@ rmc-dropship-fabricator-equipment = [bold]Обладнання[/bold]
 rmc-dropship-fabricator-ammo = [bold]Набої[/bold]
 rmc-dropship-fabricator-fabricate = Надрукувати ({$cost})
 rmc-dropship-fabricator-busy = Друкувач деталей зайнятий. Будь ласка, зачекайте.
+
+rmc-dropship-utility-activate-not-flying = Утиліти можуть активуватися лише під час польоту.
+rmc-dropship-utility-not-flyby = {$utility} можна використовувати тільки під час польоту.
+rmc-dropship-utility-not-skilled = У вас немає підготовки для використання цієї системи!
+rmc-dropship-utility-cooldown = {$utility} щойно був використаний, зачекайте трохи перед повторним використанням.

@@ -15,3 +15,5 @@ rmc-storage-webbing-remove-verb = Зніміть стрічку
 rmc-storage-holster-eject-verb = Розстебни кобуру
 rmc-storage-limit-max-ammo-webbing = Більше набоїв у стрічку не влізе!
 rmc-storage-medal-remove-verb = Видалити медаль
+rmc-storage-nested-unable = Здається, ви не можете відкрити {THE($nested)}, коли він знаходиться у {THE($parent)}.
+rmc-storage-store-skill-unable = Сховище не може вмістити цю річ!
