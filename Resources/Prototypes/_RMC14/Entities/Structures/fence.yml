@@ -2,8 +2,8 @@
 - type: entity
   parent: BaseFenceMetal
   id: CMFence
-  name: "паркан"
-  description: "Велика металева сітка, натягнута між двома стовпами. Призначена як дешевий спосіб відокремити ділянки, при цьому дозволяючи бачити крізь неї."
+  name: fence
+  description: A large metal mesh strewn between two poles. Intended as a cheap way to separate areas, while allowing one to see through it.
   components:
   - type: Transform
     anchored: true

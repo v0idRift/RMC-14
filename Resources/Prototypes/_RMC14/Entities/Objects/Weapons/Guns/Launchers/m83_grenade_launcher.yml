@@ -1,9 +1,9 @@
 ﻿- type: entity
-  name: "Гранатомет М83"
+  name: M83 grenade launcher
   parent: [ RMCBaseWeaponGrenadeLauncher ]
   id: WeaponLauncherM83
   suffix: Desert
-  description: "Важкий, 6-зарядний гранатомет, який використовується ЦВС ООН для зачистки території та великих вибухів."
+  description: A heavy, 6-shot grenade launcher used by the UNMC for area denial and big explosions.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/GrenadeLaunchers/m83/desert.rsi

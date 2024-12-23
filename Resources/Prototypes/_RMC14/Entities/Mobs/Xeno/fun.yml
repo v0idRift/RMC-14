@@ -3,9 +3,9 @@
   - CMXenoRunner
   - RMCXenoCommendationReceiver
   id: RMCXenoRouny
-  name: "Руні"
+  name: Rouny
   suffix: RMC14
-  description: "це, бляха, рум'яна."
+  description: thas a fuckin rouny.
   components:
   - type: Sprite
     sprite: _RMC14/Mobs/Xenonids/Rouny/rouny.rsi
@@ -20,8 +20,8 @@
   - CMXenoRunner
   - RMCXenoCommendationReceiver
   id: RMCXenoWehny
-  name: "Wehny"
-  description: "Жорстокий, жорстокий жарт якоїсь хворої людини."
+  name: Wehny
+  description: A cruel, cruel joke made by some sick individual.
   components:
   - type: Sprite
     sprite: _RMC14/Mobs/Xenonids/Wehny/wehny.rsi

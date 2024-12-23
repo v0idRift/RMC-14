@@ -18,8 +18,8 @@
 - type: entity
   parent: RMCDrinkAlcoholBase
   id: RMCDrinkAlcoholAbsinthe
-  name: "джейлбрейкер verte"
-  description: "Один ковток - і ви точно знаєте, що добре проведете час."
+  name: jailbreaker verte
+  description: One sip of this and you just know you're gonna have a good time.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/absinthe.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: RMCDrinkAlcoholBase
   id: RMCDrinkAlcoholCognac
-  name: "коньяк преміум-класу Шато де Батон"
-  description: "Солодкий і міцний алкогольний напій, виготовлений після численних перегонок і років дозрівання. Цього разу ви можете не кричати \"SHITCURITY\"."
+  name: chateau de baton premium cognac
+  description: A sweet and strongly alcoholic drink, made after numerous distillations and years of maturing. You might as well not scream 'SHITCURITY' this time.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/cognac.rsi
@@ -50,8 +50,8 @@
 - type: entity
   parent: RMCDrinkAlcoholBase
   id: RMCDrinkAlcoholDavenport
-  name: "житнє віскі davenport"
-  description: "Дорогий віскі з виразним смаком. На пляшці гордо заявлено, що це \"Справжня класика\""
+  name: davenport rye whiskey
+  description: An expensive whiskey with a distinct flavor. The bottle proudly proclaims that it's, 'A True Classic.'
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/davenport.rsi
@@ -66,8 +66,8 @@
 - type: entity
   parent: RMCDrinkAlcoholBase
   id: RMCDrinkAlcoholGin
-  name: "джин \"Гриффітер"
-  description: "Пляшка високоякісного джину, виробленого на космічній станції \"Новий Лондон\"."
+  name: griffeater gin
+  description: A bottle of high-quality gin, produced in the New London Space Station.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/gin.rsi
@@ -82,8 +82,8 @@
 - type: entity
   parent: RMCDrinkAlcoholBase
   id: RMCDrinkAlcoholGoldschlager
-  name: "студентка Гольдшлягер"
-  description: "Тому що тільки вони будуть пити шнапс з корицею 100-відсоткової міцності."
+  name: college girl goldschlager
+  description: Because they are the only ones who will drink 100 proof cinnamon schnapps.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/goldschlager.rsi
@@ -98,8 +98,8 @@
 - type: entity
   parent: RMCDrinkAlcoholBase
   id: RMCDrinkAlcoholKahlua
-  name: "кавовий лікер Роберта Робуста"
-  description: "Широко відомий мексиканський лікер зі смаком кави. Виробляється з 1936 року, HONK"
+  name: robert robust's coffee liqueur
+  description: A widely known, Mexican coffee-flavoured liqueur. In production since 1936, HONK
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/kahlua.rsi
@@ -114,8 +114,8 @@
 - type: entity
   parent: RMCDrinkAlcoholBase
   id: RMCDrinkAlcoholMelonLiquor
-  name: "смарагдовий динний лікер"
-  description: "Пляшка динного лікеру \"Смарагдова диня\" міцністю 46 градусів. Солодкий і легкий."
+  name: emeraldine melon liquor
+  description: A bottle of 46 proof Emeraldine Melon Liquor. Sweet and light.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/melon_liquor.rsi
@@ -130,8 +130,8 @@
 - type: entity
   parent: RMCDrinkAlcoholBase
   id: RMCDrinkAlcoholPatron
-  name: "меценат обгортки"
-  description: "Срібляста текіла, яку подають у космічних нічних клубах по всій галактиці."
+  name: wrapp artiste patron
+  description: Silver laced tequila, served in space night clubs across the galaxy.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/patron.rsi
@@ -146,8 +146,8 @@
 - type: entity
   parent: RMCDrinkAlcoholBase
   id: RMCDrinkAlcoholPurpleWine
-  name: "чаклунський оксамит"
-  description: "Яка чудова упаковка для безсумнівно якісного вина! Мабуть, вінтаж повинен бути дивовижним!"
+  name: warlock's velvet
+  description: What a delightful packaging for a surely high-quality wine! The vintage must be amazing!
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/purple_wine.rsi
@@ -162,8 +162,8 @@
 - type: entity
   parent: RMCDrinkAlcoholBase
   id: RMCDrinkAlcoholRum
-  name: "кубинський ром з прянощами капітана Піта"
-  description: "Названий на честь славнозвісного капітана \"Кубинця\" Піта, цей ром настільки ж мінливий, як і його остання місія."
+  name: captain pete's cuban spiced rum
+  description: Named after the famed Captain 'Cuban' Pete, this rum is about as volatile as his final mission.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/rum.rsi
@@ -178,8 +178,8 @@
 - type: entity
   parent: RMCDrinkAlcoholBase
   id: RMCDrinkAlcoholSake
-  name: "саке вестон-ямада"
-  description: "Саке, виготовлене за старовинними технологіями, що передаються тисячоліттями. Ферментоване в Айові корпорацією Weston-Yamada."
+  name: weston-yamada sake
+  description: Sake made with ancient techniques passed down for thousands of years. Fermented in Iowa by the Weston-Yamada Corporation.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/sake.rsi
@@ -194,8 +194,8 @@
 - type: entity
   parent: RMCDrinkAlcoholBase
   id: RMCDrinkAlcoholVodka
-  name: "горілка \"Червона зірка"
-  description: "Горілка \"Червона зірка\": Основний продукт харчування ворога. Хто б міг подумати, що рідка картопля може так сильно пахнути. На пляшці написано: \"Людина Червоної Зірки Ра-Ра: Любитель вишуканих речей\". Принаймні, ви так вважаєте... ви не вмієте читати російською."
+  name: red star vodka
+  description: "Red Star Vodka: A staple of the enemy's diet. Who knew that liquid potato could smell this potent. The bottle reads, 'Ra Ra Red Star Man: Lover of the Finer Things.' Or at least that's what you assume...you can't read Russian."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/red_star_vodka.rsi
@@ -210,8 +210,8 @@
 - type: entity
   parent: RMCDrinkAlcoholBase
   id: RMCDrinkAlcoholWhiskey
-  name: "особливий заповідник дядька Гіта"
-  description: "Односолодовий віскі преміум-класу, дбайливо витриманий протягом чотирьох років селянами в глухих закутках Алабами."
+  name: uncle git's special reserve
+  description: A premium single-malt whiskey, gently matured for four years by hillbillies in the backwaters of Alabama.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/whiskey.rsi

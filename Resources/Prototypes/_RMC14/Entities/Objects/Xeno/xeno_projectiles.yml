@@ -1,7 +1,7 @@
 - type: entity
   abstract: true
   id: XenoBaseProjectile
-  name: "снаряд"
+  name: projectile
   components:
   - type: Clickable
   - type: Sprite
@@ -42,7 +42,7 @@
 - type: entity
   parent: [XenoSpitImpactSounds, XenoBaseProjectile]
   id: XenoSpitProjectile
-  name: "плювати"
+  name: spit
   categories:
   - HideSpawnMenu
   components:
@@ -96,7 +96,7 @@
 - type: entity
   id: XenoSlowingSpitProjectile
   parent: [XenoSpitImpactSounds, XenoBaseProjectile]
-  name: "сповільнення слиновиділення"
+  name: slowing spit
   categories:
   - HideSpawnMenu
   components:
@@ -116,7 +116,7 @@
 - type: entity
   id: XenoQueenNeuroSpitProjectile
   parent: [XenoSpitImpactSounds, XenoBaseProjectile]
-  name: "нейротоксична слина"
+  name: neurotoxic spit
   categories:
   - HideSpawnMenu
   components:
@@ -140,7 +140,7 @@
 - type: entity
   id: XenoScatteredSpitProjectile
   parent: [XenoSpitImpactSounds, XenoBaseProjectile]
-  name: "розкидана слина"
+  name: scattered spit
   categories:
   - HideSpawnMenu
   components:
@@ -161,7 +161,7 @@
 - type: entity
   id: XenoBoneChipsProjectile
   parent: XenoBaseProjectile
-  name: "кісткова крихта"
+  name: bone chips
   categories:
   - HideSpawnMenu
   components:
@@ -189,7 +189,7 @@
 - type: entity
   parent: XenoBaseProjectile
   id: XenoBombardAcidProjectile
-  name: "куля кислотного газу"
+  name: glob of acid gas
   categories:
   - HideSpawnMenu
   components:
@@ -233,7 +233,7 @@
 - type: entity
   parent: XenoBaseProjectile
   id: XenoBombardNeurotoxinProjectile
-  name: "куля нейротоксичного газу"
+  name: glob of neurotoxin gas
   categories:
   - HideSpawnMenu
   components:
@@ -318,8 +318,8 @@
 
 - type: entity
   id: XenoAcidBallProjectile
-  name: "кислотна куля"
-  description: "Маленька, пульсуюча кулька газу."
+  name: acid ball
+  description: A small, pulsating ball of gas.
   categories:
   - HideSpawnMenu
   components:

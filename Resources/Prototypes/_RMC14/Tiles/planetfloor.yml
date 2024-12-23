@@ -122,7 +122,7 @@
 - type: tile
   parent: CMFloorSteel
   id: CMFloorSteelPlanetSolarPanel
-  name: "сонячна панель"
+  name: solar panel
   sprite: /Textures/_RMC14/Tiles/floors/solarpanel.png
 
 - type: tile
@@ -138,6 +138,6 @@
 - type: tile
   parent: CMFloorSteel
   id: CMFloorSteelRechargeFloor
-  name: "підлога для підзарядки механізмів"
+  name: mech recharge floor
   sprite: /Textures/_RMC14/Tiles/floors/recharge_floor.png
   

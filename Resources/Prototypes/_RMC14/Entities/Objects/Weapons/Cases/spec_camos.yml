@@ -2,7 +2,7 @@
 - type: entity
   parent: CMSniperEquipmentCase
   id: RMCSniperEquipmentCaseCamo
-  name: "чохол для снайперського спорядження"
+  name: sniper equipment case
   suffix: Camo Replace
   components:
   - type: ItemCamouflage
@@ -20,7 +20,7 @@
 - type: entity
   parent: RMCGrenadeSpecEquipmentCase
   id: RMCGrenadeSpecEquipmentCaseCamo
-  name: "чохол для важкого гренадерського спорядження"
+  name: heavy grenadier equipment case
   suffix: Camo Replace
   components:
   - type: ItemCamouflage
@@ -38,7 +38,7 @@
 - type: entity
   parent: RMCDemoSpecEquipmentCase
   id: RMCDemoSpecEquipmentCaseCamo
-  name: "футляр для підривного обладнання"
+  name: demolitionist equipment case
   suffix: Camo Replace
   components:
   - type: ItemCamouflage
@@ -56,7 +56,7 @@
 - type: entity
   parent: RMCScoutSpecEquipmentCase
   id: RMCScoutSpecEquipmentCaseCamo
-  name: "чохол для розвідувального спорядження"
+  name: scout equipment case
   suffix: Camo Replace
   components:
   - type: ItemCamouflage

@@ -19,8 +19,8 @@
 - type: entity
   parent: CMBaseWindow
   id: RMCWindowPrison
-  name: "вікно"
-  description: "Скляне вікно. Воно виглядає тонким і крихким. Кілька ударів чим-небудь мають розбити його вщент."
+  name: window
+  description: A glass window. It looks thin and flimsy. A few knocks with anything should shatter it.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/prison_window.rsi
@@ -68,8 +68,8 @@
 - type: entity
   parent: RMCWindowPrison
   id: RMCWindowPrisonCell
-  name: "вікно комірки"
-  description: "Скляне вікно зі спеціальною стрижневою матрицею всередині стінової рами."
+  name: cell window
+  description: A glass window with a special rod matrix inside a wall frame.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/prison_cellwindow.rsi
@@ -85,8 +85,8 @@
 - type: entity
   parent: CMBaseWindow
   id: RMCWindowPrisonReinforced
-  name: "армоване вікно"
-  description: "Скляне вікно зі спеціальною стрижневою матрицею всередині стінної рами. Виглядає досить міцним. Щоб розбити його, знадобиться кілька хороших ударів."
+  name: reinforced window
+  description: A glass window with a special rod matrix inside a wall frame. It looks rather strong. Might take a few good hits to shatter it.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/prison_rwindow.rsi
@@ -136,8 +136,8 @@
 - type: entity
   parent: CMBaseWindow
   id: RMCWindowPrisonHull
-  name: "вікно корпусу"
-  description: "Скляне вікно зі спеціальною стрижневою матрицею всередині стінової рами. Таке вікно має автоматичну систему жалюзі, що запобігає проникненню атмосферних опадів."
+  name: hull window
+  description: A glass window with a special rod matrix inside a wall frame. This one has an automatic shutter system to prevent any atmospheric breach.
   components:
   - type: Corrodible
     isCorrodible: false

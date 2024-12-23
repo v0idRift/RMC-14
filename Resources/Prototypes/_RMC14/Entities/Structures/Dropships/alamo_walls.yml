@@ -2,7 +2,7 @@
   abstract: true
   parent: CMBaseWallInvincible
   id: CMBaseAlamoWall
-  name: "стіна аламо"
+  name: alamo wall
   components:
   - type: Corrodible
     isCorrodible: false
@@ -654,8 +654,8 @@
 - type: entity
   parent: CMBaseAlamoWall
   id: CMAlamoWall61
-  name: "точка кріплення озброєння лівого крила"
-  description: "Місце, де можна встановити важку техніку за допомогою навантажувача."
+  name: port wing weapon attach point
+  description: A place where heavy equipment can be installed with a powerloader.
   suffix: 61
   components:
   - type: Sprite
@@ -709,8 +709,8 @@
 - type: entity
   parent: CMBaseAlamoWall
   id: CMAlamoWall65
-  name: "точка кріплення озброєння правого крила"
-  description: "Місце, де можна встановити важку техніку за допомогою навантажувача."
+  name: starboard wing weapon attach point
+  description: A place where heavy equipment can be installed with a powerloader.
   suffix: 65
   components:
   - type: Sprite
@@ -926,8 +926,8 @@
 - type: entity
   parent: CMBaseAlamoWall
   id: CMAlamoWall84
-  name: "ліва передня точка кріплення озброєння"
-  description: "Місце, де можна встановити важку техніку за допомогою навантажувача."
+  name: port fore weapon attach point
+  description: A place where heavy equipment can be installed with a powerloader.
   suffix: 84
   components:
   - type: Sprite
@@ -951,8 +951,8 @@
 - type: entity
   parent: CMAlamoWall84
   id: CMAlamoWall84Flipped
-  name: "точка кріплення носової зброї правого борту"
-  description: "Місце, де можна встановити важку техніку за допомогою навантажувача."
+  name: starboard fore weapon attach point
+  description: A place where heavy equipment can be installed with a powerloader.
   suffix: 84, Flipped
   components:
   - type: Sprite
@@ -964,8 +964,8 @@
 - type: entity
   parent: CMBaseAlamoWall
   id: CMAlamoWall85
-  name: "точка підключення електронної системи"
-  description: "Місце, де можна встановити важку техніку за допомогою навантажувача."
+  name: electronic system attach point
+  description: A place where heavy equipment can be installed with a powerloader.
   suffix: 85
   components:
   - type: Sprite

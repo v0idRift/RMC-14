@@ -1,9 +1,9 @@
 ﻿- type: entity
   parent: CMBaseWeaponSMG
-  name: "Пістолет-кулемет M63"
+  name: M63 submachine gun
   suffix: Desert
   id: WeaponSMGM63
-  description: "Пістолет-кулемет Aegis Battlefield Armaments M-63. Зрідка має на озброєнні легка піхота, розвідники, інженери та медики."
+  description: The Aegis Battlefield Armaments M-63 submachinegun. Occasionally carried by light-infantry, scouts, engineers and medics.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/SMGs/m63/desert.rsi
@@ -177,7 +177,7 @@
 - type: entity
   parent: BaseMagazineRifle
   id: CMMagazineSMGM63
-  name: "Магазин до М63 (10х20мм)"
+  name: "M63 magazine (10x20mm)"
   components:
   - type: Tag
     tags:
@@ -207,7 +207,7 @@
 - type: entity
   parent: CMMagazineSMGM63
   id: CMMagazineSMGM63AP
-  name: "Магазин M63 AP (10x20мм)"
+  name: "M63 AP magazine (10x20mm)"
   components:
   - type: BallisticAmmoProvider
     whitelist:
@@ -231,7 +231,7 @@
 - type: entity
   parent: CMMagazineSMGM63
   id: CMMagazineSMGM63Ext
-  name: "Подовжений магазин M63 (10x20мм)"
+  name: "M63 extended magazine (10x20mm)"
   components:
   - type: BallisticAmmoProvider
     capacity: 72
@@ -250,7 +250,7 @@
 - type: entity
   parent: CMCartridgeSMGBase
   id: CMCartridge10x20mm
-  name: "патрон (10x20мм)"
+  name: cartridge (10x20mm)
   components:
   - type: Tag
     tags:
@@ -262,7 +262,7 @@
 - type: entity
   parent: CMCartridge10x20mm
   id: CMCartridge10x20mmAP
-  name: "Патрони AP (10x20 мм)"
+  name: AP cartridge (10x20mm)
   components:
   - type: Tag
     tags:

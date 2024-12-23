@@ -3,7 +3,7 @@
   parent: ClothingHeadBase
   id: RMCHelmetBase
   abstract: true
-  name: "шолом"
+  name: helmet
   components:
   - type: Item
     size: Normal
@@ -98,8 +98,8 @@
 - type: entity
   parent: [RMCHelmetBase, RMCFoldableHelmetBase]
   id: ArmorHelmetRiot
-  name: "шолом бунтівника"
-  description: "Це шолом, спеціально розроблений для захисту від нападів з близької відстані. Він закриває вуха."
+  name: riot helmet
+  description: It's a helmet specifically designed to protect against close range attacks. It covers your ears.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/riot.rsi
@@ -113,7 +113,7 @@
 - type: entity
   parent: ArmorHelmetRiot
   id: ArmorHelmetRiotOld
-  description: "Пошкоджений шрамами шолом, вкритий павутинням. Він все ще захищає ваші вуха."
+  description: BA scarred riot helmet covered in cobwebs. It still protects your ears.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/old_riot.rsi

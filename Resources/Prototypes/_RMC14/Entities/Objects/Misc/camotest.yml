@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CamoTest
   id: CamoTestBase
-  name: "Тест камуфляжу"
-  description: "налагоджувальний тестовий об'єкт для перевірки концепції камуфляжу, замінить себе камуфльованим варіантом."
+  name: Camo Test
+  description: debug test object for camo proof of concept, will replace itself with a camouflaged variant.
   suffix: Camo Replace
   components:
   - type: ItemCamouflage
@@ -16,9 +16,9 @@
 - type: entity
   parent: CMCrowbar
   id: CamoTest
-  name: "тест камуфляжу в джунглях"
+  name: jungle camo test
   suffix: Jungle
-  description: "джунглі"
+  description: junjle
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/camotest/jungle.rsi
@@ -27,9 +27,9 @@
 - type: entity
   parent: CamoTest
   id: CamoTestDesert
-  name: "тест камуфляжу в пустелі"
+  name: desert camo test
   suffix: Desert
-  description: "пісок"
+  description: sand
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/camotest/desert.rsi
@@ -38,9 +38,9 @@
 - type: entity
   parent: CamoTest
   id: CamoTestSnow
-  name: "сніговий різдвяний тест"
+  name: snow christmas test
   suffix: Snow
-  description: "так весело!"
+  description: ah! so jolly!
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/camotest/snow.rsi
@@ -49,9 +49,9 @@
 - type: entity
   parent: CamoTest
   id: CamoTestClassic
-  name: "класичний камуфляжний тест"
+  name: classic camo test
   suffix: Classic
-  description: "сірий"
+  description: gray
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/camotest/classic.rsi
@@ -60,9 +60,9 @@
 - type: entity
   parent: CamoTest
   id: CamoTestUrban
-  name: "тест міського камуфляжу"
+  name: urban camo test
   suffix: Urban
-  description: "місто"
+  description: city
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/camotest/urban.rsi

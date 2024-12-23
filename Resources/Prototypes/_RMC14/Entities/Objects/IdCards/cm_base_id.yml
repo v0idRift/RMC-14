@@ -2,8 +2,8 @@
 - type: entity
   parent: [Clothing, CMIDCardBase]
   id: CMIDCardStandardDogtag
-  name: "жетон"
-  description: "Морський жетон."
+  name: dog tag
+  description: A marine dog tag.
   categories: [ HideSpawnMenu ]
   components:
   - type: Item
@@ -36,8 +36,8 @@
 - type: entity
   parent: BaseItem
   id: RMCInformationDogtag
-  name: "інформаційний жетон"
-  description: "Інформаційний жетон загиблого морпіха."
+  name: information dog tag
+  description: A fallen marine's information dog tag.
   components:
   - type: Item
     size: Tiny
@@ -50,8 +50,8 @@
 - type: entity
   parent: Clothing
   id: CMIDCardBase
-  name: "ідентифікаційний голо-бейдж"
-  description: "Шматочок закодованого пресованого скловолокна. Використовується для ідентифікації та контролю доступу."
+  name: identification holo-badge
+  description: A slice of encoded compressed fiber glass. Used for identification and access control.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -79,8 +79,8 @@
 - type: entity
   parent: CMIDCardBase
   id: CMIDCardGold
-  name: "золотий ідентифікаційний голо-бейдж"
-  description: "Позолочений голографічний значок, що демонструє силу та міць."
+  name: gold identification holo-badge
+  description: A gold plated holo-badge which shows power and might.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -94,8 +94,8 @@
 - type: entity
   parent: CMIDCardBase
   id: CMIDCardSilver
-  name: "срібний ідентифікаційний голо-бейдж"
-  description: "Посріблений голографічний значок, який демонструє честь і відданість."
+  name: silver identification holo-badge
+  description: A silver plated holo-badge which shows honour and dedication.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -109,8 +109,8 @@
 - type: entity
   parent: CMIDCardBase
   id: CMIDCardLanyard
-  name: "ідентифікаційний голографічний ремінець"
-  description: "Грубий голографічний шнурок. Найдешевший з усіх можливих."
+  name: identification holo-lanyard
+  description: A crude holo-lanyard. As cheap as they come.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
