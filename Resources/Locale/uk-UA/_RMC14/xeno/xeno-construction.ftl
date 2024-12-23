@@ -60,3 +60,4 @@ rmc-xeno-construction-remote-open-door = Ми фокусуємо наше з'є�
 rmc-xeno-construction-remote-close-door = Ми фокусуємо наше з'єднання зі смолою і дистанційно закриваємо дверцята смоли.
 rmc-xeno-construction-tunnel-xeno-immobile-failure = Ми взагалі не можемо рухатися!
 rmc-xeno-construction-default-area-name = Невідомо
+rmc-xeno-construction-remote-failed-need-line-of-sight = Нам потрібна пряма видимість, щоб будувати!

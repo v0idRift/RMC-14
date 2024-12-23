@@ -1,4 +1,4 @@
-species-name-rodentia = Rodentia
+species-name-rodentia = Родентія
 
 marking-RodentiaHeadBlaze = Голова - Блейз
 marking-RodentiaHeadBlaze-head_m = Голова
