@@ -45,7 +45,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointCargoTech
-  name: cargo tech spawn point
+  name: "точка зародження вантажних технологій"
   components:
   - type: SpawnPoint
     job_id: CMCargoTech

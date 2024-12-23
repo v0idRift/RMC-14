@@ -11,7 +11,7 @@
 - type: entity
   parent: RMCHeadsetLiaison
   id: RMCHeadsetDistressICBLiaison
-  name: ICB liaison headset
+  name: "Гарнітура зв'язку ICB"
   suffix: WeYa, Colony
   components:
   - type: ContainerFill

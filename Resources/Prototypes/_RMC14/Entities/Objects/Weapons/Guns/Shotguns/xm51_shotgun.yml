@@ -1,9 +1,9 @@
 ﻿- type: entity
   parent: [ CMBaseWeaponRifleNoDualWieldPenalty, RMCBaseAttachableHolder ]
-  name: XM51 breaching scattergun
+  name: "Розсіювач XM51"
   id: RMCWeaponShotgunXM51
   suffix: Jungle
-  description: An experimental shotgun model going through testing trials in the UNMC. Based on the original civilian and CMB version, the XM51 is a mag-fed, pump-action shotgun. It utilizes special 16-gauge breaching rounds which are effective at breaching walls and doors. Users are advised not to employ the weapon against soft or armored targets due to low performance of the shells.
+  description: "Експериментальна модель рушниці, що проходить тестові випробування в УНСО. Заснована на оригінальній цивільній версії та версії CMB, XM51 є помповою рушницею з помповим живленням. Для нього використовуються спеціальні кумулятивні набої 16-го калібру, які ефективно пробивають стіни та двері. Користувачам не рекомендується використовувати зброю проти м'яких або броньованих цілей через низьку ефективність снарядів."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Shotguns/xm51.rsi

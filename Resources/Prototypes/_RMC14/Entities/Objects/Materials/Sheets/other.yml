@@ -2,14 +2,14 @@
 - type: material
   id: CMPhoron
   stackEntity: CMSheetPhoron
-  name: materials-phoron
+  name: "матеріали - форон"
   icon: { sprite: _RMC14/Objects/Materials/Sheets/phoron.rsi, state: phoron }
   color: "#7e009e"
   price: 0.2
 
 - type: stack
   id: CMPhoron
-  name: phoron
+  name: "форон"
   icon: { sprite: _RMC14/Objects/Materials/Sheets/phoron.rsi, state: phoron }
   spawn: CMSheetPhoron
   maxCount: 50
@@ -17,7 +17,7 @@
 - type: entity
   parent: SheetOtherBase
   id: CMSheetPhoron
-  name: phoron
+  name: "форон"
   suffix: Full
   components:
   - type: Material
@@ -90,7 +90,7 @@
 - type: entity
   parent: SheetOtherBase
   id: RMCSheetCardboard
-  name: cardboard
+  name: "картон"
   suffix: Full, RMC
   components:
   - type: Material
@@ -159,7 +159,7 @@
 
 - type: stack
   id: RMCWood
-  name: wood plank
+  name: "дерев'яна дошка"
   icon: { sprite: _RMC14/Objects/Materials/Sheets/wood.rsi, state: wood }
   spawn: RMCPlankWood
   maxCount: 50
@@ -167,8 +167,8 @@
 - type: entity
   parent: SheetOtherBase
   id: RMCPlankWood
-  name: wood plank
-  description: One can only guess that this is a bunch of wood.
+  name: "дерев'яна дошка"
+  description: "Можна лише здогадуватися, що це купа деревини."
   suffix: Full
   components:
   - type: Material

@@ -3,8 +3,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechSCTGear
-  name: ColMarTech squad comtech gear rack
-  description: An automated gear rack for combat technicians.
+  name: "Спорядження для спорядження ColMarTech squad comtech"
+  description: "Автоматизований стелаж для спорядження бойової техніки."
   components:
   - type: AccessReader
     access:
@@ -178,8 +178,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechSCTEquipment
-  name: ColMarTech squad comtech equipment rack
-  description: An automated rack hooked up to a colossal storage of combat technician standard-issue equipment.
+  name: "Стелаж для спорядження загону ColMarTech"
+  description: "Автоматизований стелаж під'єднаний до величезного сховища стандартного спорядження бойової техніки."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/clothing.rsi
@@ -282,8 +282,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechSCTTools
-  name: ColMarTech squad comTech tools vendor
-  description: A vending machine that stores various extra tools that are useful on the field.
+  name: "Постачальник інструментів для загону ColMarTech comTech"
+  description: "Торговий автомат, в якому зберігаються різні додаткові інструменти, які стануть в нагоді на полі."
   components:
   - type: AccessReader
     access:

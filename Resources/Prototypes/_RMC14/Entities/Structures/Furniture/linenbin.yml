@@ -2,8 +2,8 @@
   parent: BaseStructureDynamic
   id: CMLinenBin
   suffix: Empty
-  name: linen bin
-  description: A linen bin. It looks rather cosy.
+  name: "кошик для білизни"
+  description: "Кошик для білизни. Виглядає досить затишно."
   components:
   - type: Anchorable
   - type: Transform

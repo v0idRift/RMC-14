@@ -1,9 +1,9 @@
 ﻿- type: entity
   parent: [ CMBaseWeaponGun, BaseItem, RMCBaseAttachableHolder ]
   id: RMCSmartGun
-  name: ML66A smart gun
+  name: "Розумна рушниця ML66A"
   suffix: Jungle
-  description: The actual firearm in the Smart Gun System. Essentially a heavy, mobile machinegun.
+  description: "Справжня вогнепальна зброя в системі Smart Gun System. По суті, важкий, мобільний кулемет."
   components:
   - type: Wieldable
   - type: Item
@@ -271,7 +271,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineSmartGun
-  name: "ML66A drum magazine (10x30mm)"
+  name: "Барабанний магазин ML66A (10x30мм)"
   suffix: Jungle
   components:
   - type: Tag
@@ -343,7 +343,7 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: CMCartridgeSmartGun10x30mm
-  name: cartridge (10x30mm)
+  name: "патрон (10x30мм)"
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Casings/large_casing.rsi
@@ -359,7 +359,7 @@
 - type: entity
   parent: CMBulletBase
   id: CMBulletSmartGun10x30mm
-  name: bullet (10x30mm)
+  name: "куля (10х30мм)"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

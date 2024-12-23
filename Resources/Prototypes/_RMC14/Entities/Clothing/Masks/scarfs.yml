@@ -43,8 +43,8 @@
 - type: entity
   parent: RMCBaseScarfMask
   id: RMCMaskScarfAlpha
-  name: tactical wrap
-  description: A tactical wrap used by soldiers to conceal their face.
+  name: "тактичне обгортання"
+  description: "Тактична пов'язка, що використовується солдатами для приховування обличчя."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/Scarfs/alpha.rsi
@@ -56,7 +56,7 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskScarfAlpha]
   id: RMCMaskScarfAlphaDown
-  name: tactical wrap
+  name: "тактичне обгортання"
 
 - type: entity
   parent: RMCMaskScarfAlpha
@@ -70,7 +70,7 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskScarfBravo]
   id: RMCMaskScarfBravoDown
-  name: tactical wrap
+  name: "тактичне обгортання"
 
 - type: entity
   parent: RMCMaskScarfAlpha
@@ -84,7 +84,7 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskScarfCharlie]
   id: RMCMaskScarfCharlieDown
-  name: tactical wrap
+  name: "тактичне обгортання"
 
 - type: entity
   parent: RMCMaskScarfAlpha
@@ -98,7 +98,7 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskScarfDelta]
   id: RMCMaskScarfDeltaDown
-  name: tactical wrap
+  name: "тактичне обгортання"
 
 - type: entity
   parent: RMCMaskScarfAlpha
@@ -112,7 +112,7 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskScarfEcho]
   id: RMCMaskScarfEchoDown
-  name: tactical wrap
+  name: "тактичне обгортання"
 
 - type: entity
   parent: RMCMaskScarfAlpha
@@ -126,7 +126,7 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskScarfFoxtrot]
   id: RMCMaskScarfFoxtrotDown
-  name: tactical wrap
+  name: "тактичне обгортання"
 
 # COLOURS
 
@@ -142,7 +142,7 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskScarfRed]
   id: RMCMaskScarfRedDown
-  name: tactical wrap
+  name: "тактичне обгортання"
 
 - type: entity
   parent: RMCMaskScarfAlpha
@@ -156,7 +156,7 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskScarfBlack]
   id: RMCMaskScarfBlackDown
-  name: tactical wrap
+  name: "тактичне обгортання"
 
 - type: entity
   parent: RMCMaskScarfAlpha
@@ -170,7 +170,7 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskScarfGray]
   id: RMCMaskScarfGrayDown
-  name: tactical wrap
+  name: "тактичне обгортання"
 
 - type: entity
   parent: RMCMaskScarfAlpha
@@ -184,7 +184,7 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskScarfGreen]
   id: RMCMaskScarfGreenDown
-  name: tactical wrap
+  name: "тактичне обгортання"
 
 - type: entity
   parent: RMCMaskScarfAlpha
@@ -198,4 +198,4 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskScarfTan]
   id: RMCMaskScarfTanDown
-  name: tactical wrap
+  name: "тактичне обгортання"

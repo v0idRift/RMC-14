@@ -6,8 +6,8 @@
   - RMCXenoSpeechSounds
   - RMCXenoCommendationReceiver
   id: CMXenoSpitter
-  name: Spitter
-  description: A gross, oozing alien of some kind.
+  name: "Спіттер"
+  description: "Бридкий, якийсь чужорідний, що витікає."
   components:
   - type: GhostRole
     name: cm-job-name-xeno-spitter

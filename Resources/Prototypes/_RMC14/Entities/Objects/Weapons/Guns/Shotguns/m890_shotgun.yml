@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [ RMCBaseWeaponShotgun, RMCBaseAttachableHolder ]
-  name: M890 tactical shotgun
+  name: "Тактична рушниця M890"
   id: WeaponShotgunM890
-  description: A unique corporate made semi-automatic shotgun with a rapid fire rate and an attached Underslung Grenade Launcher. Holds 8 shotgun shells in the chamber.
+  description: "Унікальна напівавтоматична рушниця з високою скорострільністю та приєднаним підствольним гранатометом. Вміщує 8 дробових набоїв у патроннику."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Shotguns/m890.rsi
