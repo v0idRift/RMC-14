@@ -9,7 +9,10 @@ rmc-power-loader-ammo-no-weapon = Вам спочатку потрібно вс�
 rmc-power-loader-nothing-attached = Тут нічого не під'єднано!
 rmc-power-loader-discard-empty = Ви викидаєте порожній {$ammo}
 
-rmc-power-loader-transfer-ammo = Ви переносите {$rounds} {$rounds -> [one] раунд *[other] раунди } до {THE($ammo)}.
+rmc-power-loader-transfer-ammo = Ви передаєте {$rounds} {$rounds ->
+[one] патрон
+*[other] патрони
+} до {THE($ammo)}.
 rmc-power-loader-wrong-ammo = Це різні типи боєприпасів!
 rmc-power-loader-full-ammo = {CAPITALIZE(THE($ammo))} заповнено!
 rmc-power-loader-occupied-utility = Там вже встановлена інженерна система!
