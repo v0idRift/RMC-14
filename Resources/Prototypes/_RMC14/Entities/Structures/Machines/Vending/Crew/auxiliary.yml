@@ -4,8 +4,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechDropshipCrewEquipment
-  name: ColMarTech Dropship Crew Equipment Rack
-  description: An automated equipment vendor for Dropship Crew
+  name: "Стійка для екіпіровки екіпажу дропшипа ColMarTech"
+  description: "Постачальник автоматизованого обладнання для Dropship Crew"
   components:
   - type: AccessReader
     access:
@@ -159,8 +159,8 @@
 -  type: entity
    parent: ColMarTechBase
    id: ColMarTechDropshipCrewWeapon
-   name: ColMarTech Dropship Crew Weapon Rack
-   description: An automated combat equipment vendor for Dropship Crew
+   name: "ColMarTech Дропшиппінговий стелаж для зброї екіпажу"
+   description: "Автоматизований постачальник бойового спорядження для Dropship Crew"
    components:
    - type: AccessReader
      access:

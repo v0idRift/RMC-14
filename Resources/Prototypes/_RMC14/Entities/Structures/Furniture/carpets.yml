@@ -1,8 +1,8 @@
 - type: entity
   id: CMCarpetBase
   parent: BaseStructure
-  name: carpet
-  description: "Fancy walking surface."
+  name: "килим"
+  description: "Чудова доріжка для прогулянок."
   abstract: true
   components:
   - type: Sprite

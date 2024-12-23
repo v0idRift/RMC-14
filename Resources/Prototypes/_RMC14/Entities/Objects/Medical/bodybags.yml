@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseDeployFoldable
   id: CMBodyBag
-  name: body bag
-  description: A folded bag designed for the storage and transportation of cadavers.
+  name: "мішок для трупів"
+  description: "Складений мішок, призначений для зберігання і транспортування трупів."
   components:
   - type: Item
     size: Small
@@ -104,8 +104,8 @@
 - type: entity
   parent: CMBodyBag
   id: CMStasisBag
-  name: stasis bag
-  description: A folded, reusable bag designed to prevent additional damage to an occupant.
+  name: "стазисний мішок"
+  description: "Складений багаторазовий мішок, призначений для запобігання додатковим ушкодженням пасажира."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/stasisbag.rsi
@@ -149,8 +149,8 @@
 - type: entity
   parent: BaseItem
   id: RMCStasisBagUsed
-  name: used stasis bag
-  description: It's been ripped open. You will need to find a machine capable of recycling it.
+  name: "використаний стазисний мішок"
+  description: "Її розірвали. Вам потрібно знайти машину, здатну його переробити."
   suffix: trash
   components:
   - type: Item
@@ -166,8 +166,8 @@
 - type: entity
   parent: CMBodyBag
   id: RMCThermalTarp # TODO RMC14 This needs to halt infected timers or something
-  name: V3 reactive thermal tarp
-  description: A more compact and improved version of the V2 thermal tarp, intended primarily for the transportation of deceased or wounded marines. It has improved cloaking technology than earlier models, allowing it to cloak to a greater degree and faster, but can only be used with special training.
+  name: "Реактивний термічний брезент V3"
+  description: "Більш компактна та вдосконалена версія термобрезенту V2, призначена в першу чергу для транспортування загиблих або поранених морських піхотинців. Він має покращену технологію маскування порівняно з попередніми моделями, що дозволяє йому маскуватися в більшій мірі та швидше, але може використовуватися лише за умови спеціальної підготовки."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/bodybags.rsi

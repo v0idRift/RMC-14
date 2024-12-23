@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: RMCSurveillanceCameraAlmayer
-  name: ship-grade camera
-  description: It's used to monitor rooms.
+  name: "корабельна камера"
+  description: "Використовується для моніторингу приміщень."
   placement:
     mode: SnapgridCenter
     snap:
@@ -61,8 +61,8 @@
 - type: entity
   parent: CMBaseStructure
   id: RMCMonitorCameraAlmayer
-  name: ship security cameras
-  description: Used to access the various cameras on the station.
+  name: "корабельні камери спостереження"
+  description: "Використовується для доступу до різних камер на станції."
   suffix: Almayer
   components:
   - type: Transform

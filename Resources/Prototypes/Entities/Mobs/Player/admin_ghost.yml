@@ -1,7 +1,7 @@
 - type: entity
   parent: [MobObserver, InventoryBase]
   id: AdminObserver
-  name: admin observer
+  name: "адміністратор-спостерігач"
   categories: [ HideSpawnMenu ]
   components:
   - type: ContentEye
@@ -109,8 +109,8 @@
 
 - type: entity
   id: ActionAGhostShowSolar
-  name: Solar Control Interface
-  description: View a Solar Control Interface.
+  name: "Інтерфейс керування сонячною батареєю"
+  description: "Перегляд інтерфейсу керування сонячною батареєю."
   components:
   - type: InstantAction
     icon: { sprite: Structures/Machines/parts.rsi, state: box_0 }
@@ -121,8 +121,8 @@
 
 - type: entity
   id: ActionAGhostShowCommunications
-  name: Communications Interface
-  description: View a Communications Interface.
+  name: "Інтерфейс зв'язку"
+  description: "Перегляд інтерфейсу зв'язку."
   components:
   - type: InstantAction
     icon: { sprite: Interface/Actions/actions_ai.rsi, state: comms_console }
@@ -133,8 +133,8 @@
 
 - type: entity
   id: ActionAGhostShowRadar
-  name: Mass Scanner Interface
-  description: View a Mass Scanner Interface.
+  name: "Інтерфейс масового сканера"
+  description: "Перегляд інтерфейсу масового сканера."
   components:
   - type: InstantAction
     icon: { sprite: Interface/Actions/actions_ai.rsi, state: mass_scanner }
@@ -145,8 +145,8 @@
 
 - type: entity
   id: ActionAGhostShowCargo
-  name: Cargo Ordering Interface
-  description: View a Cargo Ordering Interface.
+  name: "Інтерфейс замовлення вантажу"
+  description: "Переглянути інтерфейс замовлення вантажу."
   components:
   - type: InstantAction
     icon: { sprite: Structures/Machines/parts.rsi, state: box_0 }
@@ -157,8 +157,8 @@
 
 - type: entity
   id: ActionAGhostShowCrewMonitoring
-  name: Crew Monitoring Interface
-  description: View a Crew Monitoring Interface.
+  name: "Інтерфейс моніторингу екіпажу"
+  description: "Перегляд інтерфейсу моніторингу екіпажу."
   components:
   - type: InstantAction
     icon: { sprite: Interface/Actions/actions_ai.rsi, state: crew_monitor }
@@ -169,8 +169,8 @@
 
 - type: entity
   id: ActionAGhostShowStationRecords
-  name: Station Records Interface
-  description: View a Station Records Interface.
+  name: "Інтерфейс записів станції"
+  description: "Перегляд записів станції Інтерфейс"
   components:
   - type: InstantAction
     icon: { sprite: Interface/Actions/actions_ai.rsi, state: station_records }

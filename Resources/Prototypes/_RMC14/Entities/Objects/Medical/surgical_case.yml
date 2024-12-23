@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStorageItem
   id: CMSurgicalCase
-  name: surgical case
-  description: It's a medical case for storing basic surgical tools. # TODO RMC14 extended description with instructions for treating internal bleeds once those are added
+  name: "хірургічний випадок"
+  description: "Це медичний кейс для зберігання основних хірургічних інструментів." # TODO RMC14 extended description with instructions for treating internal bleeds once those are added
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/surgical_case.rsi

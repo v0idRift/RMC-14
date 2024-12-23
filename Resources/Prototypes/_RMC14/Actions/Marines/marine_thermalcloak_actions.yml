@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: ActionMarineToggleable
   id: RMCActionToggleCloak
-  name: Toggle Cloak
-  description: Enable or Disable your Thermal Cloak
+  name: "Плащ-перемикач"
+  description: "Увімкнути або вимкнути теплову накидку"
   components:
   - type: InstantAction
     icon:

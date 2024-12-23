@@ -1,7 +1,7 @@
 - type: entity
   id: RMCInflatableWall
-  name: inflatable wall
-  description: An inflated membrane. Activate to deflate. Do not puncture.
+  name: "надувна стіна"
+  description: "Надута мембрана. Активувати, щоб здути. Не проколювати."
   components:
   - type: Clickable
   - type: InteractionOutline
@@ -46,8 +46,8 @@
 - type: entity
   parent: BaseMaterialDoor
   id: RMCInflatableDoor
-  name: inflatable door
-  description: An inflated membrane. Activate to deflate. Now with a door. Do not puncture.
+  name: "надувні двері"
+  description: "Надута мембрана. Активувати, щоб здути. Тепер з дверима. Не проколіть."
   components:
   - type: Clickable
   - type: InteractionOutline
@@ -91,8 +91,8 @@
 - type: entity
   parent: CMBaseStructure
   id: RMCInflatableWallBroken
-  name: popped inflatable wall
-  description: This used to be an inflatable wall, now it's just a mess of plastic.
+  name: "лопнула надувна стіна"
+  description: "Раніше це була надувна стіна, тепер це просто купа пластику."
   components:
   - type: Clickable
   - type: InteractionOutline
@@ -118,8 +118,8 @@
 - type: entity
   parent: RMCInflatableWallBroken
   id: RMCInflatableDoorBroken
-  name: popped inflatable door
-  description: This used to be an inflatable door, now it's just a mess of plastic.
+  name: "лопнули надувні двері"
+  description: "Раніше це були надувні двері, тепер це просто шматки пластику."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/inflatable_door.rsi

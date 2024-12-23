@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStorageItem
   id: CMFirstAidKit
-  name: first-aid kit
-  description: It's an emergency medical kit for those serious boo-boos. With medical training you can fit this in a backpack.
+  name: "аптечка"
+  description: "Це аптечка для екстреної медичної допомоги на випадок серйозних неприємностей. З медичною підготовкою ви зможете помістити її в рюкзак."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/first_aid_kits.rsi
@@ -72,7 +72,7 @@
 - type: entity
   parent: CMFirstAidKit
   id: CMFirstAidKitFilled
-  description: It's an emergency medical kit containing basic medication and equipment. No training required to use. # With medical training you can fit this in a backpack. # TODO RMC14
+  description: "Це аптечка невідкладної медичної допомоги, що містить основні медикаменти та обладнання. Для використання не потрібна підготовка." # With medical training you can fit this in a backpack. # TODO RMC14
   suffix: Filled
   components:
   - type: StorageFill
@@ -88,8 +88,8 @@
 - type: entity
   parent: CMFirstAidKit
   id: CMBurnAidKit
-  name: fire first-aid kit
-  description: It's an emergency medical kit for when the dropship ammo storage spontaneously burns down. # With medical training you can fit this in a backpack. # TODO RMC14 medical skill
+  name: "пожежна аптечка"
+  description: "Це аптечка на випадок раптового загоряння сховища боєприпасів дропшипа." # With medical training you can fit this in a backpack. # TODO RMC14 medical skill
   components:
   - type: Sprite
     layers:
@@ -117,8 +117,8 @@
 - type: entity
   parent: CMFirstAidKit
   id: CMFirstAidO2Kit
-  name: oxygen deprivation first-aid kit
-  description: A box full of reoxygenating goodies. # With medical training you can fit this in a backpack. # TODO RMC14 medical skill
+  name: "аптечка для надання першої допомоги при кисневому голодуванні"
+  description: "Коробка, повна реоксигенаційних смаколиків." # With medical training you can fit this in a backpack. # TODO RMC14 medical skill
   components:
   - type: Sprite
     layers:
@@ -146,8 +146,8 @@
 - type: entity
   parent: CMFirstAidKit
   id: CMAdvFirstAidKit
-  name: advanced first-aid kit
-  description: Contains more effective methods of medical treatment than a basic first-aid kit, such as burn and trauma kits. # With medical training you can fit this in a backpack. # TODO RMC14 medical skill
+  name: "вдосконалена аптечка першої допомоги"
+  description: "Містить більш ефективні методи лікування, ніж базова аптечка, наприклад, аптечка від опіків чи травм." # With medical training you can fit this in a backpack. # TODO RMC14 medical skill
   components:
   - type: Sprite
     layers:
@@ -175,8 +175,8 @@
 - type: entity
   parent: CMFirstAidKit
   id: CMToxinAidKit
-  name: toxin first-aid kit
-  description: It's an emergency medical kit containing lifesaving anti-toxic medication. # With medical training you can fit this in a backpack. # TODO RMC14 medical skill
+  name: "аптечка для надання першої допомоги при отруєнні токсинами"
+  description: "Це аптечка екстреної медичної допомоги, що містить життєво важливі антитоксичні препарати." # With medical training you can fit this in a backpack. # TODO RMC14 medical skill
   components:
   - type: Sprite
     layers:

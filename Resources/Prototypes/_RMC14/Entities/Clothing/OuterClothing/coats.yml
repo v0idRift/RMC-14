@@ -126,8 +126,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: CMCoatChiefMP
-  name: chief military police service jacket
-  description: A marine service jacket adopted for use by Military Police personnel on board Marine ships. Ironically most ships require their MP departments to use full armor, making these barely used by on duty MPs. Very popular among those who want to inexplicably smell like donuts.
+  name: "куртка начальника військової поліції"
+  description: "Куртка морської служби, прийнята для використання військовою поліцією на борту кораблів морської піхоти. За іронією долі, більшість кораблів вимагають, щоб їхні підрозділи ВП носили повну броню, тому ці куртки майже не використовуються військовими поліцейськими на службі. Дуже популярний серед тих, хто хоче незрозумілим чином пахнути пончиками."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/cmp.rsi
@@ -138,8 +138,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: CMCoatWarden
-  name: military warden service jacket
-  description: A marine service jacket adopted for use by Military Wardens on board Marine ships. Ironically most ships require their MP departments to use full armor, making these barely used by on duty Wardens. The jacket of choice for looking all night at a set of monitors, while cigarette butts pile around you.
+  name: "куртка військового наглядача"
+  description: "Куртка морської служби, прийнята для використання військовими наглядачами на борту морських кораблів. За іронією долі, більшість кораблів вимагають, щоб їхні військові підрозділи носили повну броню, тому ці куртки майже не використовуються черговими наглядачами. Куртка для тих, хто цілу ніч дивиться в монітор, а навколо валяються недопалки."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/warden.rsi
@@ -150,8 +150,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: CMCoatMP
-  name: military police service jacket
-  description: A marine service jacket adopted for use by Military Police personnel on board Marine ships. Ironically most ships require their MP departments to use full armor, making these barely used by on duty MPs. This variant is also available to regular Marines, if they are willing to bear the shame.
+  name: "куртка військово-поліцейської служби"
+  description: "Куртка морської служби, прийнята для використання персоналом Військової поліції на борту кораблів морської піхоти. За іронією долі, більшість кораблів вимагають, щоб їхні підрозділи ВП носили повну броню, тому ці куртки майже не використовуються військовими поліцейськими на службі. Цей варіант також доступний для звичайних морських піхотинців, якщо вони готові нести цей сором."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/mp.rsi
@@ -162,8 +162,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: CMCoatMessTech
-  name: mess technician jacket
-  description: Smells like vanilla. Signifies prestige and power, if a little flashy.
+  name: "куртка санітара"
+  description: "Пахне ваніллю. Означає престиж і владу, якщо трохи кричущий."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/chef.rsi
@@ -174,9 +174,9 @@
 - type: entity
   parent: RMCBaseJacket
   id: CMCoatASO
-  name: auxiliary support officer jacket
+  name: "куртка офіцера допоміжного забезпечення"
   suffix: Jungle
-  description: A comfortable vest for officers who are expected to work long hours staring at rows of numbers and inspecting equipment from knives to torpedos to entire dropships.
+  description: "Зручний жилет для офіцерів, яким доведеться працювати довгими годинами, вдивляючись у ряди цифр та оглядаючи спорядження від ножів до торпед і цілих десантних кораблів."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/aso/jungle.rsi
@@ -240,8 +240,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: CMCoatCO
-  name: marine officer dress jacket
-  description: Dress Jacket worn by Commanding Officers of the UNMC.
+  name: "куртка офіцера морської піхоти"
+  description: "Сукня-куртка, яку носять офіцери командування МООНК."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/CO/jacket.rsi
@@ -251,8 +251,8 @@
 - type: entity
   parent: CMCoatCO
   id: CMCoatCOBomber
-  name: commanding officer bomber jacket
-  description: A bomber jacket resembling those worn by airmen of old. A classic, stylish choice for those in the higher ranks.
+  name: "куртка-бомбер командира"
+  description: "Куртка-бомбер, що нагадує ті, які носили льотчики в минулому. Класичний, стильний вибір для вищих чинів."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/CO/bomber.rsi
@@ -262,8 +262,8 @@
 - type: entity
   parent: CMCoatCO
   id: CMCoatCOFormalBlack
-  name: commanding officer gray dress jacket
-  description: A gray dress tunic for those occasions that mandate darker, more subdued colors. Combines sleek and subdued with gold accents.
+  name: "офіцерський піджак сірого кольору"
+  description: "Сіра сукня-туніка для тих випадків, які вимагають темніших, приглушених кольорів. Поєднує в собі елегантність і стриманість із золотими акцентами."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/CO/formal_black.rsi
@@ -273,8 +273,8 @@
 - type: entity
   parent: CMCoatCO
   id: CMCoatCOFormalWhite
-  name: commanding officer white dress jacket
-  description: A white dress tunic for hot-weather parades. Bright, unstained, and immaculate with gold accents.
+  name: "офіцерський білий піджак"
+  description: "Біла сукня-туніка для парадів у спекотну погоду. Яскрава, незаплямована, бездоганна з золотими акцентами."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/CO/formal_white.rsi
@@ -286,8 +286,8 @@
 - type: entity
   parent: CMCoatCO
   id: CMCoatXOFormal
-  name: marine formal service jacket
-  description: Smells like vanilla. Signifies prestige and power, if a little flashy.
+  name: "морський форменний піджак"
+  description: "Пахне ваніллю. Означає престиж і владу, якщо трохи кричущий."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/coat_formal.rsi
@@ -297,8 +297,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: CMCoatOfficer
-  name: marine service jacket
-  description: A service jacket typically worn by officers of the UNMC.
+  name: "куртка морської піхоти"
+  description: "Службова куртка, яку зазвичай носять офіцери МООНК."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/officer.rsi
@@ -309,7 +309,7 @@
   parent: CMCoatOfficer
   id: RMCCoatService
   suffix: Jungle
-  description: A service jacket typically worn by officers of the UNMC. It has shards of light Kevlar to help protect against stabbing weapons and bullets.
+  description: "Службова куртка, яку зазвичай носять офіцери МООНК. Має осколки легкого кевлару для захисту від колючо-ріжучої зброї та куль."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/service/jungle.rsi
