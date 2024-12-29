@@ -6,8 +6,8 @@
   - RMCXenoSpeechSounds
   - RMCXenoCommendationReceiver
   id: CMXenoSentinel
-  name: "Вартовий"
-  description: "Слизький, плюгавий вид інопланетянина."
+  name: Sentinel
+  description: A slithery, spitting kind of alien.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-sentinel

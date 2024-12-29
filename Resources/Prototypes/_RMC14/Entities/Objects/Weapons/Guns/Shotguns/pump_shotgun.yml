@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [ RMCBaseWeaponShotgun, RMCBaseAttachableHolder ]
-  name: "Помпова рушниця M42A2"
+  name: M42A2 Pump Shotgun
   id: WeaponShotgunM42A2
-  description: "Класичний дизайн Aegis Battlefield Armaments, M42A2 поєднує в собі вогневу міць на ближній дистанції та довготривалу надійність. Потребує прокачування."
+  description: An Aegis Battlefield Armaments classic design, the M42A2 combines close-range firepower with long term reliability. Needs to be pumped.
   suffix: Desert
   components:
   - type: Sprite

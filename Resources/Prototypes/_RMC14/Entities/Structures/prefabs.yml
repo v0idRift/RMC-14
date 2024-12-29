@@ -1,8 +1,8 @@
 ﻿- type: entity
   abstract: true
   id: RMCPrefabBase
-  name: "збірна конструкція"
-  description: "Ця конструкція виготовлена з металевих опорних стрижнів та міцного полікевлонового пластику. Похідний матеріалу, з якого виготовляють балістичні бронежилети ЗСУ, уніформу UNMC та SPP. Пухкі стінки котяться від кожного пориву вітру."
+  name: prefabricated structure
+  description: This structure is made of metal support rods and robust poly-kevlon plastics. A derivative of the stuff used in UA ballistics vests, UNMC and SPP uniforms. The loose walls roll with each gust of wind.
   placement:
     mode: SnapgridCenter
   components:
@@ -30,8 +30,8 @@
 - type: entity
   abstract: true
   id: RMCPrefabBaseTop
-  name: "збірна конструкція"
-  description: "Ця конструкція виготовлена з металевих опорних стрижнів та міцного полікевлонового пластику. Похідний матеріалу, з якого виготовляють балістичні бронежилети ЗСУ, уніформу UNMC та SPP. Пухкі стінки котяться від кожного пориву вітру."
+  name: prefabricated structure
+  description: This structure is made of metal support rods and robust poly-kevlon plastics. A derivative of the stuff used in UA ballistics vests, UNMC and SPP uniforms. The loose walls roll with each gust of wind.
   placement:
     mode: SnapgridCenter
   components:

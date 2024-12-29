@@ -4,8 +4,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechStaffOfficerEquipment
-  name: "Стелаж для штабного офіцера ColMarTech"
-  description: "Постачальник автоматизованого обладнання для штабних офіцерів"
+  name: ColMarTech Staff Officer Equipment Rack
+  description: An automated equipment vendor for Staff Officers
   components:
   - type: AccessReader
     access:
@@ -86,8 +86,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechStaffOfficerWeapon
-  name: "ColMarTech Штабний офіцер збройової кімнати для зберігання зброї"
-  description: "Автоматизований постачальник бойового спорядження для штабних офіцерів."
+  name: ColMarTech Staff Officer Armory Weapon Rack
+  description: An automated combat equipment vendor for Staff Officers.
   components:
   - type: AccessReader
     access:
@@ -209,8 +209,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechExecutiveOfficerWeapon
-  name: "Виконавчий директор ColMarTech Стелаж для зброї"
-  description: "Автоматизований стелаж зі зброєю для старшого офіцера. Має пристойний вибір зброї, призначеної лише для другого помічника командира корабля."
+  name: ColMarTech Executive Officer Weapon Rack
+  description: An automated weapons rack for the Executive Officer. It features a decent selection of weaponry meant only for the second in command of a ship.
   components:
   - type: AccessReader
     access:
@@ -316,8 +316,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechCommandingOfficerClothing
-  name: "Вішалка для одягу командира ColMarTech"
-  description: "Автоматизована шафа, підключена до величезного сховища стандартних варіантів форменого одягу."
+  name: ColMarTech Commanding Officer Clothing Rack
+  description: An automated closet hooked up to a colossal storage of standard-issue dress uniform variants.
   components:
   - type: AccessReader
     access:
@@ -370,8 +370,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechCommandingOfficerEquipment
-  name: "Стійка для спорядження командира ColMarTech"
-  description: "Автоматизований постачальник обладнання для командирів. Містить найкращий вибір спорядження лише для вищого офіцерського складу ЦВС ООН."
+  name: ColMarTech Commanding Officer Equipment Rack
+  description: An automated equipment vendor for the Commanding Officer. Contains a prime selection of equipment for only the UNMC's top officers.
   components:
   - type: AccessReader
     access:
@@ -458,8 +458,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechCommandingOfficerWeapon
-  name: "ColMarTech Commandor's Command Officer's Armor Rack"
-  description: "Автоматизований стелаж для зброї для командира. На ньому представлено широкий вибір зброї, призначеної лише для вищого офіцерського складу ЦВС ООН."
+  name: ColMarTech Commanding Officer Weapon Rack
+  description: An automated weapons rack for the Commanding Officer. It features a robust selection of weaponry meant only for the UNMC's top officers.
   components:
   - type: AccessReader
     access:
@@ -563,8 +563,8 @@
 - type: entity
   parent: CMVendorBundleRiflemanApparel
   id: RMCVendorBundleXOFormal
-  name: "офіційна форма"
-  description: "Включає кепку з козирком, офіційну форму та піджак."
+  name: formal uniform
+  description: Contains a peaked cap, formal uniform and jacket.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/coat_formal.rsi
@@ -578,8 +578,8 @@
 - type: entity
   parent: CMVendorBundleRiflemanApparel
   id: RMCVendorBundleMilitaryPoliceApparelCMP
-  name: "Поліцейський набір першої необхідності"
-  description: "Містить захисні HUD-окуляри та заповнений захисний пояс."
+  name: Essential Police Set
+  description: Contains security HUD-glasses and a filled security belt.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Eyes/Glasses/security_glasses.rsi
@@ -594,8 +594,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechSeniorOfficerEquipment
-  name: "Стійка для обладнання старшого офіцера ColMarTech"
-  description: "Постачальник автоматизованого обладнання для старших офіцерів."
+  name: ColMarTech Senior Officer Equipment Rack
+  description: An automated equipment vendor for Senior Officers.
   components:
   - type: AccessReader
     access:

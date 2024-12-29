@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: RMCNurseArmband
-  name: "нарукавна пов'язка медсестри"
-  description: "Нарукавна пов'язка, яку носять медсестри-новачки, щоб показати, що вони ще не лікарі. Ця пов'язка темно-червона."
+  name: nurse armband
+  description: An armband, worn by the rookie nurses to display they are still not doctors. This one is dark red.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/nurse_armband.rsi

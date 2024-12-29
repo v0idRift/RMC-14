@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: RMCBaseDoorInvincible
   id: RMCAirlockEvacuation
-  name: "Евакуаційний шлюз PL-6"
-  description: "Він відкривається і закривається."
+  name: Evacuation Airlock PL-6
+  description: It opens and closes.
   placement:
     mode: SnapgridCenter
   components:
@@ -20,8 +20,8 @@
 - type: entity
   parent: RMCBaseDoorInvincible
   id: RMCAirlockLifeboat
-  name: "доковий люк рятувальної шлюпки"
-  description: "Потужна перегородка для рятувальної шлюпки."
+  name: lifeboat docking hatch
+  description: A heavyset bulkhead for a lifeboat.
   placement:
     mode: SnapgridCenter
   components:

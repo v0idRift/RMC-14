@@ -1,8 +1,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechCrewCombatCorrespondent
-  name: "Стійка для бойового кореспондентського обладнання ColMarTech"
-  description: "Автоматизований стелаж, підключений до величезного сховища стандартного обладнання Reporter."
+  name: ColMarTech Combat Correspondent Equipment Rack
+  description: An automated rack hooked up to a colossal storage of Reporter standard-issue equipment.
   components:
   - type: AccessReader
     access:
@@ -56,8 +56,8 @@
 - type: entity
   parent: CMVendorBundleRiflemanApparel
   id: RMCVendorBundleCrewCombatCorrespondent
-  name: "необхідний набір репортера"
-  description: "Містить ручку та блокнот, ліхтарик та бінокль."
+  name: essential reporter's set
+  description: Contains a pen and a clipboard, a flashlight and binoculars.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/paper.rsi

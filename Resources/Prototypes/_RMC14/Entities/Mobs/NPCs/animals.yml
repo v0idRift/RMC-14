@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: RMCSmallHost
-  name: "абстрактний малий хост"
+  name: abstract small host
   abstract: true
   components:
   - type: Infectable
@@ -79,8 +79,8 @@
 - type: entity
   parent: MobCorgiPuppy
   id: CMMobWiggles
-  name: "Містере Вігглз"
-  description: "Це цуценя коргі. МІСТЕР ВІГГЛС!!! ВІН НАЙКРАЩИЙ!"
+  name: Mister Wiggles
+  description: It's a corgi puppy. MISTER WIGGLES!! HE IS THE GREATEST!
   components:
   - type: WarpPoint
     follow: true
@@ -96,8 +96,8 @@
 - type: entity
   parent: MobCatCalico
   id: CMMobJones
-  name: "Джонс"
-  description: "Жорсткий, старий безпритульний, походження якого, здається, ніхто не знає."
+  name: Jones
+  description: A tough, old stray whose origin no one seems to know.
   components:
   - type: WarpPoint
     follow: true
@@ -113,8 +113,8 @@
 - type: entity
   parent: MobCatCalico
   id: RMCMobOrion
-  name: "Оріон"
-  description: "Домашній котячий улюбленець. На нашийнику написано \"Оріон\"."
+  name: Orion
+  description: A domesticated, feline pet. The collar says 'Orion'.
   components:
   - type: WarpPoint
     follow: true
@@ -130,8 +130,8 @@
 - type: entity
   parent: MobCat
   id: RMCMobGarry
-  name: "Гаррі"
-  description: "Її хутро на вигляд і на дотик нагадує оксамит, а хвіст час від часу тремтить."
+  name: Garry
+  description: Her fur has the look and feel of velvet, and her tail quivers occasionally.
   components:
   - type: WarpPoint
     follow: true
@@ -149,7 +149,7 @@
 - type: entity
   parent: MarkerBase
   id: CMSpawnMobMonkey
-  name: "мавпяче нерестовище"
+  name: monkey spawner
   suffix: RMC
   components:
   - type: Sprite
@@ -164,7 +164,7 @@
 - type: entity
   parent: MarkerBase
   id: CMSpawnMobKobold
-  name: "нерестовик кобольдів"
+  name: kobold spawner
   suffix: RMC
   components:
   - type: Sprite
@@ -191,7 +191,7 @@
 - type: entity
   parent: MarkerBase
   id: CMSpawnMobWiggles
-  name: "Містер Вігглс Споунер"
+  name: Mr. Wiggles Spawner
   suffix: CM
   components:
   - type: Sprite
@@ -206,7 +206,7 @@
 - type: entity
   parent: MarkerBase
   id: CMSpawnMobJones
-  name: "Джонс Споунер"
+  name: Jones Spawner
   suffix: CM
   components:
   - type: Sprite
@@ -221,7 +221,7 @@
 - type: entity
   parent: MarkerBase
   id: CMSpawnMobOrion
-  name: "Оріон Спайнер"
+  name: Orion Spawner
   suffix: RMC
   components:
   - type: Sprite
@@ -236,7 +236,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnMobGarry
-  name: "Гаррі Споунер"
+  name: Garry Spawner
   suffix: RMC
   components:
   - type: Sprite

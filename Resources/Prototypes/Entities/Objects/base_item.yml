@@ -1,5 +1,5 @@
 - type: entity
-  name: "пункт"
+  name: "item"
   parent: CMCorrodible
   id: BaseItem
   abstract: true
@@ -46,7 +46,7 @@
   - type: RMCItemPickup
 
 - type: entity
-  name: "елемент зберігання"
+  name: "storage item"
   id: BaseStorageItem
   parent: BaseItem
   abstract: true

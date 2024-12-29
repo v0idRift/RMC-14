@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: RMCPlanetLV624
-  name: "LV-624"
+  name: LV-624
   components:
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/lv624.yml
@@ -9,7 +9,7 @@
 
 - type: entity
   id: RMCPlanetSolaris
-  name: "Хребет Соляріс"
+  name: Solaris Ridge
   components:
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/solaris.yml
@@ -18,7 +18,7 @@
 
 - type: entity
   id: RMCPlanetShiva
-  name: "Шивас Сніжок"
+  name: Shivas Snowball
   components:
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/shiva.yml
@@ -27,7 +27,7 @@
 
 - type: entity
   id: RMCPlanetFiorina
-  name: "Науковий додаток Fiorina"
+  name: Fiorina Science Annex
   components:
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/prison.yml
@@ -37,7 +37,7 @@
 
 - type: entity
   id: RMCPlanetTrijent
-  name: "Дамба Тріджент"
+  name: Trijent Dam
   components:
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/trijent.yml
@@ -47,7 +47,7 @@
 
 - type: entity
   id: RMCPlanetVaradero
-  name: "Новий Варадеро"
+  name: New Varadero
   components:
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/varadero.yml
@@ -64,7 +64,7 @@
 
 - type: entity
   id: RMCPlanetKutjevo
-  name: "Кутьєвський НПЗ"
+  name: Kutjevo Refinery
   components:
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/kutjevo.yml
@@ -73,7 +73,7 @@
 
 - type: entity
   id: RMCPlanetChances
-  name: "LV-522 Вимога Шансу"
+  name: LV-522 Chance's Claim
   components:
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/chances.yml

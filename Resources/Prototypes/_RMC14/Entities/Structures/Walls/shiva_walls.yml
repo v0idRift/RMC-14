@@ -2,8 +2,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RCMWallShivaIce
-  name: "чорні крижані плити"
-  description: "Плити на плитах брудного чорного льоду, що покривають давні гірські породи. Рівень вічної мерзлоти коливається від 20 до 12 дюймів протягом літніх місяців."
+  name: black ice slabs
+  description: Slabs on slabs of dirty black ice crusted over ancient rock formations. The permafrost fluctuates between 20in and 12in during the summer months.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/shiva_ice.rsi
@@ -20,8 +20,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RCMWallShivaInvincibleFab
-  name: "армована стіна збірної конструкції"
-  description: "Його не можна знищити жодними доступними вам засобами. Можливо, допоможе молитва до богів."
+  name: reinforced prefabricated structure wall
+  description: It cannot be destroyed by any means you have available. Perhaps praying to the gods may help.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/shiva_fab_r.rsi
@@ -38,8 +38,8 @@
 - type: entity
   parent: CMWallMetal
   id: RCMWallShivaFab
-  name: "стіна зі збірних конструкцій"
-  description: "Ця конструкція виготовлена з металевих опорних стрижнів та міцного полікевлонового пластику. Це похідний матеріал, який використовується у балістичних жилетах ООН, уніформі UNMC та SPP. Ці стінки натягнуті та укріплені в більш міцну конструкцію."
+  name: prefabricated structure wall
+  description: This structure is made of metal support rods and robust poly-kevlon plastics. A derivative of the stuff used in UN ballistics vests, UNMC and SPP uniforms. These walls are pulled taut and have been reinforced into a more permanent structure.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/shiva_fab.rsi
@@ -54,8 +54,8 @@
 - type: entity
   parent: CMWallReinforced
   id: RCMWallShivaReinforcedFab
-  name: "армована стіна збірної конструкції"
-  description: "Ця конструкція зроблена з металевих опорних стрижнів. Полікевлон замінили на листовий метал, що підсилює її."
+  name: reinforced prefabricated structure wall
+  description: This structure is made of metal support rods. The poly-kevlon has been replaced with sheet metal, reinforcing it.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/shiva_fab_r.rsi
@@ -70,8 +70,8 @@
 - type: entity
   parent: CMWallReinforced
   id: RCMWallShivaReinforcedFabOrange
-  name: "армована стіна збірної конструкції"
-  description: "Ця конструкція зроблена з металевих опорних стрижнів. Полікевлон замінили на листовий метал, що підсилює її."
+  name: reinforced prefabricated structure wall
+  description: This structure is made of metal support rods. The poly-kevlon has been replaced with sheet metal, reinforcing it.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/shiva_fab_oj.rsi
@@ -86,8 +86,8 @@
 - type: entity
   parent: CMWallReinforced
   id: RCMWallShivaReinforcedFabBlue
-  name: "армована стіна збірної конструкції"
-  description: "Ця конструкція зроблена з металевих опорних стрижнів. Полікевлон замінили на листовий метал, що підсилює її."
+  name: reinforced prefabricated structure wall
+  description: This structure is made of metal support rods. The poly-kevlon has been replaced with sheet metal, reinforcing it.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/shiva_fab_blu.rsi
@@ -102,8 +102,8 @@
 - type: entity
   parent: CMWallReinforced
   id: RCMWallShivaReinforcedFabPink
-  name: "армована стіна збірної конструкції"
-  description: "Ця конструкція зроблена з металевих опорних стрижнів. Полікевлон замінили на листовий метал, що підсилює її."
+  name: reinforced prefabricated structure wall
+  description: This structure is made of metal support rods. The poly-kevlon has been replaced with sheet metal, reinforcing it.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/shiva_fab_pnk.rsi
@@ -118,8 +118,8 @@
 - type: entity
   parent: CMWallReinforced
   id: RCMWallShivaReinforcedFabWhite
-  name: "армована стіна збірної конструкції"
-  description: "Ця конструкція зроблена з металевих опорних стрижнів. Полікевлон замінили на листовий метал, що підсилює її."
+  name: reinforced prefabricated structure wall
+  description: This structure is made of metal support rods. The poly-kevlon has been replaced with sheet metal, reinforcing it.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/shiva_fab_wht.rsi
@@ -134,8 +134,8 @@
 - type: entity
   parent: CMWallReinforced
   id: RCMWallShivaReinforcedFabRed
-  name: "армована стіна збірної конструкції"
-  description: "Ця конструкція зроблена з металевих опорних стрижнів. Полікевлон замінили на листовий метал, що підсилює її."
+  name: reinforced prefabricated structure wall
+  description: This structure is made of metal support rods. The poly-kevlon has been replaced with sheet metal, reinforcing it.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/shiva_fab_red.rsi
