@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: RMCBaseJacket
   id: RMCJacketCorporateBlack
-  name: black suit jacket
-  description: A black suit jacket.
+  name: "чорний піджак"
+  description: "Чорний піджак."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Corporate/corporate_black_jacket.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCJacketCorporateBlue
-  name: blue suit jacket
-  description: A blue suit jacket.
+  name: "синій піджак"
+  description: "Синій піджак."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Corporate/corporate_blue_jacket.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCJacketCorporateBrown
-  name: brown suit jacket
-  description: A brown suit jacket.
+  name: "коричневий піджак"
+  description: "Коричневий піджак."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Corporate/corporate_brown_jacket.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCJacketCorporateFormal
-  name: formal suit jacket
-  description: A formal suit jacket.
+  name: "піджак офіційного костюма"
+  description: "Формальний піджак."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Corporate/corporate_formal_jacket.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCJacketCorporateKhaki
-  name: khaki jacket
-  description: A khaki suit jacket.
+  name: "куртка кольору хакі"
+  description: "Костюмний піджак кольору хакі."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Corporate/corporate_ivy_jacket.rsi

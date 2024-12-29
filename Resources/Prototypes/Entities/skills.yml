@@ -7,13 +7,13 @@
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillAntagonist
-  name: Antagonist
+  name: "Антагоніст"
   categories: [ HideSpawnMenu ]
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillConstruction
-  name: Construction
+  name: "Будівництво"
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillDefinition
@@ -23,25 +23,25 @@
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillCqc
-  name: Cqc
+  name: "Cqc"
   categories: [ HideSpawnMenu ]
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillDomestics
-  name: Domestics
+  name: "Домашнє господарство"
   categories: [ HideSpawnMenu ]
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillEndurance
-  name: Endurance
+  name: "Витривалість"
   categories: [ HideSpawnMenu ]
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillEngineer
-  name: Engineer
+  name: "Інженер"
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillDefinition
@@ -50,19 +50,19 @@
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillExecution
-  name: Execution
+  name: "Страта"
   categories: [ HideSpawnMenu ]
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillFirearms
-  name: Firearms
+  name: "Вогнепальна зброя"
   categories: [ HideSpawnMenu ]
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillFireman
-  name: Fireman
+  name: "Пожежник"
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillDefinition
@@ -71,91 +71,91 @@
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillIntel
-  name: Intel
+  name: "Інтел"
   categories: [ HideSpawnMenu ]
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillJtac
-  name: Jtac
+  name: "Джейтаку"
   categories: [ HideSpawnMenu ]
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillLeadership
-  name: Leadership
+  name: "Лідерство"
   categories: [ HideSpawnMenu ]
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillMedical
-  name: Medical
+  name: "Медичні"
   categories: [ HideSpawnMenu ]
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillMeleeWeapons
-  name: MeleeWeapons
+  name: "Зброя ближнього бою"
   categories: [ HideSpawnMenu ]
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillNavigations
-  name: Navigations
+  name: "Навігація"
   categories: [ HideSpawnMenu ]
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillOverwatch
-  name: Overwatch
+  name: "Overwatch"
   categories: [ HideSpawnMenu ]
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillPilot
-  name: Pilot
+  name: "Пілот"
   categories: [ HideSpawnMenu ]
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillPolice
-  name: Police
+  name: "Поліція"
   categories: [ HideSpawnMenu ]
 
 # Forklift certified
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillPowerLoader
-  name: PowerLoader
+  name: "PowerLoader"
   categories: [ HideSpawnMenu ]
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillResearch
-  name: Research
+  name: "Дослідження"
   categories: [ HideSpawnMenu ]
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillSmartGun
-  name: SmartGun
+  name: "SmartGun"
   categories: [ HideSpawnMenu ]
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillSpecialistWeapons
-  name: SpecialistWeapons
+  name: "Спеціаліст Зброя"
   categories: [ HideSpawnMenu ]
 
 # No longer a week away
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillSurgery
-  name: Surgery
+  name: "Хірургія"
   categories: [ HideSpawnMenu ]
 
 - type: entity
   parent: RMCSkillBase
   id: RMCSkillVehicles
-  name: Vehicles
+  name: "Транспортні засоби"
   categories: [ HideSpawnMenu ]

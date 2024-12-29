@@ -2,8 +2,8 @@
 - type: entity
   parent: CMWallMetal
   id: CMWallSolaris
-  name: colony wall
-  description: Tough looking walls that have been blasted by sand since the day they were erected. A testament to human willpower.
+  name: "стіна колонії"
+  description: "Суворі на вигляд стіни, які з дня зведення засипало піском. Свідчення людської сили волі."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/solaris_wall.rsi
@@ -18,8 +18,8 @@
 - type: entity
   parent: CMWallReinforced
   id: CMWallSolarisReinforced
-  name: reinforced colony wall
-  description: Tough looking walls that have been blasted by sand since the day they were erected. A testament to human willpower.
+  name: "посилена стіна колонії"
+  description: "Суворі на вигляд стіни, які з дня зведення засипало піском. Свідчення людської сили волі."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/solaris_rwall.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: CMWallSolarisHull
-  name: heavy reinforced colony wall
-  description: Tough looking walls that have been blasted by sand since the day they were erected. A testament to human willpower.
+  name: "важка армована стіна колонії"
+  description: "Суворі на вигляд стіни, які з дня зведення засипало піском. Свідчення людської сили волі."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/solaris_rwall.rsi
@@ -50,8 +50,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: CMWallSolarisRock
-  name: rock wall
-  description: Tough looking walls that have been blasted by sand since the day they were erected. A testament to human willpower.
+  name: "скельна стіна"
+  description: "Суворі на вигляд стіни, які з дня зведення засипало піском. Свідчення людської сили волі."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/solaris_rock.rsi

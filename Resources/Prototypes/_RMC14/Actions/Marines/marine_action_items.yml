@@ -1,8 +1,8 @@
 - type: entity
   parent: ActionMarineBase
   id: CMActionToggleScope
-  name: Toggle Optics
-  description: Scope in or out with your optics.
+  name: "Перемикання оптики"
+  description: "Зазирніть всередину або назовні за допомогою оптики."
   components:
   - type: InstantAction
     icon:
@@ -14,8 +14,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionCycleZoomLevel
-  name: Cycle Zoom Level
-  description: Change the level of magnification of your optics.
+  name: "Рівень циклічного масштабування"
+  description: "Змініть рівень збільшення вашої оптики."
   components:
   - type: InstantAction
     icon:
@@ -30,8 +30,8 @@
 - type: entity
   parent: ActionMarineBase
   id: CMActionToggleScoutVision
-  name: Toggle the M42 scout sight
-  description: Allows you to see even in complete darkness.
+  name: "Перемикання прицілу розвідника M42"
+  description: "Дозволяє бачити навіть у повній темряві."
   components:
   - type: InstantAction
     icon:
@@ -46,8 +46,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionToggleIDLock
-  name: Toggle ID lock
-  description: Toggles the ID lock on the gun, allowing anyone to use it.
+  name: "Ввімкнути блокування ідентифікатора"
+  description: "Вмикає ідентифікаційний замок на пістолеті, дозволяючи користуватися ним будь-кому."
   components:
   - type: InstantAction
     icon:
@@ -58,8 +58,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionToggleIFF
-  name: Toggle IFF
-  description: Toggles the IFF on the gun.
+  name: "Ввімкнути ІКФ"
+  description: "Вмикає IFF на пістолеті."
   components:
   - type: InstantAction
     icon:
@@ -70,8 +70,8 @@
 - type: entity
   parent: ActionMarineBase
   id: CMActionToggleAttachable
-  name: Toggle Attachable
-  description: Toggle an attachable. If you're seeing this, someone forgot to set the description properly.
+  name: "Перемикач Прикріплюваний"
+  description: "Перемикання вкладеного файлу. Якщо ви бачите це, це означає, що хтось забув налаштувати опис належним чином."
   components:
   - type: InstantAction
     icon:
@@ -82,8 +82,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionWhistle
-  name: Whistle
-  description: Blow the whistle.
+  name: "Свист"
+  description: "Свистіть."
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -96,8 +96,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionTelephone
-  name: Use Phone
-  description: Used to call another phone.
+  name: "Використовуйте телефон"
+  description: "Дзвонив на інший телефон."
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -113,8 +113,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionToggleMedhud
-  name: Toggle Medical HUD
-  description: Toggle the optical matrix of the medical HUD.
+  name: "Перемкнути медичний HUD"
+  description: "Перемикання оптичної матриці медичного HUD."
   components:
   - type: InstantAction
     itemIconStyle: BigItem
@@ -123,8 +123,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionToggleWeldingGoggles
-  name: Toggle the welding goggles
-  description: Change the positions of the welding goggles on your forehead.
+  name: "Перемикання зварювальних окулярів"
+  description: "Змініть положення зварювальних окулярів на лобі."
   components:
   - type: InstantAction
     itemIconStyle: BigItem

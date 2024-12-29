@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: RMCCrateAmmo
   id: RMCCrateMagazineM96SMixed
-  name: M96S Sniper Mixed Magazine Crate (marksman x2, flak x2, incendiary x2)
+  name: "M96S Снайперський ящик для змішаних магазинів (снайперський x2, протитанковий x2, запалювальний x2)"
   components:
   - type: StorageFill
     contents:
@@ -15,7 +15,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateMagazineM96SStandard
-  name: M96S Sniper Standard Magazine Crate (x5)
+  name: "M96S Снайперська стандартна магазинна коробка (x5)"
   components:
   - type: StorageFill
     contents:
@@ -25,7 +25,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateMagazineM96SFlak
-  name: M96S Sniper Flak Magazine Crate (x5)
+  name: "Ящик для магазинів M96S Sniper Flasher (x5)"
   components:
   - type: StorageFill
     contents:
@@ -35,7 +35,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateMagazineM96SIncendiary
-  name: M96S Sniper Incendiary Magazine Crate (x5)
+  name: "Ящик для снайперських запалювальних магазинів M96S (x5)"
   components:
   - type: StorageFill
     contents:
@@ -45,7 +45,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateM5DemoSpecMixed
-  name: M5-ATL Mixed Crate (HE x2, AP x1) # TODO RMC14 replace 1 HE with WP
+  name: "M5-ATL Змішаний ящик (HE x2, AP x1)" # TODO RMC14 replace 1 HE with WP
   components:
   - type: StorageFill
     contents:
@@ -57,7 +57,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateM5DemoSpecHighExplosive
-  name: M5-ATL High Explosives Crate (HE x3)
+  name: "Ящик для вибухових речовин M5-ATL (HE x3)"
   components:
   - type: StorageFill
     contents:
@@ -67,7 +67,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateM5DemoSpecAntiArmor
-  name: M5-ATL Anti-Armor Crate (AP x3)
+  name: "M5-ATL Протитанковий ящик (AP x3)"
   components:
   - type: StorageFill
     contents:
@@ -88,7 +88,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateMagazineM4SPRCustomMixed
-  name: M4SPR Scout Mixed Magazine Crate (regular x2, incendiary x2, impact x2)
+  name: "M4SPR Scout Змішаний магазинний ящик (звичайний x2, запалювальний x2, ударний x2)"
   components:
   - type: StorageFill
     contents:
@@ -102,7 +102,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateMagazineM4SPRCustomStandard
-  name: M4SPR Scout Magazine Crate (x5)
+  name: "M4SPR Ящик для магазинів Scout (x5)"
   components:
   - type: StorageFill
     contents:
@@ -112,7 +112,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateMagazineM4SPRCustomImpact
-  name: M4SPR Scout Impact Magazine Crate (x3)
+  name: "M4SPR Scout Impact Магазинний ящик (x3)"
   components:
   - type: StorageFill
     contents:
@@ -122,7 +122,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateMagazineM4SPRCustomIncendiary
-  name: M4SPR Scout Incendiary Magazine Crate (x3)
+  name: "M4SPR Ящик для запалювальних магазинів Scout (x3)"
   components:
   - type: StorageFill
     contents:

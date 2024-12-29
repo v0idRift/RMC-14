@@ -3,7 +3,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxShellsShotgunSlugs
-  name: Shell box (100x slug shells)
+  name: "Ящик для набоїв (100 набоїв)"
   components:
   - type: StorageFill
     contents:
@@ -13,7 +13,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxShellsShotgunBuckshot
-  name: Shell box (100x buckshot shells)
+  name: "Ящик для набоїв (100 набоїв з картеччю)"
   components:
   - type: StorageFill
     contents:
@@ -23,7 +23,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxShellsShotgunFlechette
-  name: Shell box (100x flechette shells)
+  name: "Коробка для гільз (100x флешевих гільз)"
   components:
   - type: StorageFill
     contents:
@@ -33,7 +33,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxShellsShotgunBreaching
-  name: Shell box (120x breaching shells)
+  name: "Ящик для снарядів (120x пробивних снарядів)"
   components:
   - type: StorageFill
     contents:
@@ -43,7 +43,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxAmmo458
-  name: .458 bullets box (.458 x 300)
+  name: "Коробка з патронами .458 (.458 x 300)"
   components:
   - type: StorageFill
     contents:

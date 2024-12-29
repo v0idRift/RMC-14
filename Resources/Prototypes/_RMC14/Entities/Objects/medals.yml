@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseItem
   id: RMCMedalBase
-  name: medal
-  description: A medal.
+  name: "медаль"
+  description: "Медаль."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/bronze.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalBronze
-  name: bronze medal
-  description: A bronze medal.
+  name: "бронзова медаль"
+  description: "Бронзова медаль."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/bronze.rsi
@@ -26,14 +26,14 @@
 - type: entity
   parent: RMCMedalBronze
   id: RMCMedalBronzeService
-  name: bronze service medal
-  description: A bronze medal awarded for a marine's service within the UNMC. It is a very common medal, and is typically the first medal a marine would receive.
+  name: "бронзова медаль за заслуги"
+  description: "Бронзова медаль, якою нагороджують морських піхотинців за службу в лавах ВМС ООН. Це дуже поширена медаль, і, як правило, це перша медаль, яку отримує морський піхотинець."
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalSilver
-  name: silver medal
-  description: A silver medal.
+  name: "срібна медаль"
+  description: "Срібна медаль."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/silver.rsi
@@ -46,14 +46,14 @@
 - type: entity
   parent: RMCMedalSilver
   id: RMCMedalSilverService
-  name: silver service medal
-  description: A shiny silver medal awarded for a marine's service within the UNMC. It is a somewhat common medal which signifies the amount of time a marine has spent in the line of duty.
+  name: "срібна медаль за заслуги"
+  description: "Блискуча срібна медаль, якою нагороджують морських піхотинців за службу у складі ВМС ООН. Це досить поширена медаль, яка означає кількість часу, проведеного морським піхотинцем на службі."
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalGold
-  name: gold medal
-  description: A prestigious golden medal.
+  name: "золота медаль"
+  description: "Престижна золота медаль."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/gold.rsi
@@ -66,14 +66,14 @@
 - type: entity
   parent: RMCMedalGold
   id: RMCMedalGoldService
-  name: gold service medal
-  description: A prestigious gold medal awarded for a marine's service within the UNMC. It is a rare medal which signifies the amount of time a marine has spent in the line of duty.
+  name: "золота медаль за заслуги"
+  description: "Престижна золота медаль, якою нагороджують за службу морських піхотинців у складі ВМС ООН. Це рідкісна медаль, яка означає кількість часу, проведеного морським піхотинцем на службі."
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalPlatinum
-  name: platinum medal
-  description: A very prestigious platinum medal, only able to be handed out by generals due to special circumstances.
+  name: "платинова медаль"
+  description: "Дуже престижна платинова медаль, яку можуть вручати лише генерали через особливі обставини."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/platinum.rsi
@@ -86,5 +86,5 @@
 - type: entity
   parent: RMCMedalPlatinum
   id: RMCMedalPlatinumService
-  name: platinum service medal
-  description: The highest service medal that can be awarded to a marine; such medals are hand-given by UNMC Generals to a marine. It signifies the sheer amount of time a marine has spent in the line of duty.
+  name: "платинову медаль за заслуги"
+  description: "Найвища медаль за заслуги, якою може бути нагороджена морська піхота; такі медалі вручаються морським піхотинцям особисто генералами ВМС США. Вона означає величезну кількість часу, яку морський піхотинець провів на службі."

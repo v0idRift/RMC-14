@@ -1,10 +1,9 @@
 ﻿- type: entity
   parent: RMCBaseWeaponSniperRifle
   id: CMM96SSniperRifle
-  name: M96S scoped rifle
+  name: "Прицільна гвинтівка M96S"
   suffix: Desert
-  description: "A heavy sniper rifle manufactured by Aegis Armaments. It has a scope system and fires armor penetrating rounds out of a 15-round magazine.
-    'Peace Through Superior Firepower'"
+  description: "Важка снайперська гвинтівка виробництва компанії Aegis Armaments. Гвинтівка має оптичний приціл та стріляє бронебійними патронами з 15-зарядного магазину. \"Мир через перевагу у вогневій потужності"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Snipers/m96s/desert.rsi
@@ -86,8 +85,8 @@
 - type: entity
   parent: BaseMagazineRifle
   id: CMMagazineSniperM96S
-  name: "M96S marksman magazine (10x28mm)"
-  description: A magazine of sniper rifle ammo. An aimed shot with it will deal significant damage.
+  name: "Магазин для стрільби з M96S (10x28мм)"
+  description: "Магазин з набоями для снайперської гвинтівки. Прицільний постріл з нього завдасть значної шкоди."
   components:
   - type: Tag
     tags:
@@ -117,8 +116,8 @@
 - type: entity
   parent: CMMagazineSniperM96S
   id: CMMagazineSniperM96SIncendiary
-  name: "M96S incendiary magazine (10x28mm)"
-  description: A magazine of sniper rifle ammo. An aimed shot with it will temporarily blind the targe and kindle the blaze further.
+  name: "Запалювальний магазин M96S (10x28 мм)"
+  description: "Магазин набоїв для снайперської гвинтівки. Прицільний постріл з нього тимчасово засліплює ціль і розпалює полум'я ще більше."
   components:
   - type: BallisticAmmoProvider
     proto: CMCartridgeSniper10x28mmIncendiary
@@ -136,8 +135,8 @@
 - type: entity
   parent: CMMagazineSniperM96S
   id: CMMagazineSniperM96SFlak
-  name: "M96S flak magazine (10x28mm)"
-  description: A magazine of sniper rifle ammo. An aimed shot with it will temporarily slow the target and minimize the backlash.
+  name: "Зенітний магазин M96S (10x28мм)"
+  description: "Магазин набоїв для снайперської гвинтівки. Прицільний постріл з нього тимчасово сповільнить ціль і мінімізує люфт."
   components:
   - type: BallisticAmmoProvider
     proto: CMCartridgeSniper10x28mmFlak
@@ -155,8 +154,8 @@
 - type: entity
   parent: CMMagazineSniperM96S
   id: CMMagazineSniperM96SAntiMateriel
-  name: "XM43E1 marksman magazine (10x99mm)"
-  description: A magazine of 10x99mm anti-materiel rounds.
+  name: "Магазин для стрільби XM43E1 (10x99мм)"
+  description: "Магазин з протипіхотними набоями 10х99 мм."
   components:
   - type: Tag
     tags:
@@ -181,7 +180,7 @@
 - type: entity
   parent: CMCartridgeSniper10x28mm
   id: CMCartridgeSniper10x28mmIncendiary
-  name: cartridge (10x28mm) (incendiary)
+  name: "патрон (10x28мм) (запальний)"
   components:
   - type: CartridgeAmmo
     proto: CMBulletSniper10x28mmIncendiary
@@ -189,7 +188,7 @@
 - type: entity
   parent: CMCartridgeSniper10x28mm
   id: CMCartridgeSniper10x28mmFlak
-  name: cartridge (10x28mm) (Flak)
+  name: "патрон (10x28мм) (Flak)"
   components:
   - type: CartridgeAmmo
     proto: CMBulletSniper10x28mmFlak
@@ -197,7 +196,7 @@
 - type: entity
   parent: CMCartridgeSniper10x28mm
   id: CMCartridgeSniper10x99mmAntiMateriel
-  name: cartridge (10x99mm) (AntiMateriel)
+  name: "патрон (10х99мм) (AntiMateriel)"
   components:
   - type: Tag
     tags:
@@ -209,7 +208,7 @@
 - type: entity
   parent: RMCBaseBullet
   id: CMBulletSniper10x28mm
-  name: bullet (10x28mm)
+  name: "куля (10x28мм)"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -240,7 +239,7 @@
 - type: entity
   parent: CMBulletSniper10x28mm
   id: CMBulletSniper10x28mmIncendiary
-  name: bullet (10x28mm)
+  name: "куля (10x28мм)"
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -256,7 +255,7 @@
 - type: entity
   parent: CMBulletSniper10x28mm
   id: CMBulletSniper10x28mmFlak
-  name: bullet (10x28mm)
+  name: "куля (10x28мм)"
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -269,7 +268,7 @@
 - type: entity
   parent: CMBulletSniper10x28mm
   id: CMBulletSniper10x99mmAntiMateriel
-  name: bullet (10x99mm)
+  name: "куля (10х99мм)"
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

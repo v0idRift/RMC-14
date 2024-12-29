@@ -1,7 +1,7 @@
 - type: entity
   id: ActionToggleMarineHud
-  name: Toggle Marine Hud
-  description: Toggle marine icons.
+  name: "Ввімкнути морську піхоту"
+  description: "Перемикайте морські іконки."
   components:
   - type: InstantAction
     checkCanInteract: false
@@ -15,8 +15,8 @@
 
 - type: entity
   id: ActionToggleXenoHud
-  name: Toggle Xeno Hud
-  description: Toggle xeno health and plasma bars.
+  name: "Ввімкнути Xeno Hud"
+  description: "Перемикайте ксеноздоров'я та плазмові батончики."
   components:
   - type: InstantAction
     checkCanInteract: false
@@ -30,8 +30,8 @@
 
 - type: entity
   id: ActionFindParasite
-  name: Find Parasite
-  description: Find Ghostrolable Parasites
+  name: "Знайти паразита"
+  description: "Знайдіть паразитів, які можна контролювати за допомогою привидів"
   components:
   - type: InstantAction
     checkCanInteract: false
@@ -42,8 +42,8 @@
 
 - type: entity
   id: ActionJoinXeno
-  name: Join as Xeno
-  description: Find burrowed larva to join as.
+  name: "Приєднуйтесь як Xeno"
+  description: "Знайдіть зариту личинку, щоб приєднатися до неї."
   components:
   - type: InstantAction
     checkCanInteract: false

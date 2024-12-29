@@ -3,8 +3,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechSGGear
-  name: ColMarTech squad smart gun operator gear rack
-  description: An automated gear rack for Squad Smart Gun Operators.
+  name: "Стійка для спорядження оператора \"розумної\" гармати підрозділу ColMarTech"
+  description: "Автоматизована стійка для спорядження для операторів \"розумних\" гармат підрозділу."
   components:
   - type: AccessReader
     access:
@@ -111,8 +111,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechSGEquipment
-  name: ColMarTech squad Smart Gun equipment rack
-  description: An automated rack hooked up to a colossal storage of Squad Smart Gun standard-issue equipment.
+  name: "Стійка для спорядження підрозділу ColMarTech \"Розумна гармата"
+  description: "Автоматизований стелаж, підключений до величезного сховища стандартного обладнання Squad Smart Gun."
   components:
   - type: AccessReader
     access:

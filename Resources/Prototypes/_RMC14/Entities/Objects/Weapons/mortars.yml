@@ -1,9 +1,9 @@
 ﻿- type: entity
   parent: BaseItem
   id: RMCMortarKit
-  name: M402 mortar portable kit
+  name: "Переносний комплект для міномета M402"
   suffix: Classic
-  description: A manual, crew-operated mortar system intended to rain down 80mm goodness on anything it's aimed at. Needs to be set down first.
+  description: "Ручна мінометна система з екіпажем, призначена для обстрілу 80-міліметровими снарядами всього, на що вона націлена. Потрібно спочатку встановити."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/mortar/classic.rsi
@@ -94,8 +94,8 @@
   abstract: true
   parent: BaseItem
   id: RMCMortarShellBase
-  name: 80mm mortar shell
-  description: An unlabeled 80mm mortar shell, probably a casing.
+  name: "80-мм мінометна міна"
+  description: "Мінометна міна калібру 80 мм без маркування, ймовірно, гільза."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/mortar.rsi
@@ -107,8 +107,8 @@
 - type: entity
   parent: RMCMortarShellBase
   id: RMCMortarShellHE
-  name: 80mm high explosive mortar shell
-  description: An 80mm mortar shell, loaded with a high explosive charge.
+  name: "80-мм осколково-фугасна мінометна міна"
+  description: "80-мм мінометна міна, заряджена осколково-фугасним зарядом."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/mortar.rsi
@@ -126,8 +126,8 @@
 - type: entity
   parent: RMCMortarShellBase
   id: RMCMortarShellIncendiary
-  name: 80mm incendiary mortar shell
-  description: An 80mm mortar shell, loaded with a Type B napalm charge. Perfect for long-range area denial.
+  name: "80-мм запалювальна мінометна міна"
+  description: "80-мм мінометна міна, споряджена напалмовим зарядом типу B. Ідеально підходить для ураження великих територій."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/mortar.rsi
@@ -148,8 +148,8 @@
 - type: entity
   parent: RMCMortarShellBase
   id: RMCMortarShellFlare
-  name: 80mm flare/camera mortar shell
-  description: An 80mm mortar shell, loaded with an illumination flare / camera combo, attached to a parachute.
+  name: "80-мм освітлювальна/камерна мінометна міна"
+  description: "80-мм мінометна міна, заряджена освітлювальною сигнальною ракетою та комбінованою камерою, прикріпленою до парашута."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/mortar.rsi
@@ -159,8 +159,8 @@
 
 - type: entity
   id: RMCMortarFlare
-  name: illumination flare
-  description: It's really bright, and unreachable.
+  name: "освітлювальний факел"
+  description: "Він дуже яскравий і недосяжний."
   components:
   - type: Transform
     anchored: true
@@ -176,7 +176,7 @@
 
 - type: entity
   id: RMCMortarCamera
-  name: para-cam
+  name: "пара-камера"
   components:
   - type: Transform
     anchored: true
