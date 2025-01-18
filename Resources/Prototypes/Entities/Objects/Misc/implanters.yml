@@ -1,8 +1,8 @@
 # Implanters
 
 - type: entity
-  name: implanter
-  description: A syringe exclusively designed for the injection and extraction of subdermal implants.
+  name: "імплантатор"
+  description: "Шприц, призначений виключно для введення та вилучення підшкірних імплантатів."
   id: BaseImplanter
   parent: BaseItem
   abstract: true
@@ -57,7 +57,7 @@
 - type: entity
   id: Implanter
   parent: BaseImplanter
-  description: A disposable syringe exclusively designed for the injection and extraction of subdermal implants.
+  description: "Одноразовий шприц, призначений виключно для введення та вилучення підшкірних імплантатів."
   components:
     - type: Tag
       tags:
@@ -78,7 +78,7 @@
 - type: entity
   id: BaseImplantOnlyImplanter
   parent: Implanter
-  description: A disposable syringe exclusively designed for the injection of subdermal implants.
+  description: "Одноразовий шприц, призначений виключно для введення підшкірних імплантатів."
   abstract: true
   components:
     - type: Sprite
@@ -98,7 +98,7 @@
   id: BaseImplantOnlyImplanterSyndi
   parent: [BaseImplantOnlyImplanter, BaseSyndicateContraband]
   name: syndicate implanter
-  description: A compact disposable syringe exclusively designed for the injection of subdermal implants.
+  description: "Компактний одноразовий шприц, призначений виключно для ін'єкцій підшкірних імплантатів."
   abstract: true
   components:
     - type: Item

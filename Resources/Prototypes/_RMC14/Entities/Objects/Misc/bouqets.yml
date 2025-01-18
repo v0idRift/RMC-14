@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: RMCBouqetRose
-  name: rose bouqet
-  description: A collection of roses arranged in wrapping paper.
+  name: "букет троянд"
+  description: "Колекція троянд, упакованих в обгортковий папір."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/Bouqets/rose.rsi
@@ -14,8 +14,8 @@
 - type: entity
   parent: RMCBouqetRose
   id: RMCBouqetLily
-  name: lily bouqet
-  description: A collection of lilies arranged in wrapping paper. Appropriate for a memorial occasion.
+  name: "букет лілій"
+  description: "Колекція лілій, упакованих в обгортковий папір. Доречний для пам'ятного випадку."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/Bouqets/funeral.rsi
@@ -27,8 +27,8 @@
 - type: entity
   parent: RMCBouqetRose
   id: RMCBouqetPoppy
-  name: poppy bouqet
-  description: A collection of poppies arranged in wrapping paper.
+  name: "маковий букет"
+  description: "Колекція маків, упакованих в обгортковий папір."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/Bouqets/poppy.rsi

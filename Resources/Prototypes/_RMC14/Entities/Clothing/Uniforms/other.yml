@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCJumpsuitPizza
-  name: pizza delivery uniform
-  description: An ill-fitting, slightly stained uniform for a pizza delivery pilot. Smells of cheese.
+  name: "уніформа для доставки піци"
+  description: "Погано припасована, трохи заплямована уніформа пілота, який доставляє піцу. Пахне сиром."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/pizza.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCJumpsuitMarshal
-  name: marshal uniform
-  description: A pair of off-white slacks and a blue button-down shirt with a dark brown tie; the standard uniform of the Marshals.
+  name: "форма маршала"
+  description: "Пара білих штанів і синя сорочка на ґудзиках з темно-коричневою краваткою - стандартна форма маршалів."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/marshal.rsi
@@ -24,8 +24,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCJumpsuitCorrespondent
-  name: correspodent uniform
-  description: Standard-issue correspodents's uniform.
+  name: "відповідна форма"
+  description: "Стандартна форма кореспондентів."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Correspondent/white.rsi
@@ -63,8 +63,8 @@
 - type: entity
   parent: JumpsuitMarine
   id: RMCJumpsuitDutch # This is technically originally split into two items, but only the sprites are different between them
-  name: Dutch's Dozen uniform
-  description: A comfortable uniform worn by the Dutch's Dozen mercenaries. It's seen some definite wear and tear, but is still in good condition.
+  name: "Форма \"Голландської дюжини"
+  description: "Зручна форма, яку носили найманці \"Голландської дюжини\". Вона помітно зношена, але все ще в хорошому стані."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Dutch/jumpsuit.rsi
@@ -77,8 +77,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCJumpsuitDutchBandolier
-  name: hunting clothes
-  description: A set of tailored clothes, made from fine but sturdy reinforced fabrics. Protects from thorns, weather, and the cuts and scrapes that forever bedevil outdoorsmen.
+  name: "мисливський одяг"
+  description: "Комплект одягу, виготовлений з тонких, але міцних армованих тканин. Захищає від колючок, негоди, а також порізів і подряпин, які вічно переслідують людей на природі."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Dutch/bandolier.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCJumpsuitMercenaryHeavy
-  name: mercenary fatigues
-  description: A thick, beige suit with a red armband. There is an unknown symbol is emblazed on the suit.
+  name: "втома найманців"
+  description: "Щільний бежевий костюм з червоною пов'язкою на рукаві. На костюмі вибитий невідомий символ."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Mercenary/heavy.rsi
@@ -100,8 +100,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCJumpsuitMercenaryMiner
-  name: mercenary miner fatigues
-  description: A beige suit with a red armband. It looks a little thin, like it wasn't designed for protection. There is an unknown symbol is emblazed on the suit.
+  name: "втома шахтарів-найманців"
+  description: "Бежевий костюм з червоною пов'язкою. Виглядає трохи тонким, ніби не призначений для захисту. На костюмі вибитий невідомий символ."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Mercenary/miner.rsi
@@ -111,8 +111,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCJumpsuitMercenaryEngineer
-  name: mercenary engineer fatigues
-  description: A blue suit with yellow accents, used by engineers. There is an unknown symbol is emblazed on the suit.
+  name: "втома інженерів-найманців"
+  description: "Синій костюм з жовтими акцентами, який використовують інженери. На костюмі вибитий невідомий символ."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Mercenary/engi.rsi
@@ -125,8 +125,8 @@
 - type: entity
   parent: JumpsuitMarine
   id: RMCJumpsuitMarsoc
-  name: special operative uniform # TODO: find more appropriate name
-  description: A black uniform for elite Marine personnel. Designed to be comfortable and help blend into dark environments.
+  name: "спеціальна оперативна форма" # TODO: find more appropriate name
+  description: "Чорна форма для елітних підрозділів морської піхоти. Створена для того, щоб бути зручною та допомагати зливатися з темним середовищем."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/marsoc.rsi
@@ -141,8 +141,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCJumpsuitFreelancer
-  name: freelancer fatigues
-  description: A set of loose-fitting fatigues, perfect for an informal mercenary. Smells like gunpowder, apple pie, and covered in grease and sake stains.
+  name: "втома фрілансерів"
+  description: "Комплект вільного одягу, що ідеально підходить для неформального найманця. Пахне порохом, яблучним пирогом і вкритий плямами жиру та саке."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/freelancer.rsi
@@ -153,8 +153,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCJumpsuitCivilian
-  name: gray utility uniform
-  description: A stylish gray jumpsuit - standard issue for civilian support personnel.
+  name: "сіра уніформа"
+  description: "Стильний сірий комбінезон - стандартна екіпіровка для цивільного допоміжного персоналу."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/civilian.rsi

@@ -3,7 +3,7 @@
   abstract: true
   parent: CMMREComponentBase
   id: CMMREMainComponentBase
-  description: An MRE entree component. Contains the main course for nutrients.
+  description: "Компонент комплексного обіду MRE. Містить основну страву за поживними речовинами."
   components:
   - type: Sprite
     state: entree
@@ -11,8 +11,8 @@
 - type: entity
   parent: CMMREMainComponentBase
   id: CMMREComponentBonelessPorkRibs
-  name: MRE component (boneless pork ribs)
-  description: An MRE entree component. Contains the main course for nutrients. This one is boneless pork ribs.
+  name: "Компонент MRE (свинячі реберця без кісток)"
+  description: "Компонент комплексного обіду MRE. Містить основну страву для поживних речовин. Це свинячі реберця без кісток."
   components:
   - type: SpawnItemsOnUse
     items:
@@ -21,8 +21,8 @@
 - type: entity
   parent: CMMREMainComponentBase
   id: CMMREComponentGrilledChicken
-  name: MRE component (grilled chicken)
-  description: An MRE entree component. Contains the main course for nutrients. This one is grilled chicken.
+  name: "Компонент MRE (курка-гриль)"
+  description: "Компонент комплексного обіду MRE. Містить основну страву для поживних речовин. Це курка-гриль."
   components:
   - type: SpawnItemsOnUse
     items:
@@ -31,8 +31,8 @@
 - type: entity
   parent: CMMREMainComponentBase
   id: CMMREComponentPizzaSquare
-  name: MRE component (pizza square)
-  description: An MRE entree component. Contains the main course for nutrients. This one is a pizza square.
+  name: "Компонент MRE (квадратна піца)"
+  description: "Компонент комплексного обіду MRE. Містить основну страву для поживних речовин. Це квадратна піца."
   components:
   - type: SpawnItemsOnUse
     items:
@@ -41,8 +41,8 @@
 - type: entity
   parent: CMMREMainComponentBase
   id: CMMREComponentSpaghettiChunks
-  name: MRE component (spaghetti chunks)
-  description: An MRE entree component. Contains the main course for nutrients. This one is spaghetti chunks.
+  name: "Компоненти MRE (шматочки спагетті)"
+  description: "Компонент комплексного обіду MRE. Містить основну страву для поживних речовин. Це шматочки спагетті."
   components:
   - type: SpawnItemsOnUse
     items:
@@ -51,8 +51,8 @@
 - type: entity
   parent: CMMREMainComponentBase
   id: CMMREComponentChickenTender
-  name: MRE component (chicken tender)
-  description: An MRE entree component. Contains the main course for nutrients. This one is a chicken tender.
+  name: "Компонент MRE (куряче філе)"
+  description: "Компонент комплексного обіду MRE. Містить основну страву для поживних речовин. Це куряче м'ясо."
   components:
   - type: SpawnItemsOnUse
     items:
@@ -83,8 +83,8 @@
 - type: entity
   parent: CMMREFoodMain
   id: CMMREFoodBonelessPorkRibs
-  name: boneless pork ribs
-  description: The contents of a Marine Standard issue MRE. This one is boneless pork ribs.
+  name: "свинячі реберця без кісток"
+  description: "Вміст сухпайку за морським стандартом. Це свинячі реберця без кісток."
   components:
   - type: Sprite
     state: boneless_pork_ribs
@@ -95,8 +95,8 @@
 - type: entity
   parent: CMMREFoodMain
   id: CMMREFoodGrilledChicken
-  name: grilled chicken
-  description: The contents of a Marine Standard issue MRE. This one is grilled chicken.
+  name: "курка-гриль"
+  description: "Вміст сухпайку за морським стандартом. Це курка-гриль."
   components:
   - type: Sprite
     state: grilled_chicken
@@ -107,8 +107,8 @@
 - type: entity
   parent: CMMREFoodMain
   id: CMMREFoodPizzaSquare
-  name: pizza square
-  description: The contents of a Marine Standard issue MRE. This one is a pizza square.
+  name: "площа для піци"
+  description: "Вміст сухпайку за морським стандартом. Це квадратна піца."
   components:
   - type: Sprite
     state: pizza_square
@@ -119,8 +119,8 @@
 - type: entity
   parent: CMMREFoodMain
   id: CMMREFoodSpaghettiChunks
-  name: spaghetti chunks
-  description: The contents of a Marine Standard issue MRE. This one is spaghetti chunks.
+  name: "шматочки спагетті"
+  description: "Вміст сухпайку морського стандарту. Це шматочки спагетті."
   components:
   - type: Sprite
     state: spaghetti_chunks
@@ -131,8 +131,8 @@
 - type: entity
   parent: CMMREFoodMain
   id: CMMREFoodChickenTender
-  name: chicken tender
-  description: The contents of a Marine Standard issue MRE. This one is a chicken tender.
+  name: "куряче м'ясо"
+  description: "Вміст сухпайку морського стандарту. Це куряче філе."
   components:
   - type: Sprite
     state: chicken_tender
@@ -144,24 +144,24 @@
 - type: flavor
   id: BonelessPorkRibs
   flavorType: Complex
-  description: like boneless pork ribs
+  description: "як свинячі реберця без кісток"
 
 - type: flavor
   id: GrilledChicken
   flavorType: Complex
-  description: like grilled chicken
+  description: "як курка-гриль"
 
 - type: flavor
   id: PizzaSquare
   flavorType: Complex
-  description: like pizza
+  description: "як піцу"
 
 - type: flavor
   id: SpaghettiChunks
   flavorType: Complex
-  description: like spaghetti
+  description: "як спагетті"
 
 - type: flavor
   id: ChickenTender
   flavorType: Complex
-  description: like chicken
+  description: "як курча"

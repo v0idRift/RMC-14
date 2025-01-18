@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCWeaponRevolverBase
   id: RMCWeaponRevolverRSh9
-  name: RSh-9 Assault Revolver
-  description: The RSh-9 Assault Revolver is a highly unusual weapon, originally designed for CQB Room clearing on request for counter-terrorism units. This one uses the smaller 9x39 cartridge instead of the 12.7x55mm Cartridge it was originally chambered in, It is still nothing short of the ultimate man killing device.
+  name: "Штурмовий револьвер РШ-9"
+  description: "Штурмовий револьвер РШ-9 - дуже незвичайна зброя, спочатку розроблена для зачистки командних пунктів на замовлення антитерористичних підрозділів. Цей револьвер використовує менший патрон 9х39 замість 12,7х55 мм, яким він був спочатку споряджений, але все одно є ідеальним засобом для вбивства людей."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Pistols/rsh9.rsi
@@ -57,7 +57,7 @@
 
 - type: entity
   id: RMCBaseSpeedLoaderRsh9
-  name: "RSh-9 Speed Loader (9x39)"
+  name: "Швидкісний навантажувач РШ-9 (9х39)"
   parent: BaseItem
   abstract: true
   components:
@@ -82,7 +82,7 @@
 - type: entity
   parent: RMCBaseSpeedLoaderRsh9
   id: RMCSpeedLoaderRsh9
-  description: A six round load of 9x39 Armor Penetrating rounds, designed to defeat most modern body-armor.
+  description: "Шестизарядний патрон 9х39 бронебійних набоїв, розроблений для ураження більшості сучасних бронежилетів."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/SpeedLoaders/mateba.rsi
@@ -102,7 +102,7 @@
 
 - type: entity
   id: RMCCartridgeRevolverRsh9
-  name: cartridge (9x39)
+  name: "патрон (9х39)"
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -115,7 +115,7 @@
 - type: entity
   parent: CMBulletBase
   id: RMCBulletRsh9
-  name: bullet (9x39)
+  name: "куля (9х39)"
   components:
   - type: Projectile
     damage:

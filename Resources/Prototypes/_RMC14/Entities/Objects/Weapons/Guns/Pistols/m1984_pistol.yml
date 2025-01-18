@@ -1,8 +1,8 @@
 - type: entity
   parent: CMWeaponPistolBase
   id: CMWeaponPistolM1984
-  name: M1984 service pistol
-  description: An M1984 Service Pistol, once the standard issue sidearm of the Marines but has recently been replaced with the M77 combat pistol. Fires 9mm pistol rounds.
+  name: "Службовий пістолет M1984"
+  description: "Службовий пістолет M1984, який колись був стандартною зброєю морських піхотинців, але нещодавно був замінений на бойовий пістолет M77. Стріляє 9-мм пістолетними патронами."
   components:
   - type: RMCSelectiveFire
     scatterWielded: 10
@@ -75,7 +75,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: CMMagazinePistolM1984
-  name: M1984 magazine (9mm)
+  name: "Магазин M1984 (9мм)"
   components:
   - type: Tag
     tags:
@@ -99,7 +99,7 @@
 - type: entity
   parent: CMBulletBase
   id: CMBulletPistol9mm
-  name: bullet (9mm)
+  name: "куля (9 мм)"
   components:
   - type: Projectile
     damage:
@@ -110,7 +110,7 @@
 
 - type: entity
   id: CMCartridgePistol9mm
-  name: cartridge (9mm)
+  name: "патрон (9 мм)"
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -124,7 +124,7 @@
 - type: entity
   parent: CMBulletBase
   id: CMBulletPistolM77AP
-  name: bullet (9mm AP)
+  name: "куля (9мм AP)"
   components:
   - type: Projectile
     damage:
@@ -135,7 +135,7 @@
 
 - type: entity
   id: CMCartridgePistolM77AP
-  name: cartridge (9mm AP)
+  name: "патрон (9мм AP)"
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -148,8 +148,8 @@
 - type: entity
   parent: CMMagazinePistolM1984
   id: RMCMagazinePistolM1984AP
-  name: M1984 AP magazine (9mm)
-  description: A pistol magazine. This one contains armor-piercing bullets, which have noticeably higher stopping power on well-armored targets, and noticeably less on unarmored or lightly-armored targets.
+  name: "Магазин M1984 AP (9мм)"
+  description: "Пістолетний магазин. Цей магазин містить бронебійні кулі, які мають значно більшу зупиняючу здатність по добре броньованим цілям і значно меншу - по неброньованим або легкоброньованим цілям."
   components:
   - type: Tag
     tags:

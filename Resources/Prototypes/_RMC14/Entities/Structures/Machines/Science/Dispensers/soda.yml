@@ -1,8 +1,8 @@
 - type: entity
   parent: SodaDispenser
   id: CMDispenserSoda
-  name: soda fountain
-  description: A drink fabricating machine, capable of producing many sugary drinks with just one touch.
+  name: "фонтан з газованою водою"
+  description: "Машина для виготовлення напоїв, здатна виробляти безліч солодких напоїв лише одним дотиком."
   components:
   - type: Transform
     anchored: false

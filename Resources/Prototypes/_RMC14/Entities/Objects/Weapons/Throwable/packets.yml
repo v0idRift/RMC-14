@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseStorageItem
   id: CMPacketBase
-  name: packet
+  name: "пакет"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/packets.rsi
@@ -32,8 +32,8 @@
 - type: entity
   parent: CMPacketBase
   id: CMPacketGrenadeHighExplosive
-  name: HEDP grenade packet
-  description: It contains three HEDP high explosive grenades.
+  name: "Корпус гранати HEDP"
+  description: "У ньому знаходяться три осколково-фугасні гранати."
   components:
   - type: Sprite
     layers:
@@ -55,8 +55,8 @@
 - type: entity
   parent: CMPacketBase
   id: CMPacketGrenadeFrag
-  name: HEFA grenade packet
-  description: It contains three HEFA grenades. Don't tell the HEFA order.
+  name: "Пакет для гранати HEFA"
+  description: "Він містить три гранати HEFA. Не кажи нікому про наказ HEFA."
   components:
   - type: Sprite
     layers:
@@ -78,7 +78,7 @@
 - type: entity
   parent: BaseStorageItem
   id: RMCPacketGrenadeFlashBang
-  name: flash-bang box
+  name: "ящик з вибуховими пакетами"
   suffix: Filled
   components:
   - type: Sprite
@@ -117,8 +117,8 @@
 - type: entity
   parent: CMPacketBase
   id: RMCPacketGrenadeSmoke
-  name: HSDP grenade packet
-  description: It contains three HSDP smoke grenades.
+  name: "Корпус гранати РГДШ"
+  description: "У ньому знаходяться три димові шашки СВДП."
   components:
   - type: Sprite
     layers:
@@ -140,8 +140,8 @@
 - type: entity
   parent: CMPacketBase
   id: RMCPacketGrenadeIncendiary
-  name: HIDP grenade packet
-  description: It contains three HIDP incendiary grenades.
+  name: "Пакет з гранатою для ВПО"
+  description: "У ньому знаходилися три запальні гранати РГДШ."
   components:
   - type: Sprite
     layers:
@@ -163,8 +163,8 @@
 - type: entity
   parent: CMPacketBase
   id: CMPacketGrenadeFragOld
-  name: M15 frag grenade packet
-  description: It contains three M15 fragmentation grenades. Handle with care.
+  name: "Пакет осколкової гранати М15"
+  description: "Містить три осколкові гранати М15. Поводьтеся з ним обережно."
   components:
   - type: Sprite
     layers:

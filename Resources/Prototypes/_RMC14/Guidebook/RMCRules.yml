@@ -218,7 +218,7 @@
 - type: guideEntry
   parent: RMC
   id: CMHostileFactionRoleplay
-  name: cm-guide-entry-rules-faction-roleplay
+  name: "cm-guide-entry-rules-faction-roleplay"
   priority: 24
   ruleEntry: true
   text: "/ServerInfo/Guidebook/_RMC14/Rules/Roleplay/CMHostileFactionRoleplay.xml"
@@ -226,7 +226,7 @@
 - type: guideEntry
   parent: RMC
   id: CMCommandChain
-  name: cm-guide-entry-rules-command-chain
+  name: "cm-guide-entry-rules-command-chain"
   priority: 25
   ruleEntry: true
   text: "/ServerInfo/Guidebook/_RMC14/Rules/Roleplay/CMCommandChain.xml"

@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBaseWeaponRifle
-  name: XM88 Heavy Rifle
+  name: "Важка гвинтівка XM88"
   id: WeaponRifleXM88
-  description: An experimental man-portable anti-materiel rifle chambered in .458 SOCOM. It must be manually chambered for every shot.
+  description: "Експериментальна переносна протитанкова гвинтівка під набій .458 SOCOM. Для кожного пострілу необхідно вручну заряджати патронник."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/xm88/desert.rsi
@@ -123,8 +123,8 @@
 - type: entity
   parent: RMCBoxShotgunBase
   id: RMCBox458SOCOM
-  name: box of .458 SOCOM
-  description: A box filled with handfuls of .458 SOCOM rounds, designed for use with the XM88 heavy rifle.
+  name: "коробка патронів .458 SOCOM"
+  description: "Коробка з набоями калібру .458 SOCOM, призначеними для використання у важкій гвинтівці XM88."
   components:
   - type: Storage
     grid:

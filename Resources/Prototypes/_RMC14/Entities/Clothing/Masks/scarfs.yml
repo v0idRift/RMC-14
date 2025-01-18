@@ -43,7 +43,7 @@
 - type: entity
   parent: RMCMaskScarfAlpha
   id: RMCMaskScarfSquad
-  name: UNMC squad tactical wrap
+  name: "Тактичне обмундирування підрозділу МООНК"
   suffix: DO NOT MAP
   components:
   - type: Sprite
@@ -62,8 +62,8 @@
 - type: entity
   parent: RMCBaseScarfMask
   id: RMCMaskScarfAlpha
-  name: alpha tactical wrap
-  description: A tactical wrap used by soldiers to conceal their face.
+  name: "альфа-тактичне обгортання"
+  description: "Тактична пов'язка, що використовується солдатами для приховування обличчя."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/Scarfs/alpha.rsi
@@ -75,12 +75,12 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskScarfAlpha]
   id: RMCMaskScarfAlphaDown
-  name: alpha tactical wrap
+  name: "альфа-тактичне обгортання"
 
 - type: entity
   parent: RMCMaskScarfAlpha
   id: RMCMaskScarfBravo
-  name: bravo tactical wrap
+  name: "браво тактичне обгортання"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/Scarfs/bravo.rsi
@@ -90,12 +90,12 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskScarfBravo]
   id: RMCMaskScarfBravoDown
-  name: bravo tactical wrap
+  name: "браво тактичне обгортання"
 
 - type: entity
   parent: RMCMaskScarfAlpha
   id: RMCMaskScarfCharlie
-  name: charlie tactical wrap
+  name: "тактична обгортка Чарлі"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/Scarfs/charlie.rsi
@@ -105,12 +105,12 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskScarfCharlie]
   id: RMCMaskScarfCharlieDown
-  name: charlie tactical wrap
+  name: "тактична обгортка Чарлі"
 
 - type: entity
   parent: RMCMaskScarfAlpha
   id: RMCMaskScarfDelta
-  name: delta tactical wrap
+  name: "дельта-тактичне обгортання"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/Scarfs/delta.rsi
@@ -120,12 +120,12 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskScarfDelta]
   id: RMCMaskScarfDeltaDown
-  name: delta tactical wrap
+  name: "дельта-тактичне обгортання"
 
 - type: entity
   parent: RMCMaskScarfAlpha
   id: RMCMaskScarfEcho
-  name: echo tactical wrap
+  name: "ехо-тактичне обгортання"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/Scarfs/echo.rsi
@@ -135,12 +135,12 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskScarfEcho]
   id: RMCMaskScarfEchoDown
-  name: echo tactical wrap
+  name: "ехо-тактичне обгортання"
 
 - type: entity
   parent: RMCMaskScarfAlpha
   id: RMCMaskScarfFoxtrot
-  name: foxtrot tactical wrap
+  name: "тактичне обгортання фокстрот"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/Scarfs/foxtrot.rsi
@@ -150,14 +150,14 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskScarfFoxtrot]
   id: RMCMaskScarfFoxtrotDown
-  name: foxtrot tactical wrap
+  name: "тактичне обгортання фокстрот"
 
 # COLOURS
 
 - type: entity
   parent: RMCMaskScarfAlpha
   id: RMCMaskScarfRed
-  name: red tactical wrap
+  name: "червона тактична обгортка"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/Scarfs/alpha.rsi
@@ -167,12 +167,12 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskScarfRed]
   id: RMCMaskScarfRedDown
-  name: red tactical wrap
+  name: "червона тактична обгортка"
 
 - type: entity
   parent: RMCMaskScarfAlpha
   id: RMCMaskScarfBlack
-  name: black tactical wrap
+  name: "чорний тактичний чохол"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/Scarfs/black.rsi
@@ -182,12 +182,12 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskScarfBlack]
   id: RMCMaskScarfBlackDown
-  name: black tactical wrap
+  name: "чорний тактичний чохол"
 
 - type: entity
   parent: RMCMaskScarfAlpha
   id: RMCMaskScarfGray
-  name: grey tactical wrap
+  name: "сірий тактичний чохол"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/Scarfs/gray.rsi
@@ -197,12 +197,12 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskScarfGray]
   id: RMCMaskScarfGrayDown
-  name: grey tactical wrap
+  name: "сірий тактичний чохол"
 
 - type: entity
   parent: RMCMaskScarfAlpha
   id: RMCMaskScarfGreen
-  name: green tactical wrap
+  name: "зелене тактичне обгортання"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/Scarfs/green.rsi
@@ -212,12 +212,12 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskScarfGreen]
   id: RMCMaskScarfGreenDown
-  name: green tactical wrap
+  name: "зелене тактичне обгортання"
 
 - type: entity
   parent: RMCMaskScarfAlpha
   id: RMCMaskScarfTan
-  name: tan tactical wrap
+  name: "тактичне обгортання для засмаги"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/Scarfs/tan.rsi
@@ -227,14 +227,14 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskScarfTan]
   id: RMCMaskScarfTanDown
-  name: tan tactical wrap
+  name: "тактичне обгортання для засмаги"
 
 # Torn Scarf
 - type: entity
   parent: ClothingMaskBaseButcherable
   id: RMCMaskTornScarfBlack
-  name: tactical scarf
-  description: A tactical scarf used to keep warm in the cold.
+  name: "тактичний шарф"
+  description: "Тактичний шарф для зігрівання в холодну пору."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/TornScarfs/black.rsi
@@ -244,7 +244,7 @@
 - type: entity
   parent: RMCMaskTornScarfBlack
   id: RMCMaskTornScarfDesert
-  name: desert tactical scarf
+  name: "пустельний тактичний шарф"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/TornScarfs/desert.rsi
@@ -254,7 +254,7 @@
 - type: entity
   parent: RMCMaskTornScarfBlack
   id: RMCMaskTornScarfGreen
-  name: green tactical scarf
+  name: "зелений тактичний шарф"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/TornScarfs/green.rsi
@@ -264,7 +264,7 @@
 - type: entity
   parent: RMCMaskTornScarfBlack
   id: RMCMaskTornScarfGrey
-  name: grey tactical scarf
+  name: "сірий тактичний шарф"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/TornScarfs/grey.rsi
@@ -274,7 +274,7 @@
 - type: entity
   parent: RMCMaskTornScarfBlack
   id: RMCMaskTornScarfUrban
-  name: urban tactical scarf
+  name: "міський тактичний шарф"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/TornScarfs/urban.rsi
@@ -284,7 +284,7 @@
 - type: entity
   parent: RMCMaskTornScarfBlack
   id: RMCMaskTornScarfSnow
-  name: snow tactical scarf
+  name: "сніговий тактичний шарф"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/TornScarfs/snow.rsi

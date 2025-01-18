@@ -99,7 +99,7 @@
 - type: entity
   parent: BaseCartridgeRifle
   id: CMBaseCartridgeRifle
-  name: cartridge
+  name: "картридж"
   abstract: true
   components:
   - type: CartridgeAmmo

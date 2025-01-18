@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingBeltBase
   id: CMBeltInflatable
-  name: inflatable duck
-  description: No bother to sink or swim when you can just float!
+  name: "надувна качка"
+  description: "Не варто турбуватися про те, щоб тонути або плавати, коли ви можете просто пливти!"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/inflatable.rsi
@@ -14,8 +14,8 @@
 - type: entity
   parent: CMBeltBaseStorage
   id: CMBeltMarine
-  name: M276 pattern ammo load rig
-  description: The M276 is the standard load-bearing equipment of the UNMC. It consists of a modular belt with various clips. This is the standard variant, designed for bulk ammunition-carrying operations.
+  name: "Установка для заряджання боєприпасів зразка M276"
+  description: "M276 є стандартним несучим обладнанням UNMC. Складається з модульної стрічки з різноманітними застібками. Це стандартний варіант, призначений для перенесення великої кількості боєприпасів."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/marine/jungle-classic.rsi
@@ -58,8 +58,8 @@
 - type: entity
   parent: CMBeltBaseStorage
   id: RMCM276ShotgunShellLoadingRig
-  name: M276 pattern shotgun shell loading rig
-  description: An ammunition belt designed to hold shotgun shells. # or individual bullets. TODO RMC14
+  name: "Стенд для заряджання набоїв до дробовика зразка M276"
+  description: "Ремінь для набоїв, призначений для зберігання набоїв до дробовика." # or individual bullets. TODO RMC14
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/shotgun/jungle-classic.rsi
@@ -92,8 +92,8 @@
 - type: entity
   parent: CMBeltBaseStorage
   id: CMBeltUtility
-  name: M276 pattern toolbelt rig
-  description: The M276 is the standard load-bearing equipment of the UNMC. It consists of a modular belt with various clips. This version lacks any combat functionality, and is commonly used by engineers to transport important tools.
+  name: "M276 шаблонна стрічкова установка для інструментальних стрічок"
+  description: "M276 є стандартним несучим обладнанням UNMC. Складається з модульного ременя з різноманітними застібками. Ця версія не має бойової функціональності і зазвичай використовується інженерами для транспортування важливих інструментів."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/utility.rsi
@@ -133,8 +133,8 @@
 - type: entity
   parent: CMBeltUtility
   id: RMCBeltConstruction
-  name: M277 pattern construction rig
-  description: The M277 is a common rig used by Combat Technicians to carry around materials and other supplies. It consists of a modular belt with various clips. This version sacrifices storage space for specialized material loading clips.
+  name: "Стенд для побудови моделей M277"
+  description: "M277 - це звичайне спорядження, яке використовується бойовими техніками для перенесення матеріалів та інших припасів. Вона складається з модульного ременя з різноманітними затискачами. Ця версія жертвує місцем для зберігання спеціалізованих затискачів для завантаження матеріалу."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/construction.rsi
@@ -181,8 +181,8 @@
 - type: entity
   parent: CMBeltUtility
   id: CMBeltUtilityCombat
-  name: M276 pattern combat toolbelt rig
-  description: The M276 pattern combat toolbelt rig is an alternative load-bearing equipment of the UNMC for engineers conducting repairs within combat zones. It consists of a modular belt with various clips and pouches for tools along with a holster for a sidearm. Due to the bulk of the sidearm, it is unable to hold as many tools as its standard counterpart.
+  name: "M276 модель бойової стрічкової установки для інструменту"
+  description: "Бойова поясна сумка для інструментів зразка M276 - це альтернативне розвантажувальне спорядження УНСО для інженерів, які проводять ремонтні роботи в зоні бойових дій. Складається з модульного поясу з різноманітними зажимами та сумками для інструментів, а також кобури для пістолета. Через велику вагу пістолета, він не може вмістити стільки інструментів, як його стандартний аналог."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/combat_utility.rsi
@@ -243,8 +243,8 @@
 - type: entity
   parent: CMBeltBase
   id: CMBeltKnife
-  name: M276 pattern knife rig
-  description: The M276 is the standard load-bearing equipment of the UNMC. It consists of a modular belt with various clips. This version is specially designed to store knives. Not commonly issued, but kept in service.
+  name: "M276 - стійка для лекальних ножів"
+  description: "M276 є стандартним несучим обладнанням UNMC. Складається з модульного ременя з різноманітними застібками. Ця версія спеціально розроблена для зберігання ножів. Не видається, але зберігається на озброєнні."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/knife/jungle-classic.rsi
@@ -273,8 +273,8 @@
 - type: entity
   parent: CMBeltBaseStorage
   id: CMBeltMedical
-  name: M276 pattern medical storage rig
-  description: The M276 is the standard load-bearing equipment of the UNMC. It consists of a modular belt with various clips. This version is a less common configuration, designed to transport bulkier medical supplies.
+  name: "Стелаж для зберігання медикаментів моделі M276"
+  description: "M276 є стандартним несучим обладнанням UNMC. Складається з модульного ременя з різними застібками. Ця версія є менш поширеною конфігурацією, призначеною для транспортування більш об'ємних медичних засобів."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/medical.rsi
@@ -316,8 +316,8 @@
 - type: entity
   parent: CMBeltMedical
   id: CMBeltMedicBag
-  name: M276 pattern lifesaver bag
-  description: The M276 is the standard load-bearing equipment of the UNMC. This configuration mounts a duffel bag filled with a range of injectors and light medical supplies, and is common among medics.
+  name: "Викрійка M276 сумка-рятувальник"
+  description: "M276 - це стандартне несуче спорядження, що використовується в UNMC. Ця конфігурація кріпить речовий мішок, наповнений набором ін'єкторів та легких медичних засобів, і є поширеною серед медиків."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/medicbag/jungle-classic.rsi
@@ -363,8 +363,8 @@
 - type: entity
   parent: CMBeltBaseStorage
   id: CMBeltMortar
-  name: M276 pattern mortar operator belt
-  description: An M276 load-bearing rig configured to carry ammunition for the M402 mortar, along with a sidearm.
+  name: "Пояс оператора міномета зразка M276"
+  description: "Несуча установка M276, сконфігурована для перевезення боєприпасів для міномета M402, а також стрілецької зброї."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/mortar/jungle-classic.rsi
@@ -418,8 +418,8 @@
 - type: entity
   parent: CMBeltMarine
   id: CMBeltSmartGunOperator
-  name: M280 pattern smart gun operator drum belt
-  description: Despite the fact that 1. drum magazines are incredibly non-ergonomical, and 2. require incredibly precise machining in order to fit universally (spoiler, they don't, adding further to the myth of 'Smart Gun Personalities'), the Marines decided to issue a modified marine belt (more formally known by the designation M280) with hooks and dust covers (overly complex for the average jarhead) for the ML66A system's drum munitions. When the carry catch on the drum isn't getting stuck in the oiled up velcro, the rig actually does do a decent job at holding a plentiful amount of drums. But at the end of the day, compared to standard rigs... it sucks, but isn't that what being a Marine is all about?
+  name: "Барабанний ремінь оператора розумної гармати зразка M280"
+  description: "Незважаючи на те, що 1) барабанні магазини неймовірно неергономічні, і 2) вимагають неймовірно точної обробки, щоб бути універсальними (спойлер: вони не підходять, що ще більше посилює міф про \"розумну зброю\"), морські піхотинці вирішили випустити модифікований морський ремінь (більш відомий під індексом M280) з гачками і пилезахисними кришками (занадто складними для пересічного солдата) для барабанних боєприпасів для системи ML66A. Коли защіпка для перенесення бочки не застряє в замасленій липучці, установка справді добре справляється з утриманням великої кількості бочок. Але зрештою, порівняно зі стандартними установками... це відстій, але хіба не в цьому полягає суть морського піхотинця?"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/smart_gun_operator/jungle-classic.rsi
@@ -454,8 +454,8 @@
 - type: entity
   parent: CMBeltMarine
   id: RMCBeltSmartGunOperatorPistol
-  name: M802 pattern smart gun operator sidearm rig
-  description: The M802 is a limited-issue mark of UNMC load-bearing equipment, designed to carry smartgun ammunition and a sidearm.
+  name: "Розумна установка для оператора стрілецької зброї зразка M802"
+  description: "M802 - це обмежена серія розвантажувального спорядження UNMC, призначеного для перенесення набоїв до смарт-пістолетів та пістолетів-кулеметів."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/smart_gun_operator_pistol.rsi
@@ -520,8 +520,8 @@
 - type: entity
   parent: CMBeltMarine
   id: RMCBeltGrenade
-  name: M276 pattern M40 grenade rig
-  description: The M276 is the standard load-bearing equipment of the UNMC. It consists of a modular belt with various clips. This version is designed to carry up to 12 of the M40 series of grenades.
+  name: "Гранатометна установка M276 зразка M40"
+  description: "M276 є стандартним несучим обладнанням UNMC. Складається з модульного ременя з різноманітними застібками. Ця версія розрахована на носіння до 12 гранат серії M40."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/grenade.rsi
@@ -541,8 +541,8 @@
 - type: entity
   parent: RMCBeltGrenade
   id: RMCBeltGrenadeLarge
-  name: M276 pattern M40 grenade rig Mk. II
-  description: The M276 Mk. II is an upgraded version of the M276 grenade rig, with more storage capacity.
+  name: "Гранатометна установка M276 зразка M40 Mk. II"
+  description: "M276 Mk. II - це модернізована версія гранатомету M276 з більшим об'ємом сховища."
   components:
   - type: Storage
     maxItemSize: Normal
@@ -556,8 +556,8 @@
 - type: entity
   parent: CMBeltMarine
   id: RMCBeltSmartPistol
-  name: M276 pattern SU-6 smart pistol holster rig
-  description: The M276 is the standard load-bearing equipment of the UNMC. It consists of a modular belt with various clips. This version is for the SU-6 smartpistol.
+  name: "M276 модель SU-6 \"розумна\" кобура для пістолетів"
+  description: "M276 є стандартним несучим обладнанням UNMC. Складається з модульного ременя з різноманітними кліпсами. Ця версія призначена для смарт-пістолета СУ-6."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/smart_pistol.rsi
@@ -615,8 +615,8 @@
 - type: entity
   parent: CMBeltMarine
   id: RMCBeltHolsterPistol
-  name: M276 pattern general pistol holster rig
-  description: The M276 is the standard load-bearing equipment of the UNMC. It consists of a modular belt with various clips. This version has a holster assembly that allows one to carry the most common pistols. It also contains side pouches that can store most pistol magazines.
+  name: "Кобура для пістолетної кобури загального призначення зразка M276"
+  description: "M276 є стандартним несучим обладнанням UNMC. Складається з модульного ременя з різноманітними кліпсами. Ця версія має кобуру, яка дозволяє носити найпоширеніші пістолети. Вона також містить бічні підсумки, в яких можна зберігати більшість пістолетних магазинів."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/holster_pistol.rsi
@@ -678,8 +678,8 @@
 - type: entity
   parent: CMBeltMarine
   id: RMCBeltHolsterRevolver
-  name: M276 pattern general revolver holster rig
-  description: he M276 is the standard load-bearing equipment of the UNMC. It consists of a modular belt with various clips. This version is universal and adjustable for different revolvers, along with six small pouches for speedloaders. It smells faintly of hay.
+  name: "Кобура для револьвера загального призначення зразка M276"
+  description: "м276 є стандартним несучим обладнанням для UNMC. Складається з модульного ременя з різноманітними застібками. Ця версія є універсальною та регульованою для різних револьверів, а також має шість невеликих підсумків для спідлоадерів. Злегка пахне сіном."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/holster_revolver.rsi
@@ -736,8 +736,8 @@
 - type: entity
   parent: ClothingBeltBase # Can't have storage slots on this one
   id: RMCBeltHolsterSMG
-  name: M276 pattern M63 holster rig
-  description: Special issue variant of the M276 designed to holster a M63 submachine gun.
+  name: "Кобура для кобури M276 модель M63"
+  description: "Спеціальний варіант M276, призначений для розміщення в кобурі пістолета-кулемета M63."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/holster_smg.rsi
@@ -779,8 +779,8 @@
 - type: entity
   parent: CMBeltBaseStorage
   id: RMCBeltUtilityGeneral
-  name: M276 G8-A general utility pouch
-  description: A small, lightweight pouch that can be clipped onto M3 Pattern armor to provide additional storage. The newer G8-A model, while uncomfortable, can also be clipped around the waist.
+  name: "M276 G8-A сумка загального призначення"
+  description: "Невеликий, легкий підсумок, який можна прикріпити до бронежилета M3 Pattern для додаткового зберігання. Новіша модель G8-A, хоч і незручна, але її також можна носити на поясі."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/sparepouch/jungle-classic.rsi
@@ -814,8 +814,8 @@
 - type: entity
   parent: CMBeltBaseStorage
   id: RMCBeltHolsterSMGPouch
-  name: M276 pattern M63 holster rig
-  description: Special issue variant of the M276 designed to holster a M63 submachine gun and two spare magazines. Uncommonly issued to UNMC support and specialist personnel.
+  name: "Кобура для кобури M276 модель M63"
+  description: "Спеціальний варіант M276, призначений для носіння пістолета-кулемета M63 та двох запасних магазинів. Рідко видавався допоміжному та спеціалізованому персоналу UNMC."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/smg_mags.rsi
@@ -872,8 +872,8 @@
 - type: entity
   parent: CMBeltBaseStorage
   id: RMCMatebaBelt
-  name: M276 pattern Mateba holster rig
-  description: The M276 is the standard load-bearing equipment of the UNMC. It consists of a modular belt with various clips. This version is for the powerful Mateba magnum revolver, along with five small pouches for speedloaders. It was included with the mail-order UNMC edition of the Mateba autorevolver in the early 2170s.
+  name: "Кобура M276 модель Mateba"
+  description: "M276 є стандартним несучим обладнанням UNMC. Складається з модульного ременя з різноманітними застібками. Ця версія призначена для потужного револьвера Mateba magnum, разом з п'ятьма невеликими сумками для спідлоадерів. Вона входила в комплект поставки авторевольвера Mateba, що випускався поштою UNMC на початку 2170-х років."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/mateba_belt.rsi
@@ -975,8 +975,8 @@
 - type: entity
   parent: CMBeltBaseStorage
   id: RMCBeltXM51
-  name: M276 pattern XM51 holster rig
-  description: The M276 is the standard load-bearing equipment of the UNMC. It consists of a modular belt with various clips. This version is for the XM51 breaching scattergun, allowing easier storage of the weapon. It features pouches for storing two magazines along with extra shells.
+  name: "Кобура M276 модель XM51"
+  description: "M276 є стандартним несучим обладнанням UNMC. Складається з модульного ременя з різноманітними кліпсами. Ця версія призначена для пробивного дробовика XM51, що дозволяє легше зберігати зброю. Має підсумки для зберігання двох магазинів та додаткових набоїв."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/xm51.rsi
@@ -1029,8 +1029,8 @@
 - type: entity
   parent: CMBeltBaseStorage
   id: RMCM300SOCOMBelt
-  name: M300 pattern .458 SOCOM loading rig
-  description: An ammunition belt designed to hold the large .458 SOCOM caliber bullets for the XM88 heavy rifle.
+  name: "M300 зразка .458 SOCOM зарядний стенд"
+  description: "Ремінь для боєприпасів, призначений для розміщення великих набоїв калібру .458 SOCOM для важкої гвинтівки XM88."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/xm88/jungle-classic.rsi

@@ -2,8 +2,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCCoatCorrespondent
-  name: combat correspondent jacket
-  description: A jacket for the most fashionable war correspondents.
+  name: "куртка бойового кореспондента"
+  description: "Куртка для наймодніших військових кореспондентів."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Correspondent/brown.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: [RMCAllowSuitStorageClothingHazardVest, RMCBaseJacket]
   id: RMCHazardVest
-  name: orange hazard vest
-  description: An orange high-visibility vest used in work zones.
+  name: "помаранчевий захисний жилет"
+  description: "Помаранчевий жилет підвищеної видимості, що використовується в робочих зонах."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/HazardVests/orange.rsi
@@ -52,8 +52,8 @@
 - type: entity
   parent: RMCHazardVest
   id: RMCHazardVestBlue
-  name: blue hazard vest
-  description: A blue high-visibility vest used in work zones.
+  name: "синій захисний жилет"
+  description: "Синій жилет підвищеної видимості, що використовується в робочих зонах."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/HazardVests/blue.rsi
@@ -62,9 +62,9 @@
 
 - type: entity
   parent: RMCHazardVest
-  name: yellow hazard vest
+  name: "жовтий захисний жилет"
   id: RMCHazardVestYellow
-  description: A yellow high-visibility vest used in work zones.
+  description: "Жовтий жилет підвищеної видимості, що використовується в робочих зонах."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/HazardVests/yellow.rsi
@@ -74,8 +74,8 @@
 - type: entity
   parent: RMCHazardVest
   id: RMCHazardVestBlack
-  name: black hazard vest
-  description: A niche-market, black, allegedly high-visibility vest supposedly used in work zones. Features extra-reflective tapes. The etiquette on the vest insists that it's fully compliant with all the United Nations workplace safety standards.
+  name: "чорний захисний жилет"
+  description: "Нішевий, чорний, нібито підвищеної видимості жилет, який використовується в робочих зонах. Має світловідбиваючі стрічки. Етикетка на жилеті наполягає на тому, що він повністю відповідає всім стандартам безпеки на робочому місці Організації Об'єднаних Націй."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/HazardVests/black.rsi
@@ -86,8 +86,8 @@
 - type: entity
   parent: [RMCAllowSuitStorageClothingLabcoat, RMCBaseJacketButtonable]
   id: RMCLabcoat
-  name: labcoat
-  description: A suit that protects against minor chemical spills.
+  name: "халат"
+  description: "Костюм, що захищає від незначних розливів хімічних речовин."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Labcoats/labcoat.rsi
@@ -99,13 +99,13 @@
 - type: entity
   parent: [RMCBaseJacketButtonableOpened, RMCLabcoat]
   id: RMCLabcoatOpened
-  name: labcoat
+  name: "халат"
 
 - type: entity
   parent: RMCLabcoat
   id: RMCLabcoatCMO
-  name: chief medical officer's labcoat
-  description: A green sleek long labcoat, designed to distinguish a higher ranking medical personnel. Fabric has a better protection against chemical hazards.
+  name: "халат головного лікаря"
+  description: "Зелений гладкий довгий лабораторний халат, призначений для розрізнення медичного персоналу вищого рангу. Тканина має кращий захист від хімічних небезпек."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Labcoats/cmolabcoat.rsi
@@ -117,13 +117,13 @@
 - type: entity
   parent: [RMCBaseJacketButtonableOpened, RMCLabcoatCMO]
   id: RMCLabcoatCMOOpened
-  name: chief medical officer's labcoat
+  name: "халат головного лікаря"
 
 - type: entity
   parent: [RMCAllowSuitStorageClothingChefApron, ClothingOuterBase]
   id: RMCMedicalApron
-  name: medical apron
-  description: A basic and sterile white apron, good for surgical and, of course, other medical practices.
+  name: "медичний фартух"
+  description: "Базовий і стерильний білий фартух, добре підходить для хірургічних і, звичайно, інших медичних практик."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Labcoats/medicalapron.rsi

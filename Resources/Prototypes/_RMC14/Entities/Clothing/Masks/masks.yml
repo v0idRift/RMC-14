@@ -11,8 +11,8 @@
 - type: entity
   parent: CMBaseMask
   id: CMMaskGas
-  name: gas mask
-  description: A face-covering mask that can be connected to an air supply. Filters harmful gases from the air.
+  name: "протигаз"
+  description: "Маска, що закриває обличчя, яку можна під'єднати до системи подачі повітря. Фільтрує шкідливі гази з повітря."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/gas.rsi
@@ -33,8 +33,8 @@
 - type: entity
   parent: CMBaseMask
   id: CMMaskSterile
-  name: sterile mask
-  description: A sterile mask designed to help prevent the spread of diseases.
+  name: "стерильна маска"
+  description: "Стерильна маска, призначена для запобігання поширенню хвороб."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/sterile.rsi
@@ -46,8 +46,8 @@
 - type: entity # TODO RMC14 this needs a lizard sprite
   parent: ClothingMaskGas
   id: CMMaskGasMedical
-  name: medical gas mask
-  description: A close-fitting sterile mask that can be connected to an air supply.
+  name: "медичний протигаз"
+  description: "Стерильна маска, що щільно прилягає, яку можна під'єднати до системи подачі повітря."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/medical.rsi
@@ -57,8 +57,8 @@
 - type: entity
   parent: CMBaseMask
   id: RMCMaskRebreather
-  name: rebreather
-  description: A close-fitting device that instantly heats or cools down air when you inhale so it doesn't damage your lungs.
+  name: "респіратор"
+  description: "Прилеглий пристрій, який миттєво нагріває або охолоджує повітря під час вдиху, щоб не пошкодити легені."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/rebreather.rsi
@@ -73,8 +73,8 @@
 - type: entity
   parent: [ClothingMaskBase, BaseFoldable]
   id: CMMaskCoif
-  name: heat absorbent coif
-  description: A close-fitting cap that covers the top, back, and sides of the head. Can also be adjusted to cover the lower part of the face so it keeps the user warm in harsh conditions.
+  name: "теплопоглинаюча зачіска"
+  description: "Щільно прилягаюча шапка, яка закриває маківку, потилицю та бокові частини голови. Також може бути відрегульована так, щоб закривати нижню частину обличчя, щоб зігріти користувача в суворих умовах."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/coif.rsi
@@ -110,7 +110,7 @@
 - type: entity
   parent: CMMaskCoif
   id: RMCMaskCoifGreen
-  name: UNMC green balaclava
+  name: "Зелена балаклава UNMC"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/green_coif.rsi
@@ -120,7 +120,7 @@
 - type: entity
   parent: CMMaskCoif
   id: RMCMaskCoifGrey
-  name: UNMC grey balaclava
+  name: "Сіра балаклава UNMC"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/grey_coif.rsi
@@ -130,7 +130,7 @@
 - type: entity
   parent: CMMaskCoif
   id: RMCMaskCoifTan
-  name: UNMC tan balaclava
+  name: "Балаклава для засмаги UNMC"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/tan_coif.rsi
@@ -141,8 +141,8 @@
 - type: entity
   parent: CMBaseMask
   id: RMCMaskBalaclava
-  name: balaclava
-  description: A basic single eye-hole balaclava, available in almost every sporting goods, outdoor supply, or military surplus store in existence, protects your face from the cold almost as well as it conceals it. This one is in a standard black color.
+  name: "балаклава"
+  description: "Базова балаклава з одним отвором для очей, яку можна придбати майже в кожному магазині спортивних товарів, спорядження для активного відпочинку або військового майна, захищає ваше обличчя від холоду майже так само добре, як і приховує його. Ця балаклава стандартного чорного кольору."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/balaclava.rsi
@@ -162,8 +162,8 @@
 - type: entity
   parent: RMCMaskBalaclava
   id: RMCMaskBalaclavaGreen
-  name: green balaclava
-  description: A basic single eye-hole balaclava, available in almost every sporting goods, outdoor supply, or military surplus store in existence, protects your face from the cold almost as well as it conceals it. This one is in a non-standard green color.
+  name: "зелена балаклава"
+  description: "Базова балаклава з одним отвором для очей, яку можна знайти майже в кожному магазині спортивних товарів, спорядження для активного відпочинку або військового приладдя, захищає ваше обличчя від холоду майже так само добре, як і приховує його. Ця балаклава нестандартного зеленого кольору."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/swatclava.rsi
@@ -173,8 +173,8 @@
 - type: entity
   parent: RMCMaskBalaclava
   id: RMCMaskBalaclavaSkullBlue
-  name: skull balaclava
-  description: The face of your nightmares. Or at least that's how you imagined it'd be. Additionally protects against the cold.
+  name: "черепна балаклава"
+  description: "Обличчя твоїх нічних кошмарів. Або, принаймні, так ви його собі уявляли. Додатково захищає від холоду."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/skull_coif_blue.rsi
@@ -184,7 +184,7 @@
 - type: entity
   parent: RMCMaskBalaclavaSkullBlue
   id: RMCMaskBalaclavaSkullBlack
-  description: The face of your nightmares. Or at least that's how you imagined it'd be. Now in black!
+  description: "Обличчя твоїх нічних кошмарів. Або, принаймні, так ви його собі уявляли. Тепер у чорному!"
   suffix: Black
   components:
   - type: Sprite

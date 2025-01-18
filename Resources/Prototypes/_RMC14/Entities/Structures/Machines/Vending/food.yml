@@ -3,8 +3,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechFood
-  name: ColMarTech food vendor
-  description: Marine Food Vendor, containing standard military Prepared Meals.
+  name: "Постачальник продуктів харчування ColMarTech"
+  description: "Постачальник морської їжі, що містить стандартні військові сухі пайки."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/food.rsi
@@ -53,8 +53,8 @@
 - type: entity
   parent: ColMarTechBase
   id: CMVendorBooze
-  name: Booze-O-Mat
-  description: A technological marvel, supposedly able to mix just the mixture you'd like to drink the moment you ask for one.
+  name: "Booze-O-Mat"
+  description: "Технологічне диво, яке нібито здатне змішати саме ту суміш, яку ви хочете випити, щойно ви попросите."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/boozeomat.rsi
@@ -129,8 +129,8 @@
 - type: entity
   parent: ColMarTechBase
   id: CMVendorChess
-  name: Chess-o-mat
-  description: In 2143 Red Star Drinks, a SPP-CA (Colony Administration) affiliated corporation ran a promotional sweepstakes for drinkers who had found special codes on the inside of the caps of a limited run of Red Star Vodka, shipping them a Chess-O-Mat with unlimited refills.
+  name: "Шаховий килимок"
+  description: "У 2143 році Red Star Drinks, дочірня компанія SPP-CA (Адміністрації колоній), провела рекламну лотерею для тих, хто знайшов спеціальні коди на внутрішній стороні кришечок лімітованої партії горілки Red Star Vodka, і відправила їм Chess-O-Mat з необмеженою кількістю дозаправок."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/chessomat.rsi
