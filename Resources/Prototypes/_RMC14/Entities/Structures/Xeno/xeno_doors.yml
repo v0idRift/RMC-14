@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBaseXenoStructure
   id: DoorXenoResin # TODO RMC14 make them only buildable next to other resin walls
-  name: "смоляні двері"
-  description: "Це двері зі смоли."
+  name: resin door
+  description: That's a resin door.
   placement:
     mode: SnapgridCenter
   components:
@@ -91,8 +91,8 @@
 - type: entity
   parent: DoorXenoResin
   id: DoorXenoResinThick
-  name: "двері з товстої смоли"
-  description: "Двері з товстої смоли, яка є більш довговічною."
+  name: thick resin door
+  description: A thick resin door, which is more durable.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_resin_door.rsi

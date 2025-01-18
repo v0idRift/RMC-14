@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: RMCLadder
-  name: "сходи"
-  description: "Міцна металева драбина."
+  name: ladder
+  description: A sturdy metal ladder.
   placement:
     mode: SnapgridCenter
   components:

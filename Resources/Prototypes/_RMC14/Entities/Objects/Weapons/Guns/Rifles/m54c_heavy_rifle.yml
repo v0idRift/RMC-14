@@ -1,9 +1,9 @@
 ﻿- type: entity
-  name: "Важка штурмова гвинтівка M54CE2"
+  name: M54CE2 heavy assault rifle
   parent: CMBaseWeaponRifle
   id: WeaponRifleM54CE2
   suffix: Desert
-  description: "Велика зброя для підтримки загону, здатна вести тривалий вогонь на ураження з місця. Незважаючи на нестабільність і меншу точність, його можна переносити і стріляти двома руками."
+  description: A large squad support weapon capable of laying down sustained suppressing fire from a mounted position. While unstable and less accurate, it can be lugged and shot with two hands.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m54ce2/desert.rsi
@@ -109,7 +109,7 @@
   parent: CMMagazineRifleM54C
   id: CMMagazineRifleM54CE2
   suffix: Desert
-  name: "Магазин M54CE2 (10x24мм)"
+  name: "M54CE2 magazine (10x24mm)"
   components:
   - type: Tag
     tags:

@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: ActionXenoTransferPlasma
   parent: ActionXenoBase
-  name: "Трансферна плазма (50)" # TODO RMC14 proper plasma costs
-  description: "Передайте плазму на сусідній ксенонід."
+  name: Transfer plasma (50) # TODO RMC14 proper plasma costs
+  description: Give plasma to a nearby xenonid.
   components:
   - type: EntityTargetAction
     itemIconStyle: NoItem
@@ -15,8 +15,8 @@
 - type: entity
   id: ActionXenoHealerDroneTransferPlasma
   parent: ActionXenoBase
-  name: "Трансферна плазма (100)" # TODO RMC14 proper plasma costs
-  description: "Передайте плазму на сусідній ксенонід."
+  name: Transfer plasma (100) # TODO RMC14 proper plasma costs
+  description: Give plasma to a nearby xenonid.
   components:
   - type: EntityTargetAction
     itemIconStyle: NoItem
@@ -30,8 +30,8 @@
 - type: entity
   id: ActionXenoResinSurge
   parent: ActionXenoBase
-  name: "Викид смоли (75)"
-  description: "Прискорює ріст фруктів на 5 секунд при використанні на фруктах, створює тимчасові стіни при використанні на бур'янах або використовується на існуючих стінах, щоб зміцнити їх з 6000 хп на 15 секунд." #or create patches of sticky resin. TODO RMC14
+  name: Resin Surge (75)
+  description: Speeds up fruit growth by 5 seconds when used on fruit, creates temporary walls when used on weeds or use on existing walls to reinforce them with 6000 hp for 15 seconds. #or create patches of sticky resin. TODO RMC14
   components:
   - type: EntityWorldTargetAction
     itemIconStyle: NoItem
@@ -51,8 +51,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoRetrieve
-  name: "Отримати (180 плазми, 100 енергії)"
-  description: "Підтягніть ксенонід до себе, якщо він не рухається, через 0,6 секунди після цього."
+  name: Retrieve (180 plasma, 100 energy)
+  description: Pull a xenonid to you if they are still, with a 0.6 second doafter.
   components:
   - type: EntityTargetAction
     itemIconStyle: NoItem
@@ -72,8 +72,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoAid
-  name: "Допомога Ксеноніда (100 плазми, 100 енергії)"
-  description: "Зціліть найближчого союзника Ксено або зніміть хвороби та оглушення з більш віддаленого союзника Ксено. Зцілення іншого ксеноса також зцілить вас, але половина ваших очок відновлення буде витрачена на додаткове зцілення. [color=red]Це не може зцілити запалених ксенонідів![/color]"
+  name: Aid Xenonid (100 plasma, 100 energy)
+  description: Heal a nearby ally Xeno or remove ailments and stuns from a further away ally Xeno. Healing another Xeno will also heal you, and half your remaning points will be consumed for extra healing. [color=red]This can't heal ignited xenonids![/color]
   components:
   - type: EntityTargetAction
     itemIconStyle: NoItem
@@ -90,8 +90,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoAidToggle
-  name: "Переключити тип допомоги"
-  description: "Перемикається між зціленням та усуненням недуг за допомогою Aid Xenonid."
+  name: Toggle Aid Type
+  description: Toggles between healing or removing ailments with Aid Xenonid.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -108,8 +108,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoLeader
-  name: "Оберіть/слідкуйте за лідерами ксенонідів"
-  description: "Підвищує та понижує лідерів ксенонідів або спостерігає за ними. Підвищення ксеноніда до лідера змусить його випромінювати навколо себе ваші феромони."
+  name: Choose/Follow Xenonid Leaders
+  description: Promotes and demotes xenonid leaders, or watches them. Promoting a xeno to leader will make them emit your pheromones around themselves.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -123,8 +123,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoHeal
-  name: "Зцілити Ксеноніда (600)" # TODO RMC14 proper plasma costs
-  description: "Зцілює ксенонідів у радіусі 4 тайлів навколо місця, де ви клацнули, на 30% їхнього здоров'я протягом 20 секунд."
+  name: Heal Xenonid (600) # TODO RMC14 proper plasma costs
+  description: Heals xenonids in a 4 tile range around where you click for 30% of their health over 20 seconds.
   components:
   - type: WorldTargetAction
     itemIconStyle: NoItem
@@ -142,8 +142,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoApplySalve
-  name: "Нанести мазь (200)"
-  description: "Застосуйте мазь, щоб використати частину свого здоров'я для зцілення союзних ксеносів на 100 здоров'я за 5 секунд. Ви можете скласти кілька мазей у стек."
+  name: Apply Salve (200)
+  description: Apply a salve to use some of your health to heal allied Xenos up to 100 health over 5 seconds. You can stack multiple salves.
   components:
   - type: EntityTargetAction
     itemIconStyle: NoItem
@@ -157,8 +157,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoSacrifice
-  name: "Жертвоприношення"
-  description: "Пожертвуй своїм життям, щоб вилікувати сестру. [color=red]ВИ ПОВЕРНЕТЕСЯ ЛИШЕ ЯКЩО ВИ ВИКОРИСТАЄТЕ ПЕРЕДАНЕ ВАМ ЗДОРОВ'Я, ЗЦІЛИВШИ СЕСТРІВ.[/color]"
+  name: Sacrifice
+  description: Sacrifice your life to heal a sister. [color=red]YOU WILL ONLY RESPAWN IF YOU MAXED OUT YOUR TRANSFERRED HEALTH BY HEALING SISTERS.[/color]
   components:
   - type: EntityTargetAction
     itemIconStyle: NoItem

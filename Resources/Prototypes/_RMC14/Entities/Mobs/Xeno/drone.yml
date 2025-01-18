@@ -7,8 +7,8 @@
   - RMCXenoSpeechSounds
   - RMCXenoCommendationReceiver
   id: CMXenoDroneBase
-  name: "Дрон"
-  description: "Інопланетний дрон."
+  name: Drone
+  description: An alien drone.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-drone

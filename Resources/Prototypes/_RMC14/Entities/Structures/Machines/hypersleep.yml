@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBaseStructureCorrodible
   id: CMHyperSleepChamber
-  name: "камера гіперсну"
-  description: "Велика автоматизована капсула зі світлодіодними дисплеями, призначена для занурення всіх, хто знаходиться всередині, в \"гіперсон\" - форму некріогенного стану, що використовується на більшості кораблів, з'єднана з відсіком для довготривалого гіперсну на нижньому рівні."
+  name: hypersleep chamber
+  description: A large automated capsule with LED displays intended to put anyone inside into 'hypersleep', a form of non-cryogenic statis used on most ships, linked to a long-term hypersleep bay on a lower level.
   components:
   - type: Transform
     anchored: true

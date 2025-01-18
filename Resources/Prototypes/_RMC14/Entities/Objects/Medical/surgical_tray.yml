@@ -1,7 +1,7 @@
 - type: entity
   parent: CMSurgicalCase
   id: RMCSurgicalTrayEmpty
-  name: "хірургічний лоток"
+  name: surgical tray
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/surgical_tray.rsi
@@ -34,7 +34,7 @@
 - type: entity
   parent: RMCSurgicalTrayEmpty
   id: RMCSurgicalTray
-  name: "хірургічний лоток"
+  name: surgical tray
   suffix: Filled, All Tools
   components:
   - type: StorageFill

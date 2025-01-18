@@ -10,7 +10,7 @@
 
 - type: stack
   id: CMGlass
-  name: "скло"
+  name: glass
   icon: { sprite: /Textures/_RMC14/Objects/Materials/Sheets/glass.rsi, state: glass }
   spawn: CMSheetGlass
   maxCount: 50
@@ -30,8 +30,8 @@
 - type: entity
   parent: CMSheetGlassBase
   id: CMSheetGlass
-  name: "скло"
-  description: "Скло - це некристалічна тверда речовина, виготовлена з силікату, основного компонента піску. Воно цінується за свою прозорість, хоча й не надто стійке до пошкоджень."
+  name: glass
+  description: Glass is a non-crystalline solid, made out of silicate, the primary constituent of sand. It is valued for its transparency, albeit it is not too resistant to damage.
   suffix: "Full"
   components:
   - type: Material
@@ -82,7 +82,7 @@
 
 - type: stack
   id: CMGlassReinforced
-  name: "армоване скло"
+  name: reinforced glass
   icon: { sprite: /Textures/_RMC14/Objects/Materials/Sheets/reinf_glass.rsi, state: rglass }
   spawn: CMSheetGlassReinforced
   maxCount: 50
@@ -90,8 +90,8 @@
 - type: entity
   parent: CMSheetGlassBase
   id: CMSheetGlassReinforced
-  name: "армоване скло"
-  description: "Лист армованого скла."
+  name: reinforced glass
+  description: A sheet of reinforced glass.
   suffix: Filled
   components:
   - type: Material
@@ -135,14 +135,14 @@
 - type: material
   id: CMPhoronGlass
   stackEntity: CMSheetGlassPhoron
-  name: "матеріали-форон-скло"
+  name: materials-phoron-glass
   icon: { sprite: _RMC14/Objects/Materials/Sheets/phoron_glass.rsi, state: phoronglass }
   color: "#b35989"
   price: 0.30
 
 - type: stack
   id: CMGlassPhoron
-  name: "форонове скло"
+  name: phoron glass
   icon: { sprite: /Textures/_RMC14/Objects/Materials/Sheets/phoron_glass.rsi, state: phoronglass }
   spawn: CMSheetGlassPhoron
   maxCount: 50
@@ -150,8 +150,8 @@
 - type: entity
   parent: CMSheetGlassBase
   id: CMSheetGlassPhoron
-  name: "форонове скло"
-  description: "Форонове скло - це силікатно-фороновий сплав, перетворений на некристалічну тверду речовину. Воно прозоре, як скло, навіть якщо має видиме рожеве забарвлення, і дуже стійке до пошкоджень і нагрівання."
+  name: phoron glass
+  description: Phoron glass is a silicate-phoron alloy turned into a non-crystalline solid. It is transparent just like glass, even if visibly tainted pink, and very resistant to damage and heat.
   suffix: Filled
   components:
   - type: Material
@@ -192,14 +192,14 @@
 - type: material
   id: CMPhoronGlassReinforced
   stackEntity: CMSheetGlassPhoronReinforced
-  name: "матеріали-армоване-форон-скло"
+  name: materials-reinforced-phoron-glass
   icon: { sprite: _RMC14/Objects/Materials/Sheets/phoron_reinf_glass.rsi, state: phoronrglass }
   color: "#8c4069"
   price: 0.40
 
 - type: stack
   id: CMGlassPhoronReinforced
-  name: "армоване форонове скло"
+  name: reinforced phoron glass
   icon: { sprite: /Textures/_RMC14/Objects/Materials/Sheets/phoron_reinf_glass.rsi, state: phoronrglass }
   spawn: CMSheetGlassPhoronReinforced
   maxCount: 50
@@ -207,8 +207,8 @@
 - type: entity
   parent: CMSheetGlassBase
   id: CMSheetGlassPhoronReinforced
-  name: "армоване форонове скло"
-  description: "Лист армованого форонового скла."
+  name: reinforced phoron glass
+  description: A sheet of reinforced phoron glass.
   suffix: Filled
   components:
   - type: Material

@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   id: RMCBarrelPileBase
-  name: "бочкова паля"
-  description: "велика енергія купи."
+  name: barrel pile
+  description: big pile energy.
   placement:
     mode: SnapgridCenter
   components:
@@ -35,8 +35,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: RMCBarrelBase
-  name: "бочка"
-  description: "Бочка для зберігання."
+  name: barrel
+  description: A storage barrel.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/barrels.rsi
@@ -71,8 +71,8 @@
 - type: entity
   parent: RMCBarrelBase
   id: RMCBarrelBlue
-  name: "синя бочка"
-  description: "Синя бочка для зберігання."
+  name: blue barrel
+  description: A blue storage barrel.
   components:
   - type: Sprite
     state: barrel_blue
@@ -80,8 +80,8 @@
 - type: entity
   parent: RMCBarrelBase
   id: RMCBarrelGreen
-  name: "зелена бочка"
-  description: "Зелена бочка для зберігання."
+  name: green barrel
+  description: A green storage barrel.
   components:
   - type: Sprite
     state: barrel_green
@@ -89,8 +89,8 @@
 - type: entity
   parent: RMCBarrelBase
   id: RMCBarrelRed
-  name: "червона бочка"
-  description: "Червона бочка для зберігання."
+  name: red barrel
+  description: A red storage barrel.
   components:
   - type: Sprite
     state: barrel_red
@@ -98,8 +98,8 @@
 - type: entity
   parent: RMCBarrelBase
   id: RMCBarrelWhite
-  name: "біла бочка"
-  description: "Біла бочка для зберігання."
+  name: white barrel
+  description: A white storage barrel.
   components:
   - type: Sprite
     state: barrel_white
@@ -107,8 +107,8 @@
 - type: entity
   parent: RMCBarrelBase
   id: RMCBarrelYellow
-  name: "жовта бочка"
-  description: "Жовта бочка для зберігання."
+  name: yellow barrel
+  description: A yellow storage barrel.
   components:
   - type: Sprite
     state: barrel_yellow

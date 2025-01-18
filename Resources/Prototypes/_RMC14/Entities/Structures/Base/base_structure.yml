@@ -63,7 +63,7 @@
 - type: entity
   abstract: true
   id: RMCBaseWallInvincibleNoIcon
-  description: "Величезний шматок металу використовувався для розділення кімнат."
+  description: A huge chunk of metal used to separate rooms.
   placement:
     mode: SnapgridCenter
     snap:
@@ -101,7 +101,7 @@
   abstract: true
   parent: RMCBaseWallInvincibleNoIcon
   id: CMBaseWallInvincible
-  description: "Величезний шматок металу використовувався для розділення кімнат."
+  description: A huge chunk of metal used to separate rooms.
   placement:
     mode: SnapgridCenter
     snap:
@@ -114,7 +114,7 @@
   abstract: true
   parent: CMBaseWallInvincible
   id: CMBaseWall
-  description: "Величезний шматок металу використовувався для розділення кімнат."
+  description: A huge chunk of metal used to separate rooms.
   components:
   - type: Damageable
     damageContainer: StructuralMarine
@@ -137,7 +137,7 @@
   - BaseWall
   - CMBaseXenoStructure
   id: CMBaseWallXeno
-  name: "смоляна стіна"
+  name: resin wall
   abstract: true
   placement:
     mode: SnapgridCenter
@@ -162,7 +162,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCWallInvisibleBulletPassible
-  name: "настінний блокер"
+  name: wall blocker
   suffix: Projectile Passible
   placement:
     mode: SnapgridCenter
@@ -198,7 +198,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCBlockerAirtight
-  name: "герметичний блокіратор"
+  name: airtight blocker
   placement:
     mode: SnapgridCenter
   components:

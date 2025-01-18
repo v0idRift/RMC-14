@@ -1,13 +1,13 @@
 ﻿- type: entity
   parent: RMCDrinkAlcoholVodka
   id: RMCDrinkAlcoholVodkaChess
-  name: "горілка \"Червона зірка"
-  description: "Рекламна пляшка горілки \"Червона зірка\" з шаховою тематикою."
+  name: red star vodka
+  description: A promotional chess themed bottle of Red Star Vodka.
 
 - type: entity
   parent: RMCDrinkAlcoholVodkaChess
   id: RMCDrinkAlcoholVodkaChessBlackBishop
-  name: "чорна пляшка \"Бішоп"
+  name: black bishop bottle
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/black_bishop_vodka.rsi
@@ -15,7 +15,7 @@
 - type: entity
   parent: RMCDrinkAlcoholVodkaChess
   id: RMCDrinkAlcoholVodkaChessBlackKing
-  name: "пляшка \"Чорний король"
+  name: black king bottle
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/black_king_vodka.rsi
@@ -23,7 +23,7 @@
 - type: entity
   parent: RMCDrinkAlcoholVodkaChess
   id: RMCDrinkAlcoholVodkaChessBlackKnight
-  name: "пляшка \"Чорний лицар"
+  name: black knight bottle
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/black_knight_vodka.rsi
@@ -31,7 +31,7 @@
 - type: entity
   parent: RMCDrinkAlcoholVodkaChess
   id: RMCDrinkAlcoholVodkaChessBlackPawn
-  name: "чорна пляшка з-під ломбарду"
+  name: black pawn bottle
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/black_pawn_vodka.rsi
@@ -39,7 +39,7 @@
 - type: entity
   parent: RMCDrinkAlcoholVodkaChess
   id: RMCDrinkAlcoholVodkaChessBlackQueen
-  name: "пляшка чорної королеви"
+  name: black queen bottle
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/black_queen_vodka.rsi
@@ -47,7 +47,7 @@
 - type: entity
   parent: RMCDrinkAlcoholVodkaChess
   id: RMCDrinkAlcoholVodkaChessBlackRook
-  name: "пляшка чорної ладьї"
+  name: black rook bottle
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/black_rook_vodka.rsi
@@ -55,7 +55,7 @@
 - type: entity
   parent: RMCDrinkAlcoholVodkaChess
   id: RMCDrinkAlcoholVodkaChessWhiteKing
-  name: "біла королівська пляшка"
+  name: white king bottle
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/white_king_vodka.rsi
@@ -63,7 +63,7 @@
 - type: entity
   parent: RMCDrinkAlcoholVodkaChess
   id: RMCDrinkAlcoholVodkaChessWhiteKnight
-  name: "пляшка білого лицаря"
+  name: white knight bottle
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/white_knight_vodka.rsi
@@ -71,7 +71,7 @@
 - type: entity
   parent: RMCDrinkAlcoholVodkaChess
   id: RMCDrinkAlcoholVodkaChessWhitePawn
-  name: "біла ломбардна пляшка"
+  name: white pawn bottle
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/white_pawn_vodka.rsi
@@ -79,7 +79,7 @@
 - type: entity
   parent: RMCDrinkAlcoholVodkaChess
   id: RMCDrinkAlcoholVodkaChessWhiteQueen
-  name: "пляшка білої королеви"
+  name: white queen bottle
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/white_queen_vodka.rsi
@@ -87,7 +87,7 @@
 - type: entity
   parent: RMCDrinkAlcoholVodkaChess
   id: RMCDrinkAlcoholVodkaChessWhiteRook
-  name: "пляшка білої ладьї"
+  name: white rook bottle
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/white_rook_vodka.rsi

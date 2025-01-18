@@ -1,6 +1,6 @@
 - type: entity
-  name: "біблія"
-  description: "Наносити на голову багаторазово."
+  name: bible
+  description: Apply to head repeatedly.
   parent: Bible
   id: RMCBible
   components:

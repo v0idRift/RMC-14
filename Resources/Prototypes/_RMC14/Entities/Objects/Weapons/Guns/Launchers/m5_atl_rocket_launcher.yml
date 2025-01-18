@@ -1,5 +1,5 @@
 - type: entity
-  name: "M5-ATL"
+  name: M5-ATL
   parent: [BaseWeaponLauncher, CMBaseWeaponGun, RMCBaseAttachableHolder]
   id: RMCWeaponLauncherM5ATL
   description: "The M5 Anti-Tank Launcher is a powerful anti-armor infantry weapon, commonly fielded by the UNMC. Used to take out light-tanks and enemy structures, the M5-ATL is a dangerous weapon with a variety of combat uses, depending on the loaded ammunition, and is capable of firing both shells and rocket-propelled grenades.\n\nThis one is missing its smart optics completely, and seems to be damaged, greatly limiting its range..."
@@ -73,9 +73,9 @@
 # 84mm HE
 - type: entity
   id: RMCRocket84mm
-  name: "84-мм осколково-фугасний снаряд"
+  name: 84mm high-explosive rocket
   parent: BaseItem
-  description: "Ракетна трубка, сумісна з M5-ATL, заряджена боєголовкою HE. Завдає великої шкоди м'яким цілям при прямому влучанні та розбризкує інші цілі в радіусі 5 метрів. Має знижену ефективність по важкоброньованим цілям."
+  description: A rocket tube compatible with the M5-ATL loaded with a HE warhead. Deals high damage to soft targets on direct hit and splashes other targets in a 5-meter-wide area. Has decreased effect on heavily armored targets.
   components:
   - type: Tag
     tags:
@@ -99,9 +99,9 @@
 
 - type: entity
   id: RMCProjectileRocket84mm
-  name: "84-мм осколково-фугасний снаряд"
+  name: 84mm high-explosive rocket
   categories: [ HideSpawnMenu ]
-  description: "Ох, ох."
+  description: Uh oh.
   components:
   - type: TriggerOnCollide
     # TODO RMC14 Make TriggerOnCollide spawn the explosion on the OtherEntity tile more consistently, so the explosion is centered properly
@@ -156,9 +156,9 @@
 
 - type: entity
   id: RMCRocket84mmAntiArmor
-  name: "84-мм протитанкова ракета"
+  name: 84mm anti-armor rocket
   parent: RMCRocket84mm
-  description: "Ракетна труба, сумісна з M5-ATL, заряджена боєголовкою AP. Здатна пробивати та знищувати важкоброньовані цілі. Завдає дуже мало або взагалі не завдає ушкоджень від бризок. Завдає гарантованого оглушення більшості цілей. Має високу точність в межах 7 метрів."
+  description: A rocket tube compatible with the M5-ATL loaded with an AP warhead. Capable of piercing and downing heavily armored targets. Deals very little to no splash damage. Inflicts guaranteed stun to most targets. Has high accuracy within 7 meters.
   components:
   - type: CartridgeAmmo
     proto: RMCProjectileRocket84mmAntiArmor
@@ -175,7 +175,7 @@
 
 - type: entity
   id: RMCProjectileRocket84mmAntiArmor
-  name: "84-мм протитанкова ракета"
+  name: 84mm anti-armor rocket
   parent: RMCProjectileRocket84mm
   categories: [ HideSpawnMenu ]
   components:

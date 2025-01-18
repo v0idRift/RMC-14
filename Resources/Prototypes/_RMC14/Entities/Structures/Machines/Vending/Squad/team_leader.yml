@@ -3,8 +3,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechFLGear
-  name: "ColMarTech пожежна команда лідера багажник для спорядження"
-  description: "Автоматизована стійка для спорядження командирів пожежних команд."
+  name: ColMarTech fireteam leader gear rack
+  description: An automated gear rack for fireteam leaders.
   components:
   - type: AccessReader
     access:
@@ -142,8 +142,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechFLEquipment
-  name: "Стійка для спорядження лідера пожежної команди ColMarTech"
-  description: "Автоматизований стелаж, під'єднаний до величезного сховища стандартного спорядження керівника пожежної команди."
+  name: ColMarTech fireteam leader equipment rack
+  description: An automated rack hooked up to a colossal storage of fireteam leader standard-issue equipment.
   components:
   - type: AccessReader
     access:
@@ -221,8 +221,8 @@
 - type: entity
   parent: CMVendorBundleRiflemanApparel
   id: RMCVendorBundleCrewFireteamLeader
-  name: "основні утиліти керівника пожежної команди"
-  description: "Містить лазерний цілевказівник та дві пачки сигнальних ракет."
+  name: essential fireteam leader utilities
+  description: Contains a laser designator and two packs of signal flares.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Devices/binoculars.rsi
