@@ -31,3 +31,5 @@ rmc-announcement-ares-online = [color=white][font size=16][bold]Арес Онл�
 rmc-announcement-ares-map = [color=white][font size=16][bold]UNS Алмаєр[/bold][/font][/color][color=red][font size=14][bold]
 
     {$message}[/bold][/font][/color]
+
+rmc-announcement-message-raw = [font size=14][bold][color=white]{$author}[/color][/bold][/font][font size=12][color=red] {$message}

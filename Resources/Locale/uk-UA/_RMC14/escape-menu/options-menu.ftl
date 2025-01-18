@@ -13,3 +13,5 @@ ui-options-function-cm-holster-tertiary = Розтебнути третю коб
 ui-options-function-cm-holster-quaternary = Розстебнути четверту кобуру
 
 ui-options-function-rmc-pick-up-dropped-items = Підбирати кинуті речі
+ui-options-header-rmc-xeno = Ксено
+ui-options-function-cm-xeno-wide-swing = Широкі гойдалки Xeno

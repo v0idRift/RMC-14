@@ -9,3 +9,4 @@ credits-window-contributors-section-title = Розробники станції 
 credits-window-codebases-section-title = Space Station 13 код
 credits-window-original-remake-team-section-title = Оригінальна команда розробників Космічної станції 14
 credits-window-special-thanks-section-title = Окреме дякую!
+credits-window-cm-ss13-section-title = CM-SS13 Дописувачі

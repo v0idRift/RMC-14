@@ -231,4 +231,5 @@ rmc-xeno-soak-end-fail = Ми припиняємо приймати вхідну
 rmc-xeno-soak-end-self = Ми відчуваємо лють після отримання зустрічного удару! Перезарядка нашого хвостового удару обнуляється, і ми зцілюємося!
 rmc-xeno-soak-end-others = {CAPITALIZE(THE($xeno))} розлютиться після того, як отримає достатньо пошкоджень!
 rmc-xeno-not-enough-internal-health = Ваші резерви здоров'я недостатні!
-rmc-xeno-internal-health-increase-user = Ви відчуваєте, як збільшуються внутрішні резерви здоров'я.
+rmc-xeno-internal-health-increase-user = Ви відчуваєте, як збільшуються внутрішні резерви здоров'я
+rmc-xeno-evolution-cant-evolve-caste-cooldown = Ми не можемо знову еволюціонувати в цей каст! (Залишилось {$minutes} хвилин і {$seconds} секунд)

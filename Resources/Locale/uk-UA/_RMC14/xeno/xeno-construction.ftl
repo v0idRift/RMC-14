@@ -61,3 +61,5 @@ rmc-xeno-construction-remote-close-door = Ми фокусуємо наше з'є
 rmc-xeno-construction-tunnel-xeno-immobile-failure = Ми взагалі не можемо рухатися!
 rmc-xeno-construction-default-area-name = Невідомо
 rmc-xeno-construction-remote-failed-need-line-of-sight = Нам потрібна пряма видимість, щоб будувати!
+rmc-xeno-construction-bad-area-tunnel = Тут не можна заритися.
+rmc-xeno-construction-bad-tile-tunnel = Ми шкрябаємо, але, здається, не можемо прокопатися крізь таку підлогу.

@@ -49,3 +49,6 @@ rmc-iff-toggle-on = ввімкнути
 rmc-examine-text-id-lock-no-user = [color=chartreuse]Він незареєстрований. Візьміть його, щоб зареєструвати себе як власника[/color]
 rmc-examine-text-id-lock = [color=chartreuse]Він зареєстрований на [/color][color={$color}]{$name}[/color][color=chartreuse]
 rmc-examine-text-id-lock-unlocked = [color=chartreuse]Він зареєстрований на [/color][color={$color}]{$name}[/color][color=chartreuse], але має розблоковані обмеження доступу[/color]
+rmc-gun-stacks-hit-single = В Яблучко!
+rmc-gun-stacks-hit-multiple = В Яблучко! {$hits} попадань підряд!
+rmc-gun-stacks-reset = Зброя {$weapon} видає звуковий сигнал, коли втрачає дані наведення, і повертається до звичайних процедур стрільби.
