@@ -74,8 +74,8 @@
 - type: entity
   parent: CMBottleFilled
   id: CMBottleBicaridine
-  name: "флакон з бікаридином"
-  description: "Маленька пляшечка. Містить бікаридин - використовується для лікування грубих пошкоджень."
+  name: bicaridine bottle
+  description: A small bottle. Contains Bicaridine - Used to treat brute damage.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -91,8 +91,8 @@
 - type: entity
   parent: CMBottleFilled
   id: CMBottleKelotane
-  name: "пляшка з келотаном"
-  description: "Маленька пляшечка. Містить келотан - використовується для обробки опіків."
+  name: kelotane bottle
+  description: A small bottle. Contains kelotane - used to treat burned areas.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -108,8 +108,8 @@
 - type: entity
   parent: CMBottleFilled
   id: CMBottleDylovene
-  name: "диловенова пляшка"
-  description: "Маленька пляшечка диловену. Протидіє отрутам і відновлює пошкодження, спричинені токсинами. Чудодійні ліки."
+  name: dylovene bottle
+  description: A small bottle of dylovene. Counters poisons, and repairs toxin damage. A wonder drug.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -125,8 +125,8 @@
 - type: entity
   parent: CMBottleFilled
   id: CMBottleDexalin
-  name: "флакон з дексаліном"
-  description: "Маленька пляшечка. Містить дексалін - використовується для лікування кисневого голодування."
+  name: dexalin bottle
+  description: A small bottle. Contains dexalin - used to treat oxygen deprivation.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -142,8 +142,8 @@
 - type: entity
   parent: CMBottleFilled
   id: CMBottleInaprovaline
-  name: "флакон з інапроваліном"
-  description: "Маленька пляшечка. Містить інапровалін - використовується для стабілізації стану пацієнтів."
+  name: inaprovaline bottle
+  description: A small bottle. Contains inaprovaline - used to stabilize patients.
   components:
   - type: SolutionContainerManager
     solutions:

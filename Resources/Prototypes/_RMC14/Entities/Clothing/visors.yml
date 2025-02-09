@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [ BaseItem, RMCPowerCellSlotUnremovableSuper ]
   id: RMCVisorNightVision
-  name: "оптика нічного бачення"
-  description: "Вставний забрало HUD в стандартний шолом UNMC. Цей тип забезпечує нічне бачення і є стандартним обладнанням для підрозділів з регулярним фінансуванням. Його можна вставляти в зарядний пристрій для підзарядки внутрішнього акумулятора."
+  name: night vision optic
+  description: An insertable visor HUD into a standard UNMC helmet. This type gives a form of night vision and is standard issue in units with regular funding. It can be inserted into a recharger to recharge its internal battery.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/helmet_visors.rsi

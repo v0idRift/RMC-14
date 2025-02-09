@@ -74,7 +74,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointASO
-  name: "допоміжний офіцер підтримки spawn point"
+  name: auxiliary support officer spawn point
   components:
   - type: SpawnPoint
     job_id: CMAuxiliarySupportOfficer

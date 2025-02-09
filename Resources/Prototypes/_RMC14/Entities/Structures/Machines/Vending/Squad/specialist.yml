@@ -3,8 +3,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechSWSGear
-  name: "Спорядження для спеціалістів з озброєння підрозділу ColMarTech"
-  description: "Автоматизований стелаж для спорядження для спеціалістів з озброєння підрозділів."
+  name: ColMarTech squad weapons specialist gear rack
+  description: An automated gear rack for Squad Weapons Specialists.
   components:
   - type: RMCVendorSpecialist
   - type: AccessReader
@@ -90,8 +90,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechSWSEquipment
-  name: "Стелаж для спеціального спорядження підрозділу ColMarTech"
-  description: "Автоматизований стелаж, під'єднаний до величезного сховища стандартного спорядження спеціаліста зі стрілецької зброї."
+  name: ColMarTech squad weapons specialist equipment rack
+  description: An automated rack hooked up to a colossal storage of Squad Weapons Specialist standard-issue equipment.
   components:
   - type: AccessReader
     access:

@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseItem
   id: RMCBoxMagazineBase
-  name: "загальний магазинний ящик (? x ?)\""
-  description: "Коробка журналів."
+  name: generic magazine box (? x ?)"
+  description: A box of magazines.
   components:
   - type: Item
     size: Huge
@@ -50,8 +50,8 @@
   abstract: true
   parent: RMCBoxMagazineBase
   id: RMCBoxMagazineAPBase
-  name: "загальний магазинний ящик (? x ?)\""
-  description: "Коробка журналів."
+  name: generic magazine box (? x ?)"
+  description: A box of magazines.
   components:
   - type: GenericVisualizer
     visuals:
@@ -74,8 +74,8 @@
   abstract: true
   parent: RMCBoxMagazineBase
   id: RMCBoxMagazineHVBase
-  name: "загальний магазинний ящик (? x ?)\""
-  description: "Коробка журналів."
+  name: generic magazine box (? x ?)"
+  description: A box of magazines.
   components:
   - type: GenericVisualizer
     visuals:
@@ -99,8 +99,8 @@
   abstract: true
   parent: RMCBoxMagazineBase
   id: RMCBoxShellsBase
-  name: "generic shell box (? x ?)\""
-  description: "Коробка з набоями."
+  name: generic shell box (? x ?)"
+  description: A box of shells.
   components:
   - type: GenericVisualizer
     visuals:
@@ -123,7 +123,7 @@
 - type: entity
   parent: RMCBoxMagazineBase
   id: RMCBoxMagazineRifleM54CEmpty
-  name: "коробка для магазинів (M54C x 10)"
+  name: magazine box (M54C x 10)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -162,7 +162,7 @@
 - type: entity
   parent: RMCBoxMagazineAPBase
   id: RMCBoxMagazineRifleM54CAPEmpty
-  name: "коробка для магазинів (AP M54C x 10)"
+  name: magazine box (AP M54C x 10)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -188,7 +188,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleM54CAPEmpty
   id: RMCBoxMagazineRifleM54CAP
-  name: "коробка для магазинів (AP M54C x 10)"
+  name: magazine box (AP M54C x 10)
   suffix: Filled
   components:
   - type: CMItemSlots
@@ -202,7 +202,7 @@
 - type: entity
   parent: RMCBoxMagazineBase
   id: RMCBoxMagazineRifleM54CExtEmpty
-  name: "коробка для магазинів (Ext M54C x 8)"
+  name: magazine box (Ext M54C x 8)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -229,7 +229,7 @@
   parent: RMCBoxMagazineRifleM54CExtEmpty
   id: RMCBoxMagazineRifleM54CExt
   suffix: Filled
-  name: "коробка для магазинів (Ext M54C x 8)"
+  name: magazine box (Ext M54C x 8)
   components:
   - type: CMItemSlots
     startingItem: CMMagazineRifleM54CExt
@@ -243,7 +243,7 @@
 - type: entity
   parent: RMCBoxMagazineHVBase
   id: RMCBoxMagazineSMGM63Empty
-  name: "магазинна коробка (M63 x 12)"
+  name: magazine box (M63 x 12)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -269,7 +269,7 @@
 - type: entity
   parent: RMCBoxMagazineSMGM63Empty
   id: RMCBoxMagazineSMGM63
-  name: "магазинна коробка (M63 x 12)"
+  name: magazine box (M63 x 12)
   components:
   - type: CMItemSlots
     startingItem: CMMagazineSMGM63
@@ -282,7 +282,7 @@
 - type: entity
   parent: RMCBoxMagazineBase
   id: RMCBoxMagazineSMGM63APEmpty
-  name: "магазинна коробка (AP M63 x 12)"
+  name: magazine box (AP M63 x 12)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -309,7 +309,7 @@
   parent: RMCBoxMagazineSMGM63APEmpty
   id: RMCBoxMagazineSMGM63AP
   suffix: Full
-  name: "магазинна коробка (AP M63 x 12)"
+  name: magazine box (AP M63 x 12)
   components:
   - type: CMItemSlots
     startingItem: CMMagazineSMGM63AP
@@ -322,7 +322,7 @@
 - type: entity
   parent: RMCBoxMagazineHVBase
   id: RMCBoxMagazineSMGM63ExtEmpty
-  name: "коробка для магазинів (Ext M63 x 10)"
+  name: magazine box (Ext M63 x 10)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -348,7 +348,7 @@
 - type: entity
   parent: RMCBoxMagazineSMGM63ExtEmpty
   id: RMCBoxMagazineSMGM63Ext
-  name: "коробка для магазинів (Ext M63 x 10)"
+  name: magazine box (Ext M63 x 10)
   suffix: Full
   components:
   - type: CMItemSlots
@@ -363,7 +363,7 @@
 - type: entity
   parent: RMCBoxMagazineBase
   id: RMCBoxMagazineRifleM4SPREmpty
-  name: "магазинна коробка (M4SPR x 16)"
+  name: magazine box (M4SPR x 16)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -389,7 +389,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleM4SPREmpty
   id: RMCBoxMagazineRifleM4SPR
-  name: "магазинна коробка (M4SPR x 16)"
+  name: magazine box (M4SPR x 16)
   suffix: Filled
   components:
   - type: CMItemSlots
@@ -403,7 +403,7 @@
 - type: entity
   parent: RMCBoxMagazineBase
   id: RMCBoxMagazineRifleM4SPRAPEmpty
-  name: "коробка для магазинів (AP M4SPR x 16)"
+  name: magazine box (AP M4SPR x 16)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -429,7 +429,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleM4SPRAPEmpty
   id: RMCBoxMagazineRifleM4SPRAP
-  name: "коробка для магазинів (AP M4SPR x 16)"
+  name: magazine box (AP M4SPR x 16)
   components:
   - type: CMItemSlots
     startingItem: CMMagazineRifleM4SPRAP
@@ -442,7 +442,7 @@
 - type: entity
   parent: RMCBoxMagazineBase
   id: RMCBoxMagazineRifleM4SPRExtEmpty
-  name: "коробка для магазинів (Ext M4SPR x 12)"
+  name: magazine box (Ext M4SPR x 12)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -468,7 +468,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleM4SPRExtEmpty
   id: RMCBoxMagazineRifleM4SPRExt
-  name: "коробка для магазинів (Ext M4SPR x 12)"
+  name: magazine box (Ext M4SPR x 12)
   components:
   - type: CMItemSlots
     startingItem: CMMagazineRifleM4SPRExt
@@ -482,7 +482,7 @@
 - type: entity
   parent: RMCBoxMagazineBase
   id: RMCBoxMagazinePistolM1984Empty
-  name: "магазинна коробка (M1984 x 16)"
+  name: magazine box (M1984 x 16)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -520,7 +520,7 @@
 - type: entity
   parent: RMCBoxMagazineBase
   id: RMCBoxMagazinePistolM1984APEmpty
-  name: "магазинна коробка (AP M1984 x 16)"
+  name: magazine box (AP M1984 x 16)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -553,7 +553,7 @@
 - type: entity
   parent: RMCBoxMagazineAPBase
   id: RMCBoxMagazinePistolM77APEmpty
-  name: "магазинна коробка (M77 AP x 16)"
+  name: magazine box (M77 AP x 16)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -579,7 +579,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolM77APEmpty
   id: RMCBoxMagazinePistolM77AP
-  name: "магазинна коробка (M77 AP x 16)"
+  name: magazine box (M77 AP x 16)
   components:
   - type: CMItemSlots
     startingItem: CMMagazinePistolM77AP
@@ -593,7 +593,7 @@
 - type: entity
   parent: RMCBoxMagazineBase
   id:  RMCBoxMagazinePistolMK80Empty
-  name: "коробка для магазинів (MK80 x 16)"
+  name: magazine box (MK80 x 16)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -619,7 +619,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolMK80Empty
   id:  RMCBoxMagazinePistolMK80
-  name: "коробка для магазинів (MK80 x 16)"
+  name: magazine box (MK80 x 16)
   components:
   - type: CMItemSlots
     startingItem: CMMagazinePistolMK80
@@ -633,7 +633,7 @@
 - type: entity
   parent: RMCBoxMagazineBase
   id: RMCBoxMagazinePistolSU6Empty
-  name: "магазинна коробка (SU-6 x 16)"
+  name: magazine box (SU-6 x 16)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -673,8 +673,8 @@
 - type: entity
   parent: RMCBoxMagazineBase
   id: RMCBoxMagazineRevolverM44Empty
-  name: "коробка швидкісного навантажувача (M44 x 16)"
-  description: "Ящик для зберігання багатьох навантажувачів з ручкою для перенесення."
+  name: speedloader box (M44 x 16)
+  description: A box for holding many speedloaders with a carrying handle.
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -713,8 +713,8 @@
 - type: entity
   parent: RMCBoxMagazineBase
   id: RMCBoxMagazineRevolverM44MarksmanEmpty
-  name: "коробка швидкісного заряджання (Marksman M44 x 16)"
-  description: "Ящик для зберігання багатьох спідлоадерів з ручкою для перенесення, ці завантажені патронами Marksman Rounds."
+  name: speedloader box (Marksman M44 x 16)
+  description: A box for holding many speedloaders with a carrying handle, these ones are loaded with Marksman Rounds.
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -755,7 +755,7 @@
 - type: entity
   parent: RMCBoxMagazineBase
   id: RMCBoxMagazineSMGNailgunEmpty
-  name: "коробка для магазинів (Nailgun x 10)"
+  name: magazine box (Nailgun x 10)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -814,7 +814,7 @@
 - type: entity
   parent: RMCBoxShellsBase
   id: RMCBoxShellsBuckshotEmpty
-  name: "ящик для набоїв (картеч х 100)"
+  name: shell box (Buckshot x 100)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -850,7 +850,7 @@
 - type: entity
   parent: RMCBoxShellsBase
   id: RMCBoxShellsSlugsEmpty
-  name: "ящик для набоїв (набої х 100)"
+  name: shell box (Slugs x 100)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -902,7 +902,7 @@
 - type: entity
   parent: RMCBoxShellsBase
   id: RMCBoxShellsFlechetteEmpty
-  name: "коробка з гільзою (флешка х 100)"
+  name: shell box (Flechette x 100)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -955,7 +955,7 @@
 - type: entity
   parent: RMCBoxShellsBase
   id: RMCBoxShellsIncendiaryEmpty
-  name: "коробка з гільзами (запал х 100)"
+  name: shell box (Incendiary x 100)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -1007,7 +1007,7 @@
 - type: entity
   parent: RMCBoxShellsBase
   id: RMCBoxShellsBeanbagEmpty
-  name: "коробка для снарядів (Beanbag x 100)"
+  name: shell box (Beanbag x 100)
   components:
   # - type: Construction
     # graph: RMCBoxMagazine
@@ -1059,7 +1059,7 @@
 - type: entity
   parent: RMCBoxShellsBase
   id: RMCBoxShellsIncendiaryBuckshotEmpty
-  name: "ящик для набоїв (запалювальний дріб х 100)"
+  name: shell box (Incendiary Buckshot x 100)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -1111,7 +1111,7 @@
 - type: entity
   parent: RMCBoxShellsBase
   id: RMCBoxShellsBreachingEmpty
-  name: "ящик для снарядів (Прорив х 120)"
+  name: shell box (Breaching x 120)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -1163,7 +1163,7 @@
 - type: entity
   parent: RMCBoxMagazineBase
   id: RMCBoxBullets458Empty
-  name: "Ящик для патронів .458 (х300 патронів)" # TODO RMC14 this is 297 since its multiples of 9
+  name: .458 bullets box crate (x300 rounds) # TODO RMC14 this is 297 since its multiples of 9
   components:
   - type: Construction
     graph: RMCBoxMagazine

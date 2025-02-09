@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseItem
   id: CMBasePaper
-  name: "папір"
-  description: "Аркуш білого паперу."
+  name: paper
+  description: A piece of white paper.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/paper.rsi
@@ -65,7 +65,7 @@
       components:
       - Xeno
   - type: FixedIdentity
-    name: "папір"
+    name: paper
     whitelist:
       components:
       - Xeno
@@ -106,7 +106,7 @@
 - type: entity
   parent: CMBasePaperFaxable
   id: CMPaper
-  name: "папір"
+  name: paper
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/paper.rsi
@@ -133,7 +133,7 @@
 - type: entity
   parent: CMPaperWritten
   id: CMPaperJudgement
-  name: "судження"
+  name: judgement
   components:
   - type: Paper
     content: "For crimes against the station, the offender is sentenced to:"
@@ -141,7 +141,7 @@
 - type: entity
   parent: CMPaperWritten
   id: CMPaperAlmayerStorage
-  name: "інструкція з аварійного зберігання almayer"
+  name: almayer emergency storage note
   components:
   - type: Paper
     content: "Hey Garry, I got the boys to move most of the emergency supplies down into the ASRS hold just like ya' asked.
@@ -150,8 +150,8 @@
 - type: entity
   parent: CMBasePaper
   id: RMCPaperRequisitionInvoice
-  name: "інвойс-заявка"
-  description: "Єдина одиниця бюрократії, яка чекає на затвердження."
+  name: requisition invoice
+  description: 'A single unit of bureaucracy awaiting for approval.'
   components:
   - type: Sprite
     layers:

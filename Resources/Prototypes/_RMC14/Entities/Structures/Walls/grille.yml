@@ -1,8 +1,8 @@
 - type: entity
   id: RMCGrille
   parent: CMBaseStructure
-  name: "решітка"
-  description: "Крихка решітка з металевих прутів."
+  name: grille
+  description: A flimsy lattice of metal rods.
   components:
     - type: MeleeSound
       soundGroups:
@@ -89,8 +89,8 @@
 - type: entity
   id: RMCGrilleBroken
   parent: CMBaseStructure
-  name: "решітка"
-  description: "Квола решітка з металевих прутів. Вона бачила кращі часи."
+  name: grille
+  description: A flimsy lattice of metal rods. It has seen better days.
   components:
     - type: Sprite
       drawdepth: Walls

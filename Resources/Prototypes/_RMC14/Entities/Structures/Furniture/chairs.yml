@@ -3,7 +3,7 @@
   abstract: true
   parent: SeatBase
   id: CMSeatBase
-  name: "абстрактний стілець"
+  name: abstract chair
   components:
   - type: Corrodible
     timeToApply: 4
@@ -15,8 +15,8 @@
 - type: entity
   parent: CMSeatBase
   id: CMChair
-  name: "крісло"
-  description: "Прямокутний металевий каркас на чотирьох ніжках зі спинкою. Призначений для більш-менш зручного сидячого положення."
+  name: chair
+  description: A rectangular metallic frame sitting on four legs with a back panel. Designed to fit the sitting position, more or less comfortably.
   components:
   - type: Transform
     anchored: false
@@ -37,8 +37,8 @@
 - type: entity
   parent: CMChair
   id: RMCStool
-  name: "табурет"
-  description: "Приклади прикладом."
+  name: stool
+  description: Apply butt.
   components:
   - type: Sprite
     state: stool
@@ -50,8 +50,8 @@
 - type: entity
   parent: CMSeatBase
   id: CMChairComfy
-  name: "зручне крісло"
-  description: "Крісло зі шкіряною оббивкою та регульованим підголовником. У такому можна сидіти вічно."
+  name: comfy chair
+  description: A chair with leather padding and adjustable headrest. You could probably sit in one of these for ages.
   components:
   - type: Sprite
     state: comfychair
@@ -67,7 +67,7 @@
 - type: entity
   parent: CMChairComfy
   id: CMChairComfyARES
-  description: "Функціональне крісло, призначене для комфортного сидіння однієї людини з метою полегшення взаємодії з корабельним штучним інтелектом."
+  description: A functional chair designed for comfortably sitting a single person with intent to facilitate interactions with the ship AI.
   suffix: ARES
   components:
   - type: Sprite
@@ -124,7 +124,7 @@
 - type: entity
   parent: CMChairComfy
   id: CMChairComfyAlpha
-  description: "Простий стілець, міцно прикріплений до підлоги, з частинами, що обертаються, знятими, щоб змусити солдатів з низькою концентрацією уваги сидіти нерухомо під час брифінгів. Покритий скрипучою і занадто жорсткою штучною шкірою, нерівномірно пофарбованою в червоний колір підрозділу \"Альфа\". Тільки для найсміливіших і найсвіжіших новобранців морської піхоти."
+  description: A simple chair permanently attached to the floor, with the spinning parts removed to force soldiers with low attention spans to keep still during briefings. Covered with a squeaky and way too hard faux-leather, unevenly painted in Alpha squad red. Only for the bravest and freshest Marine recruits.
   suffix: Alpha
   components:
   - type: Sprite
@@ -133,7 +133,7 @@
 - type: entity
   parent: CMChairComfy
   id: CMChairComfyBravo
-  description: "Простий стілець, міцно прикріплений до підлоги, з частинами, що обертаються, знятими, щоб змусити солдатів з низькою концентрацією уваги сидіти нерухомо під час брифінгів. Покритий скрипучою і занадто твердою штучною шкірою, нерівномірно пофарбованою в коричневий колір загону \"Браво\". Сертифіковано укріплений з усіх боків від вторгнення ворога."
+  description: A simple chair permanently attached to the floor, with the spinning parts removed to force soldiers with low attention spans to keep still during briefings. Covered with a squeaky and way too hard faux-leather, unevenly painted in Bravo squad brown. Certified fortified on all sides from enemy incursion.
   suffix: Bravo
   components:
   - type: Sprite
@@ -142,7 +142,7 @@
 - type: entity
   parent: CMChairComfy
   id: CMChairComfyCharlie
-  description: "Простий стілець, міцно прикріплений до підлоги, з частинами, що обертаються, знятими, щоб змусити солдатів з низькою концентрацією уваги сидіти нерухомо під час брифінгів. Покритий скрипучою і занадто жорсткою штучною шкірою, нерівномірно пофарбованою у фіолетовий колір загону Чарлі. Почувається недоречним без повноцінного сніданку."
+  description: A simple chair permanently attached to the floor, with the spinning parts removed to force soldiers with low attention spans to keep still during briefings. Covered with a squeaky and way too hard faux-leather, unevenly painted in Charlie squad purple. Feels out of place without a full breakfast to accompany it.
   suffix: Charlie
   components:
   - type: Sprite
@@ -151,7 +151,7 @@
 - type: entity
   parent: CMChairComfy
   id: CMChairComfyDelta
-  description: "Простий стілець, міцно прикріплений до підлоги, з частинами, що обертаються, знятими, щоб змусити солдатів з низькою концентрацією уваги сидіти нерухомо під час брифінгів. Покритий скрипучою і занадто твердою штучною шкірою, нерівномірно пофарбованою у синій колір загону \"Дельта\". Цей стілець, скоріш за все, першим вступить у бій і першим помре."
+  description: A simple chair permanently attached to the floor, with the spinning parts removed to force soldiers with low attention spans to keep still during briefings. Covered with a squeaky and way too hard faux-leather, unevenly painted in Delta squad blue. This chair is most likely to be the first to fight and first to die.
   suffix: Delta
   components:
   - type: Sprite
@@ -161,7 +161,7 @@
 - type: entity
   parent: CMSeatBase
   id: CMChairOfficeDark
-  name: "темне офісне крісло"
+  name: dark office chair
   components:
   - type: Sprite
     state: officechair_dark
@@ -172,7 +172,7 @@
 - type: entity
   parent: CMChairOfficeDark
   id: CMChairOfficeWhite
-  name: "білий офісний стілець"
+  name: white office chair
   components:
   - type: Sprite
     state: officechair_white
@@ -184,8 +184,8 @@
 - type: entity
   parent: CMSeatBase
   id: CMChairWood
-  name: "дерев'яний стілець"
-  description: "Старе ніколи не буває занадто старим, щоб не бути в моді."
+  name: wooden chair
+  description: Old is never too old to not be in fashion.
   components:
   - type: Sprite
     state: wooden_chair
@@ -200,7 +200,7 @@
 - type: entity
   parent: CMChairWood
   id: CMChairWoodWings
-  description: "Старе ніколи не буває занадто старим, щоб не бути в моді."
+  description: Old is never too old to not be in fashion.
   components:
   - type: Sprite
     state: wooden_chair_wings

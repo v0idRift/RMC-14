@@ -4,8 +4,8 @@
 - type: entity
   parent: AlwaysPoweredWallLight
   id: CMLightFixtureAlwaysPowered
-  name: "світильник"
-  description: "Освітлювальний прилад з яскравою флуоресцентною лампою. Якщо дивитися на нього занадто довго, очі сльозяться."
+  name: light fixture
+  description: A lighting fixture that is fitted with a bright fluorescent light tube. Looking at it for too long makes your eyes go watery.
   suffix: Always powered
   components:
   - type: Transform
@@ -57,7 +57,7 @@
 - type: entity
   parent: CMLightFixtureAlwaysPowered
   id: RMCLightFixtureDoubleAlwaysPowered
-  description: "Освітлювальний прилад, який може бути оснащений двома яскравими флуоресцентними лампами для додаткової привабливості."
+  description: A lighting fixture that can be fitted with two bright fluorescent light tubes for that extra eye-watering goodness.
   components:
   - type: Sprite
     state: ptube1
@@ -141,7 +141,7 @@
 - type: entity
   parent: CMLightFixtureEmpty
   id: RMCLightFixtureDoubleEmpty
-  description: "Освітлювальний прилад, який може бути оснащений двома яскравими флуоресцентними лампами для додаткової привабливості."
+  description: A lighting fixture that can be fitted with two bright fluorescent light tubes for that extra eye-watering goodness.
   components:
   - type: Sprite
     state: ptube1
@@ -222,7 +222,7 @@
 - type: entity
   parent: CMLightFixture
   id: RMCLightFixtureDouble
-  description: "Освітлювальний прилад, який може бути оснащений двома яскравими флуоресцентними лампами для додаткової привабливості."
+  description: A lighting fixture that can be fitted with two bright fluorescent light tubes for that extra eye-watering goodness.
   components:
   - type: Sprite
     state: ptube1
@@ -260,7 +260,7 @@
 - type: entity
   parent: CMLightFixtureAlwaysPowered
   id: CMLightFixtureSmallAlwaysPowered
-  description: "Невеликий освітлювальний прилад з яскравою флуоресцентною лампочкою. Якщо дивитися на нього занадто довго, очі сльозяться."
+  description: A small lighting fixture that is fitted with a bright fluorescent light bulb. Looking at it for too long makes your eyes go watery.
   suffix: Always powered
   components:
   - type: Sprite

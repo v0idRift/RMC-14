@@ -2,7 +2,7 @@
   save: false
   parent: CMBaseMobSpeciesOrganic
   id: RMCMobVulpkanin
-  name: "Urist C.M. McVulp"
+  name: Urist C.M McVulp
   suffix: RMC14
   components:
   - type: HumanoidAppearance
@@ -85,10 +85,10 @@
 
 - type: entity
   parent: BaseSpeciesDummy
-  name: "Манекен Вулканіна"
+  name: Vulpkanin Dummy
   id: MobVulpkaninDummy
   categories: [ HideSpawnMenu ]
-  description: "Фіктивний vulpkanin, призначений для використання в налаштуванні символів."
+  description: A dummy vulpkanin meant to be used in character setup.
   components:
   - type: HumanoidAppearance
     species: Vulpkanin

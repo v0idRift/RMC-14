@@ -1,8 +1,8 @@
 - type: entity
   parent: CMWeaponPistolBase
   id: CMWeaponPistolM77
-  name: "Бойовий пістолет M77" # TODO RMC14 sounds
-  description: "Стандартна вогнепальна зброя морської піхоти. Також зустрічається на озброєнні команд ПВК \"Ми-Я\". Стріляє 9-мм бронебійними кулями і здатний вести постріл чергою з 3 набоїв."
+  name: M77 combat pistol # TODO RMC14 sounds
+  description: Standard issue Marine firearm. Also found in the hands of We-Ya PMC teams. Fires 9mm armor shredding rounds and is capable of 3-round burst.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Pistols/m77.rsi
@@ -96,7 +96,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: CMMagazinePistolM77AP
-  name: "Магазин M77 AP (9мм)"
+  name: M77 AP magazine (9mm)
   components:
   - type: Tag
     tags:

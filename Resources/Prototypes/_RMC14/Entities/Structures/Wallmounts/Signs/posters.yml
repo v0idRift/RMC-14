@@ -30,8 +30,8 @@
 - type: entity
   parent: CMPosterBase
   id: CMPosterBroken
-  name: "розбитий плакат"
-  description: "На оригіналі плакату нічого не можна розгледіти. Він знищений."
+  name: broken poster
+  description: "You can't make out anything from the poster's original print. It's ruined."
   components:
   - type: Sprite
     drawdepth: WallTops
@@ -53,8 +53,8 @@
 - type: entity
   parent: CMPosterBase
   id: CMPosterTheFuture
-  name: "Майбутнє"
-  description: "На цьому плакаті зображено схід сонця над векторним гірським хребтом на тлі стилізованої сітки. Ви можете оцінити його А ЕСТЕТИКУ."
+  name: "The Future"
+  description: "This poster depicts a sunrise over a vectored mountain range in front of a stylized grid. You can appreciate its A E S T H E T I C."
   components:
   - type: Sprite
     state: the_future
@@ -62,8 +62,8 @@
 - type: entity
   parent: CMPosterBase
   id: CMPosterUnicorn
-  name: "Єдиноріг"
-  description: "На цьому чорному фетровому плакаті зображений єдиноріг під веселкою, а під ним жирним шрифтом написано \"НАРКОТИКИ\". У тебе був такий самий, коли ти був молодшим, але ти ніколи нікому не розповідав про це."
+  name: "Unicorn"
+  description: "This blacklight felt poster is depicts a unicorn under a rainbow with the word 'DRUG' boldly written under it. You had this same one when you were younger, but you'd never tell anyone."
   components:
   - type: Sprite
     state: unicorn
@@ -71,8 +71,8 @@
 - type: entity
   parent: CMPosterBase
   id: CMPosterRocker1
-  name: "Літо"
-  description: "На цьому плакаті зображений рокер 20-го століття, якого вже давно немає в живих. Рок, можливо, і помер, але він добре попрацював."
+  name: "Lita"
+  description: "This poster depicts a long-gone 20th century rocker. Rock may be dead, but it had a good run."
   components:
   - type: Sprite
     state: rocker_1
@@ -80,8 +80,8 @@
 - type: entity
   parent: CMPosterBase
   id: CMPosterPresident
-  name: "Плакат передвиборчої кампанії президента Шварценеггера"
-  description: "Цей вицвілий плакат, хоч і старий, є репродукцією передвиборчої кампанії президента Шварценеггера. Він зник на півдорозі свого восьмого терміну і так і не був знайдений."
+  name: "President Schwarzenegger Campaign Poster"
+  description: "This faded poster, while old, is a reproduction of President Schwarzenegger's campaign. He went missing halfway through his eighth term and was never found."
   components:
   - type: Sprite
     state: president
@@ -89,8 +89,8 @@
 - type: entity
   parent: CMPosterBase
   id: CMPosterBeth
-  name: "БЕТ"
-  description: "Це постер нового мультиплатинового поп-гурту BETH, який підкорює країну. Вони відстій."
+  name: "BETH"
+  description: "This is a poster of the new multi-platinum pop group BETH that's sweeping the nation. They suck."
   components:
   - type: Sprite
     state: beth
@@ -98,8 +98,8 @@
 - type: entity
   parent: CMPosterBase
   id: CMPosterArt1
-  name: "мистецтво?"
-  description: "Чорт забирай, ви могли б намалювати це і бути багатим."
+  name: "art?"
+  description: "Hell, you could have painted that and been rich."
   components:
   - type: Sprite
     state: art_1
@@ -107,8 +107,8 @@
 - type: entity
   parent: CMPosterBase
   id: CMPostEat
-  name: "ЇСТИ"
-  description: "Це не стільки постер, скільки реклама цих брутальних силових турніків."
+  name: "EAT"
+  description: "This is less of a poster and more of an advertisement for those gross power bars."
   components:
   - type: Sprite
     state: eat
@@ -117,7 +117,7 @@
   parent: CMPosterBase
   id: CMPosterArious
   name: "Arious Motion Tracker"
-  description: "Це реклама трекера руху цивільного бренду, менш надійного, ніж M314, але приблизно вдвічі легшого."
+  description: "It's an ad for a civilian brand motion tracker, less reliable than the M314, but about half of the weight."
   components:
   - type: Sprite
     state: arious
@@ -125,8 +125,8 @@
 - type: entity
   parent: CMPosterBase
   id: CMPosterSilicon2
-  name: "Кремній"
-  description: "Гей, Силікони! Це вибух з минулого. Вони були викуплені компанією We-Ya приблизно тоді, коли одна з їхніх космічних станцій зійшла з орбіти і впала в гравітаційний колодязь планети після збою в системі."
+  name: "Silicon"
+  description: "Hey, Silicons! That's a blast from the past. They got bought out by We-Ya around the time one of their space stations de-orbited and fell into a planet's gravity well after a systems failure."
   components:
   - type: Sprite
     state: android
@@ -135,7 +135,7 @@
   parent: CMPosterBase
   id: CMPosterElectro
   name: "Electro Gold"
-  description: "Electro Golds, з любов'ю скручені на машині для ВАШОГО задоволення."
+  description: "Electro Golds, lovingly machine rolled for YOUR pleasure."
   components:
   - type: Sprite
     state: electro
@@ -143,8 +143,8 @@
 - type: entity
   parent: CMPosterBase
   id: CMPosterSilicon
-  name: "ТИ ЗАВЖДИ ЗНАЄШ КРЕМНІЙ."
-  description: "ТИ ЗАВЖДИ ЗНАЄШ КРЕМНІЙ. ТИ ЗАВЖДИ ЗНАЄШ КРЕМНІЙ. ТИ ЗАВЖДИ ЗНАЄШ КРЕМНІЙ. ТИ ЗАВЖДИ ЗНАЄШ КРЕМНІЙ. ТИ ЗАВЖДИ ЗНАЄШ КРЕМНІЙ."
+  name: "YOU ALWAYS KNOW A SILICON."
+  description: "YOU ALWAYS KNOW A SILICON. YOU ALWAYS KNOW A SILICON. YOU ALWAYS KNOW A SILICON. YOU ALWAYS KNOW A SILICON. YOU ALWAYS KNOW A SILICON."
   components:
   - type: Sprite
     state: silicon
@@ -152,8 +152,8 @@
 - type: entity
   parent: CMPosterBase
   id: CMPosterMissJanuary
-  name: "Пін-ап \"Міс Січень"
-  description: "На цьому плакаті зображена Роксана Страскі. Вона була на обкладинці журналу \"House Bunny Gentleman's Magazine\" за січень 2180 року. Не питайте, звідки ви це знаєте."
+  name: "'Miss January' pinup"
+  description: "This poster features Roxanne Straski. She was the January 2180 centerfold in House Bunny Gentleman's Magazine. Don't ask how you know that."
   components:
   - type: Sprite
     state: miss_january
@@ -162,7 +162,7 @@
   parent: CMPosterBase
   id: CMPosterF100
   name: "F-100"
-  description: "Новий годинник Casio F-100. Він має дві годинникові головки: одна для місцевого часу, а інша для корабельного."
+  description: "The new Casio F-100 watch. It's got two watch heads: one for local time, and one for ship time."
   components:
   - type: Sprite
     state: f_100
@@ -170,8 +170,8 @@
 - type: entity
   parent: CMPosterBase
   id: CMPosterRememberIo
-  name: "Пам'ятай про Іо"
-  description: "Цей вицвілий пропагандистський плакат гордо закликає: \"Пам'ятай про Іо\", а посередині зображений титульний супутник Юпітера. Несподіваний рейд спецназу на ремонтний завод на супутнику Юпітера, Іо, став подією, яка поклала початок війні з арктуріанцями більше десяти років тому. Зараз вони можуть бути вашими союзниками, але старі рани глибоко затягнулися."
+  name: "'Remember Io'"
+  description: "This faded propaganda poster proudly demands you to, 'Remember Io,' with the titular moon in the middle. The surprise commando raid on the repair/refit yard on Jupiter's moon, Io, was the event that kicked off the war with the Arcturians over a decade ago. They may be your allies now, but old wounds run deep."
   components:
   - type: Sprite
     state: remember_io
@@ -179,8 +179,8 @@
 - type: entity
   parent: CMPosterBase
   id: CMPosterPulseRifle
-  name: "пейнт-ап штурмової гвинтівки"
-  description: "Штурмова гвинтівка Aegis Battlefield Armaments Model 54 Derivative 'C' Assault Rifle Mark One. Єдиний пінап, який вам коли-небудь знадобиться."
+  name: "assault rifle pinup"
+  description: "The Aegis Battlefield Armaments Model 54 Derivative 'C' Assault Rifle Mark One. The only pinup you'll ever need."
   components:
   - type: Sprite
     state: assault_rifle
@@ -188,8 +188,8 @@
 - type: entity
   parent: CMPosterBase
   id: CMPosterMissJuly
-  name: "Пін-ап \"Міс липень"
-  description: "На цьому плакаті зображена Одрі Рейнуотер, яка стоїть у джакузі. Вона була на обкладинці журналу \"House Bunny Gentleman's Magazine\" за липень 2180 року. Не питайте, звідки ви це знаєте."
+  name: "'Miss July' pinup"
+  description: "This poster features Audrey Rainwater standing in a jacuzzi. She was the July 2180 centerfold in House Bunny Gentleman's Magazine. Don't ask how you know that."
   components:
   - type: Sprite
     state: miss_july
@@ -197,8 +197,8 @@
 - type: entity
   parent: CMPosterBase
   id: CMPosterMissApril
-  name: "Пін-ап \"Міс квітень"
-  description: "На цьому плакаті зображена Джульєтта Сіммонс. Вона була на обкладинці журналу \"House Bunny Gentleman's Magazine\" у квітні 2179 року. Не питайте, звідки ви це знаєте."
+  name: "'Miss April' pinup"
+  description: "This poster features Juliette Simmons. She was the April 2179 centerfold in House Bunny Gentleman's Magazine. Don't ask how you know that."
   components:
   - type: Sprite
     state: miss_april
@@ -206,8 +206,8 @@
 - type: entity
   parent: CMPosterBase
   id: CMPosterSuspicious
-  name: "підозрілий на вигляд плакат"
-  description: "На цьому плакаті морські піхотинці зображені як вороги."
+  name: "suspicious looking poster"
+  description: "This poster describes Marines as the enemy."
   components:
   - type: Sprite
     state: suspicious
@@ -215,8 +215,8 @@
 - type: entity
   parent: CMPosterBase
   id: CMPosterTheo
-  name: "Тео"
-  description: "На цьому плакаті зображений морський піхотинець РХБЗ. У цих хлопців небезпечна робота."
+  name: "Theo"
+  description: "This poster depicts a CBRN Marine. These dudes have a hazardous job."
   components:
   - type: Sprite
     state: theo
@@ -224,8 +224,8 @@
 - type: entity
   parent: CMPosterBase
   id: CMPosterGroves
-  name: "Гаї"
-  description: "На цьому плакаті зображений морський піхотинець РХБЗ. У цих хлопців небезпечна робота."
+  name: "Groves"
+  description: "This poster depicts a CBRN Marine. These dudes have a hazardous job."
   components:
   - type: Sprite
     state: groves
@@ -233,8 +233,8 @@
 - type: entity
   parent: CMPosterBase
   id: CMPosterBobda
-  name: "Бобдо"
-  description: "Бобда. Якщо ви не п'єте \"Бобду\", то, мабуть, користуєтеся зубною ниткою і цінуєте свої нирки... слабак. Надруковано в Гавані."
+  name: "Bobda"
+  description: "Bobda. If you don't drink Bobda, you probably do stuff like floss and value your kidneys...wimp. Printed in Havana."
   components:
   - type: Sprite
     state: bobda
@@ -242,8 +242,8 @@
 - type: entity
   parent: CMPosterBase
   id: CMPosterArt2
-  name: "мистецтво?"
-  description: "На цьому плакаті зображено аутсайдерське геометричне постмодерністське аскетичне мистецтво соціального експресіонізму... як ви думаєте."
+  name: "art?"
+  description: "This poster depicts outsider geometric postmodern ascetic abject social expressionism art...you think."
   components:
   - type: Sprite
     state: art_2
@@ -251,8 +251,8 @@
 - type: entity
   parent: CMPosterBase
   id: CMPosterArt3
-  name: "мистецтво?"
-  description: "На цьому плакаті зображено кілька кривих ліній, які якийсь претензійний арт-сноб оцінив у понад  000 000. Шкода, що це лише принт з низькою роздільною здатністю."
+  name: "art?"
+  description: "This poster depicts some curved lines that some pretentious art snob valued at over $12,000,000. Too bad this is just a low-resolution print."
   components:
   - type: Sprite
     state: art_3
@@ -260,8 +260,8 @@
 - type: entity
   parent: CMPosterBase
   id: CMPosterRocker2
-  name: "Літо"
-  description: "На цьому плакаті зображений рокер 20-го століття, якого вже давно немає в живих. Рок, можливо, і помер, але він добре попрацював."
+  name: "Lita"
+  description: "This poster depicts a long-gone 20th century rocker. Rock may be dead, but it had a good run."
   components:
   - type: Sprite
     state: rocker_2
@@ -269,8 +269,8 @@
 - type: entity
   parent: CMPosterBase
   id: CMPosterJoan
-  name: "Джоан"
-  description: "На цьому плакаті зображений рокер 20-го століття, якого вже давно немає в живих. Рок, можливо, і помер, але він добре попрацював."
+  name: "Joan"
+  description: "This poster depicts a long-gone 20th century rocker. Rock may be dead, but it had a good run."
   components:
   - type: Sprite
     state: joan
@@ -278,8 +278,8 @@
 - type: entity
   parent: CMPosterBase
   id: CMPosterSafetyGuidance
-  name: "вказівки з техніки безпеки"
-  description: "На цьому плакаті зображено чоловіка, який працює з шліфувальним кругом, і написано \"ВКАЗІВКИ З ТЕХНІКИ БЕЗПЕКИ - будьте уважні в лабораторії\". Нещодавно точилися дебати щодо того, чи правильно вимовляти \"gwee-dince\", чи краще \"gw-eye-dance\", дехто побоювався, що це могло призвести до фізичного насильства."
+  name: "safety guidance"
+  description: "This poster depicts a man operating a grinding wheel and reads 'SAFETY GUIDANCE stay focused in the lab'. There was a recent debate on whether it is pronounced gwee-dince or is it pro-nounced gw-eye-dance, some were worried it might've gotten physical."
   components:
   - type: Sprite
     state: safety_guidance
@@ -287,8 +287,8 @@
 - type: entity
   parent: CMPosterBase
   id: CMPosterSafetyGoggles1
-  name: "захисні окуляри"
-  description: "На цьому плакаті зображена мінімалістична голова в касці з контрастними захисними окулярами. Напис \"Захисти свої очі"
+  name: "safety goggles"
+  description: "This poster depicts a minimalist head wearing a hardhat with contrasting safety goggles. It reads 'Protect Your Eyes'"
   components:
   - type: Sprite
     state: safety_goggles_1
@@ -296,8 +296,8 @@
 - type: entity
   parent: CMPosterBase
   id: CMPosterMissFebruary
-  name: "Пін-ап \"Міс лютий"
-  description: "На цьому плакаті зображена Міранда Ноель. Вона була на обкладинці журналу \"House Bunny Gentleman's Magazine\" за лютий 2180 року. Не питайте, звідки ви це знаєте."
+  name: "'Miss February' pinup"
+  description: "This poster features Miranda Noel. She was the February 2180 centerfold in House Bunny Gentleman's Magazine. Don't ask how you know that."
   components:
   - type: Sprite
     state: miss_february
@@ -305,8 +305,8 @@
 - type: entity
   parent: CMPosterBase
   id: CMPosterProperLifting
-  name: "правильний підйом"
-  description: "На цьому плакаті зображено чоловіка, який піднімає коробку за допомогою ніг. Він містить вказівки про те, як правильно піднімати важкі предмети. Пам'ятайте, що компанії не потрібен працівник із хворою спиною."
+  name: "proper lifting"
+  description: "This poster depicts a man lifting a box using his legs. It offers pointers on the proper way to lift heavy objects. Remember, the Company has no use for a worker with a bad back."
   components:
   - type: Sprite
     state: proper_lifting
@@ -314,8 +314,8 @@
 - type: entity
   parent: CMPosterBase
   id: CMPosterSafetyGoggles2
-  name: "захисні окуляри"
-  description: "На цьому плакаті зображено мінімалістичного чоловіка з лінзами окулярів, що світяться. На ньому написано: \"ЗБЕРЕЖІТЬ СВОЇ ОЧІ, ВИКОРИСТОВУЙТЕ ОКУЛЯРИ\""
+  name: "safety goggles"
+  description: "This poster depicts a minimalist man with glowing goggle lenses. It reads 'SAVE YOUR EYES USE YOUR GOGGLES"
   components:
   - type: Sprite
     state: safety_goggles_2
@@ -323,8 +323,8 @@
 - type: entity
   parent: CMPosterBase
   id: CMPosterMrUniverse1
-  name: "Містер Всесвіт 2170-74"
-  description: "На цьому плакаті зображений Ланс МакДонелл, переможець конкурсу \"Містер Всесвіт 2170-74\". Не питайте, звідки ви це знаєте. Він має разючу схожість з 42-м президентом США Арнольдом Шварценеггером."
+  name: "Mr. Universe 2170-74"
+  description: "This poster depicts Lance McDonell, the winner of Mr. Universe 2170-74. Don't ask how you know that. He bears a striking resemblance to the 42nd President of the United States, Arnold Schwarzenegger."
   components:
   - type: Sprite
     state: mr_universe_1
@@ -332,8 +332,8 @@
 - type: entity
   parent: CMPosterBase
   id: CMPosterMrUniverse2
-  name: "Містер Всесвіт 2174-76"
-  description: "На цьому плакаті зображений Рокуелл Джордан, переможець конкурсу \"Містер Всесвіт 2174-76\". Не питайте, звідки ви це знаєте."
+  name: "Mr. Universe 2174-76"
+  description: "This poster depicts Rockwell Jordan, the winner of Mr. Universe 2174-76. Don't ask how you know that."
   components:
   - type: Sprite
     state: mr_universe_2
@@ -341,8 +341,8 @@
 - type: entity
   parent: CMPosterBase
   id: CMPosterMrUniverse3
-  name: "Містер Всесвіт 2176 - теперішній час"
-  description: "На цьому плакаті зображений Вілсон Вінслоу, чинний чемпіон конкурсу \"Містер Всесвіт\". Не питайте, звідки ви це знаєте."
+  name: "Mr. Universe 2176-present"
+  description: "This poster depicts Wilson Winslow, the current Mr. Universe reigning champion. Don't ask how you know that."
   components:
   - type: Sprite
     state: mr_universe_3
@@ -350,8 +350,8 @@
 - type: entity
   parent: CMPosterBase
   id: CMPosterWalkman
-  name: "Плеєр"
-  description: "На плакаті зображено плеєр і напис \"Не забудьте свій плеєр\""
+  name: "Walkman"
+  description: "This poster depicts a walkman and reads 'Don't Forget Your Walkman.'"
   components:
   - type: Sprite
     state: walkman
@@ -360,7 +360,7 @@
   parent: CMPosterBase
   id: CMPosterTAB
   name: "TAB"
-  description: "На цьому плакаті зображено логотип TAB. TAB - це низькокалорійний безалкогольний напій, який так і не потрапив за межі Землі. Дивно бачити плакат, що рекламує його тут, далеко звідси. Можливо, комусь просто подобається логотип."
+  description: "This poster depicts the logo for TAB. TAB is a low-calorie soft drink that never really made it off of Earth. It's odd to see a poster advertising it way out here. Maybe someone just likes the logo."
   components:
   - type: Sprite
     state: tab
@@ -368,8 +368,8 @@
 - type: entity
   parent: CMPosterBase
   id: CMPosterBepis
-  name: "Бепіс Кола"
-  description: "На цьому плакаті зображено логотип кока-коли Bepis. Bepis - це безалкогольний напій, який так і не потрапив за межі Землі. Дивно бачити плакат з його рекламою тут, далеко звідси. Можливо, комусь просто подобається логотип. Вже близько 200 років вони стверджують, що є смаком нового покоління."
+  name: "Bepis Cola"
+  description: "This poster depicts the logo for Bepis Cola. Bepis is a soft drink that never really made it off of Earth. It's odd to see a poster advertising it way out here. Maybe someone just likes the logo. They've claimed to be the taste of a new generation for about 200 years."
   components:
   - type: Sprite
     state: bepis
@@ -378,7 +378,7 @@
   parent: CMPosterBase
   id: CMPosterMTV
   name: "MTV"
-  description: "MTV: Понад 200 років транслює лише музичні кліпи. Бутлеґи сучасної музики користуються великим попитом на бартерному ринку Зовнішнього кільця."
+  description: "MTV: Broadcasting nothing but music videos for over 200 years. Bootleg tapes of current music fetch a premium in the Outer Rim barter market."
   components:
   - type: Sprite
     state: mtv
@@ -386,8 +386,8 @@
 - type: entity
   parent: CMPosterBase
   id: CMPosterJimmy
-  name: "Джиммі і мормони: Афіша туру \"Просвітлений резонанс"
-  description: "Джиммі і Мормони - рок-гурт, що існував близько десяти років тому і складався з чоловіка та його семи дружин. Церква Ісуса Христа Святих Останніх Днів офіційно засуджувала їх кілька разів, а пізніше з'ясувалося, що учасники гурту не були мормонами і навіть не були одружені. Це був справжній скандал у музичному світі."
+  name: "Jimmy and the Mormons: Enlightened Resonance Tour Poster"
+  description: "Jimmy and the Mormons were a rock band about ten years back consisting of a man and his seven wives. The Church of Jesus Christ of the Latter-day Saints officially denounced them multiple times and it was later revealed that the band members weren't Mormon and weren't even married. It was quite the scandal in the music world."
   components:
   - type: Sprite
     state: jimmy
@@ -395,8 +395,8 @@
 - type: entity
   parent: CMPosterBase
   id: CMPosterVoteNo
-  name: "Голосуйте \"НІ\" Пропозиції 339 та Голосуйте \"НІ!\" Закону про захист колоній"
-  description: "Цей плакат закликає вас проголосувати \"НІ!\" новому законодавчому акту, який надасть військовим карт-бланш на втручання у справи корпорацій. Багато хто вважає цей законопроект надмірним втручанням уряду, але багато хто вважає його меншим з двох зол у порівнянні з тим, щоб дозволити мегакорпораціям робити все, що їм заманеться. Оскільки космос до біса величезний, знадобиться час, щоб зібрати всі голоси, і навіть якщо він буде прийнятий, то, швидше за все, вступить в силу не раніше 2186 року."
+  name: "Vote 'NO' to Proposition 339 and Vote 'NO!' to the Colony Protection Act"
+  description: "This poster demands that you vote 'NO!' to that new piece of legislation that would give the military carte blanche permission to stick its nose in corporate affairs. Many view the bill as government overreach, but many others view it as the lesser of two evils compared to letting the megacorps do whatever they want. Because space is friggin' huge, it's going to take a while to gather all of the votes and even if it's passed, it likely won't go into effect until 2186 at the earliest."
   components:
   - type: Sprite
     state: vote_no
@@ -404,8 +404,8 @@
 - type: entity
   parent: CMPosterBase
   id: CMPosterFallingFalcons
-  name: "Падіння соколів"
-  description: "Промо-матеріал для 2-ї роти 2-го батальйону 4-ї бригади \"Падаючі соколи\". Розроблений невідомим художником і надрукований з метою зміцнення рядів \"Соколів\"."
+  name: "Falling Falcons"
+  description: "Promotional material for the 2nd Company of the 2nd Battalion of the 4th Brigade, the Falling Falcons. Designed by an unknown artist and printed in an effort to bolster the ranks of the Falling Falcons."
   components:
   - type: Sprite
     state: falling_falcons

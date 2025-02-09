@@ -2,8 +2,8 @@
 - type: entity
   parent: RMCBaseArmor
   id: CMArmorRiot
-  name: "Бронежилет M5 для боротьби з масовими заворушеннями"
-  description: "Сильно модифікований костюм M2 MP Armor, що використовується для придушення бунтів морських піхотинців-відьом. Сильно сповільнює вас."
+  name: M5 riot control armor
+  description: A heavily modified suit of M2 MP Armor used to suppress riots from buckethead marines. Slows you down a lot.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/riot.rsi
@@ -26,7 +26,7 @@
 - type: entity
   parent: CMArmorRiot
   id: CMArmorRiotOld
-  description: "Якщо не брати до уваги дещо змінений колір пластин, він зберігся досить добре."
+  description: Barring the slightly off-color plates, it's preserved quite well.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/old_riot.rsi

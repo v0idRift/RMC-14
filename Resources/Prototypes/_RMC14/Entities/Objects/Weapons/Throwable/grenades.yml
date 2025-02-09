@@ -2,8 +2,8 @@
   abstract: true
   parent: GrenadeBase
   id: CMGrenadeBase
-  name: "граната"
-  description: "Пригнись і сховайся."
+  name: grenade
+  description: Duck and cover.
   components:
   - type: Explosive
     explosionType: RMC
@@ -38,8 +38,8 @@
     - RMCGrenadeM40
 
 - type: entity
-  name: "сигнальна ракета"
-  description: "Чудово підходить для зупинки груп бунтівників. Не сподівайтеся, що сонцезахисні окуляри захистять вас..."
+  name: flashbang
+  description: Excellent for stopping groups of Rioters. Don't expect sunglasses to protect you...
   parent: CMGrenadeBase
   id: RMCGrenadeFlashBang
   components:
@@ -70,8 +70,8 @@
   - CMGrenadeBase
   - RMCM40DPTags
   id: CMGrenadeHighExplosive
-  name: "Граната M40 HEDP"
-  description: "Фугасна граната подвійного призначення. Невелика, але оманливо потужна осколкова граната, яка поступово витісняє гранати M15 HE та M40 HEFA. Її можна заряджати в гранатомети або кидати вручну."
+  name: M40 HEDP grenade
+  description: High-Explosive Dual-Purpose. A small, but deceptively strong blast grenade that has been phasing out the M15 HE grenades alongside the M40 HEFA. Capable of being loaded in grenade launchers, or thrown by hand.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/m40hedp.rsi
@@ -91,8 +91,8 @@
   - CMGrenadeBase
   - RMCM40DPTags
   id: CMGrenadeSmoke
-  name: "Димова шашка M40 HSDP"
-  description: "M40 HSDP - невелика, але потужна димова граната. Заснована на тій самій платформі, що й M40 HEDP. Вона вибухає за 2 секунди."
+  name: M40 HSDP smoke grenade
+  description: The M40 HSDP is a small, but powerful smoke grenade. Based off the same platform as the M40 HEDP. It is set to detonate in 2 seconds.
   components:
   - type: OnUseTimerTrigger
     delay: 2
@@ -141,8 +141,8 @@
 - type: entity
   parent: CMGrenadeHighExplosive
   id: CMGrenadeFrag
-  name: "Граната M40 HEFA"
-  description: "Осколково-фугасна протипіхотна граната. Невелика, але оманливо сильна осколкова граната, яка поступово витісняє осколкові гранати M15 та M40 HEDP. Може заряджатися в гранатомети або кидатися вручну."
+  name: M40 HEFA grenade
+  description: High-Explosive Fragmenting-Antipersonnel. A small, but deceptively strong fragmentation grenade that has been phasing out the M15 fragmentation grenades alongside the M40 HEDP. Capable of being loaded in grenade launchers, or thrown by hand.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/m40hefa.rsi
@@ -169,8 +169,8 @@
 - type: entity
   parent: CMGrenadeHighExplosive
   id: CMGrenadeFragOld
-  name: "Осколкова граната М15"
-  description: "Застаріла осколкова граната UNMC. Старі осколкові гранати М15, які десятиліттями служили в UNMC, поступово замінюються дещо безпечнішими гранатами серії М40. Вона вибухає за 4 секунди."
+  name: M15 fragmentation grenade
+  description: An outdated UNMC Fragmentation Grenade. With decades of service in the UNMC, the old M15 Fragmentation Grenade is slowly being replaced by the slightly safer M40-series grenades. It is set to detonate in 4 seconds.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/m15frag.rsi
@@ -200,8 +200,8 @@
 - type: entity
   parent: CMGrenadeBase
   id: RMCGrenadeTraining
-  name: "Навчальна граната M07"
-  description: "Нешкідлива багаторазова версія M40 HEDP, що використовується для тренувань. Може заряджатися в гранатомет або кидатися вручну."
+  name: M07 Training Grenade
+  description: A harmless reusable version of the M40 HEDP, used for training. Capable of being loaded into a grenade launcher, or thrown by hand.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/m07training.rsi
@@ -220,8 +220,8 @@
   - CMGrenadeBase
   - RMCM40DPTags
   id: RMCGrenadeIncendiary
-  name: "Запальна граната M40 HIDP"
-  description: "M40 HIDP - це невелика, але оманливо потужна запалювальна граната, призначена для порушення мобільності противника за допомогою довготривалого напалму типу B. Вона вибухає за 4 секунди."
+  name: M40 HIDP incendiary grenade
+  description: The M40 HIDP is a small, but deceptively strong incendiary grenade designed to disrupt enemy mobility with long-lasting Type B napalm. It is set to detonate in 4 seconds.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/m40hidp.rsi
@@ -234,8 +234,8 @@
 - type: entity
   parent: RMCGrenadeIncendiary
   id: RMCGrenadeMolotov
-  name: "саморобна запальна бомба"
-  description: "Потужна саморобна вогняна бомба в поєднанні з дрібкою пороху. Дешева, дуже ефективна і смертоносна в обмеженому просторі. Часто зустрічається в руках повстанців і терористів. Важко передбачити, скільки секунд у вас є до вибуху, тому будьте обережні. Швидше за все, вона може вибухнути прямо перед вашим обличчям."
+  name: improvised firebomb
+  description: A potent, improvised firebomb, coupled with a pinch of gunpowder. Cheap, very effective, and deadly in confined spaces. Commonly found in the hands of rebels and terrorists. It can be difficult to predict how many seconds you have before it goes off, so be careful. Chances are, it might explode in your face.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/molotov.rsi

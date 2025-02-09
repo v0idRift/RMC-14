@@ -1,8 +1,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineShotgunXM51
-  name: "Магазин XM51 (16 г)"
-  description: "Магазин для помпової рушниці 16 калібру."
+  name: XM51 magazine (16g)
+  description: A 16 gauge pump-action shotgun magazine.
   components:
   - type: Tag
     tags:

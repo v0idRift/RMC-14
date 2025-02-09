@@ -1,7 +1,7 @@
 - type: entity
   id: RMCKitchenReagentGrinder
   parent: KitchenReagentGrinder
-  name: "Шліфувальна машина \"Все в одному"
+  name: All-In-One Grinder
   description: ""
   suffix: ""
   components:

@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: CMHandsBlackMarine # TODO RMC14 armor
-  name: "морські бойові рукавиці"
-  description: "Морські тактичні рукавиці стандартного зразка. Тут написано: \"В'язані Асоціацією вдів морських піхотинців\"."
+  name: marine combat gloves
+  description: "Standard issue marine tactical gloves. It reads: 'knit by Marine Widows Association'."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/black.rsi
@@ -16,8 +16,8 @@
 - type: entity
   parent: CMHandsBlackMarine
   id: RMCHandsLatexMarine # TODO RMC14 armor
-  name: "морські медичні бойові рукавички"
-  description: "Стандартні морські стерильні рукавички забезпечують звичайний захист, одночасно пропонуючи користувачеві кращий захват при виконанні медичної роботи."
+  name: marine medical combat gloves
+  description: Standard issue marine sterile gloves, offers regular protection whilst offering the user a better grip when performing medical work.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/latex.rsi
@@ -33,8 +33,8 @@
 - type: entity
   parent: CMHandsBlackMarine
   id: RMCHandsCOGloves
-  name: "рукавички командирські"
-  description: "Можливо, вам подобаються ці рукавички, але ВОНИ думають, що ви їх недостойні."
+  name: commanding officer's gloves
+  description: You may like these gloves, but THEY think you are unworthy of them.
   components:
   - type: Insulated
   - type: Sprite
@@ -48,8 +48,8 @@
 - type: entity
   parent: CMHandsBlackMarine
   id: RMCHandsM3G4
-  name: "Рукавички гренадерські M3-G4"
-  description: "Пара пластинчастих, але спритних рукавичок."
+  name: M3-G4 grenadier gloves
+  description: A pair of plated, but nimble, gloves.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/grenadier.rsi

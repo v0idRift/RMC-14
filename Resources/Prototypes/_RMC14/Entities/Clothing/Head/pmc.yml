@@ -2,8 +2,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: ArmorHelmetPMC
-  name: "Тактична кепка ПВК"
-  description: "Захисна шапочка з гнучкого кевлару. Стандартна екіпіровка для більшості охоронних форм замість шолома."
+  name: PMC tactical cap
+  description: A protective cap made from flexible kevlar. Standard issue for most security forms in the place of a helmet.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/cap.rsi
@@ -15,8 +15,8 @@
 - type: entity
   parent: ArmorHelmetPMC
   id: ArmorHelmetPMCOfficer
-  name: "Берет ПВК"
-  description: "Вершина моди для будь-якого лідера найманців-початківців. Призначений для захисту голови від легких ударів."
+  name: PMC beret
+  description: The pinnacle of fashion for any aspiring mercenary leader. Designed to protect the head from light impacts.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/officer.rsi
@@ -26,8 +26,8 @@
 - type: entity
   parent: ArmorHelmetPMC
   id: ArmorHelmetPMCSniper
-  name: "Шолом снайпера ПВК"
-  description: "Каска, яку носять стрільці ПВК \"Маркс\"."
+  name: PMC sniper helmet
+  description: A helmet worn by PMC Marksmen.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/sniper.rsi
@@ -37,8 +37,8 @@
 - type: entity
   parent: ArmorHelmetPMC
   id: ArmorHelmetPMCGunner
-  name: "Шолом оператора кулемета ПВК"
-  description: "Модифікація стандартної броні M3."
+  name: PMC gun operator helmet
+  description: A modification of the standard M3 armor.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/heavy.rsi
@@ -48,8 +48,8 @@
 - type: entity
   parent: ArmorHelmetPMC
   id: ArmorHelmetPMCCommando
-  name: "Шолом PMC M5X"
-  description: "Повністю закритий броньований шолом, що доповнює броню екзоскелету M5X."
+  name: PMC M5X helmet
+  description: A fully enclosed, armored helmet made to complete the M5X exoskeleton armor.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/commando.rsi
@@ -61,8 +61,8 @@
 - type: entity
   parent: ArmorHelmetPMC
   id: ArmorHelmetPMCCorporate
-  name: "Корпоративний захисний шолом We-Ya"
-  description: "Базовий черепний шолом, який носять співробітники корпоративних служб безпеки, призначений для захисту голови від непокірного вченого, озброєного ломом."
+  name: We-Ya corporate security helmet
+  description: A basic skull-helm worn by corporate security assets, graded to protect your head from an unruly scientist armed with a crowbar.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/corporate.rsi
@@ -72,7 +72,7 @@
 - type: entity
   parent: ArmorHelmetPMCCorporate
   id: ArmorHelmetPMCCorporateLead
-  description: "Базовий черепний шолом, який носять корпоративні служби безпеки. Цей варіант носять охоронці нижчого рівня, у яких занадто багато мозкової речовини, щоб поміститися в старому шоломі. Принаймні, так вони кажуть."
+  description: A basic skull-helm worn by corporate security assets. This variant is worn by low-level guards that have too much brainmatter to fit into the old one. Or so they say.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/corporate_lead.rsi
@@ -82,8 +82,8 @@
 - type: entity
   parent: ArmorHelmetPMC
   id: ArmorHelmetPMCRiot
-  name: "Шолом RC6"
-  description: "Стандартний шолом UN Riot Control 6 має дивний дизайн, за замовчуванням не має захисного щитка для обличчя (місця для кріплення доступні). Виразний білий візерунок та червона емблема є синонімами гноблення по всьому обідку."
+  name: RC6 helmet
+  description: The standard UN Riot Control 6 helmet is of odd design, lacking a face shield by default (mounting points are available). The distinct white pattern and red emblem are synonymous with oppression throughout the rim.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/riot.rsi
@@ -93,8 +93,8 @@
 - type: entity
   parent: ArmorHelmetPMC
   id: ArmorHelmetPMCKutjevo
-  name: "кутєвський шолом"
-  description: "Стандартна каска для працівників Кутєво. Містить невелику стрічку для зберігання дрібних предметів, таких як ручки, олія або навіть фотографію коханої людини."
+  name: kutjevo helmet
+  description: Standard issued helmet for the workers of Kutjevo. Contains a small webbing to hold small items like pens, oil or even a photo of a loved one.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/kutjevo.rsi

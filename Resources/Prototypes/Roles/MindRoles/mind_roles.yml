@@ -1,7 +1,7 @@
 - type: entity
   id: BaseMindRole
-  name: "Роль розуму"
-  description: "Розумна рольова сутність"
+  name: Mind Role
+  description: Mind Role entity
   abstract: true
   components:
   - type: MindRole
@@ -18,7 +18,7 @@
 - type: entity
   parent: BaseMindRole
   id: MindRoleObserver
-  name: "Роль спостерігача"
+  name: Observer Role
   components:
   - type: ObserverRole
 
@@ -26,7 +26,7 @@
 - type: entity
   parent: BaseMindRole
   id: MindRoleGhostMarker
-  name: "Роль примари"
+  name: Ghost Role
   components:
   - type: GhostRoleMarkerRole
 
@@ -34,7 +34,7 @@
 - type: entity
   parent: BaseMindRole
   id: MindRoleJob
-  name: "Посадові обов'язки"
+  name: Job Role
 #  description:
   # MindRoleComponent.JobPrototype is filled by SharedJobSystem
 
@@ -42,7 +42,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleSubvertedSilicon
-  name: "Підривна роль кремнію"
+  name: Subverted Silicon Role
   description:
   components:
   - type: SubvertedSiliconRole
@@ -53,7 +53,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleDragon
-  name: "Роль дракона"
+  name: Dragon Role
 #  description:
   components:
   - type: MindRole
@@ -67,7 +67,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleNinja
-  name: "Роль космічного ніндзя"
+  name: Space Ninja Role
 #  description: mind-role-ninja-description
   components:
   - type: MindRole
@@ -79,7 +79,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleNukeops
-  name: "Оперативна роль Nukeops"
+  name: Nukeops Operative Role
 #  description: mind-role-nukeops-description
   components:
   - type: MindRole
@@ -90,7 +90,7 @@
 - type: entity
   parent: MindRoleNukeops
   id: MindRoleNukeopsMedic
-  name: "Роль медика Nukeops"
+  name: Nukeops Medic Role
 #  description: mind-role-nukeops-medic-description
   components:
   - type: MindRole
@@ -99,7 +99,7 @@
 - type: entity
   parent: MindRoleNukeops
   id: MindRoleNukeopsCommander
-  name: "Роль командира Nukeops"
+  name: Nukeops Commander Role
 #  description: mind-role-nukeops-commander-description
   components:
   - type: MindRole
@@ -109,7 +109,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleHeadRevolutionary
-  name: "Роль головного революціонера"
+  name: Head Revolutionary Role
 #  description: mind-role-head-revolutionary-description
   components:
   - type: MindRole
@@ -120,7 +120,7 @@
 - type: entity
   parent: MindRoleHeadRevolutionary
   id: MindRoleRevolutionary
-  name: "Революційна роль"
+  name: Revolutionary Role
 #  description: mind-role-revolutionary-description
   components:
   - type: MindRole
@@ -130,7 +130,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleThief
-  name: "Роль злодія"
+  name: Thief Role
 #  description: mind-role-thief-description
   components:
   - type: MindRole
@@ -141,7 +141,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleTraitor
-  name: "Роль зрадника"
+  name: Traitor Role
 #  description: mind-role-traitor-description
   components:
   - type: MindRole
@@ -152,7 +152,7 @@
 - type: entity
   parent: MindRoleTraitor
   id: MindRoleTraitorSleeper
-  name: "Роль сплячого агента"
+  name: Sleeper Agent Role
 #  description: mind-role-traitor-sleeper-description
   components:
   - type: MindRole
@@ -162,7 +162,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleInitialInfected
-  name: "Початкова роль інфікованого"
+  name: Initial Infected Role
 #  description: mind-role-initial-infected-description
   components:
   - type: MindRole
@@ -173,7 +173,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleZombie
-  name: "Роль зомбі"
+  name: Zombie Role
 #  description: mind-role-zombie-description
   components:
   - type: MindRole

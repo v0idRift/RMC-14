@@ -69,7 +69,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointExecutiveOfficer
-  name: "виконавчий директор spawn point"
+  name: executive officer spawn point
   components:
   - type: SpawnPoint
     job_id: CMExecutiveOfficer

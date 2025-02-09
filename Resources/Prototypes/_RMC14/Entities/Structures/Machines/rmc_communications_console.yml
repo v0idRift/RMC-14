@@ -30,8 +30,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCGroundsideOperationsConsole
-  name: "наземний пульт управління"
-  description: "Це можна використовувати для різних важливих функцій."
+  name: groundside operations console
+  description: This can be used for various important functions.
   components:
   - type: ActivatableUI
     key: enum.MarineCommunicationsComputerUI.Key
@@ -56,8 +56,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCWarshipControlConsole
-  name: "консоль управління almayer"
-  description: "Він використовується для управління судном і пов'язаними з ним функціями."
+  name: almayer control console
+  description: This is used for controlling ship and its related functions.
   components:
   - type: ActivatableUI
     key: enum.MarineControlComputerUi.Key
@@ -75,8 +75,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCOverwatchConsole
-  name: "консоль Overwatch"
-  description: "Найсучасніша техніка для віддачі наказів загону."
+  name: overwatch console
+  description: State of the art machinery for giving orders to a squad.
   components:
   - type: Transform
     anchored: false
@@ -111,8 +111,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCTacticalMapTable
-  name: "картографічна таблиця"
-  description: "Таблиця, яка відображає карту поточного місця проведення операції."
+  name: map table
+  description: A table that displays a map of the current operation location.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/map_table.rsi
@@ -134,8 +134,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCEscapePodController
-  name: "контролер рятувальної капсули"
-  description: "Комп'ютер управління шатлом."
+  name: escape pod controller
+  description: A shuttle control computer.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/escape_pod_panel.rsi
@@ -164,8 +164,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCLifeboatConsole
-  name: "консоль рятувальної шлюпки"
-  description: "Комп'ютер для керування рятувальною шлюпкою."
+  name: lifeboat console
+  description: A lifeboat control computer.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
