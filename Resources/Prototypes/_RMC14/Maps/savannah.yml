@@ -1,4 +1,4 @@
-- type: gameMap # TODO RMC14 save savannah
+- type: gameMap
   id: Savannah
   mapName: Savannah
   mapPath: /Maps/_RMC14/savannah.yml
