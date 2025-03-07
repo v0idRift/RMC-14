@@ -304,4 +304,4 @@ ghost-role-information-derelict-cyborg-name = Покинутий кіборг
 ghost-role-information-derelict-cyborg-description = Ви звичайний кіборг, який загубився в космосі. Після багатьох років впливу іонних штормів ви опинилися біля космічної станції.
 ghost-role-information-gingerbread-name = Імбирний чоловічок
 ghost-role-information-gingerbread-description = Істота чистого святкового духу.
-Поширюйте патокову доброту і всім гарний настрій.
+    Поширюйте патокову доброту і всім гарний настрій.
