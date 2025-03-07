@@ -26,3 +26,12 @@ CMJobHospitalCorpsman = Бойовий медик
 cm-job-name-combat-tech = Бойовий Техник
 cm-job-description-combat-tech = Будуйте або розбирайте укріплення. Відкривайте заблоковані місця для вашої команди.
 CMJobCombatTech = Бойовий Техник
+
+cm-job-prefix-rifleman = Стрілець
+cm-job-prefix-squad-leader = Командир відділення
+CMJobSquadLeader = Лідер Загону
+cm-job-prefix-fireteam-leader = Командир вогневої групи
+cm-job-prefix-weapons-specialist = Спеціаліст з озброєння
+cm-job-prefix-gun-operator = Оператор зброї
+cm-job-prefix-hospital-corpsman = Санітар
+cm-job-prefix-combat-tech = Бойовий технік

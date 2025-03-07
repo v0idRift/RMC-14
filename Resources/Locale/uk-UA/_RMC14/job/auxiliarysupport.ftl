@@ -18,3 +18,9 @@ CMJobDropshipCrewChief = Другий пілот
 cm-job-name-intel = Офіцер Розвідки
 cm-job-description-intel = Шукайте розвіддані щоб отримати бали досліджень для підтримки операції.
 CMJobIntelOfficer = Офіцер Розвідки
+
+cm-job-prefix-aso = ASO
+cm-job-prefix-dropship-pilot = Пілот десантного корабля
+cm-job-prefix-gunship-pilot = Пілот бойового корабля
+cm-job-prefix-dcc = DCC
+cm-job-prefix-intel = Офіцер розвідки

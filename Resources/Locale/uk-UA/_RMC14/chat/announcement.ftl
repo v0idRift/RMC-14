@@ -32,4 +32,12 @@ rmc-announcement-ares-map = [color=white][font size=16][bold]UNS Алмаєр[/b
 
     {$message}[/bold][/font][/color]
 
-rmc-announcement-message-raw = [font size=14][bold][color=white]{$author}[/color][/bold][/font][font size=12][color=red] {$message}
+rmc-announcement-message-raw = [font size=16][bold][color=#CECECE]{$author}[/color][/bold][/font][font size=16][color=red]
+
+    {$message}
+rmc-announcement-delta = [color=#CECECE][font size=16][bold]СИСТЕМИ САМОЗНИЩЕННЯ АКТИВОВАНІ[/bold][/font][/color][color=red][font size=16][bold]
+
+     НЕБЕЗПЕКА, СИСТЕМА АВАРІЙНОГО ЗНИЩЕННЯ АКТИВОВАНА. ПРОЙДІТЬ ДО КАМЕРИ САМОЗНИЩЕННЯ ДЛЯ ВСТАВЛЕННЯ СТРИЖНІВ КЕРУВАННЯ.[/bold][/font][/color]
+rmc-announcement-general-quarters = УВАГА! ЗАГАЛЬНА ТРИВОГА. ВСІМ ПО МІСЦЯХ, ЗАЙНЯТИ БОЙОВІ ПОСТИ.
+rmc-announcement-dropship-hijack = Виявлено незапланований відліт десантного корабля з оперативної зони. Ймовірне викрадення. Автопілот вимкнено.
+rmc-announcement-dropship-hijack-hive = Королева наказала металевому птаху відправитися до металевого вулика в небі! Радійте!

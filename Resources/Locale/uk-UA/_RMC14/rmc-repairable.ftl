@@ -6,3 +6,4 @@ rmc-repairable-finish-others = {$user} відремонтував {$target}
 
 rmc-repairable-not-damaged = {CAPITALIZE(THE($target))} не потребує ремонту.
 rmc-repairable-not-trained = Ви не навчені відновлювати {THE($target)}...
+rmc-repairable-too-damaged = {CAPITALIZE(THE($target))} зазнав занадто сильних структурних пошкоджень, щоб його можна було відремонтувати.

@@ -109,3 +109,5 @@ alerts-revenant-corporeal-desc = Ви проявилися фізично. Лю�
 
 alerts-adrenaline-name = [color=red]Адреналін[/color]
 alerts-adrenaline-desc = Ви сповнені адреналіну: біль не сповільнить вас.
+alerts-walking-name = Ходьба
+alerts-walking-desc = Ви йдете, рухаючись повільно.

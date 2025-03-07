@@ -11,3 +11,6 @@ species-name-skeleton = Скелет
 species-name-vox = Вокс
 
 snail-hurt-by-salt-popup = Солоний розчин пече, як кислота!
+species-name-gingerbread = смачна випічка
+
+## Різні речі про вид

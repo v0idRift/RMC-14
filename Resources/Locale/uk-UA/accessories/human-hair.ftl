@@ -196,3 +196,4 @@ marking-HumanHairClassicLong2 = Класичне довге волосся 2
 marking-HumanHairClassicLong3 = Класичне довге волосся 3
 marking-HumanHairLongBow = Довгий лук
 marking-HumanHairShaped = У формі
+marking-HumanHairPulato = Пулато

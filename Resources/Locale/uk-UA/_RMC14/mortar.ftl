@@ -50,3 +50,5 @@ rmc-mortar-view-camera = Подивитися
 
 rmc-mortar-camera-title = Дієвид Камери
 rmc-mortar-camera-name = Пара-Кам ({$x}):({$y})
+
+rmc-mortar-target-too-far = Ви не можете прицілитися в ці координати, вони занадто далеко від вашого міномета.

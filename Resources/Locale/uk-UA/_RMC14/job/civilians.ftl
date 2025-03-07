@@ -10,3 +10,6 @@ CMJobSurvivor = Виживший
 cm-job-name-liaison = Представник Корпорації
 cm-job-description-liaison = Будь лінією зв'язку між кораблем КМП ООН та корпорацією Ве-Я. Слідкуйте за тим, щоб інтереси Ве-Я були виконані.
 CMJobLiaison = Представник Корпорації
+
+cm-job-prefix-correspondent = Кореспондент
+cm-job-prefix-liaison = Офіцер зв'язку

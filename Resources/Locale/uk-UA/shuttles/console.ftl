@@ -54,3 +54,4 @@ shuttle-console-dock-fail = Невдала стиковка
 shuttle-console-static = Сітка статична
 
 # NAV
+shuttle-console-ftl-state-Invalid = Недійсний

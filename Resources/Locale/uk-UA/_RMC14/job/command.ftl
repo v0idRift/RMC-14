@@ -15,3 +15,8 @@ cm-job-name-executive-officer = Виконавчий Офіцер
 cm-job-description-executive-officer = Ви - другий у командуванні цього корабля.
 CMJobExecutiveOfficer = Виконавчий Офіцер
 cm-job-name-high-command = Вище Командування
+
+cm-job-prefix-senior-enlisted-advisor = Старший радник
+cm-job-prefix-staff-officer = Штабний офіцер
+cm-job-prefix-commanding-officer = Командир
+cm-job-prefix-executive-officer = Виконавчий офіцер

@@ -345,3 +345,8 @@ reagent-effect-guidebook-plant-seeds-remove = { $chance ->
         [1] Прибирає
         *[other] прибирає
     } насіння рослини
+
+reagent-effect-guidebook-flash-reaction-effect = { $chance ->
+        [1] Спричиняє
+        *[other] спричиняє
+    } сліпучий спалах

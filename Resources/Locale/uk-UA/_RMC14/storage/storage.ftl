@@ -17,3 +17,4 @@ rmc-storage-limit-max-ammo-webbing = Більше набоїв у стрічку
 rmc-storage-medal-remove-verb = Видалити медаль
 rmc-storage-nested-unable = Здається, ви не можете відкрити {THE($nested)}, коли він знаходиться у {THE($parent)}.
 rmc-storage-store-skill-unable = Сховище не може вмістити цю річ!
+rmc-storage-limit-accessories = Ви не можете вмістити більше аксесуарів у шолом!

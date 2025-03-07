@@ -1,0 +1,10 @@
+rmc-access-spp-general = Генерал ССП
+rmc-access-spp-medical = Медичний ССП
+rmc-access-spp-engineering = Інженерний ССП
+rmc-access-spp-security = Безпека ССП
+rmc-access-spp-armory = Збройова ССП
+rmc-access-spp-flight = Політ ССП
+rmc-access-spp-research = Дослідження ССП
+rmc-access-spp-commando = Командос ССП
+rmc-access-spp-leadership = Керівництво ССП
+rmc-access-spp-senior-lead = Старший Керівник ССП

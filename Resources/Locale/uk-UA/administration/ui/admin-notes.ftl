@@ -79,3 +79,14 @@ admin-remarks-title = Зауваження адміністратора
 
 # Різне
 system-user = [Система]
+
+admin-note-button-minutes = Хвилини
+admin-note-button-hours = Години
+admin-note-button-days = Дні
+admin-note-button-weeks = Тижні
+admin-note-button-months = Місяці
+admin-note-button-years = Роки
+admin-note-button-centuries = Століття
+
+
+# Дієслово

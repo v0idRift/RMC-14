@@ -91,11 +91,11 @@ reagent-desc-pilk = молоко та кола,відчуття,що це нап
 reagent-name-posca = поска
 reagent-desc-posca = напій воїнів,після якого краще вмерти,ніж пити його знову
 
-reagent-name-the-martinez = Мартінес
-reagent-desc-the-martinez = Легенда про еджраннера.  Пам'ятається під випивку, забувається п'яним.
+reagent-name-the-martinez = Мартінез
+reagent-desc-the-martinez = Легенда еджраннера. Пам'ятають за напоєм, забувають за п'яницею.
 
-reagent-name-white-gilgamesh = блідий Гільгамеш
-reagent-desc-white-gilgamesh = якщо ви вважаєте що можете назвати пиво з молоком на честь шумерського царя...
+reagent-name-white-gilgamesh = білий Гільгамеш
+reagent-desc-white-gilgamesh = нудотна суміш молока та пива. Змушує вас почуватися дерев'яним.
 
 reagent-name-mopwata = мопвата
 reagent-desc-mopwata = Брудна, застояна вода для миття швабр.

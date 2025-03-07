@@ -10,3 +10,7 @@ CMJobCargoTech = Вантажник
 cm-job-name-messtech = Кок
 cm-job-description-messtech = Готуйте морпіхам найсмачнішу (або не дуже) їжу та наливайте їм напої.
 CMJobMessTech = Кок
+
+cm-job-prefix-quartermaster = Квартирмейстер
+cm-job-prefix-cargotech = Вантажний технік
+cm-job-prefix-messtech = Технік їдальні

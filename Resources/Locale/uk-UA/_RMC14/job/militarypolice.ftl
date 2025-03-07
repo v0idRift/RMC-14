@@ -10,3 +10,7 @@ CMJobMilitaryWarden = Військовий Наглядач
 cm-job-name-militarypolice = Військовий Поліцейський
 cm-job-description-militarypolice = Забезпечте дотримання військовому уставу та законам. Затримуйте злочинців. Тримайте персонал корабля подалі від загроз.
 CMJobMilitaryPolice = Військовий Поліцейський
+
+cm-job-prefix-mp = Військова поліція
+cm-job-prefix-militarywarden = Військовий комендант
+cm-job-prefix-militarypolice = Військовий поліцейський

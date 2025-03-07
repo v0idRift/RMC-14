@@ -74,3 +74,12 @@ station-beacon-cryosleep = Кріосон
 station-beacon-escape-pod = Рятівна капсула
 
 station-beacon-gateway = Шлюз
+station-beacon-brig-med = Бриг Мед
+station-beacon-psychology = Психологія
+station-beacon-clinic = Клініка
+station-beacon-anchor = Якір
+station-beacon-ai-upload = Завантаження ШІ
+station-beacon-ai-power = Живлення ШІ
+station-beacon-docking-arm = Стиковочний Вузол
+station-beacon-reporter = Репортер
+station-beacon-vox = Кімната Відпочинку Воксів

@@ -12,3 +12,5 @@ expendable-light-spent-purple-glowstick-name = відпрацьована фіо
 expendable-light-spent-yellow-glowstick-name = відпрацьована фіолетова паличка
 expendable-light-spent-blue-glowstick-name = відпрацьована синя паличка
 expendable-light-spent-glowstick-desc = Схоже, що ця паличка перестала світитися. Яка трагедія.
+expendable-light-starshell-ash-empty-name = згаслий попіл зоряного снаряда
+expendable-light-starshell-ash-empty-desc = Згорілі залишки зоряного снаряда

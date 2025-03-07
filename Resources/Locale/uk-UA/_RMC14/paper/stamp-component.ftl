@@ -13,3 +13,5 @@ stamp-component-stamped-name-cm-ce = Головний Інженер
 
 stamp-component-stamped-name-cm-approve = СХВАЛЕНО
 stamp-component-stamped-name-cm-deny = ВІДМОВЛЕНО
+
+stamp-component-stamped-name-cm-provost = Офіс військового коменданта

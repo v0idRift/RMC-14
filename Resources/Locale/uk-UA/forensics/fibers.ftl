@@ -26,3 +26,7 @@ fibers-olive = оливкові
 
 fibers-insulative-frayed = пошарпаний ізолятор
 fibers-teal = чирок
+fibers-silver = срібло
+fibers-gold = золото
+fibers-maroon = темно-бордовий
+fibers-pink = рожевий

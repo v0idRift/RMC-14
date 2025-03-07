@@ -13,3 +13,4 @@ xeno-ui-rename-tunnel-verb = Перейменувати тунель
 xeno-ui-select-destination-tunnel-title = Виберіть тунель призначення
 xeno-ui-select-destination-tunnel-submit-text = Виберіть Тунель
 xeno-ui-enter-tunnel-verb = Увійдіть до тунелю
+xeno-reserve-parasites-verb = Зарезервувати Паразитів

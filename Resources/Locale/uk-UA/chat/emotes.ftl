@@ -60,3 +60,9 @@ chat-emote-msg-cathisses = шипить!
 chat-emote-msg-monkeyscreeches = крики!
 chat-emote-msg-yawn = позіхає.
 chat-emote-msg-snore = хропе.
+
+chat-emote-name-thump = Стукіт хвостом
+chat-emote-name-hew = Хью
+chat-emote-msg-thump = стукає {POSS-ADJ($entity)} хвостом.
+chat-emote-msg-weh = вехкає!
+chat-emote-msg-hew = хьюкає!

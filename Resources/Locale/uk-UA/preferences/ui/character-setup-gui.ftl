@@ -11,3 +11,4 @@ character-setup-gui-save-panel-title = Незережені зміни перс�
 character-setup-gui-save-panel-save = Зберегти
 character-setup-gui-save-panel-nosave = Не зберігати
 character-setup-gui-save-panel-cancel = Відмінити
+character-setup-gui-character-setup-adminremarks-button = Зауваження адміністратора

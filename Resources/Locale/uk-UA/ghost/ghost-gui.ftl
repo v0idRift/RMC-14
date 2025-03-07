@@ -31,3 +31,5 @@ ghost-roles-window-rules-footer = Кнопка буде активна післ�
 
 ghost-return-to-body-title = Повернутися у тіло
 ghost-return-to-body-text = Вас було відроджено! Повернутися у тіло?
+
+ghost-roles-window-available-button = Доступно ({$rolesCount})

@@ -11,3 +11,5 @@ damage-type-radiation = Радіація
 damage-type-shock = Електричні
 damage-type-slash = Різана
 damage-type-structural = Структурні
+
+damage-type-holy = Святий

@@ -94,3 +94,5 @@ reagent-physical-desc-reflective = світловідбиваючий
 reagent-physical-desc-holy = святий
 reagent-physical-desc-slimy = слизовий
 reagent-physical-desc-neural = нейронний
+
+reagent-physical-desc-inversed = інвертований

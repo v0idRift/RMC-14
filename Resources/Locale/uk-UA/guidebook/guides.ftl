@@ -137,3 +137,7 @@ guide-entry-rules-ban-durations = Час банів
 
 guide-entry-writing = Написання
 guide-entry-glossary = Глосарій
+
+guide-entry-special = Спеціальне
+guide-entry-rules-mrp-m0 = Правила MRP M0
+guide-entry-rules-m1 = M1

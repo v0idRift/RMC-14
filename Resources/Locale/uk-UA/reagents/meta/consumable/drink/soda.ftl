@@ -52,3 +52,6 @@ reagent-desc-fourteen-loko = зашурований напій,що з натя�
 reagent-name-shamblers-juice = сік Шамблерів
 reagent-desc-shamblers-juice = -Бармене налий пінту соку Шамблерів!
 
+
+reagent-name-lemon-lime-cranberry = Журавлинний Смайт
+reagent-desc-lemon-lime-cranberry = Терпка журавлина, Різдво та нотки лимона й лайма.

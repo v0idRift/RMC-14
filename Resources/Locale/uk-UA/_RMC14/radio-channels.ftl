@@ -22,3 +22,9 @@ chat-radio-WY = Ве-Я
 chat-radio-hivemind = Вулик
 
 chat-radio-CMB = Бюро маршалів колоній
+chat-radio-provost = Провост
+chat-radio-spp-command = Командування ССП
+chat-radio-spp = ССП
+chat-radio-spp-engi = ССП Інж
+chat-radio-spp-med = ССП Мед
+chat-radio-spp-cct = ССП ССТ

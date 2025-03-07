@@ -59,3 +59,7 @@ rmc-ui-ghost-color = Примарний колір
 rmc-ui-ghost-color-clear = Чисто
 rmc-ui-ghost-color-save = Зберегти
 rmc-ui-auto-punctuate = Автоматично розставляти знаки пунктуації в міжсимвольних повідомленнях
+rmc-ui-auto-eject-magazines = Автоматично витягувати магазини з пістолетів
+rmc-ui-damage-yourself = Дозволити можливість завдавати собі шкоди ближнім боєм та зброєю
+rmc-tacmap-alert-area = Поточна Область: {$area}
+rmc-tacmap-alert-no-area = Невідомо

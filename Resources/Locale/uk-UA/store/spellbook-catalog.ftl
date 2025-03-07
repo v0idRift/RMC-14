@@ -33,3 +33,20 @@ spellbook-event-summon-ghosts-description = УууУУууУУУуу!
 # Upgrades
 spellbook-upgrade-fireball-name = Покращення вогняної кулі
 spellbook-upgrade-fireball-description = Покращує вашу вогняну кулю до 3 рівня!
+
+spellbook-ethereal-jaunt-name = Ефірний стрибок
+spellbook-ethereal-jaunt-description = Перейдіть в ефірний план, щоб вислизнути від ворогів!
+spellbook-mind-swap-name = Обмін розумами
+spellbook-mind-swap-description = Поміняйтеся тілами з іншою людиною!
+
+# Спорядження
+spellbook-wand-locker-name = Жезл Шафки
+spellbook-wand-locker-description = Стріляйте проклятими шафками у своїх ворогів і замикайте їх!
+
+# Події
+spellbook-event-summon-guns-name = Призвати зброю
+spellbook-event-summon-guns-description = АК-47 для всіх! Розміщує випадкову зброю перед кожним. Вимикає повернення коштів при покупці!
+spellbook-event-summon-magic-name = Призвати магію
+spellbook-event-summon-magic-description = Розміщує випадковий магічний предмет перед кожним. Нічого не може піти не так! Вимикає повернення коштів при покупці!
+spellbook-upgrade-jaunt-name = Покращити Ефірний стрибок
+spellbook-upgrade-jaunt-description = Покращує Стрибок максимум до 3-го рівня!

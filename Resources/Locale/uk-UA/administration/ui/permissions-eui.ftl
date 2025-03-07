@@ -20,3 +20,5 @@ permissions-eui-edit-admin-rank-button = Редагувати
 permissions-eui-edit-admin-rank-window-title = Редагувати звання адміністратора
 permissions-eui-edit-admin-window-save-button = Зберегти
 permissions-eui-edit-admin-window-remove-flag-button = Видалити
+
+permissions-eui-edit-admin-window-suspended = Призупинено?

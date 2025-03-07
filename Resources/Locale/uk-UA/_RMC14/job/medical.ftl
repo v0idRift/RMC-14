@@ -14,3 +14,8 @@ CMJobNurse = МедБрат
 cm-job-name-researcher = Дослідник
 cm-job-description-researcher = Проводьте дослідження над всім що вам прислали. Відкривайте та аналізуйте нові хімікати, речі та предмети.
 CMJobResearcher = Дослідник
+
+cm-job-prefix-cmo = Головний лікар
+cm-job-prefix-doctor = Лікар
+cm-job-prefix-nurse = Медсестра/Медбрат
+cm-job-prefix-researcher = Дослідник

@@ -13,3 +13,6 @@ rmc-loadout-group-foods-healthy = Їжа (здорова)
 rmc-loadout-group-role-specific = Рольова специфіка
 
 loadout-group-points-insufficient = У вас недостатньо балів!
+
+rmc-loadout-group-helmet-garbs = Шоломи
+rmc-loadout-group-pins = Значки

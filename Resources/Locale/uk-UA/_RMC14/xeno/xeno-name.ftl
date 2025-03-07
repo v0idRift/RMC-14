@@ -5,3 +5,5 @@ rmc-xeno-elder = Старший {$baseName}
 rmc-xeno-ancient = Давній {$baseName}
 rmc-xeno-prime = Верховний {$baseName}
 
+
+rmc-xeno-name-number = {$baseName} ({$prefix}-{$number}{$postfix})

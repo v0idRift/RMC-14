@@ -1,0 +1,12 @@
+advertisement-smite-1 = СМАЙТ! Забань свою спрагу!
+advertisement-smite-2 = Надприродний вибух лимона та лайма!
+advertisement-smite-3 = Продано понад 1 мільйон напоїв!
+advertisement-smite-4 = СМАЙТ! Кинь 2d8 на СМАК.
+advertisement-smite-5 = СМАЙТ! Давайте розберемося з паперами!
+advertisement-smite-6 = Прибиральник має зуб на тебе!
+advertisement-smite-7 = СМАЙТ! Від нього ти не сп'янієш.
+advertisement-smite-8 = Час лимона-лайма!
+thankyou-smite-1 = Смайт робить правильно!
+thankyou-smite-2 = Ти ТОЧНО хотів лимон-лайм!
+thankyou-smite-3 = Офіс не зрозуміє, що їх вдарило.
+thankyou-smite-4 = Забань свою спрагу.

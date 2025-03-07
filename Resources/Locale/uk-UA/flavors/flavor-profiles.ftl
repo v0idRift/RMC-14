@@ -299,3 +299,45 @@ flavor-complex-compressed-meat = як пресоване м'ясо.
 # Ароматизатори для напоїв.
 
 ## Загальний смак алкоголю/соди. Його слід замінити на справжній смаковий профіль.
+flavor-complex-lemon-lime-cranberry-soda = як різдвяна
+flavor-complex-gin = як ферментоване зерно з ягодами ялівцю
+
+## Коктейлі
+flavor-complex-irish-slammer = як коло з додаванням спайку
+flavor-complex-zombiecocktail = як поїдання мізків
+flavor-complex-absinthe = як аніс
+flavor-complex-blue-curacao = як квіти апельсина
+flavor-complex-acidspit = як французька акумуляторна кислота
+flavor-complex-allies-cocktail = як лікувальний настій
+flavor-complex-aloe = як ранкова роса
+flavor-complex-amasec = як піт космічного десантника
+flavor-complex-andalusia = як кисла патока
+flavor-complex-b52 = як ірландський паб
+flavor-complex-bahama-mama = як засмагання на Карибах
+flavor-complex-barefoot = як молочний коктейль з касісом
+flavor-complex-booger = як соплі
+flavor-complex-brave-bull = як бути переїханим вантажівкою
+flavor-complex-demons-blood = як сьоме коло Пекла
+flavor-complex-devils-kiss = як канібалізм
+flavor-complex-driest-martini = як п'яний мімік
+flavor-complex-erika-surprise = як ніби бармен помилився
+flavor-complex-gin-fizz = освіжаючий та лимонний
+flavor-complex-gildlager = як золото Царя
+flavor-complex-grog = як морська пісня
+flavor-complex-hippies-delight = як ніби у вас падає кров'яний тиск
+flavor-complex-hooch = як було б смачно, якби ви були дизельним двигуном
+flavor-complex-manhattan = як дивитися у вікно 5-зіркового готелю
+flavor-complex-manhattan-project = як 'Я став Смертю, руйнівником світів'
+flavor-complex-margarita = як дуже погане похмілля
+flavor-complex-martini = як шпигунський фільм
+flavor-complex-mojito = як йти в тінь після перебування на спекотному сонці
+flavor-complex-neurotoxin = як підземний випробувальний центр
+flavor-complex-patron = як серенада від маріачі
+flavor-complex-red-mead = як битва вікінгів
+flavor-complex-sbiten = як вогонь
+flavor-complex-snowwhite = як кислі та гіркі хмелі
+flavor-complex-sui-dream = як зображення Альп
+flavor-complex-toxins-special = як космічні дослідження
+flavor-complex-vodka-martini = як шпигунський фільм з Росії
+flavor-complex-vodka-tonic = освіжаюче гіркий
+flavor-hew = як хью

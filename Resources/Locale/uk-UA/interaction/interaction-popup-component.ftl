@@ -102,3 +102,10 @@ petting-failure-tesla = Ти тягнешся до {THE($target)}, але вон
 
 petting-success-firebot = Ви гладите {THE($target)} по теплій металевій голівці {POSS-ADJ($target)}.
 petting-failure-firebot = Ви простягаєте руку, щоб погладити {THE($target)}, але {SUBJECT($target)} бризкає вам в обличчя, перш ніж ви встигаєте підійти ближче!
+petting-success-derelict-cyborg = Ви гладите {THE($target)} по {POSS-ADJ($target)} іржавій металевій голові.
+petting-success-station-ai = Ви гладите {THE($target)} по {POSS-ADJ($target)} холодному, квадратному екрану.
+petting-failure-derelict-cyborg = Ви тягнетеся, щоб погладити {THE($target)}, але {POSS-ADJ($target)} іржавий і зазубрений вигляд змушує вас передумати.
+petting-failure-station-ai = Ви простягаєте руку, щоб погладити {THE($target)}, але {SUBJECT($target)} {CONJUGATE-BASIC($target, ""zap"", ""zaps"")} відштовхує вашу руку.
+petting-success-station-ai-others = { CAPITALIZE(THE($user)) } гладить {THE($target)} по {POSS-ADJ($target)} холодному, квадратному екрану.
+
+## Стукання по огорожах

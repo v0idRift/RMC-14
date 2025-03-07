@@ -11,3 +11,5 @@ cm-access-colony-brig = Бріг Колонії
 cm-access-colony-medbay = Лікарня Колонії
 
 cm-access-colony-command = Командування Колонії
+
+rmc-access-colony-armory = Збройова Колонії

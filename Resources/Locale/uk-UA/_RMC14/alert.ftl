@@ -1,0 +1,12 @@
+rmc-alert-level-blue-elevated = Увага: Рівень безпеки підвищено до СИНЬОГО - можлива ворожа активність на борту.
+rmc-alert-level-blue-lowered = Увага: Рівень безпеки знижено до СИНЬОГО - можлива ворожа активність на борту.
+rmc-alert-level-green = Увага: Рівень безпеки знижено до ЗЕЛЕНОГО - все чисто.
+rmc-alert-level-red-elevated = Увага: Рівень безпеки підвищено до ЧЕРВОНОГО - існує безпосередня загроза кораблю.
+rmc-alert-level-red-lowered = Увага: Рівень безпеки знижено до ЧЕРВОНОГО - існує безпосередня загроза кораблю.
+rmc-alert-red-alert = Червона тривога
+rmc-alert-level = Рівень тривоги
+rmc-alert-level-which = Який рівень тривоги ви бажаєте встановити?
+rmc-alert-green = Зелений
+rmc-alert-blue = Синій
+rmc-alert-red = Червоний
+rmc-alert-change-level = Змінити рівень тривоги

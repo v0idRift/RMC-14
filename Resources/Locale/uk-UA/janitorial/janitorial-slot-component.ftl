@@ -9,3 +9,7 @@ janitorial-trolley-slot-component-slot-name-spray = Спрей
 janitorial-trolley-slot-component-slot-name-bucket = Відро
 janitorial-trolley-slot-component-slot-name-trashbag = Мішок для сміття
 janitorial-trolley-slot-component-slot-name-mop = Швабра
+
+mop-bucket-slot-component-slot-name-item = Предмет
+mop-bucket-slot-component-eject-verb = Вийняти
+# Візок прибиральника

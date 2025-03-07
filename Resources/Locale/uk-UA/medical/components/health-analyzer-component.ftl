@@ -23,3 +23,4 @@ health-analyzer-window-entity-alive-text = Живий
 health-analyzer-window-entity-dead-text = Мертвий
 health-analyzer-window-entity-critical-text = Критично важливо
 health-analyzer-window-entity-status-text = Статус:
+health-analyzer-window-entity-unrevivable-text = [color=red]Виявлено унікальний склад тіла! Пацієнта не можна реанімувати звичайними засобами![/color]

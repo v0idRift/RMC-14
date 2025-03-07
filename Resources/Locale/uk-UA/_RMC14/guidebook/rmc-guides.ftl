@@ -1,0 +1,25 @@
+rmc-guide-entry-rmc = Посібник RMC14
+rmc-guide-entry-rules = Правила
+rmc-guide-entry-rules-ban-types = Типи та тривалість банів
+rmc-guide-entry-rules-zero-tolerance = Нульова терпимість
+rmc-guide-entry-rules-language = Мова сервера
+rmc-guide-entry-rules-multikey = Декілька облікових записів
+rmc-guide-entry-rules-escalation = Ескалація конфлікту
+rmc-guide-entry-rules-metaknowledge = Використовуйте знання персонажа
+rmc-guide-entry-rules-kindness = Будьте чемними
+rmc-guide-entry-rules-mutinies = Заколоти, бунти
+rmc-guide-entry-rules-command-roles = Командні ролі, відключення
+rmc-guide-entry-rules-marine-law = Морське право
+rmc-guide-entry-rules-higher-standards = Вищі стандарти для командування/військової поліції
+rmc-guide-entry-rules-general-roleplay-standards = Загальні стандарти рольової гри
+rmc-guide-entry-rules-marine-character-names = Імена персонажів морських піхотинців
+rmc-guide-entry-rules-marine-roleplay-standards = Стандарти рольової гри для морських піхотинців
+rmc-guide-entry-rules-command-roleplay = Рольова гра командування
+rmc-guide-entry-rules-xeno-roleplay = Рольова гра ксеноморфів
+rmc-guide-entry-rules-survivor-roleplay = Рольова гра тих, хто вижив
+rmc-guide-entry-rules-hostile-faction-roleplay = Рольова гра ворожих фракцій
+rmc-guide-entry-rules-command-chain = Ланцюг командування
+rmc-guide-entry-rules-core = Основні правила
+rmc-guide-entry-rules-command = Правила командування
+rmc-guide-entry-rules-roleplay-standards = Стандарти рольової гри
+

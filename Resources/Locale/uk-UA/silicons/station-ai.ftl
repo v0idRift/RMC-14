@@ -20,3 +20,5 @@ electrify-door-off = Вимкнути перезарядку
 toggle-light = Перемикач
 
 ai-device-not-responding = Пристрій не відповідає
+
+ai-consciousness-download-warning = Ваша свідомість завантажується.

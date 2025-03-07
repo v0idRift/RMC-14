@@ -154,3 +154,8 @@ chat-speech-verb-electricity-2 = дзижчить
 chat-speech-verb-electricity-3 = верещить
 
 #PIRATE START
+
+chat-speech-verb-name-goat = Коза
+chat-speech-verb-goat-1 = бекає
+chat-speech-verb-goat-2 = хрюкає
+chat-speech-verb-goat-3 = кричить
