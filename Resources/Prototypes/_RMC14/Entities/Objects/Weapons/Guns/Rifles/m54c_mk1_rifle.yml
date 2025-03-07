@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMBaseWeaponRifle
-  name: M54C assault rifle MK1
+  name: "Штурмова гвинтівка M54C MK1"
   id: WeaponRifleM54CMK1
-  description: An older design of the Assault Rifle commonly used by the Marine Corps. Uses 10x24mm caseless ammunition.
+  description: "Стара модель штурмової гвинтівки, яку зазвичай використовує морська піхота. Використовує безоболонкові набої 10х24 мм."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m54cmk1/desert.rsi
@@ -121,7 +121,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: CMMagazineRifleM54CMK1
-  name: "M54C MK1 magazine (10x24mm)"
+  name: "Магазин M54C MK1 (10x24мм)"
   components:
   - type: Tag
     tags:
@@ -148,7 +148,7 @@
 - type: entity
   parent: CMMagazineRifleM54CMK1
   id: CMMagazineRifleM54CMK1AP
-  name: "M54C MK1 AP magazine (10x24mm)"
+  name: "Магазин M54C MK1 AP (10x24мм)"
   suffix: AP
   components:
   - type: Tag

@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: RMCWeaponRevolverBase
   id: RMCWeaponRevolverM44
-  name: M44 combat revolver
-  description: A bulky revolver, occasionally carried by assault troops and officers in the Marine Corps, as well as civilian law enforcement. Fires .44 Magnum rounds.
+  name: "Бойовий револьвер M44"
+  description: "Громіздкий револьвер, який іноді носять штурмовики та офіцери морської піхоти, а також цивільні правоохоронці. Стріляє патронами .44 Magnum."
   components:
   - type: Tag
     tags:
@@ -69,7 +69,7 @@
 
 - type: entity
   id: RMCBaseSpeedLoader44
-  name: "M44 speed loader (.44)"
+  name: "Швидкісний заряджаючий пристрій M44 (.44)"
   parent: BaseItem
   abstract: true
   components:
@@ -94,8 +94,8 @@
 - type: entity
   parent: RMCBaseSpeedLoader44
   id: RMCSpeedLoaderM44
-  name: "M44 speed loader (.44)"
-  description: A revolver speed loader.
+  name: "Швидкісний заряджаючий пристрій M44 (.44)"
+  description: "Револьверна швидкість заряджання."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/SpeedLoaders/m44.rsi
@@ -116,8 +116,8 @@
 - type: entity
   parent: RMCSpeedLoaderM44
   id: RMCSpeedLoader44Marksman
-  name: "M44 marksman speed loader (.44)"
-  description: A revolver speed loader filled with Marksman ammo.
+  name: "Скорострільна кулеметна установка M44 (.44)"
+  description: "Револьверний швидкісний зарядник, наповнений патронами Marksman."
   components:
   - type: Tag
     tags:
@@ -139,7 +139,7 @@
 
 - type: entity
   id: RMCCartridgeRevolver44
-  name: cartridge (.44)
+  name: "патрон (.44)"
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -151,7 +151,7 @@
 
 - type: entity
   id: RMCCartridgeRevolver44Marksman
-  name: cartridge (.44)
+  name: "патрон (.44)"
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -164,7 +164,7 @@
 - type: entity
   parent: CMBulletBase
   id: CMBulletRevolver44
-  name: bullet (.44)
+  name: "куля (.44)"
   components:
   - type: Projectile
     damage:
@@ -178,7 +178,7 @@
 - type: entity
   parent: CMBulletBase
   id: RMCBulletRevolver44Marksman
-  name: bullet (.44 Marksman)
+  name: "куля (.44 Marksman)"
   components:
   - type: Projectile
     damage:

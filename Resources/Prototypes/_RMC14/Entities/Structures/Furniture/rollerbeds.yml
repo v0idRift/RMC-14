@@ -7,8 +7,8 @@
 - type: entity
   parent: RollerBed
   id: CMRollerBed
-  name: roller bed
-  description: A collapsed roller bed that can be carried around.
+  name: "роликове ліжко"
+  description: "Розкладне роликове ліжко, яке можна переносити з собою."
   components:
   - type: Tag
     tags:
@@ -64,8 +64,8 @@
 - type: entity
   parent: CMRollerBed
   id: CMPortableSurgicalBed
-  name: portable surgical bed
-  description: A collapsible surgical bed. It's not perfect, but it's the best you'll get short of an actual surgical table.
+  name: "портативне хірургічне ліжко"
+  description: "Розбірне хірургічне ліжко. Воно не ідеальне, але це найкраще, що ви можете отримати, не маючи справжнього хірургічного столу."
   components:
   - type: Item
     heldPrefix: surgical
@@ -95,8 +95,8 @@
 - type: entity
   parent: [ BaseDeployFoldable ]
   id: RMCMedevacStretcher
-  name: medevac stretcher
-  description: A collapsible stretcher that can be activated to send patients to an overhead dropship.
+  name: "медичні ноші для евакуації"
+  description: "Розбірні ноші, які можна активувати, щоб відправити пацієнта до повітряного дропшиппера."
   components:
   - type: Item
     size: Small
@@ -185,8 +185,8 @@
 - type: entity
   parent: CMRollerBed
   id: RMCRollerBedHospital
-  name: hospital roller bed
-  description: A basic cushioned leather board resting on a small frame. Not very comfortable at all, but allows the patient to rest lying down while moved to another location rapidly. Not great for surgery, but better than nothing.
+  name: "лікарняне ліжко на колесах"
+  description: "Проста м'яка шкіряна дошка, що лежить на невеликій рамі. Зовсім не дуже зручна, але дозволяє пацієнту лежати, поки його швидко переміщують в інше місце. Не дуже підходить для операцій, але краще, ніж нічого."
   components:
   - type: Sprite
     layers:

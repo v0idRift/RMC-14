@@ -1,8 +1,8 @@
 - type: entity
   parent: SpaceCash
   id: RMCSpaceCash
-  name: dollars
-  description: Ten hundred-dollar bills, minted by the United Nations Treasury. Each are adorned with the face of a long-forgotten diplomat of a once-powerful planet. These bills are more than mere currency, they feel alive, as though they carry the weight of ancient history and the judgments of those who once controlled vast empires. The faces on each bill seem to watch you with silent intensity, as if each one believes it alone should be in your possession..
+  name: "долари"
+  description: "Десять стодоларових купюр, викарбуваних Казначейством Організації Об'єднаних Націй. Кожну з них прикрашає обличчя давно забутого дипломата колись могутньої планети. Ці банкноти - більше, ніж просто валюта, вони відчувають себе живими, наче несуть на собі вагу давньої історії та судження тих, хто колись контролював величезні імперії. Обличчя на кожній купюрі, здається, дивляться на вас з мовчазною увагою, наче кожен з них вважає, що саме він має бути у вашому володінні..."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/spacecash.rsi
@@ -37,12 +37,12 @@
 - type: entity
   parent: RMCSpaceCash
   id: RMCSpaceCash1
-  name: 1 dollar bill
-  description: A single one-dollar bill, minted by the United Nations Treasury. Its design features the image of a long-forgotten figure from a bygone era, a leader whose legacy now means little to the galactic populace. While it holds sentimental value for those from certain worlds, its actual worth is minimal. In most systems, it might fetch you half a hot-dog or a similar low-value snack.
+  name: "Купюра в 1 долар"
+  description: "Єдина однодоларова банкнота, викарбувана Казначейством Організації Об'єднаних Націй. Її дизайн містить зображення давно забутої постаті з минулої епохи, лідера, чия спадщина зараз мало що означає для населення галактики. Хоча він має сентиментальну цінність для мешканців певних світів, його реальна вартість мінімальна. У більшості систем за нього можна купити половину хот-дога або подібну малоцінну закуску."
 
 - type: material
   id: Dollar
-  name: 1 dollar bill
+  name: "Купюра в 1 долар"
   unit: materials-unit-bill
   stackEntity: RMCSpaceCash1
   icon: { sprite: /Textures/_RMC14/Objects/Misc/spacecash.rsi, state: spacecash1 }
@@ -50,7 +50,7 @@
 
 - type: stack
   id: Dollar
-  name: 1 dollar bill
+  name: "Купюра в 1 долар"
   icon: { sprite: /Textures/_RMC14/Objects/Misc/spacecash.rsi, state: spacecash1 }
   spawn: RMCSpaceCash1
 

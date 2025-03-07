@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [StorageTank, StructureWheeled]
   id: RMCTankReagentEmpty
-  name: reagent tank
-  description: A reagent tank, typically used to store large quantities of chemicals.
+  name: "бак для реагентів"
+  description: "Резервуар для реагентів, який зазвичай використовується для зберігання великої кількості хімікатів."
   suffix: Empty
   components:
   - type: Sprite
@@ -71,8 +71,8 @@
 - type: entity
   parent: RMCTankReagentEmpty
   id: RMCTankReagentFuel
-  name: fuel tank
-  description: A fuel tank, normally used to hold welding fuel. It's painted red with explosive warning labels.
+  name: "паливний бак"
+  description: "Паливний бак, який зазвичай використовується для зберігання зварювального пального. Він пофарбований у червоний колір з попереджувальними етикетками про вибухонебезпечність."
   suffix: Fuel
   components:
   - type: Sprite

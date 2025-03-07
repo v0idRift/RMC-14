@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [ CMBaseWeaponGun, BaseItem, RMCBaseAttachableHolder ]
   id: RMCWeaponFlamer
-  name: M34 incinerator unit
-  description: M34 incinerator unit has proven to be one of the most effective weapons at clearing out soft-targets. This is a weapon to be feared and respected as it is quite deadly.
+  name: "вогнемет M34"
+  description: "Вогнемет M34 виявився одним з найефективніших видів зброї для знищення легких цілей. Це зброя, якої слід боятися і поважати, оскільки вона досить смертоносна."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Flamethrower/m34.rsi
@@ -86,8 +86,8 @@
 - type: entity
   parent: BaseItem
   id: RMCTankFlamer
-  name: incinerator tank
-  description: A fuel tank used to store fuel for use in the M34 incinerator unit. Handle with care.
+  name: "бак для вогнемета"
+  description: "Паливний бак, який використовується для зберігання палива для використання у вогнеметі M34. Поводитися обережно."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/flamethrower.rsi
@@ -126,8 +126,8 @@
 - type: entity
   parent: RMCGunCaseBase
   id: RMCCaseFlamer
-  name: M34 incinerator case
-  description: A gun case containing the M34 incinerator unit. It does come loaded, but you'll still have to find extra tanks as you go.
+  name: "кейс для вогнемета M34"
+  description: "Кейс для зброї, що містить вогнемет M34. Він поставляється зарядженим, але вам все одно доведеться шукати додаткові баки по ходу справи."
   components:
   - type: Storage
     maxItemSize: Huge

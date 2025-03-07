@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: RMCBaseEquipmentCase
   id: CMSniperEquipmentCase
-  name: sniper equipment case
+  name: "чохол для снайперського спорядження"
   description: "A large case containing your very own long-range M96S sniper rifle, M45 ghillie armor and helmet, M42 scout sight, ammunition, spotter equipment, and additional pieces of equipment.\n\nNOTE: You cannot put items back inside this case."
   components:
   - type: StorageFill
@@ -27,7 +27,7 @@
 - type: entity
   parent: RMCBaseEquipmentCase
   id: RMCGrenadeSpecEquipmentCase
-  name: heavy grenadier equipment case
+  name: "чохол для важкого гренадерського спорядження"
   description: "A large case containing a heavy-duty multi-shot M83 grenade launcher, M3-G4 grenadier armor and helmet, significant amount of various M40 grenades and additional pieces of equipment.\n\nNOTE: You cannot put items back inside this case."
   components:
   - type: Sprite
@@ -60,7 +60,7 @@
 - type: entity
   parent: RMCBaseEquipmentCase
   id: RMCDemoSpecEquipmentCase
-  name: demolitionist equipment case
+  name: "футляр для підривного обладнання"
   description: "A large case containing a heavy-caliber M5 Anti-Tank Launcher, reinforced M3-T light armor, five 84mm rockets, and additional pieces of equipment.\n\nNOTE: You cannot put items back inside this case."
   components:
   - type: Sprite
@@ -103,7 +103,7 @@
 - type: entity
   parent: RMCBaseEquipmentCase
   id: RMCScoutSpecEquipmentCase
-  name: scout equipment case
+  name: "чохол для розвідувального спорядження"
   description: "A large case containing an M4SPR custom battle rifle, M3-S light armor and helmet, M4SPR battle sight, M68 thermal cloak, V3 reactive thermal tarp, ammunition and additional pieces of equipment.\nNOTE: You cannot put items back inside this case."
   components:
   - type: Sprite
@@ -145,20 +145,8 @@
 - type: entity
   parent: RMCKitBase
   id: RMCKitLoader
-  name: loader kit
-  description: "A large kit containing all the supplies needed to turn a Private into the loading assistant for a Demolitions Specialist.
-
-    A little infographic series shows how reloading should be done:
-
-    Step One: Grab the Rocket
-
-    Step Two: Position yourself behind the Specialist
-
-    Step Three: Ensure the Specialist is wielding their Launcher
-
-    Step Four: Load the Rocket into the Launcher
-
-    Step Five: Stand clear of the back-blast"
+  name: "комплект навантажувача"
+  description: "Великий набір, що містить усе необхідне для того, щоб перетворити рядового на помічника підривника. Невелика серія інфографік показує, як має відбуватися перезаряджання: Крок перший: візьміть ракету Крок другий: розташуйтеся позаду підривника Крок третій: розташуйтеся позаду підривника: Переконайтеся, що фахівець тримає в руках пускову установку Крок четвертий: Завантажте ракету в пускову установку Крок п'ятий: Тримайтеся подалі від зворотного вибуху"
   components:
   - type: Storage
     maxItemSize: Huge

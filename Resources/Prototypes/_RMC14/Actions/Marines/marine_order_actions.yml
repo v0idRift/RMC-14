@@ -1,8 +1,8 @@
 - type: entity
   parent: ActionMarineBase
   id: ActionMarineFocus
-  name: Issue Order - Focus
-  description: Increases gun accuracy for nearby marines.
+  name: "Порядок видачі - Фокус"
+  description: "Підвищує точність зброї для морпіхів поблизу."
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -14,8 +14,8 @@
 - type: entity
   parent: ActionMarineBase
   id: ActionMarineHold
-  name: Issue Order - Hold
-  description: Increases damage resistance for nearby marines.
+  name: "Видати доручення - утримувати"
+  description: "Підвищує стійкість до пошкоджень для морпіхів поблизу."
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -27,8 +27,8 @@
 - type: entity
   id: ActionMarineMove
   parent: ActionMarineBase
-  name: Issue Order - Move
-  description: Increases speed for nearby marines. [color=red]This won't affect anyone without armor![/color]
+  name: "Видати наказ - Перемістити"
+  description: "Збільшує швидкість для піхотинців поблизу. [color=red]Це не вплине на тих, хто без броні![/color]"
   components:
   - type: InstantAction
     itemIconStyle: NoItem

@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: RMCBaseEquipmentCase
   id: CMSmartGunOperatorEquipmentCase
-  name: ML66A smart gun system case
+  name: "Кейс для інтелектуальної гарматної системи ML66A"
   description: "A large case containing an ML66A Smartgun, ML66A combat harness, head mounted sight and powerpack.\n\nNOTE: You cannot put items back inside this case."
   components:
   - type: Sprite
@@ -42,7 +42,7 @@
 - type: entity
   parent: RMCBaseEquipmentCase
   id: CMCOSmartGunOperatorEquipmentCase
-  name: ML66B smart gun system case
+  name: "кейс для смартгана ML66B"
   description: "A large case containing an ML66B 'cavalier' Smartgun, ML66A combat harness, head mounted sight and powerpack.\n\nNOTE: You cannot put items back inside this case."
   components:
   - type: Sprite

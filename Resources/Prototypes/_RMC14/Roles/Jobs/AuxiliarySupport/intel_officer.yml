@@ -76,7 +76,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointIntelOfficer
-  name: intel officer spawn point
+  name: "точка народження офіцера розвідки"
   components:
   - type: SpawnPoint
     job_id: CMIntelOfficer
@@ -86,7 +86,7 @@
 - type: entity
   parent: CMGuidebookRole
   id: CMGuidebookRoleIO
-  name: Intelligence Officer
+  name: "Офіцер розвідки"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

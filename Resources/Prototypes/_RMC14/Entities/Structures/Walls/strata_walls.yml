@@ -1,8 +1,8 @@
 - type: entity
   parent: CMWallMetal
   id: RMCWallStrata
-  name: bare outpost wall
-  description: A thick and chunky metal wall. The surface is barren and imposing.
+  name: "гола стіна застави"
+  description: "Товста і груба металева стіна. Поверхня безплідна та імпозантна."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/strata_wall.rsi
@@ -17,8 +17,8 @@
 - type: entity
   parent: CMWallReinforced
   id: RMCWallStrataReinforced
-  name: ribbed outpost wall
-  description: A thick and chunky metal wall covered in jagged ribs.
+  name: "ребриста форпостна стіна"
+  description: "Товста і груба металева стіна, вкрита зубчастими ребрами."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/strata_rwall.rsi
@@ -33,8 +33,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RMCWallStrataHull
-  name: heavy ribbed outpost wall
-  description: A thick and chunky metal wall that is, just by virtue of its placement and imposing presence, entirely indestructible.
+  name: "важка ребриста стіна форпосту"
+  description: "Товста і масивна металева стіна, яка лише завдяки своєму розташуванню та імпозантній присутності є абсолютно незнищенною."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/strata_rwall.rsi
@@ -49,8 +49,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RMCWallStrataIce
-  name: ice columns
-  description: An absolutely massive collection of columns made of ice. The longer you stare, the deeper the ice seems to go.
+  name: "крижані стовпи"
+  description: "Абсолютно масивна колекція колон з льоду. Чим довше дивишся, тим глибше, здається, йде лід."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/strata_ice.rsi

@@ -47,7 +47,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerProvostMarshal
-  name: provost spawner marshal
+  name: "проректор з питань репродуктивного здоров'я"
   suffix: Spawner, Admin, Low Law Understanding or Lower Rank
   components:
   - type: Sprite
@@ -59,7 +59,7 @@
 
 - type: entity
   id: RMCRandomHumanoidProvostMarshal
-  name: provost ghost role marshal
+  name: "проректор привид рольовий маршал"
   suffix: Role, Admin, Low Law Understanding or Lower Rank
   components:
   - type: Sprite
@@ -136,7 +136,7 @@
 - type: entity
   parent: CMIDCardGold # TODO RMC14 provost id
   id: RMCIDCardProvostMarshal
-  name: provost marshal ID card
+  name: "посвідчення проректора"
   components:
   - type: PresetIdCard
     job: CMProvostMarshal

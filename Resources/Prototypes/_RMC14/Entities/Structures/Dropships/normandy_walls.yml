@@ -2,7 +2,7 @@
   abstract: true
   parent: CMBaseWallInvincible
   id: CMBaseNormandyWall
-  name: normandy wall
+  name: "нормандська стіна"
   components:
   - type: Corrodible
     isCorrodible: false
@@ -614,8 +614,8 @@
 - type: entity
   parent: [CMBaseNormandyWall, CMAlamoWall61]
   id: CMNormandyWall61
-  name: port wing weapon attach point
-  description: A place where heavy equipment can be installed with a powerloader.
+  name: "точка кріплення озброєння лівого крила"
+  description: "Місце, де можна встановити важку техніку за допомогою навантажувача."
   suffix: 61
   components:
   - type: Sprite
@@ -659,8 +659,8 @@
 - type: entity
   parent: [CMBaseNormandyWall, CMAlamoWall65]
   id: CMNormandyWall65
-  name: starboard wing weapon attach point
-  description: A place where heavy equipment can be installed with a powerloader.
+  name: "точка кріплення озброєння правого крила"
+  description: "Місце, де можна встановити важку техніку за допомогою навантажувача."
   suffix: 65
   components:
   - type: Sprite
@@ -854,8 +854,8 @@
 - type: entity
   parent: [CMBaseNormandyWall, CMAlamoWall84]
   id: CMNormandyWall84
-  name: port fore weapon attach point
-  description: A place where heavy equipment can be installed with a powerloader.
+  name: "ліва передня точка кріплення озброєння"
+  description: "Місце, де можна встановити важку техніку за допомогою навантажувача."
   suffix: 84
   components:
   - type: Sprite
@@ -869,8 +869,8 @@
 - type: entity
   parent: [CMNormandyWall84, CMAlamoWall84Flipped]
   id: CMNormandyWall84Flipped
-  name: starboard fore weapon attach point
-  description: A place where heavy equipment can be installed with a powerloader.
+  name: "точка кріплення носової зброї правого борту"
+  description: "Місце, де можна встановити важку техніку за допомогою навантажувача."
   suffix: 84, Flipped
   components:
   - type: Sprite
@@ -882,8 +882,8 @@
 - type: entity
   parent: [CMBaseNormandyWall, CMAlamoWall85]
   id: CMNormandyWall85
-  name: electronic system attach point
-  description: A place where heavy equipment can be installed with a powerloader.
+  name: "точка підключення електронної системи"
+  description: "Місце, де можна встановити важку техніку за допомогою навантажувача."
   suffix: 85
   components:
   - type: Sprite

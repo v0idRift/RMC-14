@@ -29,7 +29,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerProvostEnforcer
-  name: provost spawner enforcer
+  name: "проректор спайдер примусовий виконавець"
   suffix: Spawner, Player, Given Objective
   components:
   - type: Sprite
@@ -41,7 +41,7 @@
 
 - type: entity
   id: RMCRandomHumanoidProvostEnforcer
-  name: provost ghost role enforcer
+  name: "проректор, виконавець ролі примари"
   suffix: Role, Player, Given Objective
   components:
   - type: Sprite
@@ -101,7 +101,7 @@
 - type: entity
   parent: CMIDCardGold # TODO RMC14 provost id
   id: RMCIDCardProvostEnforcer
-  name: provost enforcer ID card
+  name: "посвідчення проректора з правоохоронної діяльності"
   components:
   - type: PresetIdCard
     job: CMProvostEnforcer

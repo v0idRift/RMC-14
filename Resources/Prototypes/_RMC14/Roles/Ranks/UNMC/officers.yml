@@ -1,47 +1,47 @@
 - type: rank
   id: RMCRankMajorGeneral
-  name: Major General
+  name: "Генерал-майор"
   prefix: MajGen.
   paygrade: O8
 
 - type: rank
   id: RMCRankBrigadierGeneral
-  name: Brigadier General
+  name: "Бригадний генерал"
   prefix: BGen.
   paygrade: O7
 
 - type: rank
   id: RMCRankColonel
-  name: Colonel
+  name: "Полковнику"
   prefix: Col.
   paygrade: O6
 
 - type: rank
   id: RMCRankLieutenantColonel
-  name: Lieutenant Colonel
+  name: "Підполковник"
   prefix: LtCol.
   paygrade: O5
 
 - type: rank
   id: RMCRankMajor
-  name: Major
+  name: "Майор"
   prefix: Maj.
   paygrade: O4
 
 - type: rank
   id: RMCRankCaptain
-  name: Captain
+  name: "Капітане"
   prefix: Capt.
   paygrade: O3
 
 - type: rank
   id: RMCRankFirstLT
-  name: First Lieutenant
+  name: "Старший лейтенант"
   prefix: 1stLt.
   paygrade: O2
 
 - type: rank
   id: RMCRankSecondLT
-  name: Second Lieutenant
+  name: "Другий лейтенант"
   prefix: 2ndLt.
   paygrade: O1

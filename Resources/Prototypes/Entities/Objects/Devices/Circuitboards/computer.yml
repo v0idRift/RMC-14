@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseItem
   id: BaseComputerCircuitboard
-  name: computer board
+  name: "комп'ютерна плата"
   abstract: true
   components:
     - type: ComputerBoard
@@ -21,8 +21,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: AlertsComputerCircuitboard
-  name: atmospheric alerts computer board
-  description: A computer printed circuit board for an atmospheric alerts computer.
+  name: "комп'ютерна плата атмосферних попереджень"
+  description: "Комп'ютерна друкована плата для комп'ютера атмосферних сповіщень."
   components:
     - type: Sprite
       state: cpu_engineering
@@ -32,8 +32,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: AtmosMonitoringComputerCircuitboard
-  name: atmospheric network monitor board
-  description: A computer printed circuit board for an atmospheric network monitor.
+  name: "плата моніторингу атмосферної мережі"
+  description: "Комп'ютерна друкована плата для атмосферного мережевого монітора."
   components:
     - type: Sprite
       state: cpu_engineering
@@ -43,8 +43,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: PowerComputerCircuitboard
-  name: power monitoring computer board
-  description: A computer printed circuit board for a power monitoring computer.
+  name: "моніторинг живлення комп'ютерної плати"
+  description: "Комп'ютерна друкована плата для комп'ютера для моніторингу енергоспоживання."
   components:
     - type: Sprite
       state: cpu_engineering
@@ -54,8 +54,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: MedicalRecordsComputerCircuitboard
-  name: medical records computer board
-  description: A computer printed circuit board for a medical records computer.
+  name: "комп'ютерна плата медичної документації"
+  description: "Комп'ютерна друкована плата для комп'ютера для ведення медичної документації."
   components:
     - type: Sprite
       state: cpu_medical
@@ -65,8 +65,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: CriminalRecordsComputerCircuitboard
-  name: criminal records computer board
-  description: A computer printed circuit board for a criminal records computer.
+  name: "комп'ютерна база даних судимостей"
+  description: "Комп'ютерна друкована плата для комп'ютера з кримінальною базою даних."
   components:
     - type: Sprite
       state: cpu_security
@@ -76,8 +76,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: StationRecordsComputerCircuitboard
-  name: station records computer board
-  description: A computer printed circuit board for a station records computer.
+  name: "комп'ютерна плата записів станції"
+  description: "Друкована плата для комп'ютера, що реєструє станцію."
   components:
     - type: Sprite
       state: cpu_command
@@ -87,8 +87,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: CargoRequestComputerCircuitboard
-  name: cargo request computer board
-  description: A computer printed circuit board for a cargo request computer.
+  name: "комп'ютерна плата заявок на вантаж"
+  description: "Друкована плата для комп'ютера для запиту вантажу."
   components:
     - type: Sprite
       state: cpu_supply
@@ -100,8 +100,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: CargoSaleComputerCircuitboard
-  name: cargo sale computer board
-  description: A computer printed circuit board for a cargo sale computer.
+  name: "продаж вантажу комп'ютерна дошка"
+  description: "Друкована плата для комп'ютера для продажу вантажів."
   components:
     - type: Sprite
       state: cpu_supply
@@ -111,8 +111,8 @@
 - type: entity
   id: CargoBountyComputerCircuitboard
   parent: BaseComputerCircuitboard
-  name: cargo bounty computer board
-  description: A computer printed circuit board for a cargo bounty computer.
+  name: "комп'ютерна плата вантажної винагороди"
+  description: "Друкована плата для комп'ютера для вантажного баунті-комп'ютера."
   components:
   - type: Sprite
     state: cpu_supply
@@ -123,8 +123,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: CargoShuttleComputerCircuitboard
-  name: cargo shuttle computer board
-  description: A computer printed circuit board for a cargo shuttle computer.
+  name: "комп'ютерна плата вантажного шаттла"
+  description: "Друкована плата для комп'ютера вантажного шаттла."
   components:
     - type: Sprite
       state: cpu_supply
@@ -134,8 +134,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: SalvageExpeditionsComputerCircuitboard
-  name: salvage expeditions computer board
-  description: A computer printed circuit board for a salvage expeditions computer.
+  name: "комп'ютерна плата рятувальних експедицій"
+  description: "Друкована плата для комп'ютера рятувальної експедиції."
   components:
     - type: Sprite
       state: cpu_supply
@@ -147,8 +147,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: CargoShuttleConsoleCircuitboard
-  name: cargo shuttle console board
-  description: A computer printed circuit board for a cargo shuttle console.
+  name: "консоль вантажного шаттла"
+  description: "Комп'ютерна друкована плата для консолі вантажного шаттла."
   components:
   - type: Sprite
     state: cpu_supply
@@ -160,8 +160,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: SurveillanceCameraMonitorCircuitboard
-  name: surveillance camera monitor board
-  description: A computer printed circuit board for a surveillance camera monitor.
+  name: "плата монітора камери спостереження"
+  description: "Комп'ютерна друкована плата для монітора камери спостереження."
   components:
   - type: Sprite
     state: cpu_security
@@ -174,8 +174,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: SurveillanceWirelessCameraMonitorCircuitboard
-  name: surveillance wireless camera monitor board
-  description: A computer printed circuit board for a surveillance wireless camera monitor.
+  name: "плата монітора бездротової камери спостереження"
+  description: "Комп'ютерна друкована плата для монітора бездротової камери спостереження."
   components:
   - type: Sprite
     state: cpu_security
@@ -185,8 +185,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: ComputerTelevisionCircuitboard
-  name: television board
-  description: A computer printed circuit board for a television.
+  name: "телевізійна плата"
+  description: "Комп'ютерна друкована плата для телевізора."
   components:
     - type: ComputerBoard
       prototype: ComputerTelevision
@@ -197,8 +197,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: ResearchComputerCircuitboard
-  name: R&D computer board
-  description: A computer printed circuit board for a R&D console.
+  name: "R&D комп'ютерна плата"
+  description: "Комп'ютерна друкована плата для R&D консолі."
   components:
     - type: Sprite
       state: cpu_science
@@ -208,8 +208,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: AnalysisComputerCircuitboard
-  name: analysis computer board
-  description: A computer printed circuit board for an analysis console.
+  name: "аналітична комп'ютерна плата"
+  description: "Комп'ютерна друкована плата для аналітичної консолі."
   components:
     - type: Sprite
       state: cpu_science
@@ -219,8 +219,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: TechDiskComputerCircuitboard
-  name: tech disk terminal board
-  description: A computer printed circuit board for a technology disk terminal.
+  name: "клемна плата технічного диска"
+  description: "Комп'ютерна друкована плата для технологічного дискового терміналу."
   components:
   - type: Sprite
     state: cpu_science
@@ -230,8 +230,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: CrewMonitoringComputerCircuitboard
-  name: crew monitoring computer board
-  description: A computer printed circuit board for a crew monitoring console.
+  name: "комп'ютерна плата моніторингу екіпажу"
+  description: "Комп'ютерна друкована плата для консолі моніторингу екіпажу."
   components:
   - type: Sprite
     state: cpu_medical
@@ -241,8 +241,8 @@
 - type: entity
   parent: [BaseComputerCircuitboard, BaseGrandTheftContraband]
   id: IDComputerCircuitboard
-  name: ID card computer board
-  description: A computer printed circuit board for an ID card console.
+  name: "Комп'ютерна плата посвідчення особи"
+  description: "Комп'ютерна друкована плата для консолі з ідентифікаційними картками."
   components:
     - type: Sprite
       state: cpu_command
@@ -257,8 +257,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: BodyScannerComputerCircuitboard
-  name: body scanner computer board
-  description: A computer printed circuit board for a body scanner console.
+  name: "комп'ютерна плата сканера тіла"
+  description: "Комп'ютерна друкована плата для консолі сканера тіла."
   components:
     - type: Sprite
       state: cpu_medical
@@ -268,8 +268,8 @@
 - type: entity
   parent: [ BaseComputerCircuitboard, BaseGrandTheftContraband ]
   id: CommsComputerCircuitboard
-  name: communications computer board
-  description: A computer printed circuit board for a communications console.
+  name: "комунікаційна комп'ютерна плата"
+  description: "Комп'ютерна друкована плата для пульта зв'язку."
   components:
     - type: Sprite
       state: cpu_command
@@ -279,8 +279,8 @@
 - type: entity
   parent: [ BaseComputerCircuitboard, BaseSyndicateContraband ]
   id: SyndicateCommsComputerCircuitboard
-  name: syndicate communications computer board
-  description: A computer printed circuit board for a syndicate communications console.
+  name: "комп'ютерна плата зв'язку синдикату"
+  description: "Комп'ютерна друкована плата для синдикатського пульта зв'язку."
   components:
   - type: Sprite
     state: cpu_syndicate
@@ -290,7 +290,7 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: RadarConsoleCircuitboard
-  name: radar console computer board
+  name: "комп'ютерна плата радіолокаційної консолі"
   components:
   - type: Sprite
     state: cpu_supply
@@ -300,8 +300,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: SolarControlComputerCircuitboard
-  name: solar control computer board
-  description: A computer printed circuit board for a solar control console.
+  name: "комп'ютерна плата управління сонячною батареєю"
+  description: "Комп'ютерна друкована плата для пульта керування сонячною батареєю."
   components:
     - type: Sprite
       state: cpu_engineering
@@ -311,8 +311,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: SpaceVillainArcadeComputerCircuitboard
-  name: space villain arcade board
-  description: A computer printed circuit board for a space villain arcade cabinet.
+  name: "плата до аркадної машини космічні лиходії"
+  description: "Комп'ютерна друкована плата для ігрової аркади з космічним лиходієм."
   components:
     - type: ComputerBoard
       prototype: SpaceVillainArcade
@@ -320,8 +320,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: BlockGameArcadeComputerCircuitboard
-  name: block game arcade board
-  description: A computer printed circuit board for a block game arcade cabinet.
+  name: "плата до аркадної машини гри у блоки"
+  description: "Комп'ютерна друкована плата для аркади гри у блоки"
   components:
     - type: ComputerBoard
       prototype: BlockGameArcade
@@ -329,8 +329,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: ParticleAcceleratorComputerCircuitboard
-  name: PA control box computer board
-  description: A computer printed circuit board for a particle accelerator control box.
+  name: "Комп'ютерна плата блоку управління гучномовцем"
+  description: "Комп'ютерна друкована плата для блоку управління прискорювачем частинок."
   components:
     - type: Sprite
       state: cpu_engineering
@@ -340,8 +340,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: ShuttleConsoleCircuitboard
-  name: shuttle console board
-  description: A computer printed circuit board for a shuttle console.
+  name: "консоль шаттла"
+  description: "Комп'ютерна друкована плата для шатл-консолі."
   components:
   - type: Sprite
     state: cpu_supply
@@ -351,8 +351,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: SyndicateShuttleConsoleCircuitboard
-  name: syndicate shuttle console board
-  description: A computer printed circuit board for a syndicate shuttle console.
+  name: "консоль шаттла синдикату"
+  description: "Комп'ютерна друкована плата для консолі шаттла синдикату."
   components:
   - type: Sprite
     state: cpu_syndicate
@@ -362,8 +362,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: CloningConsoleComputerCircuitboard
-  name: cloning console computer board
-  description: A computer printed circuit board for a cloning console.
+  name: "клонування плати консольного комп'ютера"
+  description: "Комп'ютерна друкована плата для консолі клонування."
   components:
     - type: Sprite
       state: cpu_medical
@@ -373,8 +373,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: ComputerIFFCircuitboard
-  name: IFF console board
-  description: Allows you to control the IFF characteristics of this vessel.
+  name: "Консольна плата IFF"
+  description: "Дозволяє контролювати IFF-характеристики цього судна."
   components:
     - type: Sprite
       state: cpu_command
@@ -384,8 +384,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: ComputerIFFSyndicateCircuitboard
-  name: syndicate IFF console board
-  description: Allows you to control the IFF and stealth characteristics of this vessel.
+  name: "консольна плата синдикату IFF"
+  description: "Дозволяє контролювати IFF і стелс-характеристики цього судна."
   components:
   - type: Sprite
     state: cpu_syndicate
@@ -395,8 +395,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: ComputerMassMediaCircuitboard
-  name: news manager console board
-  description: Write your message to the world!
+  name: "консоль менеджера новин"
+  description: "Напишіть своє послання світу!"
   components:
     - type: Sprite
       state: cpu_service
@@ -408,8 +408,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: SensorConsoleCircuitboard
-  name: sensor monitoring console board
-  description: A computer printed circuit board for a sensor monitoring console.
+  name: "консоль моніторингу датчиків"
+  description: "Комп'ютерна друкована плата для консолі моніторингу датчиків."
   components:
     - type: Sprite
       state: cpu_engineering
@@ -419,8 +419,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: RoboticsConsoleCircuitboard
-  name: robotics control console board
-  description: A computer printed circuit board for a robotics control console.
+  name: "консоль управління робототехнікою"
+  description: "Комп'ютерна друкована плата для пульта керування робототехнікою."
   components:
     - type: Sprite
       state: cpu_science
@@ -430,8 +430,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: StationAiUploadCircuitboard
-  name: AI upload console board
-  description: A computer printed circuit board for a AI upload console.
+  name: "Консольна плата для завантаження ШІ"
+  description: "Комп'ютерна друкована плата для консолі завантаження ШІ."
   components:
     - type: Sprite
       state: cpu_science

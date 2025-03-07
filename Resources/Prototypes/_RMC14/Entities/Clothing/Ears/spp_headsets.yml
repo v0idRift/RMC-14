@@ -42,7 +42,7 @@
   abstract: true
   parent: CMEncryptionKey
   id: RMCEncryptionKeySPP
-  name: SPP radio encryption Key
+  name: "ключ шифрування радіо SPP"
   components:
   - type: Sprite
     state: upp_key
@@ -50,7 +50,7 @@
 - type: entity
   parent: RMCEncryptionKeySPP
   id: RMCEncryptionKeySPPCommand
-  name: SPP command radio encryption Key
+  name: "ключ шифрування командного радіо SPP"
   components:
   - type: EncryptionKey
     channels:
@@ -64,7 +64,7 @@
 - type: entity
   parent: RMCEncryptionKeySPP
   id: RMCEncryptionKeySPPEngineer
-  name: SPP engineering radio encryption Key
+  name: "ключ шифрування інженерного радіо SPP"
   components:
   - type: EncryptionKey
     channels:
@@ -76,7 +76,7 @@
 - type: entity
   parent: RMCEncryptionKeySPP
   id: RMCEncryptionKeySPPMedic
-  name: SPP medic radio encryption Key
+  name: "ключ шифрування медичного радіо SPP"
   components:
   - type: EncryptionKey
     channels:
@@ -88,7 +88,7 @@
 - type: entity
   parent: RMCHeadsetIcons
   id: RMCHeadsetSPP
-  name: SPP-CMD headset
+  name: "гарнітура SPP-CMD"
   components:
   - type: ContainerFill
     containers:
@@ -98,7 +98,7 @@
 - type: entity
   parent: RMCHeadsetIcons
   id: RMCHeadsetSPPCommand
-  name: SPP-CMD headset
+  name: "гарнітура SPP-CMD"
   components:
   - type: ContainerFill
     containers:
@@ -109,7 +109,7 @@
 - type: entity
   parent: RMCHeadsetIcons
   id: RMCHeadsetSPPEngineer
-  name: SPP-CCT headset
+  name: "гарнітура SPP-CCT"
   components:
   - type: ContainerFill
     containers:
@@ -120,7 +120,7 @@
 - type: entity
   parent: RMCHeadsetIcons
   id: RMCHeadsetSPPMedic
-  name: SPP-MED headset
+  name: "гарнітура SPP-MED"
   components:
   - type: ContainerFill
     containers:

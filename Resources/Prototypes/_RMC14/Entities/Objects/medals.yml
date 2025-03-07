@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseItem
   id: RMCMedalBase
-  name: medal
-  description: A medal.
+  name: "медаль"
+  description: "Медаль."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/bronze.rsi
@@ -14,8 +14,8 @@
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalBronze
-  name: bronze medal
-  description: A bronze medal.
+  name: "бронзова медаль"
+  description: "Бронзова медаль."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/bronze.rsi
@@ -28,14 +28,14 @@
 - type: entity
   parent: RMCMedalBronze
   id: RMCMedalBronzeService
-  name: bronze service medal
-  description: A bronze medal awarded for a marine's service within the UNMC. It is a very common medal, and is typically the first medal a marine would receive.
+  name: "бронзова медаль за заслуги"
+  description: "Бронзова медаль, якою нагороджують морських піхотинців за службу в лавах ВМС ООН. Це дуже поширена медаль, і, як правило, це перша медаль, яку отримує морський піхотинець."
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalSilver
-  name: silver medal
-  description: A silver medal.
+  name: "срібна медаль"
+  description: "Срібна медаль."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/silver.rsi
@@ -48,14 +48,14 @@
 - type: entity
   parent: RMCMedalSilver
   id: RMCMedalSilverService
-  name: silver service medal
-  description: A shiny silver medal awarded for a marine's service within the UNMC. It is a somewhat common medal which signifies the amount of time a marine has spent in the line of duty.
+  name: "срібна медаль за заслуги"
+  description: "Блискуча срібна медаль, якою нагороджують морських піхотинців за службу у складі ВМС ООН. Це досить поширена медаль, яка означає кількість часу, проведеного морським піхотинцем на службі."
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalGold
-  name: gold medal
-  description: A prestigious golden medal.
+  name: "золота медаль"
+  description: "Престижна золота медаль."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/gold.rsi
@@ -68,14 +68,14 @@
 - type: entity
   parent: RMCMedalGold
   id: RMCMedalGoldService
-  name: gold service medal
-  description: A prestigious gold medal awarded for a marine's service within the UNMC. It is a rare medal which signifies the amount of time a marine has spent in the line of duty.
+  name: "золота медаль за заслуги"
+  description: "Престижна золота медаль, якою нагороджують за службу морських піхотинців у складі ВМС ООН. Це рідкісна медаль, яка означає кількість часу, проведеного морським піхотинцем на службі."
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalPlatinum
-  name: platinum medal
-  description: A very prestigious platinum medal, only able to be handed out by generals due to special circumstances.
+  name: "платинова медаль"
+  description: "Дуже престижна платинова медаль, яку можуть вручати лише генерали через особливі обставини."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/platinum.rsi
@@ -88,16 +88,16 @@
 - type: entity
   parent: RMCMedalPlatinum
   id: RMCMedalPlatinumService
-  name: platinum service medal
-  description: The highest service medal that can be awarded to a marine; such medals are hand-given by UNMC Generals to a marine. It signifies the sheer amount of time a marine has spent in the line of duty.
+  name: "платинову медаль за заслуги"
+  description: "Найвища медаль за заслуги, якою може бути нагороджена морська піхота; такі медалі вручаються морським піхотинцям особисто генералами ВМС США. Вона означає величезну кількість часу, яку морський піхотинець провів на службі."
   
 # Civilian Ribbons 
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalRibbonWhite
-  name: white ribbon
-  description: A white ribbon.
+  name: "біла стрічка"
+  description: "Біла стрічка."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/white_ribbon.rsi
@@ -110,14 +110,14 @@
 - type: entity
   parent: RMCMedalRibbonWhite
   id: RMCMedalRibbonWhiteService
-  name: white award ribbon
-  description: A white ribbon awarded to civilians for participation in a UNMC-sponsored event. It is a very common award, and is typically the first award a civilian would receive.
+  name: "біла нагородна стрічка"
+  description: "Біла стрічка, якою нагороджуються цивільні особи за участь у заходах, що проводяться під егідою ЦВС ООН. Це дуже поширена нагорода, і, як правило, це перша нагорода, яку отримує цивільна особа."
   
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalRibbonYellow
-  name: yellow ribbon
-  description: A yellow ribbon.
+  name: "жовта стрічка"
+  description: "Жовта стрічка."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/yellow_ribbon.rsi
@@ -130,14 +130,14 @@
 - type: entity
   parent: RMCMedalRibbonYellow
   id: RMCMedalRibbonYellowService
-  name: yellow award ribbon
-  description: A bright yellow ribbon awarded to civilians for placing third in a UNMC-sponsored event. It is a somewhat common award, signifying their dedication and support for the organization.
+  name: "жовта нагородна стрічка"
+  description: "Яскраво-жовта стрічка, яку вручають цивільним особам за третє місце у заході, що проводиться за підтримки МКЧХ. Це досить поширена нагорода, що означає їхню відданість та підтримку організації."
   
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalRibbonRed
-  name: red ribbon
-  description: A red ribbon.
+  name: "червона стрічка"
+  description: "Червона стрічка."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/red_ribbon.rsi
@@ -150,14 +150,14 @@
 - type: entity
   parent: RMCMedalRibbonRed
   id: RMCMedalRibbonRedService
-  name: red award ribbon
-  description: A vibrant red ribbon awarded to civilians for placing second in a UNMC-sponsored event. It is a rare award, signifying their dedication and support for the organization.
+  name: "червона нагородна стрічка"
+  description: "Яскрава червона стрічка, що вручається цивільним особам за друге місце у заході, організованому МККК. Це рідкісна нагорода, яка свідчить про їхню відданість та підтримку організації."
   
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalRibbonBlue
-  name: blue ribbon
-  description: A blue ribbon.
+  name: "блакитна стрічка"
+  description: "Блакитна стрічка."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/blue_ribbon.rsi
@@ -170,6 +170,6 @@
 - type: entity
   parent: RMCMedalRibbonBlue
   id: RMCMedalRibbonBlueService
-  name: blue award ribbon
-  description: A very prestigious blue ribbon awarded to civilians for placing first in a UNMC-sponsored event. Such awards require significant amounts of time and dedication to achieve.
+  name: "синя нагородна стрічка"
+  description: "Дуже престижна блакитна стрічка, яка вручається цивільним особам за перше місце у заході, організованому ЦВС ООН. Такі нагороди вимагають значних зусиль і часу, щоб їх отримати."
 

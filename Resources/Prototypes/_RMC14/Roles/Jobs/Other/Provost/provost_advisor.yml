@@ -29,7 +29,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerProvostAdvisor
-  name: provost spawner advisor
+  name: "проректор, радник з питань нересту"
   suffix: Spawner, Player, Low Law Understanding
   components:
   - type: Sprite
@@ -41,7 +41,7 @@
 
 - type: entity
   id: RMCRandomHumanoidProvostAdvisor
-  name: provost ghost role advisor
+  name: "радник з питань примарних ролей проректора"
   suffix: Role, Player, Low Law Understanding
   components:
   - type: Sprite
@@ -100,7 +100,7 @@
 - type: entity
   parent: CMIDCardGold # TODO RMC14 provost id
   id: RMCIDCardProvostAdvisor
-  name: provost advisor ID card
+  name: "посвідчення радника проректора"
   components:
   - type: PresetIdCard
     job: CMProvostAdvisor

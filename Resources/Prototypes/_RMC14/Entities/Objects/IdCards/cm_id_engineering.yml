@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: CMIDCardSilver
   id: CMIDCardChiefEngineer
-  name: chief engineer ID card
+  name: "посвідчення головного інженера"
   components:
   - type: PresetIdCard
     job: CMChiefEngineer
@@ -9,7 +9,7 @@
 - type: entity
   parent: CMIDCardBase
   id: CMIDCardOrdnanceTech
-  name: ordnance tech's ID card
+  name: "посвідчення сапера"
   components:
   - type: PresetIdCard
     job: CMOrdnanceTech
@@ -17,7 +17,7 @@
 - type: entity
   parent: CMIDCardBase
   id: CMIDCardMaintTech
-  name: maintenance tech's ID card
+  name: "посвідчення технічного спеціаліста"
   components:
   - type: PresetIdCard
     job: CMMaintTech

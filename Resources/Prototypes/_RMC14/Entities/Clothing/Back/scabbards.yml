@@ -2,8 +2,8 @@
 - type: entity
   parent: [ Clothing, ClothingSlotBase ]
   id: RMCScabbardBase
-  name: base scabbard
-  description: -- insert description here --
+  name: "базові піхви"
+  description: "-- вставити опис тут --"
   abstract: true
   components:
   - type: Sprite
@@ -43,8 +43,8 @@
 - type: entity
   parent: RMCScabbardBase
   id: RMCScabbardMachete
-  name: H5 pattern M2132 machete scabbard
-  description: A large leather scabbard used to carry a M2132 machete. It can be strapped to the back or the waist.
+  name: "Піхви для мачете H5 модель M2132"
+  description: "Великі шкіряні піхви для носіння мачете M2132. Можна носити на спині або на поясі."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Scabbards/machete_h5.rsi
@@ -74,8 +74,8 @@
 - type: entity
   parent: RMCScabbardBase
   id: RMCScabbardMacheteSG
-  name: ML66A harness machete scabbard
-  description: A scabbard that connects to the ML66A combat harness for carrying a M2132 machete.
+  name: "Піхви для мачете ML66A"
+  description: "Піхви, що під'єднуються до бойового ременя ML66A для носіння мачете M2132."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Scabbards/machete_sg.rsi
@@ -104,8 +104,8 @@
 - type: entity
   parent: RMCScabbardBase
   id: RMCScabbardShotgun
-  name: L44 M42A2 shotgun scabbard
-  description: A large leather holster fitted for UNMC-issue shotguns. It has harnesses that allow it to be secured to the back for easy storage.
+  name: "Піхви для дробовика L44 M42A2"
+  description: "Велика шкіряна кобура для рушниць зразка UNMC. Має ремені, які дозволяють закріпити кобуру на спині для зручності зберігання."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Scabbards/shotgun.rsi
@@ -136,8 +136,8 @@
 - type: entity
   parent: RMCScabbardBase
   id: RMCScabbardCeremonial
-  name: ceremonial sabre scabbard
-  description: A large, vibrantly colored scabbard used to carry a ceremonial sabre.
+  name: "піхви для церемоніальної шаблі"
+  description: "Великі, яскраво забарвлені піхви, які використовуються для носіння церемоніальної шаблі."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/co_sabre_sheath.rsi

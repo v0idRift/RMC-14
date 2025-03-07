@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [ RMCBaseWeaponShotgun, RMCBaseAttachableHolder ]
-  name: M890 riot shotgun
+  name: "Штурмова рушниця M890"
   id: RMCWeaponShotgunM890Riot
-  description: A unique corporate made semi-automatic riot shotgun with a rapid fire rate. Holds 8 Beanbag shells in the chamber. Specially made for crowd control during tough situations.
+  description: "Унікальна напівавтоматична рушниця для боротьби з заворушеннями з високою скорострільністю. Містить 8 набоїв типу Beanbag у патроннику. Спеціально розроблений для контролю натовпу під час складних ситуацій."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Shotguns/m890_riot.rsi

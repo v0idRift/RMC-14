@@ -2,8 +2,8 @@
   abstract: true
   id: RMCTrashBinBase
   parent: BaseStructure
-  name: trash bin
-  description: A Weston-Yamada trash bin used for disposing your unwanted items, or you can just throw your shit on the ground like every other asshole.
+  name: "сміттєвий бак"
+  description: "Сміттєвий бак Weston-Yamada, який використовується для утилізації непотрібних речей, або ви можете просто кинути своє лайно на землю, як і будь-який інший мудак."
   placement:
     mode: SnapgridCenter
     snap:

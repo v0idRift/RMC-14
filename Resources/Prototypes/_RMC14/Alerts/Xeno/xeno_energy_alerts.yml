@@ -39,25 +39,25 @@
     state: power_display_0
   - sprite: /Textures/_RMC14/Interface/Alerts/xeno_energy.rsi
     state: power_display_empty
-  name: Energy reserves
-  description: Your stored energy. Used by different abilities
+  name: "Енергетичні запаси"
+  description: "Ваша накопичена енергія. Використовується різними здібностями"
   minSeverity: 0
   maxSeverity: 18
 
 - type: alert
   parent: XenoEnergyBase
   id: XenoEnergyAcider
-  name: Acid reserves
-  description: Your stored acid. Used by different abilities. You can only passively generate up to 400.
+  name: "Запаси кислоти"
+  description: "Ваші запаси кислоти. Використовуються різними здібностями. Ви можете пасивно генерувати лише до 400."
 
 - type: alert
   parent: XenoEnergyBase
   id: XenoEnergyValkyrie
-  name: Fury
-  description: Your built-up rage. Used by different abilities.
+  name: "Ф'юрі"
+  description: "Твоя накопичена лють. Використовується різними здібностями."
 
 - type: alert
   parent: XenoEnergyBase
   id: XenoEnergyHealer
-  name: Transferred health
-  description: Your total health transferred. If full you'll revive after using sacrifice.
+  name: "Передане здоров'я"
+  description: "Перераховано загальну кількість вашого здоров'я. Якщо воно повне, ви відродитеся після жертвоприношення."

@@ -1,6 +1,6 @@
 - type: entity
-  name: zippo lighter
-  description: A fancy steel Zippo lighter. Ignite in style.
+  name: "запальничка zippo"
+  description: "Модна сталева запальничка Zippo. Підпалюй стильно."
   parent: FlippoLighter
   id: RMCZippo
   components:
@@ -29,8 +29,8 @@
   - type: RMCLighter
 
 - type: entity
-  name: cheap lighter
-  description: A cheap-as-free lighter.
+  name: "дешева запальничка"
+  description: "Дешева і безкоштовна запальничка."
   parent: RMCZippo
   id: RMCLighter
   components:
@@ -100,8 +100,8 @@
           lighter_u_on: ""
 
 - type: entity
-  name: We-Ya executive zippo lighter
-  description: A remarkable Zippo lighter embellished in the Company's black and gold shade.
+  name: "Запальничка We-Ya executive zippo"
+  description: "Чудова запальничка Zippo, прикрашена фірмовим чорно-золотим відтінком компанії."
   parent: RMCZippo
   id: RMCZippoExec
   components:
@@ -109,8 +109,8 @@
     sprite:  _RMC14/Objects/Tools/Lighters/execzippo.rsi
 
 - type: entity
-  name: golden zippo lighter
-  description: A gold-anodized Zippo lighter. Ostentatious, but it certainly stands out.
+  name: "золота запальничка zippo"
+  description: "Позолочена запальничка Zippo з анодованим покриттям. Показна, але вона, безумовно, виділяється."
   parent: RMCZippo
   id: RMCZippoGold
   components:

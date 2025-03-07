@@ -1,8 +1,8 @@
 - type: entity
   parent: DrinkBottlePlasticBaseFull
   id: RMCDrinkCoffee
-  name: coffee
-  description: Careful, the beverage you're about to enjoy is extremely hot.
+  name: "кава"
+  description: "Обережно, напій, яким ви збираєтеся насолодитися, надзвичайно гарячий."
   components:
   - type: SolutionContainerManager
     solutions:
@@ -34,8 +34,8 @@
 - type: entity
   parent: RMCDrinkCoffee
   id: RMCDrinkCoffeeGrind
-  name: The Daily Grind
-  description: Rise and Shine! Time to drink the Daily Grind!
+  name: "Щоденний Помол"
+  description: "Прокидайся та сяй! Час пити Щоденний Помол!"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/coffee_joe.rsi

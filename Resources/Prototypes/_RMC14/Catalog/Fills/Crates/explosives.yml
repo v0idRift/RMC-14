@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCCrateExplosives
   id: RMCCrateGrenadesHighExplosive
-  name: M40 HEDP blast grenades crate (x6)
+  name: "Ящик для світлошумових гранат M40 HEDP (x6)"
   components:
   - type: StorageFill
     contents:
@@ -11,7 +11,7 @@
 - type: entity
   parent: RMCCrateExplosives
   id: RMCCrateGrenadesIncendiary
-  name: M40 HIDP incendiary grenades crate (x6)
+  name: "Ящик для запалювальних гранат M40 HIDP (x6)"
   components:
   - type: StorageFill
     contents:
@@ -21,7 +21,7 @@
 - type: entity
   parent: RMCCrateExplosives
   id: RMCCrateGrenadesFrag
-  name: M40 HEFA fragmentation grenades crate (x6)
+  name: "Ящик для осколкових гранат M40 HEFA (x6)"
   components:
   - type: StorageFill
     contents:
@@ -31,7 +31,7 @@
 - type: entity
   parent: RMCCrateExplosives
   id: RMCCrateGrenadesSmoke
-  name: M40 HSDP smoke grenades crate (x6)
+  name: "Ящик для димових гранат M40 HSDP (x6)"
   components:
   - type: StorageFill
     contents:
@@ -41,7 +41,7 @@
 - type: entity
   parent: RMCCrateExplosives
   id: RMCCrateGrenadesFragOld
-  name: M15 fragmentation grenades crate (x6)
+  name: "Ящик для осколкових гранат М15 (х6)"
   components:
   - type: StorageFill
     contents:
@@ -51,7 +51,7 @@
 - type: entity
   parent: RMCCrateExplosives
   id: RMCCratePlasticExplosives
-  name: plastic explosives crate (x3)
+  name: "пластиковий ящик для вибухівки (x3)"
   components:
   - type: StorageFill
     contents:
@@ -61,7 +61,7 @@
 - type: entity
   parent: RMCCrateExplosives
   id: RMCCrateBreachingCharges
-  name: breaching charges crate (x4)
+  name: "ящик зі звинуваченнями у порушенні (x4)"
   components:
   - type: StorageFill
     contents:
@@ -71,7 +71,7 @@
 - type: entity
   parent: RMCCrateExplosives
   id: RMCCrateGrenadesHighExplosiveBox
-  name: M40 HEDP blast grenade box crate (x25)
+  name: "Ящик для світлошумової гранати M40 HEDP (x25)"
   components:
   - type: StorageFill
     contents:
@@ -81,7 +81,7 @@
 - type: entity
   parent: RMCCrateExplosives
   id: RMCCrateGrenadesAirburstFragBox
-  name: M74 AGM-F 40mm frag grenades crate (x25)
+  name: "ящик з осколковими гранатами M74 AGM-F 40мм (x25)"
   components:
   - type: StorageFill
     contents:
@@ -91,7 +91,7 @@
 - type: entity
   parent: RMCCrateExplosives
   id: RMCCrateGrenadesAirburstFrag
-  name: M74 AGM-F 40mm frag grenades crate (x6)
+  name: "ящик з осколковими гранатами M74 AGM-F 40мм (x6)"
   components:
   - type: StorageFill
     contents:
@@ -101,7 +101,7 @@
 - type: entity
   parent: RMCCrateExplosives
   id: RMCCrateGrenadesAirburstIncendiary
-  name: M74 AGM-I 40mm incendiary grenades crate (x6)
+  name: "ящик з запальними гранатами M74 AGM-I 40мм (x6)"
   components:
   - type: StorageFill
     contents:
@@ -111,7 +111,7 @@
 - type: entity
   parent: RMCCrateExplosives
   id: RMCCrateGrenadesAirburstSmoke
-  name: M74 AGM-S 40mm smoke grenades crate (x6)
+  name: "ящик з димовими гранатами M74 AGM-S 40мм (x6)"
   components:
   - type: StorageFill
     contents:
@@ -121,7 +121,7 @@
 - type: entity
   parent: RMCCrateExplosives
   id: RMCCrateGrenadesAirburstHornet
-  name: M74 AGM-H 40mm hornet grenades crate (x6)
+  name: "ящик з гранатами \"Шершень\" M74 AGM-H 40мм (x6)"
   components:
   - type: StorageFill
     contents:
@@ -131,7 +131,7 @@
 - type: entity
   parent: RMCCrateExplosives
   id: RMCCrateGrenadesAirburstStarShell
-  name: M74 AGM-H 40mm Starshell grenades crate (x6)
+  name: "ящик з гранатами \"Зоряний снаряд\" M74 AGM-H 40мм (x6)"
   components:
   - type: StorageFill
     contents:
@@ -141,7 +141,7 @@
 - type: entity
   parent: RMCCrateExplosives
   id: RMCCrateGrenadesBatonSlug
-  name: HIRR Baton Slugs crate (x6)
+  name: "ящик з ударними кулями HIRR (x6)"
   components:
   - type: StorageFill
     contents:

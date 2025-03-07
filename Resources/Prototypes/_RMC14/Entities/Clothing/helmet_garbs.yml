@@ -13,8 +13,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbNightVision
-  name: old M2 night vision goggles
-  description: This pair has been gutted of all electronics and therefore not working. But hey, they make you feel tacticool, and that's all that matters, right?
+  name: "старі окуляри нічного бачення M2"
+  description: "Ця пара була позбавлена всієї електроніки і тому не працює.  Але гей, вони змушують вас почуватися тактично круто, і це все, що має значення, чи не так?"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/nv_goggles.rsi
@@ -31,8 +31,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbNetting
-  name: combat netting
-  description: Probably combat netting for a helmet. Probably just an extra hairnet that got ordered for the phantom Almayer cooking staff. Probably useless.
+  name: "бойова сітка"
+  description: "Ймовірно, бойова сітка для шолома.  Ймовірно, просто додаткова сітка для волосся, яку замовили для фантомного кухарського персоналу Almayer.  Ймовірно, марна."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/netting.rsi
@@ -47,7 +47,7 @@
 - type: entity
   parent: RMCHelmetGarbNetting
   id: RMCHelmetGarbNettingUrban
-  name: urban combat netting
+  name: "міська бойова сітка"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/netting_urban.rsi
@@ -62,7 +62,7 @@
 - type: entity
   parent: RMCHelmetGarbNetting
   id: RMCHelmetGarbNettingDesert
-  name: desert combat netting
+  name: "пустельна бойова сітка"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/netting_desert.rsi
@@ -77,7 +77,7 @@
 - type: entity
   parent: RMCHelmetGarbNetting
   id: RMCHelmetGarbNettingJungle
-  name: jungle combat netting
+  name: "бойова сітка для джунглів"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/netting_jungle.rsi
@@ -94,8 +94,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbRainCover
-  name: raincover
-  description: The standard M10 combat helmet is already water-resistant at depths of up to 10 meters. This makes the top potentially water-proof. At least it's something.
+  name: "дощовик"
+  description: "Стандартний бойовий шолом M10 вже водостійкий на глибині до 10 метрів.  Це робить верх потенційно водонепроникним.  Принаймні це щось."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/raincover.rsi
@@ -110,7 +110,7 @@
 - type: entity
   parent: RMCHelmetGarbRainCover
   id: RMCHelmetGarbRainCoverUrban
-  name: urban raincover
+  name: "міський дощовик"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/raincover_urban.rsi
@@ -125,7 +125,7 @@
 - type: entity
   parent: RMCHelmetGarbRainCover
   id: RMCHelmetGarbRainCoverDesert
-  name: desert raincover
+  name: "пустельний дощовик"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/raincover_desert.rsi
@@ -140,7 +140,7 @@
 - type: entity
   parent: RMCHelmetGarbRainCover
   id: RMCHelmetGarbRainCoverJungle
-  name: jungle raincover
+  name: "дощовик для джунглів"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/raincover_jungle.rsi
@@ -157,8 +157,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbBuckshot
-  name: spent buckshot
-  description: Three spent rounds of good ol' buckshot. You know they used to paint these green? Strange times.
+  name: "витрачена картеч"
+  description: "Три використані набої доброї старої картечі.  Знаєте, раніше їх фарбували в зелений колір?  Дивні часи."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/buckshot.rsi
@@ -173,8 +173,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbFlechette
-  name: spent flechette
-  description: The more you fire these, the more you're reminded that a fragmentation grenade is probably more effective at fulfilling the same purpose. Say, aren't these supposed to eject from your gun?
+  name: "витрачені флешети"
+  description: "Чим більше ви стріляєте ними, тим більше ви згадуєте, що осколкова граната, ймовірно, ефективніша для виконання тієї ж мети.  До речі, хіба вони не повинні вилітати з вашої зброї?"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/flechette.rsi
@@ -189,8 +189,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbSlug
-  name: spent slugs
-  description: For when you need to knock your target down with superior stopping power. These three have already been fired.
+  name: "витрачені кулі"
+  description: "Для випадків, коли вам потрібно збити ціль із чудовою зупиняючою силою.  Ці три вже були випущені."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/slug.rsi
@@ -205,8 +205,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbCartridge
-  name: cartridge
-  description: This is the bullet from a Type 54 Assault Rifle. It is deformed from impact against an armored surface. It's been reduced to a lucky keepsake now.
+  name: "патрон"
+  description: "Це куля від штурмової гвинтівки Type 54.  Вона деформована від удару об броньовану поверхню.  Тепер вона перетворилася на щасливий сувенір."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/cartridge.rsi
@@ -223,8 +223,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbGasmask
-  name: M5 integrated gasmask
-  description: The UNMC had its funding pulled for these when it became apparent that not every deployed enlisted was wearing a helmet 24/7; much to the bafflement of UA High Command.
+  name: "інтегрований протигаз M5"
+  description: "UNMC припинило фінансування цих протигазів, коли стало очевидно, що не кожен військовослужбовець носить шолом 24/7;  на превеликий подив командування UA."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/gasmask.rsi
@@ -241,8 +241,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbGunOil
-  name: gun oil
-  description: It is a bottle of oil, for your gun. Don't fall for the rumors, the M41A is NOT a self-cleaning firearm.
+  name: "мастило для зброї"
+  description: "Це пляшка мастила для вашої зброї.  Не вірте чуткам, M41A НЕ є самоочисною вогнепальною зброєю."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/gun_oil.rsi
@@ -257,8 +257,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbRosary
-  name: rosary
-  description: Jesus Saves Lives!
+  name: "вервиця"
+  description: "Ісус Спасає Життя!"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/rosary.rsi
@@ -273,8 +273,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbPrescription
-  name: prescription medication
-  description: Anti-anxiety meds? Amphetamines? The cure for Sudden Sleep Disorder? The label can't be read, leaving the now absent contents forever a mystery. The cap is screwed on tighter than any ID lock.
+  name: "рецептурні ліки"
+  description: "Ліки від тривоги?  Амфетаміни?  Ліки від синдрому раптового сну?  Етикетку неможливо прочитати, тому вміст, якого тепер немає, назавжди залишиться загадкою.  Кришка закручена щільніше, ніж будь-який ID-замок."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/prescription.rsi
@@ -289,8 +289,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbWire
-  name: trimmed barbed wire
-  description: It is a length of barbed wire that's had most of the sharp points filed down so that it is safe to handle.
+  name: "обрізаний колючий дріт"
+  description: "Це відрізок колючого дроту, у якого більшість гострих кінців спиляно, щоб з ним було безпечно працювати."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/trimmed_barb_wire.rsi

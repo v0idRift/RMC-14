@@ -1,5 +1,5 @@
 - type: entity
-  name: crowbar
+  name: "лом"
   parent: BaseItem
   id: BaseCrowbar
   abstract: true
@@ -46,7 +46,7 @@
 - type: entity
   parent: BaseCrowbar
   id: Crowbar
-  description: A multipurpose tool to pry open doors and fight interdimensional invaders.
+  description: "Багатофункціональний інструмент для відчинення дверей та боротьби з міжпросторовими загарбниками."
   components:
   - type: Sprite
     state: icon
@@ -57,7 +57,7 @@
 
 # Emergency (red) Crowbar
 - type: entity
-  name: emergency crowbar
+  name: "аварійний лом"
   parent: BaseCrowbar
   id: CrowbarRed
   description: An emergency crowbar designed to pry open doors and firelocks during power outages.
@@ -95,7 +95,7 @@
 - type: entity
   parent: BaseCrowbar
   id: CrowbarGreen
-  description: A multipurpose tool to pry open doors and fight interdimensional invaders, printed from an autolathe.
+  description: "Багатофункціональний інструмент для відчинення дверей та боротьби з міжпросторовими загарбниками, надрукований на токарному верстаті."
   components:
   - type: Sprite
     layers:
@@ -126,7 +126,7 @@
 - type: entity
   parent: BaseCrowbar
   id: CrowbarOrange
-  description: A multipurpose tool to pry open doors and fight interdimensional invaders, found in toolboxes.
+  description: "Багатофункціональний інструмент для відчинення дверей і боротьби з міжпросторовими загарбниками, який можна знайти в ящиках з інструментами."
   components:
   - type: Sprite
     layers:
@@ -157,7 +157,7 @@
 - type: entity
   parent: BaseCrowbar
   id: CrowbarYellow
-  description: A multipurpose tool to pry open doors and fight interdimensional invaders, dispensed from Engineering.
+  description: "Багатофункціональний інструмент для відчинення дверей та боротьби з міжпросторовими загарбниками, виданий Інженерним відділом."
   components:
   - type: Sprite
     layers:

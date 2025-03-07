@@ -1,8 +1,8 @@
 - type: entity
   parent: [ RMCBaseMeleeWeapon, BaseKnife ]
   id: RMCKitchenKnife
-  name: knife
-  description: Can cut through any food.
+  name: "ніж"
+  description: "Може прорізати будь-яку їжу."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Melee/Kitchen/knife.rsi
@@ -38,8 +38,8 @@
 - type: entity
   parent: RMCKitchenKnife
   id: RMCKitchenKnifePlastic
-  name: plastic knife
-  description: The bluntest of blades.
+  name: "пластиковий ніж"
+  description: "Найтупіше лезо."
   components:
   - type: Sprite
     state: plastic
@@ -47,14 +47,14 @@
 - type: entity
   parent: RMCKitchenKnife
   id: RMCKitchenKnifeChef
-  name: kitchen knife
-  description: A general purpose Chef's Knife made by SpaceCook Incorporated. Guaranteed to stay sharp for years to come.
+  name: "кухонний ніж"
+  description: "Універсальний кухарський ніж від SpaceCook Incorporated. Гарантовано залишиться гострим на довгі роки."
 
 - type: entity
   parent: RMCKitchenKnife
   id: RMCKitchenKnifeButcher
-  name: butcher's cleaver
-  description: A huge thing used for chopping and chopping up meat. This includes clowns and clown-by-products.
+  name: "тесак м'ясника"
+  description: "Величезна річ, яку використовують для подрібнення та рубання м'яса. Сюди входять клоуни і клоунські субпродукти."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Melee/Kitchen/cleaver.rsi

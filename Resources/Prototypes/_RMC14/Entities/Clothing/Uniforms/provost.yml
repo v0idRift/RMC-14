@@ -2,8 +2,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
   id: CMJumpsuitProvost
-  name: provost uniform
-  description: The crisp uniform of a Provost Officer.
+  name: "форма проректора"
+  description: "Чиста форма офіцера проректора."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Provost/officer.rsi
@@ -14,8 +14,8 @@
 - type: entity
   parent: CMJumpsuitProvost
   id: CMJumpsuitProvostCI
-  name: provost uniform # Not sure what this should be called
-  description: The crisp uniform of a Provost Officer.
+  name: "форма проректора" # Not sure what this should be called
+  description: "Чиста форма офіцера проректора."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Provost/ci.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: CMJumpsuitProvost
   id: CMJumpsuitProvostSenior
-  name: provost senior uniform
-  description: The crisp uniform of a senior member of the Provost Office.
+  name: "старший проректор, старша форма"
+  description: "Чиста уніформа старшого співробітника ректорату."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Provost/senior.rsi
@@ -32,8 +32,8 @@
 - type: entity
   parent: CMJumpsuitProvost
   id: CMJumpsuitProvostMarshal
-  name: provost marshal uniform
-  description: The crisp uniform of a Provost Marshal.
+  name: "форма проректора маршала"
+  description: "Чіткий мундир військового маршала."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Provost/marshal.rsi
@@ -42,8 +42,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: CMJumpsuitProvostAgent
-  name: special agent uniform
-  description: A modified Provost uniform, with its original insignia replaced by those of the Intelligence Service. Special Agents are often recruited from the upper echelons of law enforcement agencies in various armed forces. These recruits often take all their gear, uniform included with them and later modify them to include intelligence service insignia.
+  name: "форма спецагента"
+  description: "Модифікована форма проректора, з оригінальними знаками розрізнення, заміненими на знаки розвідувальної служби. Спецагентів часто вербують з вищих ешелонів правоохоронних органів різних збройних сил. Ці новобранці часто забирають із собою все своє спорядження, включаючи форму, а згодом модифікують її, додаючи до неї знаки розвідки."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Provost/agent.rsi

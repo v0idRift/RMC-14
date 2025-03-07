@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: ColMarTechBase
   id: ColMarTechIntelGear
-  name: ColMarTech intelligence officer gear rack
-  description: An automated gear rack for IOs.
+  name: "Стійка для спорядження офіцера розвідки ColMarTech"
+  description: "Автоматизований стелаж для вводу-виводу."
   components:
   - type: AccessReader
     access:
@@ -106,8 +106,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechIntelEquipment
-  name: ColMarTech intelligence officer equipment rack
-  description: An automated rack hooked up to a colossal storage of IO standard-issue equipment.
+  name: "Стійка для спорядження офіцера розвідки ColMarTech"
+  description: "Автоматизована стійка, підключена до колосального сховища стандартного обладнання вводу-виводу."
   components:
   - type: AccessReader
     access:
@@ -200,8 +200,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechIntelWeapons
-  name: ColMarTech intelligence officer weapons rack
-  description: An automated weapon rack hooked up to a small storage of standard-issue weapons. Can be accessed only by the Intelligence Officers.
+  name: "Стійка для зброї офіцера розвідки ColMarTech"
+  description: "Автоматичний стелаж для зброї, під'єднаний до невеликого сховища зі штатною зброєю. Доступ до нього мають лише офіцери розвідки."
   components:
   - type: AccessReader
     access:
@@ -278,8 +278,8 @@
 - type: entity
   parent: CMVendorBundleRiflemanApparel
   id: RMCVendorBundleIntel
-  name: essential intel set
-  description: Contains a crowbar, fultons, an intel detector, and binoculars.
+  name: "необхідний набір даних"
+  description: "Містить лом, фультони, детектор розвідки та бінокль."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/intel_detector.rsi
@@ -294,7 +294,7 @@
 - type: entity
   parent: RMCKitBase
   id: RMCKitIntel
-  name: field intelligence support kit
+  name: "комплект для польової розвідки"
   components:
   - type: Storage
     maxItemSize: Huge

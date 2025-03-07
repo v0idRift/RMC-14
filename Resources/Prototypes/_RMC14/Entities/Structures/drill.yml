@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: RMCDrill
-  name: mining drill
-  description: An old mining drill, seemingly used for mining. And possibly drilling.
+  name: "гірничий бур"
+  description: "Старий гірничий бур, який, схоже, використовувався для видобутку корисних копалин. І, можливо, для буріння."
   placement:
     mode: SnapgridCenter
   components:

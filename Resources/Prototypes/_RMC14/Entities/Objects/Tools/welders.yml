@@ -2,8 +2,8 @@
 - type: entity
   parent: [BaseItem, RMCBaseMeleeWeapon]
   id: RMCWelderBase
-  name: blowtorch
-  description: "Melts anything as long as it's fueled, don't forget your eye protection!"
+  name: "паяльна лампа"
+  description: "Розплавляє все, що завгодно, якщо воно заправлене паливом, не забудьте захисні окуляри!"
   abstract: true
   components:
   - type: EmitSoundOnLand
@@ -126,8 +126,8 @@
 - type: entity
   parent: RMCWelderBase
   id: RMCWelderAdmin
-  name: admin blowtorch
-  description: Melts anything as long as it's fueled, forget your eye protection!
+  name: "паяльна лампа адміністратора"
+  description: "Розплавляє все, що завгодно, якщо воно заправлене паливом, забудьте про захист очей!"
   suffix: Admin, DO NOT MAP
   components:
   - type: SolutionContainerManager
@@ -141,8 +141,8 @@
 - type: entity
   parent: RMCWelderBase
   id: CMWelderSmall
-  name: ME3 hand welder
-  description: A compact, handheld welding torch used by the Marines for cutting and welding jobs on the field. Due to the small size and slow strength, its function is limited compared to a full-sized technician's blowtorch.
+  name: "Ручний зварювальний апарат ME3"
+  description: "Компактний ручний зварювальний пальник, що використовується морськими піхотинцями для різання та зварювання в польових умовах. Через малий розмір та низьку потужність, його функції обмежені порівняно з повнорозмірною технічною паяльною лампою."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/welder_hand.rsi

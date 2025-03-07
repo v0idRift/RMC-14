@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchExplosive
-  name: explosive pouch
-  description: It can carry grenades, plastic explosives, mine boxes, and other explosives.
+  name: "вибуховий пакет"
+  description: "Він може перевозити гранати, пластикову вибухівку, мінні ящики та інші вибухові речовини."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/large_explosive.rsi

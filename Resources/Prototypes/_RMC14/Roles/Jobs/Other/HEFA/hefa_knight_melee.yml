@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: RMCSpawnerHEFAShrapnelsworn
   id: RMCSpawnerHEFAShrapnelswornMelee
-  name: hefa shrapnelsworn melee spawner
+  name: "спавнер рукопашного бою уламкопоклонника hefa"
   suffix: Spawner
   components:
   - type: ConditionalSpawner
@@ -11,7 +11,7 @@
 - type: entity
   parent: RMCRandomHumanoidHEFAShrapnelsworn
   id: RMCRandomHumanoidHEFAShrapnelswornMelee
-  name: hefa shrapnelsworn melee ghost role
+  name: "примарна роль рукопашного бою уламкопоклонника hefa"
   suffix: Role
   components:
   - type: RandomHumanoidSpawner

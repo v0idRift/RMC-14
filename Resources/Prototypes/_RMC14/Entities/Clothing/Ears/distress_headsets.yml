@@ -2,8 +2,8 @@
 - type: entity
   parent: CMHeadset
   id: CMHeadsetColony
-  name: colony headset
-  description: A standard headset used by colonists.
+  name: "гарнітура для колонії"
+  description: "Стандартна гарнітура, яку використовували колоністи."
   components:
   - type: ContainerFill
     containers:
@@ -14,8 +14,8 @@
 - type: entity
   parent: CMHeadset
   id: RMCHeadsetDistressBureau
-  name: bureau earpiece
-  description: A sleek headset used by The Colonial Marshal Bureau, crafted in Sol. Low profile and comfortable. No one is above the law.
+  name: "навушник-бюро"
+  description: "Елегантна гарнітура, яку використовує Бюро колоніальних маршалів, виготовлена в Солі. Непомітна і зручна. Ніхто не стоїть над законом."
   components:
   - type: ContainerFill
     containers:
@@ -26,8 +26,8 @@
 - type: entity
   parent: CMHeadset
   id: RMCHeadsetDistressWeYa
-  name: WeYa corporate headset
-  description: A headset commonly worn by WeYa corporate personnel.
+  name: "Корпоративна гарнітура WeYa"
+  description: "Гарнітура, яку зазвичай носить корпоративний персонал WeYa."
   components:
   - type: ContainerFill
     containers:
@@ -38,8 +38,8 @@
 - type: entity
   parent: CMHeadset
   id: RMCHeadsetDistressPMC
-  name: PMC headset
-  description: A special headset used by corporate personnel.
+  name: "Гарнітура PMC"
+  description: "Спеціальна гарнітура, що використовується корпоративним персоналом."
   components:
   - type: ContainerFill
     containers:
@@ -51,8 +51,8 @@
 - type: entity
   parent: CMHeadset
   id: RMCHeadsetDistressDukes
-  name: Duke's Dozen headset
-  description: A special headset used by small groups of trained operatives. Or terrorists.
+  name: "гарнітура Duke's Dozen"
+  description: "Спеціальна гарнітура, яка використовується невеликими групами підготовлених оперативників.  Або терористів."
   components:
   - type: ContainerFill
     containers:

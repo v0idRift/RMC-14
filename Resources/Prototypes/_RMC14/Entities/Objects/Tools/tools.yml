@@ -75,8 +75,8 @@
 - type: entity
   parent: Multitool
   id: CMMultitool
-  name: security access tuner
-  description: A small handheld tool used to override various machine functions.
+  name: "тюнер доступу до системи безпеки"
+  description: "Невеликий ручний інструмент, що використовується для заміни різних функцій машини."
   suffix: Multitool
   components:
   - type: Sprite
@@ -98,8 +98,8 @@
 - type: entity
   parent: trayScanner
   id: CMTRayScanner
-  name: t-ray scanner
-  description: A high-tech scanning device that uses terahertz radiation to detect subfloor infrastructure.
+  name: "рентгенівський сканер"
+  description: "Високотехнологічний скануючий пристрій, який використовує терагерцове випромінювання для виявлення підлогової інфраструктури."
   suffix: trayScanner
   components:
   - type: Sprite
@@ -153,7 +153,7 @@
 - type: entity
   parent: CMCrowbar
   id: CMCrowbarRed
-  name: emergency crowbar
+  name: "аварійний лом"
   components:
   - type: Tag
     tags:

@@ -4,7 +4,7 @@
   parent: MarkerBase
   abstract: true
   suffix: Job Spawn
-  description: A RMC14 job spawner. Used for roundstart and late joins.
+  description: "Породжувач завдань RMC14. Використовується для раундстарту та пізніх приєднань."
   components:
   - type: SpawnPoint
     spawn_type: Job

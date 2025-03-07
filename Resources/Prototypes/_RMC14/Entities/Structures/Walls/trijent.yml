@@ -1,7 +1,7 @@
 - type: entity
   parent: CMWallMetal
   id: RMCWallHangar
-  name: hangar wall
+  name: "стіна ангару"
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/hangar.rsi
@@ -16,7 +16,7 @@
 - type: entity
   parent: CMWallReinforced
   id: RMCWallBunker
-  name: bunker wall
+  name: "стіна бункера"
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/bunker.rsi
@@ -31,7 +31,7 @@
 - type: entity
   parent: CMWallReinforced
   id: RMCWallChigusa
-  name: facility wall
+  name: "стіна об'єкту"
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/chigusa.rsi

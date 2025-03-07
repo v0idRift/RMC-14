@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCBaseTree
   id: RMCTreeJoshua
-  name: joshua tree
-  description: A tall tree covered in spiky-like needles, covering its trunk.
+  name: "дерево Ісуса Навина"
+  description: "Високе дерево, вкрите голками, схожими на шипи, що вкривають його стовбур."
   placement:
     mode: SnapgridBorder
   components:

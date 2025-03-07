@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: CMIDCardSilver
   id: CMIDCardSeniorEnlistedAdvisor
-  name: senior enlisted advisor ID card
+  name: "посвідчення старшого позаштатного радника"
   components:
   - type: PresetIdCard
     job: CMSeniorEnlistedAdvisor
@@ -9,7 +9,7 @@
 - type: entity
   parent: CMIDCardBase
   id: CMIDCardCorrespondent
-  name: correspondent ID card
+  name: "посвідчення кореспондента"
   components:
   - type: PresetIdCard
     job: CMCorrespondent
@@ -17,7 +17,7 @@
 - type: entity
   parent: CMIDCardLanyard
   id: CMIDCardColonist
-  name: colonist ID card
+  name: "посвідчення особи колоніста"
   components:
   - type: PresetIdCard
     job: CMSurvivor
@@ -25,7 +25,7 @@
 - type: entity
   parent: CMIDCardSilver
   id: CMIDCardLiaison
-  name: liaison ID card
+  name: "ідентифікаційна картка зв'язкового"
   components:
   - type: PresetIdCard
     job: CMLiaison
@@ -33,7 +33,7 @@
 - type: entity
   parent: CMIDCardLiaison
   id: RMCIDCardExecutiveCorporateSpecialist
-  name: executive corporate specialist ID card
+  name: "посвідчення керівного корпоративного спеціаліста"
   components:
   - type: PresetIdCard
     job: null
@@ -43,7 +43,7 @@
 - type: entity
   parent: CMIDCardLiaison
   id: RMCIDCardExecutiveCorporateSupervisor
-  name: executive corporate supervisor ID card
+  name: "посвідчення виконавчого корпоративного куратора"
   components:
   - type: PresetIdCard
     job: null
@@ -53,7 +53,7 @@
 - type: entity
   parent: CMIDCardLiaison
   id: RMCIDCardICBLiaison
-  name: interstellar commerce bureau liaison ID card
+  name: "посвідчення зв'язкового бюро міжзоряної торгівлі"
   components:
   - type: PresetIdCard
     job: null
@@ -63,7 +63,7 @@
 - type: entity
   parent: CMIDCardBase
   id: CMIDCardMessTech
-  name: mess tech's ID card
+  name: "посвідчення кухаря"
   components:
   - type: PresetIdCard
     job: CMMessTech
@@ -71,8 +71,8 @@
 - type: entity
   parent: CMIDCardGold
   id: RMCIDCardPizza
-  name: pizza guy badge
-  description: It reads 'Pizza-guy local union No. 217', 'We always deliver!'
+  name: "значок рознощика піци"
+  description: "На ній написано: \"Профспілка піцайоло № 217\", \"Ми завжди доставляємо!\""
   components:
   - type: PresetIdCard
     job: CMPizzaDeliverer
@@ -80,20 +80,20 @@
 - type: entity
   parent: CMIDCardGold
   id: RMCIDCardMarshal
-  name: bureau marshal gold badge
-  description: A coveted gold badge signifying that the wearer is one of the few CMB Marshals patroling the outer rim. It is a sign of justice, authority, and protection. Protecting those who can't. This badge represents a commitment to a sworn oath always kept.
+  name: "золотий значок бюро маршала"
+  description: "Бажаний золотий значок, який означає, що його власник є одним з небагатьох маршалів КМБ, які патрулюють зовнішній периметр. Це знак справедливості, влади та захисту. Захисту тих, хто не може. Цей значок уособлює відданість присязі, якої завжди дотримуються."
 
 - type: entity
   parent: CMIDCardSilver
   id: RMCIDCardDeputy
-  name: bureau deputy silver badge
-  description: The silver badge which represents that the wearer is a Bureau Deputy. It is a sign of justice, authority, and protection. Protecting those who can't. This badge represents a commitment to a sworn oath always kept.
+  name: "срібний значок заступника бюро"
+  description: "Срібний значок, який означає, що його власник є заступником Бюро. Це знак справедливості, влади та захисту. Захисту тих, хто не може цього зробити. Цей значок символізує відданість присязі, якої завжди дотримуються."
 
 - type: entity
   parent: CMIDCardSilver
   id: RMCIDCardPMC
-  name: PMC holo-badge
-  description: A corporate holo-badge. It has a unique uncapped bottom.
+  name: "Голо-бейдж ПВК"
+  description: "Корпоративний голо-бейдж. Має унікальне незакрите дно."
 
 - type: entity
   parent: RMCIDCardPMC
@@ -106,7 +106,7 @@
 - type: entity
   parent: CMIDCardLanyard
   id: RMCIDCardBureauObserver
-  name: ID card
+  name: "Посвідчення особи"
   components:
   - type: IdCard
     jobTitle: rmc-job-title-bureau-observer
@@ -114,7 +114,7 @@
 - type: entity
   parent: CMIDCardBase
   id: RMCIDCardFreelancer
-  name: ID card
+  name: "Посвідчення особи"
   components:
   - type: IdCard
     jobTitle: rmc-job-title-freelancer

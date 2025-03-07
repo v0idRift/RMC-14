@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: CMXenoHive
-  name: Default
+  name: "За замовчуванням"
   categories:
   - HideSpawnMenu
   components:

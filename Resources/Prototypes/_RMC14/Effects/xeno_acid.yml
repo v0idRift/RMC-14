@@ -1,7 +1,7 @@
 - type: entity
   id: XenoAcidNormal
-  name: corrosive acid
-  description: Burbling corrosive stuff. I wouldn't want to touch it.
+  name: "корозійна кислота"
+  description: "Булькотіння їдкої речовини. Я б не хотів до неї торкатися."
   components:
   - type: Transform
   - type: Sprite
@@ -13,7 +13,7 @@
 - type: entity
   parent: XenoAcidNormal
   id: XenoAcidWeak
-  name: weak corrosive acid
+  name: "слабка корозійна кислота"
   components:
   - type: Sprite
     layers:
@@ -22,7 +22,7 @@
 - type: entity
   parent: XenoAcidNormal
   id: XenoAcidStrong
-  name: strong corrosive acid
+  name: "сильна корозійна кислота"
   components:
   - type: Sprite
     layers:
@@ -30,8 +30,8 @@
 
 - type: entity
   id: XenoAcidSprayWeak
-  name: weak splatter
-  description: It burns! It burns, but not as much!
+  name: "слабке розбризкування"
+  description: "Пече! Пече, але не так сильно!"
   components:
   - type: Transform
   - type: Physics
@@ -76,8 +76,8 @@
 - type: entity
   parent: XenoAcidSprayWeak
   id: XenoAcidSprayStrong
-  name: splatter
-  description: It burns! It burns like hygiene!
+  name: "бризки"
+  description: "Пече! Пече, як гігієна!"
   components:
   - type: Sprite
     layers:
@@ -93,8 +93,8 @@
 - type: entity
   parent: XenoAcidSprayWeak
   id: XenoAcidSprayAcidStacks
-  name: splatter
-  description: It burns! It burns like hygiene!
+  name: "бризки"
+  description: "Пече! Пече, як гігієна!"
   components:
   - type: Sprite
     layers:
@@ -111,8 +111,8 @@
 - type: entity
   parent: XenoAcidSprayWeak
   id: XenoAcidSprayTrap
-  name: splatter
-  description: It burns! It burns like hygiene!
+  name: "бризки"
+  description: "Пече! Пече, як гігієна!"
   components:
   - type: Sprite
     layers:
@@ -131,8 +131,8 @@
 - type: entity
   parent: XenoAcidSprayTrap
   id: XenoAcidSprayTrapWeak
-  name: weak splatter
-  description: It burns! It burns, but not as much!
+  name: "слабке розбризкування"
+  description: "Пече! Пече, але не так сильно!"
   components:
   - type: Sprite
     layers:
@@ -151,8 +151,8 @@
 - type: entity
   parent: XenoAcidSprayTrap
   id: XenoAcidSprayTrapStrong
-  name: strong splatter
-  description: It burns a lot!
+  name: "сильне розбризкування"
+  description: "Дуже пече!"
   components:
   - type: Sprite
     layers:
@@ -170,7 +170,7 @@
 
 - type: entity
   id: XenoAcidExtinguishEffect
-  description: It's cold...
+  description: "Холодно..."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

@@ -3,8 +3,8 @@
 - type: entity
   parent: RMCGunCaseBase
   id: RMCGunCasePistolSmart
-  name: SU-6 smart pistol case
-  description: A gun case containing the SU-6 smart pistol. Comes with a full belt holster.
+  name: "Розумний чохол для пістолета SU-6"
+  description: "Футляр для пістолета SU-6 Smart. Поставляється з повноцінною поясною кобурою."
   components:
   - type: Storage
     maxItemSize: Huge
@@ -23,8 +23,8 @@
 - type: entity
   parent: RMCGunCaseBase
   id: RMCGunCasePistolMK80
-  name: MK80 pistol case
-  description: A gun case containing the MK80. Comes with two magazines.
+  name: "Футляр для пістолета MK80"
+  description: "Футляр для пістолета MK80. Поставляється з двома магазинами."
   components:
   - type: Storage
     maxItemSize: Huge
@@ -43,8 +43,8 @@
 - type: entity
   parent: BaseStorageItem
   id: RMCD18Case
-  name: D18 pistol case
-  description: A fairly decorated and ceremonial box containing a CLF D18 and a single additional magazine for it. I guess those CLF folk really care about their craftsmanship and prose rather than practicality, eh?
+  name: "Футляр для пістолета D18"
+  description: "Досить прикрашена і урочиста коробка, що містить CLF D18 і один додатковий магазин до неї. Гадаю, ці люди з CLF дійсно дбають про свою майстерність і прозу, а не про практичність, чи не так?"
   components:
   - type: Item
     size: Small
@@ -74,8 +74,8 @@
 - type: entity
   parent: RMCGunCaseBase
   id: RMCGunCasePistolM77
-  name: M77 Combat Pistol case
-  description: A gun case containing a M77 Combat Pistol. Comes with a rail flashlight and 6 magazines.
+  name: "Футляр для бойового пістолета M77"
+  description: "Кейс для зброї з бойовим пістолетом M77. У комплекті з рейковим ліхтариком та 6 магазинами."
   components:
   - type: Storage
     maxItemSize: Huge
@@ -97,7 +97,7 @@
 - type: entity
   parent: RMCGunCaseBase
   id: RMCGunCasePistolM44
-  name: M44 combat revolver case
+  name: "Футляр для бойового револьвера M44"
   description:
   components:
   - type: Storage
@@ -120,7 +120,7 @@
 - type: entity
   parent: RMCGunCaseBase
   id: RMCGunCasePistolM1984
-  name: M1984 service pistol case
+  name: "Футляр для службового пістолета M1984"
   description:
   components:
   - type: Storage
@@ -143,7 +143,7 @@
 - type: entity
   parent: RMCGunCaseBase
   id: RMCGunCaseRevolverRSh9
-  name: RSh9 Assault Revolver case
+  name: "Футляр для штурмового револьвера РШ9"
   description:
   components:
   - type: Storage
@@ -167,8 +167,8 @@
 - type: entity
   parent: RMCGunCaseBase
   id: RMCGunCaseRifleM54CE2
-  name: M54CE2 heavy assault rifle case
-  description: A gun case containing the M54CE2 heavy assault rifle. You can get additional ammunition at requisitions.
+  name: "Чохол для важкої штурмової гвинтівки M54CE2"
+  description: "Футляр для важкої штурмової гвинтівки M54CE2. Додаткові боєприпаси можна отримати за реквізиціями."
   components:
   - type: Storage
     maxItemSize: Ginormous
@@ -190,8 +190,8 @@
 - type: entity
   parent: RMCGunCaseBase
   id: RMCCaseXM88
-  name: XM88 heavy rifle case
-  description: A gun case containing the XM88 Heavy Rifle, a prototype weapon designed for use against heavily armored infantry targets and light vehicles. Contains an ammunition belt, two boxes of ammunition, the XS-9 Targeting Relay attachment, and the stock for the rifle.
+  name: "Чохол для важкої гвинтівки XM88"
+  description: "Кейс для зброї з важкою гвинтівкою XM88 Heavy Rifle, прототипом зброї, призначеної для використання проти важкоброньованої піхоти та легких транспортних засобів. Містить ремінь для набоїв, дві коробки з набоями, кріплення XS-9 Targeting Relay та ложу для гвинтівки."
   components:
   - type: Storage
     maxItemSize: Huge
@@ -220,8 +220,8 @@
 - type: entity
   parent: RMCGunCaseBase
   id: RMCXM51Case
-  name: XM51 breaching scattergun case
-  description: A gun case containing the XM51 Breaching Scattergun. Comes with two spare magazines, two spare shell boxes, an optional stock and a belt to holster the weapon.
+  name: "Корпус розсіювача XM51"
+  description: "Кейс для зброї, що містить проникаючу розсіювальну рушницю XM51. Поставляється з двома запасними магазинами, двома запасними коробками для набоїв, додатковим прикладом та ременем для кобури."
   components:
   - type: Storage
     maxItemSize: Huge
@@ -253,8 +253,8 @@
 - type: entity
   parent: RMCGunCaseBase
   id: RMCMOU53Case
-  name: MOU53 shotgun case
-  description: A gun case containing the MOU53 shotgun. It does come loaded, but you'll still have to find ammunition as you go.
+  name: "Футляр для рушниці MOU53"
+  description: "Кейс з рушницею, що містить дробовик MOU53. Він поставляється зарядженим, але вам все одно доведеться шукати набої по ходу гри."
   components:
   - type: Storage
     maxItemSize: Huge
@@ -272,8 +272,8 @@
 - type: entity
   parent: RMCGunCaseBase
   id: RMCM54CMK1Case
-  name: M54C assault rifle MK1 case
-  description: A gun case containing the M54C assault rifle MK1. It can only use proprietary MK1 magazines.
+  name: "Футляр для штурмової гвинтівки M54C MK1"
+  description: "Футляр для штурмової гвинтівки M54C MK1. До неї можна використовувати лише фірмові магазини MK1."
   components:
   - type: Storage
     maxItemSize: Huge
@@ -292,8 +292,8 @@
 - type: entity
   parent: RMCGunCaseBase
   id: RMCM54CMK1CaseAP
-  name: M54C assault rifle MK1 AP case
-  description: A gun case containing the M54C assault rifle MK1 loaded with AP rounds. It can only use proprietary MK1 magazines.
+  name: "Футляр для штурмової гвинтівки M54C MK1 AP"
+  description: "Футляр для зброї, що містить штурмову гвинтівку M54C MK1, заряджену патронами AP. До неї можна використовувати лише фірмові магазини MK1."
   components:
   - type: Storage
     maxItemSize: Huge
@@ -312,8 +312,8 @@
 - type: entity
   parent: RMCGunCaseBase
   id: RMCM54CMK2Case
-  name: M54C assault rifle MK2 case
-  description: A gun case containing the M54C assault rifle MK2.
+  name: "Футляр для штурмової гвинтівки M54C MK2"
+  description: "Футляр для зброї, що містить штурмову гвинтівку M54C MK2."
   components:
   - type: Storage
     maxItemSize: Huge
@@ -334,8 +334,8 @@
 - type: entity
   parent: RMCGunCaseBase
   id: RMCM42A2ShotgunCase
-  name: M42A2 pump shotgun case
-  description: A gun case containing the M42A2 pump shotgun.
+  name: "Футляр для помпової рушниці M42A2"
+  description: "Футляр для зброї з помповою рушницею M42A2."
   components:
   - type: Storage
     maxItemSize: Huge
@@ -384,8 +384,8 @@
 - type: entity
   parent: RMCGunCaseBase
   id: RMCM79Case
-  name: M79 grenade launcher case
-  description: A gun case containing the M79 grenade launcher. Comes with three different grenade packets
+  name: "кейс для гранатомета M79"
+  description: "Кейс для зброї, що містить гранатомет M79. Поставляється з трьома різними пакетами гранат"
   components:
   - type: Storage
     maxItemSize: Ginormous

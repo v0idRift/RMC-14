@@ -2,7 +2,7 @@
 - type: entity
   parent: CMAirlockPrep
   id: CMAirlockRequisitionsLocked
-  name: requisitions bay
+  name: "відсік постачання"
   suffix: Requisitions, Locked
   components:
   - type: AccessReader

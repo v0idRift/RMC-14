@@ -19,8 +19,8 @@
 - type: entity
   parent: CMBaseWindow
   id: RMCWindowCorsatReinforced
-  name: reinforced window
-  description: A glass window with a special rod matrix inside a wall frame. It looks rather strong. Might take a few good hits to shatter it.
+  name: "посилене вікно"
+  description: "Скляне вікно зі спеціальною стрижневою матрицею всередині стінної рами. Виглядає досить міцним. Щоб розбити його, знадобиться кілька хороших ударів."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/corsat_rwindow.rsi

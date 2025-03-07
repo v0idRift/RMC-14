@@ -38,7 +38,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerProvostTeamLeader
-  name: provost spawner team leader
+  name: "проректор, керівник команди спавнерів"
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -50,7 +50,7 @@
 
 - type: entity
   id: RMCRandomHumanoidProvostTeamLeader
-  name: provost ghost role team leader
+  name: "проректор, керівник команди примарних ролей"
   suffix: Role, Player
   components:
   - type: Sprite
@@ -128,7 +128,7 @@
 - type: entity
   parent: CMIDCardGold # TODO RMC14 provost id
   id: RMCIDCardProvostTeamLeader
-  name: provost team leader ID card
+  name: "посвідчення керівника команди проректора"
   components:
   - type: PresetIdCard
     job: CMProvostTeamLeader

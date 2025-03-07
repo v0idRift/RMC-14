@@ -1,8 +1,8 @@
 - type: entity
   parent: BasePlushie
   id: CMPlushieBase
-  name: generic plushie
-  description: perfectly generic
+  name: "загальний плюшевий"
+  description: "ідеально загальний"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Fun/plushies.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: CMPlushieBase
   id: CMPlushieFarwa
-  name: Farwa plush
-  description: A Farwa plush doll. It's soft and comforting!
+  name: "Плюш Farwa"
+  description: "Плюшева лялька Фарва. Вона м'яка і затишна!"
   components:
   - type: Sprite
     state: farwa
@@ -54,8 +54,8 @@
 - type: entity
   parent: CMPlushieBase
   id: CMPlushieBarricade
-  name: plushie barricade
-  description: Great for squeezing whenever you're scared. Or lightly hurt. Or in any other situation.
+  name: "плюшева барикада"
+  description: "Чудово підходить для стискання, коли тобі страшно. Або легко поранений. Або в будь-якій іншій ситуації."
   components:
   - type: Sprite
     state: barricade
@@ -63,8 +63,8 @@
 - type: entity
   parent: CMPlushieBase
   id: CMPlushieBee
-  name: bee plush
-  description: A cute toy that awakens the warrior spirit in the most reserved marine.
+  name: "бджолиний плюш"
+  description: "Мила іграшка, яка пробуджує воїнський дух у найбільш стриманих морпіхів."
   components:
   - type: Sprite
     state: bee
@@ -72,8 +72,8 @@
 - type: entity
   parent: CMPlushieBase
   id: CMPlushieRock
-  name: rock plush
-  description: It says it is a plush on the tag, at least.
+  name: "рок-плюш"
+  description: "Принаймні, на етикетці написано, що це плюш."
   components:
   - type: Sprite
     state: rock
@@ -81,8 +81,8 @@
 - type: entity
   parent: CMPlushieBase
   id: CMPlushieTherapy
-  name: therapy plush
-  description: A therapeutic toy to assist marines in recovering from mental and behavioral disorders after experiencing the trauma of battles.
+  name: "терапевтичний плюш"
+  description: "Терапевтична іграшка для допомоги морським піхотинцям у відновленні психічних та поведінкових розладів після пережитих бойових травм."
   components:
   - type: Sprite
     layers:
@@ -96,8 +96,8 @@
 - type: entity
   parent: CMPlushieBase
   id: CMPlushieRunnerBeret
-  name: XX therapy plush
-  description: Don't be sad! Be glad (that you're alive)!
+  name: "терапевтична плюшева іграшка XX"
+  description: "Не сумуй! Радій (що ти живий)!"
   components:
   - type: Sprite
     state: runner_beret
@@ -106,8 +106,8 @@
 - type: entity
   parent: CMPlushieBase
   id: RCMPlushieRounyLizard
-  name: silly rouny plushie
-  description: A silly rouny plushie produced by the UNMC to reduce stress in marines, shown to be highly effective when thrown into walls.
+  name: "дурний рум'яний плюшевий ведмедик"
+  description: "Дурнуватий рум'яний плюшевий ведмедик, вироблений UNMC для зменшення стресу у морських піхотинців, виявився дуже ефективним, коли його кидали в стіну."
   components:
   - type: Sprite
     state: rouny_plushie
@@ -115,8 +115,8 @@
 - type: entity
   parent: CMPlushieBase
   id: RMCPlushieAlec
-  name: conspicuous plush
-  description: You can almost feel spite emanating from it. On it's back is a small tag listing the several cheap and hyper allergenic textiles it's made of. At the very bottom is the name of the maker, Drake Industries.
+  name: "помітний плюш"
+  description: "Від нього майже відчувається злість. На спині - невеличка етикетка з переліком кількох дешевих та гіпералергенних тканин, з яких вона виготовлена. У самому низу - назва виробника, Drake Industries."
   components:
   - type: Sprite
     state: alec_plushie

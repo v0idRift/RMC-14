@@ -47,7 +47,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerProvostDeputyMarshal
-  name: provost spawner deputy marshal
+  name: "проректор спайдер заступник маршала"
   suffix: Spawner, Whitelisted COs
   components:
   - type: Sprite
@@ -59,7 +59,7 @@
 
 - type: entity
   id: RMCRandomHumanoidProvostDeputyMarshal
-  name: provost ghost role deputy marshal
+  name: "роль примари проректора заступник маршала"
   suffix: Role, Whitelisted COs
   components:
   - type: Sprite
@@ -129,7 +129,7 @@
 - type: entity
   parent: CMIDCardGold # TODO RMC14 provost id
   id: RMCIDCardProvostDeputyMarshal
-  name: provost deputy marshal ID card
+  name: "посвідчення проректора, заступника маршала"
   components:
   - type: PresetIdCard
     job: CMProvostDeputyMarshal

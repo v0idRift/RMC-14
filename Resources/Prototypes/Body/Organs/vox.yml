@@ -1,7 +1,7 @@
 - type: entity
   id: OrganVoxLungs
   parent: OrganHumanLungs
-  description: "The blue, anaerobic lungs of a vox, they intake nitrogen to breathe. Any form of gaseous oxygen is lethally toxic if breathed in."
+  description: "Блакитні анаеробні легені вокса споживають азот для дихання. Будь-яка форма газоподібного кисню є смертельно токсичною при вдиханні."
   suffix: "vox"
   components:
   - type: Sprite

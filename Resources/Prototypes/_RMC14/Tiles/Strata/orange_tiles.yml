@@ -7,7 +7,7 @@
 - type: tile
   parent: CMFloorStrataWhiteBase
   id: CMFloorStrataOrangeCover
-  name: orange metal tile
+  name: "помаранчева металочерепиця"
   sprite: /Textures/_RMC14/Tiles/strata/orange_cover.png
 
 - type: tile

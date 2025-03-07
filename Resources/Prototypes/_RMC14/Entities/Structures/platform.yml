@@ -1,8 +1,8 @@
 ﻿- type: entity
   abstract: true
   id: CMPlatformBase
-  name: platform
-  description: A square metal surface resting on four legs.
+  name: "платформа"
+  description: "Квадратна металева поверхня, що спирається на чотири ніжки."
   components:
   - type: Transform
     anchored: true
@@ -16,8 +16,8 @@
 - type: entity
   parent: CMPlatformBase
   id: CMPlatform
-  name: platform
-  description: A square metal surface resting on four legs.
+  name: "платформа"
+  description: "Квадратна металева поверхня, що спирається на чотири ніжки."
   placement:
     mode: SnapgridCenter
     snap:
@@ -41,8 +41,8 @@
 - type: entity
   parent: CMPlatformBase
   id: CMPlatformCorner
-  name: platform
-  description: A square metal surface resting on four legs.
+  name: "платформа"
+  description: "Квадратна металева поверхня, що спирається на чотири ніжки."
   placement:
     mode: SnapgridCenter
     snap:
@@ -76,8 +76,8 @@
 - type: entity
   parent: CMPlatformBase
   id: RMCPlatformCornerSmall
-  name: platform
-  description: A square metal surface resting on four legs.
+  name: "платформа"
+  description: "Квадратна металева поверхня, що спирається на чотири ніжки."
   placement:
     mode: SnapgridCenter
     snap:
@@ -102,8 +102,8 @@
 - type: entity
   parent: CMPlatformBase
   id: RMCPlatformRound
-  name: platform
-  description: A square metal surface resting on four legs.
+  name: "платформа"
+  description: "Квадратна металева поверхня, що спирається на чотири ніжки."
   placement:
     mode: SnapgridCenter
     snap:
@@ -160,8 +160,8 @@
 - type: entity
   parent: CMPlatform
   id: RMCPlatformKutjevo
-  name: raised metal edge
-  description: A raised level of metal, often used to elevate areas above others, or construct bridges. You could probably climb it.
+  name: "рельєфний металевий край"
+  description: "Піднятий рівень металу, який часто використовується для підняття одних ділянок над іншими або для будівництва мостів. Ви, мабуть, могли б на нього піднятися."
   components:
   - type: Sprite
     state: kutjevo_platform
@@ -169,8 +169,8 @@
 - type: entity
   parent: RMCPlatformCornerSmall
   id: RMCPlatformKutjevoCornerSmall
-  name: raised metal corner
-  description: The corner of what appears to be raised piece of metal, often used to imply the illusion of elevation in non-Euclidean 2d spaces. But you don't know that, you're just a spaceman with a rifle.
+  name: "піднятий металевий куточок"
+  description: "Кут того, що здається піднятим шматком металу, часто використовується для створення ілюзії висоти в неевклідових двовимірних просторах. Але ви цього не знаєте, ви просто космонавт з гвинтівкою."
   components:
   - type: Sprite
     state: kutjevo_platform_deco
@@ -178,8 +178,8 @@
 - type: entity
   parent: CMPlatform
   id: RMCPlatformKutjevoSM
-  name: raised metal edge
-  description: A raised level of metal, often used to elevate areas above others, or construct bridges. You could probably climb it.
+  name: "рельєфний металевий край"
+  description: "Піднятий рівень металу, який часто використовується для підняття одних ділянок над іншими або для будівництва мостів. Ви, мабуть, могли б на нього піднятися."
   components:
   - type: Sprite
     state: kutjevo_platform_sm
@@ -187,8 +187,8 @@
 - type: entity
   parent: CMPlatformCorner
   id: RMCPlatformKutjevoSMCorner
-  name: raised metal edge
-  description: A raised level of metal, often used to elevate areas above others, or construct bridges. You could probably climb it.
+  name: "рельєфний металевий край"
+  description: "Піднятий рівень металу, який часто використовується для підняття одних ділянок над іншими або для будівництва мостів. Ви, мабуть, могли б на нього піднятися."
   components:
   - type: Sprite
     state: kutjevo_platform_sm_corner
@@ -196,8 +196,8 @@
 - type: entity
   parent: RMCPlatformRound
   id: RMCPlatformKutjevoSMRound
-  name: raised metal edge
-  description: A raised level of metal, often used to elevate areas above others, or construct bridges. You could probably climb it.
+  name: "рельєфний металевий край"
+  description: "Піднятий рівень металу, який часто використовується для підняття одних ділянок над іншими або для будівництва мостів. Ви, мабуть, могли б на нього піднятися."
   components:
   - type: Sprite
     state: kutjevo_platform_sm_round
@@ -205,8 +205,8 @@
 - type: entity
   parent: CMPlatform
   id: RMCPlatformKutjevoStairRight
-  name: raised metal edge
-  description: A raised level of metal, often used to elevate areas above others, or construct bridges. You could probably climb it.
+  name: "рельєфний металевий край"
+  description: "Піднятий рівень металу, який часто використовується для підняття одних ділянок над іншими або для будівництва мостів. Ви, мабуть, могли б на нього піднятися."
   components:
   - type: Sprite
     state: kutjevo_platform_sm_stair
@@ -214,8 +214,8 @@
 - type: entity
   parent: CMPlatform
   id: RMCPlatformKutjevoStairLeft
-  name: raised metal edge
-  description: A raised level of metal, often used to elevate areas above others, or construct bridges. You could probably climb it.
+  name: "рельєфний металевий край"
+  description: "Піднятий рівень металу, який часто використовується для підняття одних ділянок над іншими або для будівництва мостів. Ви, мабуть, могли б на нього піднятися."
   components:
   - type: Sprite
     state: kutjevo_platform_sm_stair_alt
@@ -223,8 +223,8 @@
 - type: entity
   parent: CMPlatform
   id: RMCPlatformShiva
-  name: raised rubber cord platform
-  description: Reliable steel and a polymer rubber substitute. Doesn't crack under cold weather.
+  name: "піднята гумовотканинна платформа"
+  description: "Надійна сталь і замінник полімерної гуми. Не тріскається на морозі."
   components:
   - type: Sprite
     state: shiva
@@ -232,8 +232,8 @@
 - type: entity
   parent: RMCPlatformCornerSmall
   id: RMCPlatformShivaCornerSmall
-  name: raised rubber cord platform
-  description: Reliable steel and a polymer rubber substitute. Doesn't crack under cold weather.
+  name: "піднята гумовотканинна платформа"
+  description: "Надійна сталь і замінник полімерної гуми. Не тріскається на морозі."
   components:
   - type: Sprite
     state: shiva_deco
@@ -241,8 +241,8 @@
 - type: entity
   parent: CMPlatform
   id: RMCPlatformStrata
-  name: raised metal edge
-  description: A raised level of metal, often used to elevate areas above others. You could probably climb it.
+  name: "рельєфний металевий край"
+  description: "Піднятий рівень металу, який часто використовується для підняття ділянок над іншими. Ви, ймовірно, могли б на нього піднятися."
   components:
   - type: Sprite
     state: strata_metalplatform
@@ -264,8 +264,8 @@
 - type: entity
   parent: RMCPlatformCornerSmall
   id: RMCPlatformStrataCornerSmall
-  name: raised metal corner
-  description: A raised level of metal, often used to elevate areas above others. This is the corner.
+  name: "піднятий металевий куточок"
+  description: "Піднятий рівень металу, який часто використовується для підняття ділянок над іншими. Це кут."
   components:
   - type: Sprite
     state: strata_metalplatform_deco
@@ -273,8 +273,8 @@
 - type: entity
   parent: CMPlatform
   id: RMCPlatformStrataTwo
-  name: raised metal edge
-  description: A raised level of metal, often used to elevate areas above others. You could probably climb it.
+  name: "рельєфний металевий край"
+  description: "Піднятий рівень металу, який часто використовується для підняття ділянок над іншими. Ви, ймовірно, могли б на нього піднятися."
   components:
   - type: Sprite
     state: strata_metalplatform2
@@ -282,8 +282,8 @@
 - type: entity
   parent: RMCPlatformCornerSmall
   id: RMCPlatformStrataTwoCornerSmall
-  name: raised metal corner
-  description: A raised level of metal, often used to elevate areas above others. This is the corner.
+  name: "піднятий металевий куточок"
+  description: "Піднятий рівень металу, який часто використовується для підняття ділянок над іншими. Це кут."
   components:
   - type: Sprite
     state: strata_metalplatform_deco2
@@ -291,8 +291,8 @@
 - type: entity
   parent: CMPlatform
   id: RMCPlatformStrataThree
-  name: raised metal edge
-  description: A raised level of metal, often used to elevate areas above others. You could probably climb it.
+  name: "рельєфний металевий край"
+  description: "Піднятий рівень металу, який часто використовується для підняття ділянок над іншими. Ви, ймовірно, могли б на нього піднятися."
   components:
   - type: Sprite
     state: strata_metalplatform3
@@ -300,8 +300,8 @@
 - type: entity
   parent: RMCPlatformCornerSmall
   id: RMCPlatformStrataThreeCornerSmall
-  name: raised metal corner
-  description: A raised level of metal, often used to elevate areas above others. This is the corner.
+  name: "піднятий металевий куточок"
+  description: "Піднятий рівень металу, який часто використовується для підняття ділянок над іншими. Це кут."
   components:
   - type: Sprite
     state: strata_metalplatform_deco3
@@ -309,8 +309,8 @@
 - type: entity
   parent: CMPlatform
   id: RMCPlatformKutjevoRock
-  name: raised rock edge
-  description: A collection of stones and rocks that provide ample grappling and vaulting opportunity. Indicates a change in elevation. You could probably climb it.
+  name: "піднятий край скелі"
+  description: "Колекція каменів і скель, які надають широкі можливості для хапання і стрибків. Вказує на зміну висоти. Ви, ймовірно, могли б піднятися на неї."
   components:
   - type: Sprite
     state: kutjevo_rock
@@ -320,8 +320,8 @@
 - type: entity
   parent: RMCPlatformCornerSmall
   id: RMCPlatformKutjevoRockCornerSmall
-  name: raised rock corner
-  description: A collection of stones and rocks that cap the edge of some conveniently 1-meter-long lengths of perfectly climbable chest high walls.
+  name: "піднятий кам'яний кут"
+  description: "Колекція каменів і скель, які облямовують край деяких зручних 1-метрових відрізків стін висотою по груди, на які можна піднятися."
   components:
   - type: Sprite
     state: kutjevo_rock_deco
@@ -331,8 +331,8 @@
 - type: entity
   parent: CMPlatform
   id: RMCPlatformStrataRock
-  name: ice rock edge
-  description: A solid chunk of desolate rocks and ice. Looks like you could climb it with some difficulty.
+  name: "край крижаної скелі"
+  description: "Суцільний шматок безлюдних скель і льоду. Виглядає так, що на неї можна було б піднятися з певними труднощами."
   components:
   - type: Sprite
     state: strata_platform
@@ -340,8 +340,8 @@
 - type: entity
   parent: RMCPlatformCornerSmall
   id: RMCPlatformStrataRockCornerSmall
-  name: ice rock corner
-  description: A solid chunk of desolate rocks and ice.
+  name: "куточок крижаної скелі"
+  description: "Суцільний шматок безлюдних скель і льоду."
   components:
   - type: Sprite
     state: strata_platform_deco
@@ -349,8 +349,8 @@
 - type: entity
   parent: CMPlatform
   id: RMCPlatformHybrisaEdge
-  name: raised metal edge
-  description: A raised level of metal, often used to elevate areas above others. You could probably climb it.
+  name: "рельєфний металевий край"
+  description: "Піднятий рівень металу, який часто використовується для підняття ділянок над іншими. Ви, ймовірно, могли б на нього піднятися."
   components:
   - type: Sprite
     state: hybrisametal
@@ -358,8 +358,8 @@
 - type: entity
   parent: RMCPlatformCornerSmall
   id: RMCPlatformHybrisaEdgeCornerSmall
-  name: raised metal corner
-  description: A raised level of metal, often used to elevate areas above others. This is the corner.
+  name: "піднятий металевий куточок"
+  description: "Піднятий рівень металу, який часто використовується для підняття ділянок над іншими. Це кут."
   components:
   - type: Sprite
     state: hybrisametal_deco
@@ -367,8 +367,8 @@
 - type: entity
   parent: CMPlatform
   id: RMCPlatformHybrisa
-  name: raised metal platform
-  description: A raised level of metal, often used to elevate areas above others. You could probably climb it.
+  name: "піднята металева платформа"
+  description: "Піднятий рівень металу, який часто використовується для підняття ділянок над іншими. Ви, ймовірно, могли б на нього піднятися."
   components:
   - type: Sprite
     state: hybrisaplatform
@@ -376,8 +376,8 @@
 - type: entity
   parent: RMCPlatformCornerSmall
   id: RMCPlatformHybrisaCornerSmall
-  name: raised metal corner
-  description: A raised level of metal, often used to elevate areas above others. This is the corner.
+  name: "піднятий металевий куточок"
+  description: "Піднятий рівень металу, який часто використовується для підняття ділянок над іншими. Це кут."
   components:
   - type: Sprite
     state: hybrisaplatform_deco
@@ -385,8 +385,8 @@
 - type: entity
   parent: CMPlatform
   id: RMCPlatformHybrisaTwo
-  name: raised metal platform
-  description: A raised level of metal, often used to elevate areas above others. You could probably climb it.
+  name: "піднята металева платформа"
+  description: "Піднятий рівень металу, який часто використовується для підняття ділянок над іншими. Ви, ймовірно, могли б на нього піднятися."
   components:
   - type: Sprite
     state: hybrisaplatform2
@@ -394,8 +394,8 @@
 - type: entity
   parent: RMCPlatformCornerSmall
   id: RMCPlatformHybrisaTwoCornerSmall
-  name: raised metal corner
-  description: A raised level of metal, often used to elevate areas above others. This is the corner.
+  name: "піднятий металевий куточок"
+  description: "Піднятий рівень металу, який часто використовується для підняття ділянок над іншими. Це кут."
   components:
   - type: Sprite
     state: hybrisaplatform_deco2
@@ -403,8 +403,8 @@
 - type: entity
   parent: CMPlatform
   id: RMCPlatformHybrisaThree
-  name: raised metal platform
-  description: A raised level of metal, often used to elevate areas above others. You could probably climb it.
+  name: "піднята металева платформа"
+  description: "Піднятий рівень металу, який часто використовується для підняття ділянок над іншими. Ви, ймовірно, могли б на нього піднятися."
   components:
   - type: Sprite
     state: hybrisaplatform3
@@ -412,8 +412,8 @@
 - type: entity
   parent: CMPlatformCorner
   id: RMCPlatformHybrisaThreeCorner
-  name: raised metal platform
-  description: A raised level of metal, often used to elevate areas above others. You could probably climb it.
+  name: "піднята металева платформа"
+  description: "Піднятий рівень металу, який часто використовується для підняття ділянок над іншими. Ви, ймовірно, могли б на нього піднятися."
   components:
   - type: Sprite
     state: hybrisaplatform3_corner
@@ -421,8 +421,8 @@
 - type: entity
   parent: CMPlatform
   id: RMCPlatformHybrisaThreeStair
-  name: raised metal platform
-  description: A raised level of metal, often used to elevate areas above others. You could probably climb it.
+  name: "піднята металева платформа"
+  description: "Піднятий рівень металу, який часто використовується для підняття ділянок над іншими. Ви, ймовірно, могли б на нього піднятися."
   components:
   - type: Sprite
     state: hybrisaplatform3_stair
@@ -430,8 +430,8 @@
 - type: entity
   parent: CMPlatform
   id: RMCPlatformHybrisaThreeStairAlt
-  name: raised metal platform
-  description: A raised level of metal, often used to elevate areas above others. You could probably climb it.
+  name: "піднята металева платформа"
+  description: "Піднятий рівень металу, який часто використовується для підняття ділянок над іншими. Ви, ймовірно, могли б на нього піднятися."
   components:
   - type: Sprite
     state: hybrisaplatform3_stair_alt
@@ -439,8 +439,8 @@
 - type: entity
   parent: RMCPlatformCornerSmall
   id: RMCPlatformHybrisaThreeCornerSmall
-  name: raised metal corner
-  description: A raised level of metal, often used to elevate areas above others. This is the corner.
+  name: "піднятий металевий куточок"
+  description: "Піднятий рівень металу, який часто використовується для підняття ділянок над іншими. Це кут."
   components:
   - type: Sprite
     state: hybrisaplatform_deco3
@@ -448,8 +448,8 @@
 - type: entity
   parent: CMPlatform
   id: RMCPlatformHybrisaRock
-  name: raised rock edges
-  description: A collection of stones and rocks that provide ample grappling and vaulting opportunity. Indicates a change in elevation. You could probably climb it.
+  name: "підняті краї скель"
+  description: "Колекція каменів і скель, які надають широкі можливості для хапання і стрибків. Вказує на зміну висоти. Ви, ймовірно, могли б піднятися на неї."
   components:
   - type: Sprite
     state: kutjevo_rockdark
@@ -457,8 +457,8 @@
 - type: entity
   parent: RMCPlatformCornerSmall
   id: RMCPlatformHybrisaRockCornerSmall
-  name: raised rock corner
-  description: A collection of stones and rocks that cap the edge of some conveniently 1-meter-long lengths of perfectly climbable chest high walls.
+  name: "піднятий кам'яний кут"
+  description: "Колекція каменів і скель, які облямовують край деяких зручних 1-метрових відрізків стін висотою по груди, на які можна піднятися."
   components:
   - type: Sprite
     state: kutjevo_rock_decodark
@@ -466,8 +466,8 @@
 - type: entity
   parent: CMPlatform
   id: RMCPlatformHybrisaStone
-  name: raised metal platform
-  description: A raised level of metal, often used to elevate areas above others. You could probably climb it.
+  name: "піднята металева платформа"
+  description: "Піднятий рівень металу, який часто використовується для підняття ділянок над іншими. Ви, ймовірно, могли б на нього піднятися."
   components:
   - type: Sprite
     state: stone
@@ -475,8 +475,8 @@
 - type: entity
   parent: RMCPlatformCornerSmall
   id: RMCPlatformHybrisaStoneCornerSmall
-  name: raised metal   corner
-  description: A raised level of metal, often used to elevate areas above others. This is the corner.
+  name: "піднятий металевий куточок"
+  description: "Піднятий рівень металу, який часто використовується для підняття ділянок над іншими. Це кут."
   components:
   - type: Sprite
     state: stone_deco

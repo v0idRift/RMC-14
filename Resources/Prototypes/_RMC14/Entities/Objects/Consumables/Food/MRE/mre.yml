@@ -4,8 +4,8 @@
 - type: entity
   parent: BaseStorageItem
   id: CMMRE
-  name: UNMC MRE
-  description: A Meal, Ready-to-Eat. A single-meal combat ration designed to provide a soldier with enough nutrients for a day of strenuous work. Its expiration date is at least 20 years ahead of your combat life expectancy.
+  name: "MRE UNMC"
+  description: "Їжа, готова до вживання. Одномісний бойовий раціон, розроблений для забезпечення солдата достатньою кількістю поживних речовин для дня напруженої роботи. Термін його придатності щонайменше на 20 років перевищує очікувану тривалість вашого бойового життя."
   components:
   - type: Tag
     tags:
@@ -101,8 +101,8 @@
   abstract: true
   parent: BaseItem
   id: CMMREComponentBase
-  name: MRE component
-  description: A package from a Meal Ready-to-Eat, property of the Marines. Contains a part of a meal, prepared for field consumption.
+  name: "Компонент MRE"
+  description: "Пакет з готової до вживання їжі, що належить морським піхотинцям. Містить частину їжі, приготованої для споживання в польових умовах."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/mre_components.rsi
@@ -117,7 +117,7 @@
   abstract: true
   parent: CMFoodBase
   id: CMMREFoodBase
-  description: The contents of a Marine Standard issue MRE.
+  description: "Вміст морського стандартного випуску MRE."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/mre_contents.rsi
@@ -128,8 +128,8 @@
 - type: entity
   parent: RMCBoxMagazineBase
   id: RMCBoxMREEmpty
-  name: box of MREs
-  description: A box of MREs. Nutritious, but not delicious.
+  name: "ящик сухпайків"
+  description: "Коробка сухпайків. Поживна, але не смачна."
   components:
   - type: Construction
     graph: RMCBoxMagazine

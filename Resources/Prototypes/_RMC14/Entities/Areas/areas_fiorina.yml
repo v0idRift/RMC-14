@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: RMCAreaBase
   id: RMCAreaFiorina
-  name: Fiorina Orbital Penitentiary - Science Annex
+  name: "Орбітальна в'язниця Фіоріна - Науковий додаток"
   suffix: Fiorina Area
   components:
   - type: Sprite
@@ -22,7 +22,7 @@
 - type: entity
   parent: RMCAreaFiorina
   id: RMCAreaFiorinaOob
-  name: Fiorina - Out Of Bounds
+  name: "Fiorina - Out of Bounds"
   components:
   - type: Sprite
     state: oob
@@ -43,7 +43,7 @@
 - type: entity
   parent: RMCAreaFiorina
   id: RMCAreaFiorinaMaintenance
-  name: Fiorina - Maintenance
+  name: "Fiorina - Технічне обслуговування"
   components:
   - type: Sprite
     state: maints
@@ -60,7 +60,7 @@
 - type: entity
   parent: RMCAreaFiorina
   id: RMCAreaFiorinaTumor
-  name: Fiorina - Resin Tumor
+  name: "Fiorina - Смоляна пухлина"
   components:
   - type: Sprite
     state: tumor0
@@ -84,7 +84,7 @@
 - type: entity
   parent: RMCAreaFiorinaTumor
   id: RMCAreaFiorinaTumorFiberbush
-  name: Fiorina - Fiberbush Infestation
+  name: "Фіоріна - зараження волокнистими кущами"
   components:
   - type: Sprite
     state: tumor-fiberbush
@@ -92,7 +92,7 @@
 - type: entity
   parent: RMCAreaFiorinaTumor
   id: RMCAreaFiorinaTumorShip
-  name: Fiorina - Scavenger Ship 'NSV Renault'
+  name: "Fiorina - сміттєзбиральне судно \"NSV Renault"
   components:
   - type: Sprite
     state: tumor1
@@ -102,7 +102,7 @@
 - type: entity
   parent: RMCAreaFiorinaTumor
   id: RMCAreaFiorinaTumorCivres
-  name: Fiorina - Green Block Residences
+  name: "Fiorina - резиденції Green Block Residences"
   components:
   - type: Sprite
     state: tumor0
@@ -110,7 +110,7 @@
 - type: entity
   parent: RMCAreaFiorinaTumor
   id: RMCAreaFiorinaTumorAuxEngi
-  name: Fiorina - Engineering Sector
+  name: "Fiorina - інженерний сектор"
   components:
   - type: Sprite
     state: tumor2
@@ -120,7 +120,7 @@
 - type: entity
   parent: RMCAreaFiorinaTumor
   id: RMCAreaFiorinaTumorServers
-  name: Fiorina - Research Servers
+  name: "Fiorina - Дослідницькі сервери"
   components:
   - type: Sprite
     state: tumor2
@@ -130,7 +130,7 @@
 - type: entity
   parent: RMCAreaFiorinaTumor
   id: RMCAreaFiorinaTumorIceLab
-  name: Fiorina - Cryogenic Research Labs
+  name: "Fiorina - Кріогенні дослідницькі лабораторії"
   components:
   - type: Sprite
     state: tumor3
@@ -140,7 +140,7 @@
 - type: entity
   parent: RMCAreaFiorina
   id: RMCAreaFiorinaLz
-  name: Fiorina - LZ
+  name: "Фіоріна - LZ"
   components:
   - type: Sprite
     state: lz
@@ -159,7 +159,7 @@
 - type: entity
   parent: RMCAreaFiorinaLz
   id: RMCAreaFiorinaLzNearLzI
-  name: Fiorina - LZ1 Aux Port
+  name: "Fiorina - LZ1 Aux Port"
   components:
   - type: Area
     linkedLz: dropship_lz1
@@ -167,7 +167,7 @@
 - type: entity
   parent: RMCAreaFiorinaLz
   id: RMCAreaFiorinaLzNearLzII
-  name: Fiorina - LZ2 Prison Port
+  name: "Фьоріна - Тюремний порт LZ2"
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -175,7 +175,7 @@
 - type: entity
   parent: RMCAreaFiorinaLz
   id: RMCAreaFiorinaLzConsoleI
-  name: Fiorina - LZ1 Control Console
+  name: "Fiorina - Консоль управління LZ1"
   components:
   - type: Sprite
     state: lz1
@@ -183,7 +183,7 @@
 - type: entity
   parent: RMCAreaFiorinaLz
   id: RMCAreaFiorinaLzConsoleII
-  name: Fiorina - LZ2 Control Console
+  name: "Fiorina - Консоль управління LZ2"
   components:
   - type: Sprite
     state: lz2
@@ -191,7 +191,7 @@
 - type: entity
   parent: RMCAreaShuttleDrop1
   id: RMCAreaShuttleDrop1PrisonV3
-  name: Fiorina - Dropship Alamo Landing Zone
+  name: "Фіоріна - зона приземлення дропшипа Аламо"
   components:
   - type: Sprite
     state: shuttle
@@ -201,7 +201,7 @@
 - type: entity
   parent: RMCAreaShuttleDrop2
   id: RMCAreaShuttleDrop2PrisonV3
-  name: Fiorina - Normandy Landing Zone
+  name: "Фіоріна - зона висадки в Нормандії"
   components:
   - type: Sprite
     state: shuttle2
@@ -211,7 +211,7 @@
 - type: entity
   parent: RMCAreaFiorina
   id: RMCAreaFiorinaStation
-  name: Fiorina - Station Interior
+  name: "Фьоріна - Інтер'єр вокзалу"
   components:
   - type: Sprite
     state: station0
@@ -228,7 +228,7 @@
 - type: entity
   parent: RMCAreaFiorinaStation
   id: RMCAreaFiorinaStationLowsec
-  name: Fiorina - Low Security Cells
+  name: "Fiorina - камери низького рівня безпеки"
   components:
   - type: Sprite
     state: station1
@@ -236,7 +236,7 @@
 - type: entity
   parent: RMCAreaFiorinaStationLowsec
   id: RMCAreaFiorinaStationLowsecShowersLaundry
-  name: Fiorina - Low Security Showers & Laundry
+  name: "Fiorina - душові та пральня з низьким рівнем безпеки"
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -244,12 +244,12 @@
 - type: entity
   parent: RMCAreaFiorinaStationLowsec
   id: RMCAreaFiorinaStationLowsecEast
-  name: Fiorina - Low Security Eastside
+  name: "Фіоріна - Істсайд з низьким рівнем безпеки"
 
 - type: entity
   parent: RMCAreaFiorinaStation
   id: RMCAreaFiorinaStationPowerRing
-  name: Fiorina - Engineering Ring
+  name: "Fiorina - Інженерне кільце"
   components:
   - type: Sprite
     state: power0
@@ -260,7 +260,7 @@
 - type: entity
   parent: RMCAreaFiorinaStationPowerRing
   id: RMCAreaFiorinaStationPowerRingReactor
-  name: Fiorina - Engineering Reactor
+  name: "Fiorina - Інженерний реактор"
   components:
   - type: Area
     linkedLz: null
@@ -268,7 +268,7 @@
 - type: entity
   parent: RMCAreaFiorinaStation
   id: RMCAreaFiorinaStationDisco
-  name: Fiorina - West Disco Storage
+  name: "Fiorina - Західне дискотечне сховище"
   components:
   - type: Sprite
     state: disco
@@ -276,7 +276,7 @@
 - type: entity
   parent: RMCAreaFiorinaStationDisco
   id: RMCAreaFiorinaStationDiscoEastDisco
-  name: Fiorina - East Disco Storage
+  name: "Fiorina - Східне дискотечне сховище"
   components:
   - type: Area
     linkedLz: dropship_lz1
@@ -284,7 +284,7 @@
 - type: entity
   parent: RMCAreaFiorinaStation
   id: RMCAreaFiorinaStationFlightDeck
-  name: Fiorina - Flight Deck
+  name: "Fiorina - Льотна палуба"
   components:
   - type: Sprite
     state: police_line
@@ -294,7 +294,7 @@
 - type: entity
   parent: RMCAreaFiorinaStation
   id: RMCAreaFiorinaStationSecurity
-  name: Fiorina - Security Hub
+  name: "Fiorina - Безпековий хаб"
   components:
   - type: Sprite
     state: security_hub
@@ -305,7 +305,7 @@
 - type: entity
   parent: RMCAreaFiorinaStationSecurity
   id: RMCAreaFiorinaStationSecurityWardens
-  name: Fiorina - Warden's Office
+  name: "Фіоріна - кабінет начальника в'язниці"
   components:
   - type: Sprite
     state: wardens
@@ -315,7 +315,7 @@
 - type: entity
   parent: RMCAreaFiorinaStation
   id: RMCAreaFiorinaStationBotany
-  name: Fiorina - Botany Growtrays
+  name: "Fiorina - Ботанічні лотки для вирощування"
   components:
   - type: Sprite
     state: botany
@@ -325,7 +325,7 @@
 - type: entity
   parent: RMCAreaFiorinaStation
   id: RMCAreaFiorinaStationPark
-  name: Fiorina - Park
+  name: "Фьоріна - Парк"
   components:
   - type: Sprite
     state: station0
@@ -333,7 +333,7 @@
 - type: entity
   parent: RMCAreaFiorinaStation
   id: RMCAreaFiorinaStationTransitHub
-  name: Fiorina - Transit Hub
+  name: "Фьоріна - транзитний вузол"
   components:
   - type: Sprite
     state: station1
@@ -341,7 +341,7 @@
 - type: entity
   parent: RMCAreaFiorinaStation
   id: RMCAreaFiorinaStationCentralRing
-  name: Fiorina - Central Ring
+  name: "Фьоріна - Центральне кільце"
   components:
   - type: Sprite
     state: station2
@@ -349,7 +349,7 @@
 - type: entity
   parent: RMCAreaFiorinaStation
   id: RMCAreaFiorinaStationChapel
-  name: Fiorina - Chapel
+  name: "Фьоріна - Каплиця"
   components:
   - type: Sprite
     state: station3
@@ -357,7 +357,7 @@
 - type: entity
   parent: RMCAreaFiorinaStation
   id: RMCAreaFiorinaStationCivresBlue
-  name: Fiorina - Blue Block Residences
+  name: "Fiorina - резиденції Blue Block"
   components:
   - type: Sprite
     state: station1
@@ -365,7 +365,7 @@
 - type: entity
   parent: RMCAreaFiorinaStation
   id: RMCAreaFiorinaStationMedbay
-  name: Fiorina - Medical Bay
+  name: "Фіоріна - Медичний відсік"
   components:
   - type: Sprite
     state: station4
@@ -375,7 +375,7 @@
 - type: entity
   parent: RMCAreaFiorinaStation
   id: RMCAreaFiorinaStationResearchCells
-  name: Fiorina - Research Cellblock
+  name: "Fiorina - Дослідницький блок"
   components:
   - type: Sprite
     state: station0
@@ -385,12 +385,12 @@
 - type: entity
   parent: RMCAreaFiorinaStationResearchCells
   id: RMCAreaFiorinaStationResearchCellsWest
-  name: Fiorina - West Research Cellblock
+  name: "Фіоріна - Західний дослідницький блок"
 
 - type: entity
   parent: RMCAreaFiorinaStationResearchCells
   id: RMCAreaFiorinaStationResearchCellsEast
-  name: Fiorina - East Research Cellblock
+  name: "Фіоріна - Східний дослідницький блок"
   components:
   - type: Area
     linkedLz: dropship_lz1
@@ -398,7 +398,7 @@
 - type: entity
   parent: RMCAreaFiorinaStationResearchCells
   id: RMCAreaFiorinaStationResearchCellsBasketball
-  name: Fiorina - Basketball Court
+  name: "Фіоріна - Баскетбольний майданчик"
   components:
   - type: Area
     linkedLz: dropship_lz1
@@ -406,7 +406,7 @@
 - type: entity
   parent: RMCAreaFiorinaStation
   id: RMCAreaFiorinaStationTelecomm
-  name: Fiorina - Communications Relay
+  name: "Fiorina - комунікаційна естафета"
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas.rsi
@@ -417,17 +417,17 @@
 - type: entity
   parent: RMCAreaFiorinaStationTelecomm
   id: RMCAreaFiorinaStationTelecommLz1Cargo
-  name: Fiorina - LZ1 Cargo Communications Relay
+  name: "Fiorina - LZ1 реле вантажного зв'язку"
 
 - type: entity
   parent: RMCAreaFiorinaStationTelecomm
   id: RMCAreaFiorinaStationTelecommLz1Containers
-  name: Fiorina - LZ1 Containers Communications Relay
+  name: "Реле зв'язку для контейнерів Fiorina - LZ1"
 
 - type: entity
   parent: RMCAreaFiorinaStationTelecomm
   id: RMCAreaFiorinaStationTelecommLz1Tram
-  name: Fiorina - LZ1 Aux Port Communications Relay
+  name: "Fiorina - LZ1 Aux Port Communication Relay"
   components:
   - type: Area
     landingZone: true
@@ -435,12 +435,12 @@
 - type: entity
   parent: RMCAreaFiorinaStationTelecomm
   id: RMCAreaFiorinaStationTelecommLz1Engineering
-  name: Fiorina - Engineering Primary Communications Relay
+  name: "Fiorina - інженерне реле первинних комунікацій"
 
 - type: entity
   parent: RMCAreaFiorinaStationTelecomm
   id: RMCAreaFiorinaStationTelecommLz2Engineering
-  name: Fiorina - Engineering Secondary Communications Relay
+  name: "Fiorina - інженерне реле вторинного зв'язку"
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -448,7 +448,7 @@
 - type: entity
   parent: RMCAreaFiorinaStationTelecomm
   id: RMCAreaFiorinaStationTelecommLz2North
-  name: Fiorina - LZ2 North Communications Relay
+  name: "Fiorina - LZ2 Північне комунікаційне реле"
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -456,7 +456,7 @@
 - type: entity
   parent: RMCAreaFiorinaStationTelecomm
   id: RMCAreaFiorinaStationTelecommLz2Maint
-  name: Fiorina - Backup Communications Relay
+  name: "Fiorina - резервний комунікаційний ретранслятор"
   components:
   - type: Area
     linkedLz: dropship_lz2

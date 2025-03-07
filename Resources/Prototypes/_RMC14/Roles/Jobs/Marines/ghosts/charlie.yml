@@ -2,7 +2,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidCharlieCombatTech
-  name: charlie ghost role combat technician
+  name: "примарна роль бойового техніка чарлі"
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -19,7 +19,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidCharlieFireteamLeader
-  name: charlie ghost role fireteam leader
+  name: "примарна роль командира вогневої групи чарлі"
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -36,7 +36,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidCharlieHospitalCorpsman
-  name: charlie ghost role hospital corpsman
+  name: "примарна роль санітара чарлі"
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -53,7 +53,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidCharlieRifleman
-  name: charlie ghost role rifleman
+  name: "примарна роль стрільця чарлі"
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -70,7 +70,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidCharlieSmartGunOperator
-  name: charlie ghost role smart gun operator
+  name: "примарна роль оператора смартгана чарлі"
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -87,7 +87,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidCharlieSquadLeader
-  name: charlie ghost role squad leader
+  name: "примарна роль командира відділення чарлі"
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -104,7 +104,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidCharlieWeaponsSpecialist
-  name: charlie ghost role weapons specialist
+  name: "примарна роль спеціаліста зі зброї чарлі"
   suffix: Spawner, Player
   components:
   - type: Sprite

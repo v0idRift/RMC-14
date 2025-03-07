@@ -31,7 +31,7 @@
 - type: entity
   parent: RMCAreaAlmayerCommand
   id: RMCAreaAlmayerCommandCic
-  name: Combat Information Center
+  name: "Центр бойової інформації"
   components:
   - type: Sprite
     state: cic
@@ -44,7 +44,7 @@
 - type: entity
   parent: RMCAreaAlmayerCommand
   id: RMCAreaAlmayerCommandCichallway
-  name: Secure Command Hallway
+  name: "Безпечний командний коридор"
   components:
   - type: Sprite
     state: airoom
@@ -54,7 +54,7 @@
 - type: entity
   parent: RMCAreaAlmayerCommand
   id: RMCAreaAlmayerCommandAiroom
-  name: AI Core
+  name: "Ядро штучного інтелекту"
   components:
   - type: Sprite
     state: airoom
@@ -70,7 +70,7 @@
 - type: entity
   parent: RMCAreaAlmayerCommand
   id: RMCAreaAlmayerCommandSecurestorage
-  name: Upper Deck Secure Storage
+  name: "Безпечне сховище на верхній палубі"
   components:
   - type: Sprite
     state: corporatespace
@@ -81,7 +81,7 @@
 - type: entity
   parent: RMCAreaAlmayerCommand
   id: RMCAreaAlmayerCommandComputerlab
-  name: Upper Deck Computer Lab
+  name: "Комп'ютерна лабораторія на верхній палубі"
   components:
   - type: Sprite
     state: ceroom
@@ -92,7 +92,7 @@
 - type: entity
   parent: RMCAreaAlmayerCommand
   id: RMCAreaAlmayerCommandTelecomms
-  name: Upper Deck Telecommunications
+  name: "Телекомунікації верхньої палуби"
   components:
   - type: Sprite
     state: tcomms
@@ -105,7 +105,7 @@
 - type: entity
   parent: RMCAreaAlmayerCommand
   id: RMCAreaAlmayerCommandSelfDestruct
-  name: Upper Deck Self-Destruct Core Room
+  name: "Ядро самоліквідації на верхній палубі"
   components:
   - type: Sprite
     state: selfdestruct
@@ -118,7 +118,7 @@
 - type: entity
   parent: RMCAreaAlmayerCommand
   id: RMCAreaAlmayerCommandCorporateliaison
-  name: Corporate Liaison Office
+  name: "Офіс корпоративних зв'язків"
   components:
   - type: Sprite
     state: corporatespace
@@ -128,7 +128,7 @@
 - type: entity
   parent: RMCAreaAlmayerCommand
   id: RMCAreaAlmayerCommandCombatCorrespondent
-  name: Upper Deck Combat Correspondent Office
+  name: "Офіс бойового кореспондента верхньої палуби"
   components:
   - type: Sprite
     state: selfdestruct
@@ -145,7 +145,7 @@
 - type: entity
   parent: RMCAreaAlmayerEngineering
   id: RMCAreaAlmayerEngineeringLower
-  name: Lower Deck Engineering
+  name: "Інженерне забезпечення нижньої палуби"
   components:
   - type: Sprite
     state: lowerengineering
@@ -159,7 +159,7 @@
 - type: entity
   parent: RMCAreaAlmayerEngineeringLowerEngine
   id: RMCAreaAlmayerEngineeringLowerEngineMonitoring
-  name: Lower Deck Engine Reactor Monitoring
+  name: "Моніторинг реактора двигуна нижньої палуби"
   components:
   - type: Sprite
     state: lowermonitoring
@@ -167,7 +167,7 @@
 - type: entity
   parent: RMCAreaAlmayerEngineeringLower
   id: RMCAreaAlmayerEngineeringLowerWorkshop
-  name: Lower Deck Engineering Workshop
+  name: "Інженерна майстерня на нижній палубі"
   components:
   - type: Sprite
     state: workshop
@@ -175,12 +175,12 @@
 - type: entity
   parent: RMCAreaAlmayerEngineeringLowerWorkshop
   id: RMCAreaAlmayerEngineeringLowerWorkshopHangar
-  name: Ordnance Workshop
+  name: "Артилерійська майстерня"
 
 - type: entity
   parent: RMCAreaAlmayerEngineeringLower
   id: RMCAreaAlmayerEngineeringLowerEngineCore
-  name: Engine Reactor Core Room
+  name: "Зал реакторного відділення двигуна"
   components:
   - type: Sprite
     state: coreroom
@@ -192,7 +192,7 @@
 - type: entity
   parent: RMCAreaAlmayerEngineering
   id: RMCAreaAlmayerEngineeringUpperEngineering
-  name: Upper Deck Engineering
+  name: "Інженерне забезпечення верхньої палуби"
   components:
   - type: Sprite
     state: upperengineering
@@ -202,12 +202,12 @@
 - type: entity
   parent: RMCAreaAlmayerEngineeringUpperEngineering
   id: RMCAreaAlmayerEngineeringUpperEngineeringStarboard
-  name: Upper Deck Starboard Engineering
+  name: "Верхня палуба правого борту Інженерний"
 
 - type: entity
   parent: RMCAreaAlmayerEngineeringUpperEngineering
   id: RMCAreaAlmayerEngineeringUpperEngineeringPort
-  name: Upper Deck Port Engineering
+  name: "Інженерне забезпечення верхньої палуби"
 
 - type: entity
   parent: RMCAreaAlmayerEngineeringUpperEngineering
@@ -221,7 +221,7 @@
 - type: entity
   parent: RMCAreaAlmayerEngineering
   id: RMCAreaAlmayerEngineeringCeRoom
-  name: Upper Deck Chief Engineer Office
+  name: "Офіс головного інженера верхньої палуби"
   components:
   - type: Sprite
     state: ceroom
@@ -231,7 +231,7 @@
 - type: entity
   parent: RMCAreaAlmayerEngineering
   id: RMCAreaAlmayerEngineeringStarboardAtmos
-  name: Upper Deck Starboard Atmospherics
+  name: "Верхня палуба правого борту Атмосфера"
   components:
   - type: Sprite
     state: starboardatmos
@@ -241,7 +241,7 @@
 - type: entity
   parent: RMCAreaAlmayerEngineering
   id: RMCAreaAlmayerEngineeringPortAtmos
-  name: Upper Deck Port Atmospherics
+  name: "Верхня палуба, портові атмосфери"
   components:
   - type: Sprite
     state: portatmos
@@ -251,7 +251,7 @@
 - type: entity
   parent: RMCAreaAlmayerEngineering
   id: RMCAreaAlmayerEngineeringLaundry
-  name: Upper Deck Laundry Room
+  name: "Пральня на верхній палубі"
   components:
   - type: Sprite
     state: laundry
@@ -268,7 +268,7 @@
 - type: entity
   parent: RMCAreaAlmayerShipboard
   id: RMCAreaAlmayerShipboardNavigation
-  name: Astronavigational Deck
+  name: "Астронавігаційна палуба"
   components:
   - type: Sprite
     state: astronavigation
@@ -281,7 +281,7 @@
 - type: entity
   parent: RMCAreaAlmayerShipboard
   id: RMCAreaAlmayerShipboardPanic
-  name: Hangar Panic Room
+  name: "Аварійна кімната ангару"
   components:
   - type: Sprite
     state: brig
@@ -291,7 +291,7 @@
 - type: entity
   parent: RMCAreaAlmayerShipboard
   id: RMCAreaAlmayerShipboardStarboardMissiles
-  name: Upper Deck Starboard Missile Tubes
+  name: "Верхня палуба правого борту ракетні труби"
   components:
   - type: Sprite
     state: starboardmissile
@@ -301,7 +301,7 @@
 - type: entity
   parent: RMCAreaAlmayerShipboard
   id: RMCAreaAlmayerShipboardPortMissiles
-  name: Upper Deck Port Missile Tubes
+  name: "Верхня палуба лівого борту ракетних труб"
   components:
   - type: Sprite
     state: portmissile
@@ -311,7 +311,7 @@
 - type: entity
   parent: RMCAreaAlmayerShipboard
   id: RMCAreaAlmayerShipboardWeaponRoom
-  name: Lower Deck Weapon Control
+  name: "Управління зброєю на нижній палубі"
   components:
   - type: Sprite
     state: weaponroom
@@ -330,7 +330,7 @@
 - type: entity
   parent: RMCAreaAlmayerShipboard
   id: RMCAreaAlmayerShipboardStarboardPointDefense
-  name: Lower Deck Starboard Point Defense
+  name: "Захист правого борту нижньої палуби"
   components:
   - type: Sprite
     state: starboardpd
@@ -340,7 +340,7 @@
 - type: entity
   parent: RMCAreaAlmayerShipboard
   id: RMCAreaAlmayerShipboardPortPointDefense
-  name: Lower Deck Port Point Defense
+  name: "Захист портової точки нижньої палуби"
   components:
   - type: Sprite
     state: portpd
@@ -350,7 +350,7 @@
 - type: entity
   parent: RMCAreaAlmayerShipboard
   id: RMCAreaAlmayerShipboardSternPointDefense
-  name: Lower Deck Stern Point Defense
+  name: "Захист кормової частини нижньої палуби"
   components:
   - type: Sprite
     state: portpd
@@ -360,7 +360,7 @@
 - type: entity
   parent: RMCAreaAlmayerShipboard
   id: RMCAreaAlmayerShipboardBrig
-  name: Brig
+  name: "Бригадир"
   components:
   - type: Sprite
     state: brig
@@ -370,82 +370,82 @@
 - type: entity
   parent: RMCAreaAlmayerShipboardBrig
   id: RMCAreaAlmayerShipboardBrigLobby
-  name: Brig Lobby
+  name: "Вестибюль гауптвахти"
 
 - type: entity
   parent: RMCAreaAlmayerShipboardBrig
   id: RMCAreaAlmayerShipboardBrigArmory
-  name: Brig Armory
+  name: "Бригадна зброярня"
 
 - type: entity
   parent: RMCAreaAlmayerShipboardBrig
   id: RMCAreaAlmayerShipboardBrigMpBunks
-  name: Brig MP Bunks
+  name: "Бригадний генерал Банкс"
 
 - type: entity
   parent: RMCAreaAlmayerShipboardBrig
   id: RMCAreaAlmayerShipboardBrigStarboardHallway
-  name: Brig Starboard Hallway
+  name: "Коридор правого борту брига"
 
 - type: entity
   parent: RMCAreaAlmayerShipboardBrig
   id: RMCAreaAlmayerShipboardBrigPerma
-  name: Brig Perma Cells
+  name: "Бригадні пермські камери"
 
 - type: entity
   parent: RMCAreaAlmayerShipboardBrig
   id: RMCAreaAlmayerShipboardBrigCryo
-  name: Brig Cryo Pods
+  name: "Brig Cryo Pods - кріоподушки для бригад"
 
 - type: entity
   parent: RMCAreaAlmayerShipboardBrig
   id: RMCAreaAlmayerShipboardBrigMedical
-  name: Brig Medical
+  name: "Бриг Медікал"
 
 - type: entity
   parent: RMCAreaAlmayerShipboardBrig
   id: RMCAreaAlmayerShipboardBrigInterrogation
-  name: Brig Interrogation Room
+  name: "Кімната для допитів на гауптвахті"
 
 - type: entity
   parent: RMCAreaAlmayerShipboardBrig
   id: RMCAreaAlmayerShipboardBrigGeneralEquipment
-  name: Brig General Equipment
+  name: "Бригадне загальне спорядження"
 
 - type: entity
   parent: RMCAreaAlmayerShipboardBrig
   id: RMCAreaAlmayerShipboardBrigEvidenceStorage
-  name: Brig Evidence Storage
+  name: "Зберігання доказів на гауптвахті"
 
 - type: entity
   parent: RMCAreaAlmayerShipboardBrig
   id: RMCAreaAlmayerShipboardBrigExecution
-  name: Brig Execution Room
+  name: "Кімната для розстрілів на гауптвахті"
 
 - type: entity
   parent: RMCAreaAlmayerShipboardBrig
   id: RMCAreaAlmayerShipboardBrigExecutionStorage
-  name: Brig Execution Storage
+  name: "Сховище для виконання смертних вироків на гауптвахті"
 
 - type: entity
   parent: RMCAreaAlmayerShipboardBrig
   id: RMCAreaAlmayerShipboardBrigCicHallway
-  name: Brig CiC Hallway
+  name: "Коридор бригадного генерала"
 
 - type: entity
   parent: RMCAreaAlmayerShipboardBrig
   id: RMCAreaAlmayerShipboardBrigDress
-  name: CIC Dress Uniform Room
+  name: "Кімната для переодягання CIC"
 
 - type: entity
   parent: RMCAreaAlmayerShipboardBrig
   id: RMCAreaAlmayerShipboardBrigProcessing
-  name: Brig Processing and Holding
+  name: "Обробка та утримання на гауптвахті"
 
 - type: entity
   parent: RMCAreaAlmayerShipboardBrig
   id: RMCAreaAlmayerShipboardBrigCells
-  name: Brig Cells
+  name: "Гауптвахти"
   components:
   - type: Sprite
     state: brigcells
@@ -453,7 +453,7 @@
 - type: entity
   parent: RMCAreaAlmayerShipboardBrig
   id: RMCAreaAlmayerShipboardBrigChiefMpOffice
-  name: Brig Chief MP Office
+  name: "Офіс бригадного генерала парламенту"
   components:
   - type: Sprite
     state: chiefmpoffice
@@ -461,7 +461,7 @@
 - type: entity
   parent: RMCAreaAlmayerShipboardBrig
   id: RMCAreaAlmayerShipboardBrigWardenOffice
-  name: Brig Warden Office
+  name: "Канцелярія начальника гауптвахти"
   components:
   - type: Sprite
     state: chiefmpoffice
@@ -469,7 +469,7 @@
 - type: entity
   parent: RMCAreaAlmayerShipboard
   id: RMCAreaAlmayerShipboardSeaOffice
-  name: Lower Deck Senior Enlisted Advisor Office
+  name: "Офіс старшого радника по роботі з особовим складом нижньої палуби"
   components:
   - type: Sprite
     state: chiefmpoffice
@@ -479,7 +479,7 @@
 - type: entity
   parent: RMCAreaAlmayerShipboard
   id: RMCAreaAlmayerShipboardFiringRangeNorth
-  name: Starboard Firing Range
+  name: "Стрільбище правого борту"
   components:
   - type: Sprite
     state: firingrange
@@ -489,7 +489,7 @@
 - type: entity
   parent: RMCAreaAlmayerShipboard
   id: RMCAreaAlmayerShipboardFiringRangeSouth
-  name: Port Firing Range
+  name: "Портовий полігон"
   components:
   - type: Sprite
     state: firingrange
@@ -504,7 +504,7 @@
 - type: entity
   parent: RMCAreaAlmayerHallways
   id: RMCAreaAlmayerHallwaysHangar
-  name: Hangar
+  name: "Ангар"
   components:
   - type: Sprite
     state: hangar
@@ -521,7 +521,7 @@
 - type: entity
   parent: RMCAreaAlmayerHallwaysLower
   id: RMCAreaAlmayerHallwaysLowerVehiclehangar
-  name: Lower Deck Vehicle Storage
+  name: "Зберігання транспортних засобів на нижній палубі"
   components:
   - type: Sprite
     state: exoarmor
@@ -529,7 +529,7 @@
 - type: entity
   parent: RMCAreaAlmayerHallwaysLower
   id: RMCAreaAlmayerHallwaysLowerRepairBay
-  name: Lower Deck Deployment Workshop
+  name: "Майстер-клас з розгортання нижньої палуби"
   components:
   - type: Sprite
     state: dropshiprepair
@@ -537,7 +537,7 @@
 - type: entity
   parent: RMCAreaAlmayerHallwaysLower
   id: RMCAreaAlmayerHallwaysLowerStarboardUmbilical
-  name: Lower Deck Starboard Umbilical Hallway
+  name: "Нижня палуба правого борту Пупковий коридор"
   components:
   - type: Sprite
     state: starboardumbilical
@@ -545,7 +545,7 @@
 - type: entity
   parent: RMCAreaAlmayerHallwaysLower
   id: RMCAreaAlmayerHallwaysLowerPortUmbilical
-  name: Lower Deck Port Umbilical Hallway
+  name: "Нижній палубі Портовий пупковий коридор"
   components:
   - type: Sprite
     state: portumbilical
@@ -553,7 +553,7 @@
 - type: entity
   parent: RMCAreaAlmayerHallwaysLower
   id: RMCAreaAlmayerHallwaysLowerPortForeHallway
-  name: Lower Deck Port-Fore Hallway
+  name: "Коридор лівого борту нижньої палуби"
   components:
   - type: Sprite
     state: port
@@ -561,7 +561,7 @@
 - type: entity
   parent: RMCAreaAlmayerHallwaysLower
   id: RMCAreaAlmayerHallwaysLowerPortMidshipHallway
-  name: Lower Deck Port-Midship Hallway
+  name: "Нижня палуба Лівий-середній коридор"
   components:
   - type: Sprite
     state: port
@@ -569,7 +569,7 @@
 - type: entity
   parent: RMCAreaAlmayerHallwaysLower
   id: RMCAreaAlmayerHallwaysLowerPortAftHallway
-  name: Lower Deck Port-Aft Hallway
+  name: "Коридор по лівому борту нижньої палуби"
   components:
   - type: Sprite
     state: port
@@ -577,7 +577,7 @@
 - type: entity
   parent: RMCAreaAlmayerHallwaysLower
   id: RMCAreaAlmayerHallwaysLowerStarboardForeHallway
-  name: Lower Deck Starboard-Fore Hallway
+  name: "Нижня палуба правого борту - передній коридор"
   components:
   - type: Sprite
     state: starboard
@@ -585,7 +585,7 @@
 - type: entity
   parent: RMCAreaAlmayerHallwaysLower
   id: RMCAreaAlmayerHallwaysLowerStarboardMidshipHallway
-  name: Lower Deck Starboard-Midship Hallway
+  name: "Нижня палуба Коридор правий борт - середній борт"
   components:
   - type: Sprite
     state: starboard
@@ -593,7 +593,7 @@
 - type: entity
   parent: RMCAreaAlmayerHallwaysLower
   id: RMCAreaAlmayerHallwaysLowerStarboardAftHallway
-  name: Lower Deck Starboard-Aft Hallway
+  name: "Нижня палуба Коридор правий борт-корма"
   components:
   - type: Sprite
     state: starboard
@@ -608,7 +608,7 @@
 - type: entity
   parent: RMCAreaAlmayerHallwaysUpper
   id: RMCAreaAlmayerHallwaysUpperAftHallway
-  name: Upper Deck Aft Hallway
+  name: "Кормовий коридор на верхній палубі"
   components:
   - type: Sprite
     state: aft
@@ -616,7 +616,7 @@
 - type: entity
   parent: RMCAreaAlmayerHallwaysUpper
   id: RMCAreaAlmayerHallwaysUpperForeHallway
-  name: Upper Deck Fore Hallway
+  name: "Передній коридор верхньої палуби"
   components:
   - type: Sprite
     state: stern
@@ -624,7 +624,7 @@
 - type: entity
   parent: RMCAreaAlmayerHallwaysUpper
   id: RMCAreaAlmayerHallwaysUpperMidshipHallway
-  name: Upper Deck Midship Hallway
+  name: "Коридор середньої палуби верхньої палуби"
   components:
   - type: Sprite
     state: stern
@@ -632,7 +632,7 @@
 - type: entity
   parent: RMCAreaAlmayerHallwaysUpper
   id: RMCAreaAlmayerHallwaysUpperPort
-  name: Upper Deck Port Hallway
+  name: "Коридор порту на верхній палубі"
   components:
   - type: Sprite
     state: port
@@ -640,7 +640,7 @@
 - type: entity
   parent: RMCAreaAlmayerHallwaysUpper
   id: RMCAreaAlmayerHallwaysUpperStarboard
-  name: Upper Deck Starboard Hallway
+  name: "Верхня палуба Коридор правого борту"
   components:
   - type: Sprite
     state: starboard
@@ -648,7 +648,7 @@
 - type: entity
   parent: RMCAreaAlmayer
   id: RMCAreaAlmayerStairClone
-  name: Lower Deck Stairs
+  name: "Сходи на нижню палубу"
   components:
   - type: Sprite
     state: stairs_lowerdeck
@@ -659,7 +659,7 @@
 - type: entity
   parent: RMCAreaAlmayerStairClone
   id: RMCAreaAlmayerStairCloneUpper
-  name: Upper Deck Stairs
+  name: "Сходи на верхню палубу"
   components:
   - type: Sprite
     state: stairs_upperdeck
@@ -673,7 +673,7 @@
 - type: entity
   parent: RMCAreaAlmayerMaint
   id: RMCAreaAlmayerMaintLower
-  name: Lower Deck Maintenance
+  name: "Обслуговування нижньої палуби"
   components:
   - type: Sprite
     state: lowerhull
@@ -683,22 +683,22 @@
 - type: entity
   parent: RMCAreaAlmayerMaintLower
   id: RMCAreaAlmayerMaintLowerConstr
-  name: Lower Deck Construction Site
+  name: "Будівельний майданчик нижньої палуби"
 
 - type: entity
   parent: RMCAreaAlmayerMaintLower
   id: RMCAreaAlmayerMaintLowerSBow
-  name: Lower Deck Starboard-Bow Maintenance
+  name: "Технічне обслуговування нижньої палуби правого борту"
 
 - type: entity
   parent: RMCAreaAlmayerMaintLower
   id: RMCAreaAlmayerMaintLowerCryoCells
-  name: Lower Deck Cryo Cells Maintenance
+  name: "Обслуговування кріокомірок нижньої палуби"
 
 - type: entity
   parent: RMCAreaAlmayerMaint
   id: RMCAreaAlmayerMaintUpper
-  name: Upper Deck Maintenance
+  name: "Обслуговування верхньої палуби"
   components:
   - type: Sprite
     state: upperhull
@@ -708,37 +708,37 @@
 - type: entity
   parent: RMCAreaAlmayerMaintUpper
   id: RMCAreaAlmayerMaintUpperMess
-  name: Upper Deck Mess Maintenance
+  name: "Обслуговування їдальні на верхній палубі"
 
 - type: entity
   parent: RMCAreaAlmayerMaintUpper
   id: RMCAreaAlmayerMaintUpperUMP
-  name: Upper Deck Port-Midship Maintenance
+  name: "Технічне обслуговування верхньої палуби лівого борту"
 
 - type: entity
   parent: RMCAreaAlmayerMaintUpper
   id: RMCAreaAlmayerMaintUpperUMS
-  name: Upper Deck Starboard-Midship Maintenance
+  name: "Обслуговування верхньої палуби правого і середнього борту"
 
 - type: entity
   parent: RMCAreaAlmayerMaintUpper
   id: RMCAreaAlmayerMaintUpperUFP
-  name: Upper Deck Port-Fore Maintenance
+  name: "Порт верхньої палуби перед технічним обслуговуванням"
 
 - type: entity
   parent: RMCAreaAlmayerMaintUpper
   id: RMCAreaAlmayerMaintUpperUFS
-  name: Upper Deck Starboard-Fore Maintenance
+  name: "Верхня палуба правого борту - перед технічним обслуговуванням"
 
 - type: entity
   parent: RMCAreaAlmayerMaintUpper
   id: RMCAreaAlmayerMaintUpperUAP
-  name: Upper Deck Port-Aft Maintenance
+  name: "Обслуговування верхньої палуби по лівому борту"
 
 - type: entity
   parent: RMCAreaAlmayerMaintUpper
   id: RMCAreaAlmayerMaintUpperUAS
-  name: Upper Deck Starboard-Aft Maintenance
+  name: "Обслуговування верхньої палуби правий-лівий борт-корма"
 
 - type: entity
   parent: RMCAreaAlmayerMaint
@@ -747,7 +747,7 @@
 - type: entity
   parent: RMCAreaAlmayerMaintHull
   id: RMCAreaAlmayerMaintHullLower
-  name: Lower Deck Hull
+  name: "Корпус нижньої палуби"
   components:
   - type: Sprite
     state: lowerhull
@@ -757,57 +757,57 @@
 - type: entity
   parent: RMCAreaAlmayerMaintHullLower
   id: RMCAreaAlmayerMaintHullLowerStairs
-  name: Lower Deck Stairs Hull
+  name: "Корпус сходів нижньої палуби"
 
 - type: entity
   parent: RMCAreaAlmayerMaintHullLower
   id: RMCAreaAlmayerMaintHullLowerStern
-  name: Lower Deck Stern Hull
+  name: "Нижня палуба Кормовий корпус"
 
 - type: entity
   parent: RMCAreaAlmayerMaintHullLower
   id: RMCAreaAlmayerMaintHullLowerPBow
-  name: Lower Deck Port-Bow Hull
+  name: "Нижня палуба ліво-носового корпусу"
 
 - type: entity
   parent: RMCAreaAlmayerMaintHullLower
   id: RMCAreaAlmayerMaintHullLowerSBow
-  name: Lower Deck Starboard-Bow Hull
+  name: "Нижня палуба правого борту носової частини корпусу"
 
 - type: entity
   parent: RMCAreaAlmayerMaintHullLower
   id: RMCAreaAlmayerMaintHullLowerLFS
-  name: Lower Deck Starboard-Fore Hull
+  name: "Нижня палуба правого борту носової частини корпусу"
 
 - type: entity
   parent: RMCAreaAlmayerMaintHullLower
   id: RMCAreaAlmayerMaintHullLowerLMS
-  name: Lower Deck Starboard-Midship Hull
+  name: "Нижня палуба правого борту-середня частина корпусу"
 
 - type: entity
   parent: RMCAreaAlmayerMaintHullLower
   id: RMCAreaAlmayerMaintHullLowerLAS
-  name: Lower Deck Starboard-Aft Hull
+  name: "Нижня палуба правого борту кормової частини корпусу"
 
 - type: entity
   parent: RMCAreaAlmayerMaintHullLower
   id: RMCAreaAlmayerMaintHullLowerLFP
-  name: Lower Deck Port-Fore Hull
+  name: "Нижня палуба лівого борту"
 
 - type: entity
   parent: RMCAreaAlmayerMaintHullLower
   id: RMCAreaAlmayerMaintHullLowerLMP
-  name: Lower Deck Port-Midship Hull
+  name: "Нижня палуба лівого борту - середній корпус"
 
 - type: entity
   parent: RMCAreaAlmayerMaintHullLower
   id: RMCAreaAlmayerMaintHullLowerLAP
-  name: Lower Deck Port-Aft Hull
+  name: "Нижня палуба Корпус по лівому борту"
 
 - type: entity
   parent: RMCAreaAlmayerMaintHull
   id: RMCAreaAlmayerMaintHullUpper
-  name: Upper Deck Hull
+  name: "Корпус верхньої палуби"
   components:
   - type: Sprite
     state: upperhull
@@ -817,57 +817,57 @@
 - type: entity
   parent: RMCAreaAlmayerMaintHullUpper
   id: RMCAreaAlmayerMaintHullUpperStairs
-  name: Upper Deck Stairs Hull
+  name: "Корпус сходів на верхню палубу"
 
 - type: entity
   parent: RMCAreaAlmayerMaintHullUpper
   id: RMCAreaAlmayerMaintHullUpperPBow
-  name: Upper Deck Port-Bow Hull
+  name: "Верхня палуба лівий носовий корпус"
 
 - type: entity
   parent: RMCAreaAlmayerMaintHullUpper
   id: RMCAreaAlmayerMaintHullUpperSBow
-  name: Upper Deck Starboard-Bow Hull
+  name: "Верхня палуба правого борту носової частини корпусу"
 
 - type: entity
   parent: RMCAreaAlmayerMaintHullUpper
   id: RMCAreaAlmayerMaintHullUpperPStern
-  name: Upper Deck Port-Stern Hull
+  name: "Верхня палуба Лівий-кормовий корпус"
 
 - type: entity
   parent: RMCAreaAlmayerMaintHullUpper
   id: RMCAreaAlmayerMaintHullUpperSStern
-  name: Upper Deck Starboard-Stern Hull
+  name: "Верхня палуба правий борт-корма Корпус"
 
 - type: entity
   parent: RMCAreaAlmayerMaintHullUpper
   id: RMCAreaAlmayerMaintHullUpperUFS
-  name: Upper Deck Starboard-Fore Hull
+  name: "Верхня палуба правого борту носової частини корпусу"
 
 - type: entity
   parent: RMCAreaAlmayerMaintHullUpper
   id: RMCAreaAlmayerMaintHullUpperUMS
-  name: Upper Deck Starboard-Midship Hull
+  name: "Верхня палуба правого борту-середня частина корпусу"
 
 - type: entity
   parent: RMCAreaAlmayerMaintHullUpper
   id: RMCAreaAlmayerMaintHullUpperUAS
-  name: Upper Deck Starboard-Aft Hull
+  name: "Верхня палуба правого борту корпусу"
 
 - type: entity
   parent: RMCAreaAlmayerMaintHullUpper
   id: RMCAreaAlmayerMaintHullUpperUFP
-  name: Upper Deck Port-Fore Hull
+  name: "Верхня палуба лівого борту"
 
 - type: entity
   parent: RMCAreaAlmayerMaintHullUpper
   id: RMCAreaAlmayerMaintHullUpperUMP
-  name: Upper Deck Port-Midship Hull
+  name: "Верхня палуба Лівий-середній корпус"
 
 - type: entity
   parent: RMCAreaAlmayerMaintHullUpper
   id: RMCAreaAlmayerMaintHullUpperUAP
-  name: Upper Deck Port-Aft Hull
+  name: "Верхня палуба Корпус по лівому борту"
 
 - type: entity
   parent: RMCAreaAlmayer
@@ -879,7 +879,7 @@
 - type: entity
   parent: RMCAreaAlmayerLiving
   id: RMCAreaAlmayerLivingTankerbunks
-  name: Lower Deck Vehicle Crew Bunks
+  name: "Спальні місця для екіпажу транспортних засобів на нижній палубі"
   components:
   - type: Sprite
     state: livingspace
@@ -889,7 +889,7 @@
 - type: entity
   parent: RMCAreaAlmayerLiving
   id: RMCAreaAlmayerLivingAuxiliaryOfficerOffice
-  name: Lower Deck Auxiliary Support Officer office
+  name: "Офіс допоміжного офіцера забезпечення нижньої палуби"
   components:
   - type: Sprite
     state: livingspace
@@ -899,7 +899,7 @@
 - type: entity
   parent: RMCAreaAlmayerLiving
   id: RMCAreaAlmayerLivingCryoCells
-  name: Lower Deck Cryo Cells
+  name: "Кріоконтейнери нижньої палуби"
   components:
   - type: Sprite
     state: cryo
@@ -909,7 +909,7 @@
 - type: entity
   parent: RMCAreaAlmayerLiving
   id: RMCAreaAlmayerLivingBriefing
-  name: Briefing Area
+  name: "Брифінг-зона"
   components:
   - type: Sprite
     state: briefing
@@ -919,7 +919,7 @@
 - type: entity
   parent: RMCAreaAlmayerLiving
   id: RMCAreaAlmayerLivingPortEmb
-  name: Lower Deck Port Extended Mission Bunks
+  name: "Нижня палуба, лівий борт, розширені койки для місій"
   components:
   - type: Sprite
     state: portemb
@@ -929,7 +929,7 @@
 - type: entity
   parent: RMCAreaAlmayerLiving
   id: RMCAreaAlmayerLivingStarboardEmb
-  name: Lower Deck Starboard Extended Mission Bunks
+  name: "Нижня палуба, правий борт, подовжені місійні койки"
   components:
   - type: Sprite
     state: starboardemb
@@ -939,7 +939,7 @@
 - type: entity
   parent: RMCAreaAlmayerLiving
   id: RMCAreaAlmayerLivingPortGarden
-  name: Port Garden
+  name: "Порт Гарден"
   components:
   - type: Sprite
     state: portemb
@@ -949,7 +949,7 @@
 - type: entity
   parent: RMCAreaAlmayerLiving
   id: RMCAreaAlmayerLivingStarboardGarden
-  name: Starboard Garden
+  name: "Праворуч по борту сад"
   components:
   - type: Sprite
     state: starboardemb
@@ -959,7 +959,7 @@
 - type: entity
   parent: RMCAreaAlmayerLiving
   id: RMCAreaAlmayerLivingBasketball
-  name: Basketball Court
+  name: "Баскетбольний майданчик"
   components:
   - type: Sprite
     state: basketball
@@ -969,7 +969,7 @@
 - type: entity
   parent: RMCAreaAlmayerLiving
   id: RMCAreaAlmayerLivingGruntRnr
-  name: Lounge
+  name: "Вітальня"
   components:
   - type: Sprite
     state: gruntrnr
@@ -979,7 +979,7 @@
 - type: entity
   parent: RMCAreaAlmayerLiving
   id: RMCAreaAlmayerLivingOfficerRnr
-  name: Upper Deck Officer's Lounge
+  name: "Офіцерська вітальня на верхній палубі"
   components:
   - type: Sprite
     state: officerrnr
@@ -989,7 +989,7 @@
 - type: entity
   parent: RMCAreaAlmayerLiving
   id: RMCAreaAlmayerLivingOfficerStudy
-  name: Upper Deck Officer's Study
+  name: "Офіцерський кабінет на верхній палубі"
   components:
   - type: Sprite
     state: officerstudy
@@ -999,7 +999,7 @@
 - type: entity
   parent: RMCAreaAlmayerLiving
   id: RMCAreaAlmayerLivingCafeteriaPort
-  name: Cafeteria Port
+  name: "Кафетерій Порт"
   components:
   - type: Sprite
     state: food
@@ -1009,7 +1009,7 @@
 - type: entity
   parent: RMCAreaAlmayerLiving
   id: RMCAreaAlmayerLivingCafeteriaStarboard
-  name: Cafeteria Starboard
+  name: "Кафетерій правого борту"
   components:
   - type: Sprite
     state: food
@@ -1019,7 +1019,7 @@
 - type: entity
   parent: RMCAreaAlmayerLiving
   id: RMCAreaAlmayerLivingGym
-  name: Lower Deck Gym
+  name: "Тренажерний зал на нижній палубі"
   components:
   - type: Sprite
     state: officerrnr
@@ -1029,7 +1029,7 @@
 - type: entity
   parent: RMCAreaAlmayerLiving
   id: RMCAreaAlmayerLivingCafeteriaOfficer
-  name: Upper Deck Officer Cafeteria
+  name: "Офіцерська їдальня на верхній палубі"
   components:
   - type: Sprite
     state: food
@@ -1039,7 +1039,7 @@
 - type: entity
   parent: RMCAreaAlmayerLiving
   id: RMCAreaAlmayerLivingOffices
-  name: Lower Deck Conference Office
+  name: "Конференц-зал на нижній палубі"
   components:
   - type: Sprite
     state: briefing
@@ -1049,12 +1049,12 @@
 - type: entity
   parent: RMCAreaAlmayerLivingOffices
   id: RMCAreaAlmayerLivingOfficesFlight
-  name: Flight Office
+  name: "Офіс польотів"
 
 - type: entity
   parent: RMCAreaAlmayerLiving
   id: RMCAreaAlmayerLivingCaptainMess
-  name: Captain's Mess
+  name: "Кают-компанія"
   components:
   - type: Sprite
     state: briefing
@@ -1064,7 +1064,7 @@
 - type: entity
   parent: RMCAreaAlmayerLiving
   id: RMCAreaAlmayerLivingPilotbunks
-  name: Pilot's Bunks
+  name: "Койки для пілотів"
   components:
   - type: Sprite
     state: livingspace
@@ -1074,7 +1074,7 @@
 - type: entity
   parent: RMCAreaAlmayerLiving
   id: RMCAreaAlmayerLivingBridgebunks
-  name: Staff Officer Bunks
+  name: "Штабні офіцерські койки"
   components:
   - type: Sprite
     state: livingspace
@@ -1084,7 +1084,7 @@
 - type: entity
   parent: RMCAreaAlmayerLiving
   id: RMCAreaAlmayerLivingCommandbunks
-  name: Commanding Officer's Bunk
+  name: "Койко-місце командира"
   components:
   - type: Sprite
     state: livingspace
@@ -1094,7 +1094,7 @@
 - type: entity
   parent: RMCAreaAlmayerLiving
   id: RMCAreaAlmayerLivingSynthcloset
-  name: Upper Deck Synthetic Storage Closet
+  name: "Шафа для зберігання синтетичних матеріалів на верхній палубі"
   components:
   - type: Sprite
     state: livingspace
@@ -1104,7 +1104,7 @@
 - type: entity
   parent: RMCAreaAlmayerLiving
   id: RMCAreaAlmayerLivingNumbertwobunks
-  name: Executive Officer's Bunk
+  name: "Койка старшого офіцера"
   components:
   - type: Sprite
     state: livingspace
@@ -1114,7 +1114,7 @@
 - type: entity
   parent: RMCAreaAlmayerLiving
   id: RMCAreaAlmayerLivingChapel
-  name: Almayer Chapel
+  name: "Каплиця Альмайєра"
   components:
   - type: Sprite
     state: officerrnr
@@ -1131,7 +1131,7 @@
 - type: entity
   parent: RMCAreaAlmayerMedical
   id: RMCAreaAlmayerMedicalLowerMedicalLobby
-  name: Medical Lower Lobby
+  name: "Медичне нижнє фойє"
   components:
   - type: Sprite
     state: medical
@@ -1141,7 +1141,7 @@
 - type: entity
   parent: RMCAreaAlmayerMedical
   id: RMCAreaAlmayerMedicalUpperMedical
-  name: Medical Upper
+  name: "Верхній медичний"
   components:
   - type: Sprite
     state: medical
@@ -1151,7 +1151,7 @@
 - type: entity
   parent: RMCAreaAlmayerMedical
   id: RMCAreaAlmayerMedicalMorgue
-  name: Morgue
+  name: "Морг"
   components:
   - type: Sprite
     state: operating
@@ -1162,7 +1162,7 @@
 - type: entity
   parent: RMCAreaAlmayerMedical
   id: RMCAreaAlmayerMedicalOperatingRoomOne
-  name: Medical Operating Room 1
+  name: "Медична операційна 1"
   components:
   - type: Sprite
     state: operating
@@ -1172,7 +1172,7 @@
 - type: entity
   parent: RMCAreaAlmayerMedical
   id: RMCAreaAlmayerMedicalOperatingRoomTwo
-  name: Medical Operating Room 2
+  name: "Медична операційна 2"
   components:
   - type: Sprite
     state: operating
@@ -1182,7 +1182,7 @@
 - type: entity
   parent: RMCAreaAlmayerMedical
   id: RMCAreaAlmayerMedicalOperatingRoomThree
-  name: Medical Operating Room 3
+  name: "Медична операційна 3"
   components:
   - type: Sprite
     state: operating
@@ -1192,7 +1192,7 @@
 - type: entity
   parent: RMCAreaAlmayerMedical
   id: RMCAreaAlmayerMedicalOperatingRoomFour
-  name: Medical Operating Room 4
+  name: "Медична операційна 4"
   components:
   - type: Sprite
     state: operating
@@ -1202,7 +1202,7 @@
 - type: entity
   parent: RMCAreaAlmayerMedical
   id: RMCAreaAlmayerMedicalMedicalScience
-  name: Medical Research laboratories
+  name: "Медичні дослідницькі лабораторії"
   components:
   - type: Sprite
     state: science
@@ -1213,7 +1213,7 @@
 - type: entity
   parent: RMCAreaAlmayerMedical
   id: RMCAreaAlmayerMedicalHydroponics
-  name: Medical Research hydroponics
+  name: "Медична дослідницька гідропоніка"
   components:
   - type: Sprite
     state: science
@@ -1223,7 +1223,7 @@
 - type: entity
   parent: RMCAreaAlmayerMedical
   id: RMCAreaAlmayerMedicalContainment
-  name: Medical Research containment
+  name: "Ізоляція медичних досліджень"
   components:
   - type: Sprite
     state: science
@@ -1234,7 +1234,7 @@
 - type: entity
   parent: RMCAreaAlmayerMedicalContainment
   id: RMCAreaAlmayerMedicalContainmentCell
-  name: Medical Research containment cells
+  name: "Медичні дослідницькі ізоляційні камери"
   components:
   - type: Sprite
     state: science
@@ -1247,12 +1247,12 @@
 - type: entity
   parent: RMCAreaAlmayerMedicalContainmentCell
   id: RMCAreaAlmayerMedicalContainmentCellCl
-  name: Containment
+  name: "Утримання"
 
 - type: entity
   parent: RMCAreaAlmayerMedical
   id: RMCAreaAlmayerMedicalChemistry
-  name: Medical Chemical laboratory
+  name: "Медико-хімічна лабораторія"
   components:
   - type: Sprite
     state: chemistry
@@ -1262,7 +1262,7 @@
 - type: entity
   parent: RMCAreaAlmayerMedical
   id: RMCAreaAlmayerMedicalLockerroom
-  name: Medical Locker Room
+  name: "Медична роздягальня"
   components:
   - type: Sprite
     state: science
@@ -1272,7 +1272,7 @@
 - type: entity
   parent: RMCAreaAlmayerMedical
   id: RMCAreaAlmayerMedicalCryoTubes
-  name: Medical Cryogenics Tubes
+  name: "Медичні кріогенні пробірки"
   components:
   - type: Sprite
     state: medical
@@ -1282,7 +1282,7 @@
 - type: entity
   parent: RMCAreaAlmayerMedical
   id: RMCAreaAlmayerMedicalLowerMedicalMedbay
-  name: Medical Lower Medbay
+  name: "Медичний відсік Нижній медпункт"
   components:
   - type: Sprite
     state: medical
@@ -1296,7 +1296,7 @@
 - type: entity
   parent: RMCAreaAlmayerSquads
   id: RMCAreaAlmayerSquadsAlpha
-  name: Squad Alpha Preparation
+  name: "Підготовка загону \"Альфа"
   components:
   - type: Sprite
     state: alpha
@@ -1306,7 +1306,7 @@
 - type: entity
   parent: RMCAreaAlmayerSquads
   id: RMCAreaAlmayerSquadsBravo
-  name: Squad Bravo Preparation
+  name: "Підготовка загону \"Браво"
   components:
   - type: Sprite
     state: bravo
@@ -1316,7 +1316,7 @@
 - type: entity
   parent: RMCAreaAlmayerSquads
   id: RMCAreaAlmayerSquadsCharlie
-  name: Squad Charlie Preparation
+  name: "Підготовка загону Чарлі"
   components:
   - type: Sprite
     state: charlie
@@ -1326,7 +1326,7 @@
 - type: entity
   parent: RMCAreaAlmayerSquads
   id: RMCAreaAlmayerSquadsDelta
-  name: Squad Delta Preparation
+  name: "Підготовка загону \"Дельта"
   components:
   - type: Sprite
     state: delta
@@ -1336,7 +1336,7 @@
 - type: entity
   parent: RMCAreaAlmayerSquads
   id: RMCAreaAlmayerSquadsAlphaBravoShared
-  name: Alpha Bravo Equipment Preparation
+  name: "Підготовка обладнання Alpha Bravo"
   components:
   - type: Sprite
     state: ab_shared
@@ -1346,7 +1346,7 @@
 - type: entity
   parent: RMCAreaAlmayerSquads
   id: RMCAreaAlmayerSquadsCharlieDeltaShared
-  name: Charlie Delta Equipment Preparation
+  name: "Підготовка обладнання Чарлі Дельта"
   components:
   - type: Sprite
     state: cd_shared
@@ -1356,7 +1356,7 @@
 - type: entity
   parent: RMCAreaAlmayerSquads
   id: RMCAreaAlmayerSquadsReq
-  name: Requisitions
+  name: "Реквізити"
   components:
   - type: Sprite
     state: req
@@ -1370,7 +1370,7 @@
 - type: entity
   parent: RMCAreaAlmayerPowered
   id: RMCAreaAlmayerPoweredAgent
-  name: Unknown Area
+  name: "Невідома територія"
   components:
   - type: Sprite
     state: selfdestruct
@@ -1394,7 +1394,7 @@
 - type: entity
   parent: RMCAreaAlmayer
   id: RMCAreaAlmayerLifeboatPumps
-  name: Lifeboat Fuel Pumps
+  name: "Паливні насоси для рятувальних шлюпок"
   components:
   - type: Sprite
     state: lifeboat_pump
@@ -1407,27 +1407,27 @@
 - type: entity
   parent: RMCAreaAlmayerLifeboatPumps
   id: RMCAreaAlmayerLifeboatPumpsNorth1
-  name: Starboard-Fore Lifeboat Fuel Pump
+  name: "Паливний насос правого борту рятувальної шлюпки"
 
 - type: entity
   parent: RMCAreaAlmayerLifeboatPumps
   id: RMCAreaAlmayerLifeboatPumpsNorth2
-  name: Starboard-Aft Lifeboat Fuel Pump
+  name: "Паливний насос правого борту рятувальної шлюпки"
 
 - type: entity
   parent: RMCAreaAlmayerLifeboatPumps
   id: RMCAreaAlmayerLifeboatPumpsSouth1
-  name: Port-Fore Lifeboat Fuel Pump
+  name: "Паливний насос для рятувальної шлюпки з лівого борту"
 
 - type: entity
   parent: RMCAreaAlmayerLifeboatPumps
   id: RMCAreaAlmayerLifeboatPumpsSouth2
-  name: Port-Aft Lifeboat Fuel Pump
+  name: "Паливний насос для рятувальної шлюпки з лівого борту"
 
 - type: entity
   parent: RMCAreaAlmayerCommand
   id: RMCAreaAlmayerCommandLifeboat
-  name: Lifeboat Docking Port
+  name: "Причал для рятувальних шлюпок"
   components:
   - type: Sprite
     state: selfdestruct
@@ -1442,7 +1442,7 @@
 - type: entity
   parent: RMCAreaSpaceAlmayer
   id: RMCAreaSpaceAlmayerLifeboatDock
-  name: Port Lifeboat Docking
+  name: "Швартування рятувальної шлюпки в порту"
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_almayer.rsi

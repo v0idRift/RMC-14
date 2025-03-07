@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCKitBase
   id: RMCKitHonorGuard
-  name: honor guard kit
+  name: "комплект почесної варти"
   components:
   - type: Storage
     maxItemSize: Ginormous

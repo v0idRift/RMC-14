@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: RMCAreaBase
   id: RMCAreaVaradero
-  name: New Varadero
+  name: "Новий Варадеро"
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_varadero.rsi
@@ -14,7 +14,7 @@
 - type: entity
   parent: RMCAreaShuttleDrop1
   id: RMCAreaShuttleDrop1Varadero
-  name: New Varadero - Dropship Alamo Landing Zone
+  name: "Новий Варадеро - зона посадки дропшипів Аламо"
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_varadero.rsi
@@ -26,7 +26,7 @@
 - type: entity
   parent: RMCAreaShuttleDrop2
   id: RMCAreaShuttleDrop2Varadero
-  name: New Varadero - Dropship Normandy Landing Zone
+  name: "Новий Варадеро - зона висадки дропшипів \"Нормандія"
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_varadero.rsi
@@ -38,7 +38,7 @@
 - type: entity
   parent: RMCAreaVaradero
   id: RMCAreaVaraderoExterior
-  name: New Varadero - Exterior
+  name: "Новий Varadero - екстер'єр"
   components:
   - type: Area
     CAS: true
@@ -53,7 +53,7 @@
 - type: entity
   parent: RMCAreaVaradero
   id: RMCAreaVaraderoInterior
-  name: New Varadero - Interior
+  name: "Новий Варадеро - інтер'єр"
   components:
   - type: Area
     CAS: true
@@ -68,7 +68,7 @@
 - type: entity
   parent: RMCAreaVaradero
   id: RMCAreaVaraderoInteriorProtected
-  name: New Varadero - Interior
+  name: "Новий Варадеро - інтер'єр"
   components:
 #  - type: Sprite
 #    state: nv_no_cas
@@ -85,7 +85,7 @@
 - type: entity
   parent: RMCAreaVaraderoInterior
   id: RMCAreaVaraderoInteriorComms1
-  name: New Varadero - Cargo Generator
+  name: "Новий Varadero - генератор вантажів"
   components:
   - type: Sprite
     state: comms1
@@ -96,7 +96,7 @@
 - type: entity
   parent: RMCAreaVaraderoInterior
   id: RMCAreaVaraderoInteriorComms2
-  name: New Varadero - Communications Project Site
+  name: "Новий Варадеро - сайт комунікаційного проекту"
   components:
   - type: Sprite
     state: comms2
@@ -107,7 +107,7 @@
 - type: entity
   parent: RMCAreaVaraderoInterior
   id: RMCAreaVaraderoInteriorComms3
-  name: New Varadero - Engineering Communications
+  name: "Новий Варадеро - інженерні комунікації"
   components:
   - type: Sprite
     state: comms3
@@ -118,7 +118,7 @@
 - type: entity
   parent: RMCAreaVaraderoExterior
   id: RMCAreaVaraderoExteriorComms4
-  name: New Varadero - Walkway Extension
+  name: "Новий Варадеро - розширення пішохідної доріжки"
   components:
   - type: Sprite
     state: comms4
@@ -129,7 +129,7 @@
 - type: entity
   parent: RMCAreaVaraderoInterior
   id: RMCAreaVaraderoInteriorOob
-  name: New Varadero - Out Of Bounds
+  name: "Новий Варадеро - поза межами"
   components:
   - type: Sprite
     state: oob
@@ -150,7 +150,7 @@
 - type: entity
   parent: RMCAreaVaraderoExterior
   id: RMCAreaVaraderoExteriorLz1Console
-  name: New Varadero - Pontoon Dock
+  name: "Новий Варадеро - Понтонний док"
   components:
   - type: Area
     minimapColor: '#EBE5E5E3'
@@ -159,7 +159,7 @@
 - type: entity
   parent: RMCAreaVaraderoExteriorLz1Console
   id: RMCAreaVaraderoExteriorLz1ConsoleTwo
-  name: New Varadero - Palm Airfield
+  name: "Новий Варадеро - Аеродром Пальма"
   components:
   - type: Area
     minimapColor: '#EBE5E5E3'
@@ -167,7 +167,7 @@
 - type: entity
   parent: RMCAreaVaraderoExterior
   id: RMCAreaVaraderoExteriorLz1Near
-  name: New Varadero - Pontoon Airfield
+  name: "Новий Варадеро - Понтонний аеродром"
   components:
   - type: Sprite
     state: lz1
@@ -179,7 +179,7 @@
 - type: entity
   parent: RMCAreaVaraderoExterior
   id: RMCAreaVaraderoExteriorLz2Near
-  name: New Varadero - Palm Airfield
+  name: "Новий Варадеро - Аеродром Пальма"
   components:
   - type: Sprite
     state: lz2
@@ -191,7 +191,7 @@
 - type: entity
   parent: RMCAreaVaraderoExterior
   id: RMCAreaVaraderoExteriorPontoonBeach
-  name: New Varadero - Rockabilly Beach
+  name: "Новий Варадеро - Пляж Рокабіллі"
   components:
   - type: Sprite
     state: varadero0
@@ -210,7 +210,7 @@
 - type: entity
   parent: RMCAreaVaraderoExterior
   id: RMCAreaVaraderoExteriorEastbeach
-  name: New Varadero - East Beach
+  name: "Новий Варадеро - Східний пляж"
   components:
   - type: Sprite
     state: varadero1
@@ -221,7 +221,7 @@
 - type: entity
   parent: RMCAreaVaraderoExterior
   id: RMCAreaVaraderoExteriorMonsoon
-  name: New Varadero - Monsoon
+  name: "Новий Варадеро - Мусон"
   components:
   - type: Sprite
     state: varadero1
@@ -231,7 +231,7 @@
 - type: entity
   parent: RMCAreaVaraderoExterior
   id: RMCAreaVaraderoExteriorPool
-  name: New Varadero - Interior Pool
+  name: "Новий Варадеро - внутрішній басейн"
   components:
   - type: Sprite
     state: varadero1
@@ -241,7 +241,7 @@
 - type: entity
   parent: RMCAreaVaraderoExterior
   id: RMCAreaVaraderoExteriorEastocean
-  name: New Varadero - East Ocean
+  name: "Новий Варадеро - Східний океан"
   components:
   - type: Sprite
     state: varadero2
@@ -255,7 +255,7 @@
 - type: entity
   parent: RMCAreaVaraderoExterior
   id: RMCAreaVaraderoExteriorFarocean
-  name: New Varadero - Far Ocean
+  name: "Новий Варадеро - Далекий океан"
   components:
   - type: Sprite
     state: varadero3
@@ -268,7 +268,7 @@
 - type: entity
   parent: RMCAreaVaraderoInterior
   id: RMCAreaVaraderoInteriorBeachBar
-  name: New Varadero - Beach Bar
+  name: "Новий Варадеро - пляжний бар"
   components:
   - type: Sprite
     state: varadero4
@@ -279,7 +279,7 @@
 - type: entity
   parent: RMCAreaVaraderoInterior
   id: RMCAreaVaraderoInteriorDockControl
-  name: New Varadero - Dock Control
+  name: "Новий Varadero - управління доком"
   components:
   - type: Sprite
     state: varadero3
@@ -291,7 +291,7 @@
 - type: entity
   parent: RMCAreaVaraderoInterior
   id: RMCAreaVaraderoInteriorCargo
-  name: New Varadero - Cargo
+  name: "Новий Варадеро - Вантажні перевезення"
   components:
   - type: Sprite
     state: req0
@@ -302,7 +302,7 @@
 - type: entity
   parent: RMCAreaVaraderoInterior
   id: RMCAreaVaraderoInteriorHallNW
-  name: New Varadero - Hallway NW
+  name: "Новий Варадеро - коридор NW"
   components:
   - type: Sprite
     state: hall0
@@ -310,7 +310,7 @@
 - type: entity
   parent: RMCAreaVaraderoInterior
   id: RMCAreaVaraderoInteriorHallN
-  name: New Varadero - Hallway N
+  name: "Новий Варадеро - коридор N"
   components:
   - type: Sprite
     state: hall2
@@ -320,7 +320,7 @@
 - type: entity
   parent: RMCAreaVaraderoInterior
   id: RMCAreaVaraderoInteriorHallSE
-  name: New Varadero - Hallway SE
+  name: "Новий Варадеро - коридор SE"
   components:
   - type: Sprite
     state: hall1
@@ -328,7 +328,7 @@
 - type: entity
   parent: RMCAreaVaraderoInterior
   id: RMCAreaVaraderoInteriorChapel
-  name: New Vardero - Chapel
+  name: "Новий Вардеро - каплиця"
   components:
   - type: Sprite
     state: offices1
@@ -339,7 +339,7 @@
 - type: entity
   parent: RMCAreaVaraderoInterior
   id: RMCAreaVaraderoInteriorMorgue
-  name: New Varadero - Morgue
+  name: "Новий Варадеро - морг"
   components:
   - type: Sprite
     state: offices0
@@ -350,7 +350,7 @@
 - type: entity
   parent: RMCAreaVaraderoInterior
   id: RMCAreaVaraderoInteriorMedical
-  name: New Varadero - Medical
+  name: "Новий Варадеро - Медичний"
   components:
   - type: Sprite
     state: offices2
@@ -360,7 +360,7 @@
 - type: entity
   parent: RMCAreaVaraderoInterior
   id: RMCAreaVaraderoInteriorMaintenance
-  name: New Varadero - Central Maintenance
+  name: "Новий Варадеро - центральне технічне обслуговування"
   components:
   - type: Sprite
     state: tunnels0
@@ -368,7 +368,7 @@
 - type: entity
   parent: RMCAreaVaraderoInteriorMaintenance
   id: RMCAreaVaraderoInteriorMaintenanceNorth
-  name: New Varadero - Northern Maintenance
+  name: "Новий Варадеро - Північне технічне обслуговування"
   components:
   - type: Sprite
     state: tunnels1
@@ -378,7 +378,7 @@
 - type: entity
   parent: RMCAreaVaraderoInteriorMaintenance
   id: RMCAreaVaraderoInteriorMaintenanceResearch
-  name: New Varadero - Research Maintenance
+  name: "Новий Варадеро - підтримка досліджень"
   components:
   - type: Sprite
     state: tunnels1
@@ -388,7 +388,7 @@
 - type: entity
   parent: RMCAreaVaraderoInteriorMaintenance
   id: RMCAreaVaraderoInteriorMaintenanceSecurity
-  name: New Varadero - Sec. Maintenance
+  name: "Новий Варадеро - Sec. Технічне обслуговування"
   components:
   - type: Sprite
     state: tunnels2
@@ -398,7 +398,7 @@
 - type: entity
   parent: RMCAreaVaraderoInteriorMaintenanceSecurity
   id: RMCAreaVaraderoInteriorMaintenanceSecurityNorth
-  name: New Varadero - North Sec. Maintenance
+  name: "Новий Варадеро - Північна секція технічного обслуговування"
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -406,12 +406,12 @@
 - type: entity
   parent: RMCAreaVaraderoInteriorMaintenanceSecurity
   id: RMCAreaVaraderoInteriorMaintenanceSecuritySouth
-  name: New Varadero - South Sec. Maintenance
+  name: "Новий Варадеро - південна частина обслуговування"
 
 - type: entity
   parent: RMCAreaVaraderoInterior
   id: RMCAreaVaraderoInteriorResearch
-  name: New Varadero - Research Offices
+  name: "Новий Варадеро - Дослідницькі офіси"
   components:
   - type: Sprite
     state: offices4
@@ -421,7 +421,7 @@
 - type: entity
   parent: RMCAreaVaraderoInterior
   id: RMCAreaVaraderoInteriorElectrical
-  name: New Varadero - Electrical Annex
+  name: "Новий Варадеро - електричний додаток"
   components:
   - type: Sprite
     state: req4
@@ -432,7 +432,7 @@
 - type: entity
   parent: RMCAreaVaraderoInterior
   id: RMCAreaVaraderoInteriorToilets
-  name: New Varadero - Restrooms
+  name: "Новий Варадеро - туалети"
   components:
   - type: Sprite
     state: req0
@@ -440,7 +440,7 @@
 - type: entity
   parent: RMCAreaVaraderoInterior
   id: RMCAreaVaraderoInteriorTechnicalStorage
-  name: New Varadero - Technical Storage
+  name: "Новий Варадеро - технічний склад"
   components:
   - type: Sprite
     state: req3
@@ -450,7 +450,7 @@
 - type: entity
   parent: RMCAreaVaraderoInterior
   id: RMCAreaVaraderoInteriorLaundry
-  name: New Varadero - Laundry
+  name: "Новий Варадеро - Пральня"
   components:
   - type: Sprite
     state: req2
@@ -458,7 +458,7 @@
 - type: entity
   parent: RMCAreaVaraderoInterior
   id: RMCAreaVaraderoInteriorDisposals
-  name: New Varadero - Disposals
+  name: "Новий Варадеро - Утилізація"
   components:
   - type: Sprite
     state: offices4
@@ -468,7 +468,7 @@
 - type: entity
   parent: RMCAreaVaraderoInterior
   id: RMCAreaVaraderoInteriorAdministration
-  name: New Varadero - Administrative Offices
+  name: "Новий Варадеро - Адміністративні офіси"
   components:
   - type: Sprite
     state: offices2
@@ -478,7 +478,7 @@
 - type: entity
   parent: RMCAreaVaraderoInterior
   id: RMCAreaVaraderoInteriorLibrary
-  name: New Varadero - Library
+  name: "Новий Варадеро - Бібліотека"
   components:
   - type: Sprite
     state: offices0
@@ -489,7 +489,7 @@
 - type: entity
   parent: RMCAreaVaraderoInterior
   id: RMCAreaVaraderoInteriorCourt
-  name: New Varadero - Basketball Court
+  name: "Новий Варадеро - баскетбольний майданчик"
   components:
   - type: Sprite
     state: req4
@@ -499,7 +499,7 @@
 - type: entity
   parent: RMCAreaVaraderoInterior
   id: RMCAreaVaraderoInteriorMess
-  name: New Varadero - Mess Hall
+  name: "Новий Варадеро - їдальня"
   components:
   - type: Sprite
     state: req2
@@ -509,7 +509,7 @@
 - type: entity
   parent: RMCAreaVaraderoInterior
   id: RMCAreaVaraderoInteriorBunks
-  name: New Varadero - Level 1 Quarters
+  name: "Новий Варадеро - Квартали 1-го рівня"
   components:
   - type: Sprite
     state: req3
@@ -519,7 +519,7 @@
 - type: entity
   parent: RMCAreaVaraderoInterior
   id: RMCAreaVaraderoInteriorSecurity
-  name: New Varadero - Security Offices
+  name: "Новий Варадеро - офіси безпеки"
   components:
   - type: Sprite
     state: offices0
@@ -529,7 +529,7 @@
 - type: entity
   parent: RMCAreaVaraderoInterior
   id: RMCAreaVaraderoInteriorRecords
-  name: New Varadero - Records
+  name: "Новий Варадеро - рекорди"
   components:
   - type: Sprite
     state: offices2
@@ -537,7 +537,7 @@
 - type: entity
   parent: RMCAreaVaraderoInterior
   id: RMCAreaVaraderoInteriorRearElevator
-  name: New Varadero - Main Lift
+  name: "Новий Варадеро - головний підйомник"
   components:
   - type: Sprite
     state: req3
@@ -545,7 +545,7 @@
 - type: entity
   parent: RMCAreaVaraderoInterior
   id: RMCAreaVaraderoInteriorCaves
-  name: New Varadero - PARENT TYPE CAVES
+  name: "Новий Варадеро - печери батьківського типу"
   components:
   - type: Sprite
     state: tunnels0
@@ -555,7 +555,7 @@
 - type: entity
   parent: RMCAreaVaraderoInteriorCaves
   id: RMCAreaVaraderoInteriorCavesNorthResearch
-  name: New Varadero - North Research Caves
+  name: "Новий Варадеро - Північні дослідницькі печери"
   components:
   - type: Sprite
     state: tunnels4
@@ -563,7 +563,7 @@
 - type: entity
   parent: RMCAreaVaraderoInteriorCaves
   id: RMCAreaVaraderoInteriorCavesEast
-  name: New Varadero - Beach Caves
+  name: "Новий Варадеро - пляжні печери"
   components:
   - type: Sprite
     state: tunnels2
@@ -571,7 +571,7 @@
 - type: entity
   parent: RMCAreaVaraderoInteriorProtected
   id: RMCAreaVaraderoInteriorProtectedCaves
-  name: New Varadero - South Research Caves
+  name: "Новий Варадеро - Південні дослідницькі печери"
   components:
   - type: Sprite
     state: deepcaves0
@@ -581,7 +581,7 @@
 - type: entity
   parent: RMCAreaVaraderoInteriorProtectedCaves
   id: RMCAreaVaraderoInteriorProtectedCavesCentral
-  name: New Varadero - Grass Caves
+  name: "Новий Варадеро - Трав'яні печери"
   components:
   - type: Sprite
     state: deepcaves2
@@ -591,7 +591,7 @@
 - type: entity
   parent: RMCAreaVaraderoInteriorProtectedCaves
   id: RMCAreaVaraderoInteriorProtectedCavesDigsite
-  name: New Varadero - Dig Site
+  name: "Новий Варадеро - місце розкопок"
   components:
   - type: Sprite
     state: deepcaves3
@@ -599,7 +599,7 @@
 - type: entity
   parent: RMCAreaVaraderoInteriorProtectedCaves
   id: RMCAreaVaraderoInteriorProtectedCavesSwcaves
-  name: New Varadero - Southwest Caves
+  name: "Новий Варадеро - Південно-Західні печери"
   components:
   - type: Sprite
     state: deepcaves3
@@ -612,7 +612,7 @@
 - type: entity
   parent: RMCAreaVaraderoInteriorProtectedMaintenance
   id: RMCAreaVaraderoInteriorProtectedMaintenanceSouth
-  name: New Varadero - Southern Maintenance
+  name: "Новий Варадеро - Південне технічне обслуговування"
   components:
   - type: Sprite
     state: deepcaves4
@@ -622,7 +622,7 @@
 - type: entity
   parent: RMCAreaVaraderoInteriorProtected
   id: RMCAreaVaraderoInteriorProtectedVessel
-  name: New Varadero - Unknown Vessel
+  name: "Новий Варадеро - невідоме судно"
   components:
   - type: Sprite
     state: predship

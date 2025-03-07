@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: MarkerBase
   id: RMCSpawnerBureauObserver
-  name: interstellar sapient-life rights observer spawner
+  name: "міжзоряний спостерігач за правами людини на життя"
   suffix: Spawner
   components:
   - type: Sprite
@@ -15,7 +15,7 @@
 
 - type: entity
   id: RMCRandomHumanoidBureauObserver
-  name: interstellar sapient-life rights observer ghost role
+  name: "міжзоряний спостерігач за правами розумного життя роль примари"
   suffix: Role
   components:
   - type: Sprite

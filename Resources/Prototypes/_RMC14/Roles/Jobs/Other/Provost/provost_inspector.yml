@@ -29,7 +29,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerProvostInspector
-  name: provost spawner inspector
+  name: "провідний інспектор з нересту"
   suffix: Spawner, Player, Medium Law Understanding
   components:
   - type: Sprite
@@ -41,7 +41,7 @@
 
 - type: entity
   id: RMCRandomHumanoidProvostInspector
-  name: provost ghost role inspector
+  name: "проректор, інспектор ролі привида"
   suffix: Role, Player, Medium Law Understanding
   components:
   - type: Sprite
@@ -100,7 +100,7 @@
 - type: entity
   parent: CMIDCardGold # TODO RMC14 provost id
   id: RMCIDCardProvostInspector
-  name: provost inspector ID card
+  name: "посвідчення проректора-інспектора"
   components:
   - type: PresetIdCard
     job: CMProvostInspector

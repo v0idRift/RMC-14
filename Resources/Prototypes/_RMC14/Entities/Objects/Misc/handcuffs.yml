@@ -1,8 +1,8 @@
 - type: entity
   parent: Handcuffs
   id: RMCHandcuffs
-  name: handcuffs
-  description: Use this to keep prisoners in line.
+  name: "наручники"
+  description: "Використовуйте його, щоб тримати ув'язнених у покорі."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/handcuffs.rsi
@@ -25,8 +25,8 @@
 - type: entity
   parent: RMCHandcuffs
   id: RMCZipties
-  name: zipties
-  description: Tough single-use plastic zipties, ideal for restraining rowdy prisoners.
+  name: "застібки-блискавки"
+  description: "Міцні одноразові пластикові застібки-блискавки, ідеально підходять для стримування буйних ув'язнених."
   suffix: RMC
   components:
   - type: UseDelay
@@ -52,10 +52,10 @@
 
 # TODO RMC14 this should inherit from a RMC box prototype which contains the box sprites, then be filled
 - type: entity
-  name: ziptie box
+  name: "коробка на застібці-блискавці"
   parent: BaseItem
   id: RMCBoxZiptie
-  description: A box full of zipties.
+  description: "Коробка, повна застібок-блискавок."
   suffix: RMC
   components:
   - type: Item

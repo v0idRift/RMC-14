@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: RMCAreaBase
   id: RMCAreaERT
-  name: ERT station
+  name: "станція ERT"
   components:
   - type: Sprite
     state: green

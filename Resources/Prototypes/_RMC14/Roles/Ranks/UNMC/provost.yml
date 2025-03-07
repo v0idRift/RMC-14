@@ -1,62 +1,62 @@
 # Whisper
 - type: rank
   id: RMCRankProvostSectorMarshal
-  name: Sector Marshal
+  name: "Маршал сектору"
   prefix: PvSM.
   paygrade: O9
 
 # Any admin with high law understanding
 - type: rank
   id: RMCRankProvostSeniorMarshal
-  name: Senior Marshal
+  name: "Старший маршал"
   prefix: PvSnM.
   paygrade: O8
 
 # Any admin with low law understanding, or wanting a lower rank
 - type: rank
   id: RMCRankProvostMarshal
-  name: Marshal
+  name: "Маршале!"
   prefix: PvM.
   paygrade: O7
 
 # Any whitelisted CO
 - type: rank
   id: RMCRankProvostDeputyMarshal
-  name: Deputy Marshal
+  name: "Заступник маршала"
   prefix: PvDM.
   paygrade: O6
 
 # Any player with high law understanding
 - type: rank
   id: RMCRankProvostChiefInspector
-  name: Chief Inspector
+  name: "Старший інспектор"
   prefix: PvCI.
   paygrade: CI
 
 # Any player with medium-low law understanding
 - type: rank
   id: RMCRankProvostInspector
-  name: Provost Inspector
+  name: "Інспектор проректора"
   prefix: PvI.
   paygrade: I
 
 # Any player with low law understanding, with guidance
 - type: rank
   id: RMCRankProvostAdvisor
-  name: Sergeant Major
+  name: "Сержант-майор"
   prefix: SgtMaj.
   paygrade: E9E
 
 # Any player with given objective, possible team leader
 - type: rank
   id: RMCRankProvostProvostTeamLeader
-  name: Master Sergeant
+  name: "Старший сержант"
   prefix: MSgt.
   paygrade: E8
 
 # Any player with given objective, squad member
 - type: rank
   id: RMCRankProvostProvostEnforcer
-  name: Staff Sergeant
+  name: "Старший сержант"
   prefix: SSgt.
   paygrade: E6

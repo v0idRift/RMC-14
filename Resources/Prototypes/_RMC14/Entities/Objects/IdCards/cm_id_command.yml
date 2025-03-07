@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: CMIDCardSilver
   id: CMIDCardStaffOfficer
-  name: staff officer ID card
+  name: "посвідчення штабного офіцера"
   components:
   - type: PresetIdCard
     job: CMStaffOfficer
@@ -9,7 +9,7 @@
 - type: entity
   parent: CMIDCardGold
   id: CMIDCardCommandingOfficer
-  name: commanding officer ID card
+  name: "посвідчення особи командира"
   components:
   - type: PresetIdCard
     job: CMCommandingOfficer
@@ -17,7 +17,7 @@
 - type: entity
   parent: CMIDCardSilver
   id: CMIDCardExecutiveOfficer
-  name: executive officer ID card
+  name: "посвідчення особи керівника"
   components:
   - type: PresetIdCard
     job: CMExecutiveOfficer
@@ -25,9 +25,9 @@
 - type: entity
   parent: IDCardStandard # Deliberately parenting off of upstream ID card cause it needs to work with admin access configurator.
   id: CMIDCardHighCommand
-  name: high command ID card
+  name: "посвідчення особи вищого командування"
   suffix: Admin
-  description: A gold-plated holo-badge reserved for those exclusively above your rank.
+  description: "Позолочений голографічний значок, призначений виключно для тих, хто має вищий ранг."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/CMIDs/gold_id.rsi
@@ -52,9 +52,9 @@
 - type: entity
   parent: IDCardStandard # Is more-or-less a copy of the admin ID due to being for High-Ranked Provost-Marshal types that should be only used by admins.
   id: CMIDCardProvostSectorMarshal
-  name: Provost Sector Marshal ID card
+  name: "Посвідчення маршала сектору проректора"
   suffix: Admin
-  description: A gold-plated holo-badge reserved for those exclusively above your rank, this one bares the symbol of the Provost Marshal's office.
+  description: "Позолочений голографічний значок, призначений виключно для тих, хто має вищий ранг, має символ офісу Головного військового маршала."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/CMIDs/gold_id.rsi

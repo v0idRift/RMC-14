@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: RMCStatusDisplay
-  name: status display
-  description: A monitor depicting the ship's current status. It flickers every so often.
+  name: "відображення стану"
+  description: "Монітор, що відображає поточний стан корабля. Він час від часу мерехтить."
   placement:
     mode: SnapgridCenter
   components:

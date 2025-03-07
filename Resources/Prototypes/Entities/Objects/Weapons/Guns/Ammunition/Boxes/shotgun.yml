@@ -34,7 +34,7 @@
 - type: entity
   parent: AmmoProviderShotgunShell
   id: BoxBeanbag
-  name: shell box (beanbag)
+  name: "коробка для снарядів (бобовий мішок)"
   components:
     - type: BallisticAmmoProvider
       proto: ShellShotgunBeanbag
@@ -47,7 +47,7 @@
       - state: beanbag
 
 - type: entity
-  name: shell box (lethal)
+  name: "гільза (смертельна)"
   parent: AmmoProviderShotgunShell
   id: BoxLethalshot
   components:
@@ -62,7 +62,7 @@
       - state: lethal
 
 - type: entity
-  name: shell box (slug)
+  name: "гільза (пуля)"
   parent: AmmoProviderShotgunShell
   id: BoxShotgunSlug
   components:
@@ -81,7 +81,7 @@
       - state: slug
 
 - type: entity
-  name: shell box (flare)
+  name: "снарядний ящик (факел)"
   parent: AmmoProviderShotgunShell
   id: BoxShotgunFlare
   components:
@@ -96,7 +96,7 @@
       - state: flare
 
 - type: entity
-  name: shell box (incendiary)
+  name: "гільза (запальна)"
   parent: AmmoProviderShotgunShell
   id: BoxShotgunIncendiary
   components:
@@ -111,7 +111,7 @@
       - state: incendiary
 
 - type: entity
-  name: shell box (uranium)
+  name: "коробка оболонки (уранова)"
   parent: AmmoProviderShotgunShell
   id: BoxShotgunUranium
   components:
@@ -130,7 +130,7 @@
       - state: uranium
 
 - type: entity
-  name: shell box (practice)
+  name: "снарядний ящик (практика)"
   parent: AmmoProviderShotgunShell
   id: BoxShotgunPractice
   components:
@@ -145,7 +145,7 @@
       - state: practice
 
 - type: entity
-  name: shell box (tranquilizer)
+  name: "гільза (транквілізатор)"
   parent: AmmoProviderShotgunShell
   id: BoxShellTranquilizer
   components:

@@ -3,7 +3,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerBureauMarshal
-  name: bureau marshal spawner
+  name: "бюро маршал споунер"
   suffix: Spawner
   components:
     - type: Sprite
@@ -17,7 +17,7 @@
 
 - type: entity
   id: RMCRandomHumanoidBureauMarshal
-  name: bureau marshal ghost role
+  name: "роль примари бюро маршала"
   suffix: Role
   components:
     - type: Sprite
@@ -78,7 +78,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerBureauDeputy
-  name: bureau deputy spawner
+  name: "заступник керівника бюро спавнер"
   suffix: Spawner
   components:
     - type: Sprite
@@ -92,7 +92,7 @@
 
 - type: entity
   id: RMCRandomHumanoidBureauDeputy
-  name: bureau deputy ghost role
+  name: "примарна роль заступника бюро"
   suffix: Role
   components:
     - type: Sprite

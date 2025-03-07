@@ -59,8 +59,8 @@
 - type: entity
   parent: RMCFoodPizzaFullBase
   id: RMCFoodPizzaMargheritaFull
-  name: margherita
-  description: The golden standard of pizzas.
+  name: "маргарита"
+  description: "Золотий стандарт піци."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/Pizza/margherita.rsi
@@ -77,8 +77,8 @@
 - type: entity
   parent: RMCFoodPizzaSliceBase
   id: RMCFoodPizzaMargheritaSlice
-  name: margherita slice
-  description: A slice of the classic pizza.
+  name: "шматочок маргарити"
+  description: "Шматок класичної піци."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/Pizza/margherita.rsi
@@ -92,8 +92,8 @@
 - type: entity
   parent: RMCFoodPizzaFullBase
   id: RMCFoodPizzaMeatFull
-  name: meat pizza
-  description: A pizza with meat topping.
+  name: "м'ясна піца"
+  description: "Піца з м'ясною начинкою."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/Pizza/meat.rsi
@@ -109,8 +109,8 @@
 - type: entity
   parent: RMCFoodPizzaSliceBase
   id: RMCFoodPizzaMeatSlice
-  name: meat pizza slice
-  description: A slice of a meaty pizza.
+  name: "шматочок м'ясної піци"
+  description: "Шматок м'ясної піци."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/Pizza/meat.rsi
@@ -125,8 +125,8 @@
 - type: entity
   parent: RMCFoodPizzaFullBase
   id: RMCFoodPizzaMushroomFull
-  name: mushroom pizza
-  description: Very special pizza.
+  name: "грибна піца"
+  description: "Дуже особлива піца."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/Pizza/mushroom.rsi
@@ -141,8 +141,8 @@
 - type: entity
   parent: RMCFoodPizzaSliceBase
   id: RMCFoodPizzaMushroomSlice
-  name: mushroom pizza slice
-  description: Maybe it is the last slice of pizza in your life.
+  name: "шматочок грибної піци"
+  description: "Можливо, це останній шматок піци у вашому житті."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/Pizza/mushroom.rsi
@@ -156,8 +156,8 @@
 - type: entity
   parent: RMCFoodPizzaFullBase
   id: RMCFoodPizzaVegetableFull
-  name: vegetable pizza
-  description: No one of Tomato Sapiens were harmed during making this pizza.
+  name: "овочева піца"
+  description: "Під час приготування цієї піци ніхто з Томатних Сапієнсів не постраждав."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/Pizza/vegetable.rsi
@@ -186,8 +186,8 @@
 - type: entity
   parent: RMCFoodPizzaSliceBase
   id: RMCFoodPizzaVegetableSlice
-  name: vegetable slice
-  description: A slice of the most green pizza of all pizzas not containing green ingredients.
+  name: "овочева скибочка"
+  description: "Шматок найзеленішої піци з усіх піц, що не містять зелених інгредієнтів."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/Pizza/vegetable.rsi
@@ -216,8 +216,8 @@
 - type: entity
   parent: BaseStorageItem
   id: RMCBoxPizza
-  name: pizza box
-  description: A box suited for pizzas.
+  name: "коробка з-під піци"
+  description: "Коробка для піци."
   suffix: Empty
   components:
   - type: Sprite

@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseStorageItem
   id: CMPacketBase
-  name: packet
+  name: "пакет"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/packets.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: CMPacketBase
   id: CMPacketGrenadeHighExplosive
-  name: HEDP grenade packet
-  description: It contains three HEDP high explosive grenades.
+  name: "Корпус гранати HEDP"
+  description: "У ньому знаходяться три осколково-фугасні гранати."
   components:
   - type: Sprite
     layers:
@@ -58,8 +58,8 @@
 - type: entity
   parent: CMPacketBase
   id: CMPacketGrenadeFrag
-  name: HEFA grenade packet
-  description: It contains three HEFA grenades. Don't tell the HEFA order.
+  name: "Пакет для гранати HEFA"
+  description: "Він містить три гранати HEFA. Не кажи нікому про наказ HEFA."
   components:
   - type: Sprite
     layers:
@@ -81,7 +81,7 @@
 - type: entity
   parent: BaseStorageItem
   id: RMCPacketGrenadeFlashBang
-  name: box of flashbangs (WARNING)
+  name: "коробка сигнальних ракетниць (ПОПЕРЕДЖЕННЯ)"
   suffix: Filled
   components:
   - type: Sprite
@@ -120,8 +120,8 @@
 - type: entity
   parent: CMPacketBase
   id: RMCPacketGrenadeSmoke
-  name: HSDP grenade packet
-  description: It contains three HSDP smoke grenades.
+  name: "Корпус гранати РГДШ"
+  description: "У ньому знаходяться три димові шашки СВДП."
   components:
   - type: Sprite
     layers:
@@ -143,8 +143,8 @@
 - type: entity
   parent: CMPacketBase
   id: RMCPacketGrenadeM74AGMF
-  name: M74AGM-F grenade packet
-  description: It contains three M74AGM-Frag airburst grenades.
+  name: "пакет гранат M74AGM-F"
+  description: "Містить три осколкові гранати M74AGM з повітряним вибухом."
   components:
   - type: Sprite
     layers:
@@ -166,8 +166,8 @@
 - type: entity
   parent: CMPacketBase
   id: RMCPacketGrenadeM74AGMI
-  name: M74AGM-I grenade packet
-  description: It contains three M74AGM-Incendiary airburst grenades.
+  name: "пакет гранат M74AGM-I"
+  description: "Містить три осколково-запальні гранати M74AGM-I повітряного підриву."
   components:
   - type: Sprite
     layers:
@@ -189,8 +189,8 @@
 - type: entity
   parent: CMPacketBase
   id: RMCPacketGrenadeM74AGMS
-  name: M74AGM-S grenade packet
-  description: It contains three M74AGM-Smoke airburst grenades.
+  name: "пакет гранат M74AGM-S"
+  description: "Містить три димові гранати M74AGM з повітряним вибухом."
   components:
   - type: Sprite
     layers:
@@ -212,8 +212,8 @@
 - type: entity
   parent: CMPacketBase
   id: RMCPacketGrenadeM74AGMSHornet
-  name: M74AGM-S Hornet grenade packet
-  description: It contains three M74AGM-S Hornet airburst grenades.
+  name: "пакет гранат M74AGM-S \"Шершень"
+  description: "Містить три гранати M74AGM-S \"Шершень\" з повітряним вибухом."
   components:
   - type: Sprite
     layers:
@@ -235,8 +235,8 @@
 - type: entity
   parent: CMPacketBase
   id: RMCPacketGrenadeM74AGMSStarShell
-  name: M74AGM-S Starshell grenade packet
-  description: It contains three M74AGM-S Starshell airburst grenades.
+  name: "пакет гранат M74AGM-S Starshell"
+  description: "Містить три гранати M74AGM-S Starshell повітряного підриву."
   components:
   - type: Sprite
     layers:
@@ -258,8 +258,8 @@
 - type: entity
   parent: CMPacketBase
   id: RMCPacketGrenadeBatonSlugHIRR
-  name: HIRR Baton Slug packet
-  description: It contains three HIRR Baton Slug rounds.
+  name: "пакет ударних куль HIRR"
+  description: "Містить три ударні кулі HIRR."
   components:
   - type: Sprite
     layers:
@@ -281,8 +281,8 @@
 - type: entity
   parent: CMPacketBase
   id: RMCPacketGrenadeIncendiary
-  name: HIDP grenade packet
-  description: It contains three HIDP incendiary grenades.
+  name: "Пакет з гранатою для ВПО"
+  description: "У ньому знаходилися три запальні гранати РГДШ."
   components:
   - type: Sprite
     layers:
@@ -304,8 +304,8 @@
 - type: entity
   parent: CMPacketBase
   id: CMPacketGrenadeFragOld
-  name: M15 frag grenade packet
-  description: It contains three M15 fragmentation grenades. Handle with care.
+  name: "Пакет осколкової гранати М15"
+  description: "Містить три осколкові гранати М15. Поводьтеся з ним обережно."
   components:
   - type: Sprite
     layers:

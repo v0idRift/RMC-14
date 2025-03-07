@@ -14,7 +14,7 @@
 - type: entity
   parent: RMCAreaLv624
   id: RMCAreaLv624Ground
-  name: Ground
+  name: "Земля"
   components:
   - type: Sprite
     state: green
@@ -29,7 +29,7 @@
 - type: entity
   parent: RMCAreaLv624GroundJungle
   id: RMCAreaLv624GroundJungleSouthEastJungle
-  name: Southeast Jungle
+  name: "Південно-східні джунглі"
   components:
   - type: Sprite
     state: southeast
@@ -37,7 +37,7 @@
 - type: entity
   parent: RMCAreaLv624GroundJungle
   id: RMCAreaLv624GroundJungleSouthCentralJungle
-  name: Southern Central Jungle
+  name: "Південно-Центральні джунглі"
   components:
   - type: Sprite
     state: south
@@ -45,7 +45,7 @@
 - type: entity
   parent: RMCAreaLv624GroundJungle
   id: RMCAreaLv624GroundJungleSouthWestJungle
-  name: Southwest Jungle
+  name: "Південно-західні джунглі"
   components:
   - type: Sprite
     state: southwest
@@ -67,7 +67,7 @@
 - type: entity
   parent: RMCAreaLv624GroundJungle
   id: RMCAreaLv624GroundJungleWestJungle
-  name: Western Jungle
+  name: "Західні джунглі"
   components:
   - type: Sprite
     state: west
@@ -91,7 +91,7 @@
 - type: entity
   parent: RMCAreaLv624GroundJungle
   id: RMCAreaLv624GroundJungleEastJungle
-  name: Eastern Jungle
+  name: "Східні джунглі"
   components:
   - type: Sprite
     state: east
@@ -99,7 +99,7 @@
 - type: entity
   parent: RMCAreaLv624GroundJungle
   id: RMCAreaLv624GroundJungleNorthWestJungle
-  name: Northwest Jungle
+  name: "Північно-Західні джунглі"
   components:
   - type: Sprite
     state: northwest
@@ -107,7 +107,7 @@
 - type: entity
   parent: RMCAreaLv624GroundJungle
   id: RMCAreaLv624GroundJungleNorthJungle
-  name: Northern Jungle
+  name: "Північні джунглі"
   components:
   - type: Sprite
     state: north
@@ -115,7 +115,7 @@
 - type: entity
   parent: RMCAreaLv624GroundJungle
   id: RMCAreaLv624GroundJungleNorthEastJungle
-  name: Northeast Jungle
+  name: "Північно-східні джунглі"
   components:
   - type: Sprite
     state: northeast
@@ -123,7 +123,7 @@
 - type: entity
   parent: RMCAreaLv624GroundJungle
   id: RMCAreaLv624GroundJungleCentralJungle
-  name: Central Jungle
+  name: "Центральні джунглі"
   components:
   - type: Sprite
     state: central
@@ -131,7 +131,7 @@
 - type: entity
   parent: RMCAreaLv624GroundJungle
   id: RMCAreaLv624GroundJungleWestCentralJungle
-  name: West Central Jungle
+  name: "Західно-Центральні джунглі"
   components:
   - type: Sprite
     state: west
@@ -141,7 +141,7 @@
 - type: entity
   parent: RMCAreaLv624GroundJungle
   id: RMCAreaLv624GroundJungleEastCentralJungle
-  name: East Central Jungle
+  name: "Центрально-східні джунглі"
   components:
   - type: Sprite
     state: east
@@ -149,7 +149,7 @@
 - type: entity
   parent: RMCAreaLv624Ground
   id: RMCAreaLv624GroundBarrens
-  name: Barrens
+  name: "Безплідні"
   components:
   - type: Sprite
     state: yellow
@@ -157,7 +157,7 @@
 - type: entity
   parent: RMCAreaLv624GroundBarrens
   id: RMCAreaLv624GroundBarrensWestBarrens
-  name: Western Barrens
+  name: "Західні Баррени"
   components:
   - type: Sprite
     state: west
@@ -179,7 +179,7 @@
 - type: entity
   parent: RMCAreaLv624GroundBarrens
   id: RMCAreaLv624GroundBarrensEastBarrens
-  name: Eastern Barrens
+  name: "Східна пустеля"
   components:
   - type: Sprite
     state: east
@@ -201,7 +201,7 @@
 - type: entity
   parent: RMCAreaLv624GroundBarrens
   id: RMCAreaLv624GroundBarrensContainers
-  name: Containers
+  name: "Контейнери"
   components:
   - type: Sprite
     state: blue-red
@@ -209,7 +209,7 @@
 - type: entity
   parent: RMCAreaLv624GroundBarrens
   id: RMCAreaLv624GroundBarrensNorthEastBarrens
-  name: North Eastern Barrens
+  name: "Північно-Східні Баррени"
   components:
   - type: Sprite
     state: northeast
@@ -231,7 +231,7 @@
 - type: entity
   parent: RMCAreaLv624GroundBarrens
   id: RMCAreaLv624GroundBarrensSouthWestBarrens
-  name: South Western Barrens
+  name: "Південно-Західний Баренц"
   components:
   - type: Sprite
     state: southwest
@@ -239,7 +239,7 @@
 - type: entity
   parent: RMCAreaLv624GroundBarrens
   id: RMCAreaLv624GroundBarrensCentralBarrens
-  name: Central Barrens
+  name: "Центральне безпліддя"
   components:
   - type: Sprite
     state: away1
@@ -247,7 +247,7 @@
 - type: entity
   parent: RMCAreaLv624GroundBarrens
   id: RMCAreaLv624GroundBarrensSouthEasternBarrens
-  name: South Eastern Barrens
+  name: "Південно-східні бархани"
   components:
   - type: Sprite
     state: southeast
@@ -255,7 +255,7 @@
 - type: entity
   parent: RMCAreaLv624GroundBarrens
   id: RMCAreaLv624GroundBarrensSouthEasternJungleBarrens
-  name: South East Jungle Barrens
+  name: "Південно-східні джунглі безплідні"
   components:
   - type: Sprite
     state: southeast
@@ -263,7 +263,7 @@
 - type: entity
   parent: RMCAreaLv624Ground
   id: RMCAreaLv624GroundRiver
-  name: River
+  name: "Річка"
   components:
   - type: Sprite
     state: blueold
@@ -271,7 +271,7 @@
 - type: entity
   parent: RMCAreaLv624GroundRiver
   id: RMCAreaLv624GroundRiverWestRiver
-  name: Western River
+  name: "Західна річка"
   components:
   - type: Sprite
     state: blueold
@@ -279,7 +279,7 @@
 - type: entity
   parent: RMCAreaLv624GroundRiver
   id: RMCAreaLv624GroundRiverCentralRiver
-  name: Central River
+  name: "Центральна річка"
   components:
   - type: Sprite
     state: purple
@@ -287,7 +287,7 @@
 - type: entity
   parent: RMCAreaLv624GroundRiver
   id: RMCAreaLv624GroundRiverEastRiver
-  name: Eastern River
+  name: "Східна річка"
   components:
   - type: Sprite
     state: bluenew
@@ -295,7 +295,7 @@
 - type: entity
   parent: RMCAreaLv624Ground
   id: RMCAreaLv624GroundColony
-  name: Weston-Yamada Compound
+  name: "Комплекс Вестон-Ямада"
   components:
   - type: Sprite
     state: green
@@ -303,7 +303,7 @@
 - type: entity
   parent: RMCAreaLv624GroundColony
   id: RMCAreaLv624GroundColonyNorthNexusRoad
-  name: North Nexus Road
+  name: "Північна Нексус Роуд"
   components:
   - type: Sprite
     state: north
@@ -311,7 +311,7 @@
 - type: entity
   parent: RMCAreaLv624GroundColony
   id: RMCAreaLv624GroundColonySouthMedbayRoad
-  name: South Medbay Road
+  name: "Саут Медбей Роуд"
   components:
   - type: Sprite
     state: south
@@ -319,7 +319,7 @@
 - type: entity
   parent: RMCAreaLv624GroundColony
   id: RMCAreaLv624GroundColonySouthNexusRoad
-  name: South Nexus Road
+  name: "Південна Нексус Роуд"
   components:
   - type: Sprite
     state: south
@@ -327,7 +327,7 @@
 - type: entity
   parent: RMCAreaLv624GroundColony
   id: RMCAreaLv624GroundColonyWestNexusRoad
-  name: West Nexus Road
+  name: "Вест Нексус Роуд"
   components:
   - type: Sprite
     state: west
@@ -335,7 +335,7 @@
 - type: entity
   parent: RMCAreaLv624GroundColony
   id: RMCAreaLv624GroundColonyNorthTcommsRoad
-  name: North T-Comms Road
+  name: "Північна дорога T-Comms"
   components:
   - type: Sprite
     state: north
@@ -345,7 +345,7 @@
 - type: entity
   parent: RMCAreaLv624GroundColony
   id: RMCAreaLv624GroundColonyWestTcommsRoad
-  name: West T-Comms Road
+  name: "Західна T-Comms Road"
   components:
   - type: Sprite
     state: west
@@ -355,7 +355,7 @@
 - type: entity
   parent: RMCAreaLv624GroundColony
   id: RMCAreaLv624GroundColonyTelecomm
-  name: LZ1 Communications Relay
+  name: "LZ1 Комунікаційне реле"
   components:
   - type: Sprite
     state: ass_line
@@ -373,7 +373,7 @@
 - type: entity
   parent: RMCAreaLv624GroundColonyTelecomm
   id: RMCAreaLv624GroundColonyTelecommCargo
-  name: Far North Storage Dome Communications Relay
+  name: "Реле зв'язку купола сховища для зберігання на Крайній Півночі"
   components:
   - type: Area
     linkedLz: dropship_lz1
@@ -381,7 +381,7 @@
 - type: entity
   parent: RMCAreaLv624GroundColonyTelecomm
   id: RMCAreaLv624GroundColonyTelecommSwLz1
-  name: South-West LZ1 Communications Relay
+  name: "Південно-західне реле зв'язку LZ1"
   components:
   - type: Area
     CAS: true
@@ -397,12 +397,12 @@
 - type: entity
   parent: RMCAreaLv624GroundColonyTelecomm
   id: RMCAreaLv624GroundColonyTelecommTcommdome
-  name: Telecomms Dome Communications Relay
+  name: "Телекомунікаційне купольне реле зв'язку"
 
 - type: entity
   parent: RMCAreaLv624GroundColonyTelecommTcommdome
   id: RMCAreaLv624GroundColonyTelecommTcommdomeSouth
-  name: South Telecomms Dome Communications Relay
+  name: "Купольне комунікаційне реле South Telecomms"
   components:
   - type: Area
     CAS: true
@@ -417,7 +417,7 @@
 - type: entity
   parent: RMCAreaLv624GroundColonyTelecomm
   id: RMCAreaLv624GroundColonyTelecommSwLz2
-  name: South-West LZ2 Communications Relay
+  name: "Південно-західне реле зв'язку LZ2"
   components:
   - type: Area
     CAS: true
@@ -433,7 +433,7 @@
 - type: entity
   parent: RMCAreaLv624Ground
   id: RMCAreaLv624GroundCaves
-  name: Caves
+  name: "Печери"
   components:
   - type: Sprite
     state: cave
@@ -451,7 +451,7 @@
 - type: entity
   parent: RMCAreaLv624GroundCaves
   id: RMCAreaLv624GroundCavesWestCaves
-  name: Western Caves
+  name: "Західні печери"
   components:
   - type: Sprite
     state: away1
@@ -459,7 +459,7 @@
 - type: entity
   parent: RMCAreaLv624GroundCaves
   id: RMCAreaLv624GroundCavesSouthWestCaves
-  name: South Western Caves
+  name: "Південно-Західні печери"
   components:
   - type: Sprite
     state: red
@@ -467,7 +467,7 @@
 - type: entity
   parent: RMCAreaLv624GroundCaves
   id: RMCAreaLv624GroundCavesEastCaves
-  name: Eastern Caves
+  name: "Східні печери"
   components:
   - type: Sprite
     state: away
@@ -475,7 +475,7 @@
 - type: entity
   parent: RMCAreaLv624GroundCaves
   id: RMCAreaLv624GroundCavesCentralCaves
-  name: Central Caves
+  name: "Центральні печери"
   components:
   - type: Sprite
     state: away4
@@ -483,7 +483,7 @@
 - type: entity
   parent: RMCAreaLv624GroundCaves
   id: RMCAreaLv624GroundCavesNorthWestCaves
-  name: North Western Caves
+  name: "Північно-Західні печери"
   components:
   - type: Sprite
     state: cave
@@ -491,7 +491,7 @@
 - type: entity
   parent: RMCAreaLv624GroundCaves
   id: RMCAreaLv624GroundCavesNorthEastCaves
-  name: North Eastern Caves
+  name: "Північно-Східні печери"
   components:
   - type: Sprite
     state: cave
@@ -499,7 +499,7 @@
 - type: entity
   parent: RMCAreaLv624GroundCaves
   id: RMCAreaLv624GroundCavesNorthCentralCaves
-  name: North Central Caves
+  name: "Північні центральні печери"
   components:
   - type: Sprite
     state: away3
@@ -507,7 +507,7 @@
 - type: entity
   parent: RMCAreaLv624GroundCaves
   id: RMCAreaLv624GroundCavesSouthCentralCaves
-  name: South Central Caves
+  name: "Південно-Центральні печери"
   components:
   - type: Sprite
     state: away2
@@ -515,7 +515,7 @@
 - type: entity
   parent: RMCAreaLv624GroundCaves
   id: RMCAreaLv624GroundCavesSouthEastCaves
-  name: South East Caves
+  name: "Південно-Східні печери"
   components:
   - type: Sprite
     state: away2
@@ -523,7 +523,7 @@
 - type: entity
   parent: RMCAreaLv624GroundCaves
   id: RMCAreaLv624GroundCavesSandTemple
-  name: Sand Temple
+  name: "Піщаний храм"
   components:
   - type: Sprite
     state: bluenew
@@ -531,7 +531,7 @@
 - type: entity
   parent: RMCAreaLv624GroundCavesSandTemple
   id: RMCAreaLv624GroundCavesSandTemplePowered
-  name: Sand Temple - Powered
+  name: "Піщаний храм - з електроприводом"
   components:
   - type: Sprite
     state: green
@@ -539,7 +539,7 @@
 - type: entity
   parent: RMCAreaLv624
   id: RMCAreaLv624Lazarus
-  name: Lazarus
+  name: "Лазар"
   components:
   - type: Sprite
     state: green
@@ -571,7 +571,7 @@
 - type: entity
   parent: RMCAreaLv624LazarusLandingZones
   id: RMCAreaLv624LazarusLandingZonesLz1
-  name: Alamo Landing Zone
+  name: "Зона висадки Аламо"
   components:
   - type: Area
     linkedLz: dropship_lz1
@@ -579,7 +579,7 @@
 - type: entity
   parent: RMCAreaLv624LazarusLandingZones
   id: RMCAreaLv624LazarusLandingZonesLz2
-  name: Normandy Landing Zone
+  name: "Нормандська зона висадки"
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -587,7 +587,7 @@
 - type: entity
   parent: RMCAreaLv624Lazarus
   id: RMCAreaLv624LazarusCorporateDome
-  name: Corporate Dome
+  name: "Корпоративний купол"
   components:
   - type: Sprite
     state: green
@@ -597,7 +597,7 @@
 - type: entity
   parent: RMCAreaLv624Lazarus
   id: RMCAreaLv624LazarusYggdrasil
-  name: Yggdrasil Tree
+  name: "Дерево Іггдрасіль"
   components:
   - type: Sprite
     state: atmos
@@ -614,7 +614,7 @@
 - type: entity
   parent: RMCAreaLv624Lazarus
   id: RMCAreaLv624LazarusMedbay
-  name: Medbay
+  name: "Медблок"
   components:
   - type: Sprite
     state: medbay
@@ -624,7 +624,7 @@
 - type: entity
   parent: RMCAreaLv624Lazarus
   id: RMCAreaLv624LazarusArmory
-  name: Armory
+  name: "Зброя"
   components:
   - type: Sprite
     state: armory
@@ -634,7 +634,7 @@
 - type: entity
   parent: RMCAreaLv624Lazarus
   id: RMCAreaLv624LazarusSecurity
-  name: Security
+  name: "Безпека"
   components:
   - type: Sprite
     state: security
@@ -644,7 +644,7 @@
 - type: entity
   parent: RMCAreaLv624Lazarus
   id: RMCAreaLv624LazarusCaptain
-  name: Commandant's Quarters
+  name: "Комендатура"
   components:
   - type: Sprite
     state: captain
@@ -654,7 +654,7 @@
 - type: entity
   parent: RMCAreaLv624Lazarus
   id: RMCAreaLv624LazarusHop
-  name: Head of Personnel's Office
+  name: "Керівник відділу кадрів"
   components:
   - type: Sprite
     state: head_quarters
@@ -664,7 +664,7 @@
 - type: entity
   parent: RMCAreaLv624Lazarus
   id: RMCAreaLv624LazarusKitchen
-  name: Kitchen
+  name: "Кухня"
   components:
   - type: Sprite
     state: kitchen
@@ -674,7 +674,7 @@
 - type: entity
   parent: RMCAreaLv624Lazarus
   id: RMCAreaLv624LazarusCanteen
-  name: Canteen
+  name: "Їдальня"
   components:
   - type: Sprite
     state: cafeteria
@@ -684,7 +684,7 @@
 - type: entity
   parent: RMCAreaLv624Lazarus
   id: RMCAreaLv624LazarusMainHall
-  name: Main Hallway
+  name: "Головний коридор"
   components:
   - type: Sprite
     state: hallc1
@@ -694,7 +694,7 @@
 - type: entity
   parent: RMCAreaLv624Lazarus
   id: RMCAreaLv624LazarusToilet
-  name: Dormitory Toilet
+  name: "Туалет у гуртожитку"
   components:
   - type: Sprite
     state: toilet
@@ -702,7 +702,7 @@
 - type: entity
   parent: RMCAreaLv624Lazarus
   id: RMCAreaLv624LazarusChapel
-  name: Chapel
+  name: "Каплиця"
   components:
   - type: Sprite
     state: chapel
@@ -710,7 +710,7 @@
 - type: entity
   parent: RMCAreaLv624Lazarus
   id: RMCAreaLv624LazarusSleepMale
-  name: Male Dorm
+  name: "Чоловічий гуртожиток"
   components:
   - type: Sprite
     state: sleep
@@ -718,7 +718,7 @@
 - type: entity
   parent: RMCAreaLv624Lazarus
   id: RMCAreaLv624LazarusSleepFemale
-  name: Female Dorm
+  name: "Жіночий гуртожиток"
   components:
   - type: Sprite
     state: sleep
@@ -728,7 +728,7 @@
 - type: entity
   parent: RMCAreaLv624Lazarus
   id: RMCAreaLv624LazarusQuart
-  name: Quartermasters
+  name: "Квартирмейстери"
   components:
   - type: Sprite
     state: quart
@@ -738,7 +738,7 @@
 - type: entity
   parent: RMCAreaLv624Lazarus
   id: RMCAreaLv624LazarusQuartstorage
-  name: Cargo Bay
+  name: "Вантажний відсік"
   components:
   - type: Sprite
     state: quartstorage
@@ -748,7 +748,7 @@
 - type: entity
   parent: RMCAreaLv624LazarusQuartstorage
   id: RMCAreaLv624LazarusQuartstorageOutdoors
-  name: Cargo Bay Area
+  name: "Зона вантажного відсіку"
   components:
   - type: Sprite
     state: purple
@@ -766,7 +766,7 @@
 - type: entity
   parent: RMCAreaLv624Lazarus
   id: RMCAreaLv624LazarusEngineering
-  name: Engineering
+  name: "Інжиніринг"
   components:
   - type: Sprite
     state: engine_smes
@@ -776,7 +776,7 @@
 - type: entity
   parent: RMCAreaLv624Lazarus
   id: RMCAreaLv624LazarusComms
-  name: Communications Relay
+  name: "Реле зв'язку"
   components:
   - type: Sprite
     state: tcomsatcham
@@ -786,7 +786,7 @@
 - type: entity
   parent: RMCAreaLv624Lazarus
   id: RMCAreaLv624LazarusSecureStorage
-  name: Secure Storage
+  name: "Безпечне зберігання"
   components:
   - type: Sprite
     state: storage
@@ -799,7 +799,7 @@
 - type: entity
   parent: RMCAreaLv624Lazarus
   id: RMCAreaLv624LazarusRobotics
-  name: Robotics
+  name: "Робототехніка"
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas.rsi
@@ -810,7 +810,7 @@
 - type: entity
   parent: RMCAreaLv624Lazarus
   id: RMCAreaLv624LazarusResearch
-  name: Research Lab
+  name: "Дослідницька лабораторія"
   components:
   - type: Sprite
     state: toxlab
@@ -820,7 +820,7 @@
 - type: entity
   parent: RMCAreaLv624Lazarus
   id: RMCAreaLv624LazarusFitness
-  name: Fitness Room
+  name: "Фітнес-зал"
   components:
   - type: Sprite
     state: fitness
@@ -828,7 +828,7 @@
 - type: entity
   parent: RMCAreaLv624Lazarus
   id: RMCAreaLv624LazarusHydroponics
-  name: Hydroponics
+  name: "Гідропоніка"
   components:
   - type: Sprite
     state: hydro
@@ -849,7 +849,7 @@
 - type: entity
   parent: RMCAreaLv624Landing
   id: RMCAreaLv624LandingConsole
-  name: LZ1 'Nexus'
+  name: "LZ1 \"Нексус"
   components:
   - type: Sprite
     state: tcomsatcham
@@ -857,7 +857,7 @@
 - type: entity
   parent: RMCAreaLv624Landing
   id: RMCAreaLv624LandingConsole2
-  name: LZ2 'Robotics'
+  name: "LZ2 \"Робототехніка"
   components:
   - type: Sprite
     state: tcomsatcham
@@ -865,7 +865,7 @@
 - type: entity
   parent: RMCAreaLv624Lazarus
   id: RMCAreaLv624LazarusCrashedShip
-  name: Crashed Ship
+  name: "Розбитий корабель"
   components:
   - type: Sprite
     state: syndie-ship
@@ -873,7 +873,7 @@
 - type: entity
   parent: RMCAreaLv624Lazarus
   id: RMCAreaLv624LazarusCrashedShipContainers
-  name: Crashed Ship Containers
+  name: "Морські контейнери, що зазнали аварії"
   components:
   - type: Sprite
     state: syndie-ship

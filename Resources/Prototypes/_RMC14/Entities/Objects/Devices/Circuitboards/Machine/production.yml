@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBaseMachineCircuitboard
   id: CMSMESMachineCircuitboard
-  name: SMES machine board
-  description: A machine printed circuit board for a SMES.
+  name: "Машинна плата для малого та середнього бізнесу"
+  description: "Машинна друкована плата для малого та середнього бізнесу."
   components:
   - type: Sprite
     state: power_mod
@@ -17,8 +17,8 @@
 - type: entity
   parent: CMBaseMachineCircuitboard
   id: CMAutolatheMachineCircuitboard
-  name: autolathe machine board
-  description: A machine printed circuit board for an autolathe
+  name: "плата токарного верстата"
+  description: "Друкована плата для токарного верстата"
   components: # TODO RMC14 autolathe
     - type: MachineBoard
       prototype: RMCAutolatheEmpty
@@ -73,8 +73,8 @@
 - type: entity
   parent: CMBaseMachineCircuitboard
   id: CMCircuitboardDispenserChem
-  name: chem dispenser machine board
-  description: A machine printed circuit board for a chemical dispenser.
+  name: "плата машини для дозатора хімреагентів"
+  description: "Машинна друкована плата для дозатора хімікатів."
   components:
   - type: Sprite
     state: blank_mod
@@ -85,8 +85,8 @@
 - type: entity
   parent: CMBaseMachineCircuitboard
   id: CMCircuitboardDispenserBooze
-  name: booze dispenser machine board
-  description: A machine printed circuit board for a booze dispenser.
+  name: "плата машини для розливу напоїв"
+  description: "Машинна друкована плата для диспенсера для напоїв."
   components:
   - type: Sprite
     state: blank_mod
@@ -97,8 +97,8 @@
 - type: entity
   parent: CMBaseMachineCircuitboard
   id: CMCircuitboardDispenserSoda
-  name: soda dispenser machine board
-  description: A machine printed circuit board for a soda dispenser.
+  name: "плата дозатора содової машини"
+  description: "Машинна друкована плата для дозатора газованої води."
   components:
   - type: Sprite
     state: blank_mod
@@ -109,8 +109,8 @@
 - type: entity
   parent: CMBaseMachineCircuitboard
   id: CMCircuitboardChemMaster
-  name: chem master machine board
-  description: A machine printed circuit board for a chem master.
+  name: "плата машини chem master"
+  description: "Машинна друкована плата для магістра хімії."
   components:
   - type: Sprite
     state: blank_mod
@@ -121,8 +121,8 @@
 - type: entity
   parent: CMBaseMachineCircuitboard
   id: CMCircuitboardMicrowave
-  name: microwave machine board
-  description: A machine printed circuit board for a microwave.
+  name: "плата мікрохвильової печі"
+  description: "Машинна друкована плата для мікрохвильової печі."
   components:
   - type: Sprite
     state: blank_mod

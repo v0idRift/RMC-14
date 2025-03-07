@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem
   id: RMCIntelBase
-  name: intel item
+  name: "розвіддані"
   components:
   - type: Corrodible
     isCorrodible: false
@@ -24,8 +24,8 @@
 - type: entity
   parent: RMCIntelReadableBase
   id: RMCIntelPaperScrap
-  name: paper scrap
-  description: A scrap of paper, you think some of the words might still be readable.
+  name: "макулатура"
+  description: "Клаптик паперу, і ти думаєш, що деякі слова ще можна прочитати."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/paper.rsi
@@ -40,8 +40,8 @@
 - type: entity
   parent: RMCIntelReadableBase
   id: RMCIntelProgressReport
-  name: progress report
-  description: A written report from someone for their supervisor about the status of some kind of project.
+  name: "звіт про прогрес"
+  description: "Письмовий звіт когось для свого керівника про стан виконання якогось проекту."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/paper.rsi
@@ -58,8 +58,8 @@
 - type: entity
   parent: RMCIntelReadableBase
   id: RMCIntelFolder
-  name: intel folder
-  description: A folder with some documents inside.
+  name: "папка intel"
+  description: "Папка з документами всередині."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/paper.rsi
@@ -88,8 +88,8 @@
 - type: entity
   parent: RMCIntelReadableBase
   id: RMCIntelTechnicalManual
-  name: technical manual
-  description: A highly specified technical manual, may be of use to someone in the relevant field.
+  name: "технічний посібник"
+  description: "Технічний посібник з високим ступенем деталізації, який може бути корисним для тих, хто працює у відповідній галузі."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/books.rsi
@@ -128,8 +128,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCTechTreeConsole
-  name: tech tree console
-  description: A console used to make tech purchases.
+  name: "консоль технологічного дерева"
+  description: "Консоль, що використовується для купівлі техніки."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -150,8 +150,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCComputerIntel
-  name: intel computer
-  description: An UNMC Intel Computer for data cataloguing and distribution.
+  name: "інтелектуальний комп'ютер"
+  description: "Комп'ютер Intel для UNMC для каталогізації та розповсюдження даних."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -161,7 +161,7 @@
 
 - type: entity
   id: RMCIntelTechTree
-  name: intel tech tree
+  name: "технологічне дерево intel"
   categories: [ HideSpawnMenu ]
   components:
   - type: IntelTechTree

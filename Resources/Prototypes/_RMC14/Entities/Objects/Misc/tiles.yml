@@ -12,7 +12,7 @@
 - type: entity
   parent: CMTileItemBase
   id: CMTileItemSteel
-  name: metal floor
+  name: "металева підлога"
   components:
   - type: Sprite
     state: steel
@@ -28,7 +28,7 @@
 - type: entity
   parent: CMTileItemBase
   id: CMTileItemWood
-  name: wood floor
+  name: "дерев'яна підлога"
   components:
   - type: Sprite
     state: wood
@@ -43,12 +43,12 @@
 
 - type: stack
   id: RMCTileSteel
-  name: steel tile
+  name: "сталева черепиця"
   spawn: CMTileItemSteel
   maxCount: 60
 
 - type: stack
   id: RMCTileWood
-  name: steel tile
+  name: "сталева черепиця"
   spawn: CMTileItemWood
   maxCount: 60
